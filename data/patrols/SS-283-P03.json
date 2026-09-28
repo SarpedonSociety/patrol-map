@@ -17,6 +17,7 @@
  "end": "1943-10-13T19:00:00Z",
  "departure": null,
  "arrival": null,
+ "report_found": true,
  "summary": {
   "records": 19,
   "sightings": 3,
@@ -668,6 +669,7 @@
    "name": null,
    "result": "damaged",
    "tons": 9525,
+   "ships": 1,
    "basis": "claimed",
    "source": "Summary of submarine attacks, Attack 1, page 22",
    "flags": []
@@ -679,6 +681,7 @@
    "name": null,
    "result": "sunk",
    "tons": 10000,
+   "ships": 1,
    "basis": "claimed",
    "source": "Summary of submarine attacks, Attack 8, page 23. Recorded as '10000 plus same as 2'; attacks 2-7 claim damage to the same ship, counted once here as sunk.",
    "flags": []

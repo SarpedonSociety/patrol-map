@@ -227,7 +227,8 @@ def build_patrol(folder, ref):
     hull = meta["boat"]
     num = int(meta["patrol"])
     pid = f"{hull}-P{num:02d}"
-    year = int(meta["year"])
+    period_start = str((meta.get("period") or {}).get("start") or "")
+    year = int(meta.get("year") or period_start[:4] or 1942)
     hemi = meta.get("default_hemisphere") or {"lat": "N", "lon": "E"}
     boat = ref["boats"].get(hull, {})
     dep = meta.get("departure") or {}
@@ -403,6 +404,8 @@ def build_patrol(folder, ref):
         result = str(t.get("result") or "").lower()
         basis = str(t.get("basis") or "").lower()
         tons = as_int(str(t.get("tons") or ""))
+        # No ships key: one ship. A blank ships value: count not recorded (totals).
+        ships = as_int(str(t["ships"])) if t.get("ships") is not None else (None if "ships" in t else 1)
         flags = []
         if result not in ("sunk", "damaged"):
             flags.append(f"Result '{t.get('result')}' should be sunk or damaged.")
@@ -413,7 +416,7 @@ def build_patrol(folder, ref):
         utc = when(t.get("date"), t.get("time"), t.get("zone")) if t.get("date") else None
         tonnage.append({
             "id": f"{pid}-T{i:02d}", "utc": utc, "target": t.get("target"), "name": t.get("name"),
-            "result": result, "tons": tons, "basis": basis, "source": t.get("source"), "flags": flags,
+            "result": result, "tons": tons, "ships": ships, "basis": basis, "source": t.get("source"), "flags": flags,
         })
 
     torps = [r for r in records if r["kind"] == "torpedo"]
@@ -428,6 +431,15 @@ def build_patrol(folder, ref):
                    + sum(bool(e and e["flags"]) for e in (departure, arrival)),
     }
     times = [p["utc"] for p in track] + [r["utc"] for r in records if r["utc"]]
+    period = meta.get("period") or {}
+    for key in ("start", "end"):
+        if period.get(key):
+            m = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", str(period[key]))
+            if m:
+                times.append(f"{period[key]}T12:00:00Z")
+    for t in tonnage:
+        if t["utc"] is None and times:
+            t["utc"] = max(times)
     return {
         "id": pid, "boat": hull, "name": boat.get("name", hull), "class": boat.get("class"),
         "patrol": num, "year": year, "report": meta.get("report"),
@@ -437,6 +449,7 @@ def build_patrol(folder, ref):
         "miles_steamed": meta.get("miles_steamed"), "fuel_expended": meta.get("fuel_expended"),
         "start": min(times) if times else None, "end": max(times) if times else None,
         "departure": departure, "arrival": arrival,
+        "report_found": str(meta.get("report_found", "yes")).lower() not in ("no", "false"),
         "summary": summary, "track": track, "records": records, "tonnage": tonnage,
     }
 
@@ -449,6 +462,10 @@ def main(selected):
     (OUT / "patrols").mkdir(parents=True, exist_ok=True)
     for folder in folders:
         patrol = build_patrol(folder, ref)
+        if not patrol["start"]:
+            print(f"{patrol['id']}  skipped: no dates. Add period: {{start: YYYY-MM-DD, end: YYYY-MM-DD}} to patrol.yml")
+            (OUT / "patrols" / f"{patrol['id']}.json").unlink(missing_ok=True)
+            continue
         path = OUT / "patrols" / f"{patrol['id']}.json"
         path.write_text(json.dumps(patrol, indent=1, ensure_ascii=False), encoding="utf-8")
         s = patrol["summary"]

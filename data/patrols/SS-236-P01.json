@@ -29,6 +29,7 @@
   ]
  },
  "arrival": null,
+ "report_found": true,
  "summary": {
   "records": 28,
   "sightings": 19,

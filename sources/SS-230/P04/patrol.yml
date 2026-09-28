@@ -1,0 +1,21 @@
+# USS Finback (SS-230), War Patrol 4
+# No patrol report found yet. This file holds only the tonnage claimed,
+# so the scoreboard stays complete. The patrol draws nothing on the chart.
+
+boat: SS-230
+patrol: 4
+year:
+report_found: no
+report:
+commanding_officer:
+
+# Patrol dates, needed to place the tonnage on the timeline.
+# Fill in from the war history or another source (YYYY-MM-DD).
+period:
+  start:
+  end:
+  source:
+
+tonnage:
+  - { result: sunk, tons: 5336, ships: , basis: claimed, source: "Finback war history, Patrol 4 total" }
+  - { result: damaged, tons: 21860, ships: , basis: claimed, source: "Finback war history, Patrol 4 total" }

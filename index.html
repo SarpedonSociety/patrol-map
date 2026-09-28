@@ -464,15 +464,15 @@ aside.side {
   function renderBoard() {
     const boats = new Map();
     for (const p of on()) {
-      if (!boats.has(p.boat)) boats.set(p.boat, { boat: p.boat, name: p.name, sunk: 0, ships: 0, damaged: 0 });
+      if (!boats.has(p.boat)) boats.set(p.boat, { boat: p.boat, name: p.name, sunk: 0, ships: 0, damaged: 0, partial: false });
       const b = boats.get(p.boat);
       for (const t of p.tonnage || []) {
         if (t.basis !== basis || t.t > now || t.tons == null) continue;
-        if (t.result === "sunk") { b.sunk += t.tons; b.ships += 1; } else if (t.result === "damaged") b.damaged += t.tons;
+        if (t.result === "sunk") { b.sunk += t.tons; if (t.ships == null) b.partial = true; else b.ships += t.ships; } else if (t.result === "damaged") b.damaged += t.tons;
       }
     }
     const rows = [...boats.values()].sort((a, b) => b.sunk - a.sunk || b.damaged - a.damaged || a.name.localeCompare(b.name));
-    const key = basis + rows.map((r) => `${r.boat}:${r.sunk}:${r.damaged}`).join("|");
+    const key = basis + rows.map((r) => `${r.boat}:${r.sunk}:${r.damaged}:${r.ships}:${r.partial}`).join("|");
     if (key === lastBoard) return;
     lastBoard = key;
     const board = $("board");
@@ -495,7 +495,8 @@ aside.side {
       el.querySelector(".rank").textContent = i + 1;
       el.querySelector(".who").innerHTML = `${esc(r.name)} <small style="font-weight:500;color:var(--muted)">${esc(r.boat)}</small>`;
       el.querySelector(".tons").textContent = `${fmtTons(r.sunk)} t`;
-      el.querySelector(".sub").textContent = `${r.ships} ship${r.ships === 1 ? "" : "s"} sunk${r.damaged ? ` · ${fmtTons(r.damaged)} t damaged` : ""}`;
+      const shipText = r.partial ? (r.ships ? `${r.ships}+ ships sunk` : "ship count not recorded") : `${r.ships} ship${r.ships === 1 ? "" : "s"} sunk`;
+      el.querySelector(".sub").textContent = `${shipText}${r.damaged ? ` · ${fmtTons(r.damaged)} t damaged` : ""}`;
       el.querySelector(".bar span").style.width = (r.sunk / max) * 100 + "%";
     });
     board.querySelectorAll(".brow").forEach((el) => { if (!seen.has(el.dataset.boat)) el.remove(); });
@@ -511,7 +512,7 @@ aside.side {
       lab.innerHTML = `<input type="checkbox" id="pt-${p.id}" ${p.on ? "checked" : ""}>
         <span class="name">${p.name}<small>${p.boat} · Patrol ${p.patrol}</small></span>
         <span class="meta">${fmtDate(new Date(p.start))} – ${fmtDate(new Date(p.end))}<br>
-        ${s.torpedo_attacks} torpedo attacks · ${s.torpedoes_fired} torpedoes${s.gun_actions ? ` · ${s.gun_actions} gun action${s.gun_actions === 1 ? "" : "s"}` : ""}${s.aircraft ? ` · ${s.aircraft} aircraft` : ""}
+        ${p.report_found === false ? "No report found · tonnage only" : `${s.torpedo_attacks} torpedo attacks · ${s.torpedoes_fired} torpedoes`}${s.gun_actions ? ` · ${s.gun_actions} gun action${s.gun_actions === 1 ? "" : "s"}` : ""}${s.aircraft ? ` · ${s.aircraft} aircraft` : ""}
         ${s.flagged ? `<br><span class="chip">${s.flagged} to review</span>` : ""}</span>`;
       lab.querySelector("input").addEventListener("change", (e) => {
         p.on = e.target.checked; setRange(); fit(true); renderLog(); renderBoard();

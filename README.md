@@ -84,6 +84,12 @@ tonnage:
   The map never adds different bases together; when more than one is
   entered, a menu switches between them.
 - Without a date, the ship counts at the end of the patrol.
+- `ships` is the number of ships in the line (default 1). Leave it blank
+  for a patrol total where the count isn't recorded.
+- A patrol with no surviving report can still count: give its
+  `patrol.yml` `report_found: no`, a `period` with start and end dates,
+  and its tonnage. It appears on the scoreboard but draws nothing on the
+  chart (see `sources/SS-230/P02`).
 - Count each ship once. If several attacks claim the same ship, enter it
   at the attack that sank it.
 
