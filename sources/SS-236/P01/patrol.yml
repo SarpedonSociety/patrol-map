@@ -8,6 +8,22 @@ year: 1942
 report: "USS Silversides (SS-236) Report of First War Patrol"
 commanding_officer:
 
+# Archival citation, from the Fold3 "SOURCE INFORMATION" sheet that comes
+# with each downloaded page. Leave blank what isn't known.
+citation:
+  archive: NARA
+  record_group:          # e.g. 38
+  nara_catalog_id:       # e.g. 4697018
+  nara_catalog_title:
+  reel:                  # e.g. A106
+  micro_serial:          # e.g. 42971 (also stamped on the scan)
+  file:                  # e.g. A16-3(5)
+  serial:                # e.g. 01071
+  date:                  # e.g. 9/15/1942
+# Fold3 image number for each report page, so entries can link to their page.
+# Page number as used in contacts.md -> Fold3 image number.
+fold3_images: {}
+
 # Hemisphere applied when a position in the report has no N/S/E/W letter.
 default_hemisphere:
   lat: N

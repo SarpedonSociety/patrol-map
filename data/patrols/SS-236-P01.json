@@ -7,6 +7,10 @@
  "year": 1942,
  "report": "USS Silversides (SS-236) Report of First War Patrol",
  "commanding_officer": null,
+ "citation": {
+  "archive": "NARA"
+ },
+ "fold3_images": {},
  "miles_steamed": null,
  "fuel_expended": null,
  "start": "1942-04-30T12:00:00Z",

@@ -3,7 +3,14 @@
 Use this prompt for the first transcription pass. The output drops
 straight into `sources/<hull>/P<nn>/` with no reformatting.
 
-Paste everything between the lines, then attach the report pages.
+Paste everything between the lines, then attach the report PDF.
+
+**Long reports.** A whole report's tables can be more output than the
+chat window handles well. If the browser slows down or crashes, run the
+prompt twice on the same PDF: first add `Produce OUTPUT 1 only.` at the
+end, then start a new chat and add `Produce OUTPUT 2 only.` For very long
+reports, split OUTPUT 2 further with `Produce OUTPUT 2 only, for report
+pages 1-12.` and so on, then paste the pieces together in order.
 
 ---
 
@@ -11,7 +18,14 @@ You are transcribing a WWII U.S. submarine war patrol report for a
 research database. Accuracy is paramount. Never guess, correct, or
 normalize the source text.
 
-Produce TWO outputs.
+Produce TWO outputs, unless told below to produce only one.
+
+OUTPUT FORMAT
+Put each output inside its own fenced code block (```yaml for OUTPUT 1,
+```markdown for OUTPUT 2) so it appears as plain text with a copy button.
+Do not render the tables as formatted tables. Write nothing between or
+after the code blocks except one line listing anything you could not
+transcribe.
 
 OUTPUT 1 — patrol.yml
 Fill in this YAML from the report. Leave a value blank if the report
@@ -23,6 +37,17 @@ patrol:          # patrol number
 year:
 report:          # report title as typed
 commanding_officer:
+citation:        # from the Fold3 SOURCE INFORMATION sheets, if the PDF has them
+  archive:       # "Content Source", e.g. NARA
+  record_group:
+  nara_catalog_id:
+  nara_catalog_title:
+  reel:
+  micro_serial:  # "Micro Serial Number" of the report's first page
+  file:
+  serial:
+  date:
+fold3_images:    # report page number -> Fold3 image number, e.g. { 1: 267838530 }
 default_hemisphere: { lat: N, lon: E }
 departure: { port: , date: , time: , zone: , page: , flags: }
 arrival:   { port: , date: , time: , zone: , page: , flags: }
@@ -40,6 +65,14 @@ events:          # Part I narrative, plus Parts VI and VIII if they give positio
     page:
     flags:
 ```
+
+The PDF may include a Fold3 "SOURCE INFORMATION" sheet after each scanned
+page. Never transcribe these sheets as report content. Use them only to
+fill `citation` (from the first sheet belonging to the patrol report,
+not the endorsements) and `fold3_images`: the image number is the number
+in the sheet's Source URL (fold3.com/image/<number>/...), and it belongs
+to the scanned page just before the sheet. Key it by the page number
+typed on that report page; skip pages with no typed page number.
 
 Include a narrative entry in `events` if it states a position, a course
 change, a departure, an arrival or a rendezvous, or if it records an

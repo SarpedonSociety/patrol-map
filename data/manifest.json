@@ -31,6 +31,12 @@
    "zoom": 0
   },
   {
+   "name": "Ponape",
+   "lat": 6.96,
+   "lon": 158.21,
+   "zoom": 2
+  },
+  {
    "name": "Guam",
    "lat": 13.44,
    "lon": 144.79,
@@ -61,7 +67,7 @@
    "zoom": 4
   }
  ],
- "generated": "2026-09-28T16:41:09Z",
+ "generated": "2026-09-28T19:28:24Z",
  "patrols": [
   {
    "id": "SS-236-P01",

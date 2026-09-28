@@ -7,6 +7,10 @@
  "year": 1943,
  "report": "USS Tinosa (SS-283) Report of Third War Patrol",
  "commanding_officer": null,
+ "citation": {
+  "archive": "NARA"
+ },
+ "fold3_images": {},
  "miles_steamed": null,
  "fuel_expended": null,
  "start": "1943-09-29T00:49:00Z",

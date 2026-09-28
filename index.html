@@ -184,6 +184,7 @@ aside.side {
 .flags p { margin: 0 0 4px; font-weight: 700; }
 .flags ul { margin: 0; padding-left: 18px; }
 .source { font-size: 12px; color: var(--muted); margin: 10px 0 0; }
+.source a { color: var(--track); }
 
 @media (max-width: 860px) {
   .app {
@@ -465,6 +466,19 @@ aside.side {
     renderDetail(); renderLog(true); draw();
   }
 
+  function citeLine(r) {
+    const c = r.patrol.citation || {};
+    const parts = [];
+    if (c.archive || c.record_group) parts.push(`${c.archive || "NARA"}${c.record_group ? ", RG " + c.record_group : ""}`);
+    if (c.nara_catalog_id) parts.push("NAID " + c.nara_catalog_id);
+    if (c.reel) parts.push("reel " + c.reel);
+    if (c.micro_serial) parts.push("micro serial " + c.micro_serial);
+    const img = r.page && (r.patrol.fold3_images || {})[String(r.page)];
+    let out = parts.length ? " " + esc(parts.join(", ")) + "." : "";
+    if (img) out += ` <a href="https://www.fold3.com/image/${encodeURIComponent(img)}" target="_blank" rel="noopener">Fold3 image ${esc(img)}</a>.`;
+    return out;
+  }
+
   function esc(s) { return String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]); }
 
   function renderDetail() {
@@ -484,7 +498,7 @@ aside.side {
         <button class="close" aria-label="Close details">×</button></div>
       <dl class="kv">${rows.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
       ${r.flags && r.flags.length ? `<div class="flags"><p>To review</p><ul>${r.flags.map((f) => `<li>${esc(f)}</li>`).join("")}</ul></div>` : ""}
-      <p class="source">Source: ${esc(r.patrol.report || r.patrol.name)}. ${esc(src)}.</p>`;
+      <p class="source">Source: ${esc(r.patrol.report || r.patrol.name)}. ${esc(src)}.${citeLine(r)}</p>`;
     d.querySelector(".close").addEventListener("click", () => { selected = null; renderDetail(); renderLog(true); draw(); });
   }
 

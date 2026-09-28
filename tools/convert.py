@@ -403,6 +403,8 @@ def build_patrol(folder, ref):
         "id": pid, "boat": hull, "name": boat.get("name", hull), "class": boat.get("class"),
         "patrol": num, "year": year, "report": meta.get("report"),
         "commanding_officer": meta.get("commanding_officer"),
+        "citation": {k: v for k, v in (meta.get("citation") or {}).items() if v not in (None, "")},
+        "fold3_images": {str(k): str(v) for k, v in (meta.get("fold3_images") or {}).items() if v},
         "miles_steamed": meta.get("miles_steamed"), "fuel_expended": meta.get("fuel_expended"),
         "start": min(times) if times else None, "end": max(times) if times else None,
         "departure": departure, "arrival": arrival,
