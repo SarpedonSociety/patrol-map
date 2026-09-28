@@ -1,0 +1,35 @@
+# Reference data (not from patrol reports)
+
+boats:
+  SS-236:
+    name: Silversides
+    class: Gato
+    museum: "USS Silversides Submarine Museum, Muskegon, Michigan"
+  SS-283:
+    name: Tinosa
+    class: Gato
+    museum:
+
+# Port positions used to anchor the start and end of a track.
+# These are modern reference positions, marked "reference" on the map.
+ports:
+  Pearl Harbor: { lat: 21.35, lon: -157.95 }
+  Midway: { lat: 28.21, lon: -177.38 }
+  Fremantle: { lat: -32.05, lon: 115.74 }
+  Brisbane: { lat: -27.47, lon: 153.03 }
+  Majuro: { lat: 7.09, lon: 171.38 }
+  Guam: { lat: 13.44, lon: 144.66 }
+
+# Place names drawn on the map. zoom = how far in before the label shows
+# (0 = always).
+places:
+  - { name: Pearl Harbor, lat: 21.35, lon: -157.95, zoom: 0 }
+  - { name: Midway, lat: 28.21, lon: -177.38, zoom: 0 }
+  - { name: Tokyo, lat: 35.68, lon: 139.77, zoom: 0 }
+  - { name: Truk, lat: 7.42, lon: 151.78, zoom: 0 }
+  - { name: Wake, lat: 19.28, lon: 166.65, zoom: 0 }
+  - { name: Guam, lat: 13.44, lon: 144.79, zoom: 2 }
+  - { name: Hachijo Jima, lat: 33.1, lon: 139.8, zoom: 3 }
+  - { name: Shiono Misaki, lat: 33.43, lon: 135.76, zoom: 4 }
+  - { name: Ashizuri Saki, lat: 32.72, lon: 133.02, zoom: 4 }
+  - { name: Kobe, lat: 34.69, lon: 135.19, zoom: 4 }

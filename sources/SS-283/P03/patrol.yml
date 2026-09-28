@@ -1,0 +1,34 @@
+# Patrol metadata — USS Tinosa (SS-283), War Patrol 3
+# Leave a field blank rather than guess; the converter flags anything missing.
+
+boat: SS-283
+patrol: 3
+year: 1943
+report: "USS Tinosa (SS-283) Report of Third War Patrol"
+commanding_officer:
+
+default_hemisphere:
+  lat: N
+  lon: E
+
+departure:
+  port:
+  date:
+  time:
+  zone:
+  page:
+  flags: "Not yet transcribed. Add port, date and time from Part I."
+
+arrival:
+  port:
+  date:
+  time:
+  zone:
+  page:
+  flags: "Not yet transcribed. Add from Part I."
+
+miles_steamed:
+fuel_expended:
+
+# Part I narrative entries with positions, course changes or significant events.
+events: []

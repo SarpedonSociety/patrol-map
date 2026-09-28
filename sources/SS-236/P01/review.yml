@@ -1,0 +1,9 @@
+# Reviewer notes for contacts.md, keyed by table row (1 = first data row).
+# Delete a note once it's resolved against the report; the converter
+# shows these on the map until then.
+
+rows:
+  1: "Gun action: 164 rounds 3\"/50, 12 hits. Recorded in the torpedo column."
+  4: "Remarks: 'Explosion at 3'' is ambiguous (3 minutes?). Check against the report."
+  6: "'Medium Freighter' at 500 tons doesn't fit the category. Check whether the report says 5000."
+  25: "'TATEKAWA MARU 10, 100 gross' likely means 10,100 tons."

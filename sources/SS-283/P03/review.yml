@@ -1,0 +1,9 @@
+# Reviewer notes for contacts.md, keyed by entry number: entries are
+# counted through the whole file in order (ship contacts 1-3,
+# aircraft 4-11, attacks 12-19). Delete a note once it's resolved.
+
+rows:
+  4: "The page 18 note says 'First 3 contacts of 8', but all 8 aircraft contacts are transcribed. Confirm whether any run onto a later page."
+  12: "Tonnage 9525 here; contact 2 gives HUZISAN MARU as 9527 tons. Check which figure the report uses in each place."
+  15: "The report numbers this attack 3(b)."
+  19: "The only attack the report claims as a sinking (10000 plus, 'same as 2'). The sunk and damaged figures sit in opposite columns from attacks 3-7."

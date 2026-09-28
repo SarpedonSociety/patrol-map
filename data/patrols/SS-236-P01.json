@@ -1,0 +1,919 @@
+{
+ "id": "SS-236-P01",
+ "boat": "SS-236",
+ "name": "Silversides",
+ "class": "Gato",
+ "patrol": 1,
+ "year": 1942,
+ "report": "USS Silversides (SS-236) Report of First War Patrol",
+ "commanding_officer": null,
+ "miles_steamed": null,
+ "fuel_expended": null,
+ "start": "1942-04-30T12:00:00Z",
+ "end": "1942-06-10T20:27:00Z",
+ "departure": {
+  "label": "Departed",
+  "port": "Pearl Harbor",
+  "utc": "1942-04-30T12:00:00Z",
+  "local": "30APR",
+  "lat": 21.35,
+  "lon": -157.95,
+  "page": null,
+  "flags": [
+   "Date taken from the first narrative entry (30 Apr). Confirm departure date, time and zone from Part I.",
+   "Time not recorded; placed at noon."
+  ]
+ },
+ "arrival": null,
+ "summary": {
+  "records": 28,
+  "sightings": 19,
+  "aircraft": 0,
+  "torpedo_attacks": 7,
+  "torpedoes_fired": 13,
+  "gun_actions": 1,
+  "flagged": 8
+ },
+ "track": [
+  {
+   "lat": 21.35,
+   "lon": -157.95,
+   "utc": "1942-04-30T12:00:00Z",
+   "basis": "reference"
+  },
+  {
+   "lat": 33.23333,
+   "lon": 150.96667,
+   "utc": "1942-05-09T21:05:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C01"
+  },
+  {
+   "lat": 33.05,
+   "lon": 150.91667,
+   "utc": "1942-05-09T23:00:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C02"
+  },
+  {
+   "lat": 33.225,
+   "lon": 151.95833,
+   "utc": "1942-05-10T01:00:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-N01"
+  },
+  {
+   "lat": 33.33333,
+   "lon": 140.86667,
+   "utc": "1942-05-12T01:00:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C03"
+  },
+  {
+   "lat": 33.86667,
+   "lon": 137.15,
+   "utc": "1942-05-13T07:30:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C04"
+  },
+  {
+   "lat": 33.41667,
+   "lon": 135.41667,
+   "utc": "1942-05-15T07:35:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C05"
+  },
+  {
+   "lat": 33.45,
+   "lon": 135.63333,
+   "utc": "1942-05-16T06:30:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C06"
+  },
+  {
+   "lat": 33.43333,
+   "lon": 135.63333,
+   "utc": "1942-05-16T07:00:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C09"
+  },
+  {
+   "lat": 33.46667,
+   "lon": 135.55,
+   "utc": "1942-05-17T03:00:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C10"
+  },
+  {
+   "lat": 33.45,
+   "lon": 135.56667,
+   "utc": "1942-05-21T06:00:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C14"
+  },
+  {
+   "lat": 33.45,
+   "lon": 135.55,
+   "utc": "1942-05-21T08:00:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C15"
+  },
+  {
+   "lat": 33.48333,
+   "lon": 135.43333,
+   "utc": "1942-05-22T00:50:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C16"
+  },
+  {
+   "lat": 33.5,
+   "lon": 135.45,
+   "utc": "1942-05-22T02:15:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C17"
+  },
+  {
+   "lat": 33.55,
+   "lon": 135.71667,
+   "utc": "1942-05-26T03:00:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C19"
+  },
+  {
+   "lat": 33.21667,
+   "lon": 135.66667,
+   "utc": "1942-05-26T13:30:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C21"
+  },
+  {
+   "lat": 33.4,
+   "lon": 135.53333,
+   "utc": "1942-06-02T17:14:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C22"
+  },
+  {
+   "lat": 33.41667,
+   "lon": 135.53333,
+   "utc": "1942-06-03T01:00:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C23"
+  },
+  {
+   "lat": 33.41667,
+   "lon": 135.55,
+   "utc": "1942-06-03T04:55:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C24"
+  },
+  {
+   "lat": 33.43333,
+   "lon": 135.55,
+   "utc": "1942-06-03T05:50:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C25"
+  },
+  {
+   "lat": 33.7,
+   "lon": 133.16667,
+   "utc": "1942-06-09T01:27:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C26"
+  },
+  {
+   "lat": 33.41667,
+   "lon": 139.66667,
+   "utc": "1942-06-10T20:27:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P01-C27"
+  }
+ ],
+ "records": [
+  {
+   "id": "SS-236-P01-C01",
+   "source": "Contacts / attacks table",
+   "row": 1,
+   "kind": "gun",
+   "page": null,
+   "zone": "L",
+   "local": "0805 L 10MAY",
+   "utc": "1942-05-09T21:05:00Z",
+   "position_verbatim": "33-14 150-58",
+   "lat": 33.23333,
+   "lon": 150.96667,
+   "type": "Trawler",
+   "title": "Trawler",
+   "fields": {
+    "type": "Trawler",
+    "initial_range": "8000",
+    "course": "Various",
+    "speed": "10",
+    "description": "Similar to Nanyei Maru 350 tons",
+    "fired": "164 3\"/50",
+    "firing_range": "600-1200",
+    "hits": "12",
+    "remarks": "Set on fire Topside demolished"
+   },
+   "flags": [
+    "Review: Gun action: 164 rounds 3\"/50, 12 hits. Recorded in the torpedo column."
+   ]
+  },
+  {
+   "id": "SS-236-P01-C02",
+   "source": "Contacts / attacks table",
+   "row": 2,
+   "kind": "sighting",
+   "page": null,
+   "zone": "L",
+   "local": "1000 L 10MAY",
+   "utc": "1942-05-09T23:00:00Z",
+   "position_verbatim": "33-03 150-55",
+   "lat": 33.05,
+   "lon": 150.91667,
+   "type": "Medium Freighter",
+   "title": "Medium Freighter",
+   "fields": {
+    "type": "Medium Freighter",
+    "initial_range": "12000",
+    "course": "90",
+    "speed": "12",
+    "description": "Island type, about 6000 tons no war paint on upper works",
+    "remarks": "Turned away on seeing burning trawler"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-N01",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": null,
+   "zone": "L",
+   "local": "L 10MAY",
+   "utc": "1942-05-10T01:00:00Z",
+   "position_verbatim": "33-13-30N 151-57-30E",
+   "lat": 33.225,
+   "lon": 151.95833,
+   "type": "Narrative",
+   "title": "Burial at sea",
+   "fields": {
+    "event": "Burial at sea of Harbin."
+   },
+   "flags": [
+    "Date and time not yet transcribed; placed on 10 May, the day of the gun action. Position is about 1 degree east of the 0805L 10 May trawler position (150-58); check both against the report."
+   ]
+  },
+  {
+   "id": "SS-236-P01-C03",
+   "source": "Contacts / attacks table",
+   "row": 3,
+   "kind": "sighting",
+   "page": null,
+   "zone": "K",
+   "local": "1100 K 12MAY",
+   "utc": "1942-05-12T01:00:00Z",
+   "position_verbatim": "33-20-140-52",
+   "lat": 33.33333,
+   "lon": 140.86667,
+   "type": "Patrol Boat",
+   "title": "Patrol Boat",
+   "fields": {
+    "type": "Patrol Boat",
+    "initial_range": "9000",
+    "course": "0-180",
+    "speed": "8",
+    "description": "Similar to old sub chasers 2 high masts",
+    "remarks": "Patrolling off Hachijo Jima"
+   },
+   "flags": [
+    "Lat and long run together in the transcription (33-20-140-52); read as 33-20 / 140-52."
+   ]
+  },
+  {
+   "id": "SS-236-P01-C04",
+   "source": "Contacts / attacks table",
+   "row": 4,
+   "kind": "torpedo",
+   "page": null,
+   "zone": "I",
+   "local": "1630 I 13MAY",
+   "utc": "1942-05-13T07:30:00Z",
+   "position_verbatim": "33-52-137-09",
+   "lat": 33.86667,
+   "lon": 137.15,
+   "type": "Submarine",
+   "title": "Submarine",
+   "fields": {
+    "type": "Submarine",
+    "initial_range": "1000",
+    "course": "180",
+    "speed": "3",
+    "description": "Periscope sighted",
+    "fired": "1",
+    "depth": "40",
+    "track": "0",
+    "gyro": "180",
+    "firing_range": "3000",
+    "hits": "1",
+    "remarks": "Periscope disappeared after torp. explosion. Explosion at 3' felt thruout the ship."
+   },
+   "flags": [
+    "Review: Remarks: 'Explosion at 3'' is ambiguous (3 minutes?). Check against the report.",
+    "Lat and long run together in the transcription (33-52-137-09); read as 33-52 / 137-09.",
+    "Firing range (3000) is greater than initial range (1000)."
+   ]
+  },
+  {
+   "id": "SS-236-P01-C05",
+   "source": "Contacts / attacks table",
+   "row": 5,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "1635 I 15MAY",
+   "utc": "1942-05-15T07:35:00Z",
+   "position_verbatim": "33-25 135-25",
+   "lat": 33.41667,
+   "lon": 135.41667,
+   "type": "Small DD or Large PC",
+   "title": "Small DD or Large PC",
+   "fields": {
+    "type": "Small DD or Large PC",
+    "initial_range": "6500",
+    "course": "120",
+    "speed": "18",
+    "description": "Similar to Momo (DD) or Uji (PG) class",
+    "remarks": "Crossed our stern at about 20 knots range 6500"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C06",
+   "source": "Contacts / attacks table",
+   "row": 6,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "1530 I 16MAY",
+   "utc": "1942-05-16T06:30:00Z",
+   "position_verbatim": "33-27 135-38",
+   "lat": 33.45,
+   "lon": 135.63333,
+   "type": "Medium Freighter",
+   "title": "Medium Freighter",
+   "fields": {
+    "type": "Medium Freighter",
+    "initial_range": "11000",
+    "course": "110",
+    "speed": "10",
+    "description": "500 ton coal buring reciprocating engines",
+    "remarks": "Close in shore"
+   },
+   "flags": [
+    "Review: 'Medium Freighter' at 500 tons doesn't fit the category. Check whether the report says 5000."
+   ]
+  },
+  {
+   "id": "SS-236-P01-C07",
+   "source": "Contacts / attacks table",
+   "row": 7,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "1545 I 16MAY",
+   "utc": "1942-05-16T06:45:00Z",
+   "position_verbatim": "33-27 135-38",
+   "lat": 33.45,
+   "lon": 135.63333,
+   "type": "Small Freighter",
+   "title": "Small Freighter",
+   "fields": {
+    "type": "Small Freighter",
+    "initial_range": "11000",
+    "course": "110",
+    "speed": "10",
+    "description": "1000-1500 ton coastal freighter",
+    "remarks": "Close in shore"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C08",
+   "source": "Contacts / attacks table",
+   "row": 8,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "1600 I 16MAY",
+   "utc": "1942-05-16T07:00:00Z",
+   "position_verbatim": "33-27 135-38",
+   "lat": 33.45,
+   "lon": 135.63333,
+   "type": "Small Freighter",
+   "title": "Small Freighter",
+   "fields": {
+    "type": "Small Freighter",
+    "initial_range": "11000",
+    "course": "110",
+    "speed": "10",
+    "description": "1000-1500 ton coastal freighter",
+    "remarks": "close in shore"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C09",
+   "source": "Contacts / attacks table",
+   "row": 9,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "1600 I 16MAY",
+   "utc": "1942-05-16T07:00:00Z",
+   "position_verbatim": "33-26 135-38",
+   "lat": 33.43333,
+   "lon": 135.63333,
+   "type": "Patrol Boat",
+   "title": "Patrol Boat",
+   "fields": {
+    "type": "Patrol Boat",
+    "initial_range": "3000",
+    "course": "280",
+    "speed": "15",
+    "description": "Similar to our coastal mine sweeps #63 on the bow about 750 tons",
+    "remarks": "In area for next 2 days Had #63 on bow. Man of war flag."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C10",
+   "source": "Contacts / attacks table",
+   "row": 10,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "1200 I 17MAY",
+   "utc": "1942-05-17T03:00:00Z",
+   "position_verbatim": "33-28 135-33",
+   "lat": 33.46667,
+   "lon": 135.55,
+   "type": "Small Freighter",
+   "title": "Small Freighter",
+   "fields": {
+    "type": "Small Freighter",
+    "initial_range": "10000",
+    "course": "280",
+    "speed": "10",
+    "description": "1000-1500 ton coastal freighter, reciprocating engines",
+    "remarks": "close in shore"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C11",
+   "source": "Contacts / attacks table",
+   "row": 11,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "1210 I 17MAY",
+   "utc": "1942-05-17T03:10:00Z",
+   "position_verbatim": "33-28 135-33",
+   "lat": 33.46667,
+   "lon": 135.55,
+   "type": "Small Freighter",
+   "title": "Small Freighter",
+   "fields": {
+    "type": "Small Freighter",
+    "initial_range": "10000",
+    "course": "280",
+    "speed": "10",
+    "description": "1000-1500 ton coastal freighter, reciprocating engines",
+    "remarks": "close in shore started approach got caught in fish net"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C12",
+   "source": "Contacts / attacks table",
+   "row": 12,
+   "kind": "torpedo",
+   "page": null,
+   "zone": "I",
+   "local": "1723 I 17MAY",
+   "utc": "1942-05-17T08:23:00Z",
+   "position_verbatim": "33-28 135-33",
+   "lat": 33.46667,
+   "lon": 135.55,
+   "type": "Medium Freighter",
+   "title": "Medium Freighter",
+   "fields": {
+    "type": "Medium Freighter",
+    "initial_range": "8000",
+    "course": "115",
+    "speed": "8",
+    "description": "5000 ton island type freighter similar to TASAN MARU 5477 gross photo #36. Reciprocating engines. Flying call and merchant flag",
+    "fired": "3",
+    "depth": "15",
+    "track": "120s",
+    "gyro": "345",
+    "firing_range": "4300",
+    "hits": "2",
+    "remarks": "Ship blew up after heading for beach"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C13",
+   "source": "Contacts / attacks table",
+   "row": 13,
+   "kind": "torpedo",
+   "page": null,
+   "zone": "I",
+   "local": "1740 I 17MAY",
+   "utc": "1942-05-17T08:40:00Z",
+   "position_verbatim": "33-28 135-33",
+   "lat": 33.46667,
+   "lon": 135.55,
+   "type": "Large Freighter",
+   "title": "Large Freighter",
+   "fields": {
+    "type": "Large Freighter",
+    "initial_range": "7000",
+    "course": "120 then 80",
+    "speed": "15 then 7",
+    "description": "9000 ton freighter similar to ASOSAN MARU 8800 gross photo #263. Turbines. Flying call and merchant flag",
+    "fired": "2",
+    "depth": "15",
+    "track": "96s",
+    "gyro": "180",
+    "firing_range": "5000",
+    "hits": "2",
+    "remarks": "Went deep before hits seen. 4 explosions heard after torpedo exploded."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C14",
+   "source": "Contacts / attacks table",
+   "row": 14,
+   "kind": "torpedo",
+   "page": null,
+   "zone": "I",
+   "local": "1500 I 21MAY",
+   "utc": "1942-05-21T06:00:00Z",
+   "position_verbatim": "33-27 135-34",
+   "lat": 33.45,
+   "lon": 135.56667,
+   "type": "Medium Freighter",
+   "title": "Medium Freighter",
+   "fields": {
+    "type": "Medium Freighter",
+    "initial_range": "10000",
+    "course": "285",
+    "speed": "9",
+    "description": "About 5000 tons enrote to KOBE",
+    "fired": "2",
+    "depth": "20",
+    "track": "90s",
+    "gyro": "345",
+    "firing_range": "4000",
+    "hits": "0"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C15",
+   "source": "Contacts / attacks table",
+   "row": 15,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "1700 I 21MAY",
+   "utc": "1942-05-21T08:00:00Z",
+   "position_verbatim": "33-27 135-33",
+   "lat": 33.45,
+   "lon": 135.55,
+   "type": "Medium Freighter",
+   "title": "Medium Freighter",
+   "fields": {
+    "type": "Medium Freighter",
+    "initial_range": "8000",
+    "course": "120",
+    "speed": "12",
+    "description": "About 8000 tons. Angle on bow about 120 when sighted."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C16",
+   "source": "Contacts / attacks table",
+   "row": 16,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "0950 I 22MAY",
+   "utc": "1942-05-22T00:50:00Z",
+   "position_verbatim": "33-29 135-26",
+   "lat": 33.48333,
+   "lon": 135.43333,
+   "type": "Three Freighters",
+   "title": "Three Freighters",
+   "fields": {
+    "type": "Three Freighters",
+    "initial_range": "8000 to 10000",
+    "course": "120",
+    "speed": "10",
+    "description": "Masts and stacks only sighted",
+    "remarks": "Could not close range as ships were past when sighted."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C17",
+   "source": "Contacts / attacks table",
+   "row": 17,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "1115 I 22MAY",
+   "utc": "1942-05-22T02:15:00Z",
+   "position_verbatim": "33-30 135-27",
+   "lat": 33.5,
+   "lon": 135.45,
+   "type": "Patrol Vessel",
+   "title": "Patrol Vessel",
+   "fields": {
+    "type": "Patrol Vessel",
+    "initial_range": "5000",
+    "course": "120",
+    "speed": "10",
+    "description": "About 750 tons. Similar to coastal mine sweeps. #32 on bow",
+    "remarks": "Equipped with good sonic gear and depth charges"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C18",
+   "source": "Contacts / attacks table",
+   "row": 18,
+   "kind": "torpedo",
+   "page": null,
+   "zone": "I",
+   "local": "1143 I 22MAY",
+   "utc": "1942-05-22T02:43:00Z",
+   "position_verbatim": "33-30 135-27",
+   "lat": 33.5,
+   "lon": 135.45,
+   "type": "Nav.Aux Large Freighter",
+   "title": "Nav.Aux Large Freighter",
+   "fields": {
+    "type": "Nav.Aux Large Freighter",
+    "initial_range": "4000",
+    "course": "130",
+    "speed": "12",
+    "description": "Similar to PELIAS; 2 flying man of war flag. Dark war color. Simiar to KOSHIN MARU 9600 gross Photo #35 or KIMIKAWA MARU 6853 gross photo #62 - 65",
+    "fired": "2",
+    "depth": "20",
+    "track": "90s",
+    "gyro": "345",
+    "firing_range": "1500",
+    "hits": "2",
+    "remarks": "1st hit blew bow off. Last seen at 45 degree angle going down fast"
+   },
+   "flags": [
+    "No zone letter on this entry; zone I assumed from the previous entry."
+   ]
+  },
+  {
+   "id": "SS-236-P01-C19",
+   "source": "Contacts / attacks table",
+   "row": 19,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "1200 I 26MAY",
+   "utc": "1942-05-26T03:00:00Z",
+   "position_verbatim": "33-33 135-43",
+   "lat": 33.55,
+   "lon": 135.71667,
+   "type": "Patrol Vessel",
+   "title": "Patrol Vessel",
+   "fields": {
+    "type": "Patrol Vessel",
+    "initial_range": "4000",
+    "course": "90 and 270",
+    "speed": "8",
+    "description": "Similar to our PC boats one mast and stack",
+    "remarks": "Conducted search for us for 2 hrs"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C20",
+   "source": "Contacts / attacks table",
+   "row": 20,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "1330 I 26MAY",
+   "utc": "1942-05-26T04:30:00Z",
+   "position_verbatim": "33-33 135-43",
+   "lat": 33.55,
+   "lon": 135.71667,
+   "type": "Tanker",
+   "title": "Tanker",
+   "fields": {
+    "type": "Tanker",
+    "initial_range": "5000",
+    "course": "285",
+    "speed": "12",
+    "description": "Medium tanker in ballast enrote KOBE rounding SHIONO MISAKI",
+    "remarks": "Turned in shore just before we were about to fire"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C21",
+   "source": "Contacts / attacks table",
+   "row": 21,
+   "kind": "torpedo",
+   "page": null,
+   "zone": "I",
+   "local": "2230 I 26MAY",
+   "utc": "1942-05-26T13:30:00Z",
+   "position_verbatim": "33-13 135-40",
+   "lat": 33.21667,
+   "lon": 135.66667,
+   "type": "Trawler",
+   "title": "Trawler",
+   "fields": {
+    "type": "Trawler",
+    "initial_range": "5000",
+    "course": "270",
+    "speed": "10",
+    "description": "Large trawler at first thought to be small freighter",
+    "fired": "1",
+    "depth": "7",
+    "track": "90s",
+    "gyro": "0",
+    "firing_range": "1000",
+    "hits": "0",
+    "remarks": "Probably wooden hull. Running without lights"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C22",
+   "source": "Contacts / attacks table",
+   "row": 22,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "0214 I 3JUN",
+   "utc": "1942-06-02T17:14:00Z",
+   "position_verbatim": "33-24 135-32",
+   "lat": 33.4,
+   "lon": 135.53333,
+   "type": "Patrol vessel or Large Sampan",
+   "title": "Patrol vessel or Large Sampan",
+   "fields": {
+    "type": "Patrol vessel or Large Sampan",
+    "initial_range": "6000",
+    "course": "Various",
+    "speed": "12",
+    "description": "Sighted running lights of small ship in bright moonlight. Not over 500 tons at most",
+    "remarks": "Trailed us on surface 1/2 hr, Evaded at 18 knots"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C23",
+   "source": "Contacts / attacks table",
+   "row": 23,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "1000 I 3JUN",
+   "utc": "1942-06-03T01:00:00Z",
+   "position_verbatim": "33-25 135-32",
+   "lat": 33.41667,
+   "lon": 135.53333,
+   "type": "Patrol vessel",
+   "title": "Patrol vessel",
+   "fields": {
+    "type": "Patrol vessel",
+    "initial_range": "5000",
+    "course": "120",
+    "speed": "10",
+    "description": "Large sampan type 2 masts and stack. no number. about 350 tons",
+    "remarks": "Equipped with sonic gear and depth charges. Patrolling lanes."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C24",
+   "source": "Contacts / attacks table",
+   "row": 24,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "1355 I 3JUN",
+   "utc": "1942-06-03T04:55:00Z",
+   "position_verbatim": "33-25 135-33",
+   "lat": 33.41667,
+   "lon": 135.55,
+   "type": "Small Coastal Freighter",
+   "title": "Small Coastal Freighter",
+   "fields": {
+    "type": "Small Coastal Freighter",
+    "initial_range": "8000",
+    "course": "120",
+    "speed": "8",
+    "description": "Small, well deck; one stack, two masts, about 1500 tons, reciprocating engines",
+    "remarks": "Believed to be one who later depth charged us. Sighted masts of 3 other small steamers at this time range 12000"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C25",
+   "source": "Contacts / attacks table",
+   "row": 25,
+   "kind": "torpedo",
+   "page": null,
+   "zone": "I",
+   "local": "1450 I 3JUN",
+   "utc": "1942-06-03T05:50:00Z",
+   "position_verbatim": "33-26 135-33",
+   "lat": 33.43333,
+   "lon": 135.55,
+   "type": "Tanker",
+   "title": "Tanker",
+   "fields": {
+    "type": "Tanker",
+    "initial_range": "7500",
+    "course": "280",
+    "speed": "12",
+    "description": "Enroute to KOBE. Escoted by patrol boat. Similar to TATEKAWA MARU 10, 100 gross photo # S90",
+    "fired": "2",
+    "depth": "15",
+    "track": "102p",
+    "gyro": "352",
+    "firing_range": "2340",
+    "hits": "1",
+    "remarks": "Did not observe damage depth charge commenced"
+   },
+   "flags": [
+    "Review: 'TATEKAWA MARU 10, 100 gross' likely means 10,100 tons."
+   ]
+  },
+  {
+   "id": "SS-236-P01-C26",
+   "source": "Contacts / attacks table",
+   "row": 26,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "1027 I 9JUN",
+   "utc": "1942-06-09T01:27:00Z",
+   "position_verbatim": "33-42 133-10",
+   "lat": 33.7,
+   "lon": 133.16667,
+   "type": "Trawler",
+   "title": "Trawler",
+   "fields": {
+    "type": "Trawler",
+    "initial_range": "5000",
+    "course": "180",
+    "speed": "10",
+    "description": "Sampan type, 2 masts, 1 stack, about 400 tons",
+    "remarks": "Patrolling or trolling off ASHIZURI SAKI"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P01-C27",
+   "source": "Contacts / attacks table",
+   "row": 27,
+   "kind": "sighting",
+   "page": null,
+   "zone": "I",
+   "local": "0527 I 11JUN",
+   "utc": "1942-06-10T20:27:00Z",
+   "position_verbatim": "33-25 139-40",
+   "lat": 33.41667,
+   "lon": 139.66667,
+   "type": "Two small coastal freighters",
+   "title": "Two small coastal freighters",
+   "fields": {
+    "type": "Two small coastal freighters",
+    "initial_range": "1000",
+    "course": "0",
+    "speed": "10",
+    "description": "One stack, 2 masts. About 2000 tons",
+    "remarks": "On course toward TOKYO. Range and angle on bow too great for pursuit"
+   },
+   "flags": []
+  }
+ ]
+}

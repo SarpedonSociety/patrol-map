@@ -1,0 +1,47 @@
+# Patrol metadata — USS Silversides (SS-236), War Patrol 1
+# Fill in from the report. Leave a field blank rather than guess;
+# the converter flags anything missing.
+
+boat: SS-236
+patrol: 1
+year: 1942
+report: "USS Silversides (SS-236) Report of First War Patrol"
+commanding_officer:
+
+# Hemisphere applied when a position in the report has no N/S/E/W letter.
+default_hemisphere:
+  lat: N
+  lon: E
+
+# Departure and arrival. Port positions come from data/ports.yml.
+departure:
+  port: Pearl Harbor
+  date: 30APR
+  time:
+  zone:
+  page:
+  flags: "Date taken from the first narrative entry (30 Apr). Confirm departure date, time and zone from Part I."
+
+arrival:
+  port:
+  date:
+  time:
+  zone:
+  page:
+  flags: "Not yet transcribed. Add from Part I."
+
+miles_steamed:
+fuel_expended:
+
+# Narrative positions and events (Part I). Only entries that give a
+# position, or record a significant event, belong here.
+events:
+  - date: 10MAY
+    time:
+    zone: L
+    lat: 33-13-30N
+    lon: 151-57-30E
+    title: "Burial at sea"
+    event: "Burial at sea of Harbin."
+    page:
+    flags: "Date and time not yet transcribed; placed on 10 May, the day of the gun action. Position is about 1 degree east of the 0805L 10 May trawler position (150-58); check both against the report."

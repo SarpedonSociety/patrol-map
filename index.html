@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>COMSUBPAC Patrol Plot</title>
+<meta name="description" content="Animated plot of U.S. submarine war patrols in the Pacific, built from the patrol reports. The Sarpedon Society.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Public+Sans:wght@400;500;600;800&display=swap">
+<style>
+:root {
+  --sea: #eaf0ee;
+  --land: #dcd3bd;
+  --coast: #8a826c;
+  --grid: #cfd9d6;
+  --paper: #f6f7f3;
+  --ink: #1d282c;
+  --muted: #5b686b;
+  --rule: #cbd4d1;
+  --track: #2f4b5a;
+  --torpedo: #b3372b;
+  --gun: #b8700e;
+  --event: #2f6c55;
+  --sighting: #677a80;
+  --aircraft: #5162a8;
+  --flag: #8a5a00;
+  --flag-bg: #fbf0d6;
+  --focus: #2f4b5a;
+  --shadow: 0 1px 2px rgb(20 30 34 / .08);
+  --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --typed: "Courier Prime", "Courier New", Courier, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --sea: #0d1416; --land: #35322a; --coast: #7a705e; --grid: #1a2427;
+    --paper: #121a1c; --ink: #e3e0d7; --muted: #99a3a1; --rule: #283437;
+    --track: #9db6c2; --torpedo: #e36452; --gun: #e2a441; --event: #6db795;
+    --sighting: #8d9ca0; --aircraft: #9aa6e6; --flag: #f0c46c; --flag-bg: #2e2612; --focus: #9db6c2;
+    --shadow: none;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --sea: #0d1416; --land: #35322a; --coast: #7a705e; --grid: #1a2427;
+  --paper: #121a1c; --ink: #e3e0d7; --muted: #99a3a1; --rule: #283437;
+  --track: #9db6c2; --torpedo: #e36452; --gun: #e2a441; --event: #6db795;
+  --sighting: #8d9ca0; --aircraft: #9aa6e6; --flag: #f0c46c; --flag-bg: #2e2612; --focus: #9db6c2;
+  --shadow: none;
+}
+
+html, body { height: 100%; }
+body { margin: 0; }
+[hidden] { display: none !important; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 1.45;
+}
+button, select, input { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+.app {
+  height: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  grid-template-areas: "head side" "map side" "time side";
+}
+header.head {
+  grid-area: head;
+  display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  padding: 14px 20px 10px;
+  border-bottom: 1px solid var(--rule);
+}
+.head h1 { margin: 0; font-size: 19px; font-weight: 800; letter-spacing: -0.01em; text-wrap: balance; }
+.head .org { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+
+.map { grid-area: map; position: relative; background: var(--sea); overflow: hidden; min-height: 280px; }
+.map svg { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; }
+.map svg:active { cursor: grabbing; }
+.land { fill: var(--land); stroke: var(--coast); stroke-width: .6; vector-effect: non-scaling-stroke; }
+.graticule { fill: none; stroke: var(--grid); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.gridlabel { font: 10px var(--typed); fill: var(--muted); }
+.place { font: 600 10.5px var(--sans); fill: var(--muted); letter-spacing: .06em; text-transform: uppercase; paint-order: stroke; stroke: var(--sea); stroke-width: 3px; }
+.trackline.done { opacity: .45; }
+.trackline { fill: none; stroke: var(--track); stroke-width: 1.6; stroke-dasharray: 5 4; stroke-linecap: round; }
+.boat circle { fill: var(--paper); stroke: var(--track); stroke-width: 2; }
+.boat text { font: 700 9px var(--sans); fill: var(--track); text-anchor: middle; dominant-baseline: central; }
+.mark { cursor: pointer; }
+.mark .hit { fill: transparent; }
+.mark.sighting .dot { fill: var(--sea); stroke: var(--sighting); stroke-width: 1.6; }
+.mark.torpedo .dot { fill: var(--torpedo); stroke: var(--paper); stroke-width: 1.2; }
+.mark.gun .dot { fill: var(--gun); stroke: var(--paper); stroke-width: 1.2; }
+.mark.event .dot { fill: var(--event); stroke: var(--paper); stroke-width: 1.2; }
+.mark.aircraft .dot { fill: var(--sea); stroke: var(--aircraft); stroke-width: 1.6; }
+.mark.port .dot { fill: var(--paper); stroke: var(--track); stroke-width: 1.6; }
+.mark.selected .dot { stroke: var(--ink); stroke-width: 2.4; }
+.pulse { fill: none; stroke-width: 1.5; animation: pulse 1.6s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes pulse { from { opacity: .9; transform: scale(1); } to { opacity: 0; transform: scale(3.2); } }
+@media (prefers-reduced-motion: reduce) { .pulse { animation: none; opacity: .5; } }
+
+.zoom { position: absolute; right: 12px; top: 12px; display: flex; flex-direction: column; gap: 4px; }
+.zoom button {
+  width: 30px; height: 30px; border: 1px solid var(--rule); background: var(--paper); border-radius: 4px;
+  font-size: 16px; line-height: 1; cursor: pointer; box-shadow: var(--shadow);
+}
+.maploading { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); }
+
+.time {
+  grid-area: time;
+  display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 14px;
+  padding: 10px 20px 12px;
+  padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+  border-top: 1px solid var(--rule);
+}
+.play {
+  width: 40px; height: 40px; border-radius: 50%; border: 0; cursor: pointer;
+  background: var(--track); color: var(--paper); display: grid; place-items: center;
+}
+.play svg { width: 16px; height: 16px; fill: currentColor; }
+.scrub { display: grid; gap: 4px; min-width: 0; }
+.clock { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.clock .date { font-weight: 800; font-size: 16px; font-variant-numeric: tabular-nums; }
+.clock .gmt { font: 12px var(--typed); color: var(--muted); }
+.ticks { position: relative; height: 8px; margin: 0 7px; }
+.ticks span { position: absolute; top: 0; width: 2px; height: 8px; border-radius: 1px; transform: translateX(-1px); }
+input[type="range"] { width: 100%; margin: 0; accent-color: var(--track); }
+.speed { display: flex; flex-direction: column; gap: 2px; font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+.speed select { background: var(--paper); border: 1px solid var(--rule); border-radius: 4px; padding: 4px 6px; font-size: 13px; text-transform: none; letter-spacing: 0; color: var(--ink); }
+
+aside.side {
+  grid-area: side;
+  border-left: 1px solid var(--rule);
+  display: flex; flex-direction: column; min-height: 0;
+}
+.section { padding: 14px 18px; border-bottom: 1px solid var(--rule); }
+.eyebrow { font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+.patrols { display: grid; gap: 8px; }
+.patrol {
+  display: grid; grid-template-columns: auto 1fr; gap: 4px 10px; align-items: start;
+  padding: 10px 12px; border: 1px solid var(--rule); border-radius: 6px; cursor: pointer; background: var(--paper);
+}
+.patrol input { margin-top: 3px; accent-color: var(--track); }
+.patrol .name { font-weight: 700; }
+.patrol .name small { font-weight: 500; color: var(--muted); margin-left: 4px; }
+.patrol .meta { grid-column: 2; font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.chip { display: inline-block; font-size: 11px; font-weight: 600; padding: 1px 7px; border-radius: 999px; background: var(--flag-bg); color: var(--flag); }
+
+.legend { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 12px; font-size: 12.5px; }
+.legend div { display: flex; align-items: center; gap: 8px; }
+.legend svg { flex: none; }
+.note { font-size: 12px; color: var(--muted); margin: 10px 0 0; max-width: 60ch; }
+
+.log { flex: 1; min-height: 0; overflow: auto; padding: 6px 0; }
+.log-empty { padding: 14px 18px; color: var(--muted); }
+.entry {
+  display: grid; grid-template-columns: 10px 1fr; gap: 10px; width: 100%; text-align: left;
+  padding: 8px 18px; border: 0; background: none; cursor: pointer;
+}
+.entry:hover, .entry.selected { background: color-mix(in srgb, var(--track) 9%, transparent); }
+.entry .sw { width: 10px; height: 10px; border-radius: 50%; margin-top: 4px; }
+.entry .when { font: 12px var(--typed); color: var(--muted); }
+.entry .what { font-weight: 600; }
+.entry .flagdot { color: var(--flag); font-size: 11px; font-weight: 600; margin-left: 6px; }
+
+.detail {
+  position: absolute; left: 12px; bottom: 12px; width: min(380px, calc(100% - 24px)); max-height: calc(100% - 24px);
+  overflow: auto; padding: 14px 16px 16px; background: var(--paper); border: 1px solid var(--rule); border-radius: 8px;
+  box-shadow: 0 6px 24px rgb(20 30 34 / .16);
+}
+.detail[hidden] { display: none !important; }
+.detail-head { display: flex; justify-content: space-between; align-items: start; gap: 10px; }
+.detail h2 { margin: 0; font-size: 16px; font-weight: 800; text-wrap: balance; }
+.detail .close { border: 0; background: none; cursor: pointer; color: var(--muted); font-size: 18px; line-height: 1; padding: 2px 4px; }
+.detail .sub { font: 12.5px var(--typed); color: var(--muted); margin: 2px 0 10px; }
+.kv { display: grid; grid-template-columns: minmax(0, 10.5em) minmax(0, 1fr); gap: 4px 12px; margin: 0; font-size: 12.5px; }
+.kv dt { color: var(--muted); }
+.kv dd { margin: 0; font-family: var(--typed); overflow-wrap: anywhere; }
+.flags { margin: 12px 0 0; padding: 10px 12px; background: var(--flag-bg); color: var(--flag); border-radius: 6px; font-size: 12.5px; }
+.flags p { margin: 0 0 4px; font-weight: 700; }
+.flags ul { margin: 0; padding-left: 18px; }
+.source { font-size: 12px; color: var(--muted); margin: 10px 0 0; }
+
+@media (max-width: 860px) {
+  .app {
+    height: auto; min-height: 100%;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto 62vh auto auto;
+    grid-template-areas: "head" "map" "time" "side";
+  }
+  aside.side { border-left: 0; }
+  .log { max-height: 50vh; }
+  .time { grid-template-columns: auto minmax(0, 1fr); }
+  .speed { grid-column: 1 / -1; flex-direction: row; align-items: center; gap: 8px; }
+  header.head, .time { padding-left: 16px; padding-right: 16px; }
+  .section, .entry { padding-left: 16px; padding-right: 16px; }
+  .detail { max-height: 70%; }
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="head">
+    <h1>COMSUBPAC Patrol Plot</h1>
+    <span class="org">The Sarpedon Society</span>
+  </header>
+
+  <div class="map" id="map">
+    <svg id="svg" role="img" aria-label="Chart of the Pacific showing submarine patrol tracks, contacts and attacks"></svg>
+    <div class="zoom">
+      <button id="zin" aria-label="Zoom in">+</button>
+      <button id="zout" aria-label="Zoom out">−</button>
+      <button id="zfit" aria-label="Fit to patrols" title="Fit to patrols">⤢</button>
+    </div>
+    <div class="maploading" id="loading">Loading chart…</div>
+    <div class="detail" id="detail" hidden></div>
+  </div>
+
+  <div class="time">
+    <button class="play" id="play" aria-label="Play">
+      <svg viewBox="0 0 16 16" id="playicon"><path d="M4 2.5v11l9-5.5z"/></svg>
+    </button>
+    <div class="scrub">
+      <div class="clock"><span class="date" id="date">—</span><span class="gmt" id="gmt"></span></div>
+      <div class="ticks" id="ticks" aria-hidden="true"></div>
+      <input type="range" id="slider" min="0" max="1" step="1" value="1" aria-label="Date on the patrol timeline">
+    </div>
+    <label class="speed" for="speed">Speed
+      <select id="speed">
+        <option value="1">1 day / sec</option>
+        <option value="3" selected>3 days / sec</option>
+        <option value="7">1 week / sec</option>
+        <option value="30">1 month / sec</option>
+      </select>
+    </label>
+  </div>
+
+  <aside class="side">
+    <div class="section">
+      <p class="eyebrow">Patrols</p>
+      <div class="patrols" id="patrols"></div>
+    </div>
+    <div class="section">
+      <p class="eyebrow">Key</p>
+      <div class="legend">
+        <div><svg width="14" height="14"><circle cx="7" cy="7" r="5" fill="var(--torpedo)"/></svg>Torpedo attack</div>
+        <div><svg width="14" height="14"><rect x="2" y="2" width="10" height="10" fill="var(--gun)"/></svg>Gun action</div>
+        <div><svg width="14" height="14"><circle cx="7" cy="7" r="4.5" fill="var(--sea)" stroke="var(--sighting)" stroke-width="1.6"/></svg>Contact</div>
+        <div><svg width="14" height="14"><path d="M7 1.5 12.5 7 7 12.5 1.5 7z" fill="var(--event)"/></svg>Narrative event</div>
+        <div><svg width="14" height="14"><path d="M7 2 12 11.5H2z" fill="var(--sea)" stroke="var(--aircraft)" stroke-width="1.6"/></svg>Aircraft contact</div>
+        <div style="grid-column: 1 / -1"><svg width="30" height="10"><line x1="1" y1="5" x2="29" y2="5" stroke="var(--track)" stroke-width="1.6" stroke-dasharray="5 4"/></svg>Track between recorded positions</div>
+      </div>
+      <p class="note">Every point is a position recorded in the patrol report. The dashed track joins them in time order; the boat's actual path between them isn't recorded.</p>
+    </div>
+    <div class="log" id="log" aria-label="Patrol log"></div>
+  </aside>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson-client/3.1.0/topojson-client.min.js"></script>
+<script>
+(async function () {
+  const $ = (id) => document.getElementById(id);
+  const HOUR = 3600e3;
+  const LABELS = {
+    type: "Type", initial_range: "Initial range", course: "Est. course", speed: "Est. speed",
+    description: "Description", weapon: "Weapon", fired: "Fired", depth: "Depth set",
+    track: "Track angle", gyro: "Gyro angle", firing_range: "Firing range", hits: "Hits",
+    remarks: "Remarks", event: "Entry", altitude: "Altitude / distance",
+    sunk: "Claimed sunk (tons)", damaged: "Claimed damaged or probably sunk (tons)",
+    attack_type: "Periscope or radar", draft: "Est. target draft", tube: "Bow or stern",
+    interval: "Firing interval", spread: "Spread", performance: "Torpedo performance satisfactory",
+  };
+  const KIND = { torpedo: "Torpedo attack", gun: "Gun action", sighting: "Contact", aircraft: "Aircraft contact", event: "Narrative event" };
+  const fmtDate = d3.utcFormat("%-d %b %Y");
+  const fmtGmt = d3.utcFormat("%H%M GMT");
+
+  let manifest, land;
+  try {
+    [manifest, land] = await Promise.all([
+      fetch("data/manifest.json").then((r) => r.json()),
+      fetch("data/base/land-50m.json").then((r) => r.json()),
+    ]);
+  } catch (e) {
+    $("loading").textContent = "The chart data couldn't be loaded. Serve this folder from a web server (GitHub Pages or `python -m http.server`), not by opening the file directly.";
+    return;
+  }
+  const patrols = await Promise.all(manifest.patrols.map((p) => fetch("data/" + p.file).then((r) => r.json())));
+  $("loading").remove();
+  const PLACES = manifest.places || [];
+
+  patrols.forEach((p) => {
+    p.on = true;
+    p.pts = p.track.map((t) => ({ ...t, t: Date.parse(t.utc) }));
+    p.recs = p.records.filter((r) => r.utc && r.lat != null).map((r) => ({ ...r, t: Date.parse(r.utc), patrol: p }));
+    p.ports = [p.departure, p.arrival].filter((e) => e && e.lat != null && e.utc).map((e) => ({ ...e, t: Date.parse(e.utc), patrol: p }));
+  });
+
+  // ---------- map
+  const svg = d3.select("#svg");
+  const gBase = svg.append("g");
+  const gOver = svg.append("g");
+  const projection = d3.geoMercator().rotate([-175, 0]).precision(0.2);
+  const path = d3.geoPath(projection);
+  const landGeo = topojson.feature(land, land.objects.land);
+  gBase.append("path").attr("class", "graticule").datum(d3.geoGraticule().step([10, 10])());
+  gBase.append("path").attr("class", "land").datum(landGeo);
+  const zoom = d3.zoom().scaleExtent([1, 60]).on("zoom", (ev) => { tf = ev.transform; draw(); });
+  let tf = d3.zoomIdentity;
+  svg.call(zoom);
+
+  function fit(animate) {
+    const el = $("map");
+    const w = el.clientWidth, h = el.clientHeight;
+    svg.attr("viewBox", `0 0 ${w} ${h}`);
+    const all = patrols.filter((p) => p.on).flatMap((p) => p.pts.map((q) => [q.lon, q.lat]));
+    const pts = all.length ? all : [[140, 20], [-160, 35]];
+    projection.fitExtent([[40, 40], [w - 40, h - 40]], { type: "MultiPoint", coordinates: pts });
+    gBase.selectAll("path").attr("d", path);
+    (animate ? svg.transition().duration(500) : svg).call(zoom.transform, d3.zoomIdentity);
+    draw();
+  }
+  const px = (lon, lat) => { const p = projection([lon, lat]); return [tf.applyX(p[0]), tf.applyY(p[1])]; };
+
+  // ---------- time
+  const on = () => patrols.filter((p) => p.on);
+  let t0, t1, now;
+  function setRange() {
+    const ps = on().length ? on() : patrols;
+    t0 = d3.min(ps, (p) => Date.parse(p.start));
+    t1 = d3.max(ps, (p) => Date.parse(p.end));
+    const s = $("slider");
+    s.max = Math.round((t1 - t0) / HOUR);
+    now = Math.min(Math.max(now ?? t1, t0), t1);
+    s.value = Math.round((now - t0) / HOUR);
+    const ticks = $("ticks");
+    ticks.innerHTML = "";
+    ps.flatMap((p) => p.recs).filter((r) => r.kind !== "sighting").forEach((r) => {
+      const span = document.createElement("span");
+      span.style.left = ((r.t - t0) / (t1 - t0)) * 100 + "%";
+      span.style.background = `var(--${r.kind})`;
+      ticks.appendChild(span);
+    });
+  }
+
+  function boatAt(p, t) {
+    const pts = p.pts;
+    if (!pts.length || t < pts[0].t) return null;
+    let i = d3.bisector((d) => d.t).right(pts, t) - 1;
+    if (i >= pts.length - 1) return { lon: pts.at(-1).lon, lat: pts.at(-1).lat, i: pts.length - 1, f: 0, done: t > pts.at(-1).t + 24 * HOUR };
+    const a = pts[i], b = pts[i + 1];
+    const f = b.t === a.t ? 1 : (t - a.t) / (b.t - a.t);
+    let dl = b.lon - a.lon;
+    if (dl > 180) dl -= 360; else if (dl < -180) dl += 360;
+    return { lon: a.lon + dl * f, lat: a.lat + (b.lat - a.lat) * f, i, f };
+  }
+
+  // ---------- drawing
+  let selected = null;
+  const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function draw() {
+    gBase.attr("transform", tf);
+    gOver.selectAll("*").remove();
+    const k = tf.k;
+
+    PLACES.filter((pl) => k >= (pl.zoom || 0)).forEach((pl) => {
+      const [x, y] = px(pl.lon, pl.lat);
+      const flip = x > $("map").clientWidth - 110;
+      gOver.append("text").attr("class", "place").attr("x", flip ? x - 7 : x + 7).attr("y", y + 3)
+        .attr("text-anchor", flip ? "end" : "start").text(pl.name);
+    });
+
+    for (const p of on()) {
+      const b = boatAt(p, now);
+      if (b) {
+        const line = p.pts.slice(0, b.i + 1).map((q) => px(q.lon, q.lat));
+        line.push(px(b.lon, b.lat));
+        gOver.append("path").attr("class", "trackline" + (b.done ? " done" : "")).attr("d", d3.line()(line));
+      }
+      const visible = p.ports.concat(p.recs).filter((r) => r.t <= now);
+      for (const r of visible) {
+        const [x, y] = px(r.lon, r.lat);
+        const kind = r.kind || "port";
+        const g = gOver.append("g").attr("class", `mark ${kind}${selected === r ? " selected" : ""}`)
+          .attr("transform", `translate(${x},${y})`).attr("tabindex", 0).attr("role", "button")
+          .attr("aria-label", `${KIND[kind] || r.label + " " + r.port}, ${r.local}`);
+        const fresh = now - r.t < 36 * HOUR && ["torpedo", "gun", "event"].includes(kind);
+        if (fresh && !reduced) g.append("circle").attr("class", "pulse").attr("r", 6).attr("stroke", `var(--${kind})`);
+        g.append("circle").attr("class", "hit").attr("r", 11);
+        if (kind === "gun") g.append("rect").attr("class", "dot").attr("x", -5).attr("y", -5).attr("width", 10).attr("height", 10);
+        else if (kind === "aircraft") g.append("path").attr("class", "dot").attr("d", "M0 -5.5 5.5 4.5 -5.5 4.5z");
+        else if (kind === "event") g.append("path").attr("class", "dot").attr("d", "M0 -6.5 6.5 0 0 6.5 -6.5 0z");
+        else g.append("circle").attr("class", "dot").attr("r", kind === "torpedo" ? 5.5 : 4.5);
+        g.on("click", (ev) => { ev.stopPropagation(); select(r); })
+         .on("keydown", (ev) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(r); } });
+      }
+      if (b && !b.done) {
+        const [x, y] = px(b.lon, b.lat);
+        const g = gOver.append("g").attr("class", "boat").attr("transform", `translate(${x},${y})`);
+        g.append("circle").attr("r", 11);
+        g.append("text").text(p.boat.replace(/\D/g, ""));
+      }
+    }
+    $("date").textContent = fmtDate(new Date(now));
+    $("gmt").textContent = fmtGmt(new Date(now));
+  }
+
+  // ---------- side panel
+  function renderPatrols() {
+    const box = $("patrols");
+    box.innerHTML = "";
+    patrols.forEach((p) => {
+      const s = p.summary;
+      const lab = document.createElement("label");
+      lab.className = "patrol";
+      lab.innerHTML = `<input type="checkbox" id="pt-${p.id}" ${p.on ? "checked" : ""}>
+        <span class="name">${p.name}<small>${p.boat} · Patrol ${p.patrol}</small></span>
+        <span class="meta">${fmtDate(new Date(p.start))} – ${fmtDate(new Date(p.end))}<br>
+        ${s.torpedo_attacks} torpedo attacks · ${s.torpedoes_fired} torpedoes${s.gun_actions ? ` · ${s.gun_actions} gun action${s.gun_actions === 1 ? "" : "s"}` : ""}${s.aircraft ? ` · ${s.aircraft} aircraft` : ""}
+        ${s.flagged ? `<br><span class="chip">${s.flagged} to review</span>` : ""}</span>`;
+      lab.querySelector("input").addEventListener("change", (e) => {
+        p.on = e.target.checked; setRange(); fit(true); renderLog();
+      });
+      box.appendChild(lab);
+    });
+  }
+
+  let lastLogCount = -1;
+  function renderLog(force) {
+    const items = on().flatMap((p) => p.ports.concat(p.recs)).filter((r) => r.t <= now).sort((a, b) => b.t - a.t);
+    if (!force && items.length === lastLogCount) return;
+    lastLogCount = items.length;
+    const log = $("log");
+    log.innerHTML = items.length ? "" : `<div class="log-empty">No entries yet at this date.</div>`;
+    items.forEach((r) => {
+      const kind = r.kind || "port";
+      const b = document.createElement("button");
+      b.className = "entry" + (selected === r ? " selected" : "");
+      const color = kind === "port" ? "var(--track)" : `var(--${kind})`;
+      const title = kind === "port" ? `${r.label} ${r.port}` : (r.title || r.type || KIND[kind]);
+      b.innerHTML = `<span class="sw" style="background:${color}"></span>
+        <span><span class="when">${r.local || fmtDate(new Date(r.t))} · ${r.patrol.name}</span><br>
+        <span class="what">${esc(title)}</span>${r.flags && r.flags.length ? `<span class="flagdot">review</span>` : ""}</span>`;
+      b.addEventListener("click", () => select(r, true));
+      log.appendChild(b);
+    });
+  }
+
+  function select(r, center) {
+    selected = r;
+    if (center) {
+      const [x, y] = projection([r.lon, r.lat]);
+      const k = Math.max(tf.k, 4);
+      svg.transition().duration(500).call(zoom.transform,
+        d3.zoomIdentity.translate($("map").clientWidth / 2 - x * k, $("map").clientHeight / 2 - y * k).scale(k));
+    }
+    renderDetail(); renderLog(true); draw();
+  }
+
+  function esc(s) { return String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]); }
+
+  function renderDetail() {
+    const d = $("detail");
+    const r = selected;
+    if (!r) { d.hidden = true; return; }
+    d.hidden = false;
+    const kind = r.kind || "port";
+    const title = kind === "port" ? `${r.label} ${r.port}` : (r.title || r.type || KIND[kind]);
+    const rows = kind === "port" ? [["Position", "Reference position for the port"]] :
+      [["Position", `${r.position_verbatim || "—"}  (${r.lat.toFixed(3)}, ${r.lon.toFixed(3)})`]]
+        .concat(Object.entries(r.fields || {}).filter(([k]) => k !== "type").map(([k, v]) => [LABELS[k] || k, v]));
+    const src = kind === "port" ? "Departure / arrival, patrol.yml" :
+      `${r.source}${r.row ? `, entry ${r.row}` : ""}${r.page ? `, page ${r.page}` : ", page not recorded"}`;
+    d.innerHTML = `<div class="detail-head"><div><h2>${esc(title)}</h2>
+        <div class="sub">${esc(r.local)} · ${KIND[kind] || "Port"} · ${esc(r.patrol.name)} patrol ${r.patrol.patrol}</div></div>
+        <button class="close" aria-label="Close details">×</button></div>
+      <dl class="kv">${rows.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
+      ${r.flags && r.flags.length ? `<div class="flags"><p>To review</p><ul>${r.flags.map((f) => `<li>${esc(f)}</li>`).join("")}</ul></div>` : ""}
+      <p class="source">Source: ${esc(r.patrol.report || r.patrol.name)}. ${esc(src)}.</p>`;
+    d.querySelector(".close").addEventListener("click", () => { selected = null; renderDetail(); renderLog(true); draw(); });
+  }
+
+  // ---------- controls
+  let playing = false, last = 0;
+  const PLAY = "M4 2.5v11l9-5.5z", PAUSE = "M4 2.5h3v11H4zM9 2.5h3v11H9z";
+  function setPlaying(v) {
+    playing = v;
+    $("playicon").firstElementChild.setAttribute("d", v ? PAUSE : PLAY);
+    $("play").setAttribute("aria-label", v ? "Pause" : "Play");
+    if (v) { if (now >= t1) now = t0; last = performance.now(); requestAnimationFrame(tick); }
+  }
+  function tick(ts) {
+    if (!playing) return;
+    const days = +$("speed").value;
+    now = Math.min(t1, now + (ts - last) / 1000 * days * 24 * HOUR);
+    // Skip the stretches when no selected patrol is at sea.
+    const ps = on();
+    if (ps.length > 1 && !ps.some((p) => now >= Date.parse(p.start) && now <= Date.parse(p.end) + 2 * 24 * HOUR)) {
+      const next = ps.map((p) => Date.parse(p.start)).filter((t) => t > now).sort((a, b) => a - b)[0];
+      if (next) now = next;
+    }
+    last = ts;
+    $("slider").value = Math.round((now - t0) / HOUR);
+    draw(); renderLog();
+    if (now >= t1) setPlaying(false); else requestAnimationFrame(tick);
+  }
+  $("play").addEventListener("click", () => setPlaying(!playing));
+  $("slider").addEventListener("input", (e) => { now = t0 + e.target.value * HOUR; draw(); renderLog(); });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === " " && !["INPUT", "SELECT", "BUTTON"].includes(e.target.tagName) && !e.target.closest(".mark")) {
+      e.preventDefault(); setPlaying(!playing);
+    }
+  });
+  $("zin").addEventListener("click", () => svg.transition().duration(250).call(zoom.scaleBy, 1.8));
+  $("zout").addEventListener("click", () => svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.8));
+  $("zfit").addEventListener("click", () => fit(true));
+  new ResizeObserver(() => fit(false)).observe($("map"));
+
+  setRange();
+  renderPatrols();
+  fit(false);
+  renderLog(true);
+})();
+</script>
+</body>
+</html>
