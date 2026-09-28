@@ -261,10 +261,14 @@ aside.side {
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson-client/3.1.0/topojson-client.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
 <script>
 (async function () {
   const $ = (id) => document.getElementById(id);
+  if (typeof d3 === "undefined" || typeof topojson === "undefined") {
+    $("loading").textContent = "The map's drawing libraries didn't load. Check your connection and reload the page.";
+    return;
+  }
   const HOUR = 3600e3;
   const LABELS = {
     type: "Type", initial_range: "Initial range", course: "Est. course", speed: "Est. speed",
