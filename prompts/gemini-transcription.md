@@ -3,20 +3,31 @@
 Use this prompt for the first transcription pass. The output drops
 straight into `sources/<hull>/P<nn>/` with no reformatting.
 
-Paste everything between the lines, then attach the report PDF.
+**Which pages to give it.** Don't send the whole report. Build one PDF
+with only:
 
-**Long reports.** A whole report's tables can be more output than the
-chat window handles well. If the browser slows down or crashes, run the
-prompt twice on the same PDF: first add `Produce OUTPUT 1 only.` at the
-end, then start a new chat and add `Produce OUTPUT 2 only.` For very long
-reports, split OUTPUT 2 further with `Produce OUTPUT 2 only, for report
-pages 1-12.` and so on, then paste the pieces together in order.
+1. the first page of the COMSUBPAC endorsement (it carries the patrol
+   report number and the date),
+2. the narrative entries you've marked that give a position, a course
+   change, the departure or the arrival (the first and last narrative
+   entries usually hold departure and arrival),
+3. the ship contact, aircraft contact and attack tables.
+
+Keep each page's Fold3 source sheet with it.
+
+Paste everything between the lines, then attach that PDF.
+
+**If the chat still struggles.** Run the prompt twice on the same PDF:
+first add `Produce OUTPUT 1 only.` at the end, then in a new chat add
+`Produce OUTPUT 2 only.`
 
 ---
 
-You are transcribing a WWII U.S. submarine war patrol report for a
-research database. Accuracy is paramount. Never guess, correct, or
-normalize the source text.
+You are transcribing selected pages of a WWII U.S. submarine war patrol
+report for a research database. Accuracy is paramount. Never guess,
+correct, or normalize the source text. Transcribe only what is on the
+pages provided. The pages are a selection, so never infer what the
+missing pages might say.
 
 Produce TWO outputs, unless told below to produce only one.
 
@@ -28,14 +39,15 @@ after the code blocks except one line listing anything you could not
 transcribe.
 
 OUTPUT 1 — patrol.yml
-Fill in this YAML from the report. Leave a value blank if the report
-doesn't give it. Put anything uncertain in that entry's `flags`.
+Fill in this YAML from the pages provided. Leave a value blank if they
+don't give it. Put anything uncertain in that entry's `flags`.
 
 ```yaml
 boat:            # hull number, e.g. SS-236
 patrol:          # patrol number
 year:
 report:          # report title as typed
+comsubpac_report_no:  # "COMSUBPAC PATROL REPORT NO." on the endorsement, if given
 commanding_officer:
 citation:        # from the Fold3 SOURCE INFORMATION sheets, if the PDF has them
   archive:       # "Content Source", e.g. NARA
@@ -51,9 +63,7 @@ fold3_images:    # report page number -> Fold3 image number, e.g. { 1: 267838530
 default_hemisphere: { lat: N, lon: E }
 departure: { port: , date: , time: , zone: , page: , flags: }
 arrival:   { port: , date: , time: , zone: , page: , flags: }
-miles_steamed:   # Part XIII, verbatim
-fuel_expended:   # Part XIV, verbatim
-events:          # Part I narrative, plus Parts VI and VIII if they give positions
+events:          # every narrative entry provided
   - date:        # e.g. 10MAY
     time:        # e.g. 0805
     zone:        # zone letter only, e.g. L
@@ -74,9 +84,9 @@ in the sheet's Source URL (fold3.com/image/<number>/...), and it belongs
 to the scanned page just before the sheet. Key it by the page number
 typed on that report page; skip pages with no typed page number.
 
-Include a narrative entry in `events` if it states a position, a course
-change, a departure, an arrival or a rendezvous, or if it records an
-attack, casualty, burial or other significant event.
+Make one `events` entry for each narrative entry on the pages provided.
+Put the departure and arrival entries in `departure` and `arrival` as
+well.
 
 OUTPUT 2 — contacts.md
 Transcribe every table of ship contacts, aircraft contacts and attacks

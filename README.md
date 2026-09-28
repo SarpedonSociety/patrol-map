@@ -28,7 +28,10 @@ index.html                    The map
 
 ## Adding a patrol
 
-1. Run the report pages through Gemini with
+1. Build a PDF of the pages that matter: the first page of the COMSUBPAC
+   endorsement, the narrative entries with positions, course changes,
+   departure and arrival, and the contact and attack tables (keep each
+   page's Fold3 source sheet). Run it through Gemini with
    `prompts/gemini-transcription.md`. It returns a `patrol.yml` and a
    `contacts.md` with the report's tables.
 2. Save both in a new folder, e.g. `sources/SS-283/P03/`.
@@ -37,10 +40,12 @@ index.html                    The map
    `review.yml`.
 4. If the boat is new, add it to `boats` in `sources/reference.yml`. Add
    any new port to `ports`, and any place the map should label to `places`.
-5. Run `python tools/convert.py` (needs Python 3 and `pip install pyyaml`).
+5. Add the patrol's tonnage to the `tonnage` list in `patrol.yml` by hand
+   (see below).
+6. Run `python tools/convert.py` (needs Python 3 and `pip install pyyaml`).
    It prints a one-line summary per patrol, including how many entries
    are flagged.
-6. Commit `sources/` and `data/` together.
+7. Commit `sources/` and `data/` together.
 
 The converter reads every table in `contacts.md`, in whatever layout the
 report uses:
@@ -58,6 +63,28 @@ or `1855 10/3/43` (a table whose heading says GCT is read as GMT).
 In `review.yml`, entries are numbered through the whole of
 `contacts.md` in order, across all its tables. The map shows each
 entry's number in its source line.
+
+## Tonnage scoreboard
+
+The map ranks boats by tonnage sunk as of the date on the timeline, so
+they overtake one another as the war goes on. Each patrol's figures come
+from the `tonnage` list in its `patrol.yml`, one line per ship:
+
+```yaml
+tonnage:
+  - { date: 10/6/43, time: 0913, zone: Z, target: AO, result: sunk, tons: 10000,
+      basis: claimed, source: "Attack 8, page 23" }
+```
+
+- `result` is `sunk` or `damaged`. Damaged tonnage shows under the bar
+  but isn't ranked.
+- `basis` is `claimed` (the captain's claim in the report), `credited`
+  (COMSUBPAC's credit in the endorsement) or `postwar` (JANAC or later).
+  The map never adds different bases together; when more than one is
+  entered, a menu switches between them.
+- Without a date, the ship counts at the end of the patrol.
+- Count each ship once. If several attacks claim the same ship, enter it
+  at the attack that sank it.
 
 ## What gets flagged
 

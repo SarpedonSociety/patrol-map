@@ -46,5 +46,18 @@ arrival:
 miles_steamed:
 fuel_expended:
 
+# Tonnage for the scoreboard, entered by hand. One line per ship.
+#   result: sunk or damaged
+#   basis:  claimed  (the commanding officer's claim in the report)
+#           credited (COMSUBPAC's credit in the endorsement)
+#           postwar  (JANAC or later assessment)
+#   date/time/zone as typed; without a date the ship counts at the end
+#   of the patrol.
+tonnage:
+  - { date: 10/3/43, time: 1855, zone: Z, target: AO, result: damaged, tons: 9525, basis: claimed,
+      source: "Summary of submarine attacks, Attack 1, page 22" }
+  - { date: 10/6/43, time: 0913, zone: Z, target: AO, result: sunk, tons: 10000, basis: claimed,
+      source: "Summary of submarine attacks, Attack 8, page 23. Recorded as '10000 plus same as 2'; attacks 2-7 claim damage to the same ship, counted once here as sunk." }
+
 # Part I narrative entries with positions, course changes or significant events.
 events: []

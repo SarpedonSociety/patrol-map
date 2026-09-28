@@ -49,6 +49,15 @@ arrival:
 miles_steamed:
 fuel_expended:
 
+# Tonnage for the scoreboard, entered by hand. One line per ship.
+#   result: sunk or damaged
+#   basis:  claimed  (the commanding officer's claim in the report)
+#           credited (COMSUBPAC's credit in the endorsement)
+#           postwar  (JANAC or later assessment)
+#   date/time/zone as typed; without a date the ship counts at the end
+#   of the patrol.
+tonnage: []
+
 # Narrative positions and events (Part I). Only entries that give a
 # position, or record a significant event, belong here.
 events:

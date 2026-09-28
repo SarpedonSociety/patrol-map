@@ -659,5 +659,29 @@
    },
    "flags": []
   }
+ ],
+ "tonnage": [
+  {
+   "id": "SS-283-P03-T01",
+   "utc": "1943-10-03T18:55:00Z",
+   "target": "AO",
+   "name": null,
+   "result": "damaged",
+   "tons": 9525,
+   "basis": "claimed",
+   "source": "Summary of submarine attacks, Attack 1, page 22",
+   "flags": []
+  },
+  {
+   "id": "SS-283-P03-T02",
+   "utc": "1943-10-06T09:13:00Z",
+   "target": "AO",
+   "name": null,
+   "result": "sunk",
+   "tons": 10000,
+   "basis": "claimed",
+   "source": "Summary of submarine attacks, Attack 8, page 23. Recorded as '10000 plus same as 2'; attacks 2-7 claim damage to the same ship, counted once here as sunk.",
+   "flags": []
+  }
  ]
 }

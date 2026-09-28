@@ -207,8 +207,18 @@ def as_int(text):
 
 # ---------------------------------------------------------------- building
 
+def blanks_to_none(value):
+    if isinstance(value, dict):
+        return {k: blanks_to_none(v) for k, v in value.items()}
+    if isinstance(value, list):
+        return [blanks_to_none(v) for v in value]
+    return None if value == "" else value
+
+
 def build_patrol(folder, ref):
-    meta = yaml.safe_load((folder / "patrol.yml").read_text(encoding="utf-8"))
+    # BaseLoader keeps every value as typed text, so a time like 0700 isn't
+    # read as an octal number.
+    meta = blanks_to_none(yaml.load((folder / "patrol.yml").read_text(encoding="utf-8"), Loader=yaml.BaseLoader))
     review = {}
     if (folder / "review.yml").exists():
         review = yaml.safe_load((folder / "review.yml").read_text(encoding="utf-8")) or {}
@@ -387,6 +397,25 @@ def build_patrol(folder, ref):
     if arrival and arrival["lat"] is not None and arrival["utc"]:
         track.append({"lat": arrival["lat"], "lon": arrival["lon"], "utc": arrival["utc"], "basis": "reference"})
 
+    # Tonnage for the scoreboard
+    tonnage = []
+    for i, t in enumerate(meta.get("tonnage") or [], start=1):
+        result = str(t.get("result") or "").lower()
+        basis = str(t.get("basis") or "").lower()
+        tons = as_int(str(t.get("tons") or ""))
+        flags = []
+        if result not in ("sunk", "damaged"):
+            flags.append(f"Result '{t.get('result')}' should be sunk or damaged.")
+        if basis not in ("claimed", "credited", "postwar"):
+            flags.append(f"Basis '{t.get('basis')}' should be claimed, credited or postwar.")
+        if tons is None:
+            flags.append("No tonnage figure.")
+        utc = when(t.get("date"), t.get("time"), t.get("zone")) if t.get("date") else None
+        tonnage.append({
+            "id": f"{pid}-T{i:02d}", "utc": utc, "target": t.get("target"), "name": t.get("name"),
+            "result": result, "tons": tons, "basis": basis, "source": t.get("source"), "flags": flags,
+        })
+
     torps = [r for r in records if r["kind"] == "torpedo"]
     summary = {
         "records": len(records),
@@ -408,7 +437,7 @@ def build_patrol(folder, ref):
         "miles_steamed": meta.get("miles_steamed"), "fuel_expended": meta.get("fuel_expended"),
         "start": min(times) if times else None, "end": max(times) if times else None,
         "departure": departure, "arrival": arrival,
-        "summary": summary, "track": track, "records": records,
+        "summary": summary, "track": track, "records": records, "tonnage": tonnage,
     }
 
 

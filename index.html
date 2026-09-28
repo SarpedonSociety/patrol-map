@@ -150,6 +150,24 @@ aside.side {
 .patrol .meta { grid-column: 2; font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .chip { display: inline-block; font-size: 11px; font-weight: 600; padding: 1px 7px; border-radius: 999px; background: var(--flag-bg); color: var(--flag); }
 
+.board-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 8px; }
+.board-head .eyebrow { margin: 0; }
+.board-head select { background: var(--paper); border: 1px solid var(--rule); border-radius: 4px; padding: 2px 4px; font-size: 12px; color: var(--ink); }
+.board { position: relative; }
+.brow {
+  position: absolute; left: 0; right: 0; height: 48px;
+  display: grid; grid-template-columns: 16px minmax(0, 1fr) auto; align-items: center; gap: 2px 8px;
+  transition: transform .5s ease;
+}
+@media (prefers-reduced-motion: reduce) { .brow { transition: none; } }
+.brow .rank { font: 12px var(--typed); color: var(--muted); text-align: right; }
+.brow .who { font-weight: 700; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.brow .tons { font-size: 12.5px; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.brow .tons small { color: var(--muted); }
+.brow .sub { grid-column: 2 / 4; font-size: 11.5px; color: var(--muted); }
+.brow .bar { grid-column: 2 / 4; height: 5px; border-radius: 3px; background: var(--rule); overflow: hidden; }
+.brow .bar span { display: block; height: 100%; background: var(--torpedo); border-radius: 3px; transition: width .5s ease; }
+.board-empty { color: var(--muted); font-size: 12.5px; }
 .legend { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 12px; font-size: 12.5px; }
 .legend div { display: flex; align-items: center; gap: 8px; }
 .legend svg { flex: none; }
@@ -244,6 +262,14 @@ aside.side {
     <div class="section">
       <p class="eyebrow">Patrols</p>
       <div class="patrols" id="patrols"></div>
+    </div>
+    <div class="section">
+      <div class="board-head">
+        <p class="eyebrow">Tonnage sunk</p>
+        <select id="basis" aria-label="Which tonnage figures to count" hidden></select>
+      </div>
+      <div class="board" id="board"></div>
+      <p class="note" id="boardnote"></p>
     </div>
     <div class="section">
       <p class="eyebrow">Key</p>
@@ -415,6 +441,66 @@ aside.side {
   }
 
   // ---------- side panel
+  // ---------- tonnage scoreboard
+  const BASIS = { claimed: "Claimed in report", credited: "COMSUBPAC credit", postwar: "Postwar assessment" };
+  const NOTE = {
+    claimed: "Tonnage as the commanding officer claimed it in the patrol report. Wartime claims often ran well above postwar assessments.",
+    credited: "Tonnage as COMSUBPAC credited it in the endorsement. Wartime credits often ran well above postwar assessments.",
+    postwar: "Tonnage from postwar assessments (JANAC or later).",
+  };
+  patrols.forEach((p) => (p.tonnage || []).forEach((t) => {
+    t.t = t.utc ? Date.parse(t.utc) : Date.parse(p.end);
+  }));
+  const bases = Object.keys(BASIS).filter((b) => patrols.some((p) => (p.tonnage || []).some((t) => t.basis === b)));
+  let basis = bases.includes("credited") ? "credited" : bases[0] || "claimed";
+  if (bases.length > 1) {
+    const sel = $("basis");
+    sel.hidden = false;
+    sel.innerHTML = bases.map((b) => `<option value="${b}"${b === basis ? " selected" : ""}>${BASIS[b]}</option>`).join("");
+    sel.addEventListener("change", () => { basis = sel.value; lastBoard = ""; renderBoard(); });
+  }
+  const fmtTons = d3.format(",");
+  let lastBoard = "";
+  function renderBoard() {
+    const boats = new Map();
+    for (const p of on()) {
+      if (!boats.has(p.boat)) boats.set(p.boat, { boat: p.boat, name: p.name, sunk: 0, ships: 0, damaged: 0 });
+      const b = boats.get(p.boat);
+      for (const t of p.tonnage || []) {
+        if (t.basis !== basis || t.t > now || t.tons == null) continue;
+        if (t.result === "sunk") { b.sunk += t.tons; b.ships += 1; } else if (t.result === "damaged") b.damaged += t.tons;
+      }
+    }
+    const rows = [...boats.values()].sort((a, b) => b.sunk - a.sunk || b.damaged - a.damaged || a.name.localeCompare(b.name));
+    const key = basis + rows.map((r) => `${r.boat}:${r.sunk}:${r.damaged}`).join("|");
+    if (key === lastBoard) return;
+    lastBoard = key;
+    const board = $("board");
+    $("boardnote").textContent = bases.length ? NOTE[basis] : "No tonnage entered yet. Add a tonnage list to a patrol's patrol.yml.";
+    if (!rows.length) { board.style.height = "auto"; board.innerHTML = `<p class="board-empty">No patrols selected.</p>`; return; }
+    const max = Math.max(1, ...rows.map((r) => r.sunk));
+    board.style.height = rows.length * 52 + "px";
+    const seen = new Set();
+    rows.forEach((r, i) => {
+      let el = board.querySelector(`[data-boat="${r.boat}"]`);
+      if (!el) {
+        el = document.createElement("div");
+        el.className = "brow"; el.dataset.boat = r.boat;
+        el.innerHTML = `<span class="rank"></span><span class="who"></span><span class="tons"></span><span class="bar"><span></span></span><span class="sub"></span>`;
+        el.style.transform = `translateY(${i * 52}px)`;
+        board.appendChild(el);
+      }
+      seen.add(r.boat);
+      el.style.transform = `translateY(${i * 52}px)`;
+      el.querySelector(".rank").textContent = i + 1;
+      el.querySelector(".who").innerHTML = `${esc(r.name)} <small style="font-weight:500;color:var(--muted)">${esc(r.boat)}</small>`;
+      el.querySelector(".tons").textContent = `${fmtTons(r.sunk)} t`;
+      el.querySelector(".sub").textContent = `${r.ships} ship${r.ships === 1 ? "" : "s"} sunk${r.damaged ? ` · ${fmtTons(r.damaged)} t damaged` : ""}`;
+      el.querySelector(".bar span").style.width = (r.sunk / max) * 100 + "%";
+    });
+    board.querySelectorAll(".brow").forEach((el) => { if (!seen.has(el.dataset.boat)) el.remove(); });
+  }
+
   function renderPatrols() {
     const box = $("patrols");
     box.innerHTML = "";
@@ -428,7 +514,7 @@ aside.side {
         ${s.torpedo_attacks} torpedo attacks · ${s.torpedoes_fired} torpedoes${s.gun_actions ? ` · ${s.gun_actions} gun action${s.gun_actions === 1 ? "" : "s"}` : ""}${s.aircraft ? ` · ${s.aircraft} aircraft` : ""}
         ${s.flagged ? `<br><span class="chip">${s.flagged} to review</span>` : ""}</span>`;
       lab.querySelector("input").addEventListener("change", (e) => {
-        p.on = e.target.checked; setRange(); fit(true); renderLog();
+        p.on = e.target.checked; setRange(); fit(true); renderLog(); renderBoard();
       });
       box.appendChild(lab);
     });
@@ -523,11 +609,11 @@ aside.side {
     }
     last = ts;
     $("slider").value = Math.round((now - t0) / HOUR);
-    draw(); renderLog();
+    draw(); renderLog(); renderBoard();
     if (now >= t1) setPlaying(false); else requestAnimationFrame(tick);
   }
   $("play").addEventListener("click", () => setPlaying(!playing));
-  $("slider").addEventListener("input", (e) => { now = t0 + e.target.value * HOUR; draw(); renderLog(); });
+  $("slider").addEventListener("input", (e) => { now = t0 + e.target.value * HOUR; draw(); renderLog(); renderBoard(); });
   document.addEventListener("keydown", (e) => {
     if (e.key === " " && !["INPUT", "SELECT", "BUTTON"].includes(e.target.tagName) && !e.target.closest(".mark")) {
       e.preventDefault(); setPlaying(!playing);
@@ -542,6 +628,7 @@ aside.side {
   renderPatrols();
   fit(false);
   renderLog(true);
+  renderBoard();
 })();
 </script>
 </body>
