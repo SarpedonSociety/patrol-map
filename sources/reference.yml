@@ -1,6 +1,11 @@
 # Reference data (not from patrol reports)
 
 boats:
+  SS-230:
+    name: Finback
+    class: Gato
+    museum:
+    commissioned: 1942-01-31
   SS-236:
     name: Silversides
     class: Gato
@@ -9,6 +14,12 @@ boats:
     name: Drum
     class: Gato
     museum: "Battleship Memorial Park, Mobile, Alabama"
+  SS-237:
+    name: Trigger
+    class: Gato
+    museum:
+    commissioned: 1942-01-31
+    lost: 1945-03-28
   SS-283:
     name: Tinosa
     class: Gato

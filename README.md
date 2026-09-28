@@ -12,6 +12,7 @@ them isn't recorded, and the map doesn't pretend otherwise.
 ```
 sources/                      Transcriptions. Never edited by the scripts.
   reference.yml               Boats, port positions, map place names
+  inventory.yml               Every patrol report: found, missing, transcribed, mapped
   SS-236/P01/
     patrol.yml                Metadata, departure/arrival, Part I events
     contacts.md               Contact, aircraft and attack tables, verbatim
