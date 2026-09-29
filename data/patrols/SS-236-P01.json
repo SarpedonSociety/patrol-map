@@ -35,6 +35,7 @@
   "sightings": 19,
   "aircraft": 0,
   "torpedo_attacks": 7,
+  "mine_attacks": 0,
   "torpedoes_fired": 13,
   "gun_actions": 1,
   "flagged": 8
@@ -207,6 +208,7 @@
    "position_verbatim": "33-14 150-58",
    "lat": 33.23333,
    "lon": 150.96667,
+   "derived": null,
    "type": "Trawler",
    "title": "Trawler",
    "fields": {
@@ -236,6 +238,7 @@
    "position_verbatim": "33-03 150-55",
    "lat": 33.05,
    "lon": 150.91667,
+   "derived": null,
    "type": "Medium Freighter",
    "title": "Medium Freighter",
    "fields": {
@@ -282,6 +285,7 @@
    "position_verbatim": "33-20-140-52",
    "lat": 33.33333,
    "lon": 140.86667,
+   "derived": null,
    "type": "Patrol Boat",
    "title": "Patrol Boat",
    "fields": {
@@ -308,6 +312,7 @@
    "position_verbatim": "33-52-137-09",
    "lat": 33.86667,
    "lon": 137.15,
+   "derived": null,
    "type": "Submarine",
    "title": "Submarine",
    "fields": {
@@ -342,6 +347,7 @@
    "position_verbatim": "33-25 135-25",
    "lat": 33.41667,
    "lon": 135.41667,
+   "derived": null,
    "type": "Small DD or Large PC",
    "title": "Small DD or Large PC",
    "fields": {
@@ -366,6 +372,7 @@
    "position_verbatim": "33-27 135-38",
    "lat": 33.45,
    "lon": 135.63333,
+   "derived": null,
    "type": "Medium Freighter",
    "title": "Medium Freighter",
    "fields": {
@@ -392,6 +399,7 @@
    "position_verbatim": "33-27 135-38",
    "lat": 33.45,
    "lon": 135.63333,
+   "derived": null,
    "type": "Small Freighter",
    "title": "Small Freighter",
    "fields": {
@@ -416,6 +424,7 @@
    "position_verbatim": "33-27 135-38",
    "lat": 33.45,
    "lon": 135.63333,
+   "derived": null,
    "type": "Small Freighter",
    "title": "Small Freighter",
    "fields": {
@@ -440,6 +449,7 @@
    "position_verbatim": "33-26 135-38",
    "lat": 33.43333,
    "lon": 135.63333,
+   "derived": null,
    "type": "Patrol Boat",
    "title": "Patrol Boat",
    "fields": {
@@ -464,6 +474,7 @@
    "position_verbatim": "33-28 135-33",
    "lat": 33.46667,
    "lon": 135.55,
+   "derived": null,
    "type": "Small Freighter",
    "title": "Small Freighter",
    "fields": {
@@ -488,6 +499,7 @@
    "position_verbatim": "33-28 135-33",
    "lat": 33.46667,
    "lon": 135.55,
+   "derived": null,
    "type": "Small Freighter",
    "title": "Small Freighter",
    "fields": {
@@ -512,6 +524,7 @@
    "position_verbatim": "33-28 135-33",
    "lat": 33.46667,
    "lon": 135.55,
+   "derived": null,
    "type": "Medium Freighter",
    "title": "Medium Freighter",
    "fields": {
@@ -542,6 +555,7 @@
    "position_verbatim": "33-28 135-33",
    "lat": 33.46667,
    "lon": 135.55,
+   "derived": null,
    "type": "Large Freighter",
    "title": "Large Freighter",
    "fields": {
@@ -572,6 +586,7 @@
    "position_verbatim": "33-27 135-34",
    "lat": 33.45,
    "lon": 135.56667,
+   "derived": null,
    "type": "Medium Freighter",
    "title": "Medium Freighter",
    "fields": {
@@ -601,6 +616,7 @@
    "position_verbatim": "33-27 135-33",
    "lat": 33.45,
    "lon": 135.55,
+   "derived": null,
    "type": "Medium Freighter",
    "title": "Medium Freighter",
    "fields": {
@@ -624,6 +640,7 @@
    "position_verbatim": "33-29 135-26",
    "lat": 33.48333,
    "lon": 135.43333,
+   "derived": null,
    "type": "Three Freighters",
    "title": "Three Freighters",
    "fields": {
@@ -648,6 +665,7 @@
    "position_verbatim": "33-30 135-27",
    "lat": 33.5,
    "lon": 135.45,
+   "derived": null,
    "type": "Patrol Vessel",
    "title": "Patrol Vessel",
    "fields": {
@@ -672,6 +690,7 @@
    "position_verbatim": "33-30 135-27",
    "lat": 33.5,
    "lon": 135.45,
+   "derived": null,
    "type": "Nav.Aux Large Freighter",
    "title": "Nav.Aux Large Freighter",
    "fields": {
@@ -704,6 +723,7 @@
    "position_verbatim": "33-33 135-43",
    "lat": 33.55,
    "lon": 135.71667,
+   "derived": null,
    "type": "Patrol Vessel",
    "title": "Patrol Vessel",
    "fields": {
@@ -728,6 +748,7 @@
    "position_verbatim": "33-33 135-43",
    "lat": 33.55,
    "lon": 135.71667,
+   "derived": null,
    "type": "Tanker",
    "title": "Tanker",
    "fields": {
@@ -752,6 +773,7 @@
    "position_verbatim": "33-13 135-40",
    "lat": 33.21667,
    "lon": 135.66667,
+   "derived": null,
    "type": "Trawler",
    "title": "Trawler",
    "fields": {
@@ -782,6 +804,7 @@
    "position_verbatim": "33-24 135-32",
    "lat": 33.4,
    "lon": 135.53333,
+   "derived": null,
    "type": "Patrol vessel or Large Sampan",
    "title": "Patrol vessel or Large Sampan",
    "fields": {
@@ -806,6 +829,7 @@
    "position_verbatim": "33-25 135-32",
    "lat": 33.41667,
    "lon": 135.53333,
+   "derived": null,
    "type": "Patrol vessel",
    "title": "Patrol vessel",
    "fields": {
@@ -830,6 +854,7 @@
    "position_verbatim": "33-25 135-33",
    "lat": 33.41667,
    "lon": 135.55,
+   "derived": null,
    "type": "Small Coastal Freighter",
    "title": "Small Coastal Freighter",
    "fields": {
@@ -854,6 +879,7 @@
    "position_verbatim": "33-26 135-33",
    "lat": 33.43333,
    "lon": 135.55,
+   "derived": null,
    "type": "Tanker",
    "title": "Tanker",
    "fields": {
@@ -886,6 +912,7 @@
    "position_verbatim": "33-42 133-10",
    "lat": 33.7,
    "lon": 133.16667,
+   "derived": null,
    "type": "Trawler",
    "title": "Trawler",
    "fields": {
@@ -910,6 +937,7 @@
    "position_verbatim": "33-25 139-40",
    "lat": 33.41667,
    "lon": 139.66667,
+   "derived": null,
    "type": "Two small coastal freighters",
    "title": "Two small coastal freighters",
    "fields": {
@@ -923,5 +951,6 @@
    "flags": []
   }
  ],
- "tonnage": []
+ "tonnage": [],
+ "minefields": []
 }

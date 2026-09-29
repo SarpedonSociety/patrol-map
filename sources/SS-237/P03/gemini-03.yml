@@ -1,0 +1,417 @@
+YAML
+
+```
+boat: SS-237
+patrol: 3
+year: 1942
+report: U.S.S. TRIGGER Report of Third War Patrol.
+comsubpac_report_no: 
+commanding_officer: 
+citation:
+  archive: NARA
+  record_group: 38
+  nara_catalog_id: 4697018
+  nara_catalog_title: World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946
+  reel: A216
+  micro_serial: 46216
+  file: A16-3 (5)
+  serial: 0138
+  date: 2/1/1943
+fold3_images: { 9: 268432794, 10: 268432795, 11: 268432796 }
+default_hemisphere: { lat: N, lon: E }
+departure: { port: , date: , time: , zone: , page: , flags: }
+arrival:   { port: MIDWAY, date: 22JAN, time: , zone: , page: 11, flags: arrival time not stated }
+events:
+  - date: 02JAN
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: [SUMMARY] On station off IRO SAKI to intercept traffic entering SAGAMI NADA or passing MIKOMOTO SHIMA; noted Japanese using high-powered coastal searchlights as anti-submarine weapon.
+    page: 9
+    flags: typed "MIKONOTO SEIMA" in source
+  - date: 03JAN
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: [SUMMARY] Station patrol off IRO SAKI; charged only forward battery and sought deep water east of IZU SHOTO to clear persistent 120-volt after-battery ground.
+    page: 9
+    flags:
+  - date: 04JAN
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: [SUMMARY] Patrolled off north-south line from NOJIMA SAKI; heavy seas caused flooding difficulties upon surfacing; battery grounds cleared; proceeded south of INUBO SAKI.
+    page: 9
+    flags: typed "NOGIMA SAKI" in source
+  - date: 06JAN
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: Numerous small vessels like TUNA boats in sight heading toward INUBO SAKI; possibly mine sweepers.
+    page: 9
+    flags:
+  - date: 06JAN
+    time: 1638
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: Sighted a considerable amount of smoke near INUBO SAKI. Commenced closing. Then, smoke stopped.
+    page: 9
+    flags:
+  - date: 06JAN
+    time: 1722
+    zone: K
+    lat: 35-34 N.
+    lon: 140-43 E.
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: southerly
+    speed: 
+    event: [SUMMARY] (11th Contact) (No attack) Sighted smoke from several ships in company in KUJUKURI HAMA inside 10-fathom curve heading south; unable to close; proceeded to NOJIMA SAKI.
+    page: 9
+    flags: typed "KUJIKURI HAMA" in source
+  - date: 07JAN
+    time: 1428
+    zone: K
+    lat: 34-50 N.
+    lon: 139-51 E.
+    from: 
+    bearing: 305
+    distance: close in to the coast
+    bearing_is: from_landmark
+    tag: 
+    course: 
+    speed: 
+    event: [SUMMARY] (12th Contact) (No Attack) Sighted freighter smoke bearing 305 close to coast; unable to close; noted shoreline navigation markers, evenly spaced small lights, and searchlights.
+    page: 9-10
+    flags: entry continues onto page 10
+  - date: 07JAN
+    time: 1830
+    zone: K
+    lat: 
+    lon: 
+    from: NOJIMA SAKI
+    bearing: left tangent
+    distance: 
+    bearing_is: from_landmark
+    tag: 
+    course: 
+    speed: 
+    event: Sighted a patrol vessel off the left tangent of NOJIMA SAKI patrolling the entrance.
+    page: 10
+    flags:
+  - date: 07JAN
+    time: 2042
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: port bow
+    distance: 
+    bearing_is: from_landmark
+    tag: 
+    course: 
+    speed: high speed
+    event: [SUMMARY] Driven down by two patrol vessels closing fast on port bow, picked up on SJ radar at 1500 yards as boat dove; vessels searched area.
+    page: 10
+    flags: typed "Qriven down" in source
+  - date: 07JAN
+    time: 2123
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: high speed
+    event: Surfaced and cleared the area at high speed.
+    page: 10
+    flags: typed "Surfaced end cleared" in source
+  - date: 08JAN
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: Patrol off southeastern approached to SAGAMI NADA.
+    page: 10
+    flags: typed "approached" in source
+  - date: 09JAN
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: [SUMMARY] Patrolled off O SHIMA to intercept traffic passing either side; at dark observed coastal searchlights sweeping sky and horizon.
+    page: 10
+    flags: typed "off  SHIK." and "SAG.JI NDA" in source
+  - date: 10JAN
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: Patrol off the coast northeast of NOJIMA SAKI. Seas have moderated and improved all day.
+    page: 10
+    flags: typed "NOJIM. SAKI" in source
+  - date: 10JAN
+    time: 1313
+    zone: K
+    lat: 35-02 N.
+    lon: 140-12 E.
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    course: 
+    speed: 
+    event: (13th Contact) (5th Attack) Lat. 35-02 N. Long. 140-12 E. Minekaze Class Destroyer Sunk. Sighted a vessel of unknown type bows on. Commenced approach. She was zigzagging and on the next zig showed herself as a forward welldeck destroyer.
+    page: 10
+    flags:
+  - date: 10JAN
+    time: 1321
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    course: 
+    speed: 
+    event: Fired speed spread of 3 torpedoes at range of 1500 yards 90 port track. Two hits; one hit just under the well deck which folded the forecastle up at an angle of about 45 degrees, and one hit about one-fourth ship's length inside the stern. As soon as we fired we turned at high speed to bring the stern tubes to bear, only one torpedo remaining forward. At this time at least three dozen fishing vessels of various types could be seen approaching the destroyer from shore. The destroyer in the meantime was sinking on an even keel with steam and smoke issuing from her.
+    page: 10-11
+    flags: entry continues onto page 11; "nits" and "firoc" typed in source
+  - date: 10JAN
+    time: 1337
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    course: 
+    speed: 
+    event: One explosion like a depth charge rather close. No ships seen sufficiently close. It was possibly from an aircraft but one explosion indicated that more probably it was an internal explosion in the destroyer. In any event she sank more rapidly now, still on an even keel.
+    page: 11
+    flags: typed "dustroyer" in source
+  - date: 10JAN
+    time: 1350
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    course: 
+    speed: 
+    event: The destroyer sank, the last part seen being the bow which had been folded upward. The fishing vessels around the destroyer were still in sight. Her normal displacement was 1345 tons. We are now in the unfortunate position of having 5 torpedoes aft and only one forward.
+    page: 11
+    flags: typed "whion had boon foldou" and "normn" in source
+  - date: 11JAN
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: Patrol off south-eastern approaches to SAGAMI NADA. Depth control at periscope depth again nearly impossible.
+    page: 11
+    flags: typed "S.G. JIND" in source
+  - date: 12JAN
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: Repetition of yesterday with depth control, if possible, even worse.
+    page: 11
+    flags:
+  - date: 13JAN
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: Still very rough. Position uncertain. Working back, however, toward NOJIMA SAKI.
+    page: 11
+    flags: date heading covers January 13-14; typed "NOJILL. S.KI." in source
+  - date: 14JAN
+    time: 1620
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: westerly
+    speed: 
+    event: Sighted patrol plane on westerly course.
+    page: 11
+    flags: falls under January 13-14 heading
+  - date: 15JAN
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: Storm has subsided. Ship is in a reasonably good patrol position southeast of NOJIMA SAKI.
+    page: 11
+    flags: typed "Snip is in  reasonably" and "NOJIM. S.KI." in source
+  - date: 15JAN
+    time: 1130
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: southerly
+    speed: 
+    event: Sighed patrol plane on southerly course.
+    page: 11
+    flags: typed "Sighed" in source
+  - date: 15JAN
+    time: 1641
+    zone: 
+    lat: 34-43 N.
+    lon: 139-59 E.
+    from: 
+    bearing: west
+    distance: 
+    bearing_is: from_landmark
+    tag: 
+    course: northerly
+    speed: 
+    event: [SUMMARY] (14th Contact) (No Attack) Sighted masts of patrol boat or destroyer bearing west on northerly course; unable to close; surfaced and departed for MIDWAY upon completing station time.
+    page: 11
+    flags: time zone blank in source; typed "Sighed masts" and "IIDWAY" in source
+  - date: 17JAN
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: Spent the forenoon searching the area in which the station patrol vessel was seen while enroute station; unsuccessful.
+    page: 11
+    flags:
+  - date: 22JAN
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: Arrived MIDWAY for refit.
+    page: 11
+    flags: typed "rofit" in source
+```
+
+Could not transcribe: no tabular data (contacts, attacks, noon positions, or BT observations) appears on the three narrative pages provided.

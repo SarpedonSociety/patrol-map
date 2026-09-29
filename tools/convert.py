@@ -46,7 +46,7 @@ for i, letter in enumerate("NOPQRSTUVWXY"):
 # Covers the hand-transcription layouts and the Gemini prompt layout.
 COLUMNS = {
     "timedate": "time_date", "time": "time", "zone": "zone", "date": "date",
-    "latlong": "lat_long", "location": "lat_long", "latverbatim": "lat", "lat": "lat",
+    "latlong": "lat_long", "location": "lat_long", "position": "lat_long", "positions": "lat_long", "latverbatim": "lat", "lat": "lat",
     "longverbatim": "lon", "long": "lon", "lon": "lon",
     "page": "page", "type": "type", "initialrange": "initial_range",
     "estcourse": "course", "course": "course", "estspeed": "speed", "speed": "speed",
@@ -148,7 +148,14 @@ HOMOGLYPHS = str.maketrans({"Ε": "E", "Ν": "N", "Ѕ": "S", "Е": "E", "Н": "H
 
 
 def plain(text):
-    return str(text).translate(HOMOGLYPHS) if text is not None else text
+    if text is None:
+        return text
+    return re.sub(r"\[cite:[^\]]*\]", "", str(text)).translate(HOMOGLYPHS)
+
+
+def unbracket(text):
+    """Drop the ⟦ ⟧ uncertainty marks, keeping the reading inside them."""
+    return re.sub(r"[⟦⟧]", "", str(text or ""))
 
 
 def parse_coord(text, default_hemi, is_lat):
@@ -170,7 +177,8 @@ def parse_coord(text, default_hemi, is_lat):
 
 def split_lat_long(text):
     """Split a combined 'Lat/Long' cell. Returns (lat, lon, flag)."""
-    text = text.strip()
+    text = re.sub(r"<br\s*/?>|;|\bLat\.?|\bLong\.?|\bLon\.?", " ", unbracket(plain(text)), flags=re.I)
+    text = re.sub(r"\s+", " ", text).strip()
     parts = text.split()
     if len(parts) == 2:
         return parts[0], parts[1], None
@@ -293,14 +301,15 @@ ORDINALS = {w: i for i, w in enumerate(
     "fourteenth fifteenth sixteenth".split(), start=1)}
 
 
-def load_yaml_text(path):
+def load_yaml_text(path, gemini=False):
     """Read a YAML file as typed text. Accepts Gemini output pasted as-is,
     with a 'YAML' label and ``` fences around it."""
     text = path.read_text(encoding="utf-8")
     fenced = re.search(r"```[a-zA-Z]*\n(.*?)```", text, re.S)
     if fenced:
         text = fenced.group(1)
-    text = quote_text_fields(text)
+    if gemini:
+        text = quote_text_fields(text)
     # BaseLoader keeps every value as typed text, so a time like 0700 isn't
     # read as an octal number.
     return blanks_to_none(yaml.load(text, Loader=yaml.BaseLoader)) or {}
@@ -315,7 +324,9 @@ def quote_text_fields(text):
     out = []
     for line in text.splitlines():
         m = re.match(r"^(\s*(?:-\s+)?)(%s):[ \t]+(.+?)\s*$" % "|".join(TEXT_FIELDS), line)
-        if m and not re.match(r"""^(["'{|>]|null$|~$)""", m.group(3)):
+        v = m.group(3) if m else ""
+        whole = re.fullmatch(r'"(?:[^"\\]|\\.)*"', v) or re.fullmatch(r"'(?:[^']|'')*'", v)
+        if m and not whole and not re.match(r"^([{|>]|null$|~$)", v):
             value = m.group(3).replace("\\", "\\\\").replace('"', '\\"')
             line = f'{m.group(1)}{m.group(2)}: "{value}"'
         out.append(line)
@@ -356,7 +367,16 @@ def normalize_meta(meta):
 
 def build_patrol(folder, ref):
     manual = load_yaml_text(folder / "patrol.yml") if (folder / "patrol.yml").exists() else {}
-    batches = [load_yaml_text(p) for p in sorted(folder.glob("gemini-*.yml"))]
+    batches = [load_yaml_text(p, gemini=True) for p in sorted(folder.glob("gemini-*.yml"))]
+    # A contacts batch can open with Gemini's OUTPUT 1 header (e.g. Fold3
+    # image numbers for the table pages); use it when it's there.
+    for path in sorted(folder.glob("contacts*.md")):
+        try:
+            head = load_yaml_text(path, gemini=True)
+        except yaml.YAMLError:
+            head = None
+        if isinstance(head, dict):
+            batches.append(head)
     meta = normalize_meta(merge_meta(manual, batches))
     review = {}
     if (folder / "review.yml").exists():
@@ -447,7 +467,9 @@ def build_patrol(folder, ref):
             "utc": when(ev.get("date"), ev.get("time"), ev.get("zone")),
             "position_verbatim": position_verbatim, "derived": derived, "tag": tag,
             "lat": lat, "lon": lon,
-            "type": "Narrative", "title": ev.get("title") or TAG_TITLE.get(tag, "Narrative entry"),
+            "type": "Narrative", "title": ev.get("title") or (
+                "Ship hit by mines" if tag == "minefield" and re.search(r"attack\s*\)|\bsunk\b|\bdamaged\b", str(ev.get("event") or ""), re.I)
+                else TAG_TITLE.get(tag, "Narrative entry")),
             "fields": {"event": ev.get("event")},
             "flags": flags,
         })
@@ -456,6 +478,8 @@ def build_patrol(folder, ref):
     # contacts.md, or batches contacts-01.md, contacts-02.md ... read in order.
     tables = [t for path in sorted(folder.glob("contacts*.md")) for t in read_tables(path)]
     entry = 0
+    narrative_zones = [r["zone"] for r in records if r.get("zone")]
+    default_zone = max(set(narrative_zones), key=narrative_zones.count) if narrative_zones else None
     last_zone = None
     for table in tables:
         headers = table["headers"]
@@ -465,6 +489,7 @@ def build_patrol(folder, ref):
         section = table["section"].strip() or "Contacts / attacks table"
         is_fix = bool(FIX_SECTION.search(section))
         source = section[:1].upper() + section[1:].lower() if section.isupper() else section
+        last_position = None
         for n, cells in enumerate(table["rows"]):
             entry += 1
             f = {nm: (cells[i] if i < len(cells) else "") for i, nm in enumerate(names) if nm}
@@ -484,9 +509,14 @@ def build_patrol(folder, ref):
                     else:
                         flags.append(f"Could not read time/date '{f['time_date']}'.")
             else:
-                t = re.sub(r"\D", "", f.get("time", "")) or None
+                time_cell = unbracket(plain(f.get("time", "")))
+                t = (re.sub(r"\D", "", time_cell) or None)
+                t = t.zfill(4)[:4] if t else None
                 z = (f.get("zone") or "").strip().upper() or None
-                d = (f.get("date") or "").replace(" ", "").upper() or None
+                zm = re.search(r"\(\s*([A-Z])\s*\)|\d\s*([A-Z])\b", time_cell.upper())
+                if not z and zm:
+                    z = zm.group(1) or zm.group(2)
+                d = unbracket(plain(f.get("date") or "")).replace(" ", "").upper() or None
             if gct and z is None:
                 z = "Z"
             if t is None and d:
@@ -495,6 +525,9 @@ def build_patrol(folder, ref):
                 if last_zone:
                     flags.append(f"No zone letter on this entry; zone {last_zone} assumed from the previous entry.")
                     z = last_zone
+                elif default_zone:
+                    flags.append(f"No zone letter on this entry; zone {default_zone} assumed from the narrative.")
+                    z = default_zone
                 else:
                     flags.append("No zone letter on this entry; treated as GMT.")
             if z and z not in ZONES:
@@ -502,11 +535,34 @@ def build_patrol(folder, ref):
             if not gct:
                 last_zone = z or last_zone
 
+            derived_pos = None
             if "lat_long" in f:
-                lat_s, lon_s, pflag = split_lat_long(f["lat_long"])
-                pos_verbatim = f["lat_long"]
-                if pflag:
-                    flags.append(pflag)
+                cell = f["lat_long"]
+                if re.fullmatch(r"\s*(ditto|do\.?|\"|same)\s*", cell or "", re.I) and last_position:
+                    flags.append(f"Position given as '{cell.strip()}'; the previous entry's position is used.")
+                    cell = last_position
+                pos_verbatim = cell
+                rel = re.search(r"(?:about\s+)?([\d.]+|[a-z]+)\s+miles?\s+([NSEW]{1,3}|[NSEW]\s*by\s*[NSEW])\s+of\s+(.+)", plain(cell), re.I)
+                off = re.fullmatch(r"\s*off\s+(.+?)\s*", plain(cell), re.I)
+                if rel or off:
+                    name = (rel.group(3) if rel else off.group(1)).strip().rstrip(".")
+                    mark = landmarks.get(name.lower())
+                    lat_s = lon_s = None
+                    if not mark or mark.get("lat") in (None, ""):
+                        flags.append(f"No position for landmark '{name}'. Add it to landmarks in sources/reference.yml.")
+                    elif rel and parse_distance(rel.group(1)) is not None and parse_bearing(rel.group(2)) is not None:
+                        derived_pos = offset_position(float(mark["lat"]), float(mark["lon"]),
+                                                      parse_bearing(rel.group(2)), parse_distance(rel.group(1)))
+                        flags.append(f"Position derived from '{cell.strip()}' using a modern landmark position; an estimate.")
+                    elif off:
+                        derived_pos = (float(mark["lat"]), float(mark["lon"]))
+                        flags.append(f"Position given only as '{cell.strip()}'; placed at {name} itself, as a rough estimate.")
+                else:
+                    lat_s, lon_s, pflag = split_lat_long(cell)
+                    if pflag:
+                        flags.append(pflag)
+                    else:
+                        last_position = cell
             else:
                 lat_s, lon_s = f.get("lat"), f.get("lon")
                 pos_verbatim = " ".join(x for x in (lat_s, lon_s) if x)
@@ -516,6 +572,8 @@ def build_patrol(folder, ref):
                                  f"digit; it may be decimal minutes. Read here as seconds.")
             lat = parse_coord(UNCERTAIN.sub(lambda m: m.group(0)[1:-1], lat_s or ""), hemi["lat"], True)
             lon = parse_coord(UNCERTAIN.sub(lambda m: m.group(0)[1:-1], lon_s or ""), hemi["lon"], False)
+            if derived_pos:
+                lat, lon = derived_pos
             if lat is None or lon is None:
                 flags.append("No usable position.")
 
@@ -539,7 +597,7 @@ def build_patrol(folder, ref):
             if kind == "torpedo" and ir and fr and fr > ir:
                 flags.append(f"Firing range ({fr}) is greater than initial range ({ir}).")
 
-            typ = f.get("type", "")
+            typ = unbracket(f.get("type", ""))
             if f.get("attack_no"):
                 title = f"Attack {f['attack_no']}" + (f" · {typ}" if typ else "")
             elif f.get("contact_no"):
@@ -557,6 +615,7 @@ def build_patrol(folder, ref):
                 "local": " ".join(x for x in (t, zone_label, d) if x) if t else (f.get("time_date") or d or ""),
                 "utc": to_utc(d or "", t, z, year, first_month),
                 "position_verbatim": pos_verbatim, "lat": lat, "lon": lon,
+                "derived": {"from_table": True} if derived_pos else None,
                 "type": typ, "title": title, "fields": keep, "flags": flags,
             })
 
@@ -566,7 +625,7 @@ def build_patrol(folder, ref):
     def endpoint(block, label):
         if not block or not block.get("port"):
             return None
-        port = ref["ports"].get(block["port"])
+        port = {k.lower(): v for k, v in ref["ports"].items()}.get(str(block["port"]).lower())
         flags = [block["flags"]] if block.get("flags") else []
         if not port:
             flags.append(f"No reference position for port '{block['port']}' in sources/reference.yml.")
@@ -641,14 +700,45 @@ def build_patrol(folder, ref):
                                         f"{b['utc'][:16].replace('T', ' ')} GMT, as an estimate.")
                     break
 
+    # Minefields: group mine entries with positions lying within 20 miles of
+    # each other and draw one estimated area per group.
+    minefields = []
+    for rec in sorted((r for r in records if r["kind"] == "minefield" and r["lat"] is not None), key=lambda r: r["utc"]):
+        for mf in minefields:
+            if abs(mf["lat"] - rec["lat"]) * 60 < 20 and abs(mf["lon"] - rec["lon"]) * 60 * math.cos(math.radians(rec["lat"])) < 20:
+                mf["points"].append(rec)
+                break
+        else:
+            minefields.append({"lat": rec["lat"], "lon": rec["lon"], "points": [rec]})
+    for mf in minefields:
+        pts = mf.pop("points")
+        mf["lat"] = round(sum(p["lat"] for p in pts) / len(pts), 5)
+        mf["lon"] = round(sum(p["lon"] for p in pts) / len(pts), 5)
+        spread = max(math.hypot((p["lat"] - mf["lat"]) * 60, (p["lon"] - mf["lon"]) * 60 * math.cos(math.radians(mf["lat"])))
+                     for p in pts)
+        mf["radius_nm"] = round(max(2.0, spread + 1.0), 2)
+        mf["utc"] = pts[0]["utc"]
+        mf["refs"] = [p["id"] for p in pts]
+        mf["estimated"] = any(p.get("derived") for p in pts) or len(pts) < 2
+        mf["note"] = ("Estimated area around the positions of the mine entries in the report. "
+                      "The report doesn't give the field's boundaries.")
+
     torps = [r for r in records if r["kind"] == "torpedo"]
+    # Count attacks by the report's own numbering "(3rd Attack)" when present,
+    # since one attack often runs over several tagged narrative entries.
+    numbered = {}
+    for r in records:
+        m = re.search(r"\(\s*(\d+)\s*(?:st|nd|rd|th)\s+attack\s*\)", str(r["fields"].get("event") or ""), re.I)
+        if m and r["kind"] in ("torpedo", "gun", "minefield"):
+            numbered[int(m.group(1))] = r["kind"]
     summary = {
         "records": len(records),
         "sightings": sum(r["kind"] == "sighting" for r in records),
         "aircraft": sum(r["kind"] == "aircraft" for r in records),
-        "torpedo_attacks": len(torps),
+        "torpedo_attacks": sum(k == "torpedo" for k in numbered.values()) if numbered else len(torps),
+        "mine_attacks": sum(k == "minefield" for k in numbered.values()),
         "torpedoes_fired": sum(as_int(r["fields"].get("fired")) or 0 for r in torps),
-        "gun_actions": sum(r["kind"] == "gun" for r in records),
+        "gun_actions": sum(k == "gun" for k in numbered.values()) if numbered else sum(r["kind"] == "gun" for r in records),
         "flagged": sum(bool(r["flags"]) for r in records)
                    + sum(bool(e and e["flags"]) for e in (departure, arrival)),
     }
@@ -672,7 +762,7 @@ def build_patrol(folder, ref):
         "start": min(times) if times else None, "end": max(times) if times else None,
         "departure": departure, "arrival": arrival,
         "report_found": str(meta.get("report_found", "yes")).lower() not in ("no", "false"),
-        "summary": summary, "track": track, "records": records, "tonnage": tonnage,
+        "summary": summary, "track": track, "records": records, "tonnage": tonnage, "minefields": minefields,
     }
 
 

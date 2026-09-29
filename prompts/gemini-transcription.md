@@ -104,6 +104,10 @@ typed on that report page; skip pages with no typed page number.
 
 Make one `events` entry for each narrative entry on the pages provided.
 
+Use `from`, `bearing` and `distance` only for a position fixed from a
+charted landmark. A contact's bearing from the boat ("smoke bearing 315",
+"on the port bow") is not a position: leave it in `event`.
+
 Positions given from a landmark ("9 miles NE of MINAMI JIMA", "1 mile
 WSW of MEGANE IWA", "NOJIMA SAKI bearing 060, distant 2 miles") go in
 `from`, `bearing` and `distance`, exactly as typed. Set `bearing_is` to

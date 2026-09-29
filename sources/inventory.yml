@@ -47,7 +47,7 @@ SS-230:   # Finback — commissioned 31 Jan 1942, Electric Boat
 SS-237:   # Trigger — commissioned 31 Jan 1942, Mare Island; lost 28 Mar 1945
   1:  { status: missing }
   2:  { status: available, found_in: Fold3 }
-  3:  { status: transcribed, found_in: Fold3, report_no: 128, start: 1942-12-03, end: 1943-01-22, note: "Gemini batch 1 (pages 2-4) in; more batches to come" }
+  3:  { status: transcribed, found_in: Fold3, report_no: 128, start: 1942-12-03, end: 1943-01-22, note: "Gemini batches 01-03 (narrative, pages 2-11) and contacts-01 (tables, pages 13-15); to verify" }
   4:  { status: available, found_in: Fold3 }
   5:  { status: available, found_in: Fold3 }
   6:  { status: available, found_in: Fold3 }

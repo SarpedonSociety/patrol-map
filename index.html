@@ -98,6 +98,8 @@ header.head {
 .mark.torpedo .dot { fill: var(--torpedo); stroke: var(--paper); stroke-width: 1.2; }
 .mark.gun .dot { fill: var(--gun); stroke: var(--paper); stroke-width: 1.2; }
 .mark.event .dot { fill: var(--event); stroke: var(--paper); stroke-width: 1.2; }
+.minearea { fill: color-mix(in srgb, var(--mine) 16%, transparent); stroke: var(--mine); stroke-width: 1.4; stroke-dasharray: 4 3; }
+.minelabel { font: 600 10px var(--sans); fill: var(--mine); letter-spacing: .04em; paint-order: stroke; stroke: var(--sea); stroke-width: 3px; }
 .mark.minefield .dot { fill: none; stroke: var(--mine); stroke-width: 2.4; stroke-linecap: round; }
 .mark.fix .dot { fill: var(--track); stroke: none; }
 .mark.rescue .dot { fill: var(--sea); stroke: var(--rescue); stroke-width: 3; }
@@ -417,6 +419,17 @@ aside.side {
     });
 
     for (const p of on()) {
+      for (const mf of p.minefields || []) {
+        if (Date.parse(mf.utc) > now) continue;
+        const [cx, cy] = px(mf.lon, mf.lat);
+        const [ex] = px(mf.lon + mf.radius_nm / (60 * Math.cos(mf.lat * Math.PI / 180)), mf.lat);
+        const r = Math.max(6, Math.abs(ex - cx));
+        gOver.append("circle").attr("class", "minearea").attr("cx", cx).attr("cy", cy).attr("r", r)
+          .append("title").text(`${p.name} minefield, estimated area. ${mf.note}`);
+        if (tf.k >= 3) gOver.append("text").attr("class", "minelabel").attr("x", cx + r + 4).attr("y", cy + 3).text("Minefield (est.)");
+      }
+    }
+    for (const p of on()) {
       const b = boatAt(p, now);
       if (b) {
         const line = p.pts.slice(0, b.i + 1).map((q) => px(q.lon, q.lat));
@@ -526,7 +539,7 @@ aside.side {
       lab.innerHTML = `<input type="checkbox" id="pt-${p.id}" ${p.on ? "checked" : ""}>
         <span class="name">${p.name}<small>${p.boat} · Patrol ${p.patrol}</small></span>
         <span class="meta">${fmtDate(new Date(p.start))} – ${fmtDate(new Date(p.end))}<br>
-        ${!s.records ? (p.report_found === false ? "No report found · tonnage only" : "Not yet transcribed · tonnage only") : `${s.torpedo_attacks} torpedo attacks · ${s.torpedoes_fired} torpedoes`}${s.gun_actions ? ` · ${s.gun_actions} gun action${s.gun_actions === 1 ? "" : "s"}` : ""}${s.aircraft ? ` · ${s.aircraft} aircraft` : ""}
+        ${!s.records ? (p.report_found === false ? "No report found · tonnage only" : "Not yet transcribed · tonnage only") : `${s.torpedo_attacks} torpedo attack${s.torpedo_attacks === 1 ? "" : "s"}${s.torpedoes_fired ? ` · ${s.torpedoes_fired} torpedoes` : ""}${s.mine_attacks ? ` · ${s.mine_attacks} by mines` : ""}`}${s.gun_actions ? ` · ${s.gun_actions} gun action${s.gun_actions === 1 ? "" : "s"}` : ""}${s.aircraft ? ` · ${s.aircraft} aircraft` : ""}
         ${s.flagged ? `<br><span class="chip">${s.flagged} to review</span>` : ""}</span>`;
       lab.querySelector("input").addEventListener("change", (e) => {
         p.on = e.target.checked; setRange(); fit(true); renderLog(); renderBoard();
@@ -601,7 +614,7 @@ aside.side {
         <button class="close" aria-label="Close details">×</button></div>
       <dl class="kv">${rows.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
       ${r.flags && r.flags.length ? `<div class="flags"><p>To review</p><ul>${r.flags.map((f) => `<li>${esc(f)}</li>`).join("")}</ul></div>` : ""}
-      <p class="source">Source: ${esc(r.patrol.report || r.patrol.name)}. ${esc(src)}.${citeLine(r)}</p>`;
+      <p class="source">Source: ${esc(String(r.patrol.report || r.patrol.name).replace(/\.+$/, ""))}. ${esc(src)}.${citeLine(r)}</p>`;
     d.querySelector(".close").addEventListener("click", () => { selected = null; renderDetail(); renderLog(true); draw(); });
   }
 

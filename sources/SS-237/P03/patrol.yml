@@ -1,6 +1,6 @@
 # USS Trigger (SS-237), War Patrol 3
-# Report found; not yet transcribed. Until then this file holds the patrol
-# dates and claimed tonnage, so the scoreboard stays complete.
+# Transcribed by Gemini in batches (gemini-01..03.yml, contacts-01.md).
+# This file holds hand entries, which take precedence over the batches.
 
 boat: SS-237
 patrol: 3
@@ -21,8 +21,16 @@ period:
   end: 1943-01-22
   source: "Patrol report"
 
-# Claimed tonnage as summarized from the report; check against the attack
-# tables when transcribing.
 tonnage:
-  - { result: sunk, tons: 15271, ships: , basis: claimed, source: "Patrol report: total claimed sunk by torpedo" }
-  - { result: sunk, tons: 8400, target: Freighter, basis: claimed, source: "Patrol report: freighter sunk by a mine laid by Trigger" }
+  # From the narrative (Gemini batches 01-03). The report's torpedo total of
+  # 15,271 tons = 5,426 + 8,500 + 1,345.
+  - { date: 20DEC, time: 2332, zone: K, target: Freighter, result: sunk, tons: 8400, basis: claimed,
+      source: "(5th Contact) (1st Attack), page 3: 8400 ton freighter sunk by mines. Time 2332(K) from the Vessels Sighted table, page 13." }
+  - { date: 22DEC, time: 1342, zone: K, target: Freighter, result: sunk, tons: 5426, basis: claimed,
+      source: "(6th Contact) (2nd Attack), pages 4-5: sunk by torpedoes; similar to SYOTO MARU, 5139-5426 tons. Counted at 5426, the figure in the patrol total." }
+  - { date: 26DEC, time: 1745, zone: K, target: Freighter, result: damaged, tons: 5000, basis: claimed,
+      source: "(8th Contact) (3rd Attack), page 6: 'a freighter of at least 5000 tons was damaged if not sunk' by the mines." }
+  - { date: 31DEC, time: 1730, zone: K, target: Seaplane tender or freighter, result: sunk, tons: 8500, basis: claimed,
+      source: "(10th Contact) (4th Attack), pages 7-8: 8500 ton freighter with a cargo of planes, sunk by torpedoes." }
+  - { date: 10JAN, time: 1350, zone: K, target: Minekaze-class destroyer, result: sunk, tons: 1345, basis: claimed,
+      source: "(13th Contact) (5th Attack), pages 10-11: destroyer sunk by torpedoes. 1345 tons is her normal displacement, not gross tonnage." }

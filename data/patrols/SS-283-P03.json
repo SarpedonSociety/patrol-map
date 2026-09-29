@@ -23,6 +23,7 @@
   "sightings": 3,
   "aircraft": 8,
   "torpedo_attacks": 8,
+  "mine_attacks": 0,
   "torpedoes_fired": 20,
   "gun_actions": 0,
   "flagged": 8
@@ -140,6 +141,7 @@
    "position_verbatim": "14-25N; 174-42E",
    "lat": 14.41667,
    "lon": 174.7,
+   "derived": null,
    "type": "--",
    "title": "--",
    "fields": {
@@ -164,6 +166,7 @@
    "position_verbatim": "08-01N; 150-19.5E",
    "lat": 8.01667,
    "lon": 150.325,
+   "derived": null,
    "type": "Radar Contact 119°T 8800 yards",
    "title": "Contact 1 · Radar Contact 119°T 8800 yards",
    "fields": {
@@ -186,6 +189,7 @@
    "position_verbatim": "08-00-30N; 150-19E",
    "lat": 8.00833,
    "lon": 150.31667,
+   "derived": null,
    "type": "Tanker similar to HUZISAN MARU 9527 tons",
    "title": "Contact 2 · Tanker similar to HUZISAN MARU 9527 tons",
    "fields": {
@@ -208,6 +212,7 @@
    "position_verbatim": "08-02N; 150-19E",
    "lat": 8.03333,
    "lon": 150.31667,
+   "derived": null,
    "type": "AO",
    "title": "Attack 1 · AO",
    "fields": {
@@ -244,6 +249,7 @@
    "position_verbatim": "8-01N; 150-16E",
    "lat": 8.01667,
    "lon": 150.26667,
+   "derived": null,
    "type": "Single Float Seaplane",
    "title": "Single Float Seaplane",
    "fields": {
@@ -266,6 +272,7 @@
    "position_verbatim": "10-24N; 146-52E",
    "lat": 10.4,
    "lon": 146.86667,
+   "derived": null,
    "type": "Tanker, 10000(plus) tons.",
    "title": "Contact 3 · Tanker, 10000(plus) tons.",
    "fields": {
@@ -288,6 +295,7 @@
    "position_verbatim": "10-35N; 148-30E",
    "lat": 10.58333,
    "lon": 148.5,
+   "derived": null,
    "type": "AO",
    "title": "Attack 2 · AO",
    "fields": {
@@ -322,6 +330,7 @@
    "position_verbatim": "10-01N; 148-31E",
    "lat": 10.01667,
    "lon": 148.51667,
+   "derived": null,
    "type": "AO",
    "title": "Attack 3 · AO",
    "fields": {
@@ -359,6 +368,7 @@
    "position_verbatim": "10-01N; 148-31E",
    "lat": 10.01667,
    "lon": 148.51667,
+   "derived": null,
    "type": "AO",
    "title": "Attack 4 · AO",
    "fields": {
@@ -396,6 +406,7 @@
    "position_verbatim": "10-01N; 148-31E",
    "lat": 10.01667,
    "lon": 148.51667,
+   "derived": null,
    "type": "AO",
    "title": "Attack 5 · AO",
    "fields": {
@@ -432,6 +443,7 @@
    "position_verbatim": "10-01N; 148-31E",
    "lat": 10.01667,
    "lon": 148.51667,
+   "derived": null,
    "type": "AO",
    "title": "Attack 6 · AO",
    "fields": {
@@ -466,6 +478,7 @@
    "position_verbatim": "10-01N; 148-31E",
    "lat": 10.01667,
    "lon": 148.51667,
+   "derived": null,
    "type": "AO",
    "title": "Attack 7 · AO",
    "fields": {
@@ -502,6 +515,7 @@
    "position_verbatim": "10-01N; 148-31E",
    "lat": 10.01667,
    "lon": 148.51667,
+   "derived": null,
    "type": "AO",
    "title": "Attack 8 · AO",
    "fields": {
@@ -538,6 +552,7 @@
    "position_verbatim": "07-44N; 149-15E",
    "lat": 7.73333,
    "lon": 149.25,
+   "derived": null,
    "type": "Heavy Bomber",
    "title": "Heavy Bomber",
    "fields": {
@@ -560,6 +575,7 @@
    "position_verbatim": "09-42N; 150-13.1E",
    "lat": 9.7,
    "lon": 150.21833,
+   "derived": null,
    "type": "Single wing monoplane",
    "title": "Single wing monoplane",
    "fields": {
@@ -582,6 +598,7 @@
    "position_verbatim": "16-31.5N; 161-21-3E",
    "lat": 16.525,
    "lon": 161.35083,
+   "derived": null,
    "type": "Mitsubishi reconnaissance bomber",
    "title": "Mitsubishi reconnaissance bomber",
    "fields": {
@@ -606,6 +623,7 @@
    "position_verbatim": "17-56.4N; 161-03.45E",
    "lat": 17.94,
    "lon": 161.0575,
+   "derived": null,
    "type": "Mitsubishi reconnaissance bomber",
    "title": "Mitsubishi reconnaissance bomber",
    "fields": {
@@ -628,6 +646,7 @@
    "position_verbatim": "19-32.2N; 165-31.2E",
    "lat": 19.53667,
    "lon": 165.52,
+   "derived": null,
    "type": "Type 97 Light bomber",
    "title": "Type 97 Light bomber",
    "fields": {
@@ -650,6 +669,7 @@
    "position_verbatim": "19-16.1N; 167-52.4E",
    "lat": 19.26833,
    "lon": 167.87333,
+   "derived": null,
    "type": "Single wing monoplane",
    "title": "Single wing monoplane",
    "fields": {
@@ -686,5 +706,6 @@
    "source": "Summary of submarine attacks, Attack 8, page 23. Recorded as '10000 plus same as 2'; attacks 2-7 claim damage to the same ship, counted once here as sunk.",
    "flags": []
   }
- ]
+ ],
+ "minefields": []
 }

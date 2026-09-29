@@ -1,0 +1,7 @@
+# Reviewer notes for the contact tables, keyed by entry number: entries are
+# counted through contacts-01.md in order (Vessels Sighted 1-14, Planes 15-17).
+# Delete a note once it's resolved against the report.
+
+rows:
+  1: "The table gives 0430 for the first contact on 16 December; the narrative gives 0410(K). Check both against pages 2 and 13."
+  5: "Gemini reads the time as 2332 or 2338. 2332 agrees with the narrative's (5th Contact) entry. This also settles which of the two Gemini runs of pages 2-4 had the times right: the second."

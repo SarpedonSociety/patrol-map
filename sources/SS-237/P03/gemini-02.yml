@@ -1,0 +1,342 @@
+YAML
+
+```
+boat: SS-237
+patrol: 3
+year: 1942
+report: U.S.S. TRIGGER Report of Third War Patrol.
+comsubpac_report_no: 
+commanding_officer: 
+citation:
+  archive: NARA
+  record_group: 38
+  nara_catalog_id: 4697018
+  nara_catalog_title: World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946
+  reel: A216
+  micro_serial: 46216
+  file: A16-3 (5)
+  serial: 0138
+  date: 2/1/1943
+fold3_images: { 5: 268432790, 6: 268432791, 7: 268432792, 8: 268432793 }
+default_hemisphere: { lat: N, lon: E }
+departure: { port: , date: , time: , zone: , page: , flags: }
+arrival:   { port: , date: , time: , zone: , page: , flags: }
+events:
+  - date: 22DEC
+    time: 1333
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    course: 
+    speed: 
+    event: 1333(K) (Cont'd) to seaward. Now approximately 6 seaplanes were sighted near NOJIMA SAKI, one of them right over the target. When the target had completeà its turn to head back for port, her main dock forward was awash and her screws were nearly out of water, turning rapidly. It looked as if the one hit would suffice to sink the target. However, the position was nearly perfect for a steri. shot and it was now or never, as the range was opening as the target was hended for port.
+    page: 5
+    flags: continuation of 1333(K) entry from page 4; "completeà", "dock", "steri.", and "hended" as typed in source
+  - date: 22DEC
+    time: 1342
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    course: 
+    speed: 
+    event: Fired one stern shot at 2500 yards track 100 port. We were positive that the planes would see the wake al.. that there should be anti-submarine vessels here if anywhoro in the Empire. The torpedo hit. The target was woll under by now. The final plunge was not seen but her sinking was nevertheless certain evon without the additional hit. The planes dropped several bombs but no anti-subm rine vossols bothered us. Cleared the area to the southward. The freighter had had a raked bow, counter stern, two shallow wells, one tall slender stack, two combination masts and kingposts. She had dazzlo camouflage. Her appearence was similar to that of the SYOTO MARU (Page 216) of 5139-5426 tons.
+    page: 5
+    flags: "al..", "anywhoro", "woll", "evon", "anti-subm rine vossols", "dazzlo", and "appearence" as typed in source
+  - date: 22DEC
+    time: 2102
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 18 knots
+    event: [SUMMARY] Sighted small anti-submarine vessel bearing 060, distant 5 miles; made full speed on three engines (18 knots) while charging battery, chased by enemy in bright moonlight.
+    page: 5
+    flags:
+  - date: 22DEC
+    time: 2152
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: [SUMMARY] Put fourth main engine on propulsion and pulled away from pursuer; chase ended by midnight, then turned east toward southeastern approaches to NOJIMA SAKI.
+    page: 5
+    flags:
+  - date: 25DEC
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: [SUMMARY] Proceeded to seaward of mine plant off INUBO SAKI to observe and intercept traffic routed outside, going slightly outside patrol area.
+    page: 6
+    flags:
+  - date: 26DEC
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: Observation off INUBO S⟦A⟧KI.
+    page: 6
+    flags: typed "INUBO S KI" in source with space or faint A
+  - date: 26DEC
+    time: 1532
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: Sighted smoke bearing 315. Commenced approach but definitely such as to be south of our mine fields which now acted as defensive mine fields.
+    page: 6
+    flags:
+  - date: 26DEC
+    time: 1745
+    zone: K
+    lat: 35-45 N.
+    lon: 140-55 E.
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: minefield
+    course: 
+    speed: 
+    event: (8th Contact) (3rd Attack) Lat. 35-45 N. Long. 140-55 E. 5000 ton freighter Damaged or sunk by mines. The smoke had become four columns of smoke approaching INUBO SAKI. We were approaching for an attack south of INUBO SKI. At this instant, however, the leading ship, which had reached the exact bearing of our mine plants, commenced smoking at least five times as great as before and the three other ships scattered to the northward. The smoke off our mine plants lasted only a few minutes while the other three columns of smoke disappeared to the northward. Consider that a freighter of at least 5000 tons was damaged if not sunk by this mine.
+    page: 6
+    flags: "INUBO SKI" and "normward" typed in source; target damaged or sunk by minefield
+  - date: 26DEC
+    time: 1815
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: Surfaced and patrolled off the east line through INUBO to catch the other three ships trying to get by outboard.
+    page: 6
+    flags:
+  - date: 26DEC
+    time: 1945
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: [SUMMARY] Sighted searchlights on INUBO SAKI and down coast searching water and sky; decided to proceed to NOJIMA SAKI to observe for the three freighters.
+    page: 6
+    flags:
+  - date: 28DEC
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: [SUMMARY] Station patrol covering southern and southeastern approaches to SAGAMI NADA in violent, shifting storms with mountainous seas and variable visibility.
+    page: 6
+    flags: heading spans December 28-31; "SAGALI NADI" and "duravion" typed in source
+  - date: 30DEC
+    time: 1854
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: [SUMMARY] Sighted sweeping searchlight on horizon from suspected ship; patrolled across sweep direction to intercept potential rendezvous until light disappeared after one hour.
+    page: 7
+    flags:
+  - date: 30DEC
+    time: 2220
+    zone: K
+    lat: 33-33 N.
+    lon: 139-49 E.
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: [SUMMARY] Obtained 3-mile SD radar contact (SJ radar out of commission); sighted blur bearing 250, but attempt to develop contact in utter darkness and rain failed.
+    page: 7
+    flags:
+  - date: 30DEC
+    time: 2345
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: Abandoned the search. What the ship was is an open question, probably something large for otherwise the SD would not have picked it up.
+    page: 7
+    flags:
+  - date: 31DEC
+    time: 1720
+    zone: K
+    lat: 34-29 N.
+    lon: 140-38 E.
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    course: 
+    speed: 
+    event: (10th Contact) (4th Attack) Lat. 34-29 N. Long. 140-38 E. 8500 ton freighter Sunk. Sighted large vessel on a southeasterly course. Commenced approach. The seas had picked up late this afternoon and were now mountainous. Even with 10 feet of periscope out the seas spilled over the sight and the target could be seen only momentarily. Depth control was precarious. Use of high speed, trimming heavy and the excellent performance of duty of the planesmen and the Diving Officer, Lieutenant S. H. GIMBER, U.S.N., were the only reasons why and undetected attack was at all possible. The target was large and zigzagging on courses about 60 degrees apart. She had a cargo of planes on her stern.
+    page: 7
+    flags: "momentarilly" and "why and undetected" typed in source
+  - date: 31DEC
+    time: 1730
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    course: 
+    speed: 
+    event: Fired 3 bow torpedoes at 700 yard range, 2 hits. The first hit was definitely contact and the second believed to have been influence. In the heavy seas the torpedo depth control must have been uncertain and the target's instantaneous draft likewise. The target immediately took a list to starboard and started down by the bow By sound her screws slowed and then stopped abruptly.
+    page: 7-8
+    flags: entry continues onto page 8; "starboard and started don by the bow By sound" typed in source
+  - date: 31DEC
+    time: 1735
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: [SUMMARY] Heard explosion at about 1000 yards similar to a depth charge, probably an internal explosion from the sinking freighter rather than an enemy counterattack.
+    page: 8
+    flags:
+  - date: 31DEC
+    time: 1749
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 10 knots
+    event: [SUMMARY] Target lost in periscope; surfaced to chase, sighting her stern high with two-thirds submerged 4000 yards away; approached at full speed (10 knots in heavy seas).
+    page: 8
+    flags:
+  - date: 31DEC
+    time: 1752
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: [SUMMARY] Sighted escort destroyer 4000 yards away heading directly at boat; submerged to attack but could not see her in high seas as she passed stern toward the sinking freighter.
+    page: 8
+    flags: typed "attempted to sell her" in source
+  - date: 31DEC
+    time: 1807
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 15 knots
+    event: [SUMMARY] Destroyer screws faded; surfaced to find target completely sunk in mountainous seas; identified as 8500-ton freighter similar to GOSYU MARU carrying ten planes on stern.
+    page: 8
+    flags:
+  - date: 01JAN
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    course: 
+    speed: 
+    event: Enroute the western approaches to SAGAMI NADA. Crossed the southern approaches during today.
+    page: 8
+    flags: "SAGALI NADA" and "sou nern" typed in source
+```
+
+Could not transcribe: no tabular data (contacts, attacks, noon positions, or BT observations) appears on the four pages provided.
