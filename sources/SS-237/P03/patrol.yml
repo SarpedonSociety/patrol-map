@@ -1,0 +1,22 @@
+# USS Trigger (SS-237), War Patrol 3
+# Report found; not yet transcribed. Until then this file holds the patrol
+# dates and claimed tonnage, so the scoreboard stays complete.
+
+boat: SS-237
+patrol: 3
+year: 1942
+report_found: yes
+report:
+comsubpac_report_no: 128
+commanding_officer:
+
+period:
+  start: 1942-12-03
+  end: 1943-01-22
+  source: "Patrol report"
+
+# Claimed tonnage as summarized from the report; check against the attack
+# tables when transcribing.
+tonnage:
+  - { result: sunk, tons: 15271, ships: , basis: claimed, source: "Patrol report: total claimed sunk by torpedo" }
+  - { result: sunk, tons: 8400, target: Freighter, basis: claimed, source: "Patrol report: freighter sunk by a mine laid by Trigger" }

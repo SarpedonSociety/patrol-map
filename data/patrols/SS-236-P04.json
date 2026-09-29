@@ -1,0 +1,72 @@
+{
+ "id": "SS-236-P04",
+ "boat": "SS-236",
+ "name": "Silversides",
+ "class": "Gato",
+ "patrol": 4,
+ "year": 1942,
+ "report": null,
+ "commanding_officer": null,
+ "citation": {},
+ "fold3_images": {},
+ "miles_steamed": null,
+ "fuel_expended": null,
+ "start": "1942-12-17T12:00:00Z",
+ "end": "1943-01-31T12:00:00Z",
+ "departure": null,
+ "arrival": null,
+ "report_found": true,
+ "summary": {
+  "records": 0,
+  "sightings": 0,
+  "aircraft": 0,
+  "torpedo_attacks": 0,
+  "torpedoes_fired": 0,
+  "gun_actions": 0,
+  "flagged": 0
+ },
+ "track": [],
+ "records": [],
+ "tonnage": [
+  {
+   "id": "SS-236-P04-T01",
+   "utc": "1943-01-31T12:00:00Z",
+   "target": "Oiler",
+   "name": null,
+   "result": "sunk",
+   "tons": 10010,
+   "ships": 1,
+   "basis": "claimed",
+   "source": "Patrol report",
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-T02",
+   "utc": "1943-01-31T12:00:00Z",
+   "target": "Freighters",
+   "name": null,
+   "result": "damaged",
+   "tons": null,
+   "ships": 2,
+   "basis": "claimed",
+   "source": "Patrol report: two freighters damaged; tonnage to add",
+   "flags": [
+    "No tonnage figure."
+   ]
+  },
+  {
+   "id": "SS-236-P04-T03",
+   "utc": "1943-01-31T12:00:00Z",
+   "target": "Submarine",
+   "name": null,
+   "result": "damaged",
+   "tons": null,
+   "ships": 1,
+   "basis": "claimed",
+   "source": "Patrol report: submarine damaged; tonnage to add",
+   "flags": [
+    "No tonnage figure."
+   ]
+  }
+ ]
+}

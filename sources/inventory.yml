@@ -18,7 +18,7 @@ SS-236:   # Silversides
   1:  { status: mapped, found_in: Fold3, start: 1942-04-30, note: "Hand transcription; departure/arrival still to add" }
   2:  { status: available, found_in: Fold3 }
   3:  { status: missing }
-  4:  { status: available, found_in: Fold3, report_no: 133, end: 1943-01-31 }
+  4:  { status: available, found_in: Fold3, report_no: 133, start: 1942-12-17, end: 1943-01-31 }
   5:  { status: available, found_in: Fold3 }
   6:  { status: available, found_in: Fold3 }
   7:  { status: available, found_in: Fold3 }
@@ -33,7 +33,7 @@ SS-236:   # Silversides
 SS-230:   # Finback — commissioned 31 Jan 1942, Electric Boat
   1:  { status: available, found_in: "Fold3, COMSUBSPAC collection" }
   2:  { status: available, found_in: "Fold3, COMSUBSPAC collection", note: "Tonnage from war history already in sources/SS-230/P02; needs patrol dates" }
-  3:  { status: available, found_in: Fold3, report_no: 141, end: 1943-02-06 }
+  3:  { status: available, found_in: Fold3, report_no: 141, start: 1942-12-16, end: 1943-02-06 }
   4:  { status: missing, note: "Tonnage from war history in sources/SS-230/P04; needs patrol dates" }
   5:  { status: available, found_in: Fold3 }
   6:  { status: available, found_in: Fold3 }
@@ -47,7 +47,7 @@ SS-230:   # Finback — commissioned 31 Jan 1942, Electric Boat
 SS-237:   # Trigger — commissioned 31 Jan 1942, Mare Island; lost 28 Mar 1945
   1:  { status: missing }
   2:  { status: available, found_in: Fold3 }
-  3:  { status: available, found_in: Fold3, report_no: 128, end: 1943-01-22 }
+  3:  { status: available, found_in: Fold3, report_no: 128, start: 1942-12-03, end: 1943-01-22 }
   4:  { status: available, found_in: Fold3 }
   5:  { status: available, found_in: Fold3 }
   6:  { status: available, found_in: Fold3 }

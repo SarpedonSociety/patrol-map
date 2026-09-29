@@ -1,0 +1,23 @@
+# USS Silversides (SS-236), War Patrol 4
+# Report found; not yet transcribed. Until then this file holds the patrol
+# dates and claimed tonnage, so the scoreboard stays complete.
+
+boat: SS-236
+patrol: 4
+year: 1942
+report_found: yes
+report:
+comsubpac_report_no: 133
+commanding_officer:
+
+period:
+  start: 1942-12-17
+  end: 1943-01-31
+  source: "Patrol report"
+
+# Claimed tonnage as summarized from the report; check against the attack
+# tables when transcribing.
+tonnage:
+  - { result: sunk, tons: 10010, target: Oiler, basis: claimed, source: "Patrol report" }
+  - { result: damaged, tons: , ships: 2, target: Freighters, basis: claimed, source: "Patrol report: two freighters damaged; tonnage to add" }
+  - { result: damaged, tons: , target: Submarine, basis: claimed, source: "Patrol report: submarine damaged; tonnage to add" }

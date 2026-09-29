@@ -1,0 +1,21 @@
+# USS Finback (SS-230), War Patrol 3
+# Report found; not yet transcribed. Until then this file holds the patrol
+# dates and claimed tonnage, so the scoreboard stays complete.
+
+boat: SS-230
+patrol: 3
+year: 1942
+report_found: yes
+report:
+comsubpac_report_no: 141
+commanding_officer:
+
+period:
+  start: 1942-12-16
+  end: 1943-02-06
+  source: "Patrol report"
+
+# Claimed tonnage as summarized from the report; check against the attack
+# tables when transcribing.
+tonnage:
+  - { result: sunk, tons: 150-200, target: Patrol boat, basis: claimed, source: "Patrol report: small patrol boat, 150-200 tons. Counted at the lower figure." }

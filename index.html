@@ -328,6 +328,7 @@ aside.side {
     return;
   }
   const patrols = await Promise.all(manifest.patrols.map((p) => fetch("data/" + p.file).then((r) => r.json())));
+  patrols.sort((a, b) => Date.parse(a.start) - Date.parse(b.start) || a.boat.localeCompare(b.boat));
   $("loading").remove();
   const PLACES = manifest.places || [];
 
@@ -471,15 +472,16 @@ aside.side {
   function renderBoard() {
     const boats = new Map();
     for (const p of on()) {
-      if (!boats.has(p.boat)) boats.set(p.boat, { boat: p.boat, name: p.name, sunk: 0, ships: 0, damaged: 0, partial: false });
+      if (!boats.has(p.boat)) boats.set(p.boat, { boat: p.boat, name: p.name, sunk: 0, ships: 0, damaged: 0, partial: false, dmgShips: 0 });
       const b = boats.get(p.boat);
       for (const t of p.tonnage || []) {
-        if (t.basis !== basis || t.t > now || t.tons == null) continue;
+        if (t.basis !== basis || t.t > now) continue;
+        if (t.tons == null) { if (t.result === "damaged") b.dmgShips += t.ships || 1; continue; }
         if (t.result === "sunk") { b.sunk += t.tons; if (t.ships == null) b.partial = true; else b.ships += t.ships; } else if (t.result === "damaged") b.damaged += t.tons;
       }
     }
     const rows = [...boats.values()].sort((a, b) => b.sunk - a.sunk || b.damaged - a.damaged || a.name.localeCompare(b.name));
-    const key = basis + rows.map((r) => `${r.boat}:${r.sunk}:${r.damaged}:${r.ships}:${r.partial}`).join("|");
+    const key = basis + rows.map((r) => `${r.boat}:${r.sunk}:${r.damaged}:${r.ships}:${r.partial}:${r.dmgShips}`).join("|");
     if (key === lastBoard) return;
     lastBoard = key;
     const board = $("board");
@@ -503,7 +505,8 @@ aside.side {
       el.querySelector(".who").innerHTML = `${esc(r.name)} <small style="font-weight:500;color:var(--muted)">${esc(r.boat)}</small>`;
       el.querySelector(".tons").textContent = `${fmtTons(r.sunk)} t`;
       const shipText = r.partial ? (r.ships ? `${r.ships}+ ships sunk` : "ship count not recorded") : `${r.ships} ship${r.ships === 1 ? "" : "s"} sunk`;
-      el.querySelector(".sub").textContent = `${shipText}${r.damaged ? ` · ${fmtTons(r.damaged)} t damaged` : ""}`;
+      const dmg = [r.damaged ? `${fmtTons(r.damaged)} t damaged` : "", r.dmgShips ? `${r.dmgShips} damaged, tonnage not entered` : ""].filter(Boolean).join(" · ");
+      el.querySelector(".sub").textContent = `${shipText}${dmg ? " · " + dmg : ""}`;
       el.querySelector(".bar span").style.width = (r.sunk / max) * 100 + "%";
     });
     board.querySelectorAll(".brow").forEach((el) => { if (!seen.has(el.dataset.boat)) el.remove(); });

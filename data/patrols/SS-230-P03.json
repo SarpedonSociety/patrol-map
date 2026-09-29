@@ -1,0 +1,44 @@
+{
+ "id": "SS-230-P03",
+ "boat": "SS-230",
+ "name": "Finback",
+ "class": "Gato",
+ "patrol": 3,
+ "year": 1942,
+ "report": null,
+ "commanding_officer": null,
+ "citation": {},
+ "fold3_images": {},
+ "miles_steamed": null,
+ "fuel_expended": null,
+ "start": "1942-12-16T12:00:00Z",
+ "end": "1943-02-06T12:00:00Z",
+ "departure": null,
+ "arrival": null,
+ "report_found": true,
+ "summary": {
+  "records": 0,
+  "sightings": 0,
+  "aircraft": 0,
+  "torpedo_attacks": 0,
+  "torpedoes_fired": 0,
+  "gun_actions": 0,
+  "flagged": 0
+ },
+ "track": [],
+ "records": [],
+ "tonnage": [
+  {
+   "id": "SS-230-P03-T01",
+   "utc": "1943-02-06T12:00:00Z",
+   "target": "Patrol boat",
+   "name": null,
+   "result": "sunk",
+   "tons": 150,
+   "ships": 1,
+   "basis": "claimed",
+   "source": "Patrol report: small patrol boat, 150-200 tons. Counted at the lower figure.",
+   "flags": []
+  }
+ ]
+}
