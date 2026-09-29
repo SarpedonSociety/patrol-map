@@ -87,7 +87,8 @@ events:          # every narrative entry provided
     tag:         # attack, gun, minefield or rescue (see below); otherwise blank
     course:
     speed:
-    event:       # verbatim; if longer than 25 words, summarize and start with [SUMMARY]
+    event:       # verbatim; if longer than 25 words, summarize and start with [SUMMARY],
+                 # except entries tagged attack, gun or minefield: always in full
     page:
     flags:
 ```
