@@ -45,7 +45,8 @@ Produce TWO outputs, unless told below to produce only one.
 OUTPUT FORMAT
 Put each output inside its own fenced code block (```yaml for OUTPUT 1,
 ```markdown for OUTPUT 2) so it appears as plain text with a copy button.
-Do not render the tables as formatted tables. Write nothing between or
+Do not render the tables as formatted tables. In OUTPUT 1, put double
+quotes around every `event` and `flags` value. Write nothing between or
 after the code blocks except one line listing anything you could not
 transcribe.
 
@@ -113,9 +114,15 @@ wording in `flags`. Leave `lat` and `lon` blank for these. Never convert
 them to latitude and longitude yourself.
 
 Tag every narrative entry recording a torpedo attack with `tag: attack`,
-a gun action with `tag: gun`, and mine laying with `tag: minefield`
-(record the entries where laying began and ended, with any positions,
-bearings or landmarks given). Keep torpedoes fired, hits and results in
+a gun action with `tag: gun`, and mine laying with `tag: minefield`.
+Use `minefield` only for entries where laying begins, ends or is
+interrupted, and for a ship sunk or damaged by the mines; record any
+positions, bearings or landmarks given.
+
+Each entry's time is the one printed at the start of that entry. Never
+move a time from one entry to another. If an entry's first line is a
+heading (contact number, attack number, position) with its own time,
+keep that time with that entry. Keep torpedoes fired, hits and results in
 `event` as typed.
 
 Tag every entry about lifeguard duty with `tag: rescue`: the lifeguard

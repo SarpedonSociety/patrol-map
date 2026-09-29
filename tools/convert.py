@@ -300,9 +300,26 @@ def load_yaml_text(path):
     fenced = re.search(r"```[a-zA-Z]*\n(.*?)```", text, re.S)
     if fenced:
         text = fenced.group(1)
+    text = quote_text_fields(text)
     # BaseLoader keeps every value as typed text, so a time like 0700 isn't
     # read as an octal number.
     return blanks_to_none(yaml.load(text, Loader=yaml.BaseLoader)) or {}
+
+
+TEXT_FIELDS = ("event", "flags", "report", "nara_catalog_title", "title", "note", "source")
+
+
+def quote_text_fields(text):
+    """Put quotes round free-text values Gemini left bare. Without them,
+    '[SUMMARY] ...' or 'the following Marus: AIKOKU' break the YAML."""
+    out = []
+    for line in text.splitlines():
+        m = re.match(r"^(\s*(?:-\s+)?)(%s):[ \t]+(.+?)\s*$" % "|".join(TEXT_FIELDS), line)
+        if m and not re.match(r"""^(["'{|>]|null$|~$)""", m.group(3)):
+            value = m.group(3).replace("\\", "\\\\").replace('"', '\\"')
+            line = f'{m.group(1)}{m.group(2)}: "{value}"'
+        out.append(line)
+    return "\n".join(out)
 
 
 def merge_meta(manual, batches):
@@ -389,7 +406,7 @@ def build_patrol(folder, ref):
         lon = parse_coord(str(ev.get("lon") or ""), hemi["lon"], False)
         position_verbatim = " ".join(str(x) for x in (ev.get("lat"), ev.get("lon")) if x)
         derived = None
-        if (lat is None or lon is None) and ev.get("from"):
+        if (lat is None or lon is None) and ev.get("from") and (ev.get("bearing") or ev.get("distance")):
             # Position given relative to a landmark, e.g. "9 miles NE of MINAMI JIMA"
             name = str(ev["from"]).strip()
             position_verbatim = f"{ev.get('distance') or ''} {ev.get('bearing') or ''} of {name}".strip()
