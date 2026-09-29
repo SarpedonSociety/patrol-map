@@ -7,7 +7,7 @@
 #          mapped       on the map
 #          no-report    no report exists (e.g. boat lost on this patrol)
 # found_in: where the report was found (Fold3 COMSUBPAC collection, Fold3 ship
-#          collection, NARA, maritime.org, ...)
+#          collection, Fold3 "COMSUBSPAC" collection, NARA, maritime.org, ...)
 # start/end: patrol dates once known (from the report's first narrative
 #          entries), e.g. 1942-07-15. Used to find overlapping patrols.
 
@@ -28,8 +28,8 @@ SS-236:   # Silversides
   14: { status: available, found_in: Fold3 }
 
 SS-230:   # Finback — commissioned 31 Jan 1942, Electric Boat
-  1:  { status: missing }
-  2:  { status: missing, note: "Tonnage from war history in sources/SS-230/P02; needs patrol dates" }
+  1:  { status: available, found_in: "Fold3, COMSUBSPAC collection" }
+  2:  { status: available, found_in: "Fold3, COMSUBSPAC collection", note: "Tonnage from war history already in sources/SS-230/P02; needs patrol dates" }
   3:  { status: available, found_in: Fold3 }
   4:  { status: missing, note: "Tonnage from war history in sources/SS-230/P04; needs patrol dates" }
   5:  { status: available, found_in: Fold3 }
@@ -54,6 +54,9 @@ SS-237:   # Trigger — commissioned 31 Jan 1942, Mare Island; lost 28 Mar 1945
   10: { status: available, found_in: Fold3 }
   11: { status: available, found_in: Fold3 }
   12: { status: no-report, note: "Lost on this patrol; reconstruct from other sources" }
+
+SS-229:   # Flying Fish
+  1:  { status: available, found_in: "Fold3, COMSUBSPAC collection" }
 
 SS-228:   # Drum
   2:  { status: available, found_in: Fold3, note: "Enclosures A-C downloaded; COMSUBPAC Patrol Report No. 66" }

@@ -519,7 +519,7 @@ aside.side {
       lab.innerHTML = `<input type="checkbox" id="pt-${p.id}" ${p.on ? "checked" : ""}>
         <span class="name">${p.name}<small>${p.boat} · Patrol ${p.patrol}</small></span>
         <span class="meta">${fmtDate(new Date(p.start))} – ${fmtDate(new Date(p.end))}<br>
-        ${p.report_found === false ? "No report found · tonnage only" : `${s.torpedo_attacks} torpedo attacks · ${s.torpedoes_fired} torpedoes`}${s.gun_actions ? ` · ${s.gun_actions} gun action${s.gun_actions === 1 ? "" : "s"}` : ""}${s.aircraft ? ` · ${s.aircraft} aircraft` : ""}
+        ${!s.records ? (p.report_found === false ? "No report found · tonnage only" : "Not yet transcribed · tonnage only") : `${s.torpedo_attacks} torpedo attacks · ${s.torpedoes_fired} torpedoes`}${s.gun_actions ? ` · ${s.gun_actions} gun action${s.gun_actions === 1 ? "" : "s"}` : ""}${s.aircraft ? ` · ${s.aircraft} aircraft` : ""}
         ${s.flagged ? `<br><span class="chip">${s.flagged} to review</span>` : ""}</span>`;
       lab.querySelector("input").addEventListener("change", (e) => {
         p.on = e.target.checked; setRange(); fit(true); renderLog(); renderBoard();

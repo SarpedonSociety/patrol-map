@@ -1,11 +1,12 @@
 # USS Finback (SS-230), War Patrol 2
-# No patrol report found yet. This file holds only the tonnage claimed,
-# so the scoreboard stays complete. The patrol draws nothing on the chart.
+# Report found (Fold3, COMSUBSPAC collection) but not yet transcribed.
+# Until then this file holds only the tonnage claimed, so the scoreboard
+# stays complete. The patrol draws nothing on the chart.
 
 boat: SS-230
 patrol: 2
 year: 1942
-report_found: no
+report_found: yes
 report:
 commanding_officer:
 

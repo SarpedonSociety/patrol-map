@@ -1,6 +1,10 @@
 # Reference data (not from patrol reports)
 
 boats:
+  SS-229:
+    name: Flying Fish
+    class: Gato
+    museum:
   SS-230:
     name: Finback
     class: Gato
