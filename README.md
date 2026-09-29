@@ -108,7 +108,14 @@ converter works out the position from the landmark's entry under
 with a dashed outline, are flagged as estimates, and stay off the track
 line, since the report didn't record them as the boat's own position.
 
-Entries tagged `rescue` (lifeguard duty) get their own marker.
+Entries tagged `rescue` (lifeguard duty) get their own marker. So do
+entries tagged `counterattack` (depth charges, bombs or gunfire against
+the boat), which can also carry `charges` (how many) and `damage` (what
+the boat suffered, verbatim).
+
+A contact table with an attacked Yes/No column shows the "Yes" rows as
+attacks. If the table doesn't say how, they're shown as torpedo attacks
+and flagged to check against the narrative.
 
 ## Entries without a position
 

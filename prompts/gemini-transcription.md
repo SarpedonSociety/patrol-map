@@ -12,7 +12,9 @@ with only:
    change, the departure or the arrival (the first and last narrative
    entries usually hold departure and arrival), and any lifeguard duty:
    the station assignment, downed-aviator reports and rescues,
-3. the ship contact, aircraft contact and attack tables,
+3. the ship contact, aircraft contact and attack tables (if the report has
+   no attack table, add the narrative around each attack, from the
+   approach through any depth charging that followed),
 4. any table that records the boat's own positions: density layer or
    bathythermograph observations, noon positions and the like.
 
@@ -85,7 +87,9 @@ events:          # every narrative entry provided
     bearing:     # as typed, e.g. NE, WSW, 045T
     distance:    # as typed, e.g. 9 miles
     bearing_is:  # from_landmark ("9 miles NE of X") or to_landmark ("X bearing 060, 2 miles": X bore 060 from the boat)
-    tag:         # attack, gun, minefield or rescue (see below); otherwise blank
+    tag:         # attack, gun, minefield, counterattack or rescue (see below); otherwise blank
+    charges:     # counterattacks only: number of depth charges or bombs, as typed
+    damage:      # counterattacks only: damage to the boat, verbatim
     course:
     speed:
     event:       # verbatim; if longer than 25 words, summarize and start with [SUMMARY],
@@ -128,6 +132,11 @@ move a time from one entry to another. If an entry's first line is a
 heading (contact number, attack number, position) with its own time,
 keep that time with that entry. Keep torpedoes fired, hits and results in
 `event` as typed.
+
+Tag every entry recording an enemy attack on the boat (depth charges,
+bombs, gunfire) with `tag: counterattack`. Record the number of charges
+in `charges` if the entry gives it, and any damage to the boat, verbatim,
+in `damage`. Keep these entries in full.
 
 Tag every entry about lifeguard duty with `tag: rescue`: the lifeguard
 station assignment (record its position if given), reports of downed
@@ -172,7 +181,9 @@ RULES
 3. Keep positions as typed, including the separator between latitude
    and longitude.
 4. If a gun action appears in a torpedo table, keep it where the report
-   puts it and say so in Flags.
+   puts it and say so in Flags. If a contact table has a column saying
+   whether each contact was attacked (Yes/No), keep it with its own
+   heading.
 5. If any character is illegible, overstruck or ambiguous, write your
    best reading, wrap it in ⟦ ⟧, and explain in Flags
    (e.g. "⟦5⟧00 — first digit faint, could be blank").

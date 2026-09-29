@@ -22,6 +22,7 @@
   "aircraft": 0,
   "torpedo_attacks": 0,
   "mine_attacks": 0,
+  "counterattacks": 0,
   "torpedoes_fired": 0,
   "gun_actions": 0,
   "flagged": 0

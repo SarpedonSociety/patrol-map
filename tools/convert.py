@@ -64,15 +64,17 @@ KEYWORDS = [
     ("trackangle", "track"), ("gyro", "gyro"), ("targetspeed", "speed"),
     ("interval", "interval"), ("spread", "spread"), ("satisfactory", "performance"),
     ("performance", "performance"), ("initialrange", "initial_range"),
+    ("attacked", "attack_no"), ("attackyes", "attack_no"),
 ]
 # Tables that record the boat's own positions rather than contacts:
 # density layer / bathythermograph observations, noon positions and the like.
 FIX_SECTION = re.compile(r"density|bathythermo|noon position|own position|\bpositions\b", re.I)
 
 # Narrative entry tags -> map marker kind and default title.
-TAG_KIND = {"rescue": "rescue", "attack": "torpedo", "gun": "gun", "minefield": "minefield"}
+TAG_KIND = {"rescue": "rescue", "attack": "torpedo", "gun": "gun", "minefield": "minefield",
+            "counterattack": "counterattack"}
 TAG_TITLE = {"rescue": "Aviator rescue", "attack": "Torpedo attack (narrative)", "gun": "Gun action (narrative)",
-             "minefield": "Minefield laid"}
+             "minefield": "Minefield laid", "counterattack": "Depth-charged"}
 
 UNCERTAIN = re.compile(r"⟦[^⟧]*⟧")
 
@@ -470,7 +472,8 @@ def build_patrol(folder, ref):
             "type": "Narrative", "title": ev.get("title") or (
                 "Ship hit by mines" if tag == "minefield" and re.search(r"attack\s*\)|\bsunk\b|\bdamaged\b", str(ev.get("event") or ""), re.I)
                 else TAG_TITLE.get(tag, "Narrative entry")),
-            "fields": {"event": ev.get("event")},
+            "fields": {k: v for k, v in (("event", ev.get("event")), ("charges", ev.get("charges")),
+                                          ("damage", ev.get("damage"))) if v},
             "flags": flags,
         })
 
@@ -590,6 +593,16 @@ def build_patrol(folder, ref):
                         flags.append(f"Report note {mark}: {text.strip().rstrip(',')}")
 
             kind = "fix" if is_fix else classify(f, section)
+            attacked = str(f.get("attack_no") or "").strip().lower()
+            if attacked in ("yes", "y", "no", "n", "none", "-"):
+                f.pop("attack_no")
+                f["attacked"] = "Yes" if attacked in ("yes", "y") else "No"
+                if f["attacked"] == "Yes" and kind == "sighting":
+                    remarks = f"{f.get('remarks') or ''} {f.get('description') or ''}".lower()
+                    kind = "gun" if re.search(r"\bgun|\b3\"|shell", remarks) else "torpedo"
+                    if kind == "torpedo":
+                        flags.append("The table marks this contact as attacked but doesn't say how; "
+                                     "shown as a torpedo attack. Check the narrative.")
             fired, hits = as_int(f.get("fired")), as_int(f.get("hits"))
             if kind == "torpedo" and fired is not None and hits is not None and hits > fired:
                 flags.append(f"More hits ({hits}) than torpedoes fired ({fired}).")
@@ -737,6 +750,7 @@ def build_patrol(folder, ref):
         "aircraft": sum(r["kind"] == "aircraft" for r in records),
         "torpedo_attacks": sum(k == "torpedo" for k in numbered.values()) if numbered else len(torps),
         "mine_attacks": sum(k == "minefield" for k in numbered.values()),
+        "counterattacks": sum(r["kind"] == "counterattack" for r in records),
         "torpedoes_fired": sum(as_int(r["fields"].get("fired")) or 0 for r in torps),
         "gun_actions": sum(k == "gun" for k in numbered.values()) if numbered else sum(r["kind"] == "gun" for r in records),
         "flagged": sum(bool(r["flags"]) for r in records)
