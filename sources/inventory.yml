@@ -33,7 +33,7 @@ SS-236:   # Silversides
 SS-230:   # Finback — commissioned 31 Jan 1942, Electric Boat
   1:  { status: available, found_in: "Fold3, COMSUBSPAC collection" }
   2:  { status: available, found_in: "Fold3, COMSUBSPAC collection", note: "Tonnage from war history already in sources/SS-230/P02; needs patrol dates" }
-  3:  { status: available, found_in: Fold3, report_no: 141, start: 1942-12-16, end: 1943-02-06 }
+  3:  { status: transcribed, found_in: Fold3, report_no: 141, start: 1942-12-16, end: 1943-02-06, note: "Tables (pages 13-14) and endorsement hand-transcribed; narrative not transcribed. Arrival port to add." }
   4:  { status: missing, note: "Tonnage from war history in sources/SS-230/P04; needs patrol dates" }
   5:  { status: available, found_in: Fold3 }
   6:  { status: available, found_in: Fold3 }

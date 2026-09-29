@@ -498,12 +498,16 @@ aside.side {
       const b = boats.get(p.boat);
       for (const t of p.tonnage || []) {
         if (t.basis !== basis || t.t > now) continue;
-        if (t.tons == null) { if (t.result === "damaged") b.dmgShips += t.ships || 1; continue; }
+        if (t.tons == null) {
+          if (t.result === "damaged") b.dmgShips += t.ships || 1;
+          else if (t.result === "sunk") { b.ships += t.ships || 1; b.noTons = (b.noTons || 0) + (t.ships || 1); }
+          continue;
+        }
         if (t.result === "sunk") { b.sunk += t.tons; if (t.ships == null) b.partial = true; else b.ships += t.ships; } else if (t.result === "damaged") b.damaged += t.tons;
       }
     }
     const rows = [...boats.values()].sort((a, b) => b.sunk - a.sunk || b.damaged - a.damaged || a.name.localeCompare(b.name));
-    const key = basis + rows.map((r) => `${r.boat}:${r.sunk}:${r.damaged}:${r.ships}:${r.partial}:${r.dmgShips}`).join("|");
+    const key = basis + rows.map((r) => `${r.boat}:${r.sunk}:${r.damaged}:${r.ships}:${r.partial}:${r.dmgShips}:${r.noTons}`).join("|");
     if (key === lastBoard) return;
     lastBoard = key;
     const board = $("board");
@@ -527,8 +531,9 @@ aside.side {
       el.querySelector(".who").innerHTML = `${esc(r.name)} <small style="font-weight:500;color:var(--muted)">${esc(r.boat)}</small>`;
       el.querySelector(".tons").textContent = `${fmtTons(r.sunk)} t`;
       const shipText = r.partial ? (r.ships ? `${r.ships}+ ships sunk` : "ship count not recorded") : `${r.ships} ship${r.ships === 1 ? "" : "s"} sunk`;
+      const noTonsText = r.noTons ? ` (${r.noTons} without tonnage)` : "";
       const dmg = [r.damaged ? `${fmtTons(r.damaged)} t damaged` : "", r.dmgShips ? `${r.dmgShips} damaged, tonnage not entered` : ""].filter(Boolean).join(" · ");
-      el.querySelector(".sub").textContent = `${shipText}${dmg ? " · " + dmg : ""}`;
+      el.querySelector(".sub").textContent = `${shipText}${noTonsText}${dmg ? " · " + dmg : ""}`;
       el.querySelector(".bar span").style.width = (r.sunk / max) * 100 + "%";
     });
     board.querySelectorAll(".brow").forEach((el) => { if (!seen.has(el.dataset.boat)) el.remove(); });

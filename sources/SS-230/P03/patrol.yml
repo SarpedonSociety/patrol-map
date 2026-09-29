@@ -1,21 +1,44 @@
 # USS Finback (SS-230), War Patrol 3
-# Report found; not yet transcribed. Until then this file holds the patrol
-# dates and claimed tonnage, so the scoreboard stays complete.
+# Hand transcription from the scans: endorsement (Fold3 268550812) and the
+# contact and aircraft tables, report pages 13-14 (contacts-01.md).
+# The narrative wasn't transcribed.
 
 boat: SS-230
 patrol: 3
 year: 1942
 report_found: yes
-report:
+report: "U.S.S. FINBACK (SS230) - Report of Third War Patrol"
 comsubpac_report_no: 141
 commanding_officer:
+
+citation:
+  archive: NARA
+  record_group: 38
+  nara_catalog_id: 4697018
+  reel: A231
+  micro_serial: 46612
+  file: A16-3(5)
+  serial: 0230
+  date: 2/19/1943
+fold3_images: { 13: 268550889, 14: 268550895 }
+
+departure:
+  port: Pearl Harbor
+  date: 16DEC
+  zone: W
+  flags: "Date from the patrol dates. Port inferred, not stated in the pages transcribed: on 17 December she was about 300 miles west of Oahu (aircraft contacts 1-2). Confirm from the narrative."
+arrival:
+  port:
+  date: 6FEB
+  flags: "Return date 6 February 1943; port not yet transcribed."
 
 period:
   start: 1942-12-16
   end: 1943-02-06
   source: "Patrol report"
 
-# Claimed tonnage as summarized from the report; check against the attack
-# tables when transcribing.
 tonnage:
-  - { result: sunk, tons: 150-200, target: Patrol boat, basis: claimed, source: "Patrol report: small patrol boat, 150-200 tons. Counted at the lower figure." }
+  - { date: 1/17/43, time: 2130, zone: I, target: Patrol boat, result: sunk, tons: , basis: claimed,
+      source: "Vessels Sighted table, contact 9, page 13: 'Destroyed'. The report gives no tonnage." }
+  - { date: 1/17/43, time: 2130, zone: I, target: Patrol boat, result: sunk, tons: 150-200, basis: credited,
+      source: "COMSUBPAC endorsement (C. A. Lockwood, Jr., 19 February 1943): '1 Patrol boat (approximately) - - - 150-200 tons.' Counted at 150." }

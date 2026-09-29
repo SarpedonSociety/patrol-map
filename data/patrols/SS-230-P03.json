@@ -5,41 +5,853 @@
  "class": "Gato",
  "patrol": 3,
  "year": 1942,
- "report": null,
+ "report": "U.S.S. FINBACK (SS230) - Report of Third War Patrol",
  "commanding_officer": null,
- "citation": {},
- "fold3_images": {},
+ "citation": {
+  "archive": "NARA",
+  "record_group": "38",
+  "nara_catalog_id": "4697018",
+  "reel": "A231",
+  "micro_serial": "46612",
+  "file": "A16-3(5)",
+  "serial": "0230",
+  "date": "2/19/1943"
+ },
+ "fold3_images": {
+  "13": "268550889",
+  "14": "268550895"
+ },
  "miles_steamed": null,
  "fuel_expended": null,
  "start": "1942-12-16T12:00:00Z",
  "end": "1943-02-06T12:00:00Z",
- "departure": null,
+ "departure": {
+  "label": "Departed",
+  "port": "Pearl Harbor",
+  "utc": "1942-12-16T22:00:00Z",
+  "local": "W 16DEC",
+  "lat": 21.35,
+  "lon": -157.95,
+  "page": null,
+  "flags": [
+   "Date from the patrol dates. Port inferred, not stated in the pages transcribed: on 17 December she was about 300 miles west of Oahu (aircraft contacts 1-2). Confirm from the narrative.",
+   "Time not recorded; placed at noon."
+  ]
+ },
  "arrival": null,
  "report_found": true,
  "summary": {
-  "records": 0,
-  "sightings": 0,
-  "aircraft": 0,
+  "records": 25,
+  "sightings": 13,
+  "aircraft": 11,
   "torpedo_attacks": 0,
   "mine_attacks": 0,
   "counterattacks": 0,
   "torpedoes_fired": 0,
-  "gun_actions": 0,
-  "flagged": 0
+  "gun_actions": 1,
+  "flagged": 11
  },
- "track": [],
- "records": [],
+ "track": [
+  {
+   "lat": 21.35,
+   "lon": -157.95,
+   "utc": "1942-12-16T22:00:00Z",
+   "basis": "reference"
+  },
+  {
+   "lat": 24.66667,
+   "lon": -164.03333,
+   "utc": "1942-12-17T19:20:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C15"
+  },
+  {
+   "lat": 24.63333,
+   "lon": -164.86667,
+   "utc": "1942-12-17T22:37:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C16"
+  },
+  {
+   "lat": 24.98333,
+   "lon": -167.85,
+   "utc": "1942-12-21T21:12:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C17"
+  },
+  {
+   "lat": 25.36333,
+   "lon": 154.36667,
+   "utc": "1942-12-26T19:50:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C01"
+  },
+  {
+   "lat": 28.83333,
+   "lon": 141.56667,
+   "utc": "1942-12-30T05:43:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C02"
+  },
+  {
+   "lat": 30.88333,
+   "lon": 131.48333,
+   "utc": "1942-12-30T23:08:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C18"
+  },
+  {
+   "lat": 29.11667,
+   "lon": 138.2,
+   "utc": "1943-01-01T02:29:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C03"
+  },
+  {
+   "lat": 29.21667,
+   "lon": 138.05,
+   "utc": "1943-01-01T05:21:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C04"
+  },
+  {
+   "lat": 30.83333,
+   "lon": 131.46667,
+   "utc": "1943-01-03T09:19:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C19"
+  },
+  {
+   "lat": 30.86667,
+   "lon": 131.75,
+   "utc": "1943-01-03T12:05:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C05"
+  },
+  {
+   "lat": 31.21667,
+   "lon": 131.4,
+   "utc": "1943-01-04T00:10:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C06"
+  },
+  {
+   "lat": 30.21667,
+   "lon": 132.3,
+   "utc": "1943-01-04T06:32:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C20"
+  },
+  {
+   "lat": 31.26667,
+   "lon": 131.66667,
+   "utc": "1943-01-04T14:09:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C07"
+  },
+  {
+   "lat": 31.2,
+   "lon": 131.7,
+   "utc": "1943-01-07T01:23:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C21"
+  },
+  {
+   "lat": 31.31667,
+   "lon": 132.41667,
+   "utc": "1943-01-08T22:38:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C22"
+  },
+  {
+   "lat": 30.63333,
+   "lon": 131.31667,
+   "utc": "1943-01-13T03:41:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C08"
+  },
+  {
+   "lat": 31.16667,
+   "lon": 131.63333,
+   "utc": "1943-01-14T12:50:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C23"
+  },
+  {
+   "lat": 30.55,
+   "lon": 132.41667,
+   "utc": "1943-01-17T12:30:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C09"
+  },
+  {
+   "lat": 30.66667,
+   "lon": 131.41667,
+   "utc": "1943-01-18T08:50:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C24"
+  },
+  {
+   "lat": 31.33333,
+   "lon": 132.18333,
+   "utc": "1943-01-19T08:04:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C10"
+  },
+  {
+   "lat": 31.41667,
+   "lon": 132.11667,
+   "utc": "1943-01-22T23:32:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C11"
+  },
+  {
+   "lat": 31.26667,
+   "lon": 132.2,
+   "utc": "1943-01-23T07:05:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C12"
+  },
+  {
+   "lat": 31.21667,
+   "lon": 132.15,
+   "utc": "1943-01-23T09:16:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C13"
+  },
+  {
+   "lat": 31.38333,
+   "lon": 132.56667,
+   "utc": "1943-01-23T10:46:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C25"
+  },
+  {
+   "lat": 31.33333,
+   "lon": 132.5,
+   "utc": "1943-01-23T13:36:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P03-C14"
+  }
+ ],
+ "records": [
+  {
+   "id": "SS-230-P03-C15",
+   "source": "6. description of aircraft sighted.",
+   "row": 15,
+   "kind": "aircraft",
+   "page": "14",
+   "zone": "W",
+   "local": "0920 W 12/17/42",
+   "utc": "1942-12-17T19:20:00Z",
+   "position_verbatim": "24-40 N 164-02 W",
+   "lat": 24.66667,
+   "lon": -164.03333,
+   "derived": null,
+   "type": "B-24",
+   "title": "Aircraft 1 · B-24",
+   "fields": {
+    "type": "B-24",
+    "course": "290",
+    "altitude": "1000",
+    "remarks": "Approached and challenged."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P03-C16",
+   "source": "6. description of aircraft sighted.",
+   "row": 16,
+   "kind": "aircraft",
+   "page": "14",
+   "zone": "W",
+   "local": "1237 W 12/17/42",
+   "utc": "1942-12-17T22:37:00Z",
+   "position_verbatim": "24-38 N 164-52 W",
+   "lat": 24.63333,
+   "lon": -164.86667,
+   "derived": null,
+   "type": "PBY",
+   "title": "Aircraft 2 · PBY",
+   "fields": {
+    "type": "PBY",
+    "course": "100",
+    "altitude": "1000"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P03-C17",
+   "source": "6. description of aircraft sighted.",
+   "row": 17,
+   "kind": "aircraft",
+   "page": "14",
+   "zone": "L",
+   "local": "0812 L 12/22/42",
+   "utc": "1942-12-21T21:12:00Z",
+   "position_verbatim": "24-59 N 167-51 W",
+   "lat": 24.98333,
+   "lon": -167.85,
+   "derived": null,
+   "type": "PBY",
+   "title": "Aircraft 3 · PBY",
+   "fields": {
+    "type": "PBY",
+    "course": "250",
+    "altitude": "500",
+    "remarks": "Approached and challenged."
+   },
+   "flags": [
+    "Transcriber: Zone typed L, but 167-51 W lies in zone X (+11 hours behind GMT, not ahead). Check.",
+    "Review: Zone typed L, but 167-51 W lies in zone X. With L the time falls on 21 December GMT; with X it would be 22 December. Check the narrative for the date line crossing."
+   ]
+  },
+  {
+   "id": "SS-230-P03-C01",
+   "source": "5. description of enemy vessels sighted.",
+   "row": 1,
+   "kind": "sighting",
+   "page": "13",
+   "zone": "K",
+   "local": "0550 K 12/27/42",
+   "utc": "1942-12-26T19:50:00Z",
+   "position_verbatim": "25-21.8 N 15⟦4⟧-22 E",
+   "lat": 25.36333,
+   "lon": 154.36667,
+   "derived": null,
+   "type": "Patrol",
+   "title": "Contact 1 · Patrol",
+   "fields": {
+    "type": "Patrol",
+    "course": "345",
+    "remarks": "Headed for ship. Flashed white light. Apparently opened fire. No splashes observed."
+   },
+   "flags": [
+    "Transcriber: Longitude third digit faint: 154 or 158.",
+    "Uncertain reading in lat long: 25-21.8 N 15⟦4⟧-22 E"
+   ]
+  },
+  {
+   "id": "SS-230-P03-C02",
+   "source": "5. description of enemy vessels sighted.",
+   "row": 2,
+   "kind": "sighting",
+   "page": "13",
+   "zone": "I",
+   "local": "1443 I 12/30/42",
+   "utc": "1942-12-30T05:43:00Z",
+   "position_verbatim": "28-50 N 141-34 E",
+   "lat": 28.83333,
+   "lon": 141.56667,
+   "derived": null,
+   "type": "Patrol",
+   "title": "Contact 2 · Patrol",
+   "fields": {
+    "type": "Patrol",
+    "course": "Patrolling on station",
+    "speed": "2 kt",
+    "remarks": "About 125 Ft., two masted raked stack. Box structure aft. Pitching heavily in moderate sea"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P03-C18",
+   "source": "6. description of aircraft sighted.",
+   "row": 18,
+   "kind": "aircraft",
+   "page": "14",
+   "zone": "I",
+   "local": "0808 I 12/31/42",
+   "utc": "1942-12-30T23:08:00Z",
+   "position_verbatim": "30-53 N 131-29 E",
+   "lat": 30.88333,
+   "lon": 131.48333,
+   "derived": null,
+   "type": "Japanese Navy Type 95 Reconnaissance Float.",
+   "title": "Aircraft 4 · Japanese Navy Type 95 Reconnaissance Float.",
+   "fields": {
+    "type": "Japanese Navy Type 95 Reconnaissance Float.",
+    "course": "170",
+    "altitude": "500",
+    "remarks": "Apparently not observed by plane"
+   },
+   "flags": [
+    "Review: Aircraft 4 is dated 12/31/42 at 30-53 N 131-29 E, which puts Finback about 360 miles west of her 30 December and 1 January positions (141-34 E, 138-12 E), and back again within a day. The position is almost the same as aircraft 5 on 1/3/43 (30-50 N 131-28 E). Possibly a date error in the report; check against the narrative for 31 December and 3 January."
+   ]
+  },
+  {
+   "id": "SS-230-P03-C03",
+   "source": "5. description of enemy vessels sighted.",
+   "row": 3,
+   "kind": "sighting",
+   "page": "13",
+   "zone": "I",
+   "local": "1129 I 1/1/43",
+   "utc": "1943-01-01T02:29:00Z",
+   "position_verbatim": "29-07 N 138-12 E",
+   "lat": 29.11667,
+   "lon": 138.2,
+   "derived": null,
+   "type": "Same as contact No. 2",
+   "title": "Contact 3 · Same as contact No. 2",
+   "fields": {
+    "type": "Same as contact No. 2",
+    "course": "Patrolling on station",
+    "remarks": "Closed to 2500 yds. Box structure fwd and aft. 4\" or 5\" gun aft."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P03-C04",
+   "source": "5. description of enemy vessels sighted.",
+   "row": 4,
+   "kind": "sighting",
+   "page": "13",
+   "zone": "I",
+   "local": "1421 I 1/1/43",
+   "utc": "1943-01-01T05:21:00Z",
+   "position_verbatim": "29-13 N 138-03 E",
+   "lat": 29.21667,
+   "lon": 138.05,
+   "derived": null,
+   "type": "Sampan",
+   "title": "Contact 4 · Sampan",
+   "fields": {
+    "type": "Sampan",
+    "course": "090"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P03-C19",
+   "source": "6. description of aircraft sighted.",
+   "row": 19,
+   "kind": "aircraft",
+   "page": "14",
+   "zone": "I",
+   "local": "1819 I 1/3/43",
+   "utc": "1943-01-03T09:19:00Z",
+   "position_verbatim": "30-50 N 131-28 E",
+   "lat": 30.83333,
+   "lon": 131.46667,
+   "derived": null,
+   "type": "Navy Type 95 Reconnaissance Float.",
+   "title": "Aircraft 5 · Navy Type 95 Reconnaissance Float.",
+   "fields": {
+    "type": "Navy Type 95 Reconnaissance Float.",
+    "course": "270",
+    "altitude": "200",
+    "remarks": "Apparently not observed by plane."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P03-C05",
+   "source": "5. description of enemy vessels sighted.",
+   "row": 5,
+   "kind": "sighting",
+   "page": "13",
+   "zone": "I",
+   "local": "2105 I 1/3/43",
+   "utc": "1943-01-03T12:05:00Z",
+   "position_verbatim": "30-52 N 131-45 E",
+   "lat": 30.86667,
+   "lon": 131.75,
+   "derived": null,
+   "type": "Sampan",
+   "title": "Contact 5 · Sampan",
+   "fields": {
+    "type": "Sampan",
+    "speed": "4kts"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P03-C06",
+   "source": "5. description of enemy vessels sighted.",
+   "row": 6,
+   "kind": "sighting",
+   "page": "13",
+   "zone": "I",
+   "local": "0910 I 1/4/43",
+   "utc": "1943-01-04T00:10:00Z",
+   "position_verbatim": "31-13 N 131-24 E",
+   "lat": 31.21667,
+   "lon": 131.4,
+   "derived": null,
+   "type": "Patrol",
+   "title": "Contact 6 · Patrol",
+   "fields": {
+    "type": "Patrol",
+    "course": "350",
+    "speed": "8kts",
+    "remarks": "Length 125-150 ft. Box structure fwd & aft. 3\" gun fwd. 4\" or 5\" gun aft. Small guns mounted around stack. About 500 tons. Single, broad raked stack. Same as #2 & #3."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P03-C20",
+   "source": "6. description of aircraft sighted.",
+   "row": 20,
+   "kind": "aircraft",
+   "page": "14",
+   "zone": "I",
+   "local": "1532 I 1/4/43",
+   "utc": "1943-01-04T06:32:00Z",
+   "position_verbatim": "30-13 N 132-18 E",
+   "lat": 30.21667,
+   "lon": 132.3,
+   "derived": null,
+   "type": "Single pontoon monoplane.",
+   "title": "Aircraft 6 · Single pontoon monoplane.",
+   "fields": {
+    "type": "Single pontoon monoplane.",
+    "course": "180",
+    "altitude": "2000",
+    "remarks": "Formation of 6 planes."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P03-C07",
+   "source": "5. description of enemy vessels sighted.",
+   "row": 7,
+   "kind": "sighting",
+   "page": "13",
+   "zone": "I",
+   "local": "2309 I 1/4/43",
+   "utc": "1943-01-04T14:09:00Z",
+   "position_verbatim": "31-16 N 131-40 E",
+   "lat": 31.26667,
+   "lon": 131.66667,
+   "derived": null,
+   "type": "Patrol",
+   "title": "Contact 7 · Patrol",
+   "fields": {
+    "type": "Patrol",
+    "course": "330",
+    "remarks": "Same vessel as contact No. 6."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P03-C21",
+   "source": "6. description of aircraft sighted.",
+   "row": 21,
+   "kind": "aircraft",
+   "page": "14",
+   "zone": "I",
+   "local": "1023 I 1/7/43",
+   "utc": "1943-01-07T01:23:00Z",
+   "position_verbatim": "31-12 N 131-42 E",
+   "lat": 31.2,
+   "lon": 131.7,
+   "derived": null,
+   "type": "Monoplane. Retractable landing gear, squared wing tips, single motor",
+   "title": "Aircraft 7 · Monoplane. Retractable landing gear, squared wing tips, single motor",
+   "fields": {
+    "type": "Monoplane. Retractable landing gear, squared wing tips, single motor",
+    "course": "000",
+    "altitude": "2000 / 200",
+    "remarks": "Formation of 8 planes. / 1 plane."
+   },
+   "flags": [
+    "Transcriber: A second line under this entry gives altitude 200 and \"1 plane\"."
+   ]
+  },
+  {
+   "id": "SS-230-P03-C22",
+   "source": "6. description of aircraft sighted.",
+   "row": 22,
+   "kind": "aircraft",
+   "page": "14",
+   "zone": "I",
+   "local": "0738 I 1/9/43",
+   "utc": "1943-01-08T22:38:00Z",
+   "position_verbatim": "31-19 N 132-25 E",
+   "lat": 31.31667,
+   "lon": 132.41667,
+   "derived": null,
+   "type": "Same as #7",
+   "title": "Aircraft 8 · Same as #7",
+   "fields": {
+    "type": "Same as #7",
+    "course": "000",
+    "altitude": "1500",
+    "remarks": "Apparently not observed by plane"
+   },
+   "flags": [
+    "Transcriber: Last digit of time faint.",
+    "Uncertain reading in time: 073⟦8⟧ I"
+   ]
+  },
+  {
+   "id": "SS-230-P03-C08",
+   "source": "5. description of enemy vessels sighted.",
+   "row": 8,
+   "kind": "sighting",
+   "page": "13",
+   "zone": "I",
+   "local": "1241 I 1/13/43",
+   "utc": "1943-01-13T03:41:00Z",
+   "position_verbatim": "30-38 N 131-19 E",
+   "lat": 30.63333,
+   "lon": 131.31667,
+   "derived": null,
+   "type": "Motor Sampan",
+   "title": "Contact 8 · Motor Sampan",
+   "fields": {
+    "type": "Motor Sampan",
+    "speed": "6kts",
+    "remarks": "About 100ft. High bow. Two light masts. Single short stack. Box structure aft. Welldeck amidships."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P03-C23",
+   "source": "6. description of aircraft sighted.",
+   "row": 23,
+   "kind": "aircraft",
+   "page": "14",
+   "zone": "I",
+   "local": "2150 I 1/14/43",
+   "utc": "1943-01-14T12:50:00Z",
+   "position_verbatim": "31-10 N 131-38 E",
+   "lat": 31.16667,
+   "lon": 131.63333,
+   "derived": null,
+   "type": "",
+   "title": "Aircraft 9",
+   "fields": {
+    "course": "180",
+    "altitude": "1000",
+    "remarks": "Showed running lights Apparently not observed by plane."
+   },
+   "flags": [
+    "Transcriber: Last digit of time faint.",
+    "Uncertain reading in time: 215⟦0⟧ I"
+   ]
+  },
+  {
+   "id": "SS-230-P03-C09",
+   "source": "5. description of enemy vessels sighted.",
+   "row": 9,
+   "kind": "gun",
+   "page": "13",
+   "zone": "I",
+   "local": "2130 I 1/17/43",
+   "utc": "1943-01-17T12:30:00Z",
+   "position_verbatim": "30-33 N 132-25 E",
+   "lat": 30.55,
+   "lon": 132.41667,
+   "derived": null,
+   "type": "Motor Sampan Type Patrol Boat",
+   "title": "Contact 9 · Motor Sampan Type Patrol Boat",
+   "fields": {
+    "type": "Motor Sampan Type Patrol Boat",
+    "course": "Various",
+    "speed": "Var.",
+    "remarks": "About 150 ft. High bow. Two masts. Single stack. Showing lights when first sighted. Made battle surface. Expended 15 rds. of 4\" and 460 rds of 20 MM. Destroyed."
+   },
+   "flags": [
+    "Transcriber: Gun action; the only claim of the patrol."
+   ]
+  },
+  {
+   "id": "SS-230-P03-C24",
+   "source": "6. description of aircraft sighted.",
+   "row": 24,
+   "kind": "aircraft",
+   "page": "14",
+   "zone": "I",
+   "local": "1750 I 1/18/43",
+   "utc": "1943-01-18T08:50:00Z",
+   "position_verbatim": "30-40 N 131-25 E",
+   "lat": 30.66667,
+   "lon": 131.41667,
+   "derived": null,
+   "type": "Monoplane",
+   "title": "Aircraft 10 · Monoplane",
+   "fields": {
+    "type": "Monoplane",
+    "course": "045",
+    "altitude": "200",
+    "remarks": "Details not noted. Range about 8000 yds."
+   },
+   "flags": [
+    "Transcriber: Time and position overtyped but legible."
+   ]
+  },
+  {
+   "id": "SS-230-P03-C10",
+   "source": "5. description of enemy vessels sighted.",
+   "row": 10,
+   "kind": "sighting",
+   "page": "13",
+   "zone": "I",
+   "local": "1704 I 1/19/43",
+   "utc": "1943-01-19T08:04:00Z",
+   "position_verbatim": "31-20 N 132-11 E",
+   "lat": 31.33333,
+   "lon": 132.18333,
+   "derived": null,
+   "type": "ASASHIO Type Destroyer",
+   "title": "Contact 10 · ASASHIO Type Destroyer",
+   "fields": {
+    "type": "ASASHIO Type Destroyer",
+    "course": "300",
+    "speed": "25-30",
+    "remarks": "Minimum range - 12,000yds"
+   },
+   "flags": [
+    "Transcriber: Last digit of time faint.",
+    "Uncertain reading in time: 170⟦4⟧ I"
+   ]
+  },
+  {
+   "id": "SS-230-P03-C11",
+   "source": "5. description of enemy vessels sighted.",
+   "row": 11,
+   "kind": "sighting",
+   "page": "13",
+   "zone": "I",
+   "local": "0832 I 1/23/43",
+   "utc": "1943-01-22T23:32:00Z",
+   "position_verbatim": "31-25 N 132-07 E",
+   "lat": 31.41667,
+   "lon": 132.11667,
+   "derived": null,
+   "type": "9000 ton Merchantman. Similiar to KYUSHU MARU. (ONI 208-J, pg. 53).",
+   "title": "Contact 11 · 9000 ton Merchantman. Similiar to KYUSHU MARU. (ONI 208-J, pg. 53).",
+   "fields": {
+    "type": "9000 ton Merchantman. Similiar to KYUSHU MARU. (ONI 208-J, pg. 53).",
+    "course": "045 (zig-zag)",
+    "speed": "19.5 kts",
+    "remarks": "Minimum range - 9,000yds"
+   },
+   "flags": [
+    "Transcriber: Last digit of time faint. \"Similiar\" as typed.",
+    "Uncertain reading in time: 083⟦2⟧ I"
+   ]
+  },
+  {
+   "id": "SS-230-P03-C12",
+   "source": "5. DESCRIPTION OF ENEMY VESSELS SIGHTED (Continued)",
+   "row": 12,
+   "kind": "sighting",
+   "page": "14",
+   "zone": "I",
+   "local": "1605 I 1/23/43",
+   "utc": "1943-01-23T07:05:00Z",
+   "position_verbatim": "31-16 N 132-12 E",
+   "lat": 31.26667,
+   "lon": 132.2,
+   "derived": null,
+   "type": "Patrol",
+   "title": "Contact 12 · Patrol",
+   "fields": {
+    "type": "Patrol",
+    "course": "295",
+    "speed": "12kts",
+    "remarks": "Similiar to PC450 Class."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P03-C13",
+   "source": "5. DESCRIPTION OF ENEMY VESSELS SIGHTED (Continued)",
+   "row": 13,
+   "kind": "sighting",
+   "page": "14",
+   "zone": "I",
+   "local": "1816 I 1/23/43",
+   "utc": "1943-01-23T09:16:00Z",
+   "position_verbatim": "31-13 N 132-09 E",
+   "lat": 31.21667,
+   "lon": 132.15,
+   "derived": null,
+   "type": "Patrol",
+   "title": "Contact 13 · Patrol",
+   "fields": {
+    "type": "Patrol",
+    "course": "330",
+    "speed": "10kts",
+    "remarks": "Similiar to Contact #12."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P03-C25",
+   "source": "6. description of aircraft sighted.",
+   "row": 25,
+   "kind": "aircraft",
+   "page": "14",
+   "zone": "I",
+   "local": "1946 I 1/23/43",
+   "utc": "1943-01-23T10:46:00Z",
+   "position_verbatim": "31-23 N 132-34 E",
+   "lat": 31.38333,
+   "lon": 132.56667,
+   "derived": null,
+   "type": "---",
+   "title": "Aircraft 11 · ---",
+   "fields": {
+    "type": "---",
+    "course": "270",
+    "altitude": "200",
+    "remarks": "Details not noted. Came down moon."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P03-C14",
+   "source": "5. DESCRIPTION OF ENEMY VESSELS SIGHTED (Continued)",
+   "row": 14,
+   "kind": "sighting",
+   "page": "14",
+   "zone": "I",
+   "local": "2236 I 1/23/43",
+   "utc": "1943-01-23T13:36:00Z",
+   "position_verbatim": "31-20 N 132-30 E",
+   "lat": 31.33333,
+   "lon": 132.5,
+   "derived": null,
+   "type": "Yacht type patrol vessel.",
+   "title": "Contact 14 · Yacht type patrol vessel.",
+   "fields": {
+    "type": "Yacht type patrol vessel.",
+    "course": "180",
+    "speed": "6 kts",
+    "remarks": "Yacht type. About 150ft. High upper works. Tall masts. Stopped and smoking heavily when first observed."
+   },
+   "flags": []
+  }
+ ],
  "tonnage": [
   {
    "id": "SS-230-P03-T01",
-   "utc": "1943-02-06T12:00:00Z",
+   "utc": "1943-01-17T12:30:00Z",
+   "target": "Patrol boat",
+   "name": null,
+   "result": "sunk",
+   "tons": null,
+   "ships": 1,
+   "basis": "claimed",
+   "source": "Vessels Sighted table, contact 9, page 13: 'Destroyed'. The report gives no tonnage.",
+   "flags": [
+    "No tonnage figure."
+   ]
+  },
+  {
+   "id": "SS-230-P03-T02",
+   "utc": "1943-01-17T12:30:00Z",
    "target": "Patrol boat",
    "name": null,
    "result": "sunk",
    "tons": 150,
    "ships": 1,
-   "basis": "claimed",
-   "source": "Patrol report: small patrol boat, 150-200 tons. Counted at the lower figure.",
+   "basis": "credited",
+   "source": "COMSUBPAC endorsement (C. A. Lockwood, Jr., 19 February 1943): '1 Patrol boat (approximately) - - - 150-200 tons.' Counted at 150.",
    "flags": []
   }
  ],

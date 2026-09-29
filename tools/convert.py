@@ -292,6 +292,9 @@ def classify(fields, section):
         return "gun"
     if weapon.startswith("TORP") or re.match(r"\s*\d+", fired):
         return "torpedo"
+    remarks = f"{fields.get('remarks') or ''} {fields.get('description') or ''}"
+    if re.search(r"battle surface|\brds\.? of|\brounds of", remarks, re.I):
+        return "gun"
     if "altitude" in fields or "AIRCRAFT" in section.upper():
         return "aircraft"
     return "sighting"
@@ -690,7 +693,8 @@ def build_patrol(folder, ref):
             if f.get("attack_no"):
                 title = f"Attack {f['attack_no']}" + (f" · {typ}" if typ else "")
             elif f.get("contact_no"):
-                title = f"Contact {f['contact_no'].rstrip('.')}" + (f" · {typ}" if typ else "")
+                label = "Aircraft" if kind == "aircraft" else "Contact"
+                title = f"{label} {f['contact_no'].rstrip('.')}" + (f" · {typ}" if typ else "")
             else:
                 title = typ
             zone_label = "GCT" if gct else z

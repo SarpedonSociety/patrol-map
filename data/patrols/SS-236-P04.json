@@ -424,7 +424,7 @@
    "lon": 156.38333,
    "derived": null,
    "type": "Low wing monoplane",
-   "title": "Contact 1 · Low wing monoplane",
+   "title": "Aircraft 1 · Low wing monoplane",
    "fields": {
     "type": "Low wing monoplane",
     "course": "270",
@@ -551,7 +551,7 @@
    "lon": 153.91667,
    "derived": null,
    "type": "Not seen",
-   "title": "Contact 2 · Not seen",
+   "title": "Aircraft 2 · Not seen",
    "fields": {
     "type": "Not seen",
     "course": "-",
@@ -619,7 +619,7 @@
    "lon": 153.9,
    "derived": null,
    "type": "Radar ind.",
-   "title": "Contact 3 · Radar ind.",
+   "title": "Aircraft 3 · Radar ind.",
    "fields": {
     "type": "Radar ind.",
     "course": "-",
@@ -672,7 +672,7 @@
    "lon": 150.91667,
    "derived": null,
    "type": "Not seen",
-   "title": "Contact 4 · Not seen",
+   "title": "Aircraft 4 · Not seen",
    "fields": {
     "type": "Not seen",
     "course": "-",
@@ -732,7 +732,7 @@
    "lon": 150.91667,
    "derived": null,
    "type": "2 patrol planes",
-   "title": "Contact 5 · 2 patrol planes",
+   "title": "Aircraft 5 · 2 patrol planes",
    "fields": {
     "type": "2 patrol planes",
     "course": "045",
@@ -756,7 +756,7 @@
    "lon": 150.91667,
    "derived": null,
    "type": "Patrol",
-   "title": "Contact 6 · Patrol",
+   "title": "Aircraft 6 · Patrol",
    "fields": {
     "type": "Patrol",
     "course": "-",
@@ -780,7 +780,7 @@
    "lon": 150.91667,
    "derived": null,
    "type": "Bomber",
-   "title": "Contact 7 · Bomber",
+   "title": "Aircraft 7 · Bomber",
    "fields": {
     "type": "Bomber",
     "course": "270",
@@ -899,7 +899,7 @@
    "lon": 151.25,
    "derived": null,
    "type": "Radar ind.",
-   "title": "Contact 8 · Radar ind.",
+   "title": "Aircraft 8 · Radar ind.",
    "fields": {
     "type": "Radar ind.",
     "course": "-",
@@ -1072,7 +1072,7 @@
    "lon": 151.83333,
    "derived": null,
    "type": "Patrol",
-   "title": "Contact 9 · Patrol",
+   "title": "Aircraft 9 · Patrol",
    "fields": {
     "type": "Patrol",
     "course": "170",
@@ -1290,7 +1290,7 @@
    "lon": 151.71667,
    "derived": null,
    "type": "Patrol",
-   "title": "Contact 10 · Patrol",
+   "title": "Aircraft 10 · Patrol",
    "fields": {
     "type": "Patrol",
     "course": "114",
@@ -1444,7 +1444,7 @@
    "lon": 151.11667,
    "derived": null,
    "type": "Scouting",
-   "title": "Contact 11 · Scouting",
+   "title": "Aircraft 11 · Scouting",
    "fields": {
     "type": "Scouting",
     "course": "240",
@@ -1793,7 +1793,7 @@
    "lon": 150.95,
    "derived": null,
    "type": "Scouting",
-   "title": "Contact 12 · Scouting",
+   "title": "Aircraft 12 · Scouting",
    "fields": {
     "type": "Scouting",
     "course": "315",
@@ -1847,7 +1847,7 @@
    "lon": 151.75,
    "derived": null,
    "type": "Scouting",
-   "title": "Contact 13 · Scouting",
+   "title": "Aircraft 13 · Scouting",
    "fields": {
     "type": "Scouting",
     "course": "195",
@@ -2105,7 +2105,7 @@
    "lon": 150.33333,
    "derived": null,
    "type": "Scouting",
-   "title": "Contact 14 · Scouting",
+   "title": "Aircraft 14 · Scouting",
    "fields": {
     "type": "Scouting",
     "course": "258",
@@ -2129,7 +2129,7 @@
    "lon": 152.58333,
    "derived": null,
    "type": "Radar ind.",
-   "title": "Contact 15 · Radar ind.",
+   "title": "Aircraft 15 · Radar ind.",
    "fields": {
     "type": "Radar ind.",
     "course": "-",
@@ -2423,7 +2423,7 @@
    "lon": 172.63333,
    "derived": null,
    "type": "Bomber",
-   "title": "Contact 16 · Bomber",
+   "title": "Aircraft 16 · Bomber",
    "fields": {
     "type": "Bomber",
     "course": "180",
@@ -2447,7 +2447,7 @@
    "lon": 176.25,
    "derived": null,
    "type": "Radar ind.",
-   "title": "Contact 17 · Radar ind.",
+   "title": "Aircraft 17 · Radar ind.",
    "fields": {
     "type": "Radar ind.",
     "course": "-",
