@@ -437,33 +437,32 @@
    ]
   },
   {
-   "id": "SS-236-P04-N04",
+   "id": "SS-236-P04-N39",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
    "page": "1",
    "zone": "L",
-   "local": "L 22 December",
-   "utc": "1942-12-22T01:00:00Z",
+   "local": "2152 L 22 December",
+   "utc": "1942-12-22T10:52:00Z",
    "position_verbatim": "",
    "derived": null,
-   "tag": null,
+   "tag": "notable",
    "local_date": [
     1942,
     12,
     22
    ],
-   "has_time": false,
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
-   "title": "Narrative entry",
+   "title": "Appendectomy at sea",
    "fields": {
-    "event": "[SUMMARY] Suspected appendicitis in Platter, G.M. confirmed acute by late afternoon; decided at 2100 to operate; submerged at 2152, operation performed by Moore, T.A., PhM1c."
+    "event": "In the forenoon it was reported that PLATTER, G.M. F3c was suspected of appendicites. By late afternoon it was evident that he had an acute attack. At 2100 it was decided to operate. At 2152 submerged in order to provide steadier working platform and operation commenced, being ably performed by MOORE, T.A., PhM1c."
    },
    "flags": [
-    "No time given; placed at noon GMT on that date.",
-    "Zone K corrected to L (zone_fix in patrol.yml)."
+    "Hand transcription, Fold3 image 268432810. 'appendicites' as typed. Placed at 2152, when the boat submerged and the operation began."
    ]
   },
   {
@@ -500,7 +499,7 @@
    ]
   },
   {
-   "id": "SS-236-P04-N06",
+   "id": "SS-236-P04-N05",
    "source": "Part I narrative",
    "part": "I",
    "kind": "counterattack",
@@ -565,7 +564,7 @@
    ]
   },
   {
-   "id": "SS-236-P04-N07",
+   "id": "SS-236-P04-N06",
    "source": "Part I narrative",
    "part": "I",
    "kind": "counterattack",
@@ -631,7 +630,7 @@
    "flags": []
   },
   {
-   "id": "SS-236-P04-N08",
+   "id": "SS-236-P04-N07",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -684,7 +683,7 @@
    "flags": []
   },
   {
-   "id": "SS-236-P04-N09",
+   "id": "SS-236-P04-N08",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -850,7 +849,7 @@
    "flags": []
   },
   {
-   "id": "SS-236-P04-N10",
+   "id": "SS-236-P04-N09",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -913,7 +912,7 @@
    ]
   },
   {
-   "id": "SS-236-P04-N11",
+   "id": "SS-236-P04-N10",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -943,7 +942,7 @@
    ]
   },
   {
-   "id": "SS-236-P04-N12",
+   "id": "SS-236-P04-N11",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -973,7 +972,7 @@
    ]
   },
   {
-   "id": "SS-236-P04-N13",
+   "id": "SS-236-P04-N12",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1084,7 +1083,7 @@
    "flags": []
   },
   {
-   "id": "SS-236-P04-N14",
+   "id": "SS-236-P04-N13",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1143,7 +1142,7 @@
    "flags": []
   },
   {
-   "id": "SS-236-P04-N15",
+   "id": "SS-236-P04-N14",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1241,7 +1240,7 @@
    "flags": []
   },
   {
-   "id": "SS-236-P04-N16",
+   "id": "SS-236-P04-N15",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1337,7 +1336,7 @@
    ]
   },
   {
-   "id": "SS-236-P04-N18",
+   "id": "SS-236-P04-N17",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1456,7 +1455,7 @@
    "flags": []
   },
   {
-   "id": "SS-236-P04-N19",
+   "id": "SS-236-P04-N18",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1522,7 +1521,7 @@
    "flags": []
   },
   {
-   "id": "SS-236-P04-N20",
+   "id": "SS-236-P04-N19",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1619,7 +1618,7 @@
    ]
   },
   {
-   "id": "SS-236-P04-N21",
+   "id": "SS-236-P04-N20",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1713,7 +1712,7 @@
    "flags": []
   },
   {
-   "id": "SS-236-P04-N22",
+   "id": "SS-236-P04-N21",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1750,7 +1749,7 @@
    ]
   },
   {
-   "id": "SS-236-P04-N23",
+   "id": "SS-236-P04-N22",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1805,7 +1804,7 @@
    "flags": []
   },
   {
-   "id": "SS-236-P04-N24",
+   "id": "SS-236-P04-N23",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1859,7 +1858,7 @@
    "flags": []
   },
   {
-   "id": "SS-236-P04-N25",
+   "id": "SS-236-P04-N24",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1924,7 +1923,7 @@
    "flags": []
   },
   {
-   "id": "SS-236-P04-N26",
+   "id": "SS-236-P04-N25",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2052,7 +2051,7 @@
    "flags": []
   },
   {
-   "id": "SS-236-P04-N28",
+   "id": "SS-236-P04-N27",
    "source": "Part I narrative",
    "part": "I",
    "kind": "counterattack",
@@ -2143,7 +2142,7 @@
    ]
   },
   {
-   "id": "SS-236-P04-N29",
+   "id": "SS-236-P04-N28",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2245,7 +2244,7 @@
    ]
   },
   {
-   "id": "SS-236-P04-N31",
+   "id": "SS-236-P04-N30",
    "source": "Part I narrative",
    "part": "I",
    "kind": "counterattack",
@@ -2279,17 +2278,17 @@
    ]
   },
   {
-   "id": "SS-236-P04-N32",
+   "id": "SS-236-P04-N40",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
-   "page": "7",
+   "page": "7-8",
    "zone": "L",
    "local": "0056 L 21 January",
    "utc": "1943-01-20T13:56:00Z",
    "position_verbatim": "",
    "derived": null,
-   "tag": null,
+   "tag": "notable",
    "local_date": [
     1943,
     1,
@@ -2299,17 +2298,16 @@
    "lat": null,
    "lon": null,
    "type": "Narrative",
-   "title": "Narrative entry",
+   "title": "Torpedo stuck in #6 tube",
    "fields": {
-    "event": "[SUMMARY] Sighted patrol vessel at 0056; submerged before sunrise; found torpedo stuck in #6 tube; backed emergency and fired; generator explosion, leaks, Cream of Wheat in main induction."
+    "event": "At 0056 sighted patrol vessel searching to southward; we ducked into a rain squall and proceeded north. Commence submerged run before sunrise. During day it became evident we had large air leak but unable to find where. Upon surfacing just at sunset put man over side again to look at #6 tube. The torpedo was stuck in the tube, half was out. Tried to pack impellor with grease preparatory to firing but unsuccessful so backed emergency and fired. While lying to it was found we had a good size fuel leak; source of air leak still undetermined. Shortly after starting ahead, an explosion occurred in #1 main generator cause by salt water which had leaked past the compensating water valve gland to #5 FBT and dripping on the terminals to the forward battery cable, causing short circuit. This gland apparently loosened by depth charging. At the same time a break down of the main induction operating gear revealed a box of breakfast food under the bell crank lever. Thus with a dangling torpedo with war head attached, a fuel and air leak an explosion in a main generator and Cream of Wheat in the main induction, all within two hours time, it was decided to leave the area two days ahead of schedule unless leaks can be stopped."
    },
    "flags": [
-    "Text references #6 tube as '#26 tube' in one sentence then discusses #6 tube.",
-    "Zone K corrected to L (zone_fix in patrol.yml)."
+    "Hand transcription, Fold3 images 268432816-268432817. 'Commence', 'impellor' and 'cause by' as typed; 'Cream of Wheat' underlined in the original. The torpedo was found at sunset; the entry's only time is 0056."
    ]
   },
   {
-   "id": "SS-236-P04-N33",
+   "id": "SS-236-P04-N31",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2340,7 +2338,7 @@
    ]
   },
   {
-   "id": "SS-236-P04-N34",
+   "id": "SS-236-P04-N32",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2371,7 +2369,7 @@
    ]
   },
   {
-   "id": "SS-236-P04-N35",
+   "id": "SS-236-P04-N33",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2463,7 +2461,7 @@
    ]
   },
   {
-   "id": "SS-236-P04-N36",
+   "id": "SS-236-P04-N34",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2494,7 +2492,7 @@
    ]
   },
   {
-   "id": "SS-236-P04-N37",
+   "id": "SS-236-P04-N35",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",

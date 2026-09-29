@@ -15,6 +15,30 @@ commanding_officer:
 # throughout (confirmed against the report).
 zone_fix: { K: L }
 
+# Hand transcriptions from the scans (report pages 1, 7 and 8), replacing
+# Gemini's summaries of these entries.
+events:
+  - date: 22 December
+    time: "2152"
+    zone: L
+    tag: notable
+    title: "Appendectomy at sea"
+    part: I
+    page: "1"
+    replaces: { date: 22 December, page: "1" }
+    event: "In the forenoon it was reported that PLATTER, G.M. F3c was suspected of appendicites. By late afternoon it was evident that he had an acute attack. At 2100 it was decided to operate. At 2152 submerged in order to provide steadier working platform and operation commenced, being ably performed by MOORE, T.A., PhM1c."
+    flags: "Hand transcription, Fold3 image 268432810. 'appendicites' as typed. Placed at 2152, when the boat submerged and the operation began."
+  - date: 21 January
+    time: "0056"
+    zone: L
+    tag: notable
+    title: "Torpedo stuck in #6 tube"
+    part: I
+    page: "7-8"
+    replaces: { date: 21 January, page: "7" }
+    event: "At 0056 sighted patrol vessel searching to southward; we ducked into a rain squall and proceeded north. Commence submerged run before sunrise. During day it became evident we had large air leak but unable to find where. Upon surfacing just at sunset put man over side again to look at #6 tube. The torpedo was stuck in the tube, half was out. Tried to pack impellor with grease preparatory to firing but unsuccessful so backed emergency and fired. While lying to it was found we had a good size fuel leak; source of air leak still undetermined. Shortly after starting ahead, an explosion occurred in #1 main generator cause by salt water which had leaked past the compensating water valve gland to #5 FBT and dripping on the terminals to the forward battery cable, causing short circuit. This gland apparently loosened by depth charging. At the same time a break down of the main induction operating gear revealed a box of breakfast food under the bell crank lever. Thus with a dangling torpedo with war head attached, a fuel and air leak an explosion in a main generator and Cream of Wheat in the main induction, all within two hours time, it was decided to leave the area two days ahead of schedule unless leaks can be stopped."
+    flags: "Hand transcription, Fold3 images 268432816-268432817. 'Commence', 'impellor' and 'cause by' as typed; 'Cream of Wheat' underlined in the original. The torpedo was found at sunset; the entry's only time is 0056."
+
 period:
   start: 1942-12-17
   end: 1943-01-31

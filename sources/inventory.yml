@@ -18,7 +18,7 @@ SS-236:   # Silversides
   1:  { status: mapped, found_in: Fold3, start: 1942-04-30, note: "Hand transcription; departure/arrival still to add" }
   2:  { status: available, found_in: Fold3 }
   3:  { status: missing }
-  4:  { status: transcribed, found_in: Fold3, report_no: 133, start: 1942-12-17, end: 1943-01-31, note: "From Brisbane to Pearl. Gemini gemini-01/02 (narrative), gemini-03 (Part VIII), contacts-01; rerun narrative with notable tag for appendectomy and stuck torpedo" }
+  4:  { status: transcribed, found_in: Fold3, report_no: 133, start: 1942-12-17, end: 1943-01-31, note: "From Brisbane to Pearl. Gemini gemini-01/02 (narrative), gemini-03 (Part VIII), contacts-01; appendectomy and stuck-torpedo entries hand-transcribed from the scans" }
   5:  { status: available, found_in: Fold3 }
   6:  { status: available, found_in: Fold3 }
   7:  { status: available, found_in: Fold3 }
