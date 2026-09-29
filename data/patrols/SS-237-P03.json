@@ -28,7 +28,19 @@
  "start": "1942-12-03T12:00:00Z",
  "end": "1943-01-22T12:00:00Z",
  "departure": null,
- "arrival": null,
+ "arrival": {
+  "label": "Arrived",
+  "port": "Midway",
+  "utc": "1943-01-22T12:00:00Z",
+  "local": "22JAN",
+  "lat": 28.21,
+  "lon": -177.38,
+  "page": null,
+  "flags": [
+   "Report: 'Arrived MIDWAY for refit.' Time not transcribed.",
+   "Time not recorded; placed at noon."
+  ]
+ },
  "report_found": true,
  "summary": {
   "records": 24,
@@ -37,7 +49,7 @@
   "torpedo_attacks": 0,
   "torpedoes_fired": 0,
   "gun_actions": 0,
-  "flagged": 14
+  "flagged": 15
  },
  "track": [
   {
@@ -81,6 +93,12 @@
    "utc": "1942-12-22T03:36:00Z",
    "basis": "documented",
    "ref": "SS-237-P03-N23"
+  },
+  {
+   "lat": 28.21,
+   "lon": -177.38,
+   "utc": "1943-01-22T12:00:00Z",
+   "basis": "reference"
   }
  ],
  "records": [

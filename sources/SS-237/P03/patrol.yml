@@ -10,6 +10,12 @@ report:
 comsubpac_report_no: 128
 commanding_officer:
 
+# Hand entries: these take precedence over the Gemini batches.
+arrival:
+  port: Midway
+  date: 22JAN
+  flags: "Report: 'Arrived MIDWAY for refit.' Time not transcribed."
+
 period:
   start: 1942-12-03
   end: 1943-01-22

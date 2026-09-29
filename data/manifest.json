@@ -85,7 +85,7 @@
    "zoom": 4
   }
  ],
- "generated": "2026-09-29T21:03:01Z",
+ "generated": "2026-09-29T21:14:05Z",
  "patrols": [
   {
    "id": "SS-230-P03",
@@ -163,7 +163,7 @@
     "torpedo_attacks": 0,
     "torpedoes_fired": 0,
     "gun_actions": 0,
-    "flagged": 14
+    "flagged": 15
    },
    "file": "patrols/SS-237-P03.json"
   },
