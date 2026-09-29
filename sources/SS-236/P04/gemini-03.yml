@@ -1,0 +1,87 @@
+YAML
+
+```
+boat: SS-236
+patrol: 4
+year: 1942
+report: U.S.S. SILVERSIDES Report of Fourth War Patrol.
+comsubpac_report_no: 
+commanding_officer: 
+citation:
+  archive: NARA
+  record_group: 38
+  nara_catalog_id: 4697018
+  nara_catalog_title: World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946
+  reel: A216
+  micro_serial: 46217
+  file: A16-3 (5)
+  serial: 0144
+  date: 2/3/1943
+fold3_images: { 13: 268432822, 14: 268432823, 15: 268432824 }
+default_hemisphere: { lat: N, lon: E }
+departure: { port: , date: , time: , zone: , page: , flags: "" }
+arrival:   { port: , date: , time: , zone: , page: , flags: "" }
+events:
+  - date: 23 December
+    time: 
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: counterattack
+    part: VIII
+    charges: "three bombs"
+    damage: "1. Bow planes jammed on hard dive due to electrical failure(see derangement report) and broken shear pin in rigging gear topside. 2. Broke all bulbs, steam tights, emergency light lenses in forward compartments, conning tower and after torpedo room. 3. Cracked battery water gauge glass in starboard forward tank. 4. Blew #1 MBT gasket. 5. Water in pump room bilges grounded distribution panel and both high power air compressors. 6. Practically every voltmeter and ammeter on ship read incorrectly. 7. Battery ground of 240 volts upon surfacing. 8. Cracked prism in #2 periscope. 9. Aneroid barometers knocked off bulkheads. 10. Bridge loud speakers on 1 MC wrecked."
+    course: 
+    speed: 
+    event: "Off RABAUL, a plane picked us up in the morning after a tangle with a destroyer during the night. We had just finished a periscope observation when he let go three bombs probably directly overhead. This was by far the closest any have come to date. The following damage was done: 1. Bow planes jammed on hard dive due to electrical failure(see derangement report) and broken shear pin in rigging gear topside. 2. Broke all bulbs, steam tights, emergency light lenses in forward compartments, conning tower and after torpedo room. 3. Cracked battery water gauge glass in starboard forward tank. 4. Blew #1 MBT gasket. 5. Water in pump room bilges grounded distribution panel and both high power air compressors. 6. Practically every voltmeter and ammeter on ship read incorrectly. 7. Battery ground of 240 volts upon surfacing. 8. Cracked prism in #2 periscope. 9. Aneroid barometers knocked off bulkheads. 10. Bridge loud speakers on 1 MC wrecked."
+    page: 13
+    flags: "Time zone K inferred from Part I note."
+  - date: 18 January
+    time: 
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: counterattack
+    part: VIII
+    charges: "12 charges"
+    damage: "1. Air vent valve on hydraulic line to main induction opened. This caused main induction to slam shut later when on four engines on the surface. 2. Blew out pipe plug on engine cooling water line and stern tube flushing line and broke nipple on air conditioning circulating water pump gauge line. 3. Light bulbs and emergency lights aft broken. 4. Ruptured head flushing water line thru #5 FBT, causing fuel leak to sea. 5. Broke studs off blank flange on #3 FBT which caused fuel leak when fuel was transferred the following day to that tank from #5 FBT. 6. Ruptured both bridge loudspeakers on 1 MC line again. 7. Opened all sea valves and stops thruout the ship and all fuel filling and transfer valves from 1/4 to 2 turns. 8. Loosened pipe plugs on sea valves between valve seat and sea. 9. Collecting tank discharge valve knocked open. 10. Glands on sea valves began leaking. One on compensating line cause a short circuit on #1 main generator terminals causing explosion and fire the following day. 11. All meters, gauges, thermometers out of calibration. 12. Holding down nuts on pilot circuit for main control cubicle jarred loose causing overheating and carbonization two days later. 13. Rivets and nuts on athwartships partitions in officers country sheared. 14. Blew gasket on safety tank vent."
+    course: 
+    speed: 
+    event: "After torpedoing the tanker on 18 January the escort let go 12 charges on our impulse bubble. Had we fired bow tubes he may have gotten us with that barrage as they were very close to our stern. The gasket on safety tank was blown and later when it was necessary to blow safety to maintain depth the air escaped thru the vent to the surface. With this as a marker and noise of blowing to assist him he came and let go another barrage. This caused the following damage: 1. Air vent valve on hydraulic line to main induction opened. This caused main induction to slam shut later when on four engines on the surface. 2. Blew out pipe plug on engine cooling water line and stern tube flushing line and broke nipple on air conditioning circulating water pump gauge line. 3. Light bulbs and emergency lights aft broken. 4. Ruptured head flushing water line thru #5 FBT, causing fuel leak to sea. 5. Broke studs off blank flange on #3 FBT which caused fuel leak when fuel was transferred the following day to that tank from #5 FBT. 6. Ruptured both bridge loudspeakers on 1 MC line again. 7. Opened all sea valves and stops thruout the ship and all fuel filling and transfer valves from 1/4 to 2 turns. 8. Loosened pipe plugs on sea valves between valve seat and sea. 9. Collecting tank discharge valve knocked open. 10. Glands on sea valves began leaking. One on compensating line cause a short circuit on #1 main generator terminals causing explosion and fire the following day. 11. All meters, gauges, thermometers out of calibration. 12. Holding down nuts on pilot circuit for main control cubicle jarred loose causing overheating and carbonization two days later. 13. Rivets and nuts on athwartships partitions in officers country sheared. 14. Blew gasket on safety tank vent."
+    page: 14
+    flags: "Text spans report pages 14 and 15; time zone K inferred from Part I note."
+  - date: 20 January
+    time: 
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: counterattack
+    part: VIII
+    charges: "charges were dropped but none were close"
+    damage: 
+    course: 
+    speed: 
+    event: "After the attack on the convoy at dusk on 20 January, the escorts were not effective. What sounded like gun fire was heard for sometime afterwards. A supersonic search commenced and charges were dropped but none were close. As the firing range was 3000 to 4000 yards and torpedo tracks difficult to see at night, they were working under difficulties, although we were dead ahead of one escort, about 2000 yards when we fired."
+    page: 15
+    flags: "Time zone K inferred from Part I note."
+```
+
+Markdown
+
+```
+No tabular data appears on the provided pages.
+```
+
+Could not transcribe: faint/dropped characters in "SOLO⟦MONS⟧" and omitted word in "net which ⟦we⟧ ran thru" on report page 13.

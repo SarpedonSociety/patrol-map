@@ -122,7 +122,17 @@ own entries.
 
 A contact table with an attacked Yes/No column shows the "Yes" rows as
 attacks. If the table doesn't say how, they're shown as torpedo attacks
-and flagged to check against the narrative.
+and flagged to check against the narrative. A narrative attack entry within
+three hours of such a row is folded into it: the marker sits at the
+table's recorded position and the detail card carries the narrative.
+
+Entries tagged `notable` (medical emergencies, casualties, equipment
+casualties and the like) are kept in full. Dated entries with no
+position still appear in the patrol log, marked as not shown on the
+chart.
+
+If Gemini labels the narrative with the wrong zone, `zone_fix: { K: L }`
+in `patrol.yml` corrects it for every narrative entry.
 
 ## Entries without a position
 

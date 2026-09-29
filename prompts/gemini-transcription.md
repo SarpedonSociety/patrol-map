@@ -89,14 +89,15 @@ events:          # every narrative entry provided
     bearing:     # as typed, e.g. NE, WSW, 045T
     distance:    # as typed, e.g. 9 miles
     bearing_is:  # from_landmark ("9 miles NE of X") or to_landmark ("X bearing 060, 2 miles": X bore 060 from the boat)
-    tag:         # attack, gun, minefield, counterattack or rescue (see below); otherwise blank
+    tag:         # attack, gun, minefield, counterattack, rescue or notable (see below); otherwise blank
+    title:       # tagged entries only: a short title of a few words, e.g. "Appendectomy at sea"
     part:        # the report part the entry comes from: I (narrative) or VIII (anti-submarine measures)
     charges:     # counterattacks only: number of depth charges or bombs, as typed
     damage:      # counterattacks only: damage to the boat, verbatim
     course:
     speed:
     event:       # verbatim; if longer than 25 words, summarize and start with [SUMMARY],
-                 # except entries tagged attack, gun or minefield: always in full
+                 # except tagged entries (attack, gun, minefield, counterattack, rescue, notable): always in full
     page:
     flags:
 ```
@@ -145,6 +146,12 @@ For Part VIII (Anti-Submarine Measures), make one `events` entry per
 incident, with `part: VIII` and `tag: counterattack`, its date and time
 if given, `charges` and `damage`, and the full text in `event`. Record it
 even if the narrative describes the same incident; the map combines them.
+
+Tag with `tag: notable` any other entry a historian would want in full:
+medical emergencies and operations, deaths, burials and injuries, men
+lost overboard, fires, flooding, serious equipment casualties (a
+torpedo stuck in a tube, a hot run, a jammed diving plane), groundings,
+and encounters with friendly forces. Keep these entries in full.
 
 Tag every entry about lifeguard duty with `tag: rescue`: the lifeguard
 station assignment (record its position if given), reports of downed

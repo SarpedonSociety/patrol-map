@@ -316,7 +316,7 @@ aside.side {
     type: "Type", initial_range: "Initial range", course: "Est. course", speed: "Est. speed",
     description: "Description", weapon: "Weapon", fired: "Fired", depth: "Depth set",
     track: "Track angle", gyro: "Gyro angle", firing_range: "Firing range", hits: "Hits",
-    remarks: "Remarks", event: "Entry", charges: "Depth charges", damage: "Damage sustained", attacked: "Attacked", part_viii: "Part VIII account", altitude: "Altitude / distance",
+    remarks: "Remarks", event: "Entry", charges: "Depth charges", damage: "Damage sustained", attacked: "Attacked", part_viii: "Part VIII account", narrative: "Narrative", min_range: "Min. range", lead: "Lead", bearing: "Bearing", altitude: "Altitude / distance",
     sunk: "Claimed sunk (tons)", damaged: "Claimed damaged or probably sunk (tons)",
     attack_type: "Periscope or radar", draft: "Est. target draft", tube: "Bow or stern",
     interval: "Firing interval", spread: "Spread", performance: "Torpedo performance satisfactory",
@@ -344,6 +344,7 @@ aside.side {
     p.on = true;
     p.pts = p.track.map((t) => ({ ...t, t: Date.parse(t.utc) }));
     p.recs = p.records.filter((r) => r.utc && r.lat != null).map((r) => ({ ...r, t: Date.parse(r.utc), patrol: p }));
+    p.unplaced = p.records.filter((r) => r.utc && r.lat == null && r.kind !== "fix").map((r) => ({ ...r, t: Date.parse(r.utc), patrol: p }));
     p.ports = [p.departure, p.arrival].filter((e) => e && e.lat != null && e.utc).map((e) => ({ ...e, t: Date.parse(e.utc), patrol: p }));
   });
 
@@ -554,7 +555,7 @@ aside.side {
 
   let lastLogCount = -1;
   function renderLog(force) {
-    const items = on().flatMap((p) => p.ports.concat(p.recs)).filter((r) => r.t <= now && r.kind !== "fix").sort((a, b) => b.t - a.t);
+    const items = on().flatMap((p) => p.ports.concat(p.recs, p.unplaced || [])).filter((r) => r.t <= now && r.kind !== "fix").sort((a, b) => b.t - a.t);
     if (!force && items.length === lastLogCount) return;
     lastLogCount = items.length;
     const log = $("log");
@@ -575,7 +576,7 @@ aside.side {
 
   function select(r, center) {
     selected = r;
-    if (center) {
+    if (center && r.lat != null) {
       const [x, y] = projection([r.lon, r.lat]);
       const k = Math.max(tf.k, 4);
       svg.transition().duration(500).call(zoom.transform,
@@ -607,6 +608,7 @@ aside.side {
     const kind = r.kind || "port";
     const title = kind === "port" ? `${r.label} ${r.port}` : (r.title || r.type || KIND[kind]);
     const rows = kind === "port" ? [["Position", "Reference position for the port"]] :
+      r.lat == null ? [["Position", "Not recorded; not shown on the chart"]].concat(Object.entries(r.fields || {}).filter(([k]) => k !== "type").map(([k, v]) => [LABELS[k] || k, v])) :
       [["Position", r.derived
         ? `${r.position_verbatim}  (estimated ${r.lat.toFixed(3)}, ${r.lon.toFixed(3)})`
         : `${r.position_verbatim || "—"}  (${r.lat.toFixed(3)}, ${r.lon.toFixed(3)})`]]

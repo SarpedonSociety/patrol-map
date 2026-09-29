@@ -1,0 +1,285 @@
+YAML
+
+```
+boat: SS-236
+patrol: 4
+year: 1942
+report: U.S.S. SILVERSIDES Report of Fourth War Patrol.
+comsubpac_report_no: 133
+commanding_officer: 
+citation:
+  archive: NARA
+  record_group: 38
+  nara_catalog_id: 4697018
+  nara_catalog_title: World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946
+  reel: A216
+  micro_serial: 46217
+  file: A16-3 (5)
+  serial: 0144
+  date: 2/3/1943
+fold3_images: { 1: 268432810, 2: 268432811, 3: 268432812 }
+default_hemisphere: { lat: N, lon: E }
+departure: { port: Brisbane Australia, date: 17 December, time: 1400, zone: K, page: 1, flags: "Time zone inferred from narrative statement 'All times minus eleven unless otherwise designated' (Zone K = -11)." }
+arrival:   { port: , date: , time: , zone: , page: , flags: "" }
+events:
+  - date: 17 December
+    time: 1400
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "At 1400 departed Brisbane Australia for fourth war patrol. Enroute to station, conducted dive to test depth, training dives and drills."
+    page: 1
+    flags: "Time zone K inferred from narrative header 'All times minus eleven unless otherwise designated'."
+  - date: 20 December
+    time: 0730
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sighted US Task Force of escorted battleships, exchanged recognition signals with destroyers after half hour, held three battle surface drills, compensated compass."
+    page: 1
+    flags: ""
+  - date: 21 December
+    time: 0530
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Commenced submerged run at 0530 off Louisiades. Sighted low wing monoplane at 1015."
+    page: 1
+    flags: ""
+  - date: 22 December
+    time: 
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Suspected appendicitis in Platter, G.M. confirmed acute by late afternoon; decided at 2100 to operate; submerged at 2152, operation performed by Moore, T.A., PhM1c."
+    page: 1
+    flags: ""
+  - date: 23 December
+    time: 0150
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Surfaced at 0150. Sighted a darkened ship ahead at 0305. All hands topside agreed that it was a submarine and as were close to the western boundary of our area, thought probably it was friendly. Decided to work around it to westward. At 0325 when we crossed the moon slick he sighted us and turned toward us. At 0340 he was overhauling us slowly even at 20 knots so decided to try recognition signals in chance he was friendly since we were definitely sighted any way. Our challenge was responded to by a green light flashing 10 followed by characters not in the Morse Code, so at 0357 fired two torpedoes, stern tube slow speed, 1500 Gyro, track angle zero. The first was a premature explosion about 2000 yards astern, it having porpoised during early part of run. The second was not observed. Submerged to avoid depth charge attack as it was realized as the target got closer that he was not a submarine. Three minutes after diving, the first barrage of four depth charges went off astern. The target passed directly over us, let go another barrage ahead with no damage."
+    page: 1
+    flags: ""
+  - date: 23 December
+    time: 0400
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: counterattack
+    part: I
+    charges: "four depth charges"
+    damage: "no damage"
+    course: 
+    speed: 
+    event: "Three minutes after diving, the first barrage of four depth charges went off astern. The target passed directly over us, let go another barrage ahead with no damage."
+    page: 1
+    flags: "Counterattack occurred 3 minutes after 0357 dive."
+  - date: 23 December
+    time: 
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: counterattack
+    part: I
+    charges: "four or five charges"
+    damage: "Every light in the forward torpedo room and conning tower was knocked out, men thrown out of their bunks and knocked off their feet in the forward torpedo room, several being cut by flying glass, both barometers wrecked. I thought the conning tower was being wrenched loose from the pressure hull. Started deep and found bow planes were jammed on hard dive... vent gasket on #1 MBT was blown out, bridge loud speakers on 1 MC were wrecked, starboard antenna carried away, shear pins on bow plane rigging shaft in superstructure carried away, prism in #2 periscope cracked."
+    course: 
+    speed: 
+    event: "He then stopped and listened and when we started up to periscope depth at 0507 with attendant noises of blowing and venting safety, he commenced another run but did not drop. Finally at 0600, got to periscope depth. At 0630 sighted target, a two stack destroyer; commenced approach but his minimum range was 3900 yards as he was covering the area to southward of us. Broke off approach when he went out of sight and resumed course. At 0856 having just finished a periscope sweep, a plane dropped three bombs directly on top of us in rapid succession. Every light in the forward torpedo room and conning tower was knocked out, men thrown out of their bunks and knocked off their feet in the forward torpedo room, several being cut by flying glass, both barometers wrecked. I thought the conning tower was being wrenched loose from the pressure hull. Started deep and found bow planes were jammed on hard dive. The diving officer, Lieutenant R.K.R. WORTHINGTON did a remarkable job in getting to deep submergence in record time and holding the depth. After about 15 minutes, managed to get control of bow planes by hand operation. As was to be expected, the destroyer came over, made two runs at us, dropping four or five charges and finally pulled away to north west. Came up for a look at noon; all clear. Resumed course. Surfaced at 1942. Found that vent gasket on #1 MBT was blown out, bridge loud speakers on 1 MC were wrecked, starboard antenna carried away, shear pins on bow plane rigging shaft in superstructure carried away, prism in #2 periscope cracked. At 2030 radar picked up a plane coming in, so at 2033 when range was 4 miles, made quick dive to avoid; surfaced at 2050 and commenced repairs to topside. At 2325 made landfall on FENI Islands."
+    page: 2
+    flags: "Counterattack includes 3 aerial bombs and 4-5 depth charges."
+  - date: 24 December
+    time: 0100
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Entered assigned area at 0100 between FENI Island and NEW IRELAND. Made run up north coast between mainland of NEW IRELAND and off lying islands. Effected repairs to bow planes during evening."
+    page: 2
+    flags: ""
+  - date: 25 December
+    time: 0530
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Commenced submerged patrol off Kavieng; sighted planes and smoke; at 1818 sighted Takasago Maru, tracked submerged then surfaced at 1948 chasing on four engines."
+    page: 2
+    flags: ""
+  - date: 26 December
+    time: 
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Reduced speed; sighted smoke at 1024 from freighter; chased on surface, radar plane at 1430; target lost in heavy rain squall around sunset; patrolled east-west line."
+    page: 3
+    flags: ""
+  - date: 27 December
+    time: 
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Patrolled east-west line just south of area. Entered assigned area just after dark and set course for PIANNU Pass, TRUK."
+    page: 3
+    flags: ""
+  - date: 28-31 December
+    time: 
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Patrolled line 4 to 5 miles west of PIANNU Pass, during day, retiring to west during night. No shipping, patrol vessels, planes or depth charges. Searchlight on Tol one evening about 2000."
+    page: 3
+    flags: ""
+  - date: 1 January
+    time: 0707
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Commenced patrol toward Roy List Reef; sighted tanker with escort heading for Aulap or Otta Pass, range 7200, opening rapidly; no attack possible."
+    page: 3
+    flags: ""
+  - date: 2 January
+    time: 
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Patrolling south of southern passes. Distant depth charging all day. Sounded more like systematic barrages than random charges. Nothing sighted, except a 4 engine bomber at 0822 heading south."
+    page: 3
+    flags: ""
+```
+
+Markdown
+
+```
+No tabular data (contacts, attacks, or position tables) appears on the provided pages.
+```
+
+Could not transcribe: text obliterated by punch hole or faint overstrike in Prologue after "U.S.S." (repair vessel name) on report page 1.

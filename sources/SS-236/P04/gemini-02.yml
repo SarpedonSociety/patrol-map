@@ -1,0 +1,447 @@
+YAML
+
+```
+boat: SS-236
+patrol: 4
+year: 1942
+report: U.S.S. SILVERSIDES Report of Fourth War Patrol.
+comsubpac_report_no: 
+commanding_officer: 
+citation:
+  archive: NARA
+  record_group: 38
+  nara_catalog_id: 4697018
+  nara_catalog_title: World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946
+  reel: A216
+  micro_serial: 46217
+  file: A16-3 (5)
+  serial: 0144
+  date: 2/3/1943
+fold3_images: { 4: 268432813, 5: 268432814, 6: 268432815, 7: 268432816, 8: 268432817 }
+default_hemisphere: { lat: N, lon: E }
+departure: { port: , date: , time: , zone: , page: , flags: "" }
+arrival:   { port: PEARL, date: 31 January, time: , zone: K, page: 8, flags: "Date typed as '33 January' in report; time zone K applies per Part I statement." }
+events:
+  - date: 4 January
+    time: 1009
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sighted small patrol boat at 1009; at 1128 sighted hospital ship leaving Otta Pass; patrol returned at 1600; heard distant depth charges at 1648."
+    page: 4
+    flags: "Time zone K inferred from Part I note."
+  - date: 5 January
+    time: 0520
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sighted high-speed ship at 0520, lost in 10 minutes; Dublon searchlights swept south; sighted plane at 0902."
+    page: 4
+    flags: "Time zone K inferred from Part I note."
+  - date: 6 January
+    time: 1701
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Proceeded toward position south west of TRUK. During forenoon heard three distant depth charges. At 1701 sighted large enemy submarine on starboard quarter range 5000 yards swung right to 120 port track and fired 3 torpedoes. One premature explosion at one minute ten seconds about 1000 yards off, blocked off view of target. Second explosion one minute fifty seconds after firing. Targets propellers which were distinct and loud until that time, stopped immediately after that. Turned away from firing position and went deep to avoid possible aircraft screen coming up again about five minutes later. Nothing in sight except flock of birds hovering over targets last position. Sound heard nothing after second explosion. No counter measures as would undoubtedly been the case had the submarine survived to get off a contact report. Target had large naval ensign painted on side of conning tower. Two people seen on bridge and one lookout on top of periscope shears, in same position as in photograph at bottom of page 89, ONI 14."
+    page: 4
+    flags: "Time zone K inferred from Part I note."
+  - date: 7 January
+    time: 1145
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sighted masts of tanker previously seen January 1st with destroyer escort; commenced approach, but target zigged away at 8400 yards and was lost."
+    page: 4
+    flags: "Time zone K inferred from Part I note."
+  - date: 8 January
+    time: 0900
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Same general vicinity. Sighted plane at 0900 on south westerly course."
+    page: 4
+    flags: "Time zone K inferred from Part I note."
+  - date: 10 January
+    time: 
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sighted two trawler-type patrol boats and two sampans off reef southwest of Tol; patrol boats searched and listened, one dropping 2 depth charges at 6000 yards."
+    page: 4
+    flags: "Time zone K inferred from Part I note."
+  - date: 11 January
+    time: 1324
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Patrolling same area as yesterday just south of reef. At 1324 sighted sampan and patrol boat. The patrol boat remained in the general vicinity until 1930."
+    page: 5
+    flags: "Time zone K inferred from Part I note."
+  - date: 12 January
+    time: 0527
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "While closing south coast of atoll sighted patrol boat at 0527. Nothing else sighted during day."
+    page: 5
+    flags: "Time zone K inferred from Part I note."
+  - date: 13 January
+    time: 
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Patrolled about 40 miles northwest of TRUK during day on route to NAMONUITO. Nothing sighted."
+    page: 5
+    flags: "Time zone K inferred from Part I note."
+  - date: 14 January
+    time: 0735
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Patrolling same vicinity as yesterday. Sighted plane at 0735. No shipping. Proceeded to southward during night of low visibility."
+    page: 5
+    flags: "Time zone K inferred from Part I note."
+  - date: 15 January
+    time: 1717
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Patrolling about 10 miles south of atoll. Nothing sighted except seaplane at 1717 on southerly course."
+    page: 5
+    flags: "Time zone K inferred from Part I note."
+  - date: 16 January
+    time: 0624
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Heard fast screws at 0624 and briefly saw dark shape; searchlights on Truk trained on bearing; sighted two patrol boats standing south from Otta Pass."
+    page: 5
+    flags: "Time zone K inferred from Part I note."
+  - date: 18 January
+    time: 0103
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "At 0103 sighted large tanker. Proceeded to position ahead on his base course 030° T and commenced submerged approach at 0219. Sighted escort, an AM or small DD astern of target. At 0255 fired four stern tubes. 46 seconds after first torpedo fired it hit target in bow completely obscuring bow in column of spray. Second hit heard and felt 15 seconds thereafter but could not be seen because of spray. Third hit, 100 seconds after first torpedo was fired hit target under stack aft. Tremendous explosion and pillar of black smoke 200 high, flame and sparks at its base and out stack. Commenced evasive tactics at deep submergence at 0258. Screws of target stopped immediately and he was not heard again. For the next quarter hour noises were heard thru the hull which sounded like the tanker breaking up. Escort came across stern and let go 8 depth charges. This barrage blew gasket off safety vent as we found later and knocked out 3 depth gauges. It became necessary to put a bubble in safety but with the gasket gone this air blew to the surface. The escort came over with the air bubble as a marker and let go a barrage at 0343 which jarred our teeth. He made another run 10 minutes later but was not as close. He then commenced a supersonic search until after we came up at 0700 to periscope depth. He was about 7000 yards to north of us, angle on bow zero but shortly thereafter he reversed course and pulled out of sight. Another barrage at 0817 when he was out of sight. Retired on southerly course. Sighted a zero plane at 1102 circling our position. He followed us until 1145 when he dropped one heavy depth charge about 4000 yards astern. Upon surfacing that night we found an oil leak in #5 FBT which accounted for the plane. Transferred oil to #3 FBT. A piece of the water compartment bulkhead of one of our own torpedoes was found on deck. The bridge loud speakers were wrecked again and the retaining lug on main induction failed to function so that shortly after starting up on 4 main engines the main induction slammed shut. This tore the air lock doors off in the after battery but the engines were stopped before any casualties resulted. Proceeded on 4 engines toward newly assigned position."
+    page: 5
+    flags: "Time zone K inferred from Part I note."
+  - date: 18 January
+    time: 0258
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: counterattack
+    part: I
+    charges: "8 depth charges"
+    damage: "blew gasket off safety vent as we found later and knocked out 3 depth gauges... The bridge loud speakers were wrecked again and the retaining lug on main induction failed to function so that shortly after starting up on 4 main engines the main induction slammed shut. This tore the air lock doors off in the after battery... oil leak in #5 FBT"
+    course: 
+    speed: 
+    event: "Escort came across stern and let go 8 depth charges. This barrage blew gasket off safety vent as we found later and knocked out 3 depth gauges. It became necessary to put a bubble in safety but with the gasket gone this air blew to the surface. The escort came over with the air bubble as a marker and let go a barrage at 0343 which jarred our teeth. He made another run 10 minutes later but was not as close. He then commenced a supersonic search until after we came up at 0700 to periscope depth. He was about 7000 yards to north of us, angle on bow zero but shortly thereafter he reversed course and pulled out of sight. Another barrage at 0817 when he was out of sight. Retired on southerly course. Sighted a zero plane at 1102 circling our position. He followed us until 1145 when he dropped one heavy depth charge about 4000 yards astern. Upon surfacing that night we found an oil leak in #5 FBT which accounted for the plane. Transferred oil to #3 FBT. A piece of the water compartment bulkhead of one of our own torpedoes was found on deck. The bridge loud speakers were wrecked again and the retaining lug on main induction failed to function so that shortly after starting up on 4 main engines the main induction slammed shut. This tore the air lock doors off in the after battery but the engines were stopped before any casualties resulted."
+    page: 5
+    flags: "Entry includes subsequent barrages at 0343, 10 minutes later, 0817, and plane depth charge at 1145."
+  - date: 19 January
+    time: 1055
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Proceeding southeast; dived on radar contact; at 1245 sighted three destroyers and made submerged approach; abandoned chase at 1915; retired toward Truk."
+    page: 6
+    flags: "Time zone K inferred from Part I note."
+  - date: 20 January
+    time: 1250
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Ran on surface during day. At 1250 sighted smoke which was closed and identified as four freighters. As glassy sea made undetected daylight attack almost out of the question we took station ahead to attack submerged at dusk. After a six hour run we had their zig plan, speed and base course. Submerged at 1818 and commenced approach, keeping to east of convoy to silhouette it in sunset. Two escort vessels sighted one leading, one trailing. Freighters were in two columns of two ships, the leading ship in the western column looked to be about 7000 tons, the others 5000. Later attempts at identification suggested largest ship as similar to SEIWA MARU, 7210 tons gross, page 161, the others similar to ⟦   ⟧, ⟦   ⟧ or BELGIUM MARU, 5500, 5270 and 5822 tons gross respectively. They could have been considerably larger or considerably smaller, however. At a range of about 4000 yards they zigged away; we swung left for a straight bow shot as range was great and could not be determined with accuracy. This put us on the port beam of the leading ships and they were so disposed that the leading ship of the closer column had its bow almost at the stern of the leading ship of the far column and the second ship of the far column had its bow at the stern of the leader of the near column thus presenting three ships, bow to stern; straight bow shot gyro angle 358° on all six shots, track angle 86 port. Fired six torpedoes and at 2-20 and 2-30 heard two hits, probably on near ship, three more hits at 2-40 2-50 3-04 probably two on leading ship of far column and one on other ship in far column. We were then dead ahead of one escort so went deep immediately and rigged for depth charge attack. The sound of ships breaking up was clearly heard for next half hour, also sharp cracks which may have been gun fire. Much scurrying about on part of escorts. Sound tracked them without trouble and heard only one merchant ship screw after attack. All four clearly audible before firing. There was so much noise from the vicinity of attack however that sound reception was not good. The five explosions heard were definitely torpedo hits, both from the sound of their explosions, times from firing checking very closely with estimated torpedo runs, the fact that eight knot freighters would not drop depth charges and had the escort dropped charges they would have been much closer and louder since he was at a range of about 1000 yards when the last torpedo explosion was heard. Depth charging commenced at 2018. A supersonic search commenced; six charges were dropped, last one at 2152 none close. It is fortunate that he wasn't close as we had developed an air leak which was very loud in sound gear and #6 tube outer door was jammed open. Surfaced at 2308. Put a man over side to determine cause of outer door jamming with no results. Left area at full power."
+    page: 6
+    flags: "Report page 6 ends with freighter comparison list containing illegible/blank ship names before BELGIUM MARU; text continues onto page 7."
+  - date: 20 January
+    time: 2018
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: counterattack
+    part: I
+    charges: "six charges"
+    damage: "developed an air leak which was very loud in sound gear and #6 tube outer door was jammed open"
+    course: 
+    speed: 
+    event: "Depth charging commenced at 2018. A supersonic search commenced; six charges were dropped, last one at 2152 none close. It is fortunate that he wasn't close as we had developed an air leak which was very loud in sound gear and #6 tube outer door was jammed open. Surfaced at 2308. Put a man over side to determine cause of outer door jamming with no results. Left area at full power."
+    page: 7
+    flags: "Counterattack following convoy torpedo attack."
+  - date: 21 January
+    time: 0056
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sighted patrol vessel at 0056; submerged before sunrise; found torpedo stuck in #6 tube; backed emergency and fired; generator explosion, leaks, Cream of Wheat in main induction."
+    page: 7
+    flags: "Text references #6 tube as '#26 tube' in one sentence then discusses #6 tube."
+  - date: 22 January
+    time: 
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Submerged searching for air leaks; found broken vent studs on #3 FBT, heated main excitation switch; decided to depart area early for Pearl due to defects and fuel."
+    page: 8
+    flags: "Time zone K inferred from Part I note."
+  - date: 23 January
+    time: 
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Left area, enroute PEARL. Ran on surface except for one day submerged when running between RONGELAP and KWAJALEIN Atolls."
+    page: 8
+    flags: "Time zone K inferred from Part I note."
+  - date: 26 January
+    time: 
+    zone: K
+    lat: 
+    lon: 
+    from: WOTJE
+    bearing: NW
+    distance: 240 miles
+    bearing_is: from_landmark
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "When 240 miles northwest of WOTJE sighted 2 engine bomber, submerged for 3/4 hour to avoid."
+    page: 8
+    flags: ""
+  - date: 27 January
+    time: 1050
+    zone: K
+    lat: 
+    lon: 
+    from: WOTJE
+    bearing: 
+    distance: 410 miles
+    bearing_is: from_landmark
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "When 410 miles from WOTJE radar gave indication of plane at 1050, range 16 miles, closed to 15 and opened out, losing it at 19 miles."
+    page: 8
+    flags: "Bearing not stated in source."
+  - date: 33 January
+    time: 
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Returned to PEARL."
+    page: 8
+    flags: "Date typed verbatim as '33 January' (obviously 31 January)."
+```
+
+Markdown
+
+```
+No tabular data (contacts, attacks, or position tables) appears on the provided pages.
+```
+
+Could not transcribe: names of two Japanese merchant ship classes/vessels appearing between "similar to" and "or BELGIUM MARU" on report page 6, which were blanked or omitted in the typed copy.

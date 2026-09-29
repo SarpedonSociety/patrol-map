@@ -5,67 +5,2563 @@
  "class": "Gato",
  "patrol": 4,
  "year": 1942,
- "report": null,
+ "report": "U.S.S. SILVERSIDES Report of Fourth War Patrol.",
  "commanding_officer": null,
- "citation": {},
- "fold3_images": {},
+ "citation": {
+  "archive": "NARA",
+  "record_group": "38",
+  "nara_catalog_id": "4697018",
+  "nara_catalog_title": "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946",
+  "reel": "A216",
+  "micro_serial": "46217",
+  "file": "A16-3 (5)",
+  "serial": "0144",
+  "date": "2/3/1943"
+ },
+ "fold3_images": {
+  "1": "268432810",
+  "2": "268432811",
+  "3": "268432812",
+  "4": "268432813",
+  "5": "268432814",
+  "6": "268432815",
+  "7": "268432816",
+  "8": "268432817",
+  "13": "268432822",
+  "14": "268432823",
+  "15": "268432824",
+  "9": "268432818",
+  "10": "268432819",
+  "11": "268432821",
+  "12": "268432820"
+ },
  "miles_steamed": null,
  "fuel_expended": null,
- "start": "1942-12-17T12:00:00Z",
+ "start": "1942-12-17T03:00:00Z",
  "end": "1943-01-31T12:00:00Z",
- "departure": null,
- "arrival": null,
+ "departure": {
+  "label": "Departed",
+  "port": "Brisbane Australia",
+  "utc": "1942-12-17T03:00:00Z",
+  "local": "1400 L 17 December",
+  "lat": -27.47,
+  "lon": 153.03,
+  "page": "1",
+  "flags": [
+   "Time zone inferred from narrative statement 'All times minus eleven unless otherwise designated' (Zone K = -11)."
+  ]
+ },
+ "arrival": {
+  "label": "Arrived",
+  "port": "PEARL",
+  "utc": "1943-01-31T01:00:00Z",
+  "local": "L 31 January",
+  "lat": 21.35,
+  "lon": -157.95,
+  "page": "8",
+  "flags": [
+   "Date typed as '33 January' in report; time zone K applies per Part I statement.",
+   "Time not recorded; placed at noon."
+  ]
+ },
  "report_found": true,
  "summary": {
-  "records": 0,
-  "sightings": 0,
-  "aircraft": 0,
-  "torpedo_attacks": 0,
+  "records": 72,
+  "sightings": 18,
+  "aircraft": 17,
+  "torpedo_attacks": 4,
   "mine_attacks": 0,
-  "counterattacks": 0,
+  "counterattacks": 4,
   "torpedoes_fired": 0,
   "gun_actions": 0,
-  "flagged": 0
+  "flagged": 47
  },
- "track": [],
- "records": [],
- "tonnage": [
+ "track": [
   {
-   "id": "SS-236-P04-T01",
-   "utc": "1943-01-31T12:00:00Z",
-   "target": "Oiler",
-   "name": null,
-   "result": "sunk",
-   "tons": 10010,
-   "ships": 1,
-   "basis": "claimed",
-   "source": "Patrol report",
-   "flags": []
+   "lat": -27.47,
+   "lon": 153.03,
+   "utc": "1942-12-17T03:00:00Z",
+   "basis": "reference"
   },
   {
-   "id": "SS-236-P04-T02",
-   "utc": "1943-01-31T12:00:00Z",
-   "target": "Freighters",
-   "name": null,
-   "result": "damaged",
-   "tons": null,
-   "ships": 2,
-   "basis": "claimed",
-   "source": "Patrol report: two freighters damaged; tonnage to add",
+   "lat": -10.7,
+   "lon": 156.38333,
+   "utc": "1942-12-20T23:15:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C23"
+  },
+  {
+   "lat": -6.5,
+   "lon": 154.0,
+   "utc": "1942-12-22T16:05:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C01"
+  },
+  {
+   "lat": -6.0,
+   "lon": 153.91667,
+   "utc": "1942-12-22T21:56:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C24"
+  },
+  {
+   "lat": -5.25,
+   "lon": 153.9,
+   "utc": "1942-12-23T09:33:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C25"
+  },
+  {
+   "lat": -2.66667,
+   "lon": 150.91667,
+   "utc": "1942-12-24T18:30:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C26"
+  },
+  {
+   "lat": -2.76667,
+   "lon": 150.91667,
+   "utc": "1942-12-25T04:28:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C29"
+  },
+  {
+   "lat": -2.41667,
+   "lon": 150.66667,
+   "utc": "1942-12-25T07:18:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C02"
+  },
+  {
+   "lat": 1.33333,
+   "lon": 151.08333,
+   "utc": "1942-12-25T23:24:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C03"
+  },
+  {
+   "lat": 3.0,
+   "lon": 151.25,
+   "utc": "1942-12-26T03:40:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C30"
+  },
+  {
+   "lat": 7.01667,
+   "lon": 151.61667,
+   "utc": "1942-12-31T20:27:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C04"
+  },
+  {
+   "lat": 6.83333,
+   "lon": 151.83333,
+   "utc": "1943-01-01T21:22:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C31"
+  },
+  {
+   "lat": 7.0,
+   "lon": 151.53333,
+   "utc": "1943-01-03T23:09:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C06"
+  },
+  {
+   "lat": 7.01667,
+   "lon": 151.81667,
+   "utc": "1943-01-04T00:28:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C07"
+  },
+  {
+   "lat": 6.83333,
+   "lon": 151.85,
+   "utc": "1943-01-04T18:20:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C08"
+  },
+  {
+   "lat": 7.01667,
+   "lon": 151.71667,
+   "utc": "1943-01-04T22:02:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C32"
+  },
+  {
+   "lat": 7.1,
+   "lon": 151.28333,
+   "utc": "1943-01-06T06:05:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C09"
+  },
+  {
+   "lat": 7.18333,
+   "lon": 151.28333,
+   "utc": "1943-01-07T00:46:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C10"
+  },
+  {
+   "lat": 7.03333,
+   "lon": 151.11667,
+   "utc": "1943-01-07T22:00:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C33"
+  },
+  {
+   "lat": 7.18333,
+   "lon": 151.5,
+   "utc": "1943-01-09T23:48:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C12"
+  },
+  {
+   "lat": 7.18333,
+   "lon": 151.55,
+   "utc": "1943-01-10T01:23:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C13"
+  },
+  {
+   "lat": 7.16667,
+   "lon": 151.63333,
+   "utc": "1943-01-11T02:24:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C14"
+  },
+  {
+   "lat": 7.01667,
+   "lon": 151.41667,
+   "utc": "1943-01-11T18:27:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C16"
+  },
+  {
+   "lat": 7.51667,
+   "lon": 150.95,
+   "utc": "1943-01-13T20:35:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C34"
+  },
+  {
+   "lat": 6.91667,
+   "lon": 151.75,
+   "utc": "1943-01-15T06:17:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C35"
+  },
+  {
+   "lat": 6.83333,
+   "lon": 151.83333,
+   "utc": "1943-01-15T19:24:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C17"
+  },
+  {
+   "lat": 7.0,
+   "lon": 151.83333,
+   "utc": "1943-01-16T00:10:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C18"
+  },
+  {
+   "lat": 6.35,
+   "lon": 150.38333,
+   "utc": "1943-01-17T14:03:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C19"
+  },
+  {
+   "lat": 6.1,
+   "lon": 150.33333,
+   "utc": "1943-01-18T00:02:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C36"
+  },
+  {
+   "lat": 2.71667,
+   "lon": 152.58333,
+   "utc": "1943-01-18T23:55:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C37"
+  },
+  {
+   "lat": 2.43333,
+   "lon": 152.76667,
+   "utc": "1943-01-19T01:45:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C21"
+  },
+  {
+   "lat": 3.86667,
+   "lon": 153.93333,
+   "utc": "1943-01-20T01:50:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C22"
+  },
+  {
+   "lat": 12.53333,
+   "lon": 172.63333,
+   "utc": "1943-01-26T05:45:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C38"
+  },
+  {
+   "lat": 13.8,
+   "lon": 176.25,
+   "utc": "1943-01-26T22:50:00Z",
+   "basis": "documented",
+   "ref": "SS-236-P04-C39"
+  },
+  {
+   "lat": 21.35,
+   "lon": -157.95,
+   "utc": "1943-01-31T01:00:00Z",
+   "basis": "reference"
+  }
+ ],
+ "records": [
+  {
+   "id": "SS-236-P04-N01",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "L",
+   "local": "1400 L 17 December",
+   "utc": "1942-12-17T03:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1942,
+    12,
+    17
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "At 1400 departed Brisbane Australia for fourth war patrol. Enroute to station, conducted dive to test depth, training dives and drills."
+   },
    "flags": [
-    "No tonnage figure."
+    "Time zone K inferred from narrative header 'All times minus eleven unless otherwise designated'.",
+    "Zone K corrected to L (zone_fix in patrol.yml)."
    ]
   },
   {
-   "id": "SS-236-P04-T03",
-   "utc": "1943-01-31T12:00:00Z",
+   "id": "SS-236-P04-N02",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "L",
+   "local": "0730 L 20 December",
+   "utc": "1942-12-19T20:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1942,
+    12,
+    20
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted US Task Force of escorted battleships, exchanged recognition signals with destroyers after half hour, held three battle surface drills, compensated compass."
+   },
+   "flags": [
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-N03",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "L",
+   "local": "0530 L 21 December",
+   "utc": "1942-12-20T18:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1942,
+    12,
+    21
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Commenced submerged run at 0530 off Louisiades. Sighted low wing monoplane at 1015."
+   },
+   "flags": [
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C23",
+   "source": "Part VI aircraft sighted",
+   "row": 23,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "L",
+   "local": "1015 L 21DEC",
+   "utc": "1942-12-20T23:15:00Z",
+   "position_verbatim": "10-42 S 156-23 E",
+   "lat": -10.7,
+   "lon": 156.38333,
+   "derived": null,
+   "type": "Low wing monoplane",
+   "title": "Contact 1 · Low wing monoplane",
+   "fields": {
+    "type": "Low wing monoplane",
+    "course": "270",
+    "altitude": "8000",
+    "firing_range": "8000",
+    "remarks": "Possible friendly"
+   },
+   "flags": [
+    "Transcriber: Time printed 1016 or 1015, text says 1015"
+   ]
+  },
+  {
+   "id": "SS-236-P04-N04",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "L",
+   "local": "L 22 December",
+   "utc": "1942-12-22T01:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1942,
+    12,
+    22
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Suspected appendicitis in Platter, G.M. confirmed acute by late afternoon; decided at 2100 to operate; submerged at 2152, operation performed by Moore, T.A., PhM1c."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date.",
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C01",
+   "source": "Part V contacts",
+   "row": 1,
+   "kind": "torpedo",
+   "page": "9",
+   "zone": "L",
+   "local": "0305 L 23DEC",
+   "utc": "1942-12-22T16:05:00Z",
+   "position_verbatim": "6-30 S 154-00 E",
+   "lat": -6.5,
+   "lon": 154.0,
+   "derived": null,
+   "type": "Destroyer",
+   "title": "Contact 1 · Destroyer",
+   "fields": {
+    "type": "Destroyer",
+    "description": "Shinonome Type",
+    "initial_range": "20000",
+    "min_range": "12500",
+    "bearing": "007",
+    "course": "280 030",
+    "speed": "15 Var.",
+    "lead": "-",
+    "remarks": "In sight until 1030",
+    "attacked": "Yes",
+    "narrative": "Surfaced at 0150. Sighted a darkened ship ahead at 0305. All hands topside agreed that it was a submarine and as were close to the western boundary of our area, thought probably it was friendly. Decided to work around it to westward. At 0325 when we crossed the moon slick he sighted us and turned toward us. At 0340 he was overhauling us slowly even at 20 knots so decided to try recognition signals in chance he was friendly since we were definitely sighted any way. Our challenge was responded to by a green light flashing 10 followed by characters not in the Morse Code, so at 0357 fired two torpedoes, stern tube slow speed, 1500 Gyro, track angle zero. The first was a premature explosion about 2000 yards astern, it having porpoised during early part of run. The second was not observed. Submerged to avoid depth charge attack as it was realized as the target got closer that he was not a submarine. Three minutes after diving, the first barrage of four depth charges went off astern. The target passed directly over us, let go another barrage ahead with no damage."
+   },
+   "flags": [
+    "Narrative entry at 0150 L 23 December (page 1) describes this attack; its account is included here.",
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-N06",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "1",
+   "zone": "L",
+   "local": "0400 L 23 December",
+   "utc": "1942-12-22T17:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1942-12-22T16:05:00Z",
+     "1942-12-22T21:56:00Z"
+    ]
+   },
+   "tag": "counterattack",
+   "local_date": [
+    1942,
+    12,
+    23
+   ],
+   "has_time": true,
+   "lat": -6.42165,
+   "lon": 153.98694,
+   "type": "Narrative",
+   "title": "Depth-charged",
+   "fields": {
+    "event": "Three minutes after diving, the first barrage of four depth charges went off astern. The target passed directly over us, let go another barrage ahead with no damage.",
+    "charges": "four depth charges",
+    "damage": "no damage"
+   },
+   "flags": [
+    "Counterattack occurred 3 minutes after 0357 dive.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "No position in the report. Placed on the track between the recorded positions at 1942-12-22 16:05 and 1942-12-22 21:56 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C24",
+   "source": "Part VI aircraft sighted",
+   "row": 24,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "L",
+   "local": "0856 L 23DEC",
+   "utc": "1942-12-22T21:56:00Z",
+   "position_verbatim": "6-00 S 153-55 E",
+   "lat": -6.0,
+   "lon": 153.91667,
+   "derived": null,
+   "type": "Not seen",
+   "title": "Contact 2 · Not seen",
+   "fields": {
+    "type": "Not seen",
+    "course": "-",
+    "altitude": "-",
+    "firing_range": "Close",
+    "remarks": "Dropped three bombs directly over us."
+   },
+   "flags": [
+    "Transcriber: \"bombs\" partially typed/clipped"
+   ]
+  },
+  {
+   "id": "SS-236-P04-N07",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "2",
+   "zone": "L",
+   "local": "L 23 December",
+   "utc": "1942-12-23T01:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1942-12-22T21:56:00Z",
+     "1942-12-23T09:33:00Z"
+    ]
+   },
+   "tag": "counterattack",
+   "local_date": [
+    1942,
+    12,
+    23
+   ],
+   "has_time": false,
+   "lat": -5.80201,
+   "lon": 153.91227,
+   "type": "Narrative",
+   "title": "Depth-charged",
+   "fields": {
+    "event": "He then stopped and listened and when we started up to periscope depth at 0507 with attendant noises of blowing and venting safety, he commenced another run but did not drop. Finally at 0600, got to periscope depth. At 0630 sighted target, a two stack destroyer; commenced approach but his minimum range was 3900 yards as he was covering the area to southward of us. Broke off approach when he went out of sight and resumed course. At 0856 having just finished a periscope sweep, a plane dropped three bombs directly on top of us in rapid succession. Every light in the forward torpedo room and conning tower was knocked out, men thrown out of their bunks and knocked off their feet in the forward torpedo room, several being cut by flying glass, both barometers wrecked. I thought the conning tower was being wrenched loose from the pressure hull. Started deep and found bow planes were jammed on hard dive. The diving officer, Lieutenant R.K.R. WORTHINGTON did a remarkable job in getting to deep submergence in record time and holding the depth. After about 15 minutes, managed to get control of bow planes by hand operation. As was to be expected, the destroyer came over, made two runs at us, dropping four or five charges and finally pulled away to north west. Came up for a look at noon; all clear. Resumed course. Surfaced at 1942. Found that vent gasket on #1 MBT was blown out, bridge loud speakers on 1 MC were wrecked, starboard antenna carried away, shear pins on bow plane rigging shaft in superstructure carried away, prism in #2 periscope cracked. At 2030 radar picked up a plane coming in, so at 2033 when range was 4 miles, made quick dive to avoid; surfaced at 2050 and commenced repairs to topside. At 2325 made landfall on FENI Islands.",
+    "charges": "four or five charges",
+    "damage": "Every light in the forward torpedo room and conning tower was knocked out, men thrown out of their bunks and knocked off their feet in the forward torpedo room, several being cut by flying glass, both barometers wrecked. I thought the conning tower was being wrenched loose from the pressure hull. Started deep and found bow planes were jammed on hard dive... vent gasket on #1 MBT was blown out, bridge loud speakers on 1 MC were wrecked, starboard antenna carried away, shear pins on bow plane rigging shaft in superstructure carried away, prism in #2 periscope cracked.",
+    "part_viii": "Off RABAUL, a plane picked us up in the morning after a tangle with a destroyer during the night. We had just finished a periscope observation when he let go three bombs probably directly overhead. This was by far the closest any have come to date. The following damage was done: 1. Bow planes jammed on hard dive due to electrical failure(see derangement report) and broken shear pin in rigging gear topside. 2. Broke all bulbs, steam tights, emergency light lenses in forward compartments, conning tower and after torpedo room. 3. Cracked battery water gauge glass in starboard forward tank. 4. Blew #1 MBT gasket. 5. Water in pump room bilges grounded distribution panel and both high power air compressors. 6. Practically every voltmeter and ammeter on ship read incorrectly. 7. Battery ground of 240 volts upon surfacing. 8. Cracked prism in #2 periscope. 9. Aneroid barometers knocked off bulkheads. 10. Bridge loud speakers on 1 MC wrecked."
+   },
+   "flags": [
+    "Counterattack includes 3 aerial bombs and 4-5 depth charges.",
+    "No time given; placed at noon GMT on that date.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "Part VIII also describes this incident (page 13); its account is included here.",
+    "No position in the report. Placed on the track between the recorded positions at 1942-12-22 21:56 and 1942-12-23 09:33 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C25",
+   "source": "Part VI aircraft sighted",
+   "row": 25,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "L",
+   "local": "2033 L 23DEC",
+   "utc": "1942-12-23T09:33:00Z",
+   "position_verbatim": "5-15 S 153-54 E",
+   "lat": -5.25,
+   "lon": 153.9,
+   "derived": null,
+   "type": "Radar ind.",
+   "title": "Contact 3 · Radar ind.",
+   "fields": {
+    "type": "Radar ind.",
+    "course": "-",
+    "altitude": "-",
+    "firing_range": "8000",
+    "remarks": "Picked up at 25 mile range."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-N08",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "L",
+   "local": "0100 L 24 December",
+   "utc": "1942-12-23T14:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1942,
+    12,
+    24
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Entered assigned area at 0100 between FENI Island and NEW IRELAND. Made run up north coast between mainland of NEW IRELAND and off lying islands. Effected repairs to bow planes during evening."
+   },
+   "flags": [
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C26",
+   "source": "Part VI aircraft sighted",
+   "row": 26,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "L",
+   "local": "0530 L 25DEC",
+   "utc": "1942-12-24T18:30:00Z",
+   "position_verbatim": "2-40 S 150-55 E",
+   "lat": -2.66667,
+   "lon": 150.91667,
+   "derived": null,
+   "type": "Not seen",
+   "title": "Contact 4 · Not seen",
+   "fields": {
+    "type": "Not seen",
+    "course": "-",
+    "altitude": "500",
+    "firing_range": "10000",
+    "remarks": "Lights of plane over airfield at Kavieng."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-N09",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "L",
+   "local": "0530 L 25 December",
+   "utc": "1942-12-24T18:30:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1942-12-24T18:30:00Z",
+     "1942-12-25T04:28:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1942,
+    12,
+    25
+   ],
+   "has_time": true,
+   "lat": -2.66667,
+   "lon": 150.91667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Commenced submerged patrol off Kavieng; sighted planes and smoke; at 1818 sighted Takasago Maru, tracked submerged then surfaced at 1948 chasing on four engines."
+   },
+   "flags": [
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "No position in the report. Placed on the track between the recorded positions at 1942-12-24 18:30 and 1942-12-25 04:28 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C27",
+   "source": "Part VI aircraft sighted",
+   "row": 27,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "L",
+   "local": "0712 L 25DEC",
+   "utc": "1942-12-24T20:12:00Z",
+   "position_verbatim": "2-40 S 150-55 E",
+   "lat": -2.66667,
+   "lon": 150.91667,
+   "derived": null,
+   "type": "2 patrol planes",
+   "title": "Contact 5 · 2 patrol planes",
+   "fields": {
+    "type": "2 patrol planes",
+    "course": "045",
+    "altitude": "1000",
+    "firing_range": "14000",
+    "remarks": "Coming out of Kavieng."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-C28",
+   "source": "Part VI aircraft sighted",
+   "row": 28,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "L",
+   "local": "0738 L 25DEC",
+   "utc": "1942-12-24T20:38:00Z",
+   "position_verbatim": "2-40 S 150-55 E",
+   "lat": -2.66667,
+   "lon": 150.91667,
+   "derived": null,
+   "type": "Patrol",
+   "title": "Contact 6 · Patrol",
+   "fields": {
+    "type": "Patrol",
+    "course": "-",
+    "altitude": "-",
+    "firing_range": "16000",
+    "remarks": "Taking off from Kavieng."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-C29",
+   "source": "Part VI aircraft sighted",
+   "row": 29,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "L",
+   "local": "1528 L 25DEC",
+   "utc": "1942-12-25T04:28:00Z",
+   "position_verbatim": "2-46 S 150-55 E",
+   "lat": -2.76667,
+   "lon": 150.91667,
+   "derived": null,
+   "type": "Bomber",
+   "title": "Contact 7 · Bomber",
+   "fields": {
+    "type": "Bomber",
+    "course": "270",
+    "altitude": "-",
+    "firing_range": "20000",
+    "remarks": "Landing at Kavieng."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-C02",
+   "source": "Part V contacts",
+   "row": 2,
+   "kind": "sighting",
+   "page": "9",
+   "zone": "L",
+   "local": "1818 L 25DEC",
+   "utc": "1942-12-25T07:18:00Z",
+   "position_verbatim": "2-25 S 150-40 E",
+   "lat": -2.41667,
+   "lon": 150.66667,
+   "derived": null,
+   "type": "Hospital (Passenger)",
+   "title": "Contact 2 · Hospital (Passenger)",
+   "fields": {
+    "type": "Hospital (Passenger)",
+    "description": "Takasago Maru Pg. 15",
+    "initial_range": "14000",
+    "min_range": "14000",
+    "bearing": "-",
+    "course": "150",
+    "speed": "15",
+    "lead": "-",
+    "remarks": "Listed as Hosp. Ship",
+    "attacked": "No"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-C03",
+   "source": "Part V contacts",
+   "row": 3,
+   "kind": "sighting",
+   "page": "9",
+   "zone": "L",
+   "local": "1024 L 26DEC",
+   "utc": "1942-12-25T23:24:00Z",
+   "position_verbatim": "1-20 N 151-05 E",
+   "lat": 1.33333,
+   "lon": 151.08333,
+   "derived": null,
+   "type": "Probable Freighter",
+   "title": "Contact 3 · Probable Freighter",
+   "fields": {
+    "type": "Probable Freighter",
+    "description": "Smoke, tops of masts only",
+    "initial_range": "40000",
+    "min_range": "16000",
+    "bearing": "-",
+    "course": "0",
+    "speed": "0",
+    "lead": "-",
+    "remarks": "Possibly same as #2",
+    "attacked": "No"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-N10",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "L",
+   "local": "L 26 December",
+   "utc": "1942-12-26T01:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1942-12-25T23:24:00Z",
+     "1942-12-26T03:40:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1942,
+    12,
+    26
+   ],
+   "has_time": false,
+   "lat": 1.95833,
+   "lon": 151.14583,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Reduced speed; sighted smoke at 1024 from freighter; chased on surface, radar plane at 1430; target lost in heavy rain squall around sunset; patrolled east-west line."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "No position in the report. Placed on the track between the recorded positions at 1942-12-25 23:24 and 1942-12-26 03:40 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C30",
+   "source": "Part VI aircraft sighted",
+   "row": 30,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "L",
+   "local": "1440 L 26DEC",
+   "utc": "1942-12-26T03:40:00Z",
+   "position_verbatim": "3-00 N 151-15 E",
+   "lat": 3.0,
+   "lon": 151.25,
+   "derived": null,
+   "type": "Radar ind.",
+   "title": "Contact 8 · Radar ind.",
+   "fields": {
+    "type": "Radar ind.",
+    "course": "-",
+    "altitude": "-",
+    "firing_range": "20000",
+    "remarks": "Picked up at 13 m closed to 10, then opened."
+   },
+   "flags": [
+    "Transcriber: Date typed as \"226 Dec\""
+   ]
+  },
+  {
+   "id": "SS-236-P04-N11",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "L",
+   "local": "L 27 December",
+   "utc": "1942-12-27T01:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1942,
+    12,
+    27
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolled east-west line just south of area. Entered assigned area just after dark and set course for PIANNU Pass, TRUK."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date.",
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-N12",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "L",
+   "local": "L 28-31 December",
+   "utc": "1942-12-28T01:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1942,
+    12,
+    28
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolled line 4 to 5 miles west of PIANNU Pass, during day, retiring to west during night. No shipping, patrol vessels, planes or depth charges. Searchlight on Tol one evening about 2000."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date.",
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-N13",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "L",
+   "local": "0707 L 1 January",
+   "utc": "1942-12-31T20:07:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Commenced patrol toward Roy List Reef; sighted tanker with escort heading for Aulap or Otta Pass, range 7200, opening rapidly; no attack possible."
+   },
+   "flags": [
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C04",
+   "source": "Part V contacts",
+   "row": 4,
+   "kind": "sighting",
+   "page": "9",
+   "zone": "L",
+   "local": "0727 L 1JAN",
+   "utc": "1942-12-31T20:27:00Z",
+   "position_verbatim": "7-01 N 151-37 E",
+   "lat": 7.01667,
+   "lon": 151.61667,
+   "derived": null,
+   "type": "Tanker",
+   "title": "Contact 4 · Tanker",
+   "fields": {
+    "type": "Tanker",
+    "description": "2 masts, one stack aft.",
+    "initial_range": "7200",
+    "min_range": "7200",
+    "bearing": "030",
+    "course": "068°",
+    "speed": "12",
+    "lead": "-",
+    "remarks": "Angle on bow 130° when seen.",
+    "attacked": "No"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-C05",
+   "source": "Part V contacts",
+   "row": 5,
+   "kind": "sighting",
+   "page": "9",
+   "zone": "L",
+   "local": "0727 L 1JAN",
+   "utc": "1942-12-31T20:27:00Z",
+   "position_verbatim": "7-01 N 151-37 E",
+   "lat": 7.01667,
+   "lon": 151.61667,
+   "derived": null,
+   "type": "Patrol",
+   "title": "Contact 5 · Patrol",
+   "fields": {
+    "type": "Patrol",
+    "description": "Mast of small vessel",
+    "initial_range": "7200",
+    "min_range": "7200",
+    "bearing": "030",
+    "course": "069",
+    "speed": "12",
+    "lead": "-",
+    "remarks": "Trailing Tanker.",
+    "attacked": "No"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-C31",
+   "source": "Part VI aircraft sighted",
+   "row": 31,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "L",
+   "local": "0822 L 2JAN",
+   "utc": "1943-01-01T21:22:00Z",
+   "position_verbatim": "6-50 N 151-50 E",
+   "lat": 6.83333,
+   "lon": 151.83333,
+   "derived": null,
+   "type": "Patrol",
+   "title": "Contact 9 · Patrol",
+   "fields": {
+    "type": "Patrol",
+    "course": "170",
+    "altitude": "2000",
+    "firing_range": "8000",
+    "remarks": "Kawanisi Type 97 south of Truk."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-N14",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "L",
+   "local": "L 2 January",
+   "utc": "1943-01-02T01:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    2
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolling south of southern passes. Distant depth charging all day. Sounded more like systematic barrages than random charges. Nothing sighted, except a 4 engine bomber at 0822 heading south."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date.",
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C06",
+   "source": "Part V contacts",
+   "row": 6,
+   "kind": "sighting",
+   "page": "9",
+   "zone": "L",
+   "local": "1009 L 4JAN",
+   "utc": "1943-01-03T23:09:00Z",
+   "position_verbatim": "7-00 N 151-32 E",
+   "lat": 7.0,
+   "lon": 151.53333,
+   "derived": null,
+   "type": "Patrol",
+   "title": "Contact 6 · Patrol",
+   "fields": {
+    "type": "Patrol",
+    "description": "Large trawler about 750 tons",
+    "initial_range": "10000",
+    "min_range": "8000",
+    "bearing": "359",
+    "course": "140",
+    "speed": "12",
+    "lead": "-",
+    "remarks": "Returned at 1600 L",
+    "attacked": "No"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-N15",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "L",
+   "local": "1009 L 4 January",
+   "utc": "1943-01-03T23:09:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-01-03T23:09:00Z",
+     "1943-01-04T00:28:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    4
+   ],
+   "has_time": true,
+   "lat": 7.0,
+   "lon": 151.53333,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted small patrol boat at 1009; at 1128 sighted hospital ship leaving Otta Pass; patrol returned at 1600; heard distant depth charges at 1648."
+   },
+   "flags": [
+    "Time zone K inferred from Part I note.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "No position in the report. Placed on the track between the recorded positions at 1943-01-03 23:09 and 1943-01-04 00:28 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C07",
+   "source": "Part V contacts",
+   "row": 7,
+   "kind": "sighting",
+   "page": "9",
+   "zone": "L",
+   "local": "1128 L 4JAN",
+   "utc": "1943-01-04T00:28:00Z",
+   "position_verbatim": "7-01 N 151-49 E",
+   "lat": 7.01667,
+   "lon": 151.81667,
+   "derived": null,
+   "type": "Hospital",
+   "title": "Contact 7 · Hospital",
+   "fields": {
+    "type": "Hospital",
+    "description": "Painted white with markings",
+    "initial_range": "14000",
+    "min_range": "3000",
+    "bearing": "349",
+    "course": "195",
+    "speed": "14",
+    "lead": "-",
+    "remarks": "⟦Ynsinn M⟧ Maru, took photo.",
+    "attacked": "No"
+   },
+   "flags": [
+    "Transcriber: \"Ynsinn M\" overstruck / faint",
+    "Uncertain reading in remarks: ⟦Ynsinn M⟧ Maru, took photo."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C08",
+   "source": "Part V contacts",
+   "row": 8,
+   "kind": "sighting",
+   "page": "9",
+   "zone": "L",
+   "local": "0520 L 5JAN",
+   "utc": "1943-01-04T18:20:00Z",
+   "position_verbatim": "6-50 N 151-51 E",
+   "lat": 6.83333,
+   "lon": 151.85,
+   "derived": null,
+   "type": "Probable Destroyer",
+   "title": "Contact 8 · Probable Destroyer",
+   "fields": {
+    "type": "Probable Destroyer",
+    "description": "Unable to identify",
+    "initial_range": "7000",
+    "min_range": "6000",
+    "bearing": "078",
+    "course": "000",
+    "speed": "25",
+    "lead": "-",
+    "remarks": "Heading for Truk",
+    "attacked": "No"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-N16",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "L",
+   "local": "0520 L 5 January",
+   "utc": "1943-01-04T18:20:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-01-04T00:28:00Z",
+     "1943-01-04T18:20:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    5
+   ],
+   "has_time": true,
+   "lat": 6.83333,
+   "lon": 151.85,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted high-speed ship at 0520, lost in 10 minutes; Dublon searchlights swept south; sighted plane at 0902."
+   },
+   "flags": [
+    "Time zone K inferred from Part I note.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "No position in the report. Placed on the track between the recorded positions at 1943-01-04 00:28 and 1943-01-04 18:20 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C32",
+   "source": "Part VI aircraft sighted",
+   "row": 32,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "L",
+   "local": "0902 L 5JAN",
+   "utc": "1943-01-04T22:02:00Z",
+   "position_verbatim": "7-01 N 151-43 E",
+   "lat": 7.01667,
+   "lon": 151.71667,
+   "derived": null,
+   "type": "Patrol",
+   "title": "Contact 10 · Patrol",
+   "fields": {
+    "type": "Patrol",
+    "course": "114",
+    "altitude": "2000",
+    "firing_range": "12000",
+    "remarks": "Kawanisi Type 97 south of Truk."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-C09",
+   "source": "Part V contacts",
+   "row": 9,
+   "kind": "torpedo",
+   "page": "9",
+   "zone": "L",
+   "local": "1705 L 6JAN",
+   "utc": "1943-01-06T06:05:00Z",
+   "position_verbatim": "7-06 N 151-17 E",
+   "lat": 7.1,
+   "lon": 151.28333,
+   "derived": null,
+   "type": "Submarine",
+   "title": "Contact 9 · Submarine",
+   "fields": {
+    "type": "Submarine",
+    "description": "I-1 Class",
+    "initial_range": "5000",
+    "min_range": "2500",
+    "bearing": "272",
+    "course": "131",
+    "speed": "0",
+    "lead": "-",
+    "remarks": "Large Jap flag on conning tower.",
+    "attacked": "Yes",
+    "narrative": "Proceeded toward position south west of TRUK. During forenoon heard three distant depth charges. At 1701 sighted large enemy submarine on starboard quarter range 5000 yards swung right to 120 port track and fired 3 torpedoes. One premature explosion at one minute ten seconds about 1000 yards off, blocked off view of target. Second explosion one minute fifty seconds after firing. Targets propellers which were distinct and loud until that time, stopped immediately after that. Turned away from firing position and went deep to avoid possible aircraft screen coming up again about five minutes later. Nothing in sight except flock of birds hovering over targets last position. Sound heard nothing after second explosion. No counter measures as would undoubtedly been the case had the submarine survived to get off a contact report. Target had large naval ensign painted on side of conning tower. Two people seen on bridge and one lookout on top of periscope shears, in same position as in photograph at bottom of page 89, ONI 14."
+   },
+   "flags": [
+    "Transcriber: Remarks line runs below row",
+    "Narrative entry at 1701 L 6 January (page 4) describes this attack; its account is included here.",
+    "Time zone K inferred from Part I note.",
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-N18",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "L",
+   "local": "1145 L 7 January",
+   "utc": "1943-01-07T00:45:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-01-06T06:05:00Z",
+     "1943-01-07T00:46:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    7
+   ],
+   "has_time": true,
+   "lat": 7.18326,
+   "lon": 151.28333,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted masts of tanker previously seen January 1st with destroyer escort; commenced approach, but target zigged away at 8400 yards and was lost."
+   },
+   "flags": [
+    "Time zone K inferred from Part I note.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "No position in the report. Placed on the track between the recorded positions at 1943-01-06 06:05 and 1943-01-07 00:46 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C10",
+   "source": "Part V contacts",
+   "row": 10,
+   "kind": "sighting",
+   "page": "9",
+   "zone": "L",
+   "local": "1146 L 7JAN",
+   "utc": "1943-01-07T00:46:00Z",
+   "position_verbatim": "7-11 N 151-17 E",
+   "lat": 7.18333,
+   "lon": 151.28333,
+   "derived": null,
+   "type": "Tanker",
+   "title": "Contact 10 · Tanker",
+   "fields": {
+    "type": "Tanker",
+    "description": "Same as #4",
+    "initial_range": "15000",
+    "min_range": "8400",
+    "bearing": "258",
+    "course": "258",
+    "speed": "15",
+    "lead": "-",
+    "remarks": "Range too great to observe loading.",
+    "attacked": "No"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-C11",
+   "source": "Part V contacts",
+   "row": 11,
+   "kind": "sighting",
+   "page": "9",
+   "zone": "L",
+   "local": "1147 L 7JAN",
+   "utc": "1943-01-07T00:47:00Z",
+   "position_verbatim": "7-11 N 151-17 E",
+   "lat": 7.18333,
+   "lon": 151.28333,
+   "derived": null,
+   "type": "Destroyer",
+   "title": "Contact 11 · Destroyer",
+   "fields": {
+    "type": "Destroyer",
+    "description": "Masts and stacks only seen",
+    "initial_range": "15000",
+    "min_range": "8400",
+    "bearing": "258",
+    "course": "131",
+    "speed": "15",
+    "lead": "-",
+    "remarks": "Escorting tanker astern.",
+    "attacked": "No"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-C33",
+   "source": "Part VI aircraft sighted",
+   "row": 33,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "L",
+   "local": "0900 L 8JAN",
+   "utc": "1943-01-07T22:00:00Z",
+   "position_verbatim": "7-02 N 151-07 E",
+   "lat": 7.03333,
+   "lon": 151.11667,
+   "derived": null,
+   "type": "Scouting",
+   "title": "Contact 11 · Scouting",
+   "fields": {
+    "type": "Scouting",
+    "course": "240",
+    "altitude": "1500",
+    "firing_range": "6000",
+    "remarks": "Low wing, single float monoplane."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-N19",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "L",
+   "local": "0900 L 8 January",
+   "utc": "1943-01-07T22:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-01-07T00:46:00Z",
+     "1943-01-07T22:00:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    8
+   ],
+   "has_time": true,
+   "lat": 7.03333,
+   "lon": 151.11667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Same general vicinity. Sighted plane at 0900 on south westerly course."
+   },
+   "flags": [
+    "Time zone K inferred from Part I note.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "No position in the report. Placed on the track between the recorded positions at 1943-01-07 00:46 and 1943-01-07 22:00 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C12",
+   "source": "PART V CONTACTS (Cont.)",
+   "row": 12,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "L",
+   "local": "1048 L 10JAN",
+   "utc": "1943-01-09T23:48:00Z",
+   "position_verbatim": "7-11 N 151-30 E",
+   "lat": 7.18333,
+   "lon": 151.5,
+   "derived": null,
+   "type": "2 patrols",
+   "title": "Contact 12 · 2 patrols",
+   "fields": {
+    "type": "2 patrols",
+    "description": "Trawler type",
+    "initial_range": "8000",
+    "min_range": "1000",
+    "bearing": "096",
+    "course": "-",
+    "speed": "-",
+    "lead": "-",
+    "remarks": "Searching in pairs.",
+    "attacked": "No"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-N20",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "L",
+   "local": "L 10 January",
+   "utc": "1943-01-10T01:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-01-09T23:48:00Z",
+     "1943-01-10T01:23:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    10
+   ],
+   "has_time": false,
+   "lat": 7.18333,
+   "lon": 151.53789,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted two trawler-type patrol boats and two sampans off reef southwest of Tol; patrol boats searched and listened, one dropping 2 depth charges at 6000 yards."
+   },
+   "flags": [
+    "Time zone K inferred from Part I note.",
+    "No time given; placed at noon GMT on that date.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "No position in the report. Placed on the track between the recorded positions at 1943-01-09 23:48 and 1943-01-10 01:23 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C13",
+   "source": "PART V CONTACTS (Cont.)",
+   "row": 13,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "L",
+   "local": "1223 L 10JAN",
+   "utc": "1943-01-10T01:23:00Z",
+   "position_verbatim": "7-11 N 151-33 E",
+   "lat": 7.18333,
+   "lon": 151.55,
+   "derived": null,
+   "type": "2 sampans",
+   "title": "Contact 13 · 2 sampans",
+   "fields": {
+    "type": "2 sampans",
+    "description": "Large diesel engined",
+    "initial_range": "5000",
+    "min_range": "1000",
+    "bearing": "178",
+    "course": "-",
+    "speed": "-",
+    "lead": "-",
+    "remarks": "Fishing.",
+    "attacked": "No"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-C14",
+   "source": "PART V CONTACTS (Cont.)",
+   "row": 14,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "L",
+   "local": "1324 L 11JAN",
+   "utc": "1943-01-11T02:24:00Z",
+   "position_verbatim": "7-10 N 151-38 E",
+   "lat": 7.16667,
+   "lon": 151.63333,
+   "derived": null,
+   "type": "Sampan",
+   "title": "Contact 14 · Sampan",
+   "fields": {
+    "type": "Sampan",
+    "description": "Same as 13",
+    "initial_range": "5000",
+    "min_range": "3000",
+    "bearing": "241",
+    "course": "-",
+    "speed": "-",
+    "lead": "-",
+    "attacked": "No"
+   },
+   "flags": [
+    "Transcriber: Latitude deg/min typed as \"7-10\" without hemisphere N on page"
+   ]
+  },
+  {
+   "id": "SS-236-P04-N21",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "L",
+   "local": "1324 L 11 January",
+   "utc": "1943-01-11T02:24:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-01-11T02:24:00Z",
+     "1943-01-11T18:27:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    11
+   ],
+   "has_time": true,
+   "lat": 7.16667,
+   "lon": 151.63333,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolling same area as yesterday just south of reef. At 1324 sighted sampan and patrol boat. The patrol boat remained in the general vicinity until 1930."
+   },
+   "flags": [
+    "Time zone K inferred from Part I note.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "No position in the report. Placed on the track between the recorded positions at 1943-01-11 02:24 and 1943-01-11 18:27 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C15",
+   "source": "PART V CONTACTS (Cont.)",
+   "row": 15,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "L",
+   "local": "1328 L 11JAN",
+   "utc": "1943-01-11T02:28:00Z",
+   "position_verbatim": "7-10 N 151-38 E",
+   "lat": 7.16667,
+   "lon": 151.63333,
+   "derived": null,
+   "type": "Patrol",
+   "title": "Contact 15 · Patrol",
+   "fields": {
+    "type": "Patrol",
+    "description": "Same as 12.",
+    "initial_range": "7400",
+    "min_range": "4000",
+    "bearing": "052",
+    "course": "-",
+    "speed": "-",
+    "lead": "-",
+    "remarks": "In sight all day.",
+    "attacked": "No"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-C16",
+   "source": "PART V CONTACTS (Cont.)",
+   "row": 16,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "L",
+   "local": "0527 L 12JAN",
+   "utc": "1943-01-11T18:27:00Z",
+   "position_verbatim": "7-01 N 151-25 E",
+   "lat": 7.01667,
+   "lon": 151.41667,
+   "derived": null,
+   "type": "Patrol",
+   "title": "Contact 16 · Patrol",
+   "fields": {
+    "type": "Patrol",
+    "description": "Same as 12.",
+    "initial_range": "4000",
+    "min_range": "2500",
+    "bearing": "200",
+    "course": "090",
+    "speed": "8",
+    "lead": "-",
+    "attacked": "No"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-N22",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "L",
+   "local": "0527 L 12 January",
+   "utc": "1943-01-11T18:27:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-01-11T02:24:00Z",
+     "1943-01-11T18:27:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    12
+   ],
+   "has_time": true,
+   "lat": 7.01667,
+   "lon": 151.41667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "While closing south coast of atoll sighted patrol boat at 0527. Nothing else sighted during day."
+   },
+   "flags": [
+    "Time zone K inferred from Part I note.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "No position in the report. Placed on the track between the recorded positions at 1943-01-11 02:24 and 1943-01-11 18:27 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-236-P04-N23",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "L",
+   "local": "L 13 January",
+   "utc": "1943-01-13T01:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    13
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolled about 40 miles northwest of TRUK during day on route to NAMONUITO. Nothing sighted."
+   },
+   "flags": [
+    "Time zone K inferred from Part I note.",
+    "No time given; placed at noon GMT on that date.",
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C34",
+   "source": "Part VI aircraft sighted",
+   "row": 34,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "L",
+   "local": "0735 L 14JAN",
+   "utc": "1943-01-13T20:35:00Z",
+   "position_verbatim": "7-31 N 150-57 E",
+   "lat": 7.51667,
+   "lon": 150.95,
+   "derived": null,
+   "type": "Scouting",
+   "title": "Contact 12 · Scouting",
+   "fields": {
+    "type": "Scouting",
+    "course": "315",
+    "altitude": "1000",
+    "firing_range": "6000",
+    "remarks": "Single float biplane."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-N24",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "L",
+   "local": "0735 L 14 January",
+   "utc": "1943-01-13T20:35:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    14
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolling same vicinity as yesterday. Sighted plane at 0735. No shipping. Proceeded to southward during night of low visibility."
+   },
+   "flags": [
+    "Time zone K inferred from Part I note.",
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C35",
+   "source": "Part VI aircraft sighted",
+   "row": 35,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "L",
+   "local": "1717 L 15JAN",
+   "utc": "1943-01-15T06:17:00Z",
+   "position_verbatim": "6-55 N 151-45 E",
+   "lat": 6.91667,
+   "lon": 151.75,
+   "derived": null,
+   "type": "Scouting",
+   "title": "Contact 13 · Scouting",
+   "fields": {
+    "type": "Scouting",
+    "course": "195",
+    "altitude": "1500",
+    "firing_range": "8000",
+    "remarks": "Single float biplane"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-N25",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "L",
+   "local": "1717 L 15 January",
+   "utc": "1943-01-15T06:17:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-01-15T06:17:00Z",
+     "1943-01-15T19:24:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    15
+   ],
+   "has_time": true,
+   "lat": 6.91667,
+   "lon": 151.75,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolling about 10 miles south of atoll. Nothing sighted except seaplane at 1717 on southerly course."
+   },
+   "flags": [
+    "Time zone K inferred from Part I note.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "No position in the report. Placed on the track between the recorded positions at 1943-01-15 06:17 and 1943-01-15 19:24 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C17",
+   "source": "PART V CONTACTS (Cont.)",
+   "row": 17,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "L",
+   "local": "0624 L 16JAN",
+   "utc": "1943-01-15T19:24:00Z",
+   "position_verbatim": "6-50 N 151-50 E",
+   "lat": 6.83333,
+   "lon": 151.83333,
+   "derived": null,
+   "type": "Unidentified.",
+   "title": "Contact 17 · Unidentified.",
+   "fields": {
+    "type": "Unidentified.",
+    "description": "Propeller noises",
+    "initial_range": "-",
+    "min_range": "14000",
+    "bearing": "075",
+    "course": "0",
+    "speed": "0",
+    "lead": "-",
+    "attacked": "No"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-N26",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "L",
+   "local": "0624 L 16 January",
+   "utc": "1943-01-15T19:24:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-01-15T06:17:00Z",
+     "1943-01-15T19:24:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    16
+   ],
+   "has_time": true,
+   "lat": 6.83333,
+   "lon": 151.83333,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Heard fast screws at 0624 and briefly saw dark shape; searchlights on Truk trained on bearing; sighted two patrol boats standing south from Otta Pass."
+   },
+   "flags": [
+    "Time zone K inferred from Part I note.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "No position in the report. Placed on the track between the recorded positions at 1943-01-15 06:17 and 1943-01-15 19:24 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C18",
+   "source": "PART V CONTACTS (Cont.)",
+   "row": 18,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "L",
+   "local": "1110 L 16JAN",
+   "utc": "1943-01-16T00:10:00Z",
+   "position_verbatim": "7-00 N 151-50 E",
+   "lat": 7.0,
+   "lon": 151.83333,
+   "derived": null,
+   "type": "2 Patrols",
+   "title": "Contact 18 · 2 Patrols",
+   "fields": {
+    "type": "2 Patrols",
+    "description": "Same as 12.",
+    "initial_range": "16000",
+    "min_range": "10000",
+    "bearing": "042",
+    "course": "140",
+    "speed": "10",
+    "lead": "-",
+    "attacked": "No"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-C19",
+   "source": "PART V CONTACTS (Cont.)",
+   "row": 19,
+   "kind": "torpedo",
+   "page": "10",
+   "zone": "L",
+   "local": "0103 L 18JAN",
+   "utc": "1943-01-17T14:03:00Z",
+   "position_verbatim": "6-21 N 150-23 E",
+   "lat": 6.35,
+   "lon": 150.38333,
+   "derived": null,
+   "type": "Tanker",
+   "title": "Contact 19 · Tanker",
+   "fields": {
+    "type": "Tanker",
+    "description": "Genyo Maru Class Pg. 262",
+    "initial_range": "16000",
+    "min_range": "0",
+    "bearing": "150",
+    "course": "030(T)",
+    "speed": "13",
+    "lead": "A",
+    "remarks": "Heavy Depth charging 3 hits.",
+    "attacked": "Yes",
+    "narrative": "At 0103 sighted large tanker. Proceeded to position ahead on his base course 030° T and commenced submerged approach at 0219. Sighted escort, an AM or small DD astern of target. At 0255 fired four stern tubes. 46 seconds after first torpedo fired it hit target in bow completely obscuring bow in column of spray. Second hit heard and felt 15 seconds thereafter but could not be seen because of spray. Third hit, 100 seconds after first torpedo was fired hit target under stack aft. Tremendous explosion and pillar of black smoke 200 high, flame and sparks at its base and out stack. Commenced evasive tactics at deep submergence at 0258. Screws of target stopped immediately and he was not heard again. For the next quarter hour noises were heard thru the hull which sounded like the tanker breaking up. Escort came across stern and let go 8 depth charges. This barrage blew gasket off safety vent as we found later and knocked out 3 depth gauges. It became necessary to put a bubble in safety but with the gasket gone this air blew to the surface. The escort came over with the air bubble as a marker and let go a barrage at 0343 which jarred our teeth. He made another run 10 minutes later but was not as close. He then commenced a supersonic search until after we came up at 0700 to periscope depth. He was about 7000 yards to north of us, angle on bow zero but shortly thereafter he reversed course and pulled out of sight. Another barrage at 0817 when he was out of sight. Retired on southerly course. Sighted a zero plane at 1102 circling our position. He followed us until 1145 when he dropped one heavy depth charge about 4000 yards astern. Upon surfacing that night we found an oil leak in #5 FBT which accounted for the plane. Transferred oil to #3 FBT. A piece of the water compartment bulkhead of one of our own torpedoes was found on deck. The bridge loud speakers were wrecked again and the retaining lug on main induction failed to function so that shortly after starting up on 4 main engines the main induction slammed shut. This tore the air lock doors off in the after battery but the engines were stopped before any casualties resulted. Proceeded on 4 engines toward newly assigned position."
+   },
+   "flags": [
+    "Transcriber: Lead column printed \"A\"",
+    "Narrative entry at 0103 L 18 January (page 5) describes this attack; its account is included here.",
+    "Time zone K inferred from Part I note.",
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C20",
+   "source": "PART V CONTACTS (Cont.)",
+   "row": 20,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "L",
+   "local": "0254 L 18JAN",
+   "utc": "1943-01-17T15:54:00Z",
+   "position_verbatim": "6-21 N 150-23 E",
+   "lat": 6.35,
+   "lon": 150.38333,
+   "derived": null,
+   "type": "DD, DM or PC",
+   "title": "Contact 20 · DD, DM or PC",
+   "fields": {
+    "type": "DD, DM or PC",
+    "description": "Not identified.",
+    "initial_range": "-",
+    "min_range": "-",
+    "bearing": "180",
+    "course": "-",
+    "speed": "-",
+    "lead": "-",
+    "attacked": "No"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-N28",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "5",
+   "zone": "L",
+   "local": "0258 L 18 January",
+   "utc": "1943-01-17T15:58:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-01-17T14:03:00Z",
+     "1943-01-18T00:02:00Z"
+    ]
+   },
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    1,
+    18
+   ],
+   "has_time": true,
+   "lat": 6.302,
+   "lon": 150.37373,
+   "type": "Narrative",
+   "title": "Depth-charged",
+   "fields": {
+    "event": "Escort came across stern and let go 8 depth charges. This barrage blew gasket off safety vent as we found later and knocked out 3 depth gauges. It became necessary to put a bubble in safety but with the gasket gone this air blew to the surface. The escort came over with the air bubble as a marker and let go a barrage at 0343 which jarred our teeth. He made another run 10 minutes later but was not as close. He then commenced a supersonic search until after we came up at 0700 to periscope depth. He was about 7000 yards to north of us, angle on bow zero but shortly thereafter he reversed course and pulled out of sight. Another barrage at 0817 when he was out of sight. Retired on southerly course. Sighted a zero plane at 1102 circling our position. He followed us until 1145 when he dropped one heavy depth charge about 4000 yards astern. Upon surfacing that night we found an oil leak in #5 FBT which accounted for the plane. Transferred oil to #3 FBT. A piece of the water compartment bulkhead of one of our own torpedoes was found on deck. The bridge loud speakers were wrecked again and the retaining lug on main induction failed to function so that shortly after starting up on 4 main engines the main induction slammed shut. This tore the air lock doors off in the after battery but the engines were stopped before any casualties resulted.",
+    "charges": "8 depth charges",
+    "damage": "blew gasket off safety vent as we found later and knocked out 3 depth gauges... The bridge loud speakers were wrecked again and the retaining lug on main induction failed to function so that shortly after starting up on 4 main engines the main induction slammed shut. This tore the air lock doors off in the after battery... oil leak in #5 FBT",
+    "part_viii": "After torpedoing the tanker on 18 January the escort let go 12 charges on our impulse bubble. Had we fired bow tubes he may have gotten us with that barrage as they were very close to our stern. The gasket on safety tank was blown and later when it was necessary to blow safety to maintain depth the air escaped thru the vent to the surface. With this as a marker and noise of blowing to assist him he came and let go another barrage. This caused the following damage: 1. Air vent valve on hydraulic line to main induction opened. This caused main induction to slam shut later when on four engines on the surface. 2. Blew out pipe plug on engine cooling water line and stern tube flushing line and broke nipple on air conditioning circulating water pump gauge line. 3. Light bulbs and emergency lights aft broken. 4. Ruptured head flushing water line thru #5 FBT, causing fuel leak to sea. 5. Broke studs off blank flange on #3 FBT which caused fuel leak when fuel was transferred the following day to that tank from #5 FBT. 6. Ruptured both bridge loudspeakers on 1 MC line again. 7. Opened all sea valves and stops thruout the ship and all fuel filling and transfer valves from 1/4 to 2 turns. 8. Loosened pipe plugs on sea valves between valve seat and sea. 9. Collecting tank discharge valve knocked open. 10. Glands on sea valves began leaking. One on compensating line cause a short circuit on #1 main generator terminals causing explosion and fire the following day. 11. All meters, gauges, thermometers out of calibration. 12. Holding down nuts on pilot circuit for main control cubicle jarred loose causing overheating and carbonization two days later. 13. Rivets and nuts on athwartships partitions in officers country sheared. 14. Blew gasket on safety tank vent."
+   },
+   "flags": [
+    "Entry includes subsequent barrages at 0343, 10 minutes later, 0817, and plane depth charge at 1145.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "Part VIII also describes this incident (page 14); its account is included here.",
+    "No position in the report. Placed on the track between the recorded positions at 1943-01-17 14:03 and 1943-01-18 00:02 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C36",
+   "source": "Part VI aircraft sighted",
+   "row": 36,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "L",
+   "local": "1102 L 18JAN",
+   "utc": "1943-01-18T00:02:00Z",
+   "position_verbatim": "6-06 N 150-20 E",
+   "lat": 6.1,
+   "lon": 150.33333,
+   "derived": null,
+   "type": "Scouting",
+   "title": "Contact 14 · Scouting",
+   "fields": {
+    "type": "Scouting",
+    "course": "258",
+    "altitude": "1500",
+    "firing_range": "4000",
+    "remarks": "Low wing, twin float, zero type. In sight for 40' hunting for us."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-C37",
+   "source": "PART VI AIRCRAFT SIGHTED (Cont.)",
+   "row": 37,
+   "kind": "aircraft",
+   "page": "12",
+   "zone": "L",
+   "local": "1055 L 19JAN",
+   "utc": "1943-01-18T23:55:00Z",
+   "position_verbatim": "2-43 N 152-35 E",
+   "lat": 2.71667,
+   "lon": 152.58333,
+   "derived": null,
+   "type": "Radar ind.",
+   "title": "Contact 15 · Radar ind.",
+   "fields": {
+    "type": "Radar ind.",
+    "course": "-",
+    "altitude": "-",
+    "firing_range": "6000",
+    "remarks": "Picked up at 8 mi"
+   },
+   "flags": [
+    "Transcriber: Remarks truncated/faint at right"
+   ]
+  },
+  {
+   "id": "SS-236-P04-N29",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "L",
+   "local": "1055 L 19 January",
+   "utc": "1943-01-18T23:55:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-01-18T00:02:00Z",
+     "1943-01-18T23:55:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    19
+   ],
+   "has_time": true,
+   "lat": 2.71667,
+   "lon": 152.58333,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Proceeding southeast; dived on radar contact; at 1245 sighted three destroyers and made submerged approach; abandoned chase at 1915; retired toward Truk."
+   },
+   "flags": [
+    "Time zone K inferred from Part I note.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "No position in the report. Placed on the track between the recorded positions at 1943-01-18 00:02 and 1943-01-18 23:55 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C21",
+   "source": "PART V CONTACTS (Cont.)",
+   "row": 21,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "L",
+   "local": "1245 L 19JAN",
+   "utc": "1943-01-19T01:45:00Z",
+   "position_verbatim": "2-26 N 152-46 E",
+   "lat": 2.43333,
+   "lon": 152.76667,
+   "derived": null,
+   "type": "3 Destroyers",
+   "title": "Contact 21 · 3 Destroyers",
+   "fields": {
+    "type": "3 Destroyers",
+    "description": "In loose column",
+    "initial_range": "20000",
+    "min_range": "7000",
+    "bearing": "150",
+    "course": "330(T)",
+    "speed": "15",
+    "lead": "VV",
+    "attacked": "No"
+   },
+   "flags": [
+    "Transcriber: Lead column printed \"VV\""
+   ]
+  },
+  {
+   "id": "SS-236-P04-C22",
+   "source": "PART V CONTACTS (Cont.)",
+   "row": 22,
+   "kind": "torpedo",
+   "page": "10",
+   "zone": "L",
+   "local": "1250 L 20JAN",
+   "utc": "1943-01-20T01:50:00Z",
+   "position_verbatim": "3-52 N 153-56 E",
+   "lat": 3.86667,
+   "lon": 153.93333,
+   "derived": null,
+   "type": "Convoy",
+   "title": "Contact 22 · Convoy",
+   "fields": {
+    "type": "Convoy",
+    "description": "4 freighters 2 DM escorts",
+    "initial_range": "20000",
+    "min_range": "3000",
+    "bearing": "355",
+    "course": "140(T)",
+    "speed": "8.5",
+    "lead": "-",
+    "remarks": "5 torpedo hits in 3 leading freighters",
+    "attacked": "Yes",
+    "narrative": "Ran on surface during day. At 1250 sighted smoke which was closed and identified as four freighters. As glassy sea made undetected daylight attack almost out of the question we took station ahead to attack submerged at dusk. After a six hour run we had their zig plan, speed and base course. Submerged at 1818 and commenced approach, keeping to east of convoy to silhouette it in sunset. Two escort vessels sighted one leading, one trailing. Freighters were in two columns of two ships, the leading ship in the western column looked to be about 7000 tons, the others 5000. Later attempts at identification suggested largest ship as similar to SEIWA MARU, 7210 tons gross, page 161, the others similar to ⟦   ⟧, ⟦   ⟧ or BELGIUM MARU, 5500, 5270 and 5822 tons gross respectively. They could have been considerably larger or considerably smaller, however. At a range of about 4000 yards they zigged away; we swung left for a straight bow shot as range was great and could not be determined with accuracy. This put us on the port beam of the leading ships and they were so disposed that the leading ship of the closer column had its bow almost at the stern of the leading ship of the far column and the second ship of the far column had its bow at the stern of the leader of the near column thus presenting three ships, bow to stern; straight bow shot gyro angle 358° on all six shots, track angle 86 port. Fired six torpedoes and at 2-20 and 2-30 heard two hits, probably on near ship, three more hits at 2-40 2-50 3-04 probably two on leading ship of far column and one on other ship in far column. We were then dead ahead of one escort so went deep immediately and rigged for depth charge attack. The sound of ships breaking up was clearly heard for next half hour, also sharp cracks which may have been gun fire. Much scurrying about on part of escorts. Sound tracked them without trouble and heard only one merchant ship screw after attack. All four clearly audible before firing. There was so much noise from the vicinity of attack however that sound reception was not good. The five explosions heard were definitely torpedo hits, both from the sound of their explosions, times from firing checking very closely with estimated torpedo runs, the fact that eight knot freighters would not drop depth charges and had the escort dropped charges they would have been much closer and louder since he was at a range of about 1000 yards when the last torpedo explosion was heard. Depth charging commenced at 2018. A supersonic search commenced; six charges were dropped, last one at 2152 none close. It is fortunate that he wasn't close as we had developed an air leak which was very loud in sound gear and #6 tube outer door was jammed open. Surfaced at 2308. Put a man over side to determine cause of outer door jamming with no results. Left area at full power."
+   },
+   "flags": [
+    "Transcriber: Lat printed as \"3-52\" over \"3-5\"",
+    "Narrative entry at 1250 L 20 January (page 6) describes this attack; its account is included here.",
+    "Report page 6 ends with freighter comparison list containing illegible/blank ship names before BELGIUM MARU; text continues onto page 7.",
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-N31",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "7",
+   "zone": "L",
+   "local": "2018 L 20 January",
+   "utc": "1943-01-20T09:18:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    1,
+    20
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Depth-charged",
+   "fields": {
+    "event": "Depth charging commenced at 2018. A supersonic search commenced; six charges were dropped, last one at 2152 none close. It is fortunate that he wasn't close as we had developed an air leak which was very loud in sound gear and #6 tube outer door was jammed open. Surfaced at 2308. Put a man over side to determine cause of outer door jamming with no results. Left area at full power.",
+    "charges": "six charges",
+    "damage": "developed an air leak which was very loud in sound gear and #6 tube outer door was jammed open",
+    "part_viii": "After the attack on the convoy at dusk on 20 January, the escorts were not effective. What sounded like gun fire was heard for sometime afterwards. A supersonic search commenced and charges were dropped but none were close. As the firing range was 3000 to 4000 yards and torpedo tracks difficult to see at night, they were working under difficulties, although we were dead ahead of one escort, about 2000 yards when we fired."
+   },
+   "flags": [
+    "Counterattack following convoy torpedo attack.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "Part VIII also describes this incident (page 15); its account is included here."
+   ]
+  },
+  {
+   "id": "SS-236-P04-N32",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "L",
+   "local": "0056 L 21 January",
+   "utc": "1943-01-20T13:56:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    21
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted patrol vessel at 0056; submerged before sunrise; found torpedo stuck in #6 tube; backed emergency and fired; generator explosion, leaks, Cream of Wheat in main induction."
+   },
+   "flags": [
+    "Text references #6 tube as '#26 tube' in one sentence then discusses #6 tube.",
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-N33",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "L",
+   "local": "L 22 January",
+   "utc": "1943-01-22T01:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    22
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Submerged searching for air leaks; found broken vent studs on #3 FBT, heated main excitation switch; decided to depart area early for Pearl due to defects and fuel."
+   },
+   "flags": [
+    "Time zone K inferred from Part I note.",
+    "No time given; placed at noon GMT on that date.",
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-N34",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "L",
+   "local": "L 23 January",
+   "utc": "1943-01-23T01:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    23
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Left area, enroute PEARL. Ran on surface except for one day submerged when running between RONGELAP and KWAJALEIN Atolls."
+   },
+   "flags": [
+    "Time zone K inferred from Part I note.",
+    "No time given; placed at noon GMT on that date.",
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-236-P04-N35",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "L",
+   "local": "L 26 January",
+   "utc": "1943-01-26T01:00:00Z",
+   "position_verbatim": "240 miles NW of WOTJE",
+   "derived": {
+    "from": "WOTJE",
+    "bearing": 315.0,
+    "distance_nm": 240.0,
+    "landmark": {
+     "lat": 9.46,
+     "lon": 170.24
+    },
+    "landmark_note": "Wotje Atoll, Marshall Islands. Approximate; verify against a chart."
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    26
+   ],
+   "has_time": false,
+   "lat": 12.28843,
+   "lon": 167.37258,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "When 240 miles northwest of WOTJE sighted 2 engine bomber, submerged for 3/4 hour to avoid."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "Position derived from '240 miles NW of WOTJE' using a modern landmark position; it is an estimate, not a position recorded in the report.",
+    "Landmark: Wotje Atoll, Marshall Islands. Approximate; verify against a chart."
+   ]
+  },
+  {
+   "id": "SS-236-P04-C38",
+   "source": "PART VI AIRCRAFT SIGHTED (Cont.)",
+   "row": 38,
+   "kind": "aircraft",
+   "page": "12",
+   "zone": "M",
+   "local": "1745 M 26JAN",
+   "utc": "1943-01-26T05:45:00Z",
+   "position_verbatim": "12-32 N 172-38 E",
+   "lat": 12.53333,
+   "lon": 172.63333,
+   "derived": null,
+   "type": "Bomber",
+   "title": "Contact 16 · Bomber",
+   "fields": {
+    "type": "Bomber",
+    "course": "180",
+    "altitude": "1000",
+    "firing_range": "14000",
+    "remarks": "Radar did not p... pick it up."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-C39",
+   "source": "PART VI AIRCRAFT SIGHTED (Cont.)",
+   "row": 39,
+   "kind": "aircraft",
+   "page": "12",
+   "zone": "M",
+   "local": "1050 M 27JAN",
+   "utc": "1943-01-26T22:50:00Z",
+   "position_verbatim": "13-48 N 176-15 E",
+   "lat": 13.8,
+   "lon": 176.25,
+   "derived": null,
+   "type": "Radar ind.",
+   "title": "Contact 17 · Radar ind.",
+   "fields": {
+    "type": "Radar ind.",
+    "course": "-",
+    "altitude": "-",
+    "firing_range": "32000",
+    "remarks": "Not seen."
+   },
+   "flags": [
+    "Transcriber: Missing time zone letter in source",
+    "No zone letter on this entry; zone M assumed from the previous entry."
+   ]
+  },
+  {
+   "id": "SS-236-P04-N36",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "L",
+   "local": "1050 L 27 January",
+   "utc": "1943-01-26T23:50:00Z",
+   "position_verbatim": "410 miles  of WOTJE",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    27
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "When 410 miles from WOTJE radar gave indication of plane at 1050, range 16 miles, closed to 15 and opened out, losing it at 19 miles."
+   },
+   "flags": [
+    "Bearing not stated in source.",
+    "Zone K corrected to L (zone_fix in patrol.yml).",
+    "Could not read bearing 'None' or distance '410 miles'."
+   ]
+  },
+  {
+   "id": "SS-236-P04-N37",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "L",
+   "local": "L 33 January",
+   "utc": null,
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    1,
+    33
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Returned to PEARL."
+   },
+   "flags": [
+    "Date typed verbatim as '33 January' (obviously 31 January).",
+    "No time given; placed at noon GMT on that date.",
+    "Zone K corrected to L (zone_fix in patrol.yml)."
+   ]
+  }
+ ],
+ "tonnage": [
+  {
+   "id": "SS-236-P04-T01",
+   "utc": "1943-01-06T06:01:00Z",
    "target": "Submarine",
    "name": null,
    "result": "damaged",
    "tons": null,
    "ships": 1,
    "basis": "claimed",
-   "source": "Patrol report: submarine damaged; tonnage to add",
+   "source": "Contact 9 / narrative 6 January, page 4: I-1 class submarine, 3 torpedoes, one hit heard. Tonnage to add.",
+   "flags": [
+    "No tonnage figure."
+   ]
+  },
+  {
+   "id": "SS-236-P04-T02",
+   "utc": "1943-01-17T15:55:00Z",
+   "target": "Tanker (oiler)",
+   "name": null,
+   "result": "sunk",
+   "tons": 10010,
+   "ships": 1,
+   "basis": "claimed",
+   "source": "Contact 19 / narrative 18 January, page 5: Genyo Maru class tanker, four stern tubes, three hits.",
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-T03",
+   "utc": "1943-01-20T09:18:00Z",
+   "target": "Freighters",
+   "name": null,
+   "result": "damaged",
+   "tons": null,
+   "ships": 2,
+   "basis": "claimed",
+   "source": "Contact 22 / narrative 20 January, pages 6-7: six bow torpedoes into a four-ship convoy, five hits heard. Firing time not given; placed at the start of the depth charging (2018). Tonnage to add.",
    "flags": [
     "No tonnage figure."
    ]

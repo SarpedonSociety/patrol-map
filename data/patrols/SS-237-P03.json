@@ -61,7 +61,7 @@
   "counterattacks": 0,
   "torpedoes_fired": 0,
   "gun_actions": 0,
-  "flagged": 64
+  "flagged": 71
  },
  "track": [
   {
@@ -182,6 +182,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    11
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -189,7 +195,9 @@
    "fields": {
     "event": "Heavy seas. Making good only 8 knots."
    },
-   "flags": []
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
   },
   {
    "id": "SS-237-P03-N02",
@@ -203,6 +211,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    12
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -210,7 +224,9 @@
    "fields": {
     "event": "Storms moderated. Making good 12 knots."
    },
-   "flags": []
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
   },
   {
    "id": "SS-237-P03-N03",
@@ -224,6 +240,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    13
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -231,7 +253,9 @@
    "fields": {
     "event": "Rough again; 8 knots."
    },
-   "flags": []
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
   },
   {
    "id": "SS-237-P03-N04",
@@ -245,6 +269,12 @@
    "position_verbatim": "35-05 N. 147-48  .",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    16
+   ],
+   "has_time": true,
    "lat": 35.08333,
    "lon": 147.8,
    "type": "Narrative",
@@ -295,6 +325,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    16
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -348,6 +384,12 @@
    "position_verbatim": "35-33 N. 140-57 E.",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    18
+   ],
+   "has_time": true,
    "lat": 35.55,
    "lon": 140.95,
    "type": "Narrative",
@@ -396,6 +438,12 @@
    "position_verbatim": "35-38 N. 140-55 E.",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    19
+   ],
+   "has_time": true,
    "lat": 35.63333,
    "lon": 140.91667,
    "type": "Narrative",
@@ -446,6 +494,12 @@
    "position_verbatim": "35-42 N. 140-58 E.",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    20
+   ],
+   "has_time": true,
    "lat": 35.7,
    "lon": 140.96667,
    "type": "Narrative",
@@ -473,6 +527,12 @@
     ]
    },
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    20
+   ],
+   "has_time": true,
    "lat": 35.74326,
    "lon": 140.92341,
    "type": "Narrative",
@@ -502,6 +562,12 @@
     ]
    },
    "tag": "minefield",
+   "local_date": [
+    1942,
+    12,
+    20
+   ],
+   "has_time": true,
    "lat": 35.74685,
    "lon": 140.91982,
    "type": "Narrative",
@@ -531,6 +597,12 @@
     ]
    },
    "tag": "minefield",
+   "local_date": [
+    1942,
+    12,
+    20
+   ],
+   "has_time": true,
    "lat": 35.74785,
    "lon": 140.91882,
    "type": "Narrative",
@@ -560,6 +632,12 @@
     ]
    },
    "tag": "minefield",
+   "local_date": [
+    1942,
+    12,
+    20
+   ],
+   "has_time": true,
    "lat": 35.74873,
    "lon": 140.91794,
    "type": "Narrative",
@@ -589,6 +667,12 @@
     ]
    },
    "tag": "minefield",
+   "local_date": [
+    1942,
+    12,
+    20
+   ],
+   "has_time": true,
    "lat": 35.74939,
    "lon": 140.91728,
    "type": "Narrative",
@@ -639,6 +723,12 @@
    "position_verbatim": "35-45 N. 140-55 E.",
    "derived": null,
    "tag": "minefield",
+   "local_date": [
+    1942,
+    12,
+    20
+   ],
+   "has_time": true,
    "lat": 35.75,
    "lon": 140.91667,
    "type": "Narrative",
@@ -662,6 +752,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": "minefield",
+   "local_date": [
+    1942,
+    12,
+    20
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -685,6 +781,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": "minefield",
+   "local_date": [
+    1942,
+    12,
+    20
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -706,6 +808,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    21
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -727,6 +835,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    21
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -748,6 +862,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    21
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -769,6 +889,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    21
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -790,6 +916,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    21
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -811,6 +943,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    21
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -843,6 +981,12 @@
     "landmark_note": "Southern tip of the Boso Peninsula (lighthouse). Approximate; verify against a chart."
    },
    "tag": "attack",
+   "local_date": [
+    1942,
+    12,
+    22
+   ],
+   "has_time": true,
    "lat": 34.88433,
    "lon": 139.8528,
    "type": "Narrative",
@@ -868,6 +1012,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": "attack",
+   "local_date": [
+    1942,
+    12,
+    22
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -917,6 +1067,12 @@
    "position_verbatim": "34-52 N. 139-49 E.",
    "derived": null,
    "tag": "attack",
+   "local_date": [
+    1942,
+    12,
+    22
+   ],
+   "has_time": true,
    "lat": 34.86667,
    "lon": 139.81667,
    "type": "Narrative",
@@ -973,6 +1129,12 @@
     ]
    },
    "tag": "attack",
+   "local_date": [
+    1942,
+    12,
+    22
+   ],
+   "has_time": true,
    "lat": 34.8651,
    "lon": 139.81622,
    "type": "Narrative",
@@ -1030,6 +1192,12 @@
     ]
    },
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    22
+   ],
+   "has_time": true,
    "lat": 34.75,
    "lon": 139.78333,
    "type": "Narrative",
@@ -1053,6 +1221,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    22
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1074,6 +1248,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    25
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1081,7 +1261,9 @@
    "fields": {
     "event": "[SUMMARY] Proceeded to seaward of mine plant off INUBO SAKI to observe and intercept traffic routed outside, going slightly outside patrol area."
    },
-   "flags": []
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
   },
   {
    "id": "SS-237-P03-N31",
@@ -1095,6 +1277,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    26
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1142,6 +1330,12 @@
    "position_verbatim": "35-45 N. 140-55 E.",
    "derived": null,
    "tag": "minefield",
+   "local_date": [
+    1942,
+    12,
+    26
+   ],
+   "has_time": true,
    "lat": 35.75,
    "lon": 140.91667,
    "type": "Narrative",
@@ -1165,6 +1359,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    26
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1186,6 +1386,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    26
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1207,6 +1413,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    26
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1215,7 +1427,8 @@
     "event": "Observation off INUBO S⟦A⟧KI."
    },
    "flags": [
-    "typed \"INUBO S KI\" in source with space or faint A"
+    "typed \"INUBO S KI\" in source with space or faint A",
+    "No time given; placed at noon GMT on that date."
    ]
   },
   {
@@ -1230,6 +1443,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    28
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1238,7 +1457,8 @@
     "event": "[SUMMARY] Station patrol covering southern and southeastern approaches to SAGAMI NADA in violent, shifting storms with mountainous seas and variable visibility."
    },
    "flags": [
-    "heading spans December 28-31; \"SAGALI NADI\" and \"duravion\" typed in source"
+    "heading spans December 28-31; \"SAGALI NADI\" and \"duravion\" typed in source",
+    "No time given; placed at noon GMT on that date."
    ]
   },
   {
@@ -1253,6 +1473,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    30
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1300,6 +1526,12 @@
    "position_verbatim": "33-33 N. 139-49 E.",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    30
+   ],
+   "has_time": true,
    "lat": 33.55,
    "lon": 139.81667,
    "type": "Narrative",
@@ -1327,6 +1559,12 @@
     ]
    },
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    30
+   ],
+   "has_time": true,
    "lat": 33.61959,
    "lon": 139.87756,
    "type": "Narrative",
@@ -1375,6 +1613,12 @@
    "position_verbatim": "34-29 N. 140-38 E.",
    "derived": null,
    "tag": "attack",
+   "local_date": [
+    1942,
+    12,
+    31
+   ],
+   "has_time": true,
    "lat": 34.48333,
    "lon": 140.63333,
    "type": "Narrative",
@@ -1398,6 +1642,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": "attack",
+   "local_date": [
+    1942,
+    12,
+    31
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1421,6 +1671,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    31
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1442,6 +1698,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    31
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1487,6 +1749,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    31
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1510,6 +1778,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    12,
+    31
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1531,6 +1805,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    1
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1539,7 +1819,8 @@
     "event": "Enroute the western approaches to SAGAMI NADA. Crossed the southern approaches during today."
    },
    "flags": [
-    "\"SAGALI NADA\" and \"sou nern\" typed in source"
+    "\"SAGALI NADA\" and \"sou nern\" typed in source",
+    "No time given; placed at noon GMT on that date."
    ]
   },
   {
@@ -1554,6 +1835,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    2
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1562,7 +1849,8 @@
     "event": "[SUMMARY] On station off IRO SAKI to intercept traffic entering SAGAMI NADA or passing MIKOMOTO SHIMA; noted Japanese using high-powered coastal searchlights as anti-submarine weapon."
    },
    "flags": [
-    "typed \"MIKONOTO SEIMA\" in source"
+    "typed \"MIKONOTO SEIMA\" in source",
+    "No time given; placed at noon GMT on that date."
    ]
   },
   {
@@ -1577,6 +1865,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    3
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1584,7 +1878,9 @@
    "fields": {
     "event": "[SUMMARY] Station patrol off IRO SAKI; charged only forward battery and sought deep water east of IZU SHOTO to clear persistent 120-volt after-battery ground."
    },
-   "flags": []
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
   },
   {
    "id": "SS-237-P03-N48",
@@ -1598,6 +1894,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    4
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1606,7 +1908,8 @@
     "event": "[SUMMARY] Patrolled off north-south line from NOJIMA SAKI; heavy seas caused flooding difficulties upon surfacing; battery grounds cleared; proceeded south of INUBO SAKI."
    },
    "flags": [
-    "typed \"NOGIMA SAKI\" in source"
+    "typed \"NOGIMA SAKI\" in source",
+    "No time given; placed at noon GMT on that date."
    ]
   },
   {
@@ -1621,6 +1924,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    6
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1666,6 +1975,12 @@
    "position_verbatim": "35-34 N. 140-43 E.",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    6
+   ],
+   "has_time": true,
    "lat": 35.56667,
    "lon": 140.71667,
    "type": "Narrative",
@@ -1695,6 +2010,12 @@
     ]
    },
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    6
+   ],
+   "has_time": false,
    "lat": 35.40564,
    "lon": 140.52636,
    "type": "Narrative",
@@ -1703,6 +2024,7 @@
     "event": "Numerous small vessels like TUNA boats in sight heading toward INUBO SAKI; possibly mine sweepers."
    },
    "flags": [
+    "No time given; placed at noon GMT on that date.",
     "No position in the report. Placed on the track between the recorded positions at 1943-01-06 07:22 and 1943-01-07 04:28 GMT, as an estimate."
    ]
   },
@@ -1741,6 +2063,12 @@
    "position_verbatim": "34-50 N. 139-51 E.",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    7
+   ],
+   "has_time": true,
    "lat": 34.83333,
    "lon": 139.85,
    "type": "Narrative",
@@ -1764,6 +2092,12 @@
    "position_verbatim": "left tangent of NOJIMA SAKI",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    7
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1787,6 +2121,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    7
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1810,6 +2150,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    7
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1833,6 +2179,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    8
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1841,7 +2193,8 @@
     "event": "Patrol off southeastern approached to SAGAMI NADA."
    },
    "flags": [
-    "typed \"approached\" in source"
+    "typed \"approached\" in source",
+    "No time given; placed at noon GMT on that date."
    ]
   },
   {
@@ -1856,6 +2209,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    9
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1864,7 +2223,8 @@
     "event": "[SUMMARY] Patrolled off O SHIMA to intercept traffic passing either side; at dark observed coastal searchlights sweeping sky and horizon."
    },
    "flags": [
-    "typed \"off  SHIK.\" and \"SAG.JI NDA\" in source"
+    "typed \"off  SHIK.\" and \"SAG.JI NDA\" in source",
+    "No time given; placed at noon GMT on that date."
    ]
   },
   {
@@ -1906,6 +2266,12 @@
    "position_verbatim": "35-02 N. 140-12 E.",
    "derived": null,
    "tag": "attack",
+   "local_date": [
+    1943,
+    1,
+    10
+   ],
+   "has_time": true,
    "lat": 35.03333,
    "lon": 140.2,
    "type": "Narrative",
@@ -1927,6 +2293,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": "attack",
+   "local_date": [
+    1943,
+    1,
+    10
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1950,6 +2322,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": "attack",
+   "local_date": [
+    1943,
+    1,
+    10
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1973,6 +2351,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": "attack",
+   "local_date": [
+    1943,
+    1,
+    10
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -1996,6 +2380,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    10
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -2004,7 +2394,8 @@
     "event": "Patrol off the coast northeast of NOJIMA SAKI. Seas have moderated and improved all day."
    },
    "flags": [
-    "typed \"NOJIM. SAKI\" in source"
+    "typed \"NOJIM. SAKI\" in source",
+    "No time given; placed at noon GMT on that date."
    ]
   },
   {
@@ -2019,6 +2410,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    11
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -2027,7 +2424,8 @@
     "event": "Patrol off south-eastern approaches to SAGAMI NADA. Depth control at periscope depth again nearly impossible."
    },
    "flags": [
-    "typed \"S.G. JIND\" in source"
+    "typed \"S.G. JIND\" in source",
+    "No time given; placed at noon GMT on that date."
    ]
   },
   {
@@ -2042,6 +2440,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    12
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -2049,7 +2453,9 @@
    "fields": {
     "event": "Repetition of yesterday with depth control, if possible, even worse."
    },
-   "flags": []
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
   },
   {
    "id": "SS-237-P03-N65",
@@ -2063,6 +2469,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    13
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -2071,7 +2483,8 @@
     "event": "Still very rough. Position uncertain. Working back, however, toward NOJIMA SAKI."
    },
    "flags": [
-    "date heading covers January 13-14; typed \"NOJILL. S.KI.\" in source"
+    "date heading covers January 13-14; typed \"NOJILL. S.KI.\" in source",
+    "No time given; placed at noon GMT on that date."
    ]
   },
   {
@@ -2115,6 +2528,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    14
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -2167,6 +2586,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    15
+   ],
+   "has_time": true,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -2216,6 +2641,12 @@
    "position_verbatim": "34-43 N. 139-59 E.",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    15
+   ],
+   "has_time": true,
    "lat": 34.71667,
    "lon": 139.98333,
    "type": "Narrative",
@@ -2240,6 +2671,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    15
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -2248,7 +2685,8 @@
     "event": "Storm has subsided. Ship is in a reasonably good patrol position southeast of NOJIMA SAKI."
    },
    "flags": [
-    "typed \"Snip is in  reasonably\" and \"NOJIM. S.KI.\" in source"
+    "typed \"Snip is in  reasonably\" and \"NOJIM. S.KI.\" in source",
+    "No time given; placed at noon GMT on that date."
    ]
   },
   {
@@ -2263,6 +2701,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    17
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -2270,7 +2714,9 @@
    "fields": {
     "event": "Spent the forenoon searching the area in which the station patrol vessel was seen while enroute station; unsuccessful."
    },
-   "flags": []
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
   },
   {
    "id": "SS-237-P03-N71",
@@ -2284,6 +2730,12 @@
    "position_verbatim": "",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1943,
+    1,
+    22
+   ],
+   "has_time": false,
    "lat": null,
    "lon": null,
    "type": "Narrative",
@@ -2292,7 +2744,8 @@
     "event": "Arrived MIDWAY for refit."
    },
    "flags": [
-    "typed \"rofit\" in source"
+    "typed \"rofit\" in source",
+    "No time given; placed at noon GMT on that date."
    ]
   }
  ],

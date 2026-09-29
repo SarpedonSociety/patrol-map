@@ -264,6 +264,12 @@
    "position_verbatim": "33-13-30N 151-57-30E",
    "derived": null,
    "tag": null,
+   "local_date": [
+    1942,
+    5,
+    10
+   ],
+   "has_time": false,
    "lat": 33.225,
    "lon": 151.95833,
    "type": "Narrative",
@@ -272,7 +278,8 @@
     "event": "Burial at sea of Harbin."
    },
    "flags": [
-    "Date and time not yet transcribed; placed on 10 May, the day of the gun action. Position is about 1 degree east of the 0805L 10 May trawler position (150-58); check both against the report."
+    "Date and time not yet transcribed; placed on 10 May, the day of the gun action. Position is about 1 degree east of the 0805L 10 May trawler position (150-58); check both against the report.",
+    "No time given; placed at noon GMT on that date."
    ]
   },
   {

@@ -53,7 +53,10 @@ COLUMNS = {
     "description": "description", "weapon": "weapon", "depth": "depth",
     "track": "track", "gyro": "gyro", "gryo": "gyro", "firingrange": "firing_range",
     "range": "firing_range", "hits": "hits", "remarks": "remarks", "flags": "flags",
-    "altitude": "altitude", "contactno": "contact_no", "attack": "attack_no",
+    "altitude": "altitude", "alt": "altitude", "contactno": "contact_no", "no": "contact_no",
+    "attack": "attack_no", "intrange": "initial_range", "minrange": "min_range", "beart": "bearing",
+    "bear": "bearing", "bearing": "bearing", "crse": "course", "spd": "speed", "rks": "remarks",
+    "lead": "lead",
 }
 # Fallback: first keyword found in the normalized heading wins.
 KEYWORDS = [
@@ -72,9 +75,9 @@ FIX_SECTION = re.compile(r"density|bathythermo|noon position|own position|\bposi
 
 # Narrative entry tags -> map marker kind and default title.
 TAG_KIND = {"rescue": "rescue", "attack": "torpedo", "gun": "gun", "minefield": "minefield",
-            "counterattack": "counterattack"}
+            "counterattack": "counterattack", "notable": "event"}
 TAG_TITLE = {"rescue": "Aviator rescue", "attack": "Torpedo attack (narrative)", "gun": "Gun action (narrative)",
-             "minefield": "Minefield laid", "counterattack": "Depth-charged"}
+             "minefield": "Minefield laid", "counterattack": "Depth-charged", "notable": "Notable event"}
 
 UNCERTAIN = re.compile(r"⟦[^⟧]*⟧")
 
@@ -137,11 +140,14 @@ def field_name(heading):
 
 def parse_time_date(text):
     """'0805L 10MAY', '0310(K) 10/4/43', '1855 10/3/43' -> (time, zone, date)."""
-    m = re.fullmatch(r"(\d{3,4})\s*\(?([A-Z])?\)?\s+(\d{1,2}\s*[A-Z]{3}|\d{1,2}/\d{1,2}/\d{2,4})",
-                     text.strip().upper())
+    text = re.sub(r"(?<=[A-Z])\.", "", unbracket(plain(text)).strip().upper())
+    m = re.fullmatch(r"(\d{3,4})\s*\(?([A-Z])?\)?\s+(\d{1,2}\s*[A-Z]{3}[A-Z]*|\d{1,2}/\d{1,2}/\d{2,4})",
+                     text)
     if not m:
         return None, None, None
-    return m.group(1).zfill(4), m.group(2), m.group(3).replace(" ", "")
+    date = m.group(3).replace(" ", "")
+    date = re.sub(r"^(\d{1,2}[A-Z]{3})[A-Z]*$", r"\1", date)
+    return m.group(1).zfill(4), m.group(2), date
 
 
 # Greek and Cyrillic letters that look like Latin ones turn up in OCR output.
@@ -181,6 +187,9 @@ def split_lat_long(text):
     """Split a combined 'Lat/Long' cell. Returns (lat, lon, flag)."""
     text = re.sub(r"<br\s*/?>|;|\bLat\.?|\bLong\.?|\bLon\.?", " ", unbracket(plain(text)), flags=re.I)
     text = re.sub(r"\s+", " ", text).strip()
+    pair = re.fullmatch(r"(\d+-\d+(?:\.\d+)?(?:-\d+)?)\s*([NS])\.?\s+(\d+-\d+(?:\.\d+)?(?:-\d+)?)\s*([EW])?\.?", text, re.I)
+    if pair:
+        return pair.group(1) + pair.group(2).upper(), pair.group(3) + (pair.group(4) or "").upper(), None
     parts = text.split()
     if len(parts) == 2:
         return parts[0], parts[1], None
@@ -196,7 +205,9 @@ def split_lat_long(text):
 
 def parse_date(date_str, year, first_month):
     """'10MAY' (year from patrol.yml) or '10/4/43' (M/D/YY) -> (y, m, d)."""
-    d = plain(date_str or "").upper().replace(",", " ").strip()
+    d = plain(date_str or "").upper().replace(",", " ").replace(".", " ").strip()
+    d = re.sub(r"^(\d{1,2})\s*-\s*\d{1,2}\b", r"\1", d)   # "28-31 December" -> first day
+    d = re.sub(r"\s+", " ", d)
     words = re.fullmatch(r"([A-Z]{3})[A-Z]*\.?\s+(\d{1,2})(?:\s+(\d{4}))?|(\d{1,2})\s+([A-Z]{3})[A-Z]*\.?(?:\s+(\d{4}))?", d)
     if words:
         mon = words.group(1) or words.group(5)
@@ -225,7 +236,10 @@ def to_utc(date_str, time_str, zone, year, first_month):
     if not ymd:
         return None
     hh, mm = (int(time_str[:2]), int(time_str[2:])) if time_str else (12, 0)
-    local = datetime(*ymd, hh % 24, mm % 60)
+    try:
+        local = datetime(*ymd, hh % 24, mm % 60)
+    except ValueError:
+        return None
     offset = ZONES.get(zone or "", 0)
     return (local - timedelta(hours=offset)).replace(tzinfo=timezone.utc).isoformat().replace("+00:00", "Z")
 
@@ -411,18 +425,29 @@ def build_patrol(folder, ref):
 
     # Narrative events (Part I)
     landmarks = {k.lower(): v for k, v in (ref.get("landmarks") or {}).items()}
+    zone_fix = {str(k).upper(): str(v).upper() for k, v in (meta.get("zone_fix") or {}).items()}
+    for block in (dep, arr):
+        if block.get("zone") and str(block["zone"]).upper() in zone_fix:
+            block["zone"] = zone_fix[str(block["zone"]).upper()]
     last_event_zone = None
     for i, ev in enumerate(meta.get("events") or [], start=1):
         flags = [ev["flags"]] if ev.get("flags") else []
         ev = dict(ev)
         if not ev.get("zone"):
+            if not ev.get("time") and ev.get("date"):
+                flags.append("No time given; placed at noon GMT on that date.")
             if ev.get("time") and last_event_zone:
                 ev["zone"] = last_event_zone
                 flags.append(f"No zone letter on this entry; zone {last_event_zone} assumed from the previous entry.")
             elif ev.get("time"):
                 flags.append("No time zone recorded; treated as GMT.")
         else:
+            if not ev.get("time") and ev.get("date"):
+                flags.append("No time given; placed at noon GMT on that date.")
             ev["zone"] = plain(ev["zone"]).strip().upper()
+            if ev["zone"] in zone_fix:
+                flags.append(f"Zone {ev['zone']} corrected to {zone_fix[ev['zone']]} (zone_fix in patrol.yml).")
+                ev["zone"] = zone_fix[ev["zone"]]
             last_event_zone = ev["zone"]
         lat = parse_coord(str(ev.get("lat") or ""), hemi["lat"], True)
         lon = parse_coord(str(ev.get("lon") or ""), hemi["lon"], False)
@@ -471,6 +496,8 @@ def build_patrol(folder, ref):
             "local": " ".join(str(x) for x in (ev.get("time"), ev.get("zone"), ev.get("date")) if x),
             "utc": when(ev.get("date"), ev.get("time"), ev.get("zone")),
             "position_verbatim": position_verbatim, "derived": derived, "tag": tag,
+            "local_date": list(parse_date(str(ev.get("date") or ""), year, first_month) or []),
+            "has_time": bool(ev.get("time")),
             "lat": lat, "lon": lon,
             "type": "Narrative", "title": ev.get("title") or (
                 "Ship hit by mines" if tag == "minefield" and re.search(r"attack\s*\)|\bsunk\b|\bdamaged\b", str(ev.get("event") or ""), re.I)
@@ -492,9 +519,12 @@ def build_patrol(folder, ref):
     for rec in records:
         if rec.get("part") in (None, "I") or not rec["utc"]:
             continue
-        match = min((n for n in records if n.get("part") == "I" and n["kind"] == rec["kind"] and n["utc"]
-                     and minutes_apart(n["utc"], rec["utc"]) <= 90),
-                    key=lambda n: minutes_apart(n["utc"], rec["utc"]), default=None)
+        same_day = [n for n in records if n.get("part") == "I" and n["kind"] == rec["kind"] and n["utc"]
+                    and n.get("local_date") and n.get("local_date") == rec.get("local_date")]
+        close = [n for n in records if n.get("part") == "I" and n["kind"] == rec["kind"] and n["utc"]
+                 and rec.get("has_time") and minutes_apart(n["utc"], rec["utc"]) <= 90]
+        pool = close or ([] if rec.get("has_time") else same_day)
+        match = min(pool, key=lambda n: minutes_apart(n["utc"], rec["utc"]), default=None)
         if match:
             match["fields"][f"part_{rec['part'].lower()}"] = rec["fields"].get("event")
             for k in ("charges", "damage"):
@@ -521,7 +551,12 @@ def build_patrol(folder, ref):
         gct = any(re.search(r"\bG[CM]T\b", h, re.I) for h in headers)
         section = table["section"].strip() or "Contacts / attacks table"
         is_fix = bool(FIX_SECTION.search(section))
-        source = section[:1].upper() + section[1:].lower() if section.isupper() else section
+        if section.isupper():
+            words = [w if re.fullmatch(r"[IVX]+\.?", w) else w.lower() for w in section.split()]
+            source = " ".join(words)
+            source = source[:1].upper() + source[1:]
+        else:
+            source = section
         last_position = None
         for n, cells in enumerate(table["rows"]):
             entry += 1
@@ -644,7 +679,7 @@ def build_patrol(folder, ref):
             if f.get("attack_no"):
                 title = f"Attack {f['attack_no']}" + (f" · {typ}" if typ else "")
             elif f.get("contact_no"):
-                title = f"Contact {f['contact_no']}" + (f" · {typ}" if typ else "")
+                title = f"Contact {f['contact_no'].rstrip('.')}" + (f" · {typ}" if typ else "")
             else:
                 title = typ
             zone_label = "GCT" if gct else z
@@ -662,13 +697,36 @@ def build_patrol(folder, ref):
                 "type": typ, "title": title, "fields": keep, "flags": flags,
             })
 
+    # A narrative attack and a contact-table row marked as attacked usually
+    # describe the same attack: the table has the position, the narrative the
+    # story. Fold the narrative entry into the nearest table row of the same
+    # kind within 3 hours.
+    table_attacks = [r for r in records if r.get("row") and r["kind"] in ("torpedo", "gun") and r["utc"]]
+    story = []
+    for rec in records:
+        if rec.get("row") or rec["kind"] not in ("torpedo", "gun") or not rec["utc"]:
+            continue
+        near = [t for t in table_attacks if t["kind"] == rec["kind"] and minutes_apart(t["utc"], rec["utc"]) <= 180]
+        target = min(near, key=lambda t: minutes_apart(t["utc"], rec["utc"]), default=None)
+        if target:
+            prior = target["fields"].get("narrative")
+            target["fields"]["narrative"] = f"{prior}\n\n{rec['fields'].get('event')}" if prior else rec["fields"].get("event")
+            target["flags"] = [f for f in target["flags"] if "doesn't say how" not in f]
+            target["flags"].append(f"Narrative entry at {rec['local']} (page {rec.get('page') or '?'}) describes this attack; "
+                                   f"its account is included here.")
+            target["flags"].extend(f for f in rec["flags"] if not f.startswith("No position"))
+            story.append(rec)
+    records = [r for r in records if r not in story]
+
     records.sort(key=lambda x: (x["utc"] or "9999", x["id"]))
 
     # Departure and arrival
     def endpoint(block, label):
         if not block or not block.get("port"):
             return None
-        port = {k.lower(): v for k, v in ref["ports"].items()}.get(str(block["port"]).lower())
+        wanted = str(block["port"]).lower().strip()
+        port = next((v for k, v in ref["ports"].items() if k.lower() == wanted), None) or next(
+            (v for k, v in ref["ports"].items() if wanted.startswith(k.lower()) or k.lower().startswith(wanted)), None)
         flags = [block["flags"]] if block.get("flags") else []
         if not port:
             flags.append(f"No reference position for port '{block['port']}' in sources/reference.yml.")

@@ -43,6 +43,24 @@
    "zoom": 2
   },
   {
+   "name": "Rabaul",
+   "lat": -4.2,
+   "lon": 152.18,
+   "zoom": 0
+  },
+  {
+   "name": "Kavieng",
+   "lat": -2.58,
+   "lon": 150.8,
+   "zoom": 2
+  },
+  {
+   "name": "Brisbane",
+   "lat": -27.47,
+   "lon": 153.03,
+   "zoom": 0
+  },
+  {
    "name": "Guam",
    "lat": 13.44,
    "lon": 144.79,
@@ -85,7 +103,7 @@
    "zoom": 4
   }
  ],
- "generated": "2026-09-29T22:07:10Z",
+ "generated": "2026-09-29T22:28:37Z",
  "patrols": [
   {
    "id": "SS-230-P03",
@@ -138,18 +156,18 @@
    "class": "Gato",
    "patrol": 4,
    "year": 1942,
-   "start": "1942-12-17T12:00:00Z",
+   "start": "1942-12-17T03:00:00Z",
    "end": "1943-01-31T12:00:00Z",
    "summary": {
-    "records": 0,
-    "sightings": 0,
-    "aircraft": 0,
-    "torpedo_attacks": 0,
+    "records": 72,
+    "sightings": 18,
+    "aircraft": 17,
+    "torpedo_attacks": 4,
     "mine_attacks": 0,
-    "counterattacks": 0,
+    "counterattacks": 4,
     "torpedoes_fired": 0,
     "gun_actions": 0,
-    "flagged": 0
+    "flagged": 47
    },
    "file": "patrols/SS-236-P04.json"
   },
@@ -171,7 +189,7 @@
     "counterattacks": 0,
     "torpedoes_fired": 0,
     "gun_actions": 0,
-    "flagged": 64
+    "flagged": 71
    },
    "file": "patrols/SS-237-P03.json"
   },

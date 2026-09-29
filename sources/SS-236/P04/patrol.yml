@@ -1,6 +1,6 @@
 # USS Silversides (SS-236), War Patrol 4
-# Report found; not yet transcribed. Until then this file holds the patrol
-# dates and claimed tonnage, so the scoreboard stays complete.
+# Transcribed by Gemini: gemini-01/02 (narrative), gemini-03 (Part VIII),
+# contacts-01 (Parts V and VI). Hand entries here take precedence.
 
 boat: SS-236
 patrol: 4
@@ -10,14 +10,20 @@ report:
 comsubpac_report_no: 133
 commanding_officer:
 
+# The narrative says "All times minus eleven unless otherwise designated",
+# which is zone L; Gemini labeled it K. The contact tables use L.
+zone_fix: { K: L }
+
 period:
   start: 1942-12-17
   end: 1943-01-31
   source: "Patrol report"
 
-# Claimed tonnage as summarized from the report; check against the attack
-# tables when transcribing.
+# Claimed tonnage (war history figures), placed at the attacks in the narrative.
 tonnage:
-  - { result: sunk, tons: 10010, target: Oiler, basis: claimed, source: "Patrol report" }
-  - { result: damaged, tons: , ships: 2, target: Freighters, basis: claimed, source: "Patrol report: two freighters damaged; tonnage to add" }
-  - { result: damaged, tons: , target: Submarine, basis: claimed, source: "Patrol report: submarine damaged; tonnage to add" }
+  - { date: 6JAN, time: 1701, zone: L, target: Submarine, result: damaged, tons: , basis: claimed,
+      source: "Contact 9 / narrative 6 January, page 4: I-1 class submarine, 3 torpedoes, one hit heard. Tonnage to add." }
+  - { date: 18JAN, time: 0255, zone: L, target: Tanker (oiler), result: sunk, tons: 10010, basis: claimed,
+      source: "Contact 19 / narrative 18 January, page 5: Genyo Maru class tanker, four stern tubes, three hits." }
+  - { date: 20JAN, time: 2018, zone: L, target: Freighters, result: damaged, tons: , ships: 2, basis: claimed,
+      source: "Contact 22 / narrative 20 January, pages 6-7: six bow torpedoes into a four-ship convoy, five hits heard. Firing time not given; placed at the start of the depth charging (2018). Tonnage to add." }
