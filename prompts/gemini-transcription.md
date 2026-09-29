@@ -12,7 +12,9 @@ with only:
    change, the departure or the arrival (the first and last narrative
    entries usually hold departure and arrival), and any lifeguard duty:
    the station assignment, downed-aviator reports and rescues,
-3. the ship contact, aircraft contact and attack tables.
+3. the ship contact, aircraft contact and attack tables,
+4. any table that records the boat's own positions: density layer or
+   bathythermograph observations, noon positions and the like.
 
 Keep each page's Fold3 source sheet with it.
 
@@ -107,7 +109,10 @@ well.
 
 OUTPUT 2 — contacts.md
 Transcribe every table of ship contacts, aircraft contacts and attacks
-(Parts V, VI and VII, and the tabular data at the end of the report).
+(Parts V, VI and VII, and the tabular data at the end of the report),
+and every table that records the boat's own positions (density layer or
+bathythermograph observations, noon positions). Keep the report's title
+for each table, since the title tells the map which kind it is.
 Reproduce each table as the report lays it out:
 
 - Put `### <table title as typed>` above each table, and a line

@@ -65,6 +65,10 @@ KEYWORDS = [
     ("interval", "interval"), ("spread", "spread"), ("satisfactory", "performance"),
     ("performance", "performance"), ("initialrange", "initial_range"),
 ]
+# Tables that record the boat's own positions rather than contacts:
+# density layer / bathythermograph observations, noon positions and the like.
+FIX_SECTION = re.compile(r"density|bathythermo|noon position|own position|\bpositions\b", re.I)
+
 UNCERTAIN = re.compile(r"⟦[^⟧]*⟧")
 
 
@@ -332,11 +336,13 @@ def build_patrol(folder, ref):
         unknown = [h for h, n in zip(headers, names) if n is None]
         gct = any(re.search(r"\bG[CM]T\b", h, re.I) for h in headers)
         section = table["section"].strip() or "Contacts / attacks table"
+        is_fix = bool(FIX_SECTION.search(section))
         source = section[:1].upper() + section[1:].lower() if section.isupper() else section
         for n, cells in enumerate(table["rows"]):
             entry += 1
             f = {nm: (cells[i] if i < len(cells) else "") for i, nm in enumerate(names) if nm}
-            flags = [f"Unrecognized heading(s) ignored: {', '.join(unknown)}"] if unknown and n == 0 else []
+            extra = {h: (cells[i] if i < len(cells) else "") for i, (h, nm) in enumerate(zip(headers, names)) if nm is None}
+            flags = [f"Heading(s) not recognized, kept as typed: {', '.join(unknown)}"] if unknown and n == 0 and not is_fix else []
             if f.get("flags"):
                 flags.append(f"Transcriber: {f['flags']}")
             if entry in row_notes:
@@ -345,13 +351,19 @@ def build_patrol(folder, ref):
             if "time_date" in f:
                 t, z, d = parse_time_date(f["time_date"])
                 if t is None:
-                    flags.append(f"Could not read time/date '{f['time_date']}'.")
+                    only = re.fullmatch(r"\s*(\d{1,2}\s*[A-Za-z]{3}|\d{1,2}/\d{1,2}/\d{2,4})\s*", f["time_date"])
+                    if only:
+                        d = only.group(1).replace(" ", "").upper()
+                    else:
+                        flags.append(f"Could not read time/date '{f['time_date']}'.")
             else:
                 t = re.sub(r"\D", "", f.get("time", "")) or None
                 z = (f.get("zone") or "").strip().upper() or None
                 d = (f.get("date") or "").replace(" ", "").upper() or None
             if gct and z is None:
                 z = "Z"
+            if t is None and d:
+                flags.append("No time recorded; placed at noon GMT on that date.")
             if z is None and t is not None:
                 if last_zone:
                     flags.append(f"No zone letter on this entry; zone {last_zone} assumed from the previous entry.")
@@ -392,7 +404,7 @@ def build_patrol(folder, ref):
                        (not table.get("transposed") and any(mark in c for c in cells)):
                         flags.append(f"Report note {mark}: {text.strip().rstrip(',')}")
 
-            kind = classify(f, section)
+            kind = "fix" if is_fix else classify(f, section)
             fired, hits = as_int(f.get("fired")), as_int(f.get("hits"))
             if kind == "torpedo" and fired is not None and hits is not None and hits > fired:
                 flags.append(f"More hits ({hits}) than torpedoes fired ({fired}).")
@@ -411,10 +423,11 @@ def build_patrol(folder, ref):
             keep = {k: v for k, v in f.items()
                     if k not in ("time_date", "time", "zone", "date", "lat_long", "lat", "lon", "page",
                                  "flags", "attack_no", "contact_no") and v}
+            keep.update({h: v for h, v in extra.items() if v})
             records.append({
                 "id": f"{pid}-C{entry:02d}", "source": source, "row": entry, "kind": kind,
                 "page": f.get("page") or table["page"], "zone": z,
-                "local": " ".join(x for x in (t, zone_label, d) if x) if t else f.get("time_date", ""),
+                "local": " ".join(x for x in (t, zone_label, d) if x) if t else (f.get("time_date") or d or ""),
                 "utc": to_utc(d or "", t, z, year, first_month),
                 "position_verbatim": pos_verbatim, "lat": lat, "lon": lon,
                 "type": typ, "title": title, "fields": keep, "flags": flags,

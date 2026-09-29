@@ -97,6 +97,7 @@ header.head {
 .mark.torpedo .dot { fill: var(--torpedo); stroke: var(--paper); stroke-width: 1.2; }
 .mark.gun .dot { fill: var(--gun); stroke: var(--paper); stroke-width: 1.2; }
 .mark.event .dot { fill: var(--event); stroke: var(--paper); stroke-width: 1.2; }
+.mark.fix .dot { fill: var(--track); stroke: none; }
 .mark.rescue .dot { fill: var(--sea); stroke: var(--rescue); stroke-width: 3; }
 .mark.derived .dot { stroke-dasharray: 2 2; }
 .mark.aircraft .dot { fill: var(--sea); stroke: var(--aircraft); stroke-width: 1.6; }
@@ -284,6 +285,7 @@ aside.side {
         <div><svg width="14" height="14"><path d="M7 2 12 11.5H2z" fill="var(--sea)" stroke="var(--aircraft)" stroke-width="1.6"/></svg>Aircraft contact</div>
         <div><svg width="14" height="14"><circle cx="7" cy="7" r="4.5" fill="var(--sea)" stroke="var(--rescue)" stroke-width="3"/></svg>Aviator rescue</div>
         <div><svg width="14" height="14"><circle cx="7" cy="7" r="4.5" fill="none" stroke="var(--muted)" stroke-width="1.6" stroke-dasharray="2 2"/></svg>Estimated position</div>
+        <div style="grid-column: 1 / -1"><svg width="14" height="14"><circle cx="7" cy="7" r="2.5" fill="var(--track)"/></svg>Recorded position of the boat (e.g. density layer observation)</div>
         <div style="grid-column: 1 / -1"><svg width="30" height="10"><line x1="1" y1="5" x2="29" y2="5" stroke="var(--track)" stroke-width="1.6" stroke-dasharray="5 4"/></svg>Track between recorded positions</div>
       </div>
       <p class="note">Every point is a position recorded in the patrol report. The dashed track joins them in time order; the boat's actual path between them isn't recorded.</p>
@@ -311,7 +313,7 @@ aside.side {
     attack_type: "Periscope or radar", draft: "Est. target draft", tube: "Bow or stern",
     interval: "Firing interval", spread: "Spread", performance: "Torpedo performance satisfactory",
   };
-  const KIND = { torpedo: "Torpedo attack", gun: "Gun action", sighting: "Contact", aircraft: "Aircraft contact", rescue: "Aviator rescue", event: "Narrative event" };
+  const KIND = { torpedo: "Torpedo attack", gun: "Gun action", sighting: "Contact", aircraft: "Aircraft contact", rescue: "Aviator rescue", event: "Narrative event", fix: "Recorded position" };
   const fmtDate = d3.utcFormat("%-d %b %Y");
   const fmtGmt = d3.utcFormat("%H%M GMT");
 
@@ -430,7 +432,7 @@ aside.side {
         if (kind === "gun") g.append("rect").attr("class", "dot").attr("x", -5).attr("y", -5).attr("width", 10).attr("height", 10);
         else if (kind === "aircraft") g.append("path").attr("class", "dot").attr("d", "M0 -5.5 5.5 4.5 -5.5 4.5z");
         else if (kind === "event") g.append("path").attr("class", "dot").attr("d", "M0 -6.5 6.5 0 0 6.5 -6.5 0z");
-        else g.append("circle").attr("class", "dot").attr("r", kind === "torpedo" ? 5.5 : kind === "rescue" ? 5 : 4.5);
+        else g.append("circle").attr("class", "dot").attr("r", kind === "torpedo" ? 5.5 : kind === "rescue" ? 5 : kind === "fix" ? 2.5 : 4.5);
         g.on("click", (ev) => { ev.stopPropagation(); select(r); })
          .on("keydown", (ev) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(r); } });
       }
@@ -528,7 +530,7 @@ aside.side {
 
   let lastLogCount = -1;
   function renderLog(force) {
-    const items = on().flatMap((p) => p.ports.concat(p.recs)).filter((r) => r.t <= now).sort((a, b) => b.t - a.t);
+    const items = on().flatMap((p) => p.ports.concat(p.recs)).filter((r) => r.t <= now && r.kind !== "fix").sort((a, b) => b.t - a.t);
     if (!force && items.length === lastLogCount) return;
     lastLogCount = items.length;
     const log = $("log");

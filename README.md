@@ -105,6 +105,14 @@ line, since the report didn't record them as the boat's own position.
 
 Entries tagged `rescue` (lifeguard duty) get their own marker.
 
+## Recorded positions of the boat
+
+A table whose title mentions density layers, bathythermograph
+observations, noon positions or positions is read as the boat's own
+positions, not as contacts. Its rows join the track line as small dots,
+stay out of the patrol log, and keep all their columns (layer depth,
+temperature and so on) for the detail card.
+
 ## What gets flagged
 
 The map shows a "review" marker on any entry with an open question.
