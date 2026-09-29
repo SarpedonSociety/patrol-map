@@ -93,6 +93,18 @@ tonnage:
 - Count each ship once. If several attacks claim the same ship, enter it
   at the attack that sank it.
 
+## Positions from landmarks
+
+Reports often give a position as a bearing and distance from a charted
+feature ("9 miles NE of MINAMI JIMA"). In `patrol.yml` such an entry has
+`from`, `bearing` and `distance` in place of `lat` and `lon`. The
+converter works out the position from the landmark's entry under
+`landmarks` in `sources/reference.yml`. These positions show on the map
+with a dashed outline, are flagged as estimates, and stay off the track
+line, since the report didn't record them as the boat's own position.
+
+Entries tagged `rescue` (lifeguard duty) get their own marker.
+
 ## What gets flagged
 
 The map shows a "review" marker on any entry with an open question.

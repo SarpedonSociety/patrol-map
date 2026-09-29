@@ -18,6 +18,7 @@ Nothing in sources/ is ever modified. Verbatim readings are kept alongside
 the parsed values, and anything the script had to interpret is flagged.
 """
 import json
+import math
 import re
 import sys
 from datetime import datetime, timedelta, timezone
@@ -188,6 +189,40 @@ def to_utc(date_str, time_str, zone, year, first_month):
     return (local - timedelta(hours=offset)).replace(tzinfo=timezone.utc).isoformat().replace("+00:00", "Z")
 
 
+POINTS = ["N", "NBE", "NNE", "NEBN", "NE", "NEBE", "ENE", "EBN", "E", "EBS", "ESE", "SEBE", "SE", "SEBS",
+          "SSE", "SBE", "S", "SBW", "SSW", "SWBS", "SW", "SWBW", "WSW", "WBS", "W", "WBN", "WNW", "NWBW",
+          "NW", "NWBN", "NNW", "NBW"]
+
+
+def parse_bearing(text):
+    """'NE', 'WSW', 'N by E', '045', '045T' -> degrees true, or None."""
+    t = re.sub(r"\s+", "", str(text or "").upper()).replace("BY", "B")
+    if not t:
+        return None
+    m = re.fullmatch(r"(\d{1,3}(?:\.\d+)?)°?T?", t)
+    if m:
+        return float(m.group(1)) % 360
+    return POINTS.index(t) * 11.25 if t in POINTS else None
+
+
+def parse_distance(text):
+    """'9 miles', '1.5', '9 mi', '3000 yards' -> nautical miles, or None."""
+    t = str(text or "").lower()
+    m = re.search(r"(\d+(?:\.\d+)?)", t)
+    if not m:
+        return None
+    value = float(m.group(1))
+    return value / 2025.4 if "yard" in t or "yds" in t else value
+
+
+def offset_position(lat, lon, bearing, nm):
+    """Point nm nautical miles from lat/lon on a true bearing (short distances)."""
+    rad = math.radians(bearing)
+    dlat = nm * math.cos(rad) / 60
+    dlon = nm * math.sin(rad) / (60 * math.cos(math.radians(lat)))
+    return round(lat + dlat, 5), round(lon + dlon, 5)
+
+
 def classify(fields, section):
     weapon = (fields.get("weapon") or "").upper()
     fired = fields.get("fired") or ""
@@ -245,20 +280,43 @@ def build_patrol(folder, ref):
     records = []
 
     # Narrative events (Part I)
+    landmarks = {k.lower(): v for k, v in (ref.get("landmarks") or {}).items()}
     for i, ev in enumerate(meta.get("events") or [], start=1):
         flags = [ev["flags"]] if ev.get("flags") else []
         if not ev.get("zone"):
             flags.append("No time zone recorded; treated as GMT.")
         lat = parse_coord(str(ev.get("lat") or ""), hemi["lat"], True)
         lon = parse_coord(str(ev.get("lon") or ""), hemi["lon"], False)
+        position_verbatim = " ".join(str(x) for x in (ev.get("lat"), ev.get("lon")) if x)
+        derived = None
+        if (lat is None or lon is None) and ev.get("from"):
+            # Position given relative to a landmark, e.g. "9 miles NE of MINAMI JIMA"
+            name = str(ev["from"]).strip()
+            position_verbatim = f"{ev.get('distance') or ''} {ev.get('bearing') or ''} of {name}".strip()
+            mark = landmarks.get(name.lower())
+            brg, dist = parse_bearing(ev.get("bearing")), parse_distance(ev.get("distance"))
+            if not mark or mark.get("lat") in (None, "") or mark.get("lon") in (None, ""):
+                flags.append(f"No position for landmark '{name}'. Add it to landmarks in sources/reference.yml.")
+            elif brg is None or dist is None:
+                flags.append(f"Could not read bearing '{ev.get('bearing')}' or distance '{ev.get('distance')}'.")
+            else:
+                lat, lon = offset_position(float(mark["lat"]), float(mark["lon"]), brg, dist)
+                derived = {"from": name, "bearing": brg, "distance_nm": round(dist, 2),
+                           "landmark": {"lat": float(mark["lat"]), "lon": float(mark["lon"])},
+                           "landmark_note": mark.get("note")}
+                flags.append(f"Position derived from '{position_verbatim}' using a modern landmark position; "
+                             f"it is an estimate, not a position recorded in the report.")
+                if mark.get("note"):
+                    flags.append(f"Landmark: {mark['note']}")
+        tag = str(ev.get("tag") or "").lower() or None
         records.append({
-            "id": f"{pid}-N{i:02d}", "source": "Part I narrative", "kind": "event",
+            "id": f"{pid}-N{i:02d}", "source": "Part I narrative", "kind": "rescue" if tag == "rescue" else "event",
             "page": ev.get("page"), "zone": ev.get("zone"),
             "local": " ".join(str(x) for x in (ev.get("time"), ev.get("zone"), ev.get("date")) if x),
             "utc": when(ev.get("date"), ev.get("time"), ev.get("zone")),
-            "position_verbatim": " ".join(str(x) for x in (ev.get("lat"), ev.get("lon")) if x),
+            "position_verbatim": position_verbatim, "derived": derived, "tag": tag,
             "lat": lat, "lon": lon,
-            "type": "Narrative", "title": ev.get("title") or "Narrative entry",
+            "type": "Narrative", "title": ev.get("title") or ("Aviator rescue" if tag == "rescue" else "Narrative entry"),
             "fields": {"event": ev.get("event")},
             "flags": flags,
         })
@@ -390,7 +448,7 @@ def build_patrol(folder, ref):
     if departure and departure["lat"] is not None and departure["utc"]:
         track.append({"lat": departure["lat"], "lon": departure["lon"], "utc": departure["utc"], "basis": "reference"})
     for rec in records:
-        if rec["lat"] is None or rec["lon"] is None or not rec["utc"]:
+        if rec["lat"] is None or rec["lon"] is None or not rec["utc"] or rec.get("derived"):
             continue
         if track and track[-1]["lat"] == rec["lat"] and track[-1]["lon"] == rec["lon"]:
             continue

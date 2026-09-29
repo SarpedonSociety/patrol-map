@@ -10,7 +10,8 @@ with only:
    report number and the date),
 2. the narrative entries you've marked that give a position, a course
    change, the departure or the arrival (the first and last narrative
-   entries usually hold departure and arrival),
+   entries usually hold departure and arrival), and any lifeguard duty:
+   the station assignment, downed-aviator reports and rescues,
 3. the ship contact, aircraft contact and attack tables.
 
 Keep each page's Fold3 source sheet with it.
@@ -69,6 +70,10 @@ events:          # every narrative entry provided
     zone:        # zone letter only, e.g. L
     lat:         # verbatim, e.g. 33-13-30N
     lon:         # verbatim, e.g. 151-57-30E
+    from:        # for a position given from a landmark: the landmark as typed, e.g. MINAMI JIMA
+    bearing:     # as typed, e.g. NE, WSW, 045T
+    distance:    # as typed, e.g. 9 miles
+    tag:         # rescue, for lifeguard duty entries; otherwise blank
     course:
     speed:
     event:       # verbatim; if longer than 25 words, summarize and start with [SUMMARY]
@@ -85,6 +90,18 @@ to the scanned page just before the sheet. Key it by the page number
 typed on that report page; skip pages with no typed page number.
 
 Make one `events` entry for each narrative entry on the pages provided.
+
+Positions given from a landmark ("9 miles NE of MINAMI JIMA", "1 mile
+WSW of MEGANE IWA") go in `from`, `bearing` and `distance`, exactly as
+typed. Leave `lat` and `lon` blank for these. Never convert them to
+latitude and longitude yourself.
+
+Tag every entry about lifeguard duty with `tag: rescue`: the lifeguard
+station assignment (record its position if given), reports of downed
+aviators or planes, sightings of rafts or rubber boats, and pickups.
+If the time zone is stated once for the whole narrative, or clocks are
+reset partway through, apply that zone to the entries it covers and say
+so in `flags`.
 Put the departure and arrival entries in `departure` and `arrival` as
 well.
 

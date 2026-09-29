@@ -35,6 +35,13 @@ ports:
   Majuro: { lat: 7.09, lon: 171.38 }
   Guam: { lat: 13.44, lon: 144.66 }
 
+# Landmarks for positions the reports give relative to a charted feature
+# ("9 miles NE of MINAMI JIMA"). Modern positions; a derived position is
+# always flagged as an estimate. Leave lat/lon blank until checked.
+landmarks:
+  Minami Jima: { lat: 27.033, lon: 142.167, note: "Bonin Islands, off SW Chichi Jima. Approximate; verify against a chart." }
+  Megane Iwa: { lat: , lon: , note: "Near Chichi Jima. Position not yet looked up." }
+
 # Place names drawn on the map. zoom = how far in before the label shows
 # (0 = always).
 places:
@@ -43,6 +50,7 @@ places:
   - { name: Tokyo, lat: 35.68, lon: 139.77, zoom: 0 }
   - { name: Truk, lat: 7.42, lon: 151.78, zoom: 0 }
   - { name: Wake, lat: 19.28, lon: 166.65, zoom: 0 }
+  - { name: Chichi Jima, lat: 27.08, lon: 142.2, zoom: 2 }
   - { name: Ponape, lat: 6.96, lon: 158.21, zoom: 2 }
   - { name: Guam, lat: 13.44, lon: 144.79, zoom: 2 }
   - { name: Hachijo Jima, lat: 33.1, lon: 139.8, zoom: 3 }

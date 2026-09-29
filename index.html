@@ -24,6 +24,7 @@
   --event: #2f6c55;
   --sighting: #677a80;
   --aircraft: #5162a8;
+  --rescue: #1b7f8e;
   --flag: #8a5a00;
   --flag-bg: #fbf0d6;
   --focus: #2f4b5a;
@@ -37,7 +38,7 @@
     --sea: #0d1416; --land: #35322a; --coast: #7a705e; --grid: #1a2427;
     --paper: #121a1c; --ink: #e3e0d7; --muted: #99a3a1; --rule: #283437;
     --track: #9db6c2; --torpedo: #e36452; --gun: #e2a441; --event: #6db795;
-    --sighting: #8d9ca0; --aircraft: #9aa6e6; --flag: #f0c46c; --flag-bg: #2e2612; --focus: #9db6c2;
+    --sighting: #8d9ca0; --aircraft: #9aa6e6; --rescue: #5fc4d3; --flag: #f0c46c; --flag-bg: #2e2612; --focus: #9db6c2;
     --shadow: none;
   }
 }
@@ -46,7 +47,7 @@
   --sea: #0d1416; --land: #35322a; --coast: #7a705e; --grid: #1a2427;
   --paper: #121a1c; --ink: #e3e0d7; --muted: #99a3a1; --rule: #283437;
   --track: #9db6c2; --torpedo: #e36452; --gun: #e2a441; --event: #6db795;
-  --sighting: #8d9ca0; --aircraft: #9aa6e6; --flag: #f0c46c; --flag-bg: #2e2612; --focus: #9db6c2;
+  --sighting: #8d9ca0; --aircraft: #9aa6e6; --rescue: #5fc4d3; --flag: #f0c46c; --flag-bg: #2e2612; --focus: #9db6c2;
   --shadow: none;
 }
 
@@ -96,6 +97,8 @@ header.head {
 .mark.torpedo .dot { fill: var(--torpedo); stroke: var(--paper); stroke-width: 1.2; }
 .mark.gun .dot { fill: var(--gun); stroke: var(--paper); stroke-width: 1.2; }
 .mark.event .dot { fill: var(--event); stroke: var(--paper); stroke-width: 1.2; }
+.mark.rescue .dot { fill: var(--sea); stroke: var(--rescue); stroke-width: 3; }
+.mark.derived .dot { stroke-dasharray: 2 2; }
 .mark.aircraft .dot { fill: var(--sea); stroke: var(--aircraft); stroke-width: 1.6; }
 .mark.port .dot { fill: var(--paper); stroke: var(--track); stroke-width: 1.6; }
 .mark.selected .dot { stroke: var(--ink); stroke-width: 2.4; }
@@ -279,6 +282,8 @@ aside.side {
         <div><svg width="14" height="14"><circle cx="7" cy="7" r="4.5" fill="var(--sea)" stroke="var(--sighting)" stroke-width="1.6"/></svg>Contact</div>
         <div><svg width="14" height="14"><path d="M7 1.5 12.5 7 7 12.5 1.5 7z" fill="var(--event)"/></svg>Narrative event</div>
         <div><svg width="14" height="14"><path d="M7 2 12 11.5H2z" fill="var(--sea)" stroke="var(--aircraft)" stroke-width="1.6"/></svg>Aircraft contact</div>
+        <div><svg width="14" height="14"><circle cx="7" cy="7" r="4.5" fill="var(--sea)" stroke="var(--rescue)" stroke-width="3"/></svg>Aviator rescue</div>
+        <div><svg width="14" height="14"><circle cx="7" cy="7" r="4.5" fill="none" stroke="var(--muted)" stroke-width="1.6" stroke-dasharray="2 2"/></svg>Estimated position</div>
         <div style="grid-column: 1 / -1"><svg width="30" height="10"><line x1="1" y1="5" x2="29" y2="5" stroke="var(--track)" stroke-width="1.6" stroke-dasharray="5 4"/></svg>Track between recorded positions</div>
       </div>
       <p class="note">Every point is a position recorded in the patrol report. The dashed track joins them in time order; the boat's actual path between them isn't recorded.</p>
@@ -306,7 +311,7 @@ aside.side {
     attack_type: "Periscope or radar", draft: "Est. target draft", tube: "Bow or stern",
     interval: "Firing interval", spread: "Spread", performance: "Torpedo performance satisfactory",
   };
-  const KIND = { torpedo: "Torpedo attack", gun: "Gun action", sighting: "Contact", aircraft: "Aircraft contact", event: "Narrative event" };
+  const KIND = { torpedo: "Torpedo attack", gun: "Gun action", sighting: "Contact", aircraft: "Aircraft contact", rescue: "Aviator rescue", event: "Narrative event" };
   const fmtDate = d3.utcFormat("%-d %b %Y");
   const fmtGmt = d3.utcFormat("%H%M GMT");
 
@@ -416,16 +421,16 @@ aside.side {
       for (const r of visible) {
         const [x, y] = px(r.lon, r.lat);
         const kind = r.kind || "port";
-        const g = gOver.append("g").attr("class", `mark ${kind}${selected === r ? " selected" : ""}`)
+        const g = gOver.append("g").attr("class", `mark ${kind}${r.derived ? " derived" : ""}${selected === r ? " selected" : ""}`)
           .attr("transform", `translate(${x},${y})`).attr("tabindex", 0).attr("role", "button")
           .attr("aria-label", `${KIND[kind] || r.label + " " + r.port}, ${r.local}`);
-        const fresh = now - r.t < 36 * HOUR && ["torpedo", "gun", "event"].includes(kind);
+        const fresh = now - r.t < 36 * HOUR && ["torpedo", "gun", "event", "rescue"].includes(kind);
         if (fresh && !reduced) g.append("circle").attr("class", "pulse").attr("r", 6).attr("stroke", `var(--${kind})`);
         g.append("circle").attr("class", "hit").attr("r", 11);
         if (kind === "gun") g.append("rect").attr("class", "dot").attr("x", -5).attr("y", -5).attr("width", 10).attr("height", 10);
         else if (kind === "aircraft") g.append("path").attr("class", "dot").attr("d", "M0 -5.5 5.5 4.5 -5.5 4.5z");
         else if (kind === "event") g.append("path").attr("class", "dot").attr("d", "M0 -6.5 6.5 0 0 6.5 -6.5 0z");
-        else g.append("circle").attr("class", "dot").attr("r", kind === "torpedo" ? 5.5 : 4.5);
+        else g.append("circle").attr("class", "dot").attr("r", kind === "torpedo" ? 5.5 : kind === "rescue" ? 5 : 4.5);
         g.on("click", (ev) => { ev.stopPropagation(); select(r); })
          .on("keydown", (ev) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(r); } });
       }
@@ -576,7 +581,9 @@ aside.side {
     const kind = r.kind || "port";
     const title = kind === "port" ? `${r.label} ${r.port}` : (r.title || r.type || KIND[kind]);
     const rows = kind === "port" ? [["Position", "Reference position for the port"]] :
-      [["Position", `${r.position_verbatim || "—"}  (${r.lat.toFixed(3)}, ${r.lon.toFixed(3)})`]]
+      [["Position", r.derived
+        ? `${r.position_verbatim}  (estimated ${r.lat.toFixed(3)}, ${r.lon.toFixed(3)})`
+        : `${r.position_verbatim || "—"}  (${r.lat.toFixed(3)}, ${r.lon.toFixed(3)})`]]
         .concat(Object.entries(r.fields || {}).filter(([k]) => k !== "type").map(([k, v]) => [LABELS[k] || k, v]));
     const src = kind === "port" ? "Departure / arrival, patrol.yml" :
       `${r.source}${r.row ? `, entry ${r.row}` : ""}${r.page ? `, page ${r.page}` : ", page not recorded"}`;

@@ -257,6 +257,8 @@
    "local": "L 10MAY",
    "utc": "1942-05-10T01:00:00Z",
    "position_verbatim": "33-13-30N 151-57-30E",
+   "derived": null,
+   "tag": null,
    "lat": 33.225,
    "lon": 151.95833,
    "type": "Narrative",
