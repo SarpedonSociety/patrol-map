@@ -69,6 +69,11 @@ KEYWORDS = [
 # density layer / bathythermograph observations, noon positions and the like.
 FIX_SECTION = re.compile(r"density|bathythermo|noon position|own position|\bpositions\b", re.I)
 
+# Narrative entry tags -> map marker kind and default title.
+TAG_KIND = {"rescue": "rescue", "attack": "torpedo", "gun": "gun", "minefield": "minefield"}
+TAG_TITLE = {"rescue": "Aviator rescue", "attack": "Torpedo attack (narrative)", "gun": "Gun action (narrative)",
+             "minefield": "Minefield laid"}
+
 UNCERTAIN = re.compile(r"⟦[^⟧]*⟧")
 
 
@@ -314,13 +319,13 @@ def build_patrol(folder, ref):
                     flags.append(f"Landmark: {mark['note']}")
         tag = str(ev.get("tag") or "").lower() or None
         records.append({
-            "id": f"{pid}-N{i:02d}", "source": "Part I narrative", "kind": "rescue" if tag == "rescue" else "event",
+            "id": f"{pid}-N{i:02d}", "source": "Part I narrative", "kind": TAG_KIND.get(tag, "event"),
             "page": ev.get("page"), "zone": ev.get("zone"),
             "local": " ".join(str(x) for x in (ev.get("time"), ev.get("zone"), ev.get("date")) if x),
             "utc": when(ev.get("date"), ev.get("time"), ev.get("zone")),
             "position_verbatim": position_verbatim, "derived": derived, "tag": tag,
             "lat": lat, "lon": lon,
-            "type": "Narrative", "title": ev.get("title") or ("Aviator rescue" if tag == "rescue" else "Narrative entry"),
+            "type": "Narrative", "title": ev.get("title") or TAG_TITLE.get(tag, "Narrative entry"),
             "fields": {"event": ev.get("event")},
             "flags": flags,
         })

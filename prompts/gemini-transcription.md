@@ -75,7 +75,7 @@ events:          # every narrative entry provided
     from:        # for a position given from a landmark: the landmark as typed, e.g. MINAMI JIMA
     bearing:     # as typed, e.g. NE, WSW, 045T
     distance:    # as typed, e.g. 9 miles
-    tag:         # rescue, for lifeguard duty entries; otherwise blank
+    tag:         # attack, gun, minefield or rescue (see below); otherwise blank
     course:
     speed:
     event:       # verbatim; if longer than 25 words, summarize and start with [SUMMARY]
@@ -97,6 +97,12 @@ Positions given from a landmark ("9 miles NE of MINAMI JIMA", "1 mile
 WSW of MEGANE IWA") go in `from`, `bearing` and `distance`, exactly as
 typed. Leave `lat` and `lon` blank for these. Never convert them to
 latitude and longitude yourself.
+
+Tag every narrative entry recording a torpedo attack with `tag: attack`,
+a gun action with `tag: gun`, and mine laying with `tag: minefield`
+(record the entries where laying began and ended, with any positions,
+bearings or landmarks given). Keep torpedoes fired, hits and results in
+`event` as typed.
 
 Tag every entry about lifeguard duty with `tag: rescue`: the lifeguard
 station assignment (record its position if given), reports of downed
