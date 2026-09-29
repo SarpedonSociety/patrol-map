@@ -173,6 +173,7 @@
   {
    "id": "SS-237-P03-N01",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "2",
    "zone": null,
@@ -193,6 +194,7 @@
   {
    "id": "SS-237-P03-N02",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "2",
    "zone": null,
@@ -213,6 +215,7 @@
   {
    "id": "SS-237-P03-N03",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "2",
    "zone": null,
@@ -233,6 +236,7 @@
   {
    "id": "SS-237-P03-N04",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "2",
    "zone": "K",
@@ -282,6 +286,7 @@
   {
    "id": "SS-237-P03-N05",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "2",
    "zone": "K",
@@ -334,6 +339,7 @@
   {
    "id": "SS-237-P03-N06",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "2",
    "zone": "K",
@@ -381,6 +387,7 @@
   {
    "id": "SS-237-P03-N07",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "2",
    "zone": "K",
@@ -430,6 +437,7 @@
   {
    "id": "SS-237-P03-N08",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "3",
    "zone": "K",
@@ -450,6 +458,7 @@
   {
    "id": "SS-237-P03-N09",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "3",
    "zone": "K",
@@ -478,6 +487,7 @@
   {
    "id": "SS-237-P03-N10",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "minefield",
    "page": "3",
    "zone": "K",
@@ -506,6 +516,7 @@
   {
    "id": "SS-237-P03-N11",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "minefield",
    "page": "3",
    "zone": "K",
@@ -534,6 +545,7 @@
   {
    "id": "SS-237-P03-N12",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "minefield",
    "page": "3",
    "zone": "K",
@@ -562,6 +574,7 @@
   {
    "id": "SS-237-P03-N13",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "minefield",
    "page": "3",
    "zone": "K",
@@ -617,6 +630,7 @@
   {
    "id": "SS-237-P03-N14",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "minefield",
    "page": "3",
    "zone": "K",
@@ -639,6 +653,7 @@
   {
    "id": "SS-237-P03-N15",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "minefield",
    "page": "3-4",
    "zone": "K",
@@ -661,6 +676,7 @@
   {
    "id": "SS-237-P03-N16",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "minefield",
    "page": "4",
    "zone": "K",
@@ -681,6 +697,7 @@
   {
    "id": "SS-237-P03-N17",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "4",
    "zone": "K",
@@ -701,6 +718,7 @@
   {
    "id": "SS-237-P03-N18",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "4",
    "zone": "K",
@@ -721,6 +739,7 @@
   {
    "id": "SS-237-P03-N19",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "4",
    "zone": "K",
@@ -741,6 +760,7 @@
   {
    "id": "SS-237-P03-N20",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "4",
    "zone": "K",
@@ -761,6 +781,7 @@
   {
    "id": "SS-237-P03-N21",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "4",
    "zone": "K",
@@ -781,6 +802,7 @@
   {
    "id": "SS-237-P03-N22",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "4",
    "zone": "K",
@@ -803,6 +825,7 @@
   {
    "id": "SS-237-P03-N24",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "torpedo",
    "page": "4",
    "zone": "K",
@@ -836,6 +859,7 @@
   {
    "id": "SS-237-P03-N25",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "torpedo",
    "page": "5",
    "zone": "K",
@@ -884,6 +908,7 @@
   {
    "id": "SS-237-P03-N23",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "torpedo",
    "page": "4",
    "zone": "K",
@@ -933,6 +958,7 @@
   {
    "id": "SS-237-P03-N26",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "torpedo",
    "page": "5",
    "zone": "K",
@@ -989,6 +1015,7 @@
   {
    "id": "SS-237-P03-N27",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "5",
    "zone": "K",
@@ -1017,6 +1044,7 @@
   {
    "id": "SS-237-P03-N28",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "5",
    "zone": "K",
@@ -1037,6 +1065,7 @@
   {
    "id": "SS-237-P03-N29",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "6",
    "zone": null,
@@ -1057,6 +1086,7 @@
   {
    "id": "SS-237-P03-N31",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "6",
    "zone": "K",
@@ -1103,6 +1133,7 @@
   {
    "id": "SS-237-P03-N32",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "minefield",
    "page": "6",
    "zone": "K",
@@ -1125,6 +1156,7 @@
   {
    "id": "SS-237-P03-N33",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "6",
    "zone": "K",
@@ -1145,6 +1177,7 @@
   {
    "id": "SS-237-P03-N34",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "6",
    "zone": "K",
@@ -1165,6 +1198,7 @@
   {
    "id": "SS-237-P03-N30",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "6",
    "zone": null,
@@ -1187,6 +1221,7 @@
   {
    "id": "SS-237-P03-N35",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "6",
    "zone": null,
@@ -1209,6 +1244,7 @@
   {
    "id": "SS-237-P03-N36",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "7",
    "zone": "K",
@@ -1255,6 +1291,7 @@
   {
    "id": "SS-237-P03-N37",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "7",
    "zone": "K",
@@ -1275,6 +1312,7 @@
   {
    "id": "SS-237-P03-N38",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "7",
    "zone": "K",
@@ -1328,6 +1366,7 @@
   {
    "id": "SS-237-P03-N39",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "torpedo",
    "page": "7",
    "zone": "K",
@@ -1350,6 +1389,7 @@
   {
    "id": "SS-237-P03-N40",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "torpedo",
    "page": "7-8",
    "zone": "K",
@@ -1372,6 +1412,7 @@
   {
    "id": "SS-237-P03-N41",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "8",
    "zone": "K",
@@ -1392,6 +1433,7 @@
   {
    "id": "SS-237-P03-N42",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "8",
    "zone": "K",
@@ -1436,6 +1478,7 @@
   {
    "id": "SS-237-P03-N43",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "8",
    "zone": "K",
@@ -1458,6 +1501,7 @@
   {
    "id": "SS-237-P03-N44",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "8",
    "zone": "K",
@@ -1478,6 +1522,7 @@
   {
    "id": "SS-237-P03-N45",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "8",
    "zone": null,
@@ -1500,6 +1545,7 @@
   {
    "id": "SS-237-P03-N46",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "9",
    "zone": null,
@@ -1522,6 +1568,7 @@
   {
    "id": "SS-237-P03-N47",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "9",
    "zone": null,
@@ -1542,6 +1589,7 @@
   {
    "id": "SS-237-P03-N48",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "9",
    "zone": null,
@@ -1564,6 +1612,7 @@
   {
    "id": "SS-237-P03-N50",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "9",
    "zone": "K",
@@ -1608,6 +1657,7 @@
   {
    "id": "SS-237-P03-N51",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "9",
    "zone": "K",
@@ -1630,6 +1680,7 @@
   {
    "id": "SS-237-P03-N49",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "9",
    "zone": null,
@@ -1681,6 +1732,7 @@
   {
    "id": "SS-237-P03-N52",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "9-10",
    "zone": "K",
@@ -1703,6 +1755,7 @@
   {
    "id": "SS-237-P03-N53",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "10",
    "zone": "K",
@@ -1725,6 +1778,7 @@
   {
    "id": "SS-237-P03-N54",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "10",
    "zone": "K",
@@ -1747,6 +1801,7 @@
   {
    "id": "SS-237-P03-N55",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "10",
    "zone": "K",
@@ -1769,6 +1824,7 @@
   {
    "id": "SS-237-P03-N56",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "10",
    "zone": null,
@@ -1791,6 +1847,7 @@
   {
    "id": "SS-237-P03-N57",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "10",
    "zone": null,
@@ -1840,6 +1897,7 @@
   {
    "id": "SS-237-P03-N59",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "torpedo",
    "page": "10",
    "zone": "K",
@@ -1860,6 +1918,7 @@
   {
    "id": "SS-237-P03-N60",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "torpedo",
    "page": "10-11",
    "zone": "K",
@@ -1882,6 +1941,7 @@
   {
    "id": "SS-237-P03-N61",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "torpedo",
    "page": "11",
    "zone": "K",
@@ -1904,6 +1964,7 @@
   {
    "id": "SS-237-P03-N62",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "torpedo",
    "page": "11",
    "zone": "K",
@@ -1926,6 +1987,7 @@
   {
    "id": "SS-237-P03-N58",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "10",
    "zone": null,
@@ -1948,6 +2010,7 @@
   {
    "id": "SS-237-P03-N63",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "11",
    "zone": null,
@@ -1970,6 +2033,7 @@
   {
    "id": "SS-237-P03-N64",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "11",
    "zone": null,
@@ -1990,6 +2054,7 @@
   {
    "id": "SS-237-P03-N65",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "11",
    "zone": null,
@@ -2041,6 +2106,7 @@
   {
    "id": "SS-237-P03-N66",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "11",
    "zone": "K",
@@ -2092,6 +2158,7 @@
   {
    "id": "SS-237-P03-N68",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "11",
    "zone": "K",
@@ -2140,6 +2207,7 @@
   {
    "id": "SS-237-P03-N69",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "11",
    "zone": "K",
@@ -2163,6 +2231,7 @@
   {
    "id": "SS-237-P03-N67",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "11",
    "zone": null,
@@ -2185,6 +2254,7 @@
   {
    "id": "SS-237-P03-N70",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "11",
    "zone": null,
@@ -2205,6 +2275,7 @@
   {
    "id": "SS-237-P03-N71",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": "11",
    "zone": null,

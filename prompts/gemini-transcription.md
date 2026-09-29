@@ -12,10 +12,12 @@ with only:
    change, the departure or the arrival (the first and last narrative
    entries usually hold departure and arrival), and any lifeguard duty:
    the station assignment, downed-aviator reports and rescues,
-3. the ship contact, aircraft contact and attack tables (if the report has
+3. Part VIII, Anti-Submarine Measures, which summarizes every attack on
+   the boat in more detail than the narrative,
+4. the ship contact, aircraft contact and attack tables (if the report has
    no attack table, add the narrative around each attack, from the
    approach through any depth charging that followed),
-4. any table that records the boat's own positions: density layer or
+5. any table that records the boat's own positions: density layer or
    bathythermograph observations, noon positions and the like.
 
 Keep each page's Fold3 source sheet with it.
@@ -88,6 +90,7 @@ events:          # every narrative entry provided
     distance:    # as typed, e.g. 9 miles
     bearing_is:  # from_landmark ("9 miles NE of X") or to_landmark ("X bearing 060, 2 miles": X bore 060 from the boat)
     tag:         # attack, gun, minefield, counterattack or rescue (see below); otherwise blank
+    part:        # the report part the entry comes from: I (narrative) or VIII (anti-submarine measures)
     charges:     # counterattacks only: number of depth charges or bombs, as typed
     damage:      # counterattacks only: damage to the boat, verbatim
     course:
@@ -137,6 +140,11 @@ Tag every entry recording an enemy attack on the boat (depth charges,
 bombs, gunfire) with `tag: counterattack`. Record the number of charges
 in `charges` if the entry gives it, and any damage to the boat, verbatim,
 in `damage`. Keep these entries in full.
+
+For Part VIII (Anti-Submarine Measures), make one `events` entry per
+incident, with `part: VIII` and `tag: counterattack`, its date and time
+if given, `charges` and `damage`, and the full text in `event`. Record it
+even if the narrative describes the same incident; the map combines them.
 
 Tag every entry about lifeguard duty with `tag: rescue`: the lifeguard
 station assignment (record its position if given), reports of downed

@@ -463,7 +463,10 @@ def build_patrol(folder, ref):
             flags.append(f"The report marks this entry {marked.group(0)} but it has no tag. "
                          f"Add tag: attack, gun or minefield.")
         records.append({
-            "id": f"{pid}-N{i:02d}", "source": "Part I narrative", "kind": TAG_KIND.get(tag, "event"),
+            "id": f"{pid}-N{i:02d}",
+            "source": f"Part {str(ev.get('part')).upper()}" if ev.get("part") and str(ev.get("part")).upper() != "I" else "Part I narrative",
+            "part": str(ev.get("part") or "I").upper(),
+            "kind": TAG_KIND.get(tag, "event"),
             "page": ev.get("page"), "zone": ev.get("zone"),
             "local": " ".join(str(x) for x in (ev.get("time"), ev.get("zone"), ev.get("date")) if x),
             "utc": when(ev.get("date"), ev.get("time"), ev.get("zone")),
@@ -476,6 +479,33 @@ def build_patrol(folder, ref):
                                           ("damage", ev.get("damage"))) if v},
             "flags": flags,
         })
+
+    # Part VIII (anti-submarine measures) often describes the same incident as
+    # the narrative. Fold such an entry into the narrative entry of the same
+    # kind within 90 minutes, keeping its fuller account, instead of adding a
+    # second marker.
+    def minutes_apart(a, b):
+        ta = datetime.fromisoformat(a.replace("Z", "+00:00"))
+        tb = datetime.fromisoformat(b.replace("Z", "+00:00"))
+        return abs((ta - tb).total_seconds()) / 60
+    folded = []
+    for rec in records:
+        if rec.get("part") in (None, "I") or not rec["utc"]:
+            continue
+        match = min((n for n in records if n.get("part") == "I" and n["kind"] == rec["kind"] and n["utc"]
+                     and minutes_apart(n["utc"], rec["utc"]) <= 90),
+                    key=lambda n: minutes_apart(n["utc"], rec["utc"]), default=None)
+        if match:
+            match["fields"][f"part_{rec['part'].lower()}"] = rec["fields"].get("event")
+            for k in ("charges", "damage"):
+                if rec["fields"].get(k) and not match["fields"].get(k):
+                    match["fields"][k] = rec["fields"][k]
+            if match["lat"] is None and rec["lat"] is not None:
+                match["lat"], match["lon"] = rec["lat"], rec["lon"]
+            match["flags"].append(f"Part {rec['part']} also describes this incident (page {rec.get('page') or '?'}); "
+                                  f"its account is included here.")
+            folded.append(rec)
+    records = [r for r in records if r not in folded]
 
     # Contact, aircraft and attack tables (Parts V, VI and VII)
     # contacts.md, or batches contacts-01.md, contacts-02.md ... read in order.

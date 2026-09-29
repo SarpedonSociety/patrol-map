@@ -113,6 +113,13 @@ entries tagged `counterattack` (depth charges, bombs or gunfire against
 the boat), which can also carry `charges` (how many) and `damage` (what
 the boat suffered, verbatim).
 
+Entries from Part VIII (Anti-Submarine Measures) carry `part: VIII`. When
+one describes the same incident as a narrative entry of the same kind
+within 90 minutes, the converter folds it into that entry: its account,
+charge count and damage appear in the same detail card, not as a second
+marker. Part VIII incidents the narrative doesn't mention stay as their
+own entries.
+
 A contact table with an attacked Yes/No column shows the "Yes" rows as
 attacks. If the table doesn't say how, they're shown as torpedo attacks
 and flagged to check against the narrative.

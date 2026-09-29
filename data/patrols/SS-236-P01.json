@@ -255,6 +255,7 @@
   {
    "id": "SS-236-P01-N01",
    "source": "Part I narrative",
+   "part": "I",
    "kind": "event",
    "page": null,
    "zone": "L",
