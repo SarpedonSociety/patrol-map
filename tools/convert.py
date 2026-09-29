@@ -365,7 +365,18 @@ def merge_meta(manual, batches):
                 out[key] = base
             elif value is not None and (src is manual or out.get(key) is None):
                 out[key] = value
-    out["events"] = [e for src in batches + [manual] for e in (src.get("events") or [])]
+    # A hand entry with `replaces: { date: ..., page: ... }` (or `time:`)
+    # stands in for the Gemini entry it names, e.g. a summarized entry
+    # transcribed again in full.
+    targets = [e["replaces"] for e in (manual.get("events") or []) if isinstance(e.get("replaces"), dict)]
+
+    def replaced(ev):
+        for t in targets:
+            if all(str(ev.get(k) or "").strip().lower() == str(v).strip().lower() for k, v in t.items() if v is not None):
+                return True
+        return False
+    out["events"] = [e for src in batches for e in (src.get("events") or []) if not replaced(e)] + \
+                    [e for e in (manual.get("events") or [])]
     return out
 
 

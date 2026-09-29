@@ -482,7 +482,7 @@ aside.side {
     t.t = t.utc ? Date.parse(t.utc) : Date.parse(p.end);
   }));
   const bases = Object.keys(BASIS).filter((b) => patrols.some((p) => (p.tonnage || []).some((t) => t.basis === b)));
-  let basis = bases.includes("credited") ? "credited" : bases[0] || "claimed";
+  let basis = bases.includes("claimed") ? "claimed" : bases[0] || "claimed";
   if (bases.length > 1) {
     const sel = $("basis");
     sel.hidden = false;

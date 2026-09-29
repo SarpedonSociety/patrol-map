@@ -2565,6 +2565,42 @@
    "flags": [
     "No tonnage figure."
    ]
+  },
+  {
+   "id": "SS-236-P04-T04",
+   "utc": "1943-01-06T06:01:00Z",
+   "target": "Submarine",
+   "name": null,
+   "result": "damaged",
+   "tons": 1995,
+   "ships": 1,
+   "basis": "credited",
+   "source": "COMSUBPAC endorsement: submarine damaged, 1,995 tons.",
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-T05",
+   "utc": "1943-01-20T09:18:00Z",
+   "target": "Freighter",
+   "name": null,
+   "result": "damaged",
+   "tons": 7210,
+   "ships": 1,
+   "basis": "credited",
+   "source": "COMSUBPAC endorsement: freighter damaged, 7,210 tons. Placed at the start of the depth charging (2018).",
+   "flags": []
+  },
+  {
+   "id": "SS-236-P04-T06",
+   "utc": "1943-01-20T09:18:00Z",
+   "target": "Freighter",
+   "name": null,
+   "result": "damaged",
+   "tons": 5155,
+   "ships": 1,
+   "basis": "credited",
+   "source": "COMSUBPAC endorsement: freighter damaged, 5,155 tons. Placed at the start of the depth charging (2018).",
+   "flags": []
   }
  ],
  "minefields": []

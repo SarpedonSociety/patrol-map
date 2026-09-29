@@ -11,7 +11,8 @@ comsubpac_report_no: 133
 commanding_officer:
 
 # The narrative says "All times minus eleven unless otherwise designated",
-# which is zone L; Gemini labeled it K. The contact tables use L.
+# which is zone L; Gemini labeled it K. The contact tables use L
+# throughout (confirmed against the report).
 zone_fix: { K: L }
 
 period:
@@ -27,3 +28,11 @@ tonnage:
       source: "Contact 19 / narrative 18 January, page 5: Genyo Maru class tanker, four stern tubes, three hits." }
   - { date: 20JAN, time: 2018, zone: L, target: Freighters, result: damaged, tons: , ships: 2, basis: claimed,
       source: "Contact 22 / narrative 20 January, pages 6-7: six bow torpedoes into a four-ship convoy, five hits heard. Firing time not given; placed at the start of the depth charging (2018). Tonnage to add." }
+  # COMSUBPAC credit, from the endorsement signed by J. H. Brown, Jr.,
+  # Acting Commander.
+  - { date: 6JAN, time: 1701, zone: L, target: Submarine, result: damaged, tons: 1995, basis: credited,
+      source: "COMSUBPAC endorsement: submarine damaged, 1,995 tons." }
+  - { date: 20JAN, time: 2018, zone: L, target: Freighter, result: damaged, tons: 7210, basis: credited,
+      source: "COMSUBPAC endorsement: freighter damaged, 7,210 tons. Placed at the start of the depth charging (2018)." }
+  - { date: 20JAN, time: 2018, zone: L, target: Freighter, result: damaged, tons: 5155, basis: credited,
+      source: "COMSUBPAC endorsement: freighter damaged, 5,155 tons. Placed at the start of the depth charging (2018)." }

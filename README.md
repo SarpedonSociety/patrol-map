@@ -131,6 +131,10 @@ casualties and the like) are kept in full. Dated entries with no
 position still appear in the patrol log, marked as not shown on the
 chart.
 
+A hand entry in `patrol.yml` with `replaces: { date: 22 December, page: 1 }`
+(any fields of the Gemini entry, as Gemini wrote them) takes that entry's
+place, e.g. to put back in full an entry Gemini summarized.
+
 If Gemini labels the narrative with the wrong zone, `zone_fix: { K: L }`
 in `patrol.yml` corrects it for every narrative entry.
 
