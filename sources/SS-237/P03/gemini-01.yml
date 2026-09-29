@@ -1,0 +1,366 @@
+YAML
+
+```
+boat: SS237
+patrol: Third
+year: 1942-1943
+report: U.S.S. TRIGGER Report of Third War Patrol.
+comsubpac_report_no: 128
+commanding_officer: 
+citation:
+  archive: NARA
+  record_group: 38
+  nara_catalog_id: 4697018
+  nara_catalog_title: World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - са. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946
+  reel: A216
+  micro_serial: 46216
+  file: A16-3 (5)
+  serial: 0138
+  date: 2/1/1943
+fold3_images:
+  2: 268432787
+  3: 268432788
+  4: 268432789
+default_hemisphere: { lat: N, lon: E }
+departure: { port: , date: , time: , zone: , page: , flags: }
+arrival:   { port: , date: , time: , zone: , page: , flags: }
+events:
+  - date: December 11
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 8 knots
+    event: Heavy seas. Making good only 8 knots.
+    page: 2
+    flags:
+  - date: December 12
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 12 knots
+    event: Storms moderated. Making good 12 knots.
+    page: 2
+    flags:
+  - date: December 13
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 8 knots
+    event: Rough again; 8 knots.
+    page: 2
+    flags:
+  - date: December 16
+    time: 0410
+    zone: K
+    lat: 35-05 N.
+    lon: 147-48  .
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sighted patrol freighter bearing 010 on horizon; turned away to develop submerged during day to avoid warning Japanese coast before undetected mine plant."
+    page: 2
+    flags: "lon: '147-48  .' missing longitude hemisphere in text; (1st Contact) (No Attack)"
+  - date: December 16
+    time: 0454
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Submerged; freighter on station patrol changing courses, with special apparatus amidships, likely aircraft warning vessel; took photographs and cleared vicinity."
+    page: 2
+    flags: "zone: blank in '0454( )'"
+  - date: December 18
+    time: 0558
+    zone: K
+    lat: 35-33 N.
+    lon: 140-57 E.
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: Sighted freighter to the south of INUBO SAKI on northerly course. Sho passed INUBO SAKI close aboard on about the 20 fathom curve.
+    page: 2
+    flags: "(2nd Contact) (No Attack); Mission is Reconnaissance."
+  - date: December 19
+    time: 1510
+    zone: 
+    lat: 35-38 N.
+    lon: 140-55 E.
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: Sighted freighter just to the south of INUBO SAKI on northerly courso. She also passed INUBO SAKI close aboard on about the 20 fathom curve.
+    page: 2
+    flags: "zone: blank in '1510( )'; 3rd Contact) (No Attack); Mission is Reconnaissanco."
+  - date: December 20
+    time: 0430
+    zone: K
+    lat: 35-42 N.
+    lon: 140-58 E.
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: Sichted froighter abreast of INUBO SAKI on southerly course, again near the 20 fathom curve.
+    page: 3
+    flags: "(4th Contact) (No Attack); Mission is Reconnaissanco."
+  - date: December 20
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Decided to conclude reconnaissance and lay northern and southern mine fields submerged in moonlight after sunset perpendicular to ship courses off Inubo Saki."
+    page: 3
+    flags:
+  - date: December 20
+    time: 2058
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: Submerged preparatory to laying the mine fields.
+    page: 3
+    flags:
+  - date: December 20
+    time: 2220
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: Commonced laying minos.
+    page: 3
+    flags:
+  - date: December 20
+    time: 2243
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: Completed laying the first field.
+    page: 3
+    flags:
+  - date: December 20
+    time: 2303
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: Commenced laying the second mine field.
+    page: 3
+    flags:
+  - date: December 20
+    time: 2318
+    zone: K
+    lat: 35-45 N.
+    lon: 140-55 E.
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sighted approaching freighter with small escort; ceased mine laying; vessels passed astern; violent explosion occurred five minutes later; 8400 ton freighter sunk by mines."
+    page: 3
+    flags: "(5th Contact) (1st Attack)"
+  - date: December 20
+    time: 2332
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Observed broken freighter sinking rapidly with main deck awash, escort circling; ship matched Aikoku-class types; began retirement to deep water."
+    page: 3-4
+    flags: "Entry text carries over from page 3 to page 4; heading on page 4 repeats as '2333(K) (Cont'd).'"
+  - date: December 20
+    time: 2351
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: Another violent explosion. Nothing soon. Possibly another mino caught somcono, perhaps the escort vessel.
+    page: 4
+    flags:
+  - date: December 21
+    time: 0005
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Screws picked up by sound; went deep and rigged for silent running and depth charge attack; successful evasion."
+    page: 4
+    flags:
+  - date: December 21
+    time: 0047
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: Surfaced and cleared the area at high speed.
+    page: 4
+    flags:
+  - date: December 21
+    time: 0055
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: Sightod a huge cloud of smoko from the mine fields.
+    page: 4
+    flags:
+  - date: December 21
+    time: 0615
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 312
+    speed: 
+    event: On station on course line 312 to NOJIMA SAKI to intercept traffic from the southorst.
+    page: 4
+    flags:
+  - date: December 21
+    time: 1830
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: Surfaced and honded for NOJIMA SAKI at high speed to be off this point close in for the coming day's observation.
+    page: 4
+    flags:
+  - date: December 21
+    time: 2300
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: Commonced petrol off NOJIMA SAKI.
+    page: 4
+    flags:
+  - date: December 22
+    time: 1336
+    zone: K
+    lat: 34-52 N.
+    lon: 139-49 Ε.
+    from: 
+    bearing: 
+    distance: 
+    tag: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sighted freighter smoke in Uraga Suido zigzagging on ~60-degree legs; positioned to attack regardless of course."
+    page: 4
+    flags: "(6th Contact) (2nd Attack); time printed as 1336(K) before subsequent 1333(K) firing entry"
+  - date: December 22
+    time: 1333
+    zone: K
+    lat: 
+    lon: 
+    from: NOJIMA SAKI
+    bearing: 240
+    distance: about two miles
+    tag: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Fired torpedo spread on 90 track; one hit forward of bridge; target down by bow; Trigger turned away in shallow water near grounding."
+    page: 4
+    flags: "Time out of sequence (1333 follows 1336); entry ends mid-sentence at bottom of page 4"
+```
+
+Could not transcribe: Departure/arrival details and commanding officer are not present on these narrative/endorsement pages, and the entry for 1333(K) on 22 December cuts off mid-sentence at the bottom of page 4.

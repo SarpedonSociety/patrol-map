@@ -45,6 +45,8 @@ ports:
 landmarks:
   Minami Jima: { lat: 27.033, lon: 142.167, note: "Bonin Islands, off SW Chichi Jima. Approximate; verify against a chart." }
   Megane Iwa: { lat: , lon: , note: "Near Chichi Jima. Position not yet looked up." }
+  Nojima Saki: { lat: 34.901, lon: 139.888, note: "Southern tip of the Boso Peninsula (lighthouse). Approximate; verify against a chart." }
+  Inubo Saki: { lat: 35.707, lon: 140.869, note: "Eastern tip of the Boso Peninsula (lighthouse). Approximate; verify against a chart." }
 
 # Place names drawn on the map. zoom = how far in before the label shows
 # (0 = always).
@@ -58,6 +60,8 @@ places:
   - { name: Ponape, lat: 6.96, lon: 158.21, zoom: 2 }
   - { name: Guam, lat: 13.44, lon: 144.79, zoom: 2 }
   - { name: Hachijo Jima, lat: 33.1, lon: 139.8, zoom: 3 }
+  - { name: Inubo Saki, lat: 35.707, lon: 140.869, zoom: 4 }
+  - { name: Nojima Saki, lat: 34.901, lon: 139.888, zoom: 4 }
   - { name: Shiono Misaki, lat: 33.43, lon: 135.76, zoom: 4 }
   - { name: Ashizuri Saki, lat: 32.72, lon: 133.02, zoom: 4 }
   - { name: Kobe, lat: 34.69, lon: 135.19, zoom: 4 }

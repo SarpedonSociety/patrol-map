@@ -35,7 +35,12 @@ index.html                    The map
    page's Fold3 source sheet). Run it through Gemini with
    `prompts/gemini-transcription.md`. It returns a `patrol.yml` and a
    `contacts.md` with the report's tables.
-2. Save both in a new folder, e.g. `sources/SS-283/P03/`.
+2. Save the outputs in the patrol's folder, e.g. `sources/SS-283/P03/`,
+   exactly as Gemini gives them: `gemini-01.yml`, `gemini-02.yml` ... for
+   OUTPUT 1 and `contacts-01.md`, `contacts-02.md` ... for OUTPUT 2. The
+   converter combines the batches in order. Hand entries in `patrol.yml`
+   (departure, arrival, tonnage, corrections) take precedence, so the
+   Gemini files can stay untouched as the raw transcription.
 3. Verify: check every cell wrapped in ⟦ ⟧ and everything in the Flags
    column against the report. Put questions you can't settle yet in
    `review.yml`.
@@ -104,6 +109,15 @@ with a dashed outline, are flagged as estimates, and stay off the track
 line, since the report didn't record them as the boat's own position.
 
 Entries tagged `rescue` (lifeguard duty) get their own marker.
+
+## Entries without a position
+
+A narrative entry with a time but no position is placed on the track
+between the recorded positions either side, as long as those are no more
+than 24 hours apart. It shows with a dashed outline and a flag saying
+it's an estimate. Over longer gaps the straight line says too little
+about where the boat was, so those entries stay in the data but off the
+chart.
 
 ## Recorded positions of the boat
 

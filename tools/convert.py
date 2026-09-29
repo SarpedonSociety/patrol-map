@@ -83,10 +83,12 @@ def read_tables(path):
     """Return every Markdown table in a file as dicts with the heading,
     page and any 'Remarks:' note that sits around it. A table whose first
     heading is 'Attack' (attacks as columns, as in the attack summary) is
-    turned the right way round."""
+    turned the right way round. Gemini's ``` fences are ignored."""
     tables, cur = [], None
     section, page = "", None
-    for line in path.read_text(encoding="utf-8").splitlines():
+    for line in plain(path.read_text(encoding="utf-8")).splitlines():
+        if line.strip().startswith("```"):
+            continue
         text = line.strip()
         if text.startswith("|"):
             cells = [c.strip() for c in text.strip("|").split("|")]
@@ -140,8 +142,18 @@ def parse_time_date(text):
     return m.group(1).zfill(4), m.group(2), m.group(3).replace(" ", "")
 
 
+# Greek and Cyrillic letters that look like Latin ones turn up in OCR output.
+HOMOGLYPHS = str.maketrans({"Ε": "E", "Ν": "N", "Ѕ": "S", "Е": "E", "Н": "H", "Α": "A", "В": "B",
+                            "а": "a", "с": "c", "е": "e", "о": "o", "р": "p", "х": "x", "у": "y"})
+
+
+def plain(text):
+    return str(text).translate(HOMOGLYPHS) if text is not None else text
+
+
 def parse_coord(text, default_hemi, is_lat):
     """'33-13-30N' or '151-57' -> decimal degrees."""
+    text = plain(text)
     if not text:
         return None
     hemi = re.search(r"[NSEW]", text.upper())
@@ -174,7 +186,17 @@ def split_lat_long(text):
 
 def parse_date(date_str, year, first_month):
     """'10MAY' (year from patrol.yml) or '10/4/43' (M/D/YY) -> (y, m, d)."""
-    d = (date_str or "").upper().replace(" ", "")
+    d = plain(date_str or "").upper().replace(",", " ").strip()
+    words = re.fullmatch(r"([A-Z]{3})[A-Z]*\.?\s+(\d{1,2})(?:\s+(\d{4}))?|(\d{1,2})\s+([A-Z]{3})[A-Z]*\.?(?:\s+(\d{4}))?", d)
+    if words:
+        mon = words.group(1) or words.group(5)
+        day = words.group(2) or words.group(4)
+        yr4 = words.group(3) or words.group(6)
+        if mon in MONTHS:
+            d = f"{int(day)}{mon}"
+            if yr4:
+                return int(yr4), MONTHS[mon], int(day)
+    d = d.replace(" ", "")
     m = re.fullmatch(r"(\d{1,2})/(\d{1,2})/(\d{2,4})", d)
     if m:
         y = int(m.group(3))
@@ -214,9 +236,16 @@ def parse_bearing(text):
     return POINTS.index(t) * 11.25 if t in POINTS else None
 
 
+NUMBER_WORDS = {w: i for i, w in enumerate(
+    "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen "
+    "sixteen seventeen eighteen nineteen twenty".split())}
+
+
 def parse_distance(text):
-    """'9 miles', '1.5', '9 mi', '3000 yards' -> nautical miles, or None."""
+    """'9 miles', '1.5', 'about two miles', '3000 yards' -> nautical miles, or None."""
     t = str(text or "").lower()
+    for word, n in NUMBER_WORDS.items():
+        t = re.sub(rf"\b{word}\b", str(n), t)
     m = re.search(r"(\d+(?:\.\d+)?)", t)
     if not m:
         return None
@@ -259,10 +288,59 @@ def blanks_to_none(value):
     return None if value == "" else value
 
 
-def build_patrol(folder, ref):
+ORDINALS = {w: i for i, w in enumerate(
+    "first second third fourth fifth sixth seventh eighth ninth tenth eleventh twelfth thirteenth "
+    "fourteenth fifteenth sixteenth".split(), start=1)}
+
+
+def load_yaml_text(path):
+    """Read a YAML file as typed text. Accepts Gemini output pasted as-is,
+    with a 'YAML' label and ``` fences around it."""
+    text = path.read_text(encoding="utf-8")
+    fenced = re.search(r"```[a-zA-Z]*\n(.*?)```", text, re.S)
+    if fenced:
+        text = fenced.group(1)
     # BaseLoader keeps every value as typed text, so a time like 0700 isn't
     # read as an octal number.
-    meta = blanks_to_none(yaml.load((folder / "patrol.yml").read_text(encoding="utf-8"), Loader=yaml.BaseLoader))
+    return blanks_to_none(yaml.load(text, Loader=yaml.BaseLoader)) or {}
+
+
+def merge_meta(manual, batches):
+    """patrol.yml (hand-entered) wins; gemini-*.yml batches fill the gaps.
+    Events and Fold3 image numbers from every file are combined."""
+    out = {}
+    for src in batches + [manual]:
+        for key, value in src.items():
+            if key in ("events",):
+                continue
+            if isinstance(value, dict):
+                base = dict(out.get(key) or {})
+                for k, v in value.items():
+                    if v is not None and (src is manual or base.get(k) is None):
+                        base[k] = v
+                out[key] = base
+            elif value is not None and (src is manual or out.get(key) is None):
+                out[key] = value
+    out["events"] = [e for src in batches + [manual] for e in (src.get("events") or [])]
+    return out
+
+
+def normalize_meta(meta):
+    hull = re.search(r"SS\s*-?\s*(\d+)", str(meta.get("boat") or ""), re.I)
+    if hull:
+        meta["boat"] = f"SS-{hull.group(1)}"
+    pat = str(meta.get("patrol") or "").strip().lower()
+    num = re.match(r"(\d+)", pat)
+    meta["patrol"] = int(num.group(1)) if num else ORDINALS.get(pat.split()[0] if pat else "", 0)
+    year = re.search(r"(19\d\d)", str(meta.get("year") or ""))
+    meta["year"] = year.group(1) if year else None
+    return meta
+
+
+def build_patrol(folder, ref):
+    manual = load_yaml_text(folder / "patrol.yml") if (folder / "patrol.yml").exists() else {}
+    batches = [load_yaml_text(p) for p in sorted(folder.glob("gemini-*.yml"))]
+    meta = normalize_meta(merge_meta(manual, batches))
     review = {}
     if (folder / "review.yml").exists():
         review = yaml.safe_load((folder / "review.yml").read_text(encoding="utf-8")) or {}
@@ -270,6 +348,8 @@ def build_patrol(folder, ref):
 
     hull = meta["boat"]
     num = int(meta["patrol"])
+    if not num:
+        raise SystemExit(f"{folder}: couldn't read the patrol number '{meta.get('patrol')}'.")
     pid = f"{hull}-P{num:02d}"
     period_start = str((meta.get("period") or {}).get("start") or "")
     year = int(meta.get("year") or period_start[:4] or 1942)
@@ -278,9 +358,11 @@ def build_patrol(folder, ref):
     dep = meta.get("departure") or {}
     arr = meta.get("arrival") or {}
     first_month = None
-    if dep.get("date"):
-        dm = re.search(r"[A-Z]{3}", str(dep["date"]).upper())
-        first_month = MONTHS.get(dm.group(0)) if dm else None
+    for candidate in [dep.get("date")] + [e.get("date") for e in (meta.get("events") or [])]:
+        got = parse_date(str(candidate or ""), year, None)
+        if got:
+            first_month = got[1]
+            break
 
     def when(date, time, zone):
         t = str(time).zfill(4) if time not in (None, "") else None
@@ -290,10 +372,19 @@ def build_patrol(folder, ref):
 
     # Narrative events (Part I)
     landmarks = {k.lower(): v for k, v in (ref.get("landmarks") or {}).items()}
+    last_event_zone = None
     for i, ev in enumerate(meta.get("events") or [], start=1):
         flags = [ev["flags"]] if ev.get("flags") else []
+        ev = dict(ev)
         if not ev.get("zone"):
-            flags.append("No time zone recorded; treated as GMT.")
+            if ev.get("time") and last_event_zone:
+                ev["zone"] = last_event_zone
+                flags.append(f"No zone letter on this entry; zone {last_event_zone} assumed from the previous entry.")
+            elif ev.get("time"):
+                flags.append("No time zone recorded; treated as GMT.")
+        else:
+            ev["zone"] = plain(ev["zone"]).strip().upper()
+            last_event_zone = ev["zone"]
         lat = parse_coord(str(ev.get("lat") or ""), hemi["lat"], True)
         lon = parse_coord(str(ev.get("lon") or ""), hemi["lon"], False)
         position_verbatim = " ".join(str(x) for x in (ev.get("lat"), ev.get("lon")) if x)
@@ -303,7 +394,17 @@ def build_patrol(folder, ref):
             name = str(ev["from"]).strip()
             position_verbatim = f"{ev.get('distance') or ''} {ev.get('bearing') or ''} of {name}".strip()
             mark = landmarks.get(name.lower())
-            brg, dist = parse_bearing(ev.get("bearing")), parse_distance(ev.get("distance"))
+            brg, dist = parse_bearing(plain(ev.get("bearing"))), parse_distance(ev.get("distance"))
+            # "9 miles NE of X" gives the bearing from the landmark. "X bearing 240,
+            # 2 miles" gives the landmark's bearing from the boat, so the boat is
+            # on the reciprocal. Numeric bearings are usually the second kind.
+            bearing_is = str(ev.get("bearing_is") or "").lower()
+            numeric = brg is not None and re.fullmatch(r"\s*\d{1,3}(\.\d+)?\s*°?\s*T?\s*", str(ev.get("bearing")), re.I)
+            if bearing_is == "to_landmark":
+                brg = (brg + 180) % 360
+            elif not bearing_is and numeric:
+                flags.append(f"Read as 'bearing {ev.get('bearing')} from {name}'. If the report means {name} bore "
+                             f"{ev.get('bearing')} from the boat, set bearing_is: to_landmark.")
             if not mark or mark.get("lat") in (None, "") or mark.get("lon") in (None, ""):
                 flags.append(f"No position for landmark '{name}'. Add it to landmarks in sources/reference.yml.")
             elif brg is None or dist is None:
@@ -318,6 +419,10 @@ def build_patrol(folder, ref):
                 if mark.get("note"):
                     flags.append(f"Landmark: {mark['note']}")
         tag = str(ev.get("tag") or "").lower() or None
+        marked = re.search(r"\(\s*\d+\s*(?:st|nd|rd|th)\s+attack\s*\)", f"{ev.get('flags') or ''} {ev.get('event') or ''}", re.I)
+        if marked and not tag:
+            flags.append(f"The report marks this entry {marked.group(0)} but it has no tag. "
+                         f"Add tag: attack, gun or minefield.")
         records.append({
             "id": f"{pid}-N{i:02d}", "source": "Part I narrative", "kind": TAG_KIND.get(tag, "event"),
             "page": ev.get("page"), "zone": ev.get("zone"),
@@ -331,8 +436,8 @@ def build_patrol(folder, ref):
         })
 
     # Contact, aircraft and attack tables (Parts V, VI and VII)
-    contacts = folder / "contacts.md"
-    tables = read_tables(contacts) if contacts.exists() else []
+    # contacts.md, or batches contacts-01.md, contacts-02.md ... read in order.
+    tables = [t for path in sorted(folder.glob("contacts*.md")) for t in read_tables(path)]
     entry = 0
     last_zone = None
     for table in tables:
@@ -495,6 +600,30 @@ def build_patrol(folder, ref):
             "result": result, "tons": tons, "ships": ships, "basis": basis, "source": t.get("source"), "flags": flags,
         })
 
+    # Narrative entries with a time but no position: place them on the track
+    # between the recorded positions either side (no more than 24 hours
+    # apart), as an estimate.
+    if len(track) >= 2:
+        pts = [(datetime.fromisoformat(t["utc"].replace("Z", "+00:00")), t) for t in track]
+        for rec in records:
+            if rec["lat"] is not None or not rec["utc"] or rec["kind"] == "fix":
+                continue
+            when_ = datetime.fromisoformat(rec["utc"].replace("Z", "+00:00"))
+            for (ta, a), (tb, b) in zip(pts, pts[1:]):
+                # Only between fixes a day or less apart: over longer gaps the
+                # straight line says too little about where the boat was.
+                if ta <= when_ <= tb and (tb - ta) <= timedelta(hours=24):
+                    f = 0 if tb == ta else (when_ - ta) / (tb - ta)
+                    dlon = b["lon"] - a["lon"]
+                    dlon = dlon - 360 if dlon > 180 else dlon + 360 if dlon < -180 else dlon
+                    rec["lat"] = round(a["lat"] + (b["lat"] - a["lat"]) * f, 5)
+                    rec["lon"] = round(a["lon"] + dlon * f, 5)
+                    rec["derived"] = {"interpolated": True, "between": [a["utc"], b["utc"]]}
+                    rec["flags"].append("No position in the report. Placed on the track between the recorded "
+                                        f"positions at {a['utc'][:16].replace('T', ' ')} and "
+                                        f"{b['utc'][:16].replace('T', ' ')} GMT, as an estimate.")
+                    break
+
     torps = [r for r in records if r["kind"] == "torpedo"]
     summary = {
         "records": len(records),
@@ -532,7 +661,7 @@ def build_patrol(folder, ref):
 
 def main(selected):
     ref = yaml.safe_load((SOURCES / "reference.yml").read_text(encoding="utf-8"))
-    folders = sorted(p.parent for p in SOURCES.glob("*/*/patrol.yml"))
+    folders = sorted({p.parent for p in SOURCES.glob("*/*/patrol.yml")} | {p.parent for p in SOURCES.glob("*/*/gemini-*.yml")})
     if selected:
         folders = [f for f in folders if any(str(f).endswith(s) for s in selected)]
     (OUT / "patrols").mkdir(parents=True, exist_ok=True)

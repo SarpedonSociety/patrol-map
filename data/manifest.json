@@ -55,6 +55,18 @@
    "zoom": 3
   },
   {
+   "name": "Inubo Saki",
+   "lat": 35.707,
+   "lon": 140.869,
+   "zoom": 4
+  },
+  {
+   "name": "Nojima Saki",
+   "lat": 34.901,
+   "lon": 139.888,
+   "zoom": 4
+  },
+  {
    "name": "Shiono Misaki",
    "lat": 33.43,
    "lon": 135.76,
@@ -73,7 +85,7 @@
    "zoom": 4
   }
  ],
- "generated": "2026-09-29T20:53:24Z",
+ "generated": "2026-09-29T21:03:01Z",
  "patrols": [
   {
    "id": "SS-230-P03",
@@ -145,13 +157,13 @@
    "start": "1942-12-03T12:00:00Z",
    "end": "1943-01-22T12:00:00Z",
    "summary": {
-    "records": 0,
+    "records": 24,
     "sightings": 0,
     "aircraft": 0,
     "torpedo_attacks": 0,
     "torpedoes_fired": 0,
     "gun_actions": 0,
-    "flagged": 0
+    "flagged": 14
    },
    "file": "patrols/SS-237-P03.json"
   },

@@ -5,10 +5,24 @@
  "class": "Gato",
  "patrol": 3,
  "year": 1942,
- "report": null,
+ "report": "U.S.S. TRIGGER Report of Third War Patrol.",
  "commanding_officer": null,
- "citation": {},
- "fold3_images": {},
+ "citation": {
+  "archive": "NARA",
+  "record_group": "38",
+  "nara_catalog_id": "4697018",
+  "nara_catalog_title": "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - са. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946",
+  "reel": "A216",
+  "micro_serial": "46216",
+  "file": "A16-3 (5)",
+  "serial": "0138",
+  "date": "2/1/1943"
+ },
+ "fold3_images": {
+  "2": "268432787",
+  "3": "268432788",
+  "4": "268432789"
+ },
  "miles_steamed": null,
  "fuel_expended": null,
  "start": "1942-12-03T12:00:00Z",
@@ -17,16 +31,614 @@
  "arrival": null,
  "report_found": true,
  "summary": {
-  "records": 0,
+  "records": 24,
   "sightings": 0,
   "aircraft": 0,
   "torpedo_attacks": 0,
   "torpedoes_fired": 0,
   "gun_actions": 0,
-  "flagged": 0
+  "flagged": 14
  },
- "track": [],
- "records": [],
+ "track": [
+  {
+   "lat": 35.08333,
+   "lon": 147.8,
+   "utc": "1942-12-15T18:10:00Z",
+   "basis": "documented",
+   "ref": "SS-237-P03-N04"
+  },
+  {
+   "lat": 35.55,
+   "lon": 140.95,
+   "utc": "1942-12-17T19:58:00Z",
+   "basis": "documented",
+   "ref": "SS-237-P03-N06"
+  },
+  {
+   "lat": 35.63333,
+   "lon": 140.91667,
+   "utc": "1942-12-19T05:10:00Z",
+   "basis": "documented",
+   "ref": "SS-237-P03-N07"
+  },
+  {
+   "lat": 35.7,
+   "lon": 140.96667,
+   "utc": "1942-12-19T18:30:00Z",
+   "basis": "documented",
+   "ref": "SS-237-P03-N08"
+  },
+  {
+   "lat": 35.75,
+   "lon": 140.91667,
+   "utc": "1942-12-20T13:18:00Z",
+   "basis": "documented",
+   "ref": "SS-237-P03-N14"
+  },
+  {
+   "lat": 34.86667,
+   "lon": 139.81667,
+   "utc": "1942-12-22T03:36:00Z",
+   "basis": "documented",
+   "ref": "SS-237-P03-N23"
+  }
+ ],
+ "records": [
+  {
+   "id": "SS-237-P03-N01",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "2",
+   "zone": null,
+   "local": "December 11",
+   "utc": "1942-12-11T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Heavy seas. Making good only 8 knots."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-237-P03-N02",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "2",
+   "zone": null,
+   "local": "December 12",
+   "utc": "1942-12-12T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Storms moderated. Making good 12 knots."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-237-P03-N03",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "2",
+   "zone": null,
+   "local": "December 13",
+   "utc": "1942-12-13T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Rough again; 8 knots."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-237-P03-N04",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "2",
+   "zone": "K",
+   "local": "0410 K December 16",
+   "utc": "1942-12-15T18:10:00Z",
+   "position_verbatim": "35-05 N. 147-48  .",
+   "derived": null,
+   "tag": null,
+   "lat": 35.08333,
+   "lon": 147.8,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted patrol freighter bearing 010 on horizon; turned away to develop submerged during day to avoid warning Japanese coast before undetected mine plant."
+   },
+   "flags": [
+    "lon: '147-48  .' missing longitude hemisphere in text; (1st Contact) (No Attack)"
+   ]
+  },
+  {
+   "id": "SS-237-P03-N05",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "2",
+   "zone": "K",
+   "local": "0454 K December 16",
+   "utc": "1942-12-15T18:54:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Submerged; freighter on station patrol changing courses, with special apparatus amidships, likely aircraft warning vessel; took photographs and cleared vicinity."
+   },
+   "flags": [
+    "zone: blank in '0454( )'",
+    "No zone letter on this entry; zone K assumed from the previous entry."
+   ]
+  },
+  {
+   "id": "SS-237-P03-N06",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "2",
+   "zone": "K",
+   "local": "0558 K December 18",
+   "utc": "1942-12-17T19:58:00Z",
+   "position_verbatim": "35-33 N. 140-57 E.",
+   "derived": null,
+   "tag": null,
+   "lat": 35.55,
+   "lon": 140.95,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Sighted freighter to the south of INUBO SAKI on northerly course. Sho passed INUBO SAKI close aboard on about the 20 fathom curve."
+   },
+   "flags": [
+    "(2nd Contact) (No Attack); Mission is Reconnaissance."
+   ]
+  },
+  {
+   "id": "SS-237-P03-N07",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "2",
+   "zone": "K",
+   "local": "1510 K December 19",
+   "utc": "1942-12-19T05:10:00Z",
+   "position_verbatim": "35-38 N. 140-55 E.",
+   "derived": null,
+   "tag": null,
+   "lat": 35.63333,
+   "lon": 140.91667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Sighted freighter just to the south of INUBO SAKI on northerly courso. She also passed INUBO SAKI close aboard on about the 20 fathom curve."
+   },
+   "flags": [
+    "zone: blank in '1510( )'; 3rd Contact) (No Attack); Mission is Reconnaissanco.",
+    "No zone letter on this entry; zone K assumed from the previous entry."
+   ]
+  },
+  {
+   "id": "SS-237-P03-N08",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "0430 K December 20",
+   "utc": "1942-12-19T18:30:00Z",
+   "position_verbatim": "35-42 N. 140-58 E.",
+   "derived": null,
+   "tag": null,
+   "lat": 35.7,
+   "lon": 140.96667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Sichted froighter abreast of INUBO SAKI on southerly course, again near the 20 fathom curve."
+   },
+   "flags": [
+    "(4th Contact) (No Attack); Mission is Reconnaissanco."
+   ]
+  },
+  {
+   "id": "SS-237-P03-N10",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "2058 K December 20",
+   "utc": "1942-12-20T10:58:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1942-12-19T18:30:00Z",
+     "1942-12-20T13:18:00Z"
+    ]
+   },
+   "tag": null,
+   "lat": 35.74379,
+   "lon": 140.92288,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Submerged preparatory to laying the mine fields."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1942-12-19 18:30 and 1942-12-20 13:18 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-237-P03-N09",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "3",
+   "zone": null,
+   "local": "December 20",
+   "utc": "1942-12-20T12:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1942-12-19T18:30:00Z",
+     "1942-12-20T13:18:00Z"
+    ]
+   },
+   "tag": null,
+   "lat": 35.74654,
+   "lon": 140.92013,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Decided to conclude reconnaissance and lay northern and southern mine fields submerged in moonlight after sunset perpendicular to ship courses off Inubo Saki."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1942-12-19 18:30 and 1942-12-20 13:18 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-237-P03-N11",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "2220 K December 20",
+   "utc": "1942-12-20T12:20:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1942-12-19T18:30:00Z",
+     "1942-12-20T13:18:00Z"
+    ]
+   },
+   "tag": null,
+   "lat": 35.74743,
+   "lon": 140.91924,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Commonced laying minos."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1942-12-19 18:30 and 1942-12-20 13:18 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-237-P03-N12",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "2243 K December 20",
+   "utc": "1942-12-20T12:43:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1942-12-19T18:30:00Z",
+     "1942-12-20T13:18:00Z"
+    ]
+   },
+   "tag": null,
+   "lat": 35.74845,
+   "lon": 140.91822,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Completed laying the first field."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1942-12-19 18:30 and 1942-12-20 13:18 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-237-P03-N13",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "2303 K December 20",
+   "utc": "1942-12-20T13:03:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1942-12-19T18:30:00Z",
+     "1942-12-20T13:18:00Z"
+    ]
+   },
+   "tag": null,
+   "lat": 35.74934,
+   "lon": 140.91733,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Commenced laying the second mine field."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1942-12-19 18:30 and 1942-12-20 13:18 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-237-P03-N14",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "2318 K December 20",
+   "utc": "1942-12-20T13:18:00Z",
+   "position_verbatim": "35-45 N. 140-55 E.",
+   "derived": null,
+   "tag": null,
+   "lat": 35.75,
+   "lon": 140.91667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted approaching freighter with small escort; ceased mine laying; vessels passed astern; violent explosion occurred five minutes later; 8400 ton freighter sunk by mines."
+   },
+   "flags": [
+    "(5th Contact) (1st Attack)",
+    "The report marks this entry (1st Attack) but it has no tag. Add tag: attack, gun or minefield."
+   ]
+  },
+  {
+   "id": "SS-237-P03-N15",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "3-4",
+   "zone": "K",
+   "local": "2332 K December 20",
+   "utc": "1942-12-20T13:32:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Observed broken freighter sinking rapidly with main deck awash, escort circling; ship matched Aikoku-class types; began retirement to deep water."
+   },
+   "flags": [
+    "Entry text carries over from page 3 to page 4; heading on page 4 repeats as '2333(K) (Cont'd).'"
+   ]
+  },
+  {
+   "id": "SS-237-P03-N16",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "2351 K December 20",
+   "utc": "1942-12-20T13:51:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Another violent explosion. Nothing soon. Possibly another mino caught somcono, perhaps the escort vessel."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-237-P03-N17",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "0005 K December 21",
+   "utc": "1942-12-20T14:05:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Screws picked up by sound; went deep and rigged for silent running and depth charge attack; successful evasion."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-237-P03-N18",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "0047 K December 21",
+   "utc": "1942-12-20T14:47:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced and cleared the area at high speed."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-237-P03-N19",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "0055 K December 21",
+   "utc": "1942-12-20T14:55:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Sightod a huge cloud of smoko from the mine fields."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-237-P03-N20",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "0615 K December 21",
+   "utc": "1942-12-20T20:15:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "On station on course line 312 to NOJIMA SAKI to intercept traffic from the southorst."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-237-P03-N21",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "1830 K December 21",
+   "utc": "1942-12-21T08:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced and honded for NOJIMA SAKI at high speed to be off this point close in for the coming day's observation."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-237-P03-N22",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "2300 K December 21",
+   "utc": "1942-12-21T13:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Commonced petrol off NOJIMA SAKI."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-237-P03-N24",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "1333 K December 22",
+   "utc": "1942-12-22T03:33:00Z",
+   "position_verbatim": "about two miles 240 of NOJIMA SAKI",
+   "derived": {
+    "from": "NOJIMA SAKI",
+    "bearing": 240.0,
+    "distance_nm": 2.0,
+    "landmark": {
+     "lat": 34.901,
+     "lon": 139.888
+    },
+    "landmark_note": "Southern tip of the Boso Peninsula (lighthouse). Approximate; verify against a chart."
+   },
+   "tag": null,
+   "lat": 34.88433,
+   "lon": 139.8528,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Fired torpedo spread on 90 track; one hit forward of bridge; target down by bow; Trigger turned away in shallow water near grounding."
+   },
+   "flags": [
+    "Time out of sequence (1333 follows 1336); entry ends mid-sentence at bottom of page 4",
+    "Read as 'bearing 240 from NOJIMA SAKI'. If the report means NOJIMA SAKI bore 240 from the boat, set bearing_is: to_landmark.",
+    "Position derived from 'about two miles 240 of NOJIMA SAKI' using a modern landmark position; it is an estimate, not a position recorded in the report.",
+    "Landmark: Southern tip of the Boso Peninsula (lighthouse). Approximate; verify against a chart."
+   ]
+  },
+  {
+   "id": "SS-237-P03-N23",
+   "source": "Part I narrative",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "1336 K December 22",
+   "utc": "1942-12-22T03:36:00Z",
+   "position_verbatim": "34-52 N. 139-49 Ε.",
+   "derived": null,
+   "tag": null,
+   "lat": 34.86667,
+   "lon": 139.81667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted freighter smoke in Uraga Suido zigzagging on ~60-degree legs; positioned to attack regardless of course."
+   },
+   "flags": [
+    "(6th Contact) (2nd Attack); time printed as 1336(K) before subsequent 1333(K) firing entry",
+    "The report marks this entry (2nd Attack) but it has no tag. Add tag: attack, gun or minefield."
+   ]
+  }
+ ],
  "tonnage": [
   {
    "id": "SS-237-P03-T01",

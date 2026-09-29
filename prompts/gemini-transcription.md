@@ -20,6 +20,14 @@ Keep each page's Fold3 source sheet with it.
 
 Paste everything between the lines, then attach that PDF.
 
+**Batches.** For a long report, run the pages in batches. Save each
+Gemini answer exactly as it comes (fences and all) in the patrol's folder:
+OUTPUT 1 as `gemini-01.yml`, `gemini-02.yml` ..., OUTPUT 2 as
+`contacts-01.md`, `contacts-02.md` .... The converter reads them in
+order and combines them. Anything you enter by hand in `patrol.yml`
+(departure, arrival, tonnage, corrections) takes precedence over the
+batches.
+
 **If the chat still struggles.** Run the prompt twice on the same PDF:
 first add `Produce OUTPUT 1 only.` at the end, then in a new chat add
 `Produce OUTPUT 2 only.`
@@ -46,9 +54,9 @@ Fill in this YAML from the pages provided. Leave a value blank if they
 don't give it. Put anything uncertain in that entry's `flags`.
 
 ```yaml
-boat:            # hull number, e.g. SS-236
-patrol:          # patrol number
-year:
+boat:            # hull number in the form SS-236
+patrol:          # patrol number as a numeral, e.g. 3
+year:            # the year the patrol began, four digits
 report:          # report title as typed
 comsubpac_report_no:  # "COMSUBPAC PATROL REPORT NO." on the endorsement, if given
 commanding_officer:
@@ -75,6 +83,7 @@ events:          # every narrative entry provided
     from:        # for a position given from a landmark: the landmark as typed, e.g. MINAMI JIMA
     bearing:     # as typed, e.g. NE, WSW, 045T
     distance:    # as typed, e.g. 9 miles
+    bearing_is:  # from_landmark ("9 miles NE of X") or to_landmark ("X bearing 060, 2 miles": X bore 060 from the boat)
     tag:         # attack, gun, minefield or rescue (see below); otherwise blank
     course:
     speed:
@@ -94,9 +103,13 @@ typed on that report page; skip pages with no typed page number.
 Make one `events` entry for each narrative entry on the pages provided.
 
 Positions given from a landmark ("9 miles NE of MINAMI JIMA", "1 mile
-WSW of MEGANE IWA") go in `from`, `bearing` and `distance`, exactly as
-typed. Leave `lat` and `lon` blank for these. Never convert them to
-latitude and longitude yourself.
+WSW of MEGANE IWA", "NOJIMA SAKI bearing 060, distant 2 miles") go in
+`from`, `bearing` and `distance`, exactly as typed. Set `bearing_is` to
+`from_landmark` when the position lies in that direction from the
+landmark, or `to_landmark` when the report gives the landmark's bearing
+from the boat. If you can't tell, leave it blank and quote the report's
+wording in `flags`. Leave `lat` and `lon` blank for these. Never convert
+them to latitude and longitude yourself.
 
 Tag every narrative entry recording a torpedo attack with `tag: attack`,
 a gun action with `tag: gun`, and mine laying with `tag: minefield`
@@ -135,6 +148,13 @@ Reproduce each table as the report lays it out:
 
 RULES
 1. Transcribe exactly as typed, including misspellings. Do not add [sic].
+   Beware of reading errors: on these carbon copies the typewriter's e, o
+   and c look alike, as do 3/8, 5/6 and 1/7. Read each word as a whole.
+   When the letters form a real word only one way ("Commenced", not
+   "Commonced"; "patrol", not "petrol"), write that word. Keep a
+   misspelling only when the letters are clearly legible as typed.
+   Numbers can't be read as words: if a digit could be another digit,
+   write your best reading in ⟦ ⟧ and flag it.
 2. Keep times, zone letters and dates exactly as typed: 1723I 17MAY,
    0310(K) 10/4/43 and 1855 10/3/43 are all fine.
 3. Keep positions as typed, including the separator between latitude
