@@ -103,7 +103,7 @@
    "zoom": 4
   }
  ],
- "generated": "2026-09-30T00:57:01Z",
+ "generated": "2026-09-30T01:07:19Z",
  "patrols": [
   {
    "id": "SS-230-P03",
@@ -115,7 +115,7 @@
    "start": "1942-12-16T12:00:00Z",
    "end": "1943-02-06T12:00:00Z",
    "summary": {
-    "records": 25,
+    "records": 26,
     "sightings": 13,
     "aircraft": 11,
     "torpedo_attacks": 0,
@@ -123,7 +123,7 @@
     "counterattacks": 0,
     "torpedoes_fired": 0,
     "gun_actions": 1,
-    "flagged": 12
+    "flagged": 13
    },
    "file": "patrols/SS-230-P03.json"
   },

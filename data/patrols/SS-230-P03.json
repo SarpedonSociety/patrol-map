@@ -18,6 +18,8 @@
   "date": "2/19/1943"
  },
  "fold3_images": {
+  "5": "268550843",
+  "6": "268550847",
   "13": "268550889",
   "14": "268550895"
  },
@@ -47,13 +49,13 @@
   "lon": -177.38,
   "page": null,
   "flags": [
-   "Port inferred from the war history: 'The refit after the 3rd patrol was completed by submarine division 44 at MIDWAY in February 1943.' Not yet confirmed from the report's narrative.",
+   "Enclosure (B), Comsubdiv 101, 16 February 1943: 'FINBACK is refitting at Midway.' Time not transcribed.",
    "Time not recorded; placed at noon."
   ]
  },
  "report_found": true,
  "summary": {
-  "records": 25,
+  "records": 26,
   "sightings": 13,
   "aircraft": 11,
   "torpedo_attacks": 0,
@@ -61,7 +63,7 @@
   "counterattacks": 0,
   "torpedoes_fired": 0,
   "gun_actions": 1,
-  "flagged": 12
+  "flagged": 13
  },
  "track": [
   {
@@ -651,6 +653,36 @@
    ]
   },
   {
+   "id": "SS-230-P03-N01",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5-6",
+   "zone": "I",
+   "local": "0610 I January 16, 1943",
+   "utc": "1943-01-15T21:10:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "notable",
+   "local_date": [
+    1943,
+    1,
+    16
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Flooded through the conning tower hatch",
+   "fields": {
+    "event": "0610(I) following quick dive, took water through upper conning tower hatch into control room and pump room. Casualty caused by QM dogging the hatch before it was closed. After hatch was secured, surfaced. Attained maximum depth of 43 feet. At 0612(I) Commenced freeing pump room bilges of water by bailing. The below listed casualties resulted from flooding: [list under Damage]. 0717(I) Submerged. Commenced repairing and cleaning flooded machinery. At 1908(I) Surfaced.",
+    "damage": "1. 200# Air Compressor and Motor - flooded. 2. Gyro Compass - Binnacle flooded. Follow-up system grounded. Azimuth motor burned out. 3. Pump room power distribution panel - flooded. 4. Both Air Conditioning motors and motor control panels - flooded. 5. #1 Periscope lower limit switch - grounded. 6. Drain pump control panel - flooded. 7. #1 H.P. Air Compressor motor - flooded. 8. #2 H.P. Air Compressor motor controller - flooded. 9. General announcing system - grounded. 10. JK-QC training motor generator - flooded. 11. TBL motor generator and power supply panels - flooded. 12. Commissary storeroom under control room - flooded, with loss of 750 pounds of sugar, 200 pounds of dried beans, prunes and dried peaches."
+   },
+   "flags": [
+    "Hand transcription, Fold3 images 268550843-268550847. Comsubdiv 101 (Enclosure B, para. 3): 'The failure to properly close the conning tower hatch on January 16. is a type of casualty that has occured on many submarines. The primary cause is a latch requiring lubrication, together with an over-eagerness to slam the hatch.' The war history adds that the ice machine was damaged and food spoiled, leaving rice and hot cakes three times a day for the last two weeks."
+   ]
+  },
+  {
    "id": "SS-230-P03-C09",
    "source": "5. description of enemy vessels sighted.",
    "row": 9,
@@ -669,10 +701,13 @@
     "type": "Motor Sampan Type Patrol Boat",
     "course": "Various",
     "speed": "Var.",
-    "remarks": "About 150 ft. High bow. Two masts. Single stack. Showing lights when first sighted. Made battle surface. Expended 15 rds. of 4\" and 460 rds of 20 MM. Destroyed."
+    "remarks": "About 150 ft. High bow. Two masts. Single stack. Showing lights when first sighted. Made battle surface. Expended 15 rds. of 4\" and 460 rds of 20 MM. Destroyed.",
+    "narrative": "2130(I) Sighted light bearing 045°T. and rel. Changed course to close, and at 2134(I) Identified vessel as patrol boat with familiar box structure aft. SJ Radar picked up vessel at a range of 3400 yards. At 2136(I) Submerged. Closed target and continued ranging with SJ Radar. At 2143(I) With vessel about 1000 yards distant, bearing 330° rel., made battle surface. Opened fire with 4\" gun and 20 MM machine gun. The weather was clear, with no moon. The 4\" gun pointer reported that the light of the 20 MM tracers and explosions were blinding. Smoke frequently obscured the target after 4\" shell hits. No fire was observed. At"
    },
    "flags": [
-    "Transcriber: Gun action; the only claim of the patrol."
+    "Transcriber: Gun action; the only claim of the patrol.",
+    "Narrative entry at 2143 I January 17, 1943 (page 6) describes this attack; its account is included here.",
+    "Hand transcription, Fold3 image 268550847. The entry continues on report page 7, not transcribed. Comsubdiv 101 (Enclosure B, para. 4): 'The night battle surface, gun attack on the sampan patrol boat was very well conducted.'"
    ]
   },
   {
