@@ -1,6 +1,8 @@
 # USS Trigger (SS-237), War Patrol 5
-# Transcribed by Gemini: gemini-01.yml (narrative, pages 1-8) and
-# contacts-01.md (tables, pages 11-14). ASW summary not transcribed.
+# Transcribed by Gemini: gemini-01.yml (narrative, typed pages 1-8),
+# gemini-02.yml (narrative, typed pages 9-10) and contacts-01.md (tables,
+# pages 11-14). ASW summary not transcribed. Page numbers are the typed
+# report pages, not the microfilm frame numbers.
 # This file holds hand entries, which take precedence over the batches.
 
 boat: SS-237
@@ -11,10 +13,25 @@ report:
 comsubpac_report_no: 203
 commanding_officer:
 
+# gemini-02 read the Midway stop on the way home as the departure; the patrol
+# left from Pearl Harbor (gemini-01, page 1).
+departure:
+  port: Pearl Harbor
+  date: April 30, 1943
+  time: "1300"
+  zone: V
+  page: 1
+  flags: ""
+arrival:
+  port: Pearl Harbor
+  date: June 22
+  page: 10
+  flags: "Report: 'Arrived Pearl Harbor for refit.' No time given. Put in at Midway on the way (18 June)."
+
 period:
   start: 1943-04-30
   end: 1943-06-22
-  source: "sources/inventory.yml; arrival not yet transcribed (narrative pages 9-10 not in the batch)"
+  source: "Patrol report"
 
 # Tonnage as claimed in the attack summary (contacts-01.md, pages 13-14).
 tonnage:
@@ -76,3 +93,25 @@ events:
     event: "Finally steady, our stern to his bow. Fired the last stern shot right down his throat. Went deep to avoid. No detonation. It is considered that the range was too close but had to take that chance. We fired as soon as we could and it could not have missed in deflection. Consider these four torpedoes wasted but they were worth the chance. We might have made a clean sweep. Listened to make sure that the target is by before we come up. Passed close aboard the sinking ship. We could hear him very clearly through our hull. Rather startling. Speeded up and turned away. We do not want him on top of us."
     page: 7
     flags: "Two Gemini reads of page 7 differ: 'We might have made a clean sweep' (first) and 'made clean sweep' (second). Check the page."
+  # Homeward at Midway, gemini-02 page 10. The report dates both the arrival
+  # and the departure June 18; the departure's heading says the date was
+  # repeated for crossing the Date Line, so the arrival is the first June 18
+  # (west-longitude date June 17). Kept in zone Y as typed.
+  - replaces: { date: June 18, time: "1332" }
+    date: June 17
+    time: "1332"
+    zone: Y
+    lat: 28-43 N
+    lon: 178-07 W
+    part: I
+    event: "Sighted possible periscope contact."
+    page: 10
+    flags: "Dated June 18 in the report, before the repeated June 18 of the Midway departure. Placed on June 17 so it falls before the arrival at Midway; check the page's zone letters."
+  - replaces: { date: June 18, time: "1708" }
+    date: June 17
+    time: "1708"
+    zone: Y
+    part: I
+    event: "Arrived Midway."
+    page: 10
+    flags: "Dated June 18 in the report (first of two June 18s; see 1332). Placed on June 17 so it falls before the 0600 departure."

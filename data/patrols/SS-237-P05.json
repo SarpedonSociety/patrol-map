@@ -26,7 +26,9 @@
   "5": "269409676",
   "6": "269409683",
   "7": "269409691",
-  "8": "269409696"
+  "8": "269409696",
+  "9": "269409704",
+  "10": "269409712"
  },
  "miles_steamed": null,
  "fuel_expended": null,
@@ -36,24 +38,38 @@
   "label": "Departed",
   "port": "Pearl Harbor",
   "utc": "1943-04-30T22:00:00Z",
-  "local": "1300 V April 30",
+  "local": "1300 V April 30, 1943",
   "lat": 21.35,
   "lon": -157.95,
   "page": "1",
-  "flags": []
+  "flags": [
+   "departure from Midway enroute Pearl"
+  ]
  },
- "arrival": null,
+ "arrival": {
+  "label": "Arrived",
+  "port": "Pearl Harbor",
+  "utc": "1943-06-22T12:00:00Z",
+  "local": "June 22",
+  "lat": 21.35,
+  "lon": -157.95,
+  "page": "10",
+  "flags": [
+   "Report: 'Arrived Pearl Harbor for refit.' No time given. Put in at Midway on the way (18 June).",
+   "Time not recorded; placed at noon."
+  ]
+ },
  "report_found": true,
  "summary": {
-  "records": 93,
+  "records": 103,
   "sightings": 19,
   "aircraft": 9,
   "torpedo_attacks": 7,
   "mine_attacks": 0,
-  "counterattacks": 2,
+  "counterattacks": 4,
   "torpedoes_fired": 20,
   "gun_actions": 0,
-  "flagged": 74
+  "flagged": 82
  },
  "track": [
   {
@@ -257,6 +273,19 @@
    "utc": "1943-06-10T09:24:00Z",
    "basis": "documented",
    "ref": "SS-237-P05-C19"
+  },
+  {
+   "lat": 28.71667,
+   "lon": -178.11667,
+   "utc": "1943-06-18T01:32:00Z",
+   "basis": "documented",
+   "ref": "SS-237-P05-N74"
+  },
+  {
+   "lat": 21.35,
+   "lon": -157.95,
+   "utc": "1943-06-22T12:00:00Z",
+   "basis": "reference"
   }
  ],
  "records": [
@@ -571,67 +600,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N59",
-   "source": "Part I narrative",
-   "part": "I",
-   "kind": "event",
-   "page": "2",
-   "zone": "K",
-   "local": "0450 K May 15",
-   "utc": "1943-05-14T18:50:00Z",
-   "position_verbatim": "",
-   "derived": null,
-   "tag": null,
-   "local_date": [
-    1943,
-    5,
-    15
-   ],
-   "has_time": true,
-   "lat": null,
-   "lon": null,
-   "type": "Narrative",
-   "title": "Narrative entry",
-   "fields": {
-    "event": "Dawn is at hand. Submerged and commenced the approach. Targets were soon in sight and we almost made it."
-   },
-   "flags": [
-    "Gemini dated this May 14; it continues the 2345(K) May 14 contact, so it is the morning of May 15. Check whether the page has its own May 15 heading. Missing zone.",
-    "No zone letter on this entry; zone K assumed from the previous entry."
-   ]
-  },
-  {
-   "id": "SS-237-P05-N60",
-   "source": "Part I narrative",
-   "part": "I",
-   "kind": "event",
-   "page": "2",
-   "zone": "K",
-   "local": "0616 K May 15",
-   "utc": "1943-05-14T20:16:00Z",
-   "position_verbatim": "",
-   "derived": null,
-   "tag": null,
-   "local_date": [
-    1943,
-    5,
-    15
-   ],
-   "has_time": true,
-   "lat": null,
-   "lon": null,
-   "type": "Narrative",
-   "title": "Narrative entry",
-   "fields": {
-    "event": "[SUMMARY] Convoy escaped. Surfaced for end around, but sighted in haze an hour later; escort gave chase with only 3 main engines available."
-   },
-   "flags": [
-    "Gemini dated this May 14; morning of May 15 (see 0450). Missing zone.",
-    "No zone letter on this entry; zone K assumed from the previous entry."
-   ]
-  },
-  {
-   "id": "SS-237-P05-N61",
+   "id": "SS-237-P05-N70",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -660,7 +629,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N62",
+   "id": "SS-237-P05-N71",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -687,6 +656,66 @@
    "flags": [
     "Heading typed 'May 15 16'; placed on May 15. Missing time and zone.",
     "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-237-P05-N68",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "Y",
+   "local": "0450 Y May 15",
+   "utc": "1943-05-15T16:50:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    15
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dawn is at hand. Submerged and commenced the approach. Targets were soon in sight and we almost made it."
+   },
+   "flags": [
+    "Gemini dated this May 14; it continues the 2345(K) May 14 contact, so it is the morning of May 15. Check whether the page has its own May 15 heading. Missing zone.",
+    "No zone letter on this entry; zone Y assumed from the previous entry."
+   ]
+  },
+  {
+   "id": "SS-237-P05-N69",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "Y",
+   "local": "0616 Y May 15",
+   "utc": "1943-05-15T18:16:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    15
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Convoy escaped. Surfaced for end around, but sighted in haze an hour later; escort gave chase with only 3 main engines available."
+   },
+   "flags": [
+    "Gemini dated this May 14; morning of May 15 (see 0450). Missing zone.",
+    "No zone letter on this entry; zone Y assumed from the previous entry."
    ]
   },
   {
@@ -2153,7 +2182,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N63",
+   "id": "SS-237-P05-N72",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2959,12 +2988,299 @@
     "speed": "21",
     "interval": "8 Sec.",
     "spread": "1 knot increments",
-    "performance": "Yes"
+    "performance": "Yes",
+    "narrative": "Fired 6 bow torpedoes at initial range of 1200 yards mean track 75 starboard using speed spread of 1 knot increments. At the time of firing we were inside the near screen, this vessel being at the moment on our port beam distance about 2000 yards, angle on the bow 30 port. By the time the hits started coming in which was just as the 6th fish was fired the angle on the bow of the nearest DD was almost zero. No time to turn to fire the stern anywhere. Went deep and stood by heading for the carrier. The target's screws had slowed and then stopped. Continued to head toward the target in order to confuse the depth chargers. We did not, however, have to wait long for their co-ordinated attacks, and they were excellent. As usual they alternated making runs and never wasted a charge."
    },
    "flags": [
     "Transcriber: LOCATION:: Attack IV A longitude blurred, reads 140-14 E (resembles 1⟦4⟧0-1⟦4⟧ E); Attack V longitude typed \"139-50E\"; NUMBER DAMAGED OR PROBABLY SUNK(TONNAGE): Attack V damaged tonnage typed \"1 - 29,000\" (or 2⟦9⟧,000; narrative endorsement cites 27,500 tons); TYPE OF TARGET: Target type row blank for Attack V in table; identified from contact log / text; GYRO ANGLE: Attack IV B has 0; Attack V lists 5 gyro angles across lines",
-    "Review: Attack V: Gemini says TYPE OF TARGET is blank in the table and filled 'Aircraft Carrier' from the contact log. It should be left blank if the page is blank. The '27,500 tons' it cites from the endorsement isn't in the pages transcribed; check the damaged tonnage (29,000, 9 uncertain) against page 14.",
-    "Uncertain reading in flags: LOCATION:: Attack IV A longitude blurred, reads 140-14 E (resembles 1⟦4⟧0-1⟦4⟧ E); Attack V longitude typed \"139-50E\"; NUMBER DAMAGED OR PROBABLY SUNK(TONNAGE): Attack V damaged tonnage typed \"1 - 29,000\" (or 2⟦9⟧,000; narrative endorsement cites 27,500 tons); TYPE OF TARGET: Target type row blank for Attack V in table; identified from contact log / text; GYRO ANGLE: Attack IV B has 0; Attack V lists 5 gyro angles across lines"
+    "Review: Attack V: Gemini says TYPE OF TARGET is blank in the table and filled 'Aircraft Carrier' from the contact log. It should be left blank if the page is blank. The '27,500 tons' it cites from the endorsement isn't in the pages transcribed; check the damaged tonnage (29,000, 9 uncertain) against page 14. Gemini's summary of the narrative's 0244 June 11 entry (page 9) gives about 25,000 tons; that entry should be transcribed in full, since it's the captain's own claim.",
+    "Uncertain reading in flags: LOCATION:: Attack IV A longitude blurred, reads 140-14 E (resembles 1⟦4⟧0-1⟦4⟧ E); Attack V longitude typed \"139-50E\"; NUMBER DAMAGED OR PROBABLY SUNK(TONNAGE): Attack V damaged tonnage typed \"1 - 29,000\" (or 2⟦9⟧,000; narrative endorsement cites 27,500 tons); TYPE OF TARGET: Target type row blank for Attack V in table; identified from contact log / text; GYRO ANGLE: Attack IV B has 0; Attack V lists 5 gyro angles across lines",
+    "Narrative entry at 1955 K June 10 (page 9) describes this attack; its account is included here.",
+    "entry also records enemy counterattack"
+   ]
+  },
+  {
+   "id": "SS-237-P05-N60",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "9",
+   "zone": "K",
+   "local": "2013 K June 10",
+   "utc": "1943-06-10T10:13:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    6,
+    10
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Depth charging by destroyers",
+   "fields": {
+    "event": "Crackling and popping sounds in the direction of the recent target. These were clearly audible through the hull almost as loud as those of June the first. At this time the co-ordinated depth charge attacks ceased and one destroyer depth charged for a while and then the other. Probably taking off survivors. However, the attacks were sufficiently persistent to keep us down. The crackling and depth charging continued until 2109."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-237-P05-N61",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "9",
+   "zone": "K",
+   "local": "2145 K June 10",
+   "utc": "1943-06-10T11:45:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    6,
+    10
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Depth charges while pumping water",
+   "fields": {
+    "event": "Thought we were getting away so tried to get rid of some water. Screws and depth charges resulted. Then all quiet again."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-237-P05-N62",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": "K",
+   "local": "2326 K June 10",
+   "utc": "1943-06-10T13:26:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    10
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Started up to periscope depth to try to get a look before the quarter moon set. However, had little hope of seeing much because our experience out here is that a quarter moon does not afford sufficient illumination."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-237-P05-N63",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": "K",
+   "local": "0012 K June 11",
+   "utc": "1943-06-10T14:12:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Apparently could not see as well as we thought we could. Driven down again. No attack."
+   },
+   "flags": [
+    "entry headed 0012(K) (June 11th)"
+   ]
+  },
+  {
+   "id": "SS-237-P05-N64",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": "K",
+   "local": "0244 K June 11",
+   "utc": "1943-06-10T16:44:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Surfaced and escaped. Patrol craft in sight nearly all day keeping boat defensive on low battery. Departed area for home; described carrier damage (~25,000 tons, 4 hits)."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-237-P05-N74",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "Y",
+   "local": "1332 Y June 17",
+   "utc": "1943-06-18T01:32:00Z",
+   "position_verbatim": "28-43 N 178-07 W",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    17
+   ],
+   "has_time": true,
+   "lat": 28.71667,
+   "lon": -178.11667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Sighted possible periscope contact."
+   },
+   "flags": [
+    "Dated June 18 in the report, before the repeated June 18 of the Midway departure. Placed on June 17 so it falls before the arrival at Midway; check the page's zone letters."
+   ]
+  },
+  {
+   "id": "SS-237-P05-N75",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "Y",
+   "local": "1708 Y June 17",
+   "utc": "1943-06-18T05:08:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    17
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Arrived Midway."
+   },
+   "flags": [
+    "Dated June 18 in the report (first of two June 18s; see 1332). Placed on June 17 so it falls before the 0600 departure."
+   ]
+  },
+  {
+   "id": "SS-237-P05-N66",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": null,
+   "local": "June 18",
+   "utc": "1943-06-18T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    18
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "While enroute Pearl conducted test discharge at 6 hour rate, percent ampere hour capacity 120. Made dives for test of radio reception to the extent permitted by the necessity of meeting the time of the scheduled rendezvous."
+   },
+   "flags": [
+    "missing time and zone",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-237-P05-N65",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "Y",
+   "local": "0600 Y June 18",
+   "utc": "1943-06-18T18:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    18
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Departed Midway."
+   },
+   "flags": [
+    "headed (Date repeated due to crossing International Date Line)"
+   ]
+  },
+  {
+   "id": "SS-237-P05-N67",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": null,
+   "local": "June 22",
+   "utc": "1943-06-22T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    22
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Arrived Pearl Harbor for refit."
+   },
+   "flags": [
+    "missing time and zone",
+    "No time given; placed at noon GMT on that date."
    ]
   }
  ],

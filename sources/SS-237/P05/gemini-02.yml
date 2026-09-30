@@ -1,0 +1,236 @@
+YAML
+
+```
+boat:            # not stated on these pages
+patrol:          # 5th war patrol stated in header, numeral not explicitly on these pages
+year:            
+report:          "Report of Fifth War Patrol."
+comsubpac_report_no:  
+commanding_officer:
+citation:        
+  archive:       "NARA"
+  record_group:  "38"
+  nara_catalog_id: "4697018"
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946"
+  reel:          "A422"
+  micro_serial:  "51660"
+  file:          "A16-3"
+  serial:        "0825"
+  date:          "6/28/1943"
+fold3_images:    { 9: 269409704, 10: 269409712 }
+default_hemisphere: { lat: N, lon: E }
+departure: { port: Midway, date: June 18, time: 0600, zone: Y, page: 10, flags: "departure from Midway enroute Pearl" }
+arrival:   { port: Pearl Harbor, date: June 22, time: , zone: , page: 10, flags: "time and zone not given" }
+events:
+  - date: June 10
+    time: 1955
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    title: Attack on large aircraft carrier
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Fired 6 bow torpedoes at initial range of 1200 yards mean track 75 starboard using speed spread of 1 knot increments. At the time of firing we were inside the near screen, this vessel being at the moment on our port beam distance about 2000 yards, angle on the bow 30 port. By the time the hits started coming in which was just as the 6th fish was fired the angle on the bow of the nearest DD was almost zero. No time to turn to fire the stern anywhere. Went deep and stood by heading for the carrier. The target's screws had slowed and then stopped. Continued to head toward the target in order to confuse the depth chargers. We did not, however, have to wait long for their co-ordinated attacks, and they were excellent. As usual they alternated making runs and never wasted a charge."
+    page: 9
+    flags: "entry also records enemy counterattack"
+  - date: June 10
+    time: 2013
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: counterattack
+    title: Depth charging by destroyers
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Crackling and popping sounds in the direction of the recent target. These were clearly audible through the hull almost as loud as those of June the first. At this time the co-ordinated depth charge attacks ceased and one destroyer depth charged for a while and then the other. Probably taking off survivors. However, the attacks were sufficiently persistent to keep us down. The crackling and depth charging continued until 2109."
+    page: 9
+    flags: ""
+  - date: June 10
+    time: 2145
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: counterattack
+    title: Depth charges while pumping water
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Thought we were getting away so tried to get rid of some water. Screws and depth charges resulted. Then all quiet again."
+    page: 9
+    flags: ""
+  - date: June 10
+    time: 2326
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Started up to periscope depth to try to get a look before the quarter moon set. However, had little hope of seeing much because our experience out here is that a quarter moon does not afford sufficient illumination."
+    page: 9
+    flags: ""
+  - date: June 11
+    time: 0012
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Apparently could not see as well as we thought we could. Driven down again. No attack."
+    page: 9
+    flags: "entry headed 0012(K) (June 11th)"
+  - date: June 11
+    time: 0244
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Surfaced and escaped. Patrol craft in sight nearly all day keeping boat defensive on low battery. Departed area for home; described carrier damage (~25,000 tons, 4 hits)."
+    page: 9
+    flags: ""
+  - date: June 18
+    time: 0600
+    zone: Y
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Departed Midway."
+    page: 10
+    flags: "headed (Date repeated due to crossing International Date Line)"
+  - date: June 18
+    time: 1332
+    zone: Y
+    lat: 28-43 N
+    lon: 178-07 W
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Sighted possible periscope contact."
+    page: 10
+    flags: ""
+  - date: June 18
+    time: 1708
+    zone: Y
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Arrived Midway."
+    page: 10
+    flags: ""
+  - date: June 18
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "While enroute Pearl conducted test discharge at 6 hour rate, percent ampere hour capacity 120. Made dives for test of radio reception to the extent permitted by the necessity of meeting the time of the scheduled rendezvous."
+    page: 10
+    flags: "missing time and zone"
+  - date: June 22
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Arrived Pearl Harbor for refit."
+    page: 10
+    flags: "missing time and zone"
+```
+
+Sections 2 (Weather), 3 (Tidal Information), and 4 (Navigational Aides) on page 10 were omitted as general text rather than chronological narrative log entries.
