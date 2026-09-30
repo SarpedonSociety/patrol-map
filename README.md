@@ -220,6 +220,14 @@ Times are converted from the report's zone letter to GMT so patrols in
 different zones play back on one timeline. When several patrols are
 shown, playback skips the gaps between them.
 
+## Focusing on one patrol
+
+Click a patrol's track to bring it forward: the other patrols dim, the
+patrol log lists only that patrol, and a chip at the top left of the map
+names it. Click the track again, click empty sea, press Esc or use the
+chip's × to show everything again. With a patrol in focus, opening a
+marker on a dimmed patrol moves the focus to that patrol.
+
 ## Viewing it locally
 
 The map loads its data with `fetch`, so it needs a web server:

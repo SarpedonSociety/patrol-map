@@ -117,6 +117,21 @@ header.head {
 .gridlabel { font: 10px var(--typed); fill: var(--muted); }
 .place { font: 600 10.5px var(--sans); fill: var(--muted); letter-spacing: .06em; text-transform: uppercase; paint-order: stroke; stroke: var(--sea); stroke-width: 3px; }
 .trackline.done { opacity: .45; }
+.trackhit { fill: none; stroke: transparent; stroke-width: 14; stroke-linecap: round; cursor: pointer; pointer-events: stroke; }
+.patrol-layer { transition: opacity .25s ease; }
+.patrol-layer.dim { opacity: .16; }
+.patrol-layer.focused .trackline { stroke-width: 2.4; opacity: 1; }
+@media (prefers-reduced-motion: reduce) { .patrol-layer { transition: none; } }
+.focuschip {
+  position: absolute; left: 12px; top: 12px; max-width: calc(100% - 80px);
+  display: flex; align-items: center; gap: 8px; padding: 6px 8px 6px 12px;
+  background: var(--paper); border: 1px solid var(--rule); border-radius: 999px; box-shadow: var(--shadow);
+  font-size: 12.5px;
+}
+.focuschip[hidden] { display: none !important; }
+.focuschip b { font-weight: 700; }
+.focuschip span { color: var(--muted); }
+.focuschip button { border: 0; background: none; cursor: pointer; color: var(--muted); font-size: 15px; line-height: 1; padding: 2px 4px; }
 .trackline { fill: none; stroke: var(--track); stroke-width: 1.6; stroke-dasharray: 5 4; stroke-linecap: round; }
 .boat circle { fill: var(--paper); stroke: var(--track); stroke-width: 2; }
 .boat text { font: 700 9px var(--sans); fill: var(--track); text-anchor: middle; dominant-baseline: central; }
@@ -293,6 +308,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     </div>
     <div class="maploading" id="loading">Loading chart…</div>
     <div class="detail" id="detail" hidden></div>
+    <div class="focuschip" id="focuschip" hidden role="status"></div>
   </div>
 
   <div class="fleet" id="fleet" hidden>
@@ -482,6 +498,20 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
 
   // ---------- drawing
   let selected = null;
+  // Clicking a patrol's track (or one of its markers) brings it forward and
+  // dims the others; the log then lists only that patrol.
+  let focus = null;
+  function setFocus(p) {
+    if (focus === p) return;
+    focus = p;
+    const chip = $("focuschip");
+    if (p) {
+      chip.innerHTML = `<b>${p.name}</b><span>Patrol ${p.patrol} · others dimmed</span><button type="button" aria-label="Show all patrols" title="Show all patrols (Esc)">×</button>`;
+      chip.querySelector("button").addEventListener("click", (ev) => { ev.stopPropagation(); setFocus(null); });
+    }
+    chip.hidden = !p;
+    renderLog(true); draw();
+  }
   const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
   function draw() {
     gBase.attr("transform", tf);
@@ -506,18 +536,24 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
         if (tf.k >= 3) gOver.append("text").attr("class", "minelabel").attr("x", cx + r + 4).attr("y", cy + 3).text("Minefield (est.)");
       }
     }
-    for (const p of on()) {
+    const order = on().filter((p) => p !== focus).concat(focus && focus.on ? [focus] : []);
+    for (const p of order) {
+      const layer = gOver.append("g").attr("class", "patrol-layer" + (focus ? (p === focus ? " focused" : " dim") : ""));
       const b = boatAt(p, now);
       if (b) {
         const line = p.pts.slice(0, b.i + 1).map((q) => px(q.lon, q.lat));
         line.push(px(b.lon, b.lat));
-        gOver.append("path").attr("class", "trackline" + (b.done ? " done" : "")).attr("d", d3.line()(line));
+        const d = d3.line()(line);
+        layer.append("path").attr("class", "trackline" + (b.done ? " done" : "")).attr("d", d);
+        layer.append("path").attr("class", "trackhit").attr("d", d)
+          .on("click", (ev) => { ev.stopPropagation(); setFocus(focus === p ? null : p); })
+          .append("title").text(`${p.name}, Patrol ${p.patrol}: click to ${focus === p ? "show all patrols" : "bring forward"}`);
       }
       const visible = p.ports.concat(p.recs).filter((r) => r.t <= now);
       for (const r of visible) {
         const [x, y] = px(r.lon, r.lat);
         const kind = r.kind || "port";
-        const g = gOver.append("g").attr("class", `mark ${kind}${r.derived ? " derived" : ""}${selected === r ? " selected" : ""}`)
+        const g = layer.append("g").attr("class", `mark ${kind}${r.derived ? " derived" : ""}${selected === r ? " selected" : ""}`)
           .attr("transform", `translate(${x},${y})`).attr("tabindex", 0).attr("role", "button")
           .attr("aria-label", `${KIND[kind] || r.label + " " + r.port}, ${r.local}`);
         const fresh = now - r.t < 36 * HOUR && ["torpedo", "gun", "event", "rescue", "minefield", "counterattack", "rendezvous"].includes(kind);
@@ -538,7 +574,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
       }
       if (b && !b.done) {
         const [x, y] = px(b.lon, b.lat);
-        const g = gOver.append("g").attr("class", "boat").attr("transform", `translate(${x},${y})`);
+        const g = layer.append("g").attr("class", "boat").attr("transform", `translate(${x},${y})`);
         g.append("circle").attr("r", 11);
         g.append("text").text(p.boat.replace(/\D/g, ""));
       }
@@ -693,7 +729,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     for (const [place, list] of byPort) {
       const [x, y] = px(PORTS[place].lon, PORTS[place].lat);
       list.forEach(({ hull, st }, i) => {
-        const g = gOver.append("g").attr("class", "pin" + (st.inferred ? " inferred" : "")).attr("transform", `translate(${x + 18},${y + 20 + i * 25})`);
+        const g = gOver.append("g").attr("class", "pin" + (st.inferred ? " inferred" : "")).attr("opacity", focus && focus.boat !== hull ? 0.16 : null).attr("transform", `translate(${x + 18},${y + 20 + i * 25})`);
         g.append("circle").attr("r", 11);
         g.append("text").text(hull.replace(/\D/g, ""));
         g.append("text").attr("class", "tag").attr("x", 15).text(`${boatName(hull)}: ${ST_LABEL[st.status] || st.status}`);
@@ -787,6 +823,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
   window.addEventListener("resize", layoutBoard);
 
   function patrolsChanged() {
+    if (focus && !focus.on) { focus = null; $("focuschip").hidden = true; }
     setRange(); fit(true); renderLog(); renderBoard(); syncPicker();
   }
   function patrolMeta(p) {
@@ -855,7 +892,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
 
   let lastLogCount = -1;
   function renderLog(force) {
-    const items = on().flatMap((p) => p.ports.concat(p.recs, p.unplaced || [])).filter((r) => r.t <= now && r.kind !== "fix").sort((a, b) => b.t - a.t);
+    const items = (focus ? [focus] : on()).flatMap((p) => p.ports.concat(p.recs, p.unplaced || [])).filter((r) => r.t <= now && r.kind !== "fix").sort((a, b) => b.t - a.t);
     if (!force && items.length === lastLogCount) return;
     lastLogCount = items.length;
     const log = $("log");
@@ -876,6 +913,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
 
   function select(r, center) {
     selected = r;
+    if (r.patrol && focus && focus !== r.patrol) setFocus(r.patrol);
     if (center && r.lat != null) {
       const [x, y] = projection([r.lon, r.lat]);
       const k = Math.max(tf.k, 4);
@@ -950,7 +988,9 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
   }
   $("play").addEventListener("click", () => setPlaying(!playing));
   $("slider").addEventListener("input", (e) => { now = t0 + e.target.value * HOUR; draw(); renderLog(); renderBoard(); });
+  svg.on("click.focus", () => { if (focus) setFocus(null); });
   document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && focus) { setFocus(null); return; }
     if (e.key === " " && !["INPUT", "SELECT", "BUTTON"].includes(e.target.tagName) && !e.target.closest(".mark")) {
       e.preventDefault(); setPlaying(!playing);
     }
