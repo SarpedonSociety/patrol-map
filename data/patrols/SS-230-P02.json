@@ -1,0 +1,81 @@
+{
+ "id": "SS-230-P02",
+ "boat": "SS-230",
+ "name": "Finback",
+ "class": "Gato",
+ "patrol": 2,
+ "year": 1942,
+ "report": null,
+ "commanding_officer": null,
+ "citation": {},
+ "fold3_images": {},
+ "miles_steamed": null,
+ "fuel_expended": null,
+ "start": "1942-09-23T12:00:00Z",
+ "end": "1942-11-20T12:00:00Z",
+ "departure": {
+  "label": "Departed",
+  "port": "Pearl Harbor",
+  "utc": "1942-09-23T12:00:00Z",
+  "local": "23SEP",
+  "lat": 21.35,
+  "lon": -157.95,
+  "page": null,
+  "flags": [
+   "Time not recorded; placed at noon."
+  ]
+ },
+ "arrival": {
+  "label": "Arrived",
+  "port": "Pearl Harbor",
+  "utc": "1942-11-20T12:00:00Z",
+  "local": "20NOV",
+  "lat": 21.35,
+  "lon": -157.95,
+  "page": null,
+  "flags": [
+   "Time not recorded; placed at noon."
+  ]
+ },
+ "report_found": true,
+ "summary": {
+  "records": 0,
+  "sightings": 0,
+  "aircraft": 0,
+  "torpedo_attacks": 0,
+  "mine_attacks": 0,
+  "counterattacks": 0,
+  "torpedoes_fired": 0,
+  "gun_actions": 0,
+  "flagged": 2
+ },
+ "track": [],
+ "records": [],
+ "tonnage": [
+  {
+   "id": "SS-230-P02-T01",
+   "utc": "1942-11-20T12:00:00Z",
+   "target": null,
+   "name": null,
+   "result": "sunk",
+   "tons": 14100,
+   "ships": null,
+   "basis": "claimed",
+   "source": "Finback war history, Patrol 2 total",
+   "flags": []
+  },
+  {
+   "id": "SS-230-P02-T02",
+   "utc": "1942-11-20T12:00:00Z",
+   "target": null,
+   "name": null,
+   "result": "damaged",
+   "tons": 13751,
+   "ships": null,
+   "basis": "claimed",
+   "source": "Finback war history, Patrol 2 total",
+   "flags": []
+  }
+ ],
+ "minefields": []
+}

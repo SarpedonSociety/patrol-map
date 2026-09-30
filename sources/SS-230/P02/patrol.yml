@@ -12,10 +12,17 @@ commanding_officer:
 
 # Patrol dates, needed to place the tonnage on the timeline.
 # Fill in from the war history or another source (YYYY-MM-DD).
+departure:
+  port: Pearl Harbor
+  date: 23SEP
+arrival:
+  port: Pearl Harbor
+  date: 20NOV
+
 period:
-  start:
-  end:
-  source:
+  start: 1942-09-23
+  end: 1942-11-20
+  source: "Supplied by Matt Howland (patrol dates)"
 
 tonnage:
   - { result: sunk, tons: 14100, ships: , basis: claimed, source: "Finback war history, Patrol 2 total" }

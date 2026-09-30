@@ -103,8 +103,30 @@
    "zoom": 4
   }
  ],
- "generated": "2026-09-30T01:07:19Z",
+ "generated": "2026-09-30T01:10:08Z",
  "patrols": [
+  {
+   "id": "SS-230-P02",
+   "boat": "SS-230",
+   "name": "Finback",
+   "class": "Gato",
+   "patrol": 2,
+   "year": 1942,
+   "start": "1942-09-23T12:00:00Z",
+   "end": "1942-11-20T12:00:00Z",
+   "summary": {
+    "records": 0,
+    "sightings": 0,
+    "aircraft": 0,
+    "torpedo_attacks": 0,
+    "mine_attacks": 0,
+    "counterattacks": 0,
+    "torpedoes_fired": 0,
+    "gun_actions": 0,
+    "flagged": 2
+   },
+   "file": "patrols/SS-230-P02.json"
+  },
   {
    "id": "SS-230-P03",
    "boat": "SS-230",
