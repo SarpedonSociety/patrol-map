@@ -85,7 +85,7 @@ Page 14
 | NUMBER AND TYPE OF TORPEDOES FIRED | 3-Mk XIV-3A | 1-Mk XIV-3A | 6-Mk-XIV-3A | Heading typed "FIFED" |
 | HITS | 0 | 0 | 4 | |
 | NUMBER SUNK (TONNAGE) | 0 | 0 | 0 | |
-| NUMBER DAMAGED OR PROBABLY SUNK(TONNAGE) | 0 | 0 | 1 - 29,000 | Attack V damaged tonnage typed "1 - 29,000" (or 2⟦9⟧,000; narrative endorsement cites 27,500 tons) |
+| NUMBER DAMAGED OR PROBABLY SUNK(TONNAGE) | 0 | 0 | 1 - 25,000 | Attack V: verified against page 14 as 25,000 (Gemini read "1 - 29,000"; it also cited 27,500 tons from an endorsement not in these pages) |
 | TYPE OF TARGET | Freighter | Freighter | Aircraft Carrier | Target type row blank for Attack V in table; identified from contact log / text |
 | RANGE (1st TORPEDO) | 1100 | 700 | 1200 | Heading typed "TO PEDO" |
 | TYPE OF ATTACK: P. S. N or R. | P | P | P | |

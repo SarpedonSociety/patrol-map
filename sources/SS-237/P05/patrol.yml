@@ -39,8 +39,8 @@ tonnage:
       source: "Attack I, page 13: 1 hit, 1-7500 damaged. Narrative page 5: SYOYO MARU class, down by the stern." }
   - { date: 6/1/43, time: 0032, zone: Z, target: Freighter, result: sunk, tons: 8200, basis: claimed,
       source: "Attack III, page 13: 1-8200 sunk. Narrative page 8 identifies her as similar to KOSEI MARU, 8223 gross tons." }
-  - { date: 6/10/43, time: 0955, zone: Z, target: Aircraft carrier, result: damaged, tons: 29000, basis: claimed,
-      source: "Attack V, page 14: 4 hits, 1 - 29,000 damaged. Gemini marks the 9 as uncertain; check the page." }
+  - { date: 6/10/43, time: 0955, zone: Z, target: Aircraft carrier, result: damaged, tons: 25000, basis: claimed,
+      source: "Attack V, page 14: 4 hits, 1 - 25,000 damaged (verified against the page; Gemini had read 29,000). The narrative, page 9, also gives about 25,000 tons." }
 
 # Date corrections. Gemini dated these entries as it found them under the
 # day's heading and flagged each one; the event text is unchanged.

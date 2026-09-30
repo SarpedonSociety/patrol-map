@@ -2976,7 +2976,7 @@
     "fired": "6-Mk-XIV-3A",
     "hits": "4",
     "sunk": "0",
-    "damaged": "1 - 29,000",
+    "damaged": "1 - 25,000",
     "type": "Aircraft Carrier",
     "firing_range": "1200",
     "attack_type": "P",
@@ -2992,9 +2992,9 @@
     "narrative": "Fired 6 bow torpedoes at initial range of 1200 yards mean track 75 starboard using speed spread of 1 knot increments. At the time of firing we were inside the near screen, this vessel being at the moment on our port beam distance about 2000 yards, angle on the bow 30 port. By the time the hits started coming in which was just as the 6th fish was fired the angle on the bow of the nearest DD was almost zero. No time to turn to fire the stern anywhere. Went deep and stood by heading for the carrier. The target's screws had slowed and then stopped. Continued to head toward the target in order to confuse the depth chargers. We did not, however, have to wait long for their co-ordinated attacks, and they were excellent. As usual they alternated making runs and never wasted a charge."
    },
    "flags": [
-    "Transcriber: LOCATION:: Attack IV A longitude blurred, reads 140-14 E (resembles 1⟦4⟧0-1⟦4⟧ E); Attack V longitude typed \"139-50E\"; NUMBER DAMAGED OR PROBABLY SUNK(TONNAGE): Attack V damaged tonnage typed \"1 - 29,000\" (or 2⟦9⟧,000; narrative endorsement cites 27,500 tons); TYPE OF TARGET: Target type row blank for Attack V in table; identified from contact log / text; GYRO ANGLE: Attack IV B has 0; Attack V lists 5 gyro angles across lines",
-    "Review: Attack V: Gemini says TYPE OF TARGET is blank in the table and filled 'Aircraft Carrier' from the contact log. It should be left blank if the page is blank. The '27,500 tons' it cites from the endorsement isn't in the pages transcribed; check the damaged tonnage (29,000, 9 uncertain) against page 14. Gemini's summary of the narrative's 0244 June 11 entry (page 9) gives about 25,000 tons; that entry should be transcribed in full, since it's the captain's own claim.",
-    "Uncertain reading in flags: LOCATION:: Attack IV A longitude blurred, reads 140-14 E (resembles 1⟦4⟧0-1⟦4⟧ E); Attack V longitude typed \"139-50E\"; NUMBER DAMAGED OR PROBABLY SUNK(TONNAGE): Attack V damaged tonnage typed \"1 - 29,000\" (or 2⟦9⟧,000; narrative endorsement cites 27,500 tons); TYPE OF TARGET: Target type row blank for Attack V in table; identified from contact log / text; GYRO ANGLE: Attack IV B has 0; Attack V lists 5 gyro angles across lines",
+    "Transcriber: LOCATION:: Attack IV A longitude blurred, reads 140-14 E (resembles 1⟦4⟧0-1⟦4⟧ E); Attack V longitude typed \"139-50E\"; NUMBER DAMAGED OR PROBABLY SUNK(TONNAGE): Attack V: verified against page 14 as 25,000 (Gemini read \"1 - 29,000\"; it also cited 27,500 tons from an endorsement not in these pages); TYPE OF TARGET: Target type row blank for Attack V in table; identified from contact log / text; GYRO ANGLE: Attack IV B has 0; Attack V lists 5 gyro angles across lines",
+    "Review: Attack V: Gemini says TYPE OF TARGET is blank in the table and filled 'Aircraft Carrier' from the contact log. It should be left blank if the page is blank.",
+    "Uncertain reading in flags: LOCATION:: Attack IV A longitude blurred, reads 140-14 E (resembles 1⟦4⟧0-1⟦4⟧ E); Attack V longitude typed \"139-50E\"; NUMBER DAMAGED OR PROBABLY SUNK(TONNAGE): Attack V: verified against page 14 as 25,000 (Gemini read \"1 - 29,000\"; it also cited 27,500 tons from an endorsement not in these pages); TYPE OF TARGET: Target type row blank for Attack V in table; identified from contact log / text; GYRO ANGLE: Attack IV B has 0; Attack V lists 5 gyro angles across lines",
     "Narrative entry at 1955 K June 10 (page 9) describes this attack; its account is included here.",
     "entry also records enemy counterattack"
    ]
@@ -3315,10 +3315,10 @@
    "target": "Aircraft carrier",
    "name": null,
    "result": "damaged",
-   "tons": 29000,
+   "tons": 25000,
    "ships": 1,
    "basis": "claimed",
-   "source": "Attack V, page 14: 4 hits, 1 - 29,000 damaged. Gemini marks the 9 as uncertain; check the page.",
+   "source": "Attack V, page 14: 4 hits, 1 - 25,000 damaged (verified against the page; Gemini had read 29,000). The narrative, page 9, also gives about 25,000 tons.",
    "flags": []
   }
  ],
