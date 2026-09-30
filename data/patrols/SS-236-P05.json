@@ -110,7 +110,7 @@
    "lon": 152.5,
    "utc": "1943-05-31T12:00:00Z",
    "basis": "documented",
-   "ref": "SS-236-P05-N12"
+   "ref": "SS-236-P05-N13"
   },
   {
    "lat": -2.83333,
@@ -173,7 +173,7 @@
    "lon": 148.28333,
    "utc": "1943-06-18T18:10:00Z",
    "basis": "documented",
-   "ref": "SS-236-P05-N37"
+   "ref": "SS-236-P05-N32"
   },
   {
    "lat": -11.5,
@@ -593,7 +593,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N39",
+   "id": "SS-236-P05-N11",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -623,7 +623,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N11",
+   "id": "SS-236-P05-N12",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -653,7 +653,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N12",
+   "id": "SS-236-P05-N13",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -683,7 +683,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N13",
+   "id": "SS-236-P05-N14",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -750,7 +750,7 @@
    "contact_no": "4."
   },
   {
-   "id": "SS-236-P05-N14",
+   "id": "SS-236-P05-N15",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -780,7 +780,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N15",
+   "id": "SS-236-P05-N16",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -848,7 +848,7 @@
    "contact_no": "1."
   },
   {
-   "id": "SS-236-P05-N40",
+   "id": "SS-236-P05-N17",
    "source": "Part I narrative",
    "part": "I",
    "kind": "minefield",
@@ -888,7 +888,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N16",
+   "id": "SS-236-P05-N18",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -955,7 +955,7 @@
    "contact_no": "2."
   },
   {
-   "id": "SS-236-P05-N17",
+   "id": "SS-236-P05-N19",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1024,7 +1024,7 @@
    "contact_no": "5."
   },
   {
-   "id": "SS-236-P05-N18",
+   "id": "SS-236-P05-N20",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1054,7 +1054,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N19",
+   "id": "SS-236-P05-N21",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1215,7 +1215,7 @@
    "contact_no": ""
   },
   {
-   "id": "SS-236-P05-N20",
+   "id": "SS-236-P05-N22",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1252,7 +1252,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N21",
+   "id": "SS-236-P05-N23",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1388,7 +1388,7 @@
    "contact_no": ""
   },
   {
-   "id": "SS-236-P05-N22",
+   "id": "SS-236-P05-N24",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1523,7 +1523,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-236-P05-N38",
+   "id": "SS-236-P05-N27",
    "source": "Part I narrative",
    "part": "I",
    "kind": "counterattack",
@@ -1561,7 +1561,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N25",
+   "id": "SS-236-P05-N28",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1631,7 +1631,7 @@
    "contact_no": "6."
   },
   {
-   "id": "SS-236-P05-N26",
+   "id": "SS-236-P05-N29",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1661,7 +1661,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N27",
+   "id": "SS-236-P05-N30",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1691,7 +1691,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N28",
+   "id": "SS-236-P05-N31",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1721,7 +1721,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N37",
+   "id": "SS-236-P05-N32",
    "source": "Part I narrative",
    "part": "I",
    "kind": "rendezvous",
@@ -1755,7 +1755,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N29",
+   "id": "SS-236-P05-N33",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1785,7 +1785,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N30",
+   "id": "SS-236-P05-N34",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1815,7 +1815,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N31",
+   "id": "SS-236-P05-N35",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1845,7 +1845,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N32",
+   "id": "SS-236-P05-N36",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1875,7 +1875,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N33",
+   "id": "SS-236-P05-N37",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1940,7 +1940,7 @@
    "contact_no": "7."
   },
   {
-   "id": "SS-236-P05-N34",
+   "id": "SS-236-P05-N38",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1970,7 +1970,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N35",
+   "id": "SS-236-P05-N39",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2011,7 +2011,7 @@
    ]
   },
   {
-   "id": "SS-236-P05-N36",
+   "id": "SS-236-P05-N40",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2058,7 +2058,7 @@
    "radius_nm": 2.0,
    "utc": "1943-06-04T09:49:00Z",
    "refs": [
-    "SS-236-P05-N40"
+    "SS-236-P05-N17"
    ],
    "estimated": true,
    "note": "Estimated area around the positions of the mine entries in the report. The report doesn't give the field's boundaries."

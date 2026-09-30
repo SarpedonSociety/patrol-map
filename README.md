@@ -157,7 +157,9 @@ chart.
 
 A hand entry in `patrol.yml` with `replaces: { date: 22 December, page: 1 }`
 (any fields of the Gemini entry, as Gemini wrote them) takes that entry's
-place, e.g. to put back in full an entry Gemini summarized.
+place, e.g. to put back in full an entry Gemini summarized. It keeps that
+entry's position in the narrative, so a missing zone letter is taken from
+the entries around it.
 
 If Gemini labels the narrative with the wrong zone, `zone_fix: { K: L }`
 in `patrol.yml` corrects it for every narrative entry.
@@ -227,6 +229,13 @@ patrol log lists only that patrol, and a chip at the top left of the map
 names it. Click the track again, click empty sea, press Esc or use the
 chip's × to show everything again. With a patrol in focus, opening a
 marker on a dimmed patrol moves the focus to that patrol.
+
+A focused patrol also gets a dotted box around its patrol area (its
+contacts and attacks, leaving out sightings more than 400 nm from the rest,
+which are usually on passage). Clicking the box zooms in and opens the first
+entry in the area; the card's Previous and Next buttons (or the arrow keys)
+step through every charted entry of the patrol in time order, moving the
+timeline with them.
 
 ## Viewing it locally
 

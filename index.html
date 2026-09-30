@@ -129,6 +129,14 @@ header.head {
   font-size: 12.5px;
 }
 .focuschip[hidden] { display: none !important; }
+.areabox { fill: color-mix(in srgb, var(--track) 5%, transparent); stroke: var(--track); stroke-width: 1.2; stroke-dasharray: 2 4; cursor: zoom-in; }
+.areabox:hover { fill: color-mix(in srgb, var(--track) 10%, transparent); }
+.arealabel { font: 600 10.5px var(--sans); fill: var(--track); letter-spacing: .04em; cursor: zoom-in;
+  paint-order: stroke; stroke: var(--sea); stroke-width: 3px; }
+.tour { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--rule); font-size: 12.5px; }
+.tour span { color: var(--muted); font-variant-numeric: tabular-nums; }
+.tour button { border: 1px solid var(--rule); background: var(--paper); border-radius: 4px; padding: 4px 10px; cursor: pointer; }
+.tour button:disabled { opacity: .4; cursor: default; }
 .focuschip b { font-weight: 700; }
 .focuschip span { color: var(--muted); }
 .focuschip button { border: 0; background: none; cursor: pointer; color: var(--muted); font-size: 15px; line-height: 1; padding: 2px 4px; }
@@ -512,6 +520,58 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     chip.hidden = !p;
     renderLog(true); draw();
   }
+
+  // A patrol's operating area: where its contacts and attacks cluster.
+  // Points more than 400 nm from the median (transit sightings) are left out.
+  const AREA_KINDS = ["torpedo", "gun", "minefield", "counterattack", "rendezvous", "sighting"];
+  function patrolArea(p) {
+    if (p._area !== undefined) return p._area;
+    const pts = p.recs.filter((r) => AREA_KINDS.includes(r.kind) && r.lat != null);
+    if (pts.length < 2) return (p._area = null);
+    const med = (a) => a.slice().sort((x, y) => x - y)[Math.floor(a.length / 2)];
+    const cl = med(pts.map((r) => r.lat)), co = med(pts.map((r) => r.lon));
+    const nm = (r) => Math.hypot((r.lat - cl) * 60, (r.lon - co) * 60 * Math.cos(cl * Math.PI / 180));
+    const near = pts.filter((r) => nm(r) <= 400);
+    const use = near.length >= 2 ? near : pts;
+    const pad = 0.5;
+    return (p._area = { s: d3.min(use, (r) => r.lat) - pad, n: d3.max(use, (r) => r.lat) + pad,
+                        w: d3.min(use, (r) => r.lon) - pad, e: d3.max(use, (r) => r.lon) + pad });
+  }
+  // Every entry of a patrol that has a place on the chart, in time order.
+  function tourOf(p) {
+    return p._tour || (p._tour = p.ports.concat(p.recs).filter((r) => r.lat != null && r.kind !== "fix").sort((a, b) => a.t - b.t));
+  }
+  function goTo(r) {
+    if (!r) return;
+    if (playing) setPlaying(false);
+    now = Math.min(Math.max(r.t, t0), t1);
+    $("slider").value = Math.round((now - t0) / HOUR);
+    if (focus && focus !== r.patrol) setFocus(r.patrol);
+    selected = r;
+    const [x, y] = px(r.lon, r.lat);
+    const w = $("map").clientWidth, h = $("map").clientHeight;
+    if (x < 50 || x > w - 50 || y < 50 || y > h - 50) {
+      svg.transition().duration(reduced ? 0 : 400).call(zoom.translateBy, (w / 2 - x) / tf.k, (h / 2 - y) / tf.k);
+    }
+    renderDetail(); renderLog(true); renderBoard(); draw();
+  }
+  function startTour(p) {
+    const a = patrolArea(p);
+    if (a) {
+      const [x0, y0] = projection([a.w, a.n]), [x1, y1] = projection([a.e, a.s]);
+      const w = $("map").clientWidth, h = $("map").clientHeight;
+      const k = Math.max(1, Math.min(60, 0.85 * Math.min(w / Math.abs(x1 - x0), h / Math.abs(y1 - y0))));
+      const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
+      svg.transition().duration(reduced ? 0 : 600)
+        .call(zoom.transform, d3.zoomIdentity.translate(w / 2 - cx * k, h / 2 - cy * k).scale(k))
+        .on("end", () => goTo(firstIn(p, a)));
+    } else goTo(tourOf(p)[0]);
+  }
+  // The tour opens on the first entry inside the area, not the departure.
+  function firstIn(p, a) {
+    const list = tourOf(p);
+    return list.find((r) => r.lat >= a.s && r.lat <= a.n && r.lon >= a.w && r.lon <= a.e) || list[0];
+  }
   const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
   function draw() {
     gBase.attr("transform", tf);
@@ -539,6 +599,21 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     const order = on().filter((p) => p !== focus).concat(focus && focus.on ? [focus] : []);
     for (const p of order) {
       const layer = gOver.append("g").attr("class", "patrol-layer" + (focus ? (p === focus ? " focused" : " dim") : ""));
+      const area = p === focus ? patrolArea(p) : null;
+      if (area) {
+        let [ax0, ay0] = px(area.w, area.n), [ax1, ay1] = px(area.e, area.s);
+        // Keep the box big enough to click when zoomed out.
+        const grow = (a0, a1) => { const m = (a0 + a1) / 2, half = Math.max(Math.abs(a1 - a0) / 2, 14); return [m - half, m + half]; };
+        [ax0, ax1] = grow(ax0, ax1); [ay0, ay1] = grow(ay0, ay1);
+        const box = layer.append("g").attr("role", "button").attr("tabindex", 0)
+          .attr("aria-label", `${p.name} patrol ${p.patrol} area: zoom in and step through its entries`)
+          .on("click", (ev) => { ev.stopPropagation(); startTour(p); })
+          .on("keydown", (ev) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); startTour(p); } });
+        box.append("rect").attr("class", "areabox").attr("x", Math.min(ax0, ax1)).attr("y", Math.min(ay0, ay1))
+          .attr("width", Math.abs(ax1 - ax0)).attr("height", Math.abs(ay1 - ay0)).attr("rx", 4);
+        box.append("text").attr("class", "arealabel").attr("x", Math.min(ax0, ax1) + 6).attr("y", Math.min(ay0, ay1) - 6)
+          .text("Patrol area · click to step through entries");
+      }
       const b = boatAt(p, now);
       if (b) {
         const line = p.pts.slice(0, b.i + 1).map((q) => px(q.lon, q.lat));
@@ -938,6 +1013,14 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
 
   function esc(s) { return String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]); }
 
+  function tourNav(r) {
+    if (!r.patrol) return "";
+    const list = tourOf(r.patrol), i = list.indexOf(r);
+    if (i < 0) return "";
+    return `<div class="tour"><button type="button" data-step="-1" ${i === 0 ? "disabled" : ""} aria-label="Previous entry">‹ Previous</button>
+      <span>${i + 1} of ${list.length} · ${esc(r.patrol.name)} patrol ${r.patrol.patrol}</span>
+      <button type="button" data-step="1" ${i === list.length - 1 ? "disabled" : ""} aria-label="Next entry">Next ›</button></div>`;
+  }
   function renderDetail() {
     const d = $("detail");
     const r = selected;
@@ -948,8 +1031,8 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     const rows = kind === "port" ? [["Position", "Reference position for the port"]] :
       r.lat == null ? [["Position", "Not recorded; not shown on the chart"]].concat(Object.entries(r.fields || {}).filter(([k]) => k !== "type").map(([k, v]) => [LABELS[k] || k, v])) :
       [["Position", r.derived
-        ? `${r.position_verbatim}  (estimated ${r.lat.toFixed(3)}, ${r.lon.toFixed(3)})`
-        : `${r.position_verbatim || "—"}  (${r.lat.toFixed(3)}, ${r.lon.toFixed(3)})`]]
+        ? `${String(r.position_verbatim).replace(/<br\s*\/?>/gi, " ")}  (estimated ${r.lat.toFixed(3)}, ${r.lon.toFixed(3)})`
+        : `${String(r.position_verbatim || "—").replace(/<br\s*\/?>/gi, " ")}  (${r.lat.toFixed(3)}, ${r.lon.toFixed(3)})`]]
         .concat(Object.entries(r.fields || {}).filter(([k]) => k !== "type").map(([k, v]) => [LABELS[k] || k, v]));
     const src = kind === "port" ? "Departure / arrival, patrol.yml" :
       `${r.source}${r.row ? `, entry ${r.row}` : ""}${r.page ? `, page ${r.page}` : ", page not recorded"}`;
@@ -958,7 +1041,10 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
         <button class="close" aria-label="Close details">×</button></div>
       <dl class="kv">${rows.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
       ${r.flags && r.flags.length ? `<div class="flags"><p>To review</p><ul>${r.flags.map((f) => `<li>${esc(f)}</li>`).join("")}</ul></div>` : ""}
-      <p class="source">Source: ${esc(String(r.patrol.report || r.patrol.name).replace(/\.+$/, ""))}. ${esc(src)}.${citeLine(r)}</p>`;
+      <p class="source">Source: ${esc(String(r.patrol.report || r.patrol.name).replace(/\.+$/, ""))}. ${esc(src)}.${citeLine(r)}</p>
+      ${tourNav(r)}`;
+    const tl = r.patrol ? tourOf(r.patrol) : [], ti = tl.indexOf(r);
+    d.querySelectorAll(".tour button").forEach((b) => b.addEventListener("click", () => goTo(tl[ti + +b.dataset.step])));
     d.querySelector(".close").addEventListener("click", () => { selected = null; renderDetail(); renderLog(true); draw(); });
   }
 
@@ -991,6 +1077,12 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
   svg.on("click.focus", () => { if (focus) setFocus(null); });
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && focus) { setFocus(null); return; }
+    if ((e.key === "ArrowLeft" || e.key === "ArrowRight") && selected && selected.patrol
+        && !["INPUT", "SELECT", "TEXTAREA"].includes(e.target.tagName)) {
+      const list = tourOf(selected.patrol), i = list.indexOf(selected);
+      if (i >= 0) { e.preventDefault(); goTo(list[i + (e.key === "ArrowRight" ? 1 : -1)]); }
+      return;
+    }
     if (e.key === " " && !["INPUT", "SELECT", "BUTTON"].includes(e.target.tagName) && !e.target.closest(".mark")) {
       e.preventDefault(); setPlaying(!playing);
     }

@@ -433,8 +433,25 @@ def merge_meta(manual, batches):
             if all(str(ev.get(k) or "").strip().lower() == str(v).strip().lower() for k, v in t.items() if v is not None):
                 return True
         return False
-    out["events"] = [e for src in batches for e in (src.get("events") or []) if not replaced(e)] + \
-                    [e for e in (manual.get("events") or [])]
+    # A replacing hand entry takes the place of the entry it replaces, so a
+    # missing zone letter is carried forward from the entries around it, not
+    # from the end of the report. Other hand entries go at the end.
+    manual_events = manual.get("events") or []
+    placed = set()
+    events = []
+    for src in batches:
+        for e in src.get("events") or []:
+            if not replaced(e):
+                events.append(e)
+                continue
+            for i, m in enumerate(manual_events):
+                t = m.get("replaces") if isinstance(m.get("replaces"), dict) else None
+                if i not in placed and t and all(str(e.get(k) or "").strip().lower() == str(v).strip().lower()
+                                                  for k, v in t.items() if v is not None):
+                    events.append(m)
+                    placed.add(i)
+    events += [m for i, m in enumerate(manual_events) if i not in placed]
+    out["events"] = events
     return out
 
 

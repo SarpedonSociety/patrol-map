@@ -139,7 +139,7 @@
    "lon": 139.56667,
    "utc": "1943-05-21T12:00:00Z",
    "basis": "documented",
-   "ref": "SS-237-P05-N15"
+   "ref": "SS-237-P05-N19"
   },
   {
    "lat": 34.63333,
@@ -160,7 +160,7 @@
    "lon": 139.5,
    "utc": "1943-05-21T21:47:00Z",
    "basis": "documented",
-   "ref": "SS-237-P05-N19"
+   "ref": "SS-237-P05-N23"
   },
   {
    "lat": 34.21667,
@@ -279,7 +279,7 @@
    "lon": -178.11667,
    "utc": "1943-06-18T01:32:00Z",
    "basis": "documented",
-   "ref": "SS-237-P05-N74"
+   "ref": "SS-237-P05-N72"
   },
   {
    "lat": 21.35,
@@ -614,7 +614,67 @@
    ]
   },
   {
-   "id": "SS-237-P05-N70",
+   "id": "SS-237-P05-N10",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "K",
+   "local": "0450 K May 15",
+   "utc": "1943-05-14T18:50:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    15
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dawn is at hand. Submerged and commenced the approach. Targets were soon in sight and we almost made it."
+   },
+   "flags": [
+    "Gemini dated this May 14; it continues the 2345(K) May 14 contact, so it is the morning of May 15. Check whether the page has its own May 15 heading. Missing zone.",
+    "No zone letter on this entry; zone K assumed from the previous entry."
+   ]
+  },
+  {
+   "id": "SS-237-P05-N11",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "K",
+   "local": "0616 K May 15",
+   "utc": "1943-05-14T20:16:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    15
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Convoy escaped. Surfaced for end around, but sighted in haze an hour later; escort gave chase with only 3 main engines available."
+   },
+   "flags": [
+    "Gemini dated this May 14; morning of May 15 (see 0450). Missing zone.",
+    "No zone letter on this entry; zone K assumed from the previous entry."
+   ]
+  },
+  {
+   "id": "SS-237-P05-N12",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -643,7 +703,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N71",
+   "id": "SS-237-P05-N13",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -670,66 +730,6 @@
    "flags": [
     "Heading typed 'May 15 16'; placed on May 15. Missing time and zone.",
     "No time given; placed at noon GMT on that date."
-   ]
-  },
-  {
-   "id": "SS-237-P05-N68",
-   "source": "Part I narrative",
-   "part": "I",
-   "kind": "event",
-   "page": "2",
-   "zone": "Y",
-   "local": "0450 Y May 15",
-   "utc": "1943-05-15T16:50:00Z",
-   "position_verbatim": "",
-   "derived": null,
-   "tag": null,
-   "local_date": [
-    1943,
-    5,
-    15
-   ],
-   "has_time": true,
-   "lat": null,
-   "lon": null,
-   "type": "Narrative",
-   "title": "Narrative entry",
-   "fields": {
-    "event": "Dawn is at hand. Submerged and commenced the approach. Targets were soon in sight and we almost made it."
-   },
-   "flags": [
-    "Gemini dated this May 14; it continues the 2345(K) May 14 contact, so it is the morning of May 15. Check whether the page has its own May 15 heading. Missing zone.",
-    "No zone letter on this entry; zone Y assumed from the previous entry."
-   ]
-  },
-  {
-   "id": "SS-237-P05-N69",
-   "source": "Part I narrative",
-   "part": "I",
-   "kind": "event",
-   "page": "2",
-   "zone": "Y",
-   "local": "0616 Y May 15",
-   "utc": "1943-05-15T18:16:00Z",
-   "position_verbatim": "",
-   "derived": null,
-   "tag": null,
-   "local_date": [
-    1943,
-    5,
-    15
-   ],
-   "has_time": true,
-   "lat": null,
-   "lon": null,
-   "type": "Narrative",
-   "title": "Narrative entry",
-   "fields": {
-    "event": "[SUMMARY] Convoy escaped. Surfaced for end around, but sighted in haze an hour later; escort gave chase with only 3 main engines available."
-   },
-   "flags": [
-    "Gemini dated this May 14; morning of May 15 (see 0450). Missing zone.",
-    "No zone letter on this entry; zone Y assumed from the previous entry."
    ]
   },
   {
@@ -765,7 +765,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N10",
+   "id": "SS-237-P05-N14",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -828,7 +828,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N11",
+   "id": "SS-237-P05-N15",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -858,7 +858,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N12",
+   "id": "SS-237-P05-N16",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -893,7 +893,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N13",
+   "id": "SS-237-P05-N17",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -959,7 +959,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N14",
+   "id": "SS-237-P05-N18",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1093,7 +1093,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N16",
+   "id": "SS-237-P05-N20",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1160,7 +1160,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N17",
+   "id": "SS-237-P05-N21",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1221,7 +1221,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N18",
+   "id": "SS-237-P05-N22",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1250,7 +1250,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N15",
+   "id": "SS-237-P05-N19",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1341,7 +1341,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N19",
+   "id": "SS-237-P05-N23",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1370,7 +1370,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N20",
+   "id": "SS-237-P05-N24",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1400,7 +1400,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N21",
+   "id": "SS-237-P05-N25",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1427,7 +1427,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N22",
+   "id": "SS-237-P05-N26",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1484,7 +1484,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N23",
+   "id": "SS-237-P05-N27",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1513,7 +1513,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N24",
+   "id": "SS-237-P05-N28",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1540,7 +1540,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N25",
+   "id": "SS-237-P05-N29",
    "source": "Part I narrative",
    "part": "I",
    "kind": "counterattack",
@@ -1567,7 +1567,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N26",
+   "id": "SS-237-P05-N30",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1629,7 +1629,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N27",
+   "id": "SS-237-P05-N31",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1689,7 +1689,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N28",
+   "id": "SS-237-P05-N32",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1748,7 +1748,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N29",
+   "id": "SS-237-P05-N33",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1777,7 +1777,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N30",
+   "id": "SS-237-P05-N34",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1838,7 +1838,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N31",
+   "id": "SS-237-P05-N35",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1913,7 +1913,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N33",
+   "id": "SS-237-P05-N37",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -1948,7 +1948,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N34",
+   "id": "SS-237-P05-N38",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2014,7 +2014,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N35",
+   "id": "SS-237-P05-N39",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2081,7 +2081,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N36",
+   "id": "SS-237-P05-N40",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2140,7 +2140,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N37",
+   "id": "SS-237-P05-N41",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2262,7 +2262,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N40",
+   "id": "SS-237-P05-N44",
    "source": "Part I narrative",
    "part": "I",
    "kind": "counterattack",
@@ -2289,7 +2289,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N41",
+   "id": "SS-237-P05-N45",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2316,7 +2316,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N42",
+   "id": "SS-237-P05-N46",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2343,7 +2343,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N72",
+   "id": "SS-237-P05-N47",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2372,7 +2372,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N43",
+   "id": "SS-237-P05-N48",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2402,7 +2402,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N44",
+   "id": "SS-237-P05-N49",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2462,7 +2462,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N45",
+   "id": "SS-237-P05-N50",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2537,7 +2537,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N47",
+   "id": "SS-237-P05-N52",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2666,7 +2666,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N49",
+   "id": "SS-237-P05-N55",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2701,7 +2701,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N50",
+   "id": "SS-237-P05-N56",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2768,7 +2768,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N51",
+   "id": "SS-237-P05-N57",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2824,7 +2824,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N52",
+   "id": "SS-237-P05-N58",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2888,7 +2888,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N53",
+   "id": "SS-237-P05-N59",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2952,7 +2952,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N54",
+   "id": "SS-237-P05-N60",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -3011,7 +3011,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N55",
+   "id": "SS-237-P05-N61",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -3041,7 +3041,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N56",
+   "id": "SS-237-P05-N62",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -3108,7 +3108,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N57",
+   "id": "SS-237-P05-N63",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -3167,7 +3167,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N58",
+   "id": "SS-237-P05-N64",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -3245,7 +3245,7 @@
    "contact_no": null
   },
   {
-   "id": "SS-237-P05-N60",
+   "id": "SS-237-P05-N66",
    "source": "Part I narrative",
    "part": "I",
    "kind": "counterattack",
@@ -3272,7 +3272,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N61",
+   "id": "SS-237-P05-N67",
    "source": "Part I narrative",
    "part": "I",
    "kind": "counterattack",
@@ -3299,7 +3299,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N62",
+   "id": "SS-237-P05-N68",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -3326,7 +3326,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N63",
+   "id": "SS-237-P05-N69",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -3355,7 +3355,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N64",
+   "id": "SS-237-P05-N70",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -3382,7 +3382,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N74",
+   "id": "SS-237-P05-N72",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -3411,7 +3411,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N75",
+   "id": "SS-237-P05-N73",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -3440,7 +3440,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N66",
+   "id": "SS-237-P05-N74",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -3470,7 +3470,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N65",
+   "id": "SS-237-P05-N71",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -3499,7 +3499,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N67",
+   "id": "SS-237-P05-N75",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
