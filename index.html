@@ -209,7 +209,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
 .board-head select { background: var(--paper); border: 1px solid var(--rule); border-radius: 4px; padding: 2px 4px; font-size: 12px; color: var(--ink); }
 .board { position: relative; }
 .brow {
-  position: absolute; left: 0; right: 0; height: 48px;
+  position: absolute; left: 0; top: 0; right: 0; min-height: 48px; padding-bottom: 4px;
   display: grid; grid-template-columns: 16px minmax(0, 1fr) auto; align-items: center; gap: 2px 8px;
   transition: transform .5s ease;
 }
@@ -737,9 +737,8 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     lastBoard = key;
     const board = $("board");
     $("boardnote").textContent = bases.length ? NOTE[basis] : "No tonnage entered yet. Add a tonnage list to a patrol's patrol.yml.";
-    if (!rows.length) { board.style.height = "auto"; board.innerHTML = `<p class="board-empty">No patrols selected.</p>`; return; }
+    if (!rows.length) { boardOrder = []; board.style.height = "auto"; board.innerHTML = `<p class="board-empty">No patrols selected.</p>`; return; }
     const max = Math.max(1, ...rows.map((r) => r.sunk));
-    board.style.height = rows.length * 52 + "px";
     const seen = new Set();
     rows.forEach((r, i) => {
       let el = board.querySelector(`[data-boat="${r.boat}"]`);
@@ -747,11 +746,9 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
         el = document.createElement("div");
         el.className = "brow"; el.dataset.boat = r.boat;
         el.innerHTML = `<span class="rank"></span><span class="who"></span><span class="tons"></span><span class="bar"><span></span></span><span class="sub"></span>`;
-        el.style.transform = `translateY(${i * 52}px)`;
         board.appendChild(el);
       }
       seen.add(r.boat);
-      el.style.transform = `translateY(${i * 52}px)`;
       el.querySelector(".rank").textContent = i + 1;
       const chip = statusText(statusAt(r.boat, now));
       el.querySelector(".who").innerHTML = `${esc(r.name)} <small style="font-weight:500;color:var(--muted)">${esc(r.boat)}</small>${chip ? `<span class="stchip">${esc(chip)}</span>` : ""}`;
@@ -763,7 +760,23 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
       el.querySelector(".bar span").style.width = (r.sunk / max) * 100 + "%";
     });
     board.querySelectorAll(".brow").forEach((el) => { if (!seen.has(el.dataset.boat)) el.remove(); });
+    boardOrder = rows.map((r) => r.boat);
+    layoutBoard();
   }
+  // Rows grow to fit their text (a long line wraps), so stack them by measured height rather than a fixed step.
+  let boardOrder = [];
+  function layoutBoard() {
+    const board = $("board");
+    let y = 0;
+    boardOrder.forEach((boat) => {
+      const el = board.querySelector(`[data-boat="${boat}"]`);
+      if (!el) return;
+      el.style.transform = `translateY(${y}px)`;
+      y += el.offsetHeight;
+    });
+    if (boardOrder.length) board.style.height = y + "px";
+  }
+  window.addEventListener("resize", layoutBoard);
 
   function patrolsChanged() {
     setRange(); fit(true); renderLog(); renderBoard(); syncPicker();
