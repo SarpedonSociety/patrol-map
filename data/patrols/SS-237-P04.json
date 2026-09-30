@@ -1,0 +1,70 @@
+{
+ "id": "SS-237-P04",
+ "boat": "SS-237",
+ "name": "Trigger",
+ "class": "Gato",
+ "patrol": 4,
+ "year": 1943,
+ "report": null,
+ "commanding_officer": null,
+ "citation": {},
+ "fold3_images": {},
+ "miles_steamed": null,
+ "fuel_expended": null,
+ "start": "1943-02-13T12:00:00Z",
+ "end": "1943-04-06T12:00:00Z",
+ "departure": {
+  "label": "Departed",
+  "port": "Midway",
+  "utc": "1943-02-13T12:00:00Z",
+  "local": "13FEB",
+  "lat": 28.21,
+  "lon": -177.38,
+  "page": null,
+  "flags": [
+   "Time not recorded; placed at noon."
+  ]
+ },
+ "arrival": {
+  "label": "Arrived",
+  "port": "Pearl Harbor",
+  "utc": "1943-04-06T12:00:00Z",
+  "local": "6APR",
+  "lat": 21.35,
+  "lon": -157.95,
+  "page": null,
+  "flags": [
+   "52 days including 2 at Midway.",
+   "Time not recorded; placed at noon."
+  ]
+ },
+ "report_found": true,
+ "summary": {
+  "records": 0,
+  "sightings": 0,
+  "aircraft": 0,
+  "torpedo_attacks": 0,
+  "mine_attacks": 0,
+  "counterattacks": 0,
+  "torpedoes_fired": 0,
+  "gun_actions": 0,
+  "flagged": 2
+ },
+ "track": [],
+ "records": [],
+ "tonnage": [
+  {
+   "id": "SS-237-P04-T01",
+   "utc": "1943-04-06T12:00:00Z",
+   "target": null,
+   "name": null,
+   "result": "damaged",
+   "tons": 21793,
+   "ships": null,
+   "basis": "claimed",
+   "source": "Patrol total, 21,793 tons damaged. Individual ships and dates to add when the report is transcribed; placed at the end of the patrol until then.",
+   "flags": []
+  }
+ ],
+ "minefields": []
+}

@@ -1,0 +1,29 @@
+# USS Trigger (SS-237), War Patrol 4
+# Report available (COMSUBPAC Patrol Report No. 165), not yet transcribed.
+# This file holds the patrol dates and tonnage so the scoreboard stays
+# complete; the patrol draws nothing on the chart until transcribed.
+
+boat: SS-237
+patrol: 4
+year: 1943
+report_found: yes
+report:
+comsubpac_report_no: 165
+commanding_officer:
+
+departure:
+  port: Midway
+  date: 13FEB
+arrival:
+  port: Pearl Harbor
+  date: 6APR
+  flags: "52 days including 2 at Midway."
+
+period:
+  start: 1943-02-13
+  end: 1943-04-06
+  source: "Patrol report"
+
+tonnage:
+  - { result: damaged, tons: 21793, ships: , basis: claimed,
+      source: "Patrol total, 21,793 tons damaged. Individual ships and dates to add when the report is transcribed; placed at the end of the patrol until then." }

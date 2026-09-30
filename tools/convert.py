@@ -770,6 +770,10 @@ def build_patrol(folder, ref):
         track.append({"lat": rec["lat"], "lon": rec["lon"], "utc": rec["utc"], "basis": "documented", "ref": rec["id"]})
     if arrival and arrival["lat"] is not None and arrival["utc"]:
         track.append({"lat": arrival["lat"], "lon": arrival["lon"], "utc": arrival["utc"], "basis": "reference"})
+    # With nothing transcribed between the ports, a line from port to port
+    # would imply a route nobody recorded.
+    if not any(t["basis"] != "reference" for t in track):
+        track = []
 
     # Tonnage for the scoreboard
     tonnage = []
