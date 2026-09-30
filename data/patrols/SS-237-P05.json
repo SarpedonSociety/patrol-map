@@ -571,7 +571,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N60",
+   "id": "SS-237-P05-N59",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -601,7 +601,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N61",
+   "id": "SS-237-P05-N60",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -631,7 +631,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N62",
+   "id": "SS-237-P05-N61",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -660,7 +660,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N63",
+   "id": "SS-237-P05-N62",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2153,7 +2153,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N64",
+   "id": "SS-237-P05-N63",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2443,11 +2443,12 @@
    },
    "flags": [
     "Transcriber: GYRO ANGLE: Attack IV B has 0; Attack V lists 5 gyro angles across lines",
-    "Narrative entry at 1041 K June 1 (page 7) describes this attack; its account is included here."
+    "Narrative entry at 1041 K June 1 (page 7) describes this attack; its account is included here.",
+    "Two Gemini reads of page 7 differ: 'We might have made a clean sweep' (first) and 'made clean sweep' (second). Check the page."
    ]
   },
   {
-   "id": "SS-237-P05-N50",
+   "id": "SS-237-P05-N49",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2482,7 +2483,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N51",
+   "id": "SS-237-P05-N50",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2542,7 +2543,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N52",
+   "id": "SS-237-P05-N51",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2591,7 +2592,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N53",
+   "id": "SS-237-P05-N52",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2648,7 +2649,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N54",
+   "id": "SS-237-P05-N53",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2705,7 +2706,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N55",
+   "id": "SS-237-P05-N54",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2757,7 +2758,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N56",
+   "id": "SS-237-P05-N55",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2787,7 +2788,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N57",
+   "id": "SS-237-P05-N56",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2847,7 +2848,7 @@
    ]
   },
   {
-   "id": "SS-237-P05-N58",
+   "id": "SS-237-P05-N57",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
@@ -2899,7 +2900,7 @@
    "flags": []
   },
   {
-   "id": "SS-237-P05-N59",
+   "id": "SS-237-P05-N58",
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",

@@ -66,3 +66,13 @@ events:
     event: "Repeated the process with success. Surfaced and got away; 20 hour dive with only 4 hours left until daybreak. Had decided to try to make a run for it anyhow."
     page: 7
     flags: "Typed under May 29 (Cont'd); 0017 after the 2100 entry is May 30."
+  - replaces: { date: June 1, time: "1041" }
+    date: June 1
+    time: "1041"
+    zone: K
+    tag: attack
+    title: Down the throat stern shot at second freighter
+    part: I
+    event: "Finally steady, our stern to his bow. Fired the last stern shot right down his throat. Went deep to avoid. No detonation. It is considered that the range was too close but had to take that chance. We fired as soon as we could and it could not have missed in deflection. Consider these four torpedoes wasted but they were worth the chance. We might have made a clean sweep. Listened to make sure that the target is by before we come up. Passed close aboard the sinking ship. We could hear him very clearly through our hull. Rather startling. Speeded up and turned away. We do not want him on top of us."
+    page: 7
+    flags: "Two Gemini reads of page 7 differ: 'We might have made a clean sweep' (first) and 'made clean sweep' (second). Check the page."
