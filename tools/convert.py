@@ -56,7 +56,7 @@ COLUMNS = {
     "altitude": "altitude", "alt": "altitude", "contactno": "contact_no", "no": "contact_no",
     "attack": "attack_no", "intrange": "initial_range", "minrange": "min_range", "beart": "bearing",
     "bear": "bearing", "bearing": "bearing", "crse": "course", "spd": "speed", "rks": "remarks",
-    "lead": "lead",
+    "lead": "lead", "timegct": "time", "locationlatlong": "lat_long",
 }
 # Fallback: first keyword found in the normalized heading wins.
 KEYWORDS = [
@@ -68,6 +68,8 @@ KEYWORDS = [
     ("interval", "interval"), ("spread", "spread"), ("satisfactory", "performance"),
     ("performance", "performance"), ("initialrange", "initial_range"),
     ("attacked", "attack_no"), ("attackyes", "attack_no"),
+    # "RANGE (1st TORPEDO)" in attack summaries; digits are stripped first.
+    ("rangest", "firing_range"),
 ]
 # Tables that record the boat's own positions rather than contacts:
 # density layer / bathythermograph observations, noon positions and the like.
@@ -120,10 +122,32 @@ def read_tables(path):
                 target["notes"].append(re.sub(r"^remarks\s*:\s*", "", text, flags=re.I))
     for t in tables:
         if t["headers"] and re.sub(r"[^a-z]", "", t["headers"][0].lower()) == "attack":
-            labels = [t["headers"][0]] + [r[0] for r in t["rows"]]
+            heads = t["headers"]
+            # A Flags column (the transcriber's notes, one per field) is not an
+            # attack. Each note goes to the attacks it names ("Attack II A"),
+            # or to every attack if it names none.
+            flag_col = len(heads) - 1 if len(heads) > 2 and re.sub(r"[^a-z]", "", heads[-1].lower()) == "flags" else None
+            attack_cols = [j for j in range(1, len(heads)) if j != flag_col]
+            notes = {j: [] for j in attack_cols}
+            if flag_col is not None:
+                ids = {j: re.sub(r"\s+", "", heads[j]).upper() for j in attack_cols}
+                for r in t["rows"]:
+                    note = (r[flag_col] if flag_col < len(r) else "").strip()
+                    if not note:
+                        continue
+                    named = {re.sub(r"\s+", "", m).upper() for m in re.findall(r"Attack\s+([IVX]+(?:\s+[A-Z](?![A-Za-z]))?|\d+(?:\s*\(?[a-z]\)?)?)", note)}
+                    hit = [j for j in attack_cols if ids[j] in named]
+                    if not named and re.match(r"heading\s", note, re.I):
+                        continue   # a note on the table's own heading, not on any attack
+                    for j in (hit or attack_cols):
+                        notes[j].append(f"{r[0]}: {note}")
+            labels = [heads[0]] + [r[0] for r in t["rows"]] + (["Flags"] if flag_col is not None else [])
             cols = []
-            for j in range(1, len(t["headers"])):
-                cols.append([t["headers"][j]] + [r[j] if j < len(r) else "" for r in t["rows"]])
+            for j in attack_cols:
+                col = [heads[j]] + [r[j] if j < len(r) else "" for r in t["rows"]]
+                if flag_col is not None:
+                    col.append("; ".join(notes[j]))
+                cols.append(col)
             t["headers"], t["rows"], t["transposed"] = labels, cols, True
     return tables
 
@@ -218,6 +242,9 @@ def parse_date(date_str, year, first_month):
             if yr4:
                 return int(yr4), MONTHS[mon], int(day)
     d = d.replace(" ", "")
+    mw = re.fullmatch(r"([A-Z]{3})[A-Z]*(\d{1,2})", d)   # "MAY28", "JUNE1" (a date cell read with spaces removed)
+    if mw and mw.group(1) in MONTHS:
+        d = f"{int(mw.group(2))}{mw.group(1)}"
     m = re.fullmatch(r"(\d{1,2})/(\d{1,2})/(\d{2,4})", d)
     if m:
         y = int(m.group(3))
@@ -562,7 +589,7 @@ def build_patrol(folder, ref):
         headers = table["headers"]
         names = [field_name(h) for h in headers]
         unknown = [h for h, n in zip(headers, names) if n is None]
-        gct = any(re.search(r"\bG[CM]T\b", h, re.I) for h in headers)
+        gct = any(re.search(r"\bG\.?[CM]\.?T\b", h, re.I) for h in headers)
         section = table["section"].strip() or "Contacts / attacks table"
         is_fix = bool(FIX_SECTION.search(section))
         if section.isupper():

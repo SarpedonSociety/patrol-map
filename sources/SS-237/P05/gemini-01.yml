@@ -1,0 +1,1243 @@
+YAML
+
+```
+boat: SS-237
+patrol: 5
+year: 1943
+report: Report of Fifth War Patrol.
+comsubpac_report_no: 203
+commanding_officer: 
+citation:
+  archive: NARA
+  record_group: 38
+  nara_catalog_id: 4697018
+  nara_catalog_title: World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946
+  reel: A422
+  micro_serial: 51660
+  file: A16-3
+  serial: 0825
+  date: 6/28/1943
+fold3_images: { 1: 269409645, 2: 269409654, 3: 269409661, 4: 269409670, 5: 269409676, 6: 269409683, 7: 269409691, 8: 269409696 }
+default_hemisphere: { lat: N, lon: E }
+departure: { port: Pearl Harbor, date: April 30, 1943, time: 1300, zone: V, page: 1, flags: "" }
+arrival:   { port: , date: , time: , zone: , page: , flags: "" }
+events:
+  - date: April 30, 1943
+    time: 1300
+    zone: V
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Departed Pearl Harbor enroute Midway. Mr. Paul Sample, Life Magazine War Correspondent (Artist) was on board as a passenger to Midway."
+    page: 1
+    flags: ""
+  - date: May 4
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Arrived Midway, topped off fuel, and Submarine Base made minor repairs as well as big repairs to Hydraulic System."
+    page: 1
+    flags: "missing time and zone"
+  - date: May 5
+    time: 0900
+    zone: Y
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 2 engine speed
+    event: "Departed Midway at two engine speed."
+    page: 1
+    flags: ""
+  - date: May 6
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: notable
+    title: Casualty to #4 main engine
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Casualty to #4 main engine. See \"Major Defects\". The ultimate result was that from this time on #4 was only one-half of an engine."
+    page: 1
+    flags: "missing time and zone"
+  - date: May 8
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Omitted from the calender due to crossing the International Date Line. Enroute assigned area the sea was rough, the weather a succession of storms."
+    page: 1
+    flags: "missing time and zone"
+  - date: May 12
+    time: 0820
+    zone: K
+    lat: 34-23 N
+    lon: 150-15 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sighted unidentified vessel's tops over waves, determined to be a fishing vessel. Sea too rough for three-inch gun, avoided contact."
+    page: 1
+    flags: "1st Contact; source reads Long. 150-15E"
+  - date: May 13
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: notable
+    title: Conning tower steering out
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "The steering from the conning tower has been out for several days, difficulty suspected to be in the gear box forward of the conning tower, outside the pressure hull. We have been forced to wait for a lull in the succession of storms to investigate; meanwhile steering from the control room, not very efficient control."
+    page: 1-2
+    flags: "missing time and zone"
+  - date: May 13
+    time: 2100
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: notable
+    title: Steering gear box repaired
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "The storms having abated for a few hours, effected repairs. These repairs were made by Lieutenant R.S. Garvey, U.S.N.R. and Floyd C. Standlee, MoMM 2c, U.S.N. In their location, while so engaged, it would have taken several minutes to have gotten them inside the ship. Their intrepidity as well as skill are hereby cited. Their investigation revealed that, when steering from the bridge was removed during the last refit, two ball bearings, dropped into the bottom of the gear box and were not removed. These worked into the gears and caused jamming. Repairs were apparently a success."
+    page: 2
+    flags: "missing zone"
+  - date: May 14
+    time: 2345
+    zone: K
+    lat: 34-07 N
+    lon: 140-44 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 120
+    speed: 13 knots
+    event: "[SUMMARY] Entered assigned area. Radar contact on 3 cargo vessels and escort. Tracked convoy zigzagging, but sighted at 6000 yards after moonset and avoided blind-flying SJ run."
+    page: 2
+    flags: "2nd Contact; source reads Long. 140-44 E."
+  - date: May 14
+    time: 0450
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Dawn is at hand. Submerged and commenced the approach. Targets were soon in sight and we almost made it."
+    page: 2
+    flags: "missing zone; continuation of May 14 contact into May 15 morning"
+  - date: May 14
+    time: 0616
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Convoy escaped. Surfaced for end around, but sighted in haze an hour later; escort gave chase with only 3 main engines available."
+    page: 2
+    flags: "missing zone"
+  - date: May 14
+    time: 1150
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Driven down by escort, not deemed large enough for torpedo. No depth charges. Futile to search further in prevailing visibility. Lesson to try 40-foot radar approach."
+    page: 2
+    flags: ""
+  - date: May 15 16
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Off NOJIMA SAKI; then decided to cover the coast close in north-east of that point, up where we sank a destroyer last winter."
+    page: 2
+    flags: "missing time and zone; heading typed 'May 15 16'"
+  - date: May 20
+    time: 1150
+    zone: K
+    lat: 34-53 N
+    lon: 139-57 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Sighted smoke to the north-eastward. Commenced approach though it leads into extremely shallow water. Unable to close. The range abeam was equal to the distance to land; so close in do they go."
+    page: 3
+    flags: "3rd Contact; source reads Long 139-57 E."
+  - date: May 20
+    time: 1222
+    zone: 
+    lat: 34-53 N
+    lon: 139-57 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Sighted smoke to the north-eastward. Commenced approach. Expected another freighter."
+    page: 3
+    flags: "4th Contact; missing zone; source reads Lat. 34-53N. Long. 139-57 E."
+  - date: May 20
+    time: 1250
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: notable
+    title: Near collision with destroyer
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "After one of several ten minute full speed runs in order to keep the true bearing from changing, put up the usual 8 feet of periscope and, fortunately, took first a quick look around in low power, for there was a destroyer with about zero angle on the bow, range about 2000 yards, all bow wave; probably about 25 knots. Sound had especially listened all around during the slow down and nothing had been heard. Naturally no tubes were ready. Made them ready at once but could not get a reasonable set up for a shot. Did not go deep though should have because all he had had to do was start dropping and we would have been badly off. The destroyer passed us us at about 200 yards range. She looked like the new Japanese type shown in the January 13, 1943 issue of \"O.N.I. WEEKLY\", similar to the USS ANDERSON."
+    page: 3
+    flags: ""
+  - date: May 20
+    time: 1455
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Sighted the same, or similar, destroyer returning, still at high speed. Got all set but an unfortunate zig prevented attaining a satisfactory firing position."
+    page: 3
+    flags: "missing zone"
+  - date: May 21
+    time: 1005
+    zone: K
+    lat: 
+    lon: 
+    from: O. SHIMA
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Sighted a 4-engine flying boat going to the southeastward."
+    page: 3
+    flags: "entry headed (Off O. SHIMA)"
+  - date: May 21
+    time: 
+    zone: 
+    lat: 34-42 N
+    lon: 139-34 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: northerly
+    speed: 
+    event: "[SUMMARY] Sighted masts of two destroyers on northerly course. Unable to close. Sighted small fast planes near O SHIMA and two sets of stick masts possibly carriers."
+    page: 3
+    flags: "5th Contact; missing time and zone"
+  - date: May 21
+    time: 1555
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: southerly
+    speed: 
+    event: "Sighted small pontoon bi-plane on southerly course."
+    page: 4
+    flags: ""
+  - date: May 21
+    time: 1605
+    zone: K
+    lat: 34-40 N
+    lon: 139-31 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: southerly
+    speed: high speed
+    event: "Sighted tops of a ship. Started approach. Unable to close. It was a NATORI class light cruiser on southerly course at high speed."
+    page: 4
+    flags: "6th Contact"
+  - date: May 21
+    time: 1818
+    zone: K
+    lat: 34-37 N
+    lon: 139-32 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: northerly
+    speed: 12 knots
+    event: "Sighted smoke. Started approach. Unable to close. Course northerly, speed 12 knots."
+    page: 4
+    flags: "7th Contact"
+  - date: May 22
+    time: 0747
+    zone: K
+    lat: 34-38 N
+    lon: 139-30 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Patrolling off O SHIMA. Sighted task force of 3 battleships, 3-4 heavy cruisers, 1 carrier, destroyers. Penetrated screen, destroyer passed over, carrier zigged away to 9000 yards."
+    page: 4
+    flags: "8th Contact"
+  - date: May 22
+    time: 2033
+    zone: K
+    lat: 
+    lon: 
+    from: NOJIMA SAKI
+    bearing: 
+    distance: 45 miles
+    bearing_is: from_landmark
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: high speed
+    event: "[SUMMARY] Surfaced at high speed, transmitted contact report 45 miles from MOJIMA SAKI risking DF. Headed for MIKURA SHIMA about 2300 to intercept traffic."
+    page: 4
+    flags: "typed MOJIMA SAKI; typed MICURA SHIMA"
+  - date: May 22
+    time: 2320
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Dived on indication of a plane's radar on our SD radar. No attack followed. Probably a false alarm."
+    page: 4
+    flags: ""
+  - date: May 22
+    time: 2355
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Surfaced."
+    page: 4
+    flags: ""
+  - date: May 24
+    time: 0010
+    zone: K
+    lat: 34-13 N
+    lon: 139-58 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 10 knots
+    event: "[SUMMARY] Sighted dark object; SJ radar contact at 9000 yards on 2 vessels zigzagging at 10 knots. Began SJ radar approach at 40 feet."
+    page: 4
+    flags: "9th Contact"
+  - date: May 24
+    time: 0045
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 19 knot
+    event: "[SUMMARY] Fishing boats signaled target and escort. 19-knot chase ensued with escort closing slowly due to #4 main engine limits. Escort countered circle maneuver."
+    page: 4
+    flags: ""
+  - date: May 24
+    time: 0145
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: counterattack
+    title: Gunfire from escort
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Escort turned on an extremely bright searchlight and commenced gunfire at 5300 yards. During the gunfire the escort apparently turned, for suddenly the radar lost contact. Attempted to regain contact and thereby be lead back to the target. Unsuccessful. Attempted then to search, regain contact and thereby attain favorable position for attack during the remainder of the night or at dawn. Attempts were unsuccessful."
+    page: 4
+    flags: ""
+  - date: May 25
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: notable
+    title: Near grounding inside Sagami Nada
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Off O SHIMA slightly inside SAGAMI NADA during a part of the day, further in than intended. Due to variable currents and poor visibility could easily have been aground if breakers had not been sighted in time."
+    page: 5
+    flags: "missing time and zone"
+  - date: May 26
+    time: 1400
+    zone: K
+    lat: 34-38 N
+    lon: 140-02 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sighted smoke off Katsuura Wan Light from close inshore. Approached among fishing vessels to 4000 yards dead ahead; nearest boat raised red flag, target turned away."
+    page: 5
+    flags: "10th Contact"
+  - date: May 26
+    time: 1728
+    zone: K
+    lat: 35-00 N
+    lon: 140-02 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Sighted the masts of a ship way inshore, angle on the bow about 90 degrees. Unable to close. The estimated range was further than the distance to land, this as an example of how close in the traffic goes along this coast."
+    page: 5
+    flags: "11th Contact"
+  - date: May 26
+    time: 1840
+    zone: K
+    lat: 34-54 N
+    lon: 140-08 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Sighted top of a submarine at an unknown range, angle on the bow about 90 starboard. Unable to close."
+    page: 5
+    flags: "12th Contact"
+  - date: May 27
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Off MICURE SHIMA to intercept north-south traffic to TOKYO; enroute the western approaches to SAGAMI NADA."
+    page: 5
+    flags: "missing time and zone; typed MICURE SHIMA"
+  - date: May 28
+    time: 1430
+    zone: K
+    lat: 34-33 N
+    lon: 138-50 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Sighted, suddenly, out of the mist, two ships. Commenced approach. The range was not over 4000 yards. Had to work fast."
+    page: 5
+    flags: "13th Contact; 1st Attack; entry headed (Off IRO SAKI)"
+  - date: May 28
+    time: 1440
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    title: Attack on 7500 ton tanker
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Fired 3 bow torpedoes at 1100 yards range 110 port track at the leader, a 7500 ton tanker; one hit aft. Tried to get a set up on the ship following; unable to. Both turned away. Leader down by the stern."
+    page: 5
+    flags: ""
+  - date: May 28
+    time: 1446
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Loud explosion. Nothing in sight except the two targets. Assumed air coverage. Went deep."
+    page: 5
+    flags: ""
+  - date: May 28
+    time: 1450
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sound heard screws stop. At periscope depth saw hit tanker stern down to main deck heading away under power. Disappeared in mist; claimed damaged (SYOYO MARU class)."
+    page: 5
+    flags: ""
+  - date: May 28
+    time: 1524
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Sighted small plane circling around, apparently searching for us."
+    page: 6
+    flags: ""
+  - date: May 28
+    time: 1805
+    zone: K
+    lat: 34-30 N
+    lon: 138-45 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Sighted for just a few minutes in the distance the conning tower of a submarine."
+    page: 6
+    flags: "14th Contact"
+  - date: May 29
+    time: 1648
+    zone: K
+    lat: 34-35 N
+    lon: 138-40 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Off IRO SAKI. Sighted target resembling passenger liner at zero angle on bow. Developed as small cargo vessel with large guns forward/aft and fast screws (Q-ship). Target zigged away."
+    page: 6
+    flags: "15th Contact; 2nd Attack; entry headed (Off IRO SAKI)"
+  - date: May 29
+    time: 1726
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    title: Bow attack on Q-ship
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Fired 3 bow torpedoes at 1900 yard range 110 port track. The first torpedo, which, if the problem was worked out correctly, should have hit, prematured in 15 seconds. The other two should have missed due to spread and did miss. The target turned toward us. Put up the periscope to give him a good point of aim and headed for him. Had only one torpedo ready forward because we try, normally, with only one old target, to save two dry torpedoes forward for the \"coup de grace\"."
+    page: 6
+    flags: ""
+  - date: May 29
+    time: 1729
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    title: Down the throat shot and counterattack
+    part: I
+    charges: about 20
+    damage: 
+    course: 
+    speed: full speed
+    event: "Fired one torpedo dead ahead zero angle on the bow torpedo run 800 yards, depth 15 feet (to avoid another premature though the sea was not rough). No detonation. Went deep at full speed and as much rudder as depth gaining could permit. As soon as we had gotten 60 degrees off the course shifted the rudder to pull the stern off the track. The first string of depth charges were beauties. A severe depth charging was the price we paid for this attack. If we could do it over again would have had more torpedoes ready and on the down the throat shot would have given him two at 15 feet and the last at zero foot depth to deliberately premature in his face. Might have blown his bow off. He had sound gear but did not ping. He was no amateur but made several runs and listened, just like a destroyer. He dropped about 20 charges in all."
+    page: 6
+    flags: "also counterattack"
+  - date: May 29
+    time: 1845
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: counterattack
+    title: Last depth charge from Q-ship
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: one-third speed
+    event: "Last depth charge; not very close. Must be heavy ones because the usual swishing was more of a reverberation lasting nearly a minute. Our difficulty now is to get away. The current is equal to our one-third speed and setting us onto the islands of the IZU SHOTO. More speed means less battery."
+    page: 6
+    flags: ""
+  - date: May 29
+    time: 2000
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Came to periscope depth a few minutes after sunset. Nothing in sight."
+    page: 7
+    flags: ""
+  - date: May 29
+    time: 2100
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Cannot see through periscope. Came to 40 feet for SJ radar sweep: three echoes at 5000 yards. Went deep, altered course to put echoes abaft beam and worked sideways against current."
+    page: 7
+    flags: ""
+  - date: May 29
+    time: 0017
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Repeated the process with success. Surfaced and got away; 20 hour dive with only 4 hours left until daybreak. Had decided to try to make a run for it anyhow."
+    page: 7
+    flags: "time 0017 on May 30 entered under May 29 (Cont'd)"
+  - date: May 30
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Coming around from the western to the eastern approaches to SAGAMI NADA."
+    page: 7
+    flags: "missing time and zone"
+  - date: May 31
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Entire day attempting to avoid a Patrol Boat. If he doesn't know we are here we must be towing him around. All night long, as usual, avoiding fishing boats here close in while we try to get into a good position for the coming day."
+    page: 7
+    flags: "missing time and zone"
+  - date: June 1
+    time: 0936
+    zone: K
+    lat: 35-02 N
+    lon: 140-14 E
+    from: NOJIMA SAKI
+    bearing: NE
+    distance: 15 miles
+    bearing_is: from_landmark
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Off the coast north-east of NOJIMA SAKI near the deep water valley 15 miles from that point. (16th Contact) (3rd and 4th Attacks) Lat. 35-02 N. Long. 140-14 E. Two freighters in company, one of 8200 tons sunk. Sighted two smokes up the coast. Started approach."
+    page: 7
+    flags: "16th Contact; 3rd and 4th Attacks; landmark position given in text heading"
+  - date: June 1
+    time: 1032
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    title: Bow attack on first freighter
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Fired 3 bow torpedoes at the leading target, one hit about one-third of a ship's length inside of the stern. She was immediately down to the main deck aft and her screws stopped, never to start again. Started at once after the second target. We were close inshore, so close that the first firing had been to seaward. The second ship apparently decided we were to seaward and therefore tried to avoid us inshore. She was, however, changing course back and forth radically. Set up her average angle on the bow."
+    page: 7
+    flags: ""
+  - date: June 1
+    time: 1037
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Two loud explosions. Probably trying to scare us off."
+    page: 7
+    flags: ""
+  - date: June 1
+    time: 1039
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    title: Stern attack on second freighter
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Fired 3 stern torpedoes at this rather poor set-up, and with our presence known. The target turned toward us and avoided the torpedoes. We steadied our stern right on his bow. Our first target is one-half under with the bow sticking up at about 40 degrees."
+    page: 7
+    flags: ""
+  - date: June 1
+    time: 1041
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    title: Down the throat stern shot at second freighter
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Finally steady, our stern to his bow. Fired the last stern shot right down his throat. Went deep to avoid. No detonation. It is considered that the range was too close but had to take that chance. We fired as soon as we could and it could not have missed in deflection. Consider these four torpedoes wasted but they were worth the chance. We might have made a clean sweep. Listened to make sure that the target is by before we come up. Passed close aboard the sinking ship. We could hear him very clearly through our hull. Rather startling. Speeded up and turned away. We do not want him on top of us."
+    page: 7
+    flags: ""
+  - date: June 1
+    time: 1055
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "As soon as the crackling grew fainter came to periscope depth. First target had sunk. Second target was about 4 miles away making heavy smoke and heading for the harbor entrance."
+    page: 8
+    flags: ""
+  - date: June 1
+    time: 1130
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Patrol vessel sighted. Patrol vessels and aircraft in sight continually. Later two patrol craft/small destroyers pinged and hunted Trigger for about two hours."
+    page: 8
+    flags: ""
+  - date: June 1
+    time: 2110
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Surfaced and escaped with current setting seaward; pingers nearby until dark. Sunk vessel identified as similar to KOSEI MARU (8223 gross tons)."
+    page: 8
+    flags: ""
+  - date: June 3
+    time: 0950
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Sighted single wing landplane."
+    page: 8
+    flags: ""
+  - date: June 3
+    time: 1450
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Sighted 4-engine Flying Boat."
+    page: 8
+    flags: ""
+  - date: June 6
+    time: 1345
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Sighted single wing landplane."
+    page: 8
+    flags: "missing zone"
+  - date: June 9
+    time: 0040
+    zone: 
+    lat: 31-41 N
+    lon: 141-56 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: parallel
+    speed: full power
+    event: "[SUMMARY] Radar contact at 12 miles on 2 carriers with destroyers. Ran full power on parallel course, closing slowly while losing bearing due to engine limits."
+    page: 8
+    flags: "17th Contact; missing zone"
+  - date: June 9
+    time: 0230
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Contact is now in sight; two aircraft carriers with at least one other vessel. The minimum range was twelve thousand yards, angle on the bow 135 starboard. Our full power had not been sufficient."
+    page: 8
+    flags: ""
+  - date: June 9
+    time: 1444
+    zone: K
+    lat: 32-32 N
+    lon: 140-46 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 12 knots
+    event: "[SUMMARY] Sighted smoke, approached target making 12 knots zigzagging. Identified proper Hospital Ship painting, took photos, breaking off attack."
+    page: 8
+    flags: "18th Contact"
+  - date: June 10
+    time: 1924
+    zone: K
+    lat: 34-13 N
+    lon: 139-50 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    course: 
+    speed: 
+    event: "Huge aircraft carrier with two destroyer A/S screens."
+    page: 8
+    flags: "19th Contact; 5th Attack; text cuts off at bottom of page 8"
+```
+
+Everything provided was transcribed.

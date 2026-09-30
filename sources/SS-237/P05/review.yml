@@ -1,0 +1,10 @@
+# Reviewer notes for the contact tables, keyed by entry number: entries are
+# counted through contacts-01.md in order (Vessels Sighted 1-19, Planes
+# 20-28, attacks 29-35). Delete a note once it's resolved against the report.
+
+rows:
+  4: "May 20 1222 destroyer: the table puts it at the same position as the 1026K freighters (34-53N 139-57). The narrative has the freighters at 1150(K), not 1026."
+  10: "May 26 1400: Gemini says the latitude is overstruck (34-58N typed over as 34-38N) but didn't mark the cell. The narrative also reads 34-38 N. 34-38N 140-02E is well offshore, which doesn't fit 'close inshore off Katsuura Wan'; 34-58N would. Check page 11."
+  21: "May 21 1225 planes: Gemini notes an overstruck digit in the date (5/⟦2⟧1/43) but left the cell unmarked."
+  25: "June 1 planes: one row spans 1149(K) to 1659(K); the map places it at 1149."
+  35: "Attack V: Gemini says TYPE OF TARGET is blank in the table and filled 'Aircraft Carrier' from the contact log. It should be left blank if the page is blank. The '27,500 tons' it cites from the endorsement isn't in the pages transcribed; check the damaged tonnage (29,000, 9 uncertain) against page 14."

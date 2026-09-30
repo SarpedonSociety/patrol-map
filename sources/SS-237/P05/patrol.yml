@@ -1,0 +1,68 @@
+# USS Trigger (SS-237), War Patrol 5
+# Transcribed by Gemini: gemini-01.yml (narrative, pages 1-8) and
+# contacts-01.md (tables, pages 11-14). ASW summary not transcribed.
+# This file holds hand entries, which take precedence over the batches.
+
+boat: SS-237
+patrol: 5
+year: 1943
+report_found: yes
+report:
+comsubpac_report_no: 203
+commanding_officer:
+
+period:
+  start: 1943-04-30
+  end: 1943-06-22
+  source: "sources/inventory.yml; arrival not yet transcribed (narrative pages 9-10 not in the batch)"
+
+# Tonnage as claimed in the attack summary (contacts-01.md, pages 13-14).
+tonnage:
+  - { date: 5/28/43, time: 0440, zone: Z, target: Tanker, result: damaged, tons: 7500, basis: claimed,
+      source: "Attack I, page 13: 1 hit, 1-7500 damaged. Narrative page 5: SYOYO MARU class, down by the stern." }
+  - { date: 6/1/43, time: 0032, zone: Z, target: Freighter, result: sunk, tons: 8200, basis: claimed,
+      source: "Attack III, page 13: 1-8200 sunk. Narrative page 8 identifies her as similar to KOSEI MARU, 8223 gross tons." }
+  - { date: 6/10/43, time: 0955, zone: Z, target: Aircraft carrier, result: damaged, tons: 29000, basis: claimed,
+      source: "Attack V, page 14: 4 hits, 1 - 29,000 damaged. Gemini marks the 9 as uncertain; check the page." }
+
+# Date corrections. Gemini dated these entries as it found them under the
+# day's heading and flagged each one; the event text is unchanged.
+events:
+  - replaces: { date: May 14, time: "0450" }
+    date: May 15
+    time: "0450"
+    zone:
+    part: I
+    event: "Dawn is at hand. Submerged and commenced the approach. Targets were soon in sight and we almost made it."
+    page: 2
+    flags: "Gemini dated this May 14; it continues the 2345(K) May 14 contact, so it is the morning of May 15. Check whether the page has its own May 15 heading. Missing zone."
+  - replaces: { date: May 14, time: "0616" }
+    date: May 15
+    time: "0616"
+    zone:
+    part: I
+    event: "[SUMMARY] Convoy escaped. Surfaced for end around, but sighted in haze an hour later; escort gave chase with only 3 main engines available."
+    page: 2
+    flags: "Gemini dated this May 14; morning of May 15 (see 0450). Missing zone."
+  - replaces: { date: May 14, time: "1150" }
+    date: May 15
+    time: "1150"
+    zone: K
+    part: I
+    event: "[SUMMARY] Driven down by escort, not deemed large enough for torpedo. No depth charges. Futile to search further in prevailing visibility. Lesson to try 40-foot radar approach."
+    page: 2
+    flags: "Gemini dated this May 14; May 15 (see 0450)."
+  - replaces: { date: May 15 16 }
+    date: May 15
+    part: I
+    event: "Off NOJIMA SAKI; then decided to cover the coast close in north-east of that point, up where we sank a destroyer last winter."
+    page: 2
+    flags: "Heading typed 'May 15 16'; placed on May 15. Missing time and zone."
+  - replaces: { date: May 29, time: "0017" }
+    date: May 30
+    time: "0017"
+    zone: K
+    part: I
+    event: "Repeated the process with success. Surfaced and got away; 20 hour dive with only 4 hours left until daybreak. Had decided to try to make a run for it anyhow."
+    page: 7
+    flags: "Typed under May 29 (Cont'd); 0017 after the 2100 entry is May 30."
