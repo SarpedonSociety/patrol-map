@@ -1,0 +1,72 @@
+# USS Silversides (SS-236), War Patrol 5
+# Transcribed by Gemini: gemini-01.yml (narrative, pages 1-9) and
+# contacts-01.md (Parts V, VI and VII, pages 10-11). Part VIII reads
+# "nothing new" and was not transcribed. Hand entries here take precedence.
+
+boat: SS-236
+patrol: 5
+year: 1943
+report_found: yes
+report:
+comsubpac_report_no:
+commanding_officer:
+
+arrival:
+  port: Brisbane
+  date: 1 July
+  page: 9
+  flags: "The narrative's last entry reads 'July. Arrived Brisbane Australia.' with no day; 1 July is from Gemini's arrival field and sources/inventory.yml. Check the page."
+
+period:
+  start: 1943-05-17
+  end: 1943-07-01
+  source: "Patrol report"
+
+tonnage:
+  - { date: 11 June, time: "0104", zone: L, target: Passenger freighter, result: sunk, tons: 10000, basis: claimed,
+      source: "Attack 1, page 11: 4 torpedoes, 3 hits, 10000 (about) sunk. Narrative pages 6-7: burning, sank at 0540 after a violent explosion." }
+
+events:
+  # The meeting with GUARDFISH: a rendezvous, not just a notable entry.
+  - replaces: { date: 19 June., time: "0510" }
+    date: 19 June.
+    time: "0510"
+    tag: rendezvous
+    with: GUARDFISH
+    title: Rendezvous with USS Guardfish
+    part: I
+    event: "0510 sighted submarine bearing 346°T. exchanged recognition signals with U.S.S. GUARDFISH. She advised that she was in contact with convoy 15 miles astern on base course 150°T, speed 9. We got on convoy's track and opened out to southward from GUARDFISH who submerged about 0800. In order to increase range of visibility and be in position to communicate by radio we stayed on surface speed 5 knots, on convoy's track until 1300."
+    page: 8
+    flags: "Missing zone. Gemini tagged this notable; retagged as a rendezvous."
+  # Gemini gave this entry no time; it follows directly on the 0118 dive.
+  - replaces: { date: 11 June., title: Depth charging by escorts }
+    date: 11 June.
+    time: "0118"
+    tag: counterattack
+    title: Depth charging by escorts
+    part: I
+    damage: "kicked out main motor overload relays; opened valve on fresh water system causing about 1000 gallons of fresh water in #1 FWT to run aft into #3 FWT; after bridge loud speaker diaphragm ruptured; cork, paint, gauge glasses, meters, depth gauges and loose gear knocked about"
+    event: "As we passed 140 feet one escort came overhead and let go a close barrage. This kicked out main motor overload relays but we regained power immediately. Also opened valve on fresh water system and angle on the boat caused about 1000 gallons of fresh water in #1 FWT to run aft into #3 FWT, thereby messing up the trim since this was not discovered until surfacing. The after bridge loud speaker diaphragm was ruptured as was also discovered on surfacing. The usual cork, paint, gauge glasses, meters, depth gauges and loose gear were knocked about but no serious damage. He then let go another barrage ahead of us. Not so close. Two more came ten minutes later further away. The escorts then pulled out of sound range so we surfaced at 0235 about 8000 yards from the burning target."
+    page: 6-7
+    flags: "No time of its own in the report; placed at 0118, the dive it follows. Missing zone. Gemini's damage field is its own summary of the text, not typed in the report."
+  # Text kept as Gemini gave it; flagged for a check against the page.
+  - replaces: { date: 28-29 May. }
+    date: 28-29 May.
+    part: I
+    event: "Proceeded on surface toward assigned position. On the 28th a frigate bird made a high level bombing attack, scoring a direct hit on the bare head and beard of the CO, Lt. Bienia. No indication by radar prior to attack."
+    page: 3
+    flags: "Gemini wrote 'CO' but its own flag says the page reads 'COD', most likely 'OOD': a lieutenant named Bienia wouldn't be the commanding officer. Check the page. Missing time and zone."
+  - replaces: { date: 4 June., time: "2049" }
+    date: 4 June.
+    time: "2049"
+    from: Steffan Strait
+    bearing: N
+    bearing_is: from_landmark
+    tag: minefield
+    title: Mine laying north of Steffan Strait
+    part: I
+    course: north
+    speed: 3 engines
+    event: "At 2049 surfaced just north of Steffan Strait. At 2054 commenced laying. Two floater of twenty four laid. At 2134 upon completion of mine laying, headed north on 3 engines until clear. Then northeast to report results."
+    page: 4
+    flags: "'Two floater of twenty four laid' doesn't read as a sentence; check the page for the number of mines. Missing zone."

@@ -295,6 +295,12 @@
    "zone": "K",
    "local": "0430 K 12/16/42",
    "utc": "1942-12-15T18:30:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    16
+   ],
    "position_verbatim": "Lat. 35-05N<br>Long. 147-48",
    "lat": 35.08333,
    "lon": 147.8,
@@ -352,6 +358,12 @@
    "zone": "K",
    "local": "0558 K 12/18/42",
    "utc": "1942-12-17T19:58:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    18
+   ],
    "position_verbatim": "L⟦at⟧. 35-33N<br>Long. 140-57",
    "lat": 35.55,
    "lon": 140.95,
@@ -408,6 +420,12 @@
    "zone": "K",
    "local": "1510 K 12/19/42",
    "utc": "1942-12-19T05:10:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    19
+   ],
    "position_verbatim": "Lat. 35-38N<br>Long. 140-55",
    "lat": 35.63333,
    "lon": 140.91667,
@@ -465,6 +483,12 @@
    "zone": "K",
    "local": "0430 K 12/20/42",
    "utc": "1942-12-19T18:30:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    20
+   ],
    "position_verbatim": "Lat. 35-42N<br>Long. 140-58E",
    "lat": 35.7,
    "lon": 140.96667,
@@ -693,6 +717,12 @@
    "zone": "K",
    "local": "2332 K 12/20/42",
    "utc": "1942-12-20T13:32:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    20
+   ],
    "position_verbatim": "Lat. 35-45N<br>Long. 140-55E",
    "lat": 35.75,
    "lon": 140.91667,
@@ -1038,6 +1068,12 @@
    "zone": "K",
    "local": "1336 K 12/22/42",
    "utc": "1942-12-22T03:36:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    22
+   ],
    "position_verbatim": "Lat. 34-52N<br>Long. 139-49",
    "lat": 34.86667,
    "lon": 139.81667,
@@ -1093,6 +1129,12 @@
    "zone": "K",
    "local": "1340 K 12/22/42",
    "utc": "1942-12-22T03:40:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    22
+   ],
    "position_verbatim": "Off Nojima Saki",
    "lat": 34.901,
    "lon": 139.888,
@@ -1156,6 +1198,12 @@
    "zone": "K",
    "local": "2102 K 12/22/42",
    "utc": "1942-12-22T11:02:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    22
+   ],
    "position_verbatim": "Lat. 34-4⟦5⟧N<br>Long. 139-47E",
    "lat": 34.75,
    "lon": 139.78333,
@@ -1301,6 +1349,12 @@
    "zone": "K",
    "local": "1745 K 12/26/42",
    "utc": "1942-12-26T07:45:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    26
+   ],
    "position_verbatim": "Lat. 35-45N<br>Long. 140-55",
    "lat": 35.75,
    "lon": 140.91667,
@@ -1497,6 +1551,12 @@
    "zone": "K",
    "local": "2220 K 12/30/42",
    "utc": "1942-12-30T12:20:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    30
+   ],
    "position_verbatim": "Lat. 33-33N<br>Long. 139-49E",
    "lat": 33.55,
    "lon": 139.81667,
@@ -1585,6 +1645,12 @@
    "zone": "K",
    "local": "1720 K 12/31/42",
    "utc": "1942-12-31T07:20:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    31
+   ],
    "position_verbatim": "Lat. 34-29N<br>Long. 140-38E",
    "lat": 34.48333,
    "lon": 140.63333,
@@ -1722,6 +1788,12 @@
    "zone": "K",
    "local": "1752 K 12/31/42",
    "utc": "1942-12-31T07:52:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    31
+   ],
    "position_verbatim": "Lat. 34-29N<br>Long. 140-38E",
    "lat": 34.48333,
    "lon": 140.63333,
@@ -1948,6 +2020,12 @@
    "zone": "K",
    "local": "1722 K 1/6/43",
    "utc": "1943-01-06T07:22:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    6
+   ],
    "position_verbatim": "Lat. 35-34N<br>Long. 140-43",
    "lat": 35.56667,
    "lon": 140.71667,
@@ -2037,6 +2115,12 @@
    "zone": "K",
    "local": "1428 K 1/7/43",
    "utc": "1943-01-07T04:28:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    7
+   ],
    "position_verbatim": "Lat. 34-50N<br>Long. 139-51",
    "lat": 34.83333,
    "lon": 139.85,
@@ -2236,6 +2320,12 @@
    "zone": "K",
    "local": "1313 K 1/10/43",
    "utc": "1943-01-10T03:13:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    10
+   ],
    "position_verbatim": "Lat. 35-02N<br>Long. 140-12",
    "lat": 35.03333,
    "lon": 140.2,
@@ -2496,6 +2586,12 @@
    "zone": "K",
    "local": "1620 K 1/14/43",
    "utc": "1943-01-14T06:20:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    14
+   ],
    "position_verbatim": "About 45 miles SE of Nojima Saki",
    "lat": 34.37067,
    "lon": 140.53463,
@@ -2554,6 +2650,12 @@
    "zone": "K",
    "local": "1130 K 1/15/43",
    "utc": "1943-01-15T01:30:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    15
+   ],
    "position_verbatim": "About 15 miles ESE of Nojima Saki",
    "lat": 34.80533,
    "lon": 140.16962,
@@ -2612,6 +2714,12 @@
    "zone": "K",
    "local": "1641 K 1/15/43",
    "utc": "1943-01-15T06:41:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    15
+   ],
    "position_verbatim": "Lat. 34-43N<br>Long. 139-59",
    "lat": 34.71667,
    "lon": 139.98333,

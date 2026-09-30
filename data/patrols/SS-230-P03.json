@@ -264,6 +264,12 @@
    "zone": "W",
    "local": "0920 W 12/17/42",
    "utc": "1942-12-17T19:20:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    17
+   ],
    "position_verbatim": "24-40 N 164-02 W",
    "lat": 24.66667,
    "lon": -164.03333,
@@ -287,6 +293,12 @@
    "zone": "W",
    "local": "1237 W 12/17/42",
    "utc": "1942-12-17T22:37:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    17
+   ],
    "position_verbatim": "24-38 N 164-52 W",
    "lat": 24.63333,
    "lon": -164.86667,
@@ -309,6 +321,12 @@
    "zone": "L",
    "local": "0812 L 12/22/42",
    "utc": "1942-12-21T21:12:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    22
+   ],
    "position_verbatim": "24-59 N 167-51 W",
    "lat": 24.98333,
    "lon": -167.85,
@@ -335,6 +353,12 @@
    "zone": "K",
    "local": "0550 K 12/27/42",
    "utc": "1942-12-26T19:50:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    27
+   ],
    "position_verbatim": "25-21.8 N 15⟦4⟧-22 E",
    "lat": 25.36333,
    "lon": 154.36667,
@@ -360,6 +384,12 @@
    "zone": "I",
    "local": "1443 I 12/30/42",
    "utc": "1942-12-30T05:43:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    30
+   ],
    "position_verbatim": "28-50 N 141-34 E",
    "lat": 28.83333,
    "lon": 141.56667,
@@ -383,6 +413,12 @@
    "zone": "I",
    "local": "0808 I 12/31/42",
    "utc": "1942-12-30T23:08:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    12,
+    31
+   ],
    "position_verbatim": "30-53 N 131-29 E",
    "lat": 30.88333,
    "lon": 131.48333,
@@ -408,6 +444,12 @@
    "zone": "I",
    "local": "1129 I 1/1/43",
    "utc": "1943-01-01T02:29:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    1
+   ],
    "position_verbatim": "29-07 N 138-12 E",
    "lat": 29.11667,
    "lon": 138.2,
@@ -430,6 +472,12 @@
    "zone": "I",
    "local": "1421 I 1/1/43",
    "utc": "1943-01-01T05:21:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    1
+   ],
    "position_verbatim": "29-13 N 138-03 E",
    "lat": 29.21667,
    "lon": 138.05,
@@ -451,6 +499,12 @@
    "zone": "I",
    "local": "1819 I 1/3/43",
    "utc": "1943-01-03T09:19:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    3
+   ],
    "position_verbatim": "30-50 N 131-28 E",
    "lat": 30.83333,
    "lon": 131.46667,
@@ -474,6 +528,12 @@
    "zone": "I",
    "local": "2105 I 1/3/43",
    "utc": "1943-01-03T12:05:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    3
+   ],
    "position_verbatim": "30-52 N 131-45 E",
    "lat": 30.86667,
    "lon": 131.75,
@@ -495,6 +555,12 @@
    "zone": "I",
    "local": "0910 I 1/4/43",
    "utc": "1943-01-04T00:10:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    4
+   ],
    "position_verbatim": "31-13 N 131-24 E",
    "lat": 31.21667,
    "lon": 131.4,
@@ -518,6 +584,12 @@
    "zone": "I",
    "local": "1532 I 1/4/43",
    "utc": "1943-01-04T06:32:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    4
+   ],
    "position_verbatim": "30-13 N 132-18 E",
    "lat": 30.21667,
    "lon": 132.3,
@@ -541,6 +613,12 @@
    "zone": "I",
    "local": "2309 I 1/4/43",
    "utc": "1943-01-04T14:09:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    4
+   ],
    "position_verbatim": "31-16 N 131-40 E",
    "lat": 31.26667,
    "lon": 131.66667,
@@ -563,6 +641,12 @@
    "zone": "I",
    "local": "1023 I 1/7/43",
    "utc": "1943-01-07T01:23:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    7
+   ],
    "position_verbatim": "31-12 N 131-42 E",
    "lat": 31.2,
    "lon": 131.7,
@@ -588,6 +672,12 @@
    "zone": "I",
    "local": "0738 I 1/9/43",
    "utc": "1943-01-08T22:38:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    9
+   ],
    "position_verbatim": "31-19 N 132-25 E",
    "lat": 31.31667,
    "lon": 132.41667,
@@ -614,6 +704,12 @@
    "zone": "I",
    "local": "1241 I 1/13/43",
    "utc": "1943-01-13T03:41:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    13
+   ],
    "position_verbatim": "30-38 N 131-19 E",
    "lat": 30.63333,
    "lon": 131.31667,
@@ -636,6 +732,12 @@
    "zone": "I",
    "local": "2150 I 1/14/43",
    "utc": "1943-01-14T12:50:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    14
+   ],
    "position_verbatim": "31-10 N 131-38 E",
    "lat": 31.16667,
    "lon": 131.63333,
@@ -691,6 +793,12 @@
    "zone": "I",
    "local": "2130 I 1/17/43",
    "utc": "1943-01-17T12:30:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    17
+   ],
    "position_verbatim": "30-33 N 132-25 E",
    "lat": 30.55,
    "lon": 132.41667,
@@ -719,6 +827,12 @@
    "zone": "I",
    "local": "1750 I 1/18/43",
    "utc": "1943-01-18T08:50:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    18
+   ],
    "position_verbatim": "30-40 N 131-25 E",
    "lat": 30.66667,
    "lon": 131.41667,
@@ -744,6 +858,12 @@
    "zone": "I",
    "local": "1704 I 1/19/43",
    "utc": "1943-01-19T08:04:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    19
+   ],
    "position_verbatim": "31-20 N 132-11 E",
    "lat": 31.33333,
    "lon": 132.18333,
@@ -770,6 +890,12 @@
    "zone": "I",
    "local": "0832 I 1/23/43",
    "utc": "1943-01-22T23:32:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    23
+   ],
    "position_verbatim": "31-25 N 132-07 E",
    "lat": 31.41667,
    "lon": 132.11667,
@@ -796,6 +922,12 @@
    "zone": "I",
    "local": "1605 I 1/23/43",
    "utc": "1943-01-23T07:05:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    23
+   ],
    "position_verbatim": "31-16 N 132-12 E",
    "lat": 31.26667,
    "lon": 132.2,
@@ -819,6 +951,12 @@
    "zone": "I",
    "local": "1816 I 1/23/43",
    "utc": "1943-01-23T09:16:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    23
+   ],
    "position_verbatim": "31-13 N 132-09 E",
    "lat": 31.21667,
    "lon": 132.15,
@@ -842,6 +980,12 @@
    "zone": "I",
    "local": "1946 I 1/23/43",
    "utc": "1943-01-23T10:46:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    23
+   ],
    "position_verbatim": "31-23 N 132-34 E",
    "lat": 31.38333,
    "lon": 132.56667,
@@ -865,6 +1009,12 @@
    "zone": "I",
    "local": "2236 I 1/23/43",
    "utc": "1943-01-23T13:36:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    1,
+    23
+   ],
    "position_verbatim": "31-20 N 132-30 E",
    "lat": 31.33333,
    "lon": 132.5,

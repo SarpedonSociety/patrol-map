@@ -1,0 +1,10 @@
+# Reviewer notes for the contact tables, keyed by entry number: entries are
+# counted through contacts-01.md in order (Part V contacts 1-10, counting
+# each ship of a group as a row; Part VI aircraft 11-17; Part VII attacks
+# 18-19). Delete a note once it's resolved against the report.
+
+rows:
+  11: "Zones: the aircraft table writes M on every time, including 1 June 1540 and 11 June 1220 (entry 16). The narrative switches to L at 0605 on 1 June. The map puts narrative entries from 1 June on in L and aircraft in M, an hour apart. Which zone did the boat keep after 1 June? If it's M, add zone_fix: { L: M } to patrol.yml."
+  16: "The narrative's summary of 11 June puts this plane at 1220 too, but in zone L (see entry 11)."
+  17: "The narrative has the Hudson at 0750 on 27 June; the table has 0800 with no zone."
+  18: "Gemini notes overstruck figures in the longitudes of both attacks (152-00E)."

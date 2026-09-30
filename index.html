@@ -25,6 +25,7 @@
   --sighting: #677a80;
   --aircraft: #5162a8;
   --rescue: #1b7f8e;
+  --rendezvous: #1f63a8;
   --mine: #7a4fa0;
   --dc: #3a4a55;
   --st-refit: #c0841c;
@@ -45,7 +46,7 @@
     --sea: #0d1416; --land: #35322a; --coast: #7a705e; --grid: #1a2427;
     --paper: #121a1c; --ink: #e3e0d7; --muted: #99a3a1; --rule: #283437;
     --track: #9db6c2; --torpedo: #e36452; --gun: #e2a441; --event: #6db795;
-    --sighting: #8d9ca0; --aircraft: #9aa6e6; --rescue: #5fc4d3; --mine: #c3a3e6; --dc: #c9d3d9; --st-refit: #e2a441; --st-overhaul: #c3a3e6; --st-training: #5fc4d3; --st-other: #7d8a8e; --st-transit: #8fb0d0; --flag: #f0c46c; --flag-bg: #2e2612; --focus: #9db6c2;
+    --sighting: #8d9ca0; --aircraft: #9aa6e6; --rescue: #5fc4d3; --rendezvous: #7fb2e8; --mine: #c3a3e6; --dc: #c9d3d9; --st-refit: #e2a441; --st-overhaul: #c3a3e6; --st-training: #5fc4d3; --st-other: #7d8a8e; --st-transit: #8fb0d0; --flag: #f0c46c; --flag-bg: #2e2612; --focus: #9db6c2;
     --shadow: none;
   }
 }
@@ -54,7 +55,7 @@
   --sea: #0d1416; --land: #35322a; --coast: #7a705e; --grid: #1a2427;
   --paper: #121a1c; --ink: #e3e0d7; --muted: #99a3a1; --rule: #283437;
   --track: #9db6c2; --torpedo: #e36452; --gun: #e2a441; --event: #6db795;
-  --sighting: #8d9ca0; --aircraft: #9aa6e6; --rescue: #5fc4d3; --mine: #c3a3e6; --dc: #c9d3d9; --st-refit: #e2a441; --st-overhaul: #c3a3e6; --st-training: #5fc4d3; --st-other: #7d8a8e; --st-transit: #8fb0d0; --flag: #f0c46c; --flag-bg: #2e2612; --focus: #9db6c2;
+  --sighting: #8d9ca0; --aircraft: #9aa6e6; --rescue: #5fc4d3; --rendezvous: #7fb2e8; --mine: #c3a3e6; --dc: #c9d3d9; --st-refit: #e2a441; --st-overhaul: #c3a3e6; --st-training: #5fc4d3; --st-other: #7d8a8e; --st-transit: #8fb0d0; --flag: #f0c46c; --flag-bg: #2e2612; --focus: #9db6c2;
   --shadow: none;
 }
 
@@ -131,6 +132,7 @@ header.head {
 .mark.counterattack .dot { fill: var(--dc); stroke: var(--paper); stroke-width: 1; }
 .mark.fix .dot { fill: var(--track); stroke: none; }
 .mark.rescue .dot { fill: var(--sea); stroke: var(--rescue); stroke-width: 3; }
+.mark.rendezvous .dot { fill: none; stroke: var(--rendezvous); stroke-width: 2; }
 .mark.derived .dot { stroke-dasharray: 2 2; }
 .mark.aircraft .dot { fill: var(--sea); stroke: var(--aircraft); stroke-width: 1.6; }
 .mark.port .dot { fill: var(--paper); stroke: var(--track); stroke-width: 1.6; }
@@ -358,6 +360,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
         <div><svg width="14" height="14"><path d="M7 2 12 11.5H2z" fill="var(--sea)" stroke="var(--aircraft)" stroke-width="1.6"/></svg>Aircraft contact</div>
         <div><svg width="14" height="14"><circle cx="7" cy="7" r="4.5" fill="var(--sea)" stroke="var(--rescue)" stroke-width="3"/></svg>Aviator rescue</div>
         <div><svg width="14" height="14"><path d="M2.5 2.5 11.5 11.5M11.5 2.5 2.5 11.5" stroke="var(--mine)" stroke-width="2.4" stroke-linecap="round"/></svg>Mine laying</div>
+        <div><svg width="14" height="14"><path d="M8.2 7a3.6 3.6 0 1 1 -7.2 0a3.6 3.6 0 1 1 7.2 0M13 7a3.6 3.6 0 1 1 -7.2 0a3.6 3.6 0 1 1 7.2 0" fill="none" stroke="var(--rendezvous)" stroke-width="2"/></svg>Rendezvous</div>
         <div><svg width="14" height="14"><path d="M7 1 8.6 5.2 13 5.4 9.6 8.2 10.8 12.6 7 10.1 3.2 12.6 4.4 8.2 1 5.4 5.4 5.2z" fill="var(--dc)"/></svg>Depth-charged</div>
         <div><svg width="14" height="14"><circle cx="7" cy="7" r="4.5" fill="none" stroke="var(--muted)" stroke-width="1.6" stroke-dasharray="2 2"/></svg>Estimated position</div>
         <div style="grid-column: 1 / -1"><svg width="14" height="14"><circle cx="7" cy="7" r="2.5" fill="var(--track)"/></svg>Recorded position of the boat (e.g. density layer observation)</div>
@@ -383,12 +386,12 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     type: "Type", initial_range: "Initial range", course: "Est. course", speed: "Est. speed",
     description: "Description", weapon: "Weapon", fired: "Fired", depth: "Depth set",
     track: "Track angle", gyro: "Gyro angle", firing_range: "Firing range", hits: "Hits",
-    remarks: "Remarks", event: "Entry", charges: "Depth charges", damage: "Damage sustained", attacked: "Attacked", part_viii: "Part VIII account", narrative: "Narrative", min_range: "Min. range", lead: "Lead", bearing: "Bearing", altitude: "Altitude / distance",
+    with: "With", contact_table: "Contact table", remarks: "Remarks", event: "Entry", charges: "Depth charges", damage: "Damage sustained", attacked: "Attacked", part_viii: "Part VIII account", narrative: "Narrative", min_range: "Min. range", lead: "Lead", bearing: "Bearing", altitude: "Altitude / distance",
     sunk: "Claimed sunk (tons)", damaged: "Claimed damaged or probably sunk (tons)",
     attack_type: "Periscope or radar", draft: "Est. target draft", tube: "Bow or stern",
     interval: "Firing interval", spread: "Spread", performance: "Torpedo performance satisfactory",
   };
-  const KIND = { torpedo: "Torpedo attack", gun: "Gun action", sighting: "Contact", aircraft: "Aircraft contact", rescue: "Aviator rescue", event: "Narrative event", fix: "Recorded position", minefield: "Mine laying", counterattack: "Depth-charged" };
+  const KIND = { torpedo: "Torpedo attack", gun: "Gun action", sighting: "Contact", aircraft: "Aircraft contact", rescue: "Aviator rescue", event: "Narrative event", fix: "Recorded position", minefield: "Mine laying", counterattack: "Depth-charged", rendezvous: "Rendezvous" };
   const fmtDate = d3.utcFormat("%-d %b %Y");
   const fmtGmt = d3.utcFormat("%H%M GMT");
 
@@ -517,13 +520,17 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
         const g = gOver.append("g").attr("class", `mark ${kind}${r.derived ? " derived" : ""}${selected === r ? " selected" : ""}`)
           .attr("transform", `translate(${x},${y})`).attr("tabindex", 0).attr("role", "button")
           .attr("aria-label", `${KIND[kind] || r.label + " " + r.port}, ${r.local}`);
-        const fresh = now - r.t < 36 * HOUR && ["torpedo", "gun", "event", "rescue", "minefield", "counterattack"].includes(kind);
+        const fresh = now - r.t < 36 * HOUR && ["torpedo", "gun", "event", "rescue", "minefield", "counterattack", "rendezvous"].includes(kind);
         if (fresh && !reduced) g.append("circle").attr("class", "pulse").attr("r", 6).attr("stroke", `var(--${kind})`);
         g.append("circle").attr("class", "hit").attr("r", 11);
         if (kind === "gun") g.append("rect").attr("class", "dot").attr("x", -5).attr("y", -5).attr("width", 10).attr("height", 10);
         else if (kind === "counterattack") g.append("path").attr("class", "dot").attr("d", "M0 -6 1.4 -1.9 5.7 -1.9 2.2 0.7 3.5 4.9 0 2.4 -3.5 4.9 -2.2 0.7 -5.7 -1.9 -1.4 -1.9z");
         else if (kind === "minefield") g.append("path").attr("class", "dot").attr("d", "M-4.5 -4.5 4.5 4.5M4.5 -4.5 -4.5 4.5");
         else if (kind === "aircraft") g.append("path").attr("class", "dot").attr("d", "M0 -5.5 5.5 4.5 -5.5 4.5z");
+        else if (kind === "rendezvous") {
+          g.append("circle").attr("class", "back").attr("r", 6.5).attr("fill", "var(--sea)");
+          g.append("path").attr("class", "dot").attr("d", "M1.2 0a3.6 3.6 0 1 1 -7.2 0a3.6 3.6 0 1 1 7.2 0M6 0a3.6 3.6 0 1 1 -7.2 0a3.6 3.6 0 1 1 7.2 0");
+        }
         else if (kind === "event") g.append("path").attr("class", "dot").attr("d", "M0 -6.5 6.5 0 0 6.5 -6.5 0z");
         else g.append("circle").attr("class", "dot").attr("r", kind === "torpedo" ? 5.5 : kind === "rescue" ? 5 : kind === "fix" ? 2.5 : 4.5);
         g.on("click", (ev) => { ev.stopPropagation(); select(r); })
@@ -738,6 +745,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     const board = $("board");
     $("boardnote").textContent = bases.length ? NOTE[basis] : "No tonnage entered yet. Add a tonnage list to a patrol's patrol.yml.";
     if (!rows.length) { boardOrder = []; board.style.height = "auto"; board.innerHTML = `<p class="board-empty">No patrols selected.</p>`; return; }
+    board.querySelectorAll(".board-empty").forEach((el) => el.remove());
     const max = Math.max(1, ...rows.map((r) => r.sunk));
     const seen = new Set();
     rows.forEach((r, i) => {

@@ -206,6 +206,12 @@
    "zone": "L",
    "local": "0805 L 10MAY",
    "utc": "1942-05-09T21:05:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    10
+   ],
    "position_verbatim": "33-14 150-58",
    "lat": 33.23333,
    "lon": 150.96667,
@@ -236,6 +242,12 @@
    "zone": "L",
    "local": "1000 L 10MAY",
    "utc": "1942-05-09T23:00:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    10
+   ],
    "position_verbatim": "33-03 150-55",
    "lat": 33.05,
    "lon": 150.91667,
@@ -291,6 +303,12 @@
    "zone": "K",
    "local": "1100 K 12MAY",
    "utc": "1942-05-12T01:00:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    12
+   ],
    "position_verbatim": "33-20-140-52",
    "lat": 33.33333,
    "lon": 140.86667,
@@ -318,6 +336,12 @@
    "zone": "I",
    "local": "1630 I 13MAY",
    "utc": "1942-05-13T07:30:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    13
+   ],
    "position_verbatim": "33-52-137-09",
    "lat": 33.86667,
    "lon": 137.15,
@@ -353,6 +377,12 @@
    "zone": "I",
    "local": "1635 I 15MAY",
    "utc": "1942-05-15T07:35:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    15
+   ],
    "position_verbatim": "33-25 135-25",
    "lat": 33.41667,
    "lon": 135.41667,
@@ -378,6 +408,12 @@
    "zone": "I",
    "local": "1530 I 16MAY",
    "utc": "1942-05-16T06:30:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    16
+   ],
    "position_verbatim": "33-27 135-38",
    "lat": 33.45,
    "lon": 135.63333,
@@ -405,6 +441,12 @@
    "zone": "I",
    "local": "1545 I 16MAY",
    "utc": "1942-05-16T06:45:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    16
+   ],
    "position_verbatim": "33-27 135-38",
    "lat": 33.45,
    "lon": 135.63333,
@@ -430,6 +472,12 @@
    "zone": "I",
    "local": "1600 I 16MAY",
    "utc": "1942-05-16T07:00:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    16
+   ],
    "position_verbatim": "33-27 135-38",
    "lat": 33.45,
    "lon": 135.63333,
@@ -455,6 +503,12 @@
    "zone": "I",
    "local": "1600 I 16MAY",
    "utc": "1942-05-16T07:00:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    16
+   ],
    "position_verbatim": "33-26 135-38",
    "lat": 33.43333,
    "lon": 135.63333,
@@ -480,6 +534,12 @@
    "zone": "I",
    "local": "1200 I 17MAY",
    "utc": "1942-05-17T03:00:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    17
+   ],
    "position_verbatim": "33-28 135-33",
    "lat": 33.46667,
    "lon": 135.55,
@@ -505,6 +565,12 @@
    "zone": "I",
    "local": "1210 I 17MAY",
    "utc": "1942-05-17T03:10:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    17
+   ],
    "position_verbatim": "33-28 135-33",
    "lat": 33.46667,
    "lon": 135.55,
@@ -530,6 +596,12 @@
    "zone": "I",
    "local": "1723 I 17MAY",
    "utc": "1942-05-17T08:23:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    17
+   ],
    "position_verbatim": "33-28 135-33",
    "lat": 33.46667,
    "lon": 135.55,
@@ -561,6 +633,12 @@
    "zone": "I",
    "local": "1740 I 17MAY",
    "utc": "1942-05-17T08:40:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    17
+   ],
    "position_verbatim": "33-28 135-33",
    "lat": 33.46667,
    "lon": 135.55,
@@ -592,6 +670,12 @@
    "zone": "I",
    "local": "1500 I 21MAY",
    "utc": "1942-05-21T06:00:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    21
+   ],
    "position_verbatim": "33-27 135-34",
    "lat": 33.45,
    "lon": 135.56667,
@@ -622,6 +706,12 @@
    "zone": "I",
    "local": "1700 I 21MAY",
    "utc": "1942-05-21T08:00:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    21
+   ],
    "position_verbatim": "33-27 135-33",
    "lat": 33.45,
    "lon": 135.55,
@@ -646,6 +736,12 @@
    "zone": "I",
    "local": "0950 I 22MAY",
    "utc": "1942-05-22T00:50:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    22
+   ],
    "position_verbatim": "33-29 135-26",
    "lat": 33.48333,
    "lon": 135.43333,
@@ -671,6 +767,12 @@
    "zone": "I",
    "local": "1115 I 22MAY",
    "utc": "1942-05-22T02:15:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    22
+   ],
    "position_verbatim": "33-30 135-27",
    "lat": 33.5,
    "lon": 135.45,
@@ -696,6 +798,12 @@
    "zone": "I",
    "local": "1143 I 22MAY",
    "utc": "1942-05-22T02:43:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    22
+   ],
    "position_verbatim": "33-30 135-27",
    "lat": 33.5,
    "lon": 135.45,
@@ -729,6 +837,12 @@
    "zone": "I",
    "local": "1200 I 26MAY",
    "utc": "1942-05-26T03:00:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    26
+   ],
    "position_verbatim": "33-33 135-43",
    "lat": 33.55,
    "lon": 135.71667,
@@ -754,6 +868,12 @@
    "zone": "I",
    "local": "1330 I 26MAY",
    "utc": "1942-05-26T04:30:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    26
+   ],
    "position_verbatim": "33-33 135-43",
    "lat": 33.55,
    "lon": 135.71667,
@@ -779,6 +899,12 @@
    "zone": "I",
    "local": "2230 I 26MAY",
    "utc": "1942-05-26T13:30:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    5,
+    26
+   ],
    "position_verbatim": "33-13 135-40",
    "lat": 33.21667,
    "lon": 135.66667,
@@ -810,6 +936,12 @@
    "zone": "I",
    "local": "0214 I 3JUN",
    "utc": "1942-06-02T17:14:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    6,
+    3
+   ],
    "position_verbatim": "33-24 135-32",
    "lat": 33.4,
    "lon": 135.53333,
@@ -835,6 +967,12 @@
    "zone": "I",
    "local": "1000 I 3JUN",
    "utc": "1942-06-03T01:00:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    6,
+    3
+   ],
    "position_verbatim": "33-25 135-32",
    "lat": 33.41667,
    "lon": 135.53333,
@@ -860,6 +998,12 @@
    "zone": "I",
    "local": "1355 I 3JUN",
    "utc": "1942-06-03T04:55:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    6,
+    3
+   ],
    "position_verbatim": "33-25 135-33",
    "lat": 33.41667,
    "lon": 135.55,
@@ -885,6 +1029,12 @@
    "zone": "I",
    "local": "1450 I 3JUN",
    "utc": "1942-06-03T05:50:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    6,
+    3
+   ],
    "position_verbatim": "33-26 135-33",
    "lat": 33.43333,
    "lon": 135.55,
@@ -918,6 +1068,12 @@
    "zone": "I",
    "local": "1027 I 9JUN",
    "utc": "1942-06-09T01:27:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    6,
+    9
+   ],
    "position_verbatim": "33-42 133-10",
    "lat": 33.7,
    "lon": 133.16667,
@@ -943,6 +1099,12 @@
    "zone": "I",
    "local": "0527 I 11JUN",
    "utc": "1942-06-10T20:27:00Z",
+   "has_time": true,
+   "local_date": [
+    1942,
+    6,
+    11
+   ],
    "position_verbatim": "33-25 139-40",
    "lat": 33.41667,
    "lon": 139.66667,

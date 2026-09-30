@@ -73,6 +73,11 @@ In `review.yml`, entries are numbered through the whole of
 `contacts.md` in order, across all its tables. The map shows each
 entry's number in its source line.
 
+If the attack summary gives dates but no times (Silversides Patrol 5),
+the narrative's attack entries on the same date supply the times, in
+order, as long as the counts agree; otherwise each attack is flagged.
+Hawaiian time, typed `VW`, is read as GMT minus 10½ hours.
+
 ## Tonnage scoreboard
 
 The map ranks boats by tonnage sunk as of the date on the timeline, so
@@ -124,10 +129,19 @@ marker. Part VIII incidents the narrative doesn't mention stay as their
 own entries.
 
 A contact table with an attacked Yes/No column shows the "Yes" rows as
-attacks. If the table doesn't say how, they're shown as torpedo attacks
+attacks, unless the report also has an attack summary table, which then
+supplies the attacks (the contact rows stay contacts). If the table doesn't say how, they're shown as torpedo attacks
 and flagged to check against the narrative. A narrative attack entry within
 three hours of such a row is folded into it: the marker sits at the
 table's recorded position and the detail card carries the narrative.
+
+Entries tagged `rendezvous` (a meeting at sea with another U.S. or Allied
+boat, such as Silversides and Guardfish exchanging recognition signals on
+19 June 1943) get their own marker, and `with` names the other vessel. When
+the contact table records the same meeting (the other boat named in the row,
+within an hour), the marker takes the table's position and the row's
+details, and the row isn't drawn separately. The two boats aren't linked on
+the map.
 
 Entries tagged `notable` (medical emergencies, casualties, equipment
 casualties and the like) are kept in full. Dated entries with no

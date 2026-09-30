@@ -49,6 +49,9 @@ landmarks:
   Nojima Saki: { lat: 34.901, lon: 139.888, note: "Southern tip of the Boso Peninsula (lighthouse). Approximate; verify against a chart." }
   Wotje: { lat: 9.46, lon: 170.24, note: "Wotje Atoll, Marshall Islands. Approximate; verify against a chart." }
   Inubo Saki: { lat: 35.707, lon: 140.869, note: "Eastern tip of the Boso Peninsula (lighthouse). Approximate; verify against a chart." }
+  Nauru: { lat: -0.52, lon: 166.93, note: "Nauru Island, centre. Approximate; verify against a chart." }
+  Steffan Strait: { lat: -2.62, lon: 150.55, note: "Steffen Strait, between New Hanover and New Ireland, west of Kavieng. Spelled as the report types it. Approximate; verify against a chart." }
+  Fredrick Reef: { lat: -20.95, lon: 154.40, note: "Frederick Reef, Coral Sea. Spelled as the report types it. Approximate; verify against a chart." }
 
 # Place names drawn on the map. zoom = how far in before the label shows
 # (0 = always).

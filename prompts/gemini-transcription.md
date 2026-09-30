@@ -89,15 +89,16 @@ events:          # every narrative entry provided
     bearing:     # as typed, e.g. NE, WSW, 045T
     distance:    # as typed, e.g. 9 miles
     bearing_is:  # from_landmark ("9 miles NE of X") or to_landmark ("X bearing 060, 2 miles": X bore 060 from the boat)
-    tag:         # attack, gun, minefield, counterattack, rescue or notable (see below); otherwise blank
+    tag:         # attack, gun, minefield, counterattack, rescue, rendezvous or notable (see below); otherwise blank
     title:       # tagged entries only: a short title of a few words, e.g. "Appendectomy at sea"
     part:        # the report part the entry comes from: I (narrative) or VIII (anti-submarine measures)
     charges:     # counterattacks only: number of depth charges or bombs, as typed
     damage:      # counterattacks only: damage to the boat, verbatim
+    with:        # rendezvous only: the other boat or ship, as typed, e.g. GUARDFISH
     course:
     speed:
     event:       # verbatim; if longer than 25 words, summarize and start with [SUMMARY],
-                 # except tagged entries (attack, gun, minefield, counterattack, rescue, notable): always in full
+                 # except tagged entries (attack, gun, minefield, counterattack, rescue, rendezvous, notable): always in full
     page:
     flags:
 ```
@@ -152,6 +153,12 @@ medical emergencies and operations, deaths, burials and injuries, men
 lost overboard, fires, flooding, serious equipment casualties (a
 torpedo stuck in a tube, a hot run, a jammed diving plane), groundings,
 and encounters with friendly forces. Keep these entries in full.
+
+Tag with `tag: rendezvous` an entry recording a meeting at sea with
+another U.S. or Allied submarine or ship: a rendezvous, an exchange of
+recognition signals with a named boat, or working the same convoy. Put
+the other vessel's name, as typed, in `with`. Routine escorts into and out
+of port are not rendezvous. Keep these entries in full.
 
 Tag every entry about lifeguard duty with `tag: rescue`: the lifeguard
 station assignment (record its position if given), reports of downed

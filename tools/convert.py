@@ -41,6 +41,8 @@ for i, letter in enumerate("KLM"):
     ZONES[letter] = i + 10
 for i, letter in enumerate("NOPQRSTUVWXY"):
     ZONES[letter] = -(i + 1)
+# Hawaiian time (GMT minus 10.5), written "VW" in Pearl Harbor reports.
+ZONES["VW"] = -10.5
 
 # Column headings seen so far, normalized -> field name.
 # Covers the hand-transcription layouts and the Gemini prompt layout.
@@ -77,9 +79,10 @@ FIX_SECTION = re.compile(r"density|bathythermo|noon position|own position|\bposi
 
 # Narrative entry tags -> map marker kind and default title.
 TAG_KIND = {"rescue": "rescue", "attack": "torpedo", "gun": "gun", "minefield": "minefield",
-            "counterattack": "counterattack", "notable": "event"}
+            "counterattack": "counterattack", "notable": "event", "rendezvous": "rendezvous"}
 TAG_TITLE = {"rescue": "Aviator rescue", "attack": "Torpedo attack (narrative)", "gun": "Gun action (narrative)",
-             "minefield": "Minefield laid", "counterattack": "Depth-charged", "notable": "Notable event"}
+             "minefield": "Minefield laid", "counterattack": "Depth-charged", "notable": "Notable event",
+             "rendezvous": "Rendezvous"}
 
 UNCERTAIN = re.compile(r"⟦[^⟧]*⟧")
 
@@ -210,6 +213,7 @@ def parse_coord(text, default_hemi, is_lat):
 def split_lat_long(text):
     """Split a combined 'Lat/Long' cell. Returns (lat, lon, flag)."""
     text = re.sub(r"<br\s*/?>|;|\bLat\.?|\bLong\.?|\bLon\.?", " ", unbracket(plain(text)), flags=re.I)
+    text = re.sub(r"\(\s*\)", " ", text)   # what's left of "(lat)" / "(long)" labels
     text = re.sub(r"\s+", " ", text).strip()
     pair = re.fullmatch(r"(\d+-\d+(?:\.\d+)?(?:-\d+)?)\s*([NS])\.?\s+(\d+-\d+(?:\.\d+)?(?:-\d+)?)\s*([EW])?\.?", text, re.I)
     if pair:
@@ -245,6 +249,9 @@ def parse_date(date_str, year, first_month):
     mw = re.fullmatch(r"([A-Z]{3})[A-Z]*(\d{1,2})", d)   # "MAY28", "JUNE1" (a date cell read with spaces removed)
     if mw and mw.group(1) in MONTHS:
         d = f"{int(mw.group(2))}{mw.group(1)}"
+    dw = re.fullmatch(r"(\d{1,2})([A-Z]{3})[A-Z]+", d)   # "4JUNE", "11JULY"
+    if dw and dw.group(2) in MONTHS:
+        d = f"{int(dw.group(1))}{dw.group(2)}"
     m = re.fullmatch(r"(\d{1,2})/(\d{1,2})/(\d{2,4})", d)
     if m:
         y = int(m.group(3))
@@ -512,6 +519,12 @@ def build_patrol(folder, ref):
                              f"{ev.get('bearing')} from the boat, set bearing_is: to_landmark.")
             if not mark or mark.get("lat") in (None, "") or mark.get("lon") in (None, ""):
                 flags.append(f"No position for landmark '{name}'. Add it to landmarks in sources/reference.yml.")
+            elif dist is None and brg is not None:
+                lat, lon = float(mark["lat"]), float(mark["lon"])
+                derived = {"from": name, "bearing": brg, "distance_nm": None,
+                           "landmark": {"lat": lat, "lon": lon}, "landmark_note": mark.get("note")}
+                flags.append(f"Position given only as '{position_verbatim.strip()}' with no distance; placed at "
+                             f"{name} itself, as a rough estimate.")
             elif brg is None or dist is None:
                 flags.append(f"Could not read bearing '{ev.get('bearing')}' or distance '{ev.get('distance')}'.")
             else:
@@ -544,7 +557,7 @@ def build_patrol(folder, ref):
                 "Ship hit by mines" if tag == "minefield" and re.search(r"attack\s*\)|\bsunk\b|\bdamaged\b", str(ev.get("event") or ""), re.I)
                 else TAG_TITLE.get(tag, "Narrative entry")),
             "fields": {k: v for k, v in (("event", ev.get("event")), ("charges", ev.get("charges")),
-                                          ("damage", ev.get("damage"))) if v},
+                                          ("damage", ev.get("damage")), ("with", ev.get("with"))) if v},
             "flags": flags,
         })
 
@@ -585,6 +598,7 @@ def build_patrol(folder, ref):
     narrative_zones = [r["zone"] for r in records if r.get("zone")]
     default_zone = max(set(narrative_zones), key=narrative_zones.count) if narrative_zones else None
     last_zone = None
+    has_summary = any(t.get("transposed") for t in tables)
     for table in tables:
         headers = table["headers"]
         names = [field_name(h) for h in headers]
@@ -703,7 +717,7 @@ def build_patrol(folder, ref):
             if attacked in ("yes", "y", "no", "n", "none", "-"):
                 f.pop("attack_no")
                 f["attacked"] = "Yes" if attacked in ("yes", "y") else "No"
-                if f["attacked"] == "Yes" and kind == "sighting":
+                if f["attacked"] == "Yes" and kind == "sighting" and not has_summary:
                     remarks = f"{f.get('remarks') or ''} {f.get('description') or ''}".lower()
                     kind = "gun" if re.search(r"\bgun|\b3\"|shell", remarks) else "torpedo"
                     if kind == "torpedo":
@@ -733,11 +747,57 @@ def build_patrol(folder, ref):
                 "id": f"{pid}-C{entry:02d}", "source": source, "row": entry, "kind": kind,
                 "page": f.get("page") or table["page"], "zone": z,
                 "local": " ".join(x for x in (t, zone_label, d) if x) if t else (f.get("time_date") or d or ""),
-                "utc": to_utc(d or "", t, z, year, first_month),
+                "utc": to_utc(d or "", t, z, year, first_month), "has_time": bool(t),
+                "local_date": list(parse_date(d or "", year, first_month) or []),
                 "position_verbatim": pos_verbatim, "lat": lat, "lon": lon,
                 "derived": {"from_table": True} if derived_pos else None,
                 "type": typ, "title": title, "fields": keep, "flags": flags,
             })
+
+    # An attack summary with dates but no times (Silversides Patrol 5): the
+    # narrative's attack entries on the same report date supply the times, in
+    # order, when the counts agree. The table keeps its positions.
+    timeless = [r for r in records if r.get("row") and r["kind"] in ("torpedo", "gun") and not r.get("has_time")
+                and r.get("local_date")]
+    for day in sorted({tuple(r["local_date"]) for r in timeless}):
+        rows = sorted((r for r in timeless if tuple(r["local_date"]) == day), key=lambda r: r["row"])
+        told = sorted((r for r in records if not r.get("row") and r["kind"] in ("torpedo", "gun") and r.get("has_time")
+                       and r["utc"] and tuple(r.get("local_date") or ()) == day), key=lambda r: r["utc"])
+        if len(rows) != len(told):
+            for r in rows:
+                r["flags"].append(f"The attack table gives no time, and the narrative has {len(told)} attack "
+                                  f"entr{'y' if len(told) == 1 else 'ies'} that day for {len(rows)} in the table, "
+                                  f"so no times were taken from it.")
+            continue
+        for r, n in zip(rows, told):
+            r["utc"], r["zone"], r["has_time"] = n["utc"], n.get("zone"), True
+            r["local"] = n["local"]
+            r["flags"] = [f for f in r["flags"] if not f.startswith("No time recorded")]
+            r["flags"].append(f"The attack table gives no time; {n['local']} is from the narrative entry "
+                              f"(page {n.get('page') or '?'}), matched in order.")
+
+    # A rendezvous in the narrative and the contact-table row for the same
+    # meeting (the other boat named in the row, within an hour) are one event:
+    # the marker takes the table's position and keeps its details.
+    met = []
+    for rv in [r for r in records if r["kind"] == "rendezvous" and r["utc"]]:
+        other = str(rv["fields"].get("with") or "").strip().lower()
+        if not other:
+            continue
+        for c in records:
+            if c in met or not c.get("row") or c["kind"] != "sighting" or not c["utc"]:
+                continue
+            text = " ".join(str(v) for v in [c.get("type")] + list(c["fields"].values())).lower()
+            if other in text and minutes_apart(c["utc"], rv["utc"]) <= 60:
+                if rv["lat"] is None and c["lat"] is not None:
+                    rv["lat"], rv["lon"], rv["position_verbatim"] = c["lat"], c["lon"], c["position_verbatim"]
+                    rv["flags"] = [f for f in rv["flags"] if not f.startswith("No position")]
+                rv["fields"]["contact_table"] = "; ".join(f"{k.replace('_', ' ')}: {v}" for k, v in c["fields"].items())
+                rv["flags"].append(f"{c['source']} entry {c['row']} records this meeting at {c['local']}; "
+                                   f"its position is used here.")
+                rv["flags"].extend(f for f in c["flags"] if f.startswith("Transcriber"))
+                met.append(c)
+    records = [r for r in records if r not in met]
 
     # A narrative attack and a contact-table row marked as attacked usually
     # describe the same attack: the table has the position, the narrative the
