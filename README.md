@@ -147,10 +147,13 @@ The fleet status strip under the map shows each boat as a row: patrols
 (solid; outlined where not yet transcribed), and what the boat was doing
 in between. That comes from `sources/status/` (see its README):
 
-- **War diary listings.** Each COMSUBPAC "Disposition of Forces" page is
-  one file, dated, listing boats under the war diary's own headings
-  ("Under refit at Pearl Harbor", "On patrol" and so on). Each listing
-  shows as a tick. The status it gives is drawn lightly for up to 8 days
+- **War diary listings.** Each COMSUBPAC "Disposition of Forces" listing
+  is one file, generated from the vault transcriptions by
+  `tools/import_war_diary.py`, listing boats under the war diary's own
+  headings ("Under refit at Pearl Harbor", "Enroute patrol stations..."
+  and so on). Each listing shows as a tick (dashed where the page gives no
+  date and the importer dated it by position); the diary's changes of
+  command show as diamonds. The status it gives is drawn lightly for up to 8 days
   either side, or through to the next listing that says the same thing.
   That spread is inference, and the map labels it so.
 - **Dated periods.** A refit or overhaul with start and end dates from a
@@ -158,8 +161,7 @@ in between. That comes from `sources/status/` (see its README):
   source. These draw solid and take precedence over the inferred spread.
 
 While a boat is in port, the chart shows it at that port with its
-status, and the scoreboard shows a status chip. A listing file without a
-`date:` is skipped until the date is filled in.
+status, and the scoreboard shows a status chip. See `sources/status/README.md`.
 
 ## Entries without a position
 

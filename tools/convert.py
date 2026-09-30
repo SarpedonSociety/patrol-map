@@ -887,7 +887,8 @@ def build_patrol(folder, ref):
     }
 
 
-STATUS_CODES = ("patrol", "refit", "overhaul", "modernization", "training", "other_task_force")
+STATUS_CODES = ("patrol", "refit", "overhaul", "modernization", "training", "other_task_force",
+                "transit", "miscellaneous", "other")
 
 
 def build_status(ref):
@@ -897,8 +898,8 @@ def build_status(ref):
         return None
     name_to_hull = {str(v.get("name", "")).upper(): k for k, v in (ref.get("boats") or {}).items()}
     observations, problems = [], []
-    for path in sorted(folder.glob("*.yml")):
-        if path.name in ("index.yml", "periods.yml"):
+    for path in sorted(folder.rglob("*.yml")):
+        if path.name in ("index.yml", "periods.yml", "changes.yml"):
             continue
         snap = load_yaml_text(path)
         if not snap.get("date"):
@@ -911,23 +912,41 @@ def build_status(ref):
                 problems.append(f"{path.name}: unknown status '{status}' for '{group.get('heading')}'")
             boats = group.get("boats") or []
             items = boats.items() if isinstance(boats, dict) else [(b, None) for b in boats]
+            notes = group.get("notes") or {}
+            per_item = group.get("item_status") or {}
             for name, unit in items:
                 label = str(name).strip()
+                hull = name_to_hull.get(label.upper())
+                if not hull:
+                    continue  # only boats on the map; the listing file keeps the rest
+                own = per_item.get(label) or {}
                 observations.append({
-                    "date": date, "boat": name_to_hull.get(label.upper()), "name": label,
-                    "status": status, "place": group.get("place"), "unit": unit,
+                    "date": date, "boat": hull, "name": label,
+                    "status": own.get("status") or status, "place": own.get("place") or group.get("place"),
+                    "unit": unit, "note": notes.get(label),
                     "heading": group.get("heading"), "source": snap.get("source"),
-                    "page": snap.get("page"), "fold3_image": snap.get("fold3_image"), "file": path.name,
+                    "date_stated": str(snap.get("date_stated", "true")).lower() != "false",
+                    "date_basis": snap.get("date_basis"),
+                    "sheets": snap.get("sheets") or ([snap["page"]] if snap.get("page") else []),
+                    "fold3_image": snap.get("fold3_image"), "file": path.name,
                 })
     periods = []
     if (folder / "periods.yml").exists():
         for p in load_yaml_text(folder / "periods.yml") or []:
             periods.append({k: p.get(k) for k in ("boat", "status", "place", "start", "end", "source")})
     index = load_yaml_text(folder / "index.yml") if (folder / "index.yml").exists() else []
+    changes = []
+    for path in sorted(folder.rglob("changes.yml")):
+        for c in load_yaml_text(path) or []:
+            text = str(c.get("text") or "")
+            for name, hull in name_to_hull.items():
+                if name and re.search(r"\b" + re.escape(name) + r"\b", text.upper()):
+                    changes.append({"date": str(c.get("date")), "boat": hull, "text": text})
     for msg in problems:
         print("status:", msg)
     print(f"status: {len(observations)} observations, {len(periods)} dated periods")
-    return {"observations": observations, "periods": periods, "index": index or []}
+    print(f"status: {len(changes)} changes of command for boats on the map")
+    return {"observations": observations, "periods": periods, "index": index or [], "changes": changes}
 
 
 def main(selected):

@@ -1,5 +1,3420 @@
 {
- "observations": [],
+ "observations": [
+  {
+   "date": "1943-04-01",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [
+    "3"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-01.yml"
+  },
+  {
+   "date": "1943-04-01",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.5",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [
+    "3"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-01.yml"
+  },
+  {
+   "date": "1943-04-01",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.8",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [
+    "3"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-01.yml"
+  },
+  {
+   "date": "1943-04-01",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.9",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [
+    "3"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-01.yml"
+  },
+  {
+   "date": "1943-04-01",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "training",
+   "place": "West Coast",
+   "unit": null,
+   "note": null,
+   "heading": "Training on West Coast",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [
+    "3"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-01.yml"
+  },
+  {
+   "date": "1943-04-01",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [
+    "3"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-01.yml"
+  },
+  {
+   "date": "1943-04-15",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; mid-volume listing, taken as the 15th",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-15.yml"
+  },
+  {
+   "date": "1943-04-15",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; mid-volume listing, taken as the 15th",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-15.yml"
+  },
+  {
+   "date": "1943-04-15",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; mid-volume listing, taken as the 15th",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-15.yml"
+  },
+  {
+   "date": "1943-04-15",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.9",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; mid-volume listing, taken as the 15th",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-15.yml"
+  },
+  {
+   "date": "1943-04-15",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "transit",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Enroute Mare Island to Pearl",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; mid-volume listing, taken as the 15th",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-15.yml"
+  },
+  {
+   "date": "1943-04-15",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; mid-volume listing, taken as the 15th",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-15.yml"
+  },
+  {
+   "date": "1943-04-30",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; listing closes the volume above the endorsement, taken as the last day of the month",
+   "sheets": [
+    "24"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-30.yml"
+  },
+  {
+   "date": "1943-04-30",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; listing closes the volume above the endorsement, taken as the last day of the month",
+   "sheets": [
+    "24"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-30.yml"
+  },
+  {
+   "date": "1943-04-30",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; listing closes the volume above the endorsement, taken as the last day of the month",
+   "sheets": [
+    "24"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-30.yml"
+  },
+  {
+   "date": "1943-04-30",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.5",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; listing closes the volume above the endorsement, taken as the last day of the month",
+   "sheets": [
+    "24"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-30.yml"
+  },
+  {
+   "date": "1943-04-30",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.9",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; listing closes the volume above the endorsement, taken as the last day of the month",
+   "sheets": [
+    "24"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-30.yml"
+  },
+  {
+   "date": "1943-04-30",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; listing closes the volume above the endorsement, taken as the last day of the month",
+   "sheets": [
+    "24"
+   ],
+   "fold3_image": null,
+   "file": "1943-04-30.yml"
+  },
+  {
+   "date": "1943-05-01",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [],
+   "fold3_image": null,
+   "file": "1943-05-01.yml"
+  },
+  {
+   "date": "1943-05-01",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [],
+   "fold3_image": null,
+   "file": "1943-05-01.yml"
+  },
+  {
+   "date": "1943-05-01",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [],
+   "fold3_image": null,
+   "file": "1943-05-01.yml"
+  },
+  {
+   "date": "1943-05-01",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.16",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [],
+   "fold3_image": null,
+   "file": "1943-05-01.yml"
+  },
+  {
+   "date": "1943-05-01",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.9",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [],
+   "fold3_image": null,
+   "file": "1943-05-01.yml"
+  },
+  {
+   "date": "1943-05-01",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [],
+   "fold3_image": null,
+   "file": "1943-05-01.yml"
+  },
+  {
+   "date": "1943-06-01",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "refit",
+   "place": "Midway",
+   "unit": null,
+   "note": null,
+   "heading": "Under Refit at Midway",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-01.yml"
+  },
+  {
+   "date": "1943-06-01",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.17",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-01.yml"
+  },
+  {
+   "date": "1943-06-01",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.4",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-01.yml"
+  },
+  {
+   "date": "1943-06-01",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.16",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-01.yml"
+  },
+  {
+   "date": "1943-06-01",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-01.yml"
+  },
+  {
+   "date": "1943-06-01",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": false,
+   "date_basis": "not stated; first listing in the volume, taken as the 1st of the month",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-01.yml"
+  },
+  {
+   "date": "1943-06-15",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.4",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "16"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-15.yml"
+  },
+  {
+   "date": "1943-06-15",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.15",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "16"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-15.yml"
+  },
+  {
+   "date": "1943-06-15",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.16",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "16"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-15.yml"
+  },
+  {
+   "date": "1943-06-15",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.17",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "16"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-15.yml"
+  },
+  {
+   "date": "1943-06-15",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "16"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-15.yml"
+  },
+  {
+   "date": "1943-06-15",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "16"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-15.yml"
+  },
+  {
+   "date": "1943-06-30",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "26"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-30.yml"
+  },
+  {
+   "date": "1943-06-30",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "refit",
+   "place": "Midway",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Midway",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "26"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-30.yml"
+  },
+  {
+   "date": "1943-06-30",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.15",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "26"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-30.yml"
+  },
+  {
+   "date": "1943-06-30",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "26"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-30.yml"
+  },
+  {
+   "date": "1943-06-30",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "26"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-30.yml"
+  },
+  {
+   "date": "1943-06-30",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "26"
+   ],
+   "fold3_image": null,
+   "file": "1943-06-30.yml"
+  },
+  {
+   "date": "1943-07-01",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-01.yml"
+  },
+  {
+   "date": "1943-07-01",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "refit",
+   "place": "Midway",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Midway",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-01.yml"
+  },
+  {
+   "date": "1943-07-01",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.15",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-01.yml"
+  },
+  {
+   "date": "1943-07-01",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-01.yml"
+  },
+  {
+   "date": "1943-07-01",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-01.yml"
+  },
+  {
+   "date": "1943-07-01",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-01.yml"
+  },
+  {
+   "date": "1943-07-15",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-15.yml"
+  },
+  {
+   "date": "1943-07-15",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.4",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-15.yml"
+  },
+  {
+   "date": "1943-07-15",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.15",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-15.yml"
+  },
+  {
+   "date": "1943-07-15",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-15.yml"
+  },
+  {
+   "date": "1943-07-15",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-15.yml"
+  },
+  {
+   "date": "1943-07-15",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-15.yml"
+  },
+  {
+   "date": "1943-07-31",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "30"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-31.yml"
+  },
+  {
+   "date": "1943-07-31",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "30"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-31.yml"
+  },
+  {
+   "date": "1943-07-31",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.4",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "30"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-31.yml"
+  },
+  {
+   "date": "1943-07-31",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "30"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-31.yml"
+  },
+  {
+   "date": "1943-07-31",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "30"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-31.yml"
+  },
+  {
+   "date": "1943-07-31",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "30"
+   ],
+   "fold3_image": null,
+   "file": "1943-07-31.yml"
+  },
+  {
+   "date": "1943-08-01",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-01.yml"
+  },
+  {
+   "date": "1943-08-01",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-01.yml"
+  },
+  {
+   "date": "1943-08-01",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.4",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-01.yml"
+  },
+  {
+   "date": "1943-08-01",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-01.yml"
+  },
+  {
+   "date": "1943-08-01",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-01.yml"
+  },
+  {
+   "date": "1943-08-01",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-01.yml"
+  },
+  {
+   "date": "1943-08-15",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-15.yml"
+  },
+  {
+   "date": "1943-08-15",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-15.yml"
+  },
+  {
+   "date": "1943-08-15",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-15.yml"
+  },
+  {
+   "date": "1943-08-15",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-15.yml"
+  },
+  {
+   "date": "1943-08-15",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-15.yml"
+  },
+  {
+   "date": "1943-08-15",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-15.yml"
+  },
+  {
+   "date": "1943-08-31",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "28"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-31.yml"
+  },
+  {
+   "date": "1943-08-31",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "28"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-31.yml"
+  },
+  {
+   "date": "1943-08-31",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "28"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-31.yml"
+  },
+  {
+   "date": "1943-08-31",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "28"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-31.yml"
+  },
+  {
+   "date": "1943-08-31",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "28"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-31.yml"
+  },
+  {
+   "date": "1943-08-31",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "miscellaneous",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Miscellaneous",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "28"
+   ],
+   "fold3_image": null,
+   "file": "1943-08-31.yml"
+  },
+  {
+   "date": "1943-09-01",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-09-01.yml"
+  },
+  {
+   "date": "1943-09-01",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-09-01.yml"
+  },
+  {
+   "date": "1943-09-01",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-09-01.yml"
+  },
+  {
+   "date": "1943-09-01",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-09-01.yml"
+  },
+  {
+   "date": "1943-09-01",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-09-01.yml"
+  },
+  {
+   "date": "1943-09-01",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "miscellaneous",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Miscellaneous",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-09-01.yml"
+  },
+  {
+   "date": "1943-09-15",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "16",
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1943-09-15.yml"
+  },
+  {
+   "date": "1943-09-15",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "16",
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1943-09-15.yml"
+  },
+  {
+   "date": "1943-09-15",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "16",
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1943-09-15.yml"
+  },
+  {
+   "date": "1943-09-15",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.4",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "16",
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1943-09-15.yml"
+  },
+  {
+   "date": "1943-09-15",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "16",
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1943-09-15.yml"
+  },
+  {
+   "date": "1943-09-15",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "16",
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1943-09-15.yml"
+  },
+  {
+   "date": "1943-10-01",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-10-01.yml"
+  },
+  {
+   "date": "1943-10-01",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-10-01.yml"
+  },
+  {
+   "date": "1943-10-01",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "refit",
+   "place": "Midway",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Midway",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-10-01.yml"
+  },
+  {
+   "date": "1943-10-01",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.4",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-10-01.yml"
+  },
+  {
+   "date": "1943-10-01",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.21",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-10-01.yml"
+  },
+  {
+   "date": "1943-10-01",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-10-01.yml"
+  },
+  {
+   "date": "1943-10-01",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-10-01.yml"
+  },
+  {
+   "date": "1943-10-15",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1943-10-15.yml"
+  },
+  {
+   "date": "1943-10-15",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "refit",
+   "place": "Midway",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Midway",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1943-10-15.yml"
+  },
+  {
+   "date": "1943-10-15",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.1",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1943-10-15.yml"
+  },
+  {
+   "date": "1943-10-15",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.21",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1943-10-15.yml"
+  },
+  {
+   "date": "1943-10-15",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1943-10-15.yml"
+  },
+  {
+   "date": "1943-10-15",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1943-10-15.yml"
+  },
+  {
+   "date": "1943-11-01",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-11-01.yml"
+  },
+  {
+   "date": "1943-11-01",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.15",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-11-01.yml"
+  },
+  {
+   "date": "1943-11-01",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.10",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-11-01.yml"
+  },
+  {
+   "date": "1943-11-01",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.1",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-11-01.yml"
+  },
+  {
+   "date": "1943-11-01",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-11-01.yml"
+  },
+  {
+   "date": "1943-11-01",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "miscellaneous",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Miscellaneous",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-11-01.yml"
+  },
+  {
+   "date": "1943-11-15",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-11-15.yml"
+  },
+  {
+   "date": "1943-11-15",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-11-15.yml"
+  },
+  {
+   "date": "1943-11-15",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "refit",
+   "place": "Midway",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Midway",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-11-15.yml"
+  },
+  {
+   "date": "1943-11-15",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.10",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-11-15.yml"
+  },
+  {
+   "date": "1943-11-15",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.15",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-11-15.yml"
+  },
+  {
+   "date": "1943-11-15",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-11-15.yml"
+  },
+  {
+   "date": "1943-12-01",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-12-01.yml"
+  },
+  {
+   "date": "1943-12-01",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.10",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-12-01.yml"
+  },
+  {
+   "date": "1943-12-01",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.15",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-12-01.yml"
+  },
+  {
+   "date": "1943-12-01",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "transit",
+   "place": null,
+   "unit": null,
+   "note": "enroute Sowespac to Pearl Harbor",
+   "heading": "Miscellaneous",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1943-12-01.yml"
+  },
+  {
+   "date": "1943-12-15",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-12-15.yml"
+  },
+  {
+   "date": "1943-12-15",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-12-15.yml"
+  },
+  {
+   "date": "1943-12-15",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-12-15.yml"
+  },
+  {
+   "date": "1943-12-15",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.17",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-12-15.yml"
+  },
+  {
+   "date": "1943-12-15",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.4",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-12-15.yml"
+  },
+  {
+   "date": "1943-12-15",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "14"
+   ],
+   "fold3_image": null,
+   "file": "1943-12-15.yml"
+  },
+  {
+   "date": "1944-01-01",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-01-01.yml"
+  },
+  {
+   "date": "1944-01-01",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-01-01.yml"
+  },
+  {
+   "date": "1944-01-01",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.4",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-01-01.yml"
+  },
+  {
+   "date": "1944-01-01",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.3",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-01-01.yml"
+  },
+  {
+   "date": "1944-01-01",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.17",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-01-01.yml"
+  },
+  {
+   "date": "1944-01-01",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-01-01.yml"
+  },
+  {
+   "date": "1944-01-15",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.3",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "13"
+   ],
+   "fold3_image": null,
+   "file": "1944-01-15.yml"
+  },
+  {
+   "date": "1944-01-15",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.1",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "13"
+   ],
+   "fold3_image": null,
+   "file": "1944-01-15.yml"
+  },
+  {
+   "date": "1944-01-15",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.17",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "13"
+   ],
+   "fold3_image": null,
+   "file": "1944-01-15.yml"
+  },
+  {
+   "date": "1944-01-15",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.4",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "13"
+   ],
+   "fold3_image": null,
+   "file": "1944-01-15.yml"
+  },
+  {
+   "date": "1944-01-15",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "13"
+   ],
+   "fold3_image": null,
+   "file": "1944-01-15.yml"
+  },
+  {
+   "date": "1944-01-15",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "transit",
+   "place": null,
+   "unit": null,
+   "note": "enroute Pearl Harbor to West Coast",
+   "heading": "Miscellaneous",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "13"
+   ],
+   "fold3_image": null,
+   "file": "1944-01-15.yml"
+  },
+  {
+   "date": "1944-02-01",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "modernization",
+   "place": "San Francisco Bay area",
+   "unit": null,
+   "note": null,
+   "heading": "Under modernization San Francisco Bay Area",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-02-01.yml"
+  },
+  {
+   "date": "1944-02-01",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-02-01.yml"
+  },
+  {
+   "date": "1944-02-01",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-02-01.yml"
+  },
+  {
+   "date": "1944-02-01",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.3",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-02-01.yml"
+  },
+  {
+   "date": "1944-02-01",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.1",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-02-01.yml"
+  },
+  {
+   "date": "1944-02-01",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-02-01.yml"
+  },
+  {
+   "date": "1944-02-15",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "modernization",
+   "place": "San Francisco Bay area",
+   "unit": null,
+   "note": null,
+   "heading": "Under modernization San Francisco Bay Area",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-02-15.yml"
+  },
+  {
+   "date": "1944-02-15",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-02-15.yml"
+  },
+  {
+   "date": "1944-02-15",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-02-15.yml"
+  },
+  {
+   "date": "1944-02-15",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-02-15.yml"
+  },
+  {
+   "date": "1944-02-15",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.1",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-02-15.yml"
+  },
+  {
+   "date": "1944-02-15",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-02-15.yml"
+  },
+  {
+   "date": "1944-03-01",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "modernization",
+   "place": "San Francisco Bay area",
+   "unit": null,
+   "note": null,
+   "heading": "Under modernization San Francisco Bay Area",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-03-01.yml"
+  },
+  {
+   "date": "1944-03-01",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-03-01.yml"
+  },
+  {
+   "date": "1944-03-01",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-03-01.yml"
+  },
+  {
+   "date": "1944-03-01",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.14",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-03-01.yml"
+  },
+  {
+   "date": "1944-03-01",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.5",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-03-01.yml"
+  },
+  {
+   "date": "1944-03-01",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "transit",
+   "place": null,
+   "unit": null,
+   "note": "enroute Pearl from TF 71",
+   "heading": "Miscellaneous",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "4"
+   ],
+   "fold3_image": null,
+   "file": "1944-03-01.yml"
+  },
+  {
+   "date": "1944-03-15",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "modernization",
+   "place": "San Francisco Bay area",
+   "unit": null,
+   "note": null,
+   "heading": "Under modernizati on San Francisco Bay Area",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "13"
+   ],
+   "fold3_image": null,
+   "file": "1944-03-15.yml"
+  },
+  {
+   "date": "1944-03-15",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "13"
+   ],
+   "fold3_image": null,
+   "file": "1944-03-15.yml"
+  },
+  {
+   "date": "1944-03-15",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "13"
+   ],
+   "fold3_image": null,
+   "file": "1944-03-15.yml"
+  },
+  {
+   "date": "1944-03-15",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.5",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "13"
+   ],
+   "fold3_image": null,
+   "file": "1944-03-15.yml"
+  },
+  {
+   "date": "1944-03-15",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.20",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "13"
+   ],
+   "fold3_image": null,
+   "file": "1944-03-15.yml"
+  },
+  {
+   "date": "1944-04-30",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "refit",
+   "place": "Majuro",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Majuro",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1944-04-30.yml"
+  },
+  {
+   "date": "1944-04-30",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.20",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1944-04-30.yml"
+  },
+  {
+   "date": "1944-04-30",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.29",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1944-04-30.yml"
+  },
+  {
+   "date": "1944-04-30",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.15.1",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1944-04-30.yml"
+  },
+  {
+   "date": "1944-04-30",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.10",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1944-04-30.yml"
+  },
+  {
+   "date": "1944-04-30",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "17"
+   ],
+   "fold3_image": null,
+   "file": "1944-04-30.yml"
+  },
+  {
+   "date": "1944-05-15",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Pearl Harbor",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-05-15.yml"
+  },
+  {
+   "date": "1944-05-15",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "refit",
+   "place": "Majuro",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Majuro",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-05-15.yml"
+  },
+  {
+   "date": "1944-05-15",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.29",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-05-15.yml"
+  },
+  {
+   "date": "1944-05-15",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.22",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-05-15.yml"
+  },
+  {
+   "date": "1944-05-15",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.24",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-05-15.yml"
+  },
+  {
+   "date": "1944-05-15",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.10",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-05-15.yml"
+  },
+  {
+   "date": "1944-05-31",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "refit",
+   "place": "Majuro",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Majuro",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "19"
+   ],
+   "fold3_image": null,
+   "file": "1944-05-31.yml"
+  },
+  {
+   "date": "1944-05-31",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "refit",
+   "place": "Majuro",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at Majuro",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "19"
+   ],
+   "fold3_image": null,
+   "file": "1944-05-31.yml"
+  },
+  {
+   "date": "1944-05-31",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.22",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "19"
+   ],
+   "fold3_image": null,
+   "file": "1944-05-31.yml"
+  },
+  {
+   "date": "1944-05-31",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.24",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "19"
+   ],
+   "fold3_image": null,
+   "file": "1944-05-31.yml"
+  },
+  {
+   "date": "1944-05-31",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.7",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "19"
+   ],
+   "fold3_image": null,
+   "file": "1944-05-31.yml"
+  },
+  {
+   "date": "1944-05-31",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "transit",
+   "place": null,
+   "unit": null,
+   "note": "enroute Pearl to West Coast",
+   "heading": "Miscellaneous operations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "19"
+   ],
+   "fold3_image": null,
+   "file": "1944-05-31.yml"
+  },
+  {
+   "date": "1944-06-15",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "modernization",
+   "place": "San Francisco Bay area",
+   "unit": null,
+   "note": null,
+   "heading": "Under modernization San Francisco Bay Area",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-06-15.yml"
+  },
+  {
+   "date": "1944-06-15",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "refit",
+   "place": "Majuro",
+   "unit": null,
+   "note": null,
+   "heading": "Under refit at MAJURO",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-06-15.yml"
+  },
+  {
+   "date": "1944-06-15",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.22",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-06-15.yml"
+  },
+  {
+   "date": "1944-06-15",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.7",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-06-15.yml"
+  },
+  {
+   "date": "1944-06-15",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.18",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-06-15.yml"
+  },
+  {
+   "date": "1944-06-15",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "transit",
+   "place": null,
+   "unit": null,
+   "note": "enroute San Francisco from Pearl",
+   "heading": "Miscellaneous operations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "11"
+   ],
+   "fold3_image": null,
+   "file": "1944-06-15.yml"
+  },
+  {
+   "date": "1944-06-30",
+   "boat": "SS-236",
+   "name": "SILVERSIDES",
+   "status": "modernization",
+   "place": "San Francisco Bay area",
+   "unit": null,
+   "note": null,
+   "heading": "Under modernization San Francisco Bay Area",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "18"
+   ],
+   "fold3_image": null,
+   "file": "1944-06-30.yml"
+  },
+  {
+   "date": "1944-06-30",
+   "boat": "SS-237",
+   "name": "TRIGGER",
+   "status": "modernization",
+   "place": "San Francisco Bay area",
+   "unit": null,
+   "note": null,
+   "heading": "Under modernization San Francisco Bay Area",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "18"
+   ],
+   "fold3_image": null,
+   "file": "1944-06-30.yml"
+  },
+  {
+   "date": "1944-06-30",
+   "boat": "SS-228",
+   "name": "DRUM",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.12",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "18"
+   ],
+   "fold3_image": null,
+   "file": "1944-06-30.yml"
+  },
+  {
+   "date": "1944-06-30",
+   "boat": "SS-230",
+   "name": "FINBACK",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.2.7",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "18"
+   ],
+   "fold3_image": null,
+   "file": "1944-06-30.yml"
+  },
+  {
+   "date": "1944-06-30",
+   "boat": "SS-283",
+   "name": "TINOSA",
+   "status": "patrol",
+   "place": null,
+   "unit": "17.1.18",
+   "note": null,
+   "heading": "Enroute patrol stations, on patrol, or enroute from patrol stations",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "18"
+   ],
+   "fold3_image": null,
+   "file": "1944-06-30.yml"
+  },
+  {
+   "date": "1944-06-30",
+   "boat": "SS-229",
+   "name": "FLYING FISH",
+   "status": "other_task_force",
+   "place": null,
+   "unit": null,
+   "note": null,
+   "heading": "Assigned other task forces",
+   "source": "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), War Diary, Disposition of Forces",
+   "date_stated": true,
+   "date_basis": "stated on the page",
+   "sheets": [
+    "18"
+   ],
+   "fold3_image": null,
+   "file": "1944-06-30.yml"
+  }
+ ],
  "periods": [
   {
    "boat": "SS-236",
@@ -33,6 +3448,33 @@
     "17.8": "San Francisco Training Group",
     "17.9": "San Diego Training Group"
    }
+  }
+ ],
+ "changes": [
+  {
+   "date": "1943-05-25",
+   "boat": "SS-236",
+   "text": "SILVERSIDES passed from command of this force to command of Commander Submarines, Southwest Pacific Force."
+  },
+  {
+   "date": "1943-10-30",
+   "boat": "SS-236",
+   "text": "SILVERSIDES joined this command from Subsowespac."
+  },
+  {
+   "date": "1943-11-22",
+   "boat": "SS-228",
+   "text": "DRUM passed to the command of Comtaskfor 17."
+  },
+  {
+   "date": "1943-12-04",
+   "boat": "SS-283",
+   "text": "TINOSA passed to command of Commander Task Force Seventy-one."
+  },
+  {
+   "date": "1944-02-16",
+   "boat": "SS-283",
+   "text": "TINOSA passed to command CTF 17."
   }
  ]
 }
