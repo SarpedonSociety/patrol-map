@@ -1,0 +1,635 @@
+YAML
+
+```
+boat:            SS-236
+patrol:          5
+year:            1943
+report:          "U.S.S. SILVERSIDES Report of Fifth War Patrol."
+comsubpac_report_no:  
+commanding_officer: 
+citation:
+  archive:       "NARA"
+  record_group:  "38"
+  nara_catalog_id: "4697018"
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - са. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946"
+  reel:          "A430"
+  micro_serial:  "51885"
+  file:          "A16-3"
+  serial:        "9"
+  date:          "7/1/1943"
+fold3_images:    { 1: 269424035, 2: 269424039, 3: 269424042, 4: 269424049, 5: 269424054, 6: 269424060, 7: 269424064, 8: 269424069, 9: 269424074 }
+default_hemisphere: { lat: N, lon: E }
+departure: { port: "Submarine Base, Pearl Harbor", date: "17 May", time: "1115", zone: "VW", page: "1", flags: "" }
+arrival:   { port: "Brisbane Australia", date: "1 July", time: , zone: , page: "9", flags: "" }
+events:
+  - date:        "17 May"
+    time:        "1115"
+    zone:        "VW"
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "Underway from Submarine Base, Pearl Harbor at 1115 VW for fifth war patrol. Conducted drills and training dives enroute."
+    page:        "1"
+    flags:       ""
+  - date:        "19 May"
+    time:        "0945"
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "At 0945 moored at Johnston Island. Took on 11,016 gallons deisel oil. Departed Johnston for assigned area at two engine speed at 1303 W."
+    page:        "2"
+    flags:       "0945 moored typed as 0945mocrad; departure time zone is W"
+  - date:        "20-23 May"
+    time:        
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "Conducted training dives and day and night battle surface exercise firings. Our four inch ammunition is not repeat not flashless even though the can says so."
+    page:        "2"
+    flags:       ""
+  - date:        "24 May"
+    time:        "0715"
+    zone:        "M"
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "At 0715 M submerged for one half hour on radar indication of 3 miles. No planes sighted."
+    page:        "2"
+    flags:       ""
+  - date:        "25 May"
+    time:        "0550"
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "[SUMMARY] Sighted Apanama Island dead ahead, submerged at 0610 for reconnaissance. Sighted Type 97 bomber three times. No shipping or activity; retired westward, sighting Kuria Island at 1624."
+    page:        "2"
+    flags:       ""
+  - date:        "26 May"
+    time:        "1600"
+    zone:        
+    lat:         "0"
+    lon:         "169-39 E"
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "Ran submerged in order to arrive off NAURU in morning. Crossed equator at 1600, longitude 1690-39 East."
+    page:        "2"
+    flags:       "Longitude typed as 1690-39 East"
+  - date:        "27 May"
+    time:        "0611"
+    zone:        "M"
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "[SUMMARY] Commenced submerged reconnaissance of Nauru from westward. Sighted three Zero fighters taking off. Phosphate works intact and inactive. Surfaced at 1953; island searchlight swept sky and illuminated boat briefly."
+    page:        "2-3"
+    flags:       "Entry spans pages 2 and 3; time typed as 0611 M approaching form westward; CTF 72 control at 1200 M"
+  - date:        "28-29 May"
+    time:        
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "[SUMMARY] Proceeded on surface toward assigned position. On 28th, a frigate bird made a bombing attack scoring a direct hit on the head and beard of Lieutenant Bienia."
+    page:        "3"
+    flags:       ""
+  - date:        "30 May"
+    time:        "0800"
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "Submerged at 0800 and continued submerged during daylight as directed by CTF 72."
+    page:        "3"
+    flags:       ""
+  - date:        "31 May"
+    time:        
+    zone:        
+    lat:         "01-30 S"
+    lon:         "152-30 ⟦E⟧"
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "[SUMMARY] Proceeding submerged through wreckage, empty life rafts, lumber, and oil drums at Lat 01-30 S, Long 152-30. Upon surfacing, sighted Kavieng searchlights sweeping sky 100 miles away."
+    page:        "3"
+    flags:       "Longitude typed as 152-30 3 (clearly intended for E); Kavieng spelled VIENG"
+  - date:        "1 June"
+    time:        "0605"
+    zone:        "L"
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "[SUMMARY] Made landfall on north shore of New Ireland, dived at 0605 L. Closed area between New Ireland and New Hanover. Sighted patrol plane and Kavieng searchlights upon surfacing."
+    page:        "3"
+    flags:       "Kavieng spelled LAVING / LAVIENG / VIENG"
+  - date:        "2-3 June"
+    time:        
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "Continued on Westerly course, submerged during day. Reconnoitred Tench Island night of 3rd. Sighted light on island or on small fishing boat on the reef."
+    page:        "4"
+    flags:       "Reconnoitered and reef spelled Reconnoitrad and roof; submerged typed as suborgid"
+  - date:        "4 June"
+    time:        "0840"
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         minefield
+    title:       "Mine laying off Steffan Strait"
+    part:        "I"
+    charges:     
+    damage:      
+    course:      "north, then northeast"
+    speed:       "3 engines"
+    event:       "Commenced submerged aproach on area for mine laying. At 0840 heard echo ranging; at 0905 sighted mast ahead; identified as 500 ton patrol boat similar to our PC450 class. Very trim ship with guns forward and aft. Evaded at periscope depth. Patrol boat skirted reef north of New Hanover disappearing to northwest. At 1942 sighted nightly searchlights at LAVIENG. At 2049 surfaced just north of Steffan Strait. At 2054 commenced laying. Two floater of twenty four laid. At 2134 upon completion of mine laying, headed north on 3 engines until clear. Then northeast to report results."
+    page:        "4"
+    flags:       "Floater typed as floater; commenced typed as comnanced; northeast typed as northease"
+  - date:        "5 June"
+    time:        
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "Proceeded to newly assigned area and conducted submerged patrol during day. Nothing sighted."
+    page:        "4"
+    flags:       ""
+  - date:        "6 June"
+    time:        "0420"
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      "210°T, then 165°"
+    speed:       "15.5 or better / 17 knots"
+    event:       "[SUMMARY] Sighted large merchant ship in lightning flash; chased at full power on four engines until 0552. Closed to 3,550 yards but broke off approach at dawn as plane appeared."
+    page:        "4-5"
+    flags:       "Spans pages 4 and 5"
+  - date:        "7-9 June"
+    time:        
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "Continued uneventful submerged patrol."
+    page:        "5"
+    flags:       ""
+  - date:        "10 June"
+    time:        "0750"
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      "zero"
+    speed:       "four engines"
+    event:       "[SUMMARY] Sighted convoy bearing 328°T at 16,000 yards. Surfaced at 1030 to work ahead of northbound single-stack passenger freighter with two escorts, closing at twilight for night surface approach."
+    page:        "5-6"
+    flags:       "Spans pages 5 and 6"
+  - date:        "11 June"
+    time:        "0030"
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         attack
+    title:       "Night torpedo attack on passenger freighter"
+    part:        "I"
+    charges:     
+    damage:      
+    course:      "swung right to clear"
+    speed:       
+    event:       "Went to battle stations and commenced attack at 0030. At 0045 SJ made initial contact at 10000 yards, target on port bow, course north, speed 10.5. This is the first time our radar has picked up a target and functioned properly during the current war. When range had been decreased it was seen that other two ships were escort vessels small DD's, corvettes or mine layers. So decided to concentrate torpedoes on big ship since it must be especially valuable with two escorts. No other ships seen or contacted in SJ sweep. At 0104 fired four torpedoes, ten second interval, no spread, straight bow shot, 80° starboard track and then swung right to clear formation. First hit looked to be a magnetic explosion, ship seemed to jump out of water and streak of flame twice ships length on water line. Second hit under bridge, large column of water and smoke. Third hit heard and felt throughout ship but not observed; we were concentrating on getting clear at that time fourth, missed. One escort vessel went down torpedo track and not finding us they opened with searchlight. Just at this time an explosion occurred on the target, evidentally gasoline as a bright flame shot up 200 feet in air and completely enveloped the ship. Also lit us up like a church. We could even see the camoflouge on the escorts."
+    page:        "6"
+    flags:       "Part of continuous narrative entry for 11 June detailing attack, gunfire, dive, and subsequent depth charging"
+  - date:        "11 June"
+    time:        "0118"
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         attack
+    title:       "Stern tube shot at trailing escort"
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "One escort at least opened fire at us and picked us up in the searchlight, range closing rapidly even at our best speed. About a half dozen shells hit around us; ducked at range of 1700 yards at 0118 and fired one stern tube at the trailing escort as we went down. This probably saved our necks as later events indicated that he had to maneuver to avoid and thus lost a golden opportunity."
+    page:        "6"
+    flags:       ""
+  - date:        "11 June"
+    time:        "0118"
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         notable
+    title:       "Jammed diving planes"
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "We probably made the all time record from surface to 100 feet but the planes jammed and we set another record for coming up to 35 feet. Finally got control in hand power and went down again."
+    page:        "6"
+    flags:       ""
+  - date:        "11 June"
+    time:        "0120"
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         counterattack
+    title:       "Depth charge attack by escort"
+    part:        "I"
+    charges:     "four barrages"
+    damage:      "kicked out main motor overload relays; opened valve on fresh water system causing about 1000 gallons of fresh water in #1 FWT to run aft into #3 FWT; after bridge loud speaker diaphragm was ruptured; usual cork paint, gauge glasses, meters, depth gauges and loose gear knocked about"
+    course:      
+    speed:       
+    event:       "As we passed 140 feet one escort came overhead and let go a close barrage. This kicked out main motor overload relays but we regained power immediately. Also opened valve on fresh water system and angle on the boat caused about 1000 gallons of fresh water in #1 FWT to run aft into #3 FWT, thereby messing up the trim since this was not discovered until surfacing. The after bridge loud speaker diaphragm was ruptured as was also discovered on surfacing. The usual cork paint, gauge glasses, meters, depth gauges and loose gear were knocked about but no serious damage. He then let go another barrage ahead of us. Not so close. Two more came ten minutes later further away. The escorts then pulled out of sound range so we surfaced at 0235 about 8000 yards from the burning target."
+    page:        "6-7"
+    flags:       "Spans pages 6 and 7; time estimated around 0120; charges described as four separate barrages"
+  - date:        "11 June"
+    time:        "0235"
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       "four main engines"
+    event:       "[SUMMARY] Surfaced near burning target; gasoline explosions continued until violent explosion at 0540 destroyed the ship. Submerged for day; sighted patrol plane at 1220; departed at 2325 on four engines."
+    page:        "7"
+    flags:       ""
+  - date:        "12-16 June"
+    time:        "0430"
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      "east west"
+    speed:       
+    event:       "Arrived in newly assigned area at 0430 June 12; nothing sighted. Conducted submerged patrol in center of area on east west courses."
+    page:        "7"
+    flags:       ""
+  - date:        "17-18 June"
+    time:        
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      "314°T"
+    speed:       
+    event:       "Proceeded on course 314°T. toward newly assigned position."
+    page:        "7"
+    flags:       ""
+  - date:        "19 June"
+    time:        "0115"
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         notable
+    title:       "Encounter with USS Guardfish"
+    part:        "I"
+    charges:     
+    damage:      
+    course:      "324°T, then 52, 150°T, 220"
+    speed:       "5 knots, 2.5, full speed"
+    event:       "At 0115 arrived on station, changed course to 324°T. At 0230 changed course to 52 toward new station. At 0510 sighted submarine bearing 346°T. Exchanged recognition signals with U.S.S. GUARDFISH. She advised that she was in contact with convoy 15 miles astern on base course 150°T, speed 9. We got on convoy's track and opened out to southward from GUARDFISH who submerged about 0800. In order to increase range of visibility and be in position to communicate by radio we stayed on surface speed 5 knots, on convoy's track until 1300. Radar interference noted on SD screen so submerged on course 150 T, speed 2.5. Nothing sighted all day. From 1725 to 1830 heard very distant underwater explosions, first 4 of which were louder than rest. Still nothing in sight with 15 feet of periscope out. Surfaced at 1943. At 2143 changed to full speed to intercept convoy, course 220 for remainder of night."
+    page:        "8"
+    flags:       "Guardfish typed with various spellings (GUARDFISH, GURDFISH)"
+  - date:        "20 June"
+    time:        
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "Submerged on base course of convoy ahead of his 9 knots position. Conducted high periscope patrol but nothing sighted. Upon surfacing after sunset proceeded to newly assigned area."
+    page:        "8"
+    flags:       ""
+  - date:        "21-22 June"
+    time:        
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      "east west"
+    speed:       
+    event:       "Patrolling east west line in center of area, high periscope patrol during day."
+    page:        "8"
+    flags:       ""
+  - date:        "23 June"
+    time:        "0100"
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "[SUMMARY] Received orders to return to base; departed area at 0640. Observed searchlights and possible bomb explosions or lightning over Kavieng at 0100, 0545, and 2010."
+    page:        "8"
+    flags:       "Kavieng spelled LVING"
+  - date:        "25 June"
+    time:        "0525"
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "Sighted searchlights at Buka Passage sweeping sky at 0525."
+    page:        "8"
+    flags:       ""
+  - date:        "27 June"
+    time:        "0750"
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         notable
+    title:       "Friendly aircraft contact"
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "Commenced running on the surface during day. 0750 exchanged recognition signals with Lockheed Hudson bomber with RAF markings."
+    page:        "8-9"
+    flags:       "Spans pages 8 and 9; Lockheed spelled Lockhead"
+  - date:        "29 June"
+    time:        "1630"
+    zone:        
+    lat:         
+    lon:         
+    from:        "Fredrick Reef"
+    bearing:     "E"
+    distance:    "20 miles"
+    bearing_is:  from_landmark
+    tag:         rescue
+    title:       "Empty carley raft recovered"
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "At 1630 while 20 miles east of Fredrick Reef sighted empty carley raft. Took it aboard for identification."
+    page:        "9"
+    flags:       "Carley raft typed as corley raft; Frederick Reef typed as Fredrick Reef"
+  - date:        "1 July"
+    time:        
+    zone:        
+    lat:         
+    lon:         
+    from:        
+    bearing:     
+    distance:    
+    bearing_is:  
+    tag:         
+    title:       
+    part:        "I"
+    charges:     
+    damage:      
+    course:      
+    speed:       
+    event:       "Arrived Brisbane Australia."
+    page:        "9"
+    flags:       ""
+```
+
+Could not transcribe: Output 2 omitted as no tabular pages (Parts V, VI, VII, noon positions, or BT data) were provided in the document selection.

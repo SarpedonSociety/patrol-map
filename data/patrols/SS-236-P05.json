@@ -68,7 +68,7 @@
   "counterattacks": 1,
   "torpedoes_fired": 5,
   "gun_actions": 0,
-  "flagged": 53
+  "flagged": 54
  },
  "track": [
   {
@@ -423,7 +423,9 @@
     "firing_range": "6000",
     "remarks": "Four engine bomber, type 97. Same or similar plane sighted twice later in morning."
    },
-   "flags": [],
+   "flags": [
+    "Review: The two reads disagree on the Alt. column for aircraft 1-3: first read V, 1000, blank; second read blank, blank, 1000. Check page 10."
+   ],
    "contact_no": "2."
   },
   {
@@ -616,7 +618,7 @@
     "event": "Proceeded on surface toward assigned position. On the 28th a frigate bird made a high level bombing attack, scoring a direct hit on the bare head and beard of the CO, Lt. Bienia. No indication by radar prior to attack."
    },
    "flags": [
-    "Gemini wrote 'CO' but its own flag says the page reads 'COD', most likely 'OOD': a lieutenant named Bienia wouldn't be the commanding officer. Check the page. Missing time and zone.",
+    "Gemini wrote 'CO' but its own flag says the page reads 'COD', most likely 'OOD': a lieutenant named Bienia wouldn't be the commanding officer. The second read (check-gemini-01.yml) says only 'Lieutenant Bienia'. Check the page. Missing time and zone.",
     "No time given; placed at noon GMT on that date."
    ]
   },
@@ -880,7 +882,7 @@
     "event": "At 2049 surfaced just north of Steffan Strait. At 2054 commenced laying. Two floater of twenty four laid. At 2134 upon completion of mine laying, headed north on 3 engines until clear. Then northeast to report results."
    },
    "flags": [
-    "'Two floater of twenty four laid' doesn't read as a sentence; check the page for the number of mines. Missing zone.",
+    "'Two floater of twenty four laid' doesn't read as a sentence, but both reads give it word for word, so it is probably as typed. Check the page for the number of mines. Missing zone.",
     "No zone letter on this entry; zone L assumed from the previous entry.",
     "Position given only as 'N of Steffan Strait' with no distance; placed at Steffan Strait itself, as a rough estimate."
    ]

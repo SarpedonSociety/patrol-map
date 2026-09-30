@@ -2,6 +2,9 @@
 # Transcribed by Gemini: gemini-01.yml (narrative, pages 1-9) and
 # contacts-01.md (Parts V, VI and VII, pages 10-11). Part VIII reads
 # "nothing new" and was not transcribed. Hand entries here take precedence.
+# check-gemini-01.yml and check-contacts.md are a second read of the same
+# pages in a fresh chat, kept for verification; the converter ignores them.
+# The two reads agree on every position and time.
 
 boat: SS-236
 patrol: 5
@@ -55,7 +58,7 @@ events:
     part: I
     event: "Proceeded on surface toward assigned position. On the 28th a frigate bird made a high level bombing attack, scoring a direct hit on the bare head and beard of the CO, Lt. Bienia. No indication by radar prior to attack."
     page: 3
-    flags: "Gemini wrote 'CO' but its own flag says the page reads 'COD', most likely 'OOD': a lieutenant named Bienia wouldn't be the commanding officer. Check the page. Missing time and zone."
+    flags: "Gemini wrote 'CO' but its own flag says the page reads 'COD', most likely 'OOD': a lieutenant named Bienia wouldn't be the commanding officer. The second read (check-gemini-01.yml) says only 'Lieutenant Bienia'. Check the page. Missing time and zone."
   - replaces: { date: 4 June., time: "2049" }
     date: 4 June.
     time: "2049"
@@ -69,4 +72,4 @@ events:
     speed: 3 engines
     event: "At 2049 surfaced just north of Steffan Strait. At 2054 commenced laying. Two floater of twenty four laid. At 2134 upon completion of mine laying, headed north on 3 engines until clear. Then northeast to report results."
     page: 4
-    flags: "'Two floater of twenty four laid' doesn't read as a sentence; check the page for the number of mines. Missing zone."
+    flags: "'Two floater of twenty four laid' doesn't read as a sentence, but both reads give it word for word, so it is probably as typed. Check the page for the number of mines. Missing zone."

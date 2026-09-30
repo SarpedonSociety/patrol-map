@@ -32,6 +32,11 @@ order and combines them. Anything you enter by hand in `patrol.yml`
 (departure, arrival, tonnage, corrections) takes precedence over the
 batches.
 
+**One report per chat.** Start a fresh chat for each report. Late in a
+long chat Gemini's flags filled with garbled "typed ..." readings, and it
+answered one report with an earlier report's transcription; a fresh chat
+on the same pages came back clean.
+
 **If the chat still struggles.** Run the prompt twice on the same PDF:
 first add `Produce OUTPUT 1 only.` at the end, then in a new chat add
 `Produce OUTPUT 2 only.`
@@ -132,7 +137,11 @@ Use `minefield` only for entries where laying begins, ends or is
 interrupted, and for a ship sunk or damaged by the mines; record any
 positions, bearings or landmarks given.
 
-Each entry's time is the one printed at the start of that entry. Never
+Each entry's time is the one printed at the start of that entry. When
+a day's paragraph runs through several times ("At 0840 ... At 2049
+surfaced ... At 2054 commenced laying"), start a new entry at each time
+that begins a new action, so a mine plant, an attack or a meeting keeps
+its own time. Never
 move a time from one entry to another. If an entry's first line is a
 heading (contact number, attack number, position) with its own time,
 keep that time with that entry. Keep torpedoes fired, hits and results in
