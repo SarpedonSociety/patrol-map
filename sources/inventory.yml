@@ -19,7 +19,7 @@ SS-236:   # Silversides
   2:  { status: available, found_in: Fold3 }
   3:  { status: missing }
   4:  { status: transcribed, found_in: Fold3, report_no: 133, start: 1942-12-17, end: 1943-01-31, note: "From Brisbane to Pearl. Gemini gemini-01/02 (narrative), gemini-03 (Part VIII), contacts-01; appendectomy and stuck-torpedo entries hand-transcribed from the scans" }
-  5:  { status: available, found_in: Fold3 }
+  5:  { status: available, found_in: Fold3, start: 1943-05-17, end: 1943-07-01, note: "Second overlap set" }
   6:  { status: available, found_in: Fold3 }
   7:  { status: available, found_in: Fold3 }
   8:  { status: available, found_in: Fold3 }
@@ -35,7 +35,7 @@ SS-230:   # Finback — commissioned 31 Jan 1942, Electric Boat
   2:  { status: available, found_in: "Fold3, COMSUBSPAC collection", note: "Tonnage from war history already in sources/SS-230/P02; needs patrol dates" }
   3:  { status: transcribed, found_in: Fold3, report_no: 141, start: 1942-12-16, end: 1943-02-06, note: "Tables (pages 13-14) and endorsement hand-transcribed; narrative not transcribed. Arrival port to add." }
   4:  { status: missing, note: "Tonnage from war history in sources/SS-230/P04; needs patrol dates" }
-  5:  { status: available, found_in: Fold3 }
+  5:  { status: available, found_in: Fold3, start: 1943-05-12, end: 1943-06-26, note: "Second overlap set" }
   6:  { status: available, found_in: Fold3 }
   7:  { status: available, found_in: Fold3 }
   8:  { status: available, found_in: Fold3 }
@@ -49,7 +49,7 @@ SS-237:   # Trigger — commissioned 31 Jan 1942, Mare Island; lost 28 Mar 1945
   2:  { status: available, found_in: Fold3 }
   3:  { status: transcribed, found_in: Fold3, report_no: 128, start: 1942-12-03, end: 1943-01-22, note: "Gemini batches 01-03 (narrative, pages 2-11) and contacts-01 (tables, pages 13-15); to verify" }
   4:  { status: available, found_in: Fold3 }
-  5:  { status: available, found_in: Fold3 }
+  5:  { status: available, found_in: Fold3, start: 1943-04-30, end: 1943-06-22, note: "Second overlap set" }
   6:  { status: available, found_in: Fold3 }
   7:  { status: available, found_in: Fold3 }
   8:  { status: available, found_in: Fold3 }
