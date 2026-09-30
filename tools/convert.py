@@ -43,6 +43,7 @@ for i, letter in enumerate("NOPQRSTUVWXY"):
     ZONES[letter] = -(i + 1)
 # Hawaiian time (GMT minus 10.5), written "VW" in Pearl Harbor reports.
 ZONES["VW"] = -10.5
+ZONES["VX"] = -10.5   # Finback Patrol 5 types Hawaiian time VX
 
 # Column headings seen so far, normalized -> field name.
 # Covers the hand-transcription layouts and the Gemini prompt layout.
@@ -58,7 +59,8 @@ COLUMNS = {
     "altitude": "altitude", "alt": "altitude", "contactno": "contact_no", "no": "contact_no",
     "attack": "attack_no", "intrange": "initial_range", "minrange": "min_range", "beart": "bearing",
     "bear": "bearing", "bearing": "bearing", "crse": "course", "spd": "speed", "rks": "remarks",
-    "lead": "lead", "timegct": "time", "locationlatlong": "lat_long",
+    "lead": "lead", "timegct": "time", "locationlatlong": "lat_long", "datelocal": "date",
+    "rangesighted": "initial_range", "rangeclosest": "min_range",
 }
 # Fallback: first keyword found in the normalized heading wins.
 KEYWORDS = [
@@ -71,7 +73,7 @@ KEYWORDS = [
     ("performance", "performance"), ("initialrange", "initial_range"),
     ("attacked", "attack_no"), ("attackyes", "attack_no"),
     # "RANGE (1st TORPEDO)" in attack summaries; digits are stripped first.
-    ("rangest", "firing_range"),
+    ("rangest", "firing_range"), ("speedtarget", "speed"),
 ]
 # Tables that record the boat's own positions rather than contacts:
 # density layer / bathythermograph observations, noon positions and the like.
@@ -214,6 +216,11 @@ def split_lat_long(text):
     """Split a combined 'Lat/Long' cell. Returns (lat, lon, flag)."""
     text = re.sub(r"<br\s*/?>|;|\bLat\.?|\bLong\.?|\bLon\.?", " ", unbracket(plain(text)), flags=re.I)
     text = re.sub(r"\(\s*\)", " ", text)   # what's left of "(lat)" / "(long)" labels
+    # "L-8°-32'(N) 134°-00(E)": drop the L- prefix and degree/minute marks,
+    # and take the hemisphere out of its brackets.
+    text = re.sub(r"^\s*L\s*-\s*", "", text)
+    text = re.sub(r"(?<=\d)\s*°\s*-?\s*", "-", text).replace("'", "").replace("’", "")
+    text = re.sub(r"\s*\(\s*([NSEW])\s*\)", r" \1", text, flags=re.I)
     text = re.sub(r"\s+", " ", text).strip()
     pair = re.fullmatch(r"(\d+-\d+(?:\.\d+)?(?:-\d+)?)\s*([NS])\.?\s+(\d+-\d+(?:\.\d+)?(?:-\d+)?)\s*([EW])?\.?", text, re.I)
     if pair:
@@ -231,10 +238,20 @@ def split_lat_long(text):
     return None, None, f"Could not read a position from '{text}'."
 
 
+def find_landmark(landmarks, name):
+    """Look a landmark up as typed, then without a leading 'the',
+    'entrance(s) to' or 'off' ('entrances to Malakal Harbor')."""
+    key = str(name or "").strip().lower()
+    if key in landmarks:
+        return landmarks[key]
+    bare = re.sub(r"^(?:the\s+|entrances?\s+to\s+(?:the\s+)?|off\s+)", "", key)
+    return landmarks.get(bare)
+
+
 def parse_date(date_str, year, first_month):
     """'10MAY' (year from patrol.yml) or '10/4/43' (M/D/YY) -> (y, m, d)."""
     d = plain(date_str or "").upper().replace(",", " ").replace(".", " ").strip()
-    d = re.sub(r"^(\d{1,2})\s*-\s*\d{1,2}\b", r"\1", d)   # "28-31 December" -> first day
+    d = re.sub(r"^(\d{1,2})\s*-\s*\d{1,2}\b(?!\s*-)", r"\1", d)   # "28-31 December" -> first day (not "5-27-43")
     d = re.sub(r"\s+", " ", d)
     words = re.fullmatch(r"([A-Z]{3})[A-Z]*\.?\s+(\d{1,2})(?:\s+(\d{4}))?|(\d{1,2})\s+([A-Z]{3})[A-Z]*\.?(?:\s+(\d{4}))?", d)
     if words:
@@ -252,7 +269,7 @@ def parse_date(date_str, year, first_month):
     dw = re.fullmatch(r"(\d{1,2})([A-Z]{3})[A-Z]+", d)   # "4JUNE", "11JULY"
     if dw and dw.group(2) in MONTHS:
         d = f"{int(dw.group(1))}{dw.group(2)}"
-    m = re.fullmatch(r"(\d{1,2})/(\d{1,2})/(\d{2,4})", d)
+    m = re.fullmatch(r"(\d{1,2})[/-](\d{1,2})[/-](\d{2,4})", d)
     if m:
         y = int(m.group(3))
         return (y + 1900 if y < 100 else y), int(m.group(1)), int(m.group(2))
@@ -285,7 +302,10 @@ POINTS = ["N", "NBE", "NNE", "NEBN", "NE", "NEBE", "ENE", "EBN", "E", "EBS", "ES
 
 def parse_bearing(text):
     """'NE', 'WSW', 'N by E', '045', '045T' -> degrees true, or None."""
-    t = re.sub(r"\s+", "", str(text or "").upper()).replace("BY", "B")
+    t = str(text or "").upper()
+    for word, letter in (("NORTH", "N"), ("SOUTH", "S"), ("EAST", "E"), ("WEST", "W")):
+        t = re.sub(rf"\b{word}(?:ERLY|WARD)?\b", letter, t)   # "north" -> N, "south east" -> SE
+    t = re.sub(r"\s+", "", t).replace("BY", "B")
     if not t:
         return None
     m = re.fullmatch(r"(\d{1,3}(?:\.\d+)?)°?T?", t)
@@ -322,7 +342,8 @@ def offset_position(lat, lon, bearing, nm):
 def classify(fields, section):
     weapon = (fields.get("weapon") or "").upper()
     fired = fields.get("fired") or ""
-    if weapon.startswith("GUN") or re.search(r'"|/|\brds?\b|rounds', fired, re.I):
+    torpedo_words = re.search(r"\bmk\b|torp|\btor\b|torpex|\btnt\b", fired, re.I)
+    if weapon.startswith("GUN") or (not torpedo_words and re.search(r'"|/|\brds?\b|rounds', fired, re.I)):
         return "gun"
     if weapon.startswith("TORP") or re.match(r"\s*\d+", fired):
         return "torpedo"
@@ -505,7 +526,7 @@ def build_patrol(folder, ref):
             # Position given relative to a landmark, e.g. "9 miles NE of MINAMI JIMA"
             name = str(ev["from"]).strip()
             position_verbatim = f"{ev.get('distance') or ''} {ev.get('bearing') or ''} of {name}".strip()
-            mark = landmarks.get(name.lower())
+            mark = find_landmark(landmarks, name)
             brg, dist = parse_bearing(plain(ev.get("bearing"))), parse_distance(ev.get("distance"))
             # "9 miles NE of X" gives the bearing from the landmark. "X bearing 240,
             # 2 miles" gives the landmark's bearing from the boat, so the boat is
@@ -604,6 +625,10 @@ def build_patrol(folder, ref):
         names = [field_name(h) for h in headers]
         unknown = [h for h, n in zip(headers, names) if n is None]
         gct = any(re.search(r"\bG\.?[CM]\.?T\b", h, re.I) for h in headers)
+        # patrol.yml can say which zone a table's times are in when the report
+        # doesn't print it, e.g. table_zones: { SUMMARY OF SUBMARINE ATTACKS: Z }
+        forced_zone = next((str(v).upper() for k, v in (meta.get("table_zones") or {}).items()
+                            if str(k).lower() in (table["section"] or "").lower()), None)
         section = table["section"].strip() or "Contacts / attacks table"
         is_fix = bool(FIX_SECTION.search(section))
         if section.isupper():
@@ -639,9 +664,16 @@ def build_patrol(folder, ref):
                 zm = re.search(r"\(\s*([A-Z])\s*\)|\d\s*([A-Z])\b", time_cell.upper())
                 if not z and zm:
                     z = zm.group(1) or zm.group(2)
-                d = unbracket(plain(f.get("date") or "")).replace(" ", "").upper() or None
+                d = unbracket(plain(f.get("date") or "")).strip()
+                both = re.fullmatch(r"(\d{4})\s+(.+)", d) if not t else None
+                if both:
+                    t, d = both.group(1), both.group(2)
+                d = d.replace(" ", "").upper() or None
             if gct and z is None:
                 z = "Z"
+            if forced_zone and z is None:
+                z = forced_zone
+                flags.append(f"The table gives no zone; zone {z} set in patrol.yml (table_zones).")
             if t is None and d:
                 flags.append("No time recorded; placed at noon GMT on that date.")
             if z is None and t is not None:
@@ -655,7 +687,7 @@ def build_patrol(folder, ref):
                     flags.append("No zone letter on this entry; treated as GMT.")
             if z and z not in ZONES:
                 flags.append(f"Unknown zone letter '{z}'.")
-            if not gct:
+            if not gct and not forced_zone:
                 last_zone = z or last_zone
 
             derived_pos = None
@@ -669,7 +701,7 @@ def build_patrol(folder, ref):
                 off = re.fullmatch(r"\s*off\s+(.+?)\s*", plain(cell), re.I)
                 if rel or off:
                     name = (rel.group(3) if rel else off.group(1)).strip().rstrip(".")
-                    mark = landmarks.get(name.lower())
+                    mark = find_landmark(landmarks, name)
                     lat_s = lon_s = None
                     if not mark or mark.get("lat") in (None, ""):
                         flags.append(f"No position for landmark '{name}'. Add it to landmarks in sources/reference.yml.")
@@ -752,6 +784,7 @@ def build_patrol(folder, ref):
                 "position_verbatim": pos_verbatim, "lat": lat, "lon": lon,
                 "derived": {"from_table": True} if derived_pos else None,
                 "type": typ, "title": title, "fields": keep, "flags": flags,
+                "contact_no": f.get("contact_no"),
             })
 
     # An attack summary with dates but no times (Silversides Patrol 5): the
@@ -775,6 +808,29 @@ def build_patrol(folder, ref):
             r["flags"] = [f for f in r["flags"] if not f.startswith("No time recorded")]
             r["flags"].append(f"The attack table gives no time; {n['local']} is from the narrative entry "
                               f"(page {n.get('page') or '?'}), matched in order.")
+
+    # A ship contact table with dates but no times (Finback Patrol 5): a
+    # narrative entry headed with the contact's number ("Contact #6-7")
+    # supplies the time.
+    refs = {}
+    for n in records:
+        if n.get("row") or not n.get("has_time") or not n["utc"]:
+            continue
+        text = f"{' '.join(str(f) for f in n['flags'])} {n['fields'].get('event') or ''}"
+        for a, b in re.findall(r"Contact\s*(?:No\.?\s*)?[#(]\s*(\d+)(?:\s*-\s*(\d+))?", text, re.I):
+            for k in range(int(a), int(b or a) + 1):
+                refs.setdefault(k, n)
+    for r in records:
+        if not r.get("row") or r.get("has_time") or r["kind"] != "sighting":
+            continue
+        cno = re.match(r"\s*(\d+)", str(r.get("contact_no") or ""))
+        n = refs.get(int(cno.group(1))) if cno else None
+        if not n:
+            continue
+        r["utc"], r["zone"], r["has_time"], r["local"] = n["utc"], n.get("zone"), True, n["local"]
+        r["flags"] = [f for f in r["flags"] if not f.startswith("No time recorded")]
+        r["flags"].append(f"The table gives no time; {n['local']} is from the narrative entry for this contact "
+                          f"(page {n.get('page') or '?'}).")
 
     # A rendezvous in the narrative and the contact-table row for the same
     # meeting (the other boat named in the row, within an hour) are one event:
@@ -852,6 +908,8 @@ def build_patrol(folder, ref):
     for rec in records:
         if rec["lat"] is None or rec["lon"] is None or not rec["utc"] or rec.get("derived"):
             continue
+        if rec.get("row") and rec.get("has_time") is False:
+            continue   # a table row with a date but no time can't be put in order along the track
         if track and track[-1]["lat"] == rec["lat"] and track[-1]["lon"] == rec["lon"]:
             continue
         track.append({"lat": rec["lat"], "lon": rec["lon"], "utc": rec["utc"], "basis": "documented", "ref": rec["id"]})

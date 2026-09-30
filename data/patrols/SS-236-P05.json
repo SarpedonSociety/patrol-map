@@ -335,7 +335,8 @@
    "flags": [
     "Transcriber: Column heading typed \"tange\"",
     "Review: Zones: the aircraft table writes M on every time, including 1 June 1540 and 11 June 1220 (entry 16). The narrative switches to L at 0605 on 1 June. The map puts narrative entries from 1 June on in L and aircraft in M, an hour apart. Which zone did the boat keep after 1 June? If it's M, add zone_fix: { L: M } to patrol.yml."
-   ]
+   ],
+   "contact_no": "1."
   },
   {
    "id": "SS-236-P05-N05",
@@ -422,7 +423,8 @@
     "firing_range": "6000",
     "remarks": "Four engine bomber, type 97. Same or similar plane sighted twice later in morning."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "2."
   },
   {
    "id": "SS-236-P05-N07",
@@ -518,7 +520,8 @@
    },
    "flags": [
     "Transcriber: Time typed \"0734 M\" (overstruck digit \"14\")"
-   ]
+   ],
+   "contact_no": "3."
   },
   {
    "id": "SS-236-P05-N09",
@@ -741,7 +744,8 @@
     "firing_range": "16000",
     "remarks": "Patrol plane over KAVIENG."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "4."
   },
   {
    "id": "SS-236-P05-N14",
@@ -838,7 +842,8 @@
    "flags": [
     "Heading(s) not recognized, kept as typed: Init. Range,, T. Bearing, Est. Crse., Est. Spd.",
     "No zone letter on this entry; zone L assumed from the narrative."
-   ]
+   ],
+   "contact_no": "1."
   },
   {
    "id": "SS-236-P05-N40",
@@ -944,7 +949,8 @@
    "flags": [
     "Transcriber: Longitude typed \"151-58MM\"",
     "No zone letter on this entry; zone L assumed from the previous entry."
-   ]
+   ],
+   "contact_no": "2."
   },
   {
    "id": "SS-236-P05-N17",
@@ -1012,7 +1018,8 @@
    },
    "flags": [
     "Transcriber: Type column left blank"
-   ]
+   ],
+   "contact_no": "5."
   },
   {
    "id": "SS-236-P05-N18",
@@ -1109,7 +1116,8 @@
    "flags": [
     "Transcriber: Longitude lacks hemisphere letter (E)",
     "No zone letter on this entry; zone L assumed from the previous entry."
-   ]
+   ],
+   "contact_no": "3."
   },
   {
    "id": "SS-236-P05-C04",
@@ -1139,7 +1147,8 @@
    },
    "flags": [
     "No zone letter on this entry; zone L assumed from the previous entry."
-   ]
+   ],
+   "contact_no": ""
   },
   {
    "id": "SS-236-P05-C05",
@@ -1169,7 +1178,8 @@
    },
    "flags": [
     "No zone letter on this entry; zone L assumed from the previous entry."
-   ]
+   ],
+   "contact_no": ""
   },
   {
    "id": "SS-236-P05-C06",
@@ -1199,7 +1209,8 @@
    },
    "flags": [
     "No zone letter on this entry; zone L assumed from the previous entry."
-   ]
+   ],
+   "contact_no": ""
   },
   {
    "id": "SS-236-P05-N20",
@@ -1309,7 +1320,8 @@
    },
    "flags": [
     "No zone letter on this entry; zone L assumed from the previous entry."
-   ]
+   ],
+   "contact_no": "4."
   },
   {
    "id": "SS-236-P05-C08",
@@ -1339,7 +1351,8 @@
    },
    "flags": [
     "No zone letter on this entry; zone L assumed from the previous entry."
-   ]
+   ],
+   "contact_no": ""
   },
   {
    "id": "SS-236-P05-C09",
@@ -1369,7 +1382,8 @@
    },
    "flags": [
     "No zone letter on this entry; zone L assumed from the previous entry."
-   ]
+   ],
+   "contact_no": ""
   },
   {
    "id": "SS-236-P05-N22",
@@ -1440,15 +1454,15 @@
     "tube": "Bow",
     "track": "80 Stbd.",
     "gyro": "350",
+    "speed": "10.5",
     "interval": "10 sec.",
     "spread": "None",
     "Range more than 1500 yards": "1750",
     "Surface, Night": "Yes",
-    "Estimated Speed Target": "10.5",
     "narrative": "at 0104 fired four torpedoes, ten second interval, no spread, straight bow shot, 80° starboard track and then swung right to clear formation. First hit looked to be a magnetic explosion, ship seemed to jump out of water and streak of flame twice ships length on water line. Second hit under bridge, large column of water and smoke. Third hit heard and felt throughout ship but not observed; we were concentrating on getting clear at that time fourth, missed. One escort vessel went down torpedo track and not finding us they opened with searchlight. Just at this time an explosion occurred on the target, evidently gasoline as a bright flame shot up 200 feet in air and completely enveloped the ship. Also lit us up like a church. We could even see the camouflage on the escorts."
    },
    "flags": [
-    "Heading(s) not recognized, kept as typed: Range 1500 yards or less., Range more than 1500 yards, Periscope Depth., Surface, Night, Deep Submergence, Estimated Speed Target",
+    "Heading(s) not recognized, kept as typed: Range 1500 yards or less., Range more than 1500 yards, Periscope Depth., Surface, Night, Deep Submergence",
     "Transcriber: Location: Heading has (lat) / (long); Attack 1 long typed \"152-00E\" (overstruck); Attack 2 long typed \"152-00E\" (overstruck '3'); Type of Target.: Heading typed \"Tpe\"; Attack 2 typed \"Jhell\" for \"Small\"; Range 1500 yards or less.: Row left blank; Periscope Depth.: Row left blank; Deep Submergence: Row left blank; Estimated Draft Target: Attack 2 draft typed \"8\" (or ⟦8⟧); Bow or Stern Shot: Attack 2 typed \"Jtern\" for \"Stern\"; Estimated Speed Target: Attack 2 speed typed \"23.\"; Firing Interval.: Attack 1 interval typed \"10 sec.\" (s faint/overstruck); Attack 2 blank; Spread Amount and Kind.: Attack 2 blank; Was Torpedo Performance Satisfactory: Row label omitted in source table; field left blank",
     "Review: Gemini notes overstruck figures in the longitudes of both attacks (152-00E).",
     "Uncertain reading in flags: Location: Heading has (lat) / (long); Attack 1 long typed \"152-00E\" (overstruck); Attack 2 long typed \"152-00E\" (overstruck '3'); Type of Target.: Heading typed \"Tpe\"; Attack 2 typed \"Jhell\" for \"Small\"; Range 1500 yards or less.: Row left blank; Periscope Depth.: Row left blank; Deep Submergence: Row left blank; Estimated Draft Target: Attack 2 draft typed \"8\" (or ⟦8⟧); Bow or Stern Shot: Attack 2 typed \"Jtern\" for \"Stern\"; Estimated Speed Target: Attack 2 speed typed \"23.\"; Firing Interval.: Attack 1 interval typed \"10 sec.\" (s faint/overstruck); Attack 2 blank; Spread Amount and Kind.: Attack 2 blank; Was Torpedo Performance Satisfactory: Row label omitted in source table; field left blank",
@@ -1456,7 +1470,8 @@
     "Narrative entry at 0104 L 11 June. (page 6) describes this attack; its account is included here.",
     "missing zone; typed fined, sgcond, tow shet, swong, larga, Lotting, opa ed, ovidentally, fest, camoflouge",
     "No zone letter on this entry; zone L assumed from the previous entry."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-236-P05-C19",
@@ -1490,9 +1505,9 @@
     "tube": "Stern",
     "track": "0",
     "gyro": "180",
+    "speed": "23.",
     "Range more than 1500 yards": "1600",
     "Surface, Night": "Yes",
-    "Estimated Speed Target": "23.",
     "narrative": "One escort at least opened fire at us and picked us up in the searchlight, range closing rapidly even at our best speed. about a half dozen shells hit around us; ducked at range of 1700 yards at 0118 and fired one stern tube at the trailing escort as we went down. This probably saved our necks as later events indicated that he had to maneuver to avoid and thus lost a golden opportunity. We probably made the all time record from surface to 100 feet but the planes jammed and we set another record for coming up to 35 feet. Finally got control in hand power and went down again."
    },
    "flags": [
@@ -1502,7 +1517,8 @@
     "Narrative entry at 0118 L 11 June. (page 6) describes this attack; its account is included here.",
     "missing zone; typed On escort, use ducked, nacks, tmo, antother; also counterattack and notable diving casualty",
     "No zone letter on this entry; zone L assumed from the previous entry."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-236-P05-N38",
@@ -1609,7 +1625,8 @@
    },
    "flags": [
     "Review: The narrative's summary of 11 June puts this plane at 1220 too, but in zone L (see entry 11)."
-   ]
+   ],
+   "contact_no": "6."
   },
   {
    "id": "SS-236-P05-N26",
@@ -1917,7 +1934,8 @@
     "Transcriber: Zone letter omitted from time",
     "Review: The narrative has the Hudson at 0750 on 27 June; the table has 0800 with no zone.",
     "No zone letter on this entry; zone M assumed from the previous entry."
-   ]
+   ],
+   "contact_no": "7."
   },
   {
    "id": "SS-236-P05-N34",

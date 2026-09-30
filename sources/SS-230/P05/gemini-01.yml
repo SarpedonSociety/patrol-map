@@ -1,0 +1,2402 @@
+YAML
+
+```
+boat: SS-230
+patrol: 5
+year: 1943
+report: "Report of Fifth War Patrol."
+comsubpac_report_no:
+commanding_officer:
+citation:
+  archive: "NARA"
+  record_group: "38"
+  nara_catalog_id: "4697018"
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946"
+  reel: "A446"
+  micro_serial: "52388"
+  file: "A16-3"
+  serial: "11"
+  date: "6/26/1943"
+fold3_images: { 1: 269714962, 2: 269714963, 3: 269714964, 4: 269714965, 5: 269714966, 6: 269714967, 7: 269714968, 8: 269714969, 9: 269714970, 10: 269714971, 11: 269714972, 12: 269714973, 13: 269714974, 14: 269714975 }
+default_hemisphere: { lat: N, lon: E }
+departure: { port: "Pearl", date: 12MAY, time: 1000, zone: VX, page: 1, flags: "" }
+arrival:   { port: "Fremantle", date: 26JUN, time: , zone: , page: 14, flags: "Time omitted in narrative entry" }
+events:
+  - date: 12MAY
+    time: 1000
+    zone: VX
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Departed Pearl for Area Ten via Midway under escort of U.S.C.G. TANEY. Commander Submarines, Pacific Fleet in FINBACK."
+    page: 1
+    flags: ""
+  - date: 15MAY
+    time: 0703
+    zone: Y
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Moored to dock at Midway. Commander Submarines, Pacific Fleet left ship. Received 19,800 gallons of fuel."
+    page: 1
+    flags: ""
+  - date: 15MAY
+    time: 1330
+    zone: Y
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Departed Midway for area; encountered returning Army B-24s, and later PT-Boats and PBYs searching after dark for a downed B-24."
+    page: 1
+    flags: ""
+  - date: 16MAY
+    time: 0550
+    zone: Y
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Crossed 180th Meridian."
+    page: 1
+    flags: ""
+  - date: 17MAY
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Conducting daily dives and drills for control parties and crew enroute to area."
+    page: 1
+    flags: "Heading dates: May 17-26, 1943. Time omitted."
+  - date: 19MAY
+    time: 1941
+    zone: L
+    lat:
+    lon:
+    from: "Wake"
+    bearing: "north"
+    distance: "230 miles"
+    bearing_is: from_landmark
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Dived when Quartermaster and O.O.D. sighted running lights of plane 230 miles north of Wake under full moon; no bombs dropped."
+    page: 1
+    flags: ""
+  - date: 19MAY
+    time: 2000
+    zone: L
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Surfaced and proceeded."
+    page: 1
+    flags: ""
+  - date: 20MAY
+    time: 0554
+    zone: L
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Dived on radar contact on plane at 6 miles. No bombs dropped. Conducted test of submerged loop while down."
+    page: 1
+    flags: ""
+  - date: 20MAY
+    time: 0721
+    zone: L
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 2
+    flags: ""
+  - date: 23MAY
+    time: 2300
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Passed between Pagan Island and Alamagan Island."
+    page: 2
+    flags: "Zone blank in source"
+  - date: 26MAY
+    time: 1700
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Entered area. Set course across northern end of area to take up patrol across traffic lanes from Empire and Formosa ports."
+    page: 2
+    flags: "Date typed as Jay 26, 1943"
+  - date: 27MAY
+    time: 0002
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Radar contact at 10,250 yards; tracked on starboard quarter, closed ahead at four engines after moonrise, taking bearings on smoke."
+    page: 2
+    flags: "Heading includes Contact #1 (typed Contact (1)). Date typed lay 27, 1943"
+  - date: 27MAY
+    time: 0138
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Radar detected 3 pips bearing 315 relative at 13,500 yards; decided to attack first target first rather than bypass it to reach convoy."
+    page: 2
+    flags: "Heading includes Contact #2 (typed Contact #2))"
+  - date: 27MAY
+    time: 0157
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "with range of about 8,000 yards, dived to 40 feet."
+    page: 2
+    flags: ""
+  - date: 27MAY
+    time: 0212
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "with range of about 3,300 yards, went to 60 feet."
+    page: 2
+    flags: ""
+  - date: 27MAY
+    time: 0217
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: attack
+    title: "Torpedo attack on freighter"
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "with target track of 90° port, speed 10, and range of about 1,800 yards, fired a three torpedo spread. First torpedo, prematured at 20 seconds, second torpedo hit on bow, third torpedo hit on stern. Sound unable to hear screws after two hits. Definitely heard breaking up noises on sound gear. The premature momentarily blinded the periscope. Only one torpedo, the third, was seen to hit, but all hands heard two hits following the premature. The target was surrounded by black smoke. Sighted target with decks awash."
+    page: 2
+    flags: "Heading includes Attack #1 (typed Attack (1))"
+  - date: 27MAY
+    time: 0230
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Came to 40 feet to search with radar; detected pip at 900 yards on surfacing to 25 feet, then dived to 60 feet to check escort."
+    page: 2
+    flags: "Entry text spans page 2 to page 3"
+  - date: 27MAY
+    time: 0240
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "shape disappeared. This target was an unidentified two masted, well deck freighter of about six thousand tons."
+    page: 3
+    flags: ""
+  - date: 27MAY
+    time: 0243
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Surfaced with nothing on radar; target took long to sink due to hits forward and aft, while M.O.T. torpedo prematured."
+    page: 3
+    flags: ""
+  - date: 27MAY
+    time: 0256
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "commenced chase of convoy at full speed, but suspected that first target had given alarm during long sinking period."
+    page: 3
+    flags: ""
+  - date: 27MAY
+    time: 0700
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Secured search after covering courses from 315°(T) to 270°(T); dived to check trim, check air coverage, and let crew sleep."
+    page: 3
+    flags: ""
+  - date: 27MAY
+    time: 1000
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "surfaced and commenced surface patrol across trade routes from Empire and Formosa to Palau."
+    page: 3
+    flags: ""
+  - date: 27MAY
+    time: 1605
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Approached smoke bearing 025°(T); found small PC-like patrol boat, took evasive action at periscope depth until sunset as target was too small for torpedoes."
+    page: 3
+    flags: ""
+  - date: 27MAY
+    time: 1956
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted red light of patrol vessel heading 300°(T) at 15 knots; radar unable to contact; turned south to let escort draw by hoping for targets."
+    page: 3
+    flags: ""
+  - date: 28MAY
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Conducted submerged patrol along trade routes to Palau from Empire and Formosa."
+    page: 3
+    flags: "Time omitted"
+  - date: 28MAY
+    time: 0933
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "surfaced and commenced surface patrol."
+    page: 3
+    flags: ""
+  - date: 28MAY
+    time: 0950
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Sighted masts of same patrol vessel seen yesterday. He was headed toward us and apparently sighted us. Went ahead four engine speed. Was able to pull ahead very slowly."
+    page: 3
+    flags: ""
+  - date: 28MAY
+    time: 1105
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Heard aircraft homing signals on 175 kcs. from patrol vessel's direction on D receiver; later heard plane transmissions on 350 kcs."
+    page: 4
+    flags: "Zone blank in source"
+  - date: 28MAY
+    time: 1132
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted float observation plane near patrol vessel; dived to 200 feet; plane dropped no bombs; escort departed; decided to conduct submerged patrol and change location tomorrow."
+    page: 4
+    flags: ""
+  - date: 29MAY
+    time:
+    zone:
+    lat:
+    lon:
+    from: "Anguar Island"
+    bearing: "south"
+    distance: "5 miles"
+    bearing_is: from_landmark
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Conducted submerged patrol 5 miles south of Anguar Island. The sea was glassy smooth."
+    page: 4
+    flags: "Time omitted"
+  - date: 30MAY
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Conducted submerged patrol southeast of entrances to Malakal Harbor. The sea was glassy smooth. On surfacing, patrolled across traffic lane from Anguar Island to Truk."
+    page: 4
+    flags: "Time omitted"
+  - date: 31MAY
+    time:
+    zone:
+    lat:
+    lon:
+    from: "entrances to Malakal Harbor"
+    bearing: "south"
+    distance: "5 miles"
+    bearing_is: from_landmark
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Patrolled 5 miles south of Malakal Harbor entrances; sound reported screws bearing 120° relative, then distant heavy explosion and lost propeller noises; saw nothing through periscope."
+    page: 4
+    flags: "Time omitted"
+  - date: 31MAY
+    time: 1000
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "heard two noises resembling low order detonations. Nothing in sight."
+    page: 4
+    flags: ""
+  - date: 31MAY
+    time: 1900
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "surfaced and commenced patrolling along Truk - Palau route on surface."
+    page: 4
+    flags: ""
+  - date: 01JUN
+    time: 1022
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "sighted smoke bearing 087° (T)."
+    page: 4
+    flags: "Date typed Tune 1, 1943"
+  - date: 01JUN
+    time: 1034
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Dived on AK resembling TATUKAMI MARU (7,065 tons) with PC escort; complex zigging prevented good firing position, so withheld firing until night."
+    page: 4
+    flags: "Heading includes Contact #6-7. Text spans pages 4 and 5"
+  - date: 01JUN
+    time: 1346
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "surfaced and commenced trailing."
+    page: 5
+    flags: ""
+  - date: 01JUN
+    time: 1857
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "went ahead four engine speed to close target to radar range."
+    page: 5
+    flags: ""
+  - date: 01JUN
+    time: 2010
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "contacted target on radar at 15,300 yards. Tracking showed that target had fooled us and was still zig-zagging."
+    page: 5
+    flags: ""
+  - date: 01JUN
+    time: 2055
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Commenced rounding target for position ahead under starlit sky; light conditions were poor for surface attack and worse for submerged attack."
+    page: 5
+    flags: ""
+  - date: 02JUN
+    time: 0010
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Reached position 4,000 yards off target's track, flooded down forward and after groups, and started in for surface attack."
+    page: 5
+    flags: ""
+  - date: 02JUN
+    time: 0032
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Dived at 5,000 yards range from target to avoid escort; continued approach on radar at 40 feet; went to 60 feet at 3,000 yards, unable to see target; withheld fire."
+    page: 5
+    flags: ""
+  - date: 02JUN
+    time: 0110
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "surfaced and ran ahead to get in attack position at dawn."
+    page: 5
+    flags: ""
+  - date: 02JUN
+    time: 0400
+    zone: I
+    lat:
+    lon:
+    from: "entrance to Malakal Harbor"
+    bearing:
+    distance: "seventeen miles"
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "picked up land about entrance to Malakal Harbor, at seventeen miles. Gradually let target close."
+    page: 5
+    flags: "bearing blank in source; 'seventeen miles' from entrance to Malakal Harbor"
+  - date: 02JUN
+    time: 0443
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "picked up shape which looked like a patrol boat ahead while our target was astern of us, so dived and started approach."
+    page: 5
+    flags: ""
+  - date: 02JUN
+    time: 0512
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: attack
+    title: "Torpedo attack on freighter"
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "fired three torpedo spread with 100° port track, speed of 11 3/4 knots, and actual range of 1,150 yards. All torpedoes were set on 15 feet. The first torpedo hit amidships with a terrific explosion, but the second and third torpedoes missed. The second torpedo was tracked ahead of the screws by sound. The target's screws were not heard after the torpedo explosion. It is believed that the target was drawing less than was estimated and the one hit was an influence explosion. The other two torpedoes probably ran too deep. The draft was estimated at 13 feet and torpedoes were set at 15 feet to run at 12 feet. The target could have had a draft of 10 feet. Although the target was not seen to sink and cannot be credited as such, it is believed that there is a strong possibility a torpex hit amidships sank him."
+    page: 5
+    flags: "Heading includes Attack #2. Entry text spans pages 5 and 6"
+  - date: 02JUN
+    time: 0514
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: counterattack
+    title: "Depth charging by escort"
+    part: I
+    charges: 1
+    damage: "none"
+    course:
+    speed:
+    event: "the escort headed for us to start retaliatory measures. Went deep. Received depth charge attacks as follows: one charge, at a comfortable distance,"
+    page: 6
+    flags: ""
+  - date: 02JUN
+    time: 0517
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: counterattack
+    title: "Depth charging by escort"
+    part: I
+    charges: 2
+    damage: "Jarred open valves. Started small leak in #1 air bank bottle opening."
+    course:
+    speed:
+    event: "two charges, close aboard. Jarred open valves. Started small leak in #1 air bank bottle opening."
+    page: 6
+    flags: ""
+  - date: 02JUN
+    time: 0520
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: counterattack
+    title: "Depth charging by escort"
+    part: I
+    charges: 4
+    damage: "none"
+    course:
+    speed:
+    event: "four charges, farther away."
+    page: 6
+    flags: ""
+  - date: 02JUN
+    time: 0524
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: counterattack
+    title: "Depth charging by escort"
+    part: I
+    charges: 2
+    damage: "none"
+    course:
+    speed:
+    event: "two charges."
+    page: 6
+    flags: ""
+  - date: 02JUN
+    time: 0528
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: counterattack
+    title: "Depth charging / aerial bombing by escort"
+    part: I
+    charges: 4
+    damage: "none"
+    course:
+    speed:
+    event: "four charges which sounded a lot like aerial bombs at a considerable distance. Escort continued supersonic pinging and maintained some kind of contact until 0800 (I). A temperature gradient of 16°F. was probably helping us."
+    page: 6
+    flags: ""
+  - date: 02JUN
+    time: 0548
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Lost supersonic pinging; escort may have stayed near target pinging while picking up survivors as indicated by bearings."
+    page: 6
+    flags: ""
+  - date: 02JUN
+    time: 0845
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Ascended through density layers to periscope depth; nothing in sight; continued periscope patrol, then headed north on surfacing."
+    page: 6
+    flags: ""
+  - date: 02JUN
+    time: 0945
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: notable
+    title: "Change of operation order routing to Fremantle"
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Received dispatch on June 1, 1943 schedule from Commander Submarines, Pacific Fleet changing our operation orders. The FINBACK is to spend the rest of her patrol in the present area and then proceed to Fremantle, Western Australia for refit."
+    page: 6
+    flags: ""
+  - date: 02JUN
+    time: 2000
+    zone: K
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "received rest of information from Commander Submarines, Pacific Fleet giving routing to Fremantle."
+    page: 6
+    flags: ""
+  - date: 03JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Conducting submerged patrol on Empire Palau trade lane."
+    page: 6
+    flags: "Time omitted"
+  - date: 04JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Conducting surface patrol across trade lanes from Empire."
+    page: 6
+    flags: "Heading dates: June 4-5, 1943. Time omitted"
+  - date: 05JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted debris including two overturned lifeboats, spars, oil drums, and furniture; boat falls parted; debris judged from target sunk May 27."
+    page: 6
+    flags: "Time omitted. Text spans pages 6 and 7"
+  - date: 06JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Conducting submerged approach off Toagel Mlungui Passage."
+    page: 7
+    flags: "Time omitted"
+  - date: 06JUN
+    time: 0928
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted passenger-freighter, range 7,000 yards; started approach; target zigged to 300°(T); closest range 5,500 yards; trawler pinged from distance."
+    page: 7
+    flags: ""
+  - date: 06JUN
+    time: 1010
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "secured from approach as range increased to 10,000 yards."
+    page: 7
+    flags: ""
+  - date: 07JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Patrolling submerged off Toagel Mlungui Passage."
+    page: 7
+    flags: "Time omitted"
+  - date: 07JUN
+    time: 1013
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "sighted smoke and heard pinging bearing 350°(T). As this smoke drew around to the southward, assumed it was our smoking trawler friend making his usual sweep."
+    page: 7
+    flags: ""
+  - date: 07JUN
+    time: 1325
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted mast of 5,000-ton freighter bearing 240°(T) escorted by patrol vessel and plane; started approach reaching 8,000 yards closest range."
+    page: 7
+    flags: ""
+  - date: 07JUN
+    time: 1430
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "when escorting plane headed in our direction, went to 140 feet. Target was already opening range."
+    page: 7
+    flags: ""
+  - date: 07JUN
+    time: 1515
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted 4-ship convoy heading 320°(T) with escort and seaplane; trailed submerged at 8,000 yards preparatory to night surface chase."
+    page: 7
+    flags: "Heading includes Contact #11 (typed Contact #11))"
+  - date: 07JUN
+    time: 1827
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "lost visual contact with smoke of convoy."
+    page: 7
+    flags: "Zone blank in source"
+  - date: 07JUN
+    time: 1858
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "surfaced and started closing convoy at full speed."
+    page: 7
+    flags: ""
+  - date: 07JUN
+    time: 2021
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "when no contact was established, stopped to listen for supersonic pinging of escort. It became apparent that the convoy had changed course radically at dark."
+    page: 8
+    flags: ""
+  - date: 07JUN
+    time: 2038
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "started retiring search to northward to cover all enemy changes of course around to 030°(T)."
+    page: 8
+    flags: ""
+  - date: 07JUN
+    time: 2211
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "shortly before we intended to start covering convoy course to the westward, picked up smoke just as convoy entered a rain squall."
+    page: 8
+    flags: ""
+  - date: 07JUN
+    time: 2213
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "contacted convoy on radar at 13,700 yards. Commenced tracking convoy to determine his approximate course and to obtain an idea of his zig plan."
+    page: 8
+    flags: ""
+  - date: 07JUN
+    time: 2325
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "started rounding convoy at about 12,000 yards range."
+    page: 8
+    flags: ""
+  - date: 08JUN
+    time: 0012
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Steadied on convoy port bow; decided to await dark cloud background amidst rain squalls to make surface attack."
+    page: 8
+    flags: ""
+  - date: 08JUN
+    time: 0131
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "crossed over to starboard bow for good background."
+    page: 8
+    flags: ""
+  - date: 08JUN
+    time: 0204
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Turned toward convoy, shifted to battery, and stopped; escort 2,000 yards ahead; black clouds provided excellent cover."
+    page: 8
+    flags: ""
+  - date: 08JUN
+    time: 0227
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: attack
+    title: "Surface torpedo attack on convoy"
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "fired a three torpedo spread at each of two leading ships which almost presented an overlapping target. Range to nearest target 1,500 yards; track 100° starboard; gyro angle 011; and range to far target 2,300 yards. Swung hard left at flank speed to clear two after ships, who had a smaller angle on bow, and to try a stern tube shot. Cleared nearest ship 600 yards (by radar) when we were beam to beam. Already had two stern tubes ready and set on 10 feet in case our escort got too friendly."
+    page: 8
+    flags: "Heading includes Attacks #3-4 (typed \"Attacks # 3-4))"
+  - date: 08JUN
+    time: 0232
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: attack
+    title: "Stern tube torpedo attack on convoy"
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "fired two torpedoes while still swinging at overlapping after ships. Total results one hit on nearest leading target (Lima Maru Class); two hits on farthest leading target (Yuki Maru); and one hit on farthest after target (Heian Maru class). These hits were seen, heard, and checked by time of torpedo run. The last ship hit was seen taking a down angle as we retired to southwest at full speed. We had four strong pips on the radar from the four freighters as we pulled away. The escort had never been easy to pick up on radar. He was first picked up during the approach at 7,000 yards. When the range to the nearest target was 3,000 yards, we ran into a rain squall. Heard two distant explosions which sounded like depth charges. The radar officer reported two of the pips getting weaker. Between 5,000 and 7,000 yards, we lost two pips. At 9,000 yards, since the escort did not seem to be on our trail, we stopped. A careful and continuous search over the target area, failed to reveal more than two pips indicating that two ships had sunk. All ships had shown up plainly on the radar screen at 13,500 yards during the tracking. All torpedoes fired had torpex heads which exploded with a terrific noise. The large remaining pip, which was believed to be on the largest ship (Lima Maru class one hit) moved slowly out to 17,500 yards and disappeared. The other pip closed us slowly to 8,500 yards and then opened out and was lost at 13,700 yards. It is believed that this ship was the undamaged one taking a quick look for survivors."
+    page: 8
+    flags: "Entry text spans pages 8 and 9"
+  - date: 08JUN
+    time: 0325
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "heard two distant underwater explosions."
+    page: 9
+    flags: ""
+  - date: 08JUN
+    time: 0330
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "ran in to reestablish contact and start to round remaining ships for a dawn attack."
+    page: 9
+    flags: ""
+  - date: 08JUN
+    time: 0340
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "reestablished a radar contact. As it became lighter, opened out to 15 miles to round convoy."
+    page: 9
+    flags: ""
+  - date: 08JUN
+    time: 0515
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted convoy smoke bearing 257°(T); trailed 3 ships across changing bearings and squalls; determined base course 350°(T) by 1500."
+    page: 9
+    flags: "Heading includes Contact #12"
+  - date: 08JUN
+    time: 1707
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Dived to approach convoy (2 passenger vessels and 1 freighter) under sunset light; spotted small torpedo boat escort patrolling passenger ships."
+    page: 9
+    flags: ""
+  - date: 08JUN
+    time: 1847
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: attack
+    title: "Torpedo attack on convoy"
+    part: I
+    charges: 4
+    damage: "none"
+    course:
+    speed:
+    event: "with escort passing ahead at 400 yards, right hand ship with zero angle on bow, range 2,000 yards, center ship with 20° port angle on bow, range 3,000 yards, and left hand ship 80° port angle on bow, 1,200 yards, fired three torpedoes (TNT heads) at left hand ship. 1st torpedo jumped clear of the water twice at about 400 yards, just astern of the escort and later prematured, the 2nd torpedo hit, and the 3rd torpedo missed. The escort started turning toward us after 1st torpedo prematured. Went deep to avoid ramming and to evade depth charge attack. Our going under one ship and astern of another seemed to confuse the escort. He dropped four depth charges, but none were very close. The escort then commenced searching with supersonic. He seemed to be strictly amateur."
+    page: 10
+    flags: "Heading includes Attack #5 (typed Attack #6)"
+  - date: 08JUN
+    time: 1927
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: counterattack
+    title: "Depth charge dropped by escort"
+    part: I
+    charges: 1
+    damage: "none"
+    course:
+    speed:
+    event: "escort dropped one depth charge at about 4,000 yards. Escort stayed in our vicinity echo-ranging."
+    page: 10
+    flags: ""
+  - date: 08JUN
+    time: 2036
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "lost echo-ranging and came up to periscope depth. Searched thoroughly with periscope and SJ radar."
+    page: 10
+    flags: ""
+  - date: 08JUN
+    time: 2044
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Surfaced in moonlight; unable to regain contact; returned south toward area with poor torpedo distribution (6 aft, 1 forward)."
+    page: 10
+    flags: ""
+  - date: 09JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Patrolled on surface along Empire-Palau routes. Our recent activity had apparently caused a re-routing of traffic."
+    page: 10
+    flags: "Heading dates: June 9-10, 1943. Time omitted"
+  - date: 11JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Patrolled submerged off Toagel Mlungui on channel range of 105°(T)."
+    page: 10
+    flags: "Time omitted"
+  - date: 11JUN
+    time: 0817
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted smoke bearing 285°(T); approached 3 ships in line abreast with small destroyer escort; identified Nagoya Maru, Sirogane Maru, and Nitiro Maru; rain masked approach."
+    page: 10
+    flags: "Heading includes Contact #13. Text spans pages 10 and 11"
+  - date: 11JUN
+    time: 0954
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: attack
+    title: "Stern tube torpedo attack on Nagoya Maru"
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "fired three torpedo spread from stern tubes at left hand ship, Nagoya Maru, 6,072 tons, range 800 yards, track 80° starboard, gyro angle 175°. Results first and second torpedoes hit third torpedo missed astern. The first torpedo had a torpex head. The Commanding Officer watched both hits. The time of torpedo run and explosions checked. The ship gave off enormous quantities of smoke, rapidly settled in the water, listed to starboard 15°, and the starboard well deck rail was awash. This ship was loaded well down in the water."
+    page: 11
+    flags: ""
+  - date: 11JUN
+    time: 1000
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "with the ship definitely sinking and the destroyer headed in our direction, went deep. Heard cracking up noises for about forty minutes."
+    page: 11
+    flags: ""
+  - date: 11JUN
+    time: 1011
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: counterattack
+    title: "Depth charging by destroyer"
+    part: I
+    charges: 2
+    damage: "none"
+    course:
+    speed:
+    event: "destroyer dropped two depth charges."
+    page: 11
+    flags: ""
+  - date: 11JUN
+    time: 1022
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: counterattack
+    title: "Depth charging by destroyer"
+    part: I
+    charges: 2
+    damage: "none"
+    course:
+    speed:
+    event: "he dropped two more. None close. The Palau temperature gradient and density layers apparently had enabled us to lose the destroyer at once. A temperature gradient of 17°F. existed between surface and 300 feet. Supersonic pinging and screws were heard until 1103 (I). Decided to take our time coming up to periscope depth due to expected plane search and proximity to channel entrance."
+    page: 11
+    flags: ""
+  - date: 11JUN
+    time: 1157
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "picked up pinging again."
+    page: 11
+    flags: "Time typed 1.157 (I)"
+  - date: 11JUN
+    time: 1310
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "finally lost pinging."
+    page: 11
+    flags: ""
+  - date: 11JUN
+    time: 1327
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: notable
+    title: "Blowing negative tank to ascend through density layers"
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "started up to periscope depth. Again the need of a silent trim pump was sorely felt. It was necessary to blow out 15,000 pounds of water in bringing ship up from 300 feet. This was done by blowing water to negative tank from #2 and #3 auxiliary tanks and then blowing negative with 200 pound air. Found all clear at periscope depth. Reloaded torpedo tubes aft and pumped bilges. Decided to patrol off Anguar Island the next day in hope of getting a phosphate ship and in order to allow the area off the pass to cool down."
+    page: 11
+    flags: ""
+  - date: 12JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Patrolled submerged off Anguar Island. Sea was glassy smooth."
+    page: 11
+    flags: "Time omitted"
+  - date: 13JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from: "Toagel Mlungui"
+    bearing:
+    distance: "about 20 miles"
+    bearing_is: from_landmark
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Patrolled submerged about 20 miles off Toagel Mlungui and was closing Island when"
+    page: 11
+    flags: "Time omitted. Text spans pages 11 and 12"
+  - date: 13JUN
+    time: 0645
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted two heavy smokes bearing 358°(T) and 011°(T); found two trawler patrol boats hunting; evaded at periscope depth."
+    page: 12
+    flags: ""
+  - date: 14JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Patrolled submerged off Toagel Mlungui. Sighted smoke of patrolling trawler intermittently during day."
+    page: 12
+    flags: "Heading typed ing 15, 1943. following June 13, 1943. Time omitted"
+  - date: 15JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Patrolled on surface on Empire Palau trade lanes."
+    page: 12
+    flags: "Time omitted"
+  - date: 15JUN
+    time: 1938
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "sighted ship at estimated range of 16,000 yards. SJ radar unable to pick up target which appeared to be large."
+    page: 12
+    flags: ""
+  - date: 15JUN
+    time: 1945
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Dived to 40 feet on unescorted target making 17+ knots zig-zagging; went to 60 feet; sound got range 3,300 yards before firing."
+    page: 12
+    flags: ""
+  - date: 15JUN
+    time: 2028
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: attack
+    title: "Stern tube torpedo attack"
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "fired three torpedo spread from stern tubes at range of 3,500 yards, track of 90° starboard, and gyro angle of 191. No hits. The target zigged away at this time. The first torpedo we tracked out running straight for about 2,000 yards and then it gradually drew around to the right. When sound reported the torpedo screws bearing 243° relative and getting louder, went to 140 feet to avoid torpedo. While passing 100 feet, a torpedo explosion was heard at an estimated range of 1,000 yards. A second torpedo explosion followed in about thirty five seconds at about the same range. The time of run of these torpedoes indicated they had reached the end of their run. This poor performance as regards hits is attributed to the following: (a) Poor torpedo performance. (b) Too great a firing range. (c) Firing torpedo on a \"knuckle\". (d) Disadvantage of having only torpedoes aft."
+    page: 12
+    flags: ""
+  - date: 15JUN
+    time: 2059
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Surfaced and attempted to reestablish contact; decided not to spend fuel on a fruitless high-speed search since no other boat could intercept."
+    page: 12
+    flags: ""
+  - date: 15JUN
+    time: 2300
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "cleared message to Commander Submarines, Pacific Fleet reporting we were heading for Australia. Received Roger on following Fox schedule."
+    page: 13
+    flags: ""
+  - date: 16JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Enroute Western Australia on surface via Djailolo Passage conducting daily drills."
+    page: 13
+    flags: "Heading dates: June 16-17, 1943. Time omitted"
+  - date: 18JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: notable
+    title: "Crossing the line ceremonies"
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Enroute Western Australia via Ceram Sea and Manipa Pass. Held \"crossing the line\" ceremonies during the forenoon watch."
+    page: 13
+    flags: "Time omitted"
+  - date: 18JUN
+    time: 1320
+    zone: I
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "dived on sighting two fighter planes. It is believed that these were probably high flying, soaring birds of a type not previously encountered by this ship. Conducted mad drill control problem while submerged."
+    page: 13
+    flags: ""
+  - date: 19JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Passing through Banda Sea and Ombai Strait."
+    page: 13
+    flags: "Time omitted"
+  - date: 20JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Completing transit of Ombai Strait and entering Indian Ocean east of Sawu Island."
+    page: 13
+    flags: "Time omitted"
+  - date: 20JUN
+    time: 1127
+    zone: H
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "dived on radar contact at 7 miles."
+    page: 13
+    flags: ""
+  - date: 20JUN
+    time: 1204
+    zone: H
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "surfaced, following lunch and proceeded."
+    page: 13
+    flags: ""
+  - date: 21JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Enroute Western Australia on surface."
+    page: 13
+    flags: "Time omitted"
+  - date: 21JUN
+    time: 0710
+    zone: H
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "sighted two engined bomber at about 7 miles. Dived. No bombs. Conducted trim dive."
+    page: 13
+    flags: ""
+  - date: 21JUN
+    time: 0740
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 13
+    flags: "Zone blank in source"
+  - date: 22JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Enroute from area on surface."
+    page: 13
+    flags: "Time omitted"
+  - date: 23JUN
+    time: 0800
+    zone: H
+    lat: 22-11
+    lon: 114-09
+    from: "Vlaming Head Light"
+    bearing: "north"
+    distance: "five miles"
+    bearing_is: from_landmark
+    tag: notable
+    title: "Rendezvous with USS Isabel"
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "made rendezvous with U.S.S. ISABEL five miles north of Vlaming Head Light. Proceeded under escort to oil barge in Exmouth Gulf (Approximate location - Lat. 22°-11 ( ) Long. 114°-09 ( )) for fuel."
+    page: 13
+    flags: "Hemisphere indicators for Lat and Long blank in source"
+  - date: 23JUN
+    time: 1210
+    zone: H
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "[SUMMARY] Parted mooring lines and carried away pelican hook in heavy seas at oil barge; received S.O.P.A. permission to fuel from CHANTICLEER or S.S. ONDINA."
+    page: 14
+    flags: ""
+  - date: 23JUN
+    time: 1301
+    zone: H
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "moored along side tanker."
+    page: 14
+    flags: ""
+  - date: 23JUN
+    time: 1533
+    zone: H
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "cleared tanker and anchored to await completion of ISABEL's fueling."
+    page: 14
+    flags: ""
+  - date: 23JUN
+    time: 1645
+    zone: H
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "underway under escort of ISABEL for Fremantle."
+    page: 14
+    flags: ""
+  - date: 24JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Enroute Fremantle under escort of ISABEL. Conducted daily dive and approach on ISABEL. Conducted four hour battery discharge."
+    page: 14
+    flags: "Heading dates: June 24-25, 1943. Time omitted"
+  - date: 26JUN
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: I
+    charges:
+    damage:
+    course:
+    speed:
+    event: "Arrived Fremantle."
+    page: 14
+    flags: "Time omitted in source"
+```
+
+Only Output 1 is produced because the provided document pages contain Part I (Narrative) only; no tabular contact, attack, or position tables were included.

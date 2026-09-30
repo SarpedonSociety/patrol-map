@@ -35,7 +35,7 @@ SS-230:   # Finback — commissioned 31 Jan 1942, Electric Boat
   2:  { status: available, found_in: "Fold3, COMSUBSPAC collection", start: 1942-09-23, end: 1942-11-20, note: "Pearl Harbor to Pearl Harbor. Tonnage from war history in sources/SS-230/P02 (14,100 sunk, 13,751 damaged)." }
   3:  { status: transcribed, found_in: Fold3, report_no: 141, start: 1942-12-16, end: 1943-02-06, note: "Tables (pages 13-14), narrative for 16-17 January (pages 5-6: flooding through the conning tower hatch, gun action) and endorsements hand-transcribed. Arrived Midway (Enclosure B)." }
   4:  { status: missing, start: 1943-02-27, end: 1943-04-13, note: "Dates from DANFS (45 days, agrees with war history). Midway to Pearl Harbor, Lt. Comdr. Hull. Tonnage-only entry in sources/SS-230/P04. Report number likely above 165 (returned after Trigger)." }
-  5:  { status: available, found_in: Fold3, start: 1943-05-12, end: 1943-06-26, note: "Second overlap set" }
+  5:  { status: transcribed, found_in: Fold3, start: 1943-05-12, end: 1943-06-26, note: "Second overlap set. Pearl Harbor via Midway to Palau; rerouted to Fremantle. Gemini gemini-01 (narrative, pages 1-14) and contacts-01 (tables, pages 16-20), fresh chat; to verify" }
   6:  { status: available, found_in: Fold3 }
   7:  { status: available, found_in: Fold3 }
   8:  { status: available, found_in: Fold3 }

@@ -440,7 +440,8 @@
    },
    "flags": [
     "Transcriber: Time printed 1016 or 1015, text says 1015"
-   ]
+   ],
+   "contact_no": "1."
   },
   {
    "id": "SS-236-P04-N39",
@@ -508,7 +509,8 @@
    "flags": [
     "Narrative entry at 0150 L 23 December (page 1) describes this attack; its account is included here.",
     "Zone K corrected to L (zone_fix in patrol.yml)."
-   ]
+   ],
+   "contact_no": "1."
   },
   {
    "id": "SS-236-P04-N05",
@@ -579,7 +581,8 @@
    },
    "flags": [
     "Transcriber: \"bombs\" partially typed/clipped"
-   ]
+   ],
+   "contact_no": "2."
   },
   {
    "id": "SS-236-P04-N06",
@@ -651,7 +654,8 @@
     "firing_range": "8000",
     "remarks": "Picked up at 25 mile range."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "3."
   },
   {
    "id": "SS-236-P04-N07",
@@ -710,7 +714,8 @@
     "firing_range": "10000",
     "remarks": "Lights of plane over airfield at Kavieng."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "4."
   },
   {
    "id": "SS-236-P04-N08",
@@ -776,7 +781,8 @@
     "firing_range": "14000",
     "remarks": "Coming out of Kavieng."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "5."
   },
   {
    "id": "SS-236-P04-C28",
@@ -806,7 +812,8 @@
     "firing_range": "16000",
     "remarks": "Taking off from Kavieng."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "6."
   },
   {
    "id": "SS-236-P04-C29",
@@ -836,7 +843,8 @@
     "firing_range": "20000",
     "remarks": "Landing at Kavieng."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "7."
   },
   {
    "id": "SS-236-P04-C02",
@@ -871,7 +879,8 @@
     "remarks": "Listed as Hosp. Ship",
     "attacked": "No"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "2."
   },
   {
    "id": "SS-236-P04-C03",
@@ -906,7 +915,8 @@
     "remarks": "Possibly same as #2",
     "attacked": "No"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "3."
   },
   {
    "id": "SS-236-P04-N09",
@@ -975,7 +985,8 @@
    },
    "flags": [
     "Transcriber: Date typed as \"226 Dec\""
-   ]
+   ],
+   "contact_no": "8."
   },
   {
    "id": "SS-236-P04-N10",
@@ -1099,7 +1110,8 @@
     "remarks": "Angle on bow 130° when seen.",
     "attacked": "No"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "4."
   },
   {
    "id": "SS-236-P04-C05",
@@ -1134,7 +1146,8 @@
     "remarks": "Trailing Tanker.",
     "attacked": "No"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "5."
   },
   {
    "id": "SS-236-P04-C31",
@@ -1164,7 +1177,8 @@
     "firing_range": "8000",
     "remarks": "Kawanisi Type 97 south of Truk."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "9."
   },
   {
    "id": "SS-236-P04-N13",
@@ -1229,7 +1243,8 @@
     "remarks": "Returned at 1600 L",
     "attacked": "No"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "6."
   },
   {
    "id": "SS-236-P04-N14",
@@ -1304,7 +1319,8 @@
    "flags": [
     "Transcriber: \"Ynsinn M\" overstruck / faint",
     "Uncertain reading in remarks: ⟦Ynsinn M⟧ Maru, took photo."
-   ]
+   ],
+   "contact_no": "7."
   },
   {
    "id": "SS-236-P04-C08",
@@ -1339,7 +1355,8 @@
     "remarks": "Heading for Truk",
     "attacked": "No"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "8."
   },
   {
    "id": "SS-236-P04-N15",
@@ -1406,7 +1423,8 @@
     "firing_range": "12000",
     "remarks": "Kawanisi Type 97 south of Truk."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "10."
   },
   {
    "id": "SS-236-P04-C09",
@@ -1447,7 +1465,8 @@
     "Narrative entry at 1701 L 6 January (page 4) describes this attack; its account is included here.",
     "Time zone K inferred from Part I note.",
     "Zone K corrected to L (zone_fix in patrol.yml)."
-   ]
+   ],
+   "contact_no": "9."
   },
   {
    "id": "SS-236-P04-N17",
@@ -1519,7 +1538,8 @@
     "remarks": "Range too great to observe loading.",
     "attacked": "No"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "10."
   },
   {
    "id": "SS-236-P04-C11",
@@ -1554,7 +1574,8 @@
     "remarks": "Escorting tanker astern.",
     "attacked": "No"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "11."
   },
   {
    "id": "SS-236-P04-C33",
@@ -1584,7 +1605,8 @@
     "firing_range": "6000",
     "remarks": "Low wing, single float monoplane."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "11."
   },
   {
    "id": "SS-236-P04-N18",
@@ -1656,7 +1678,8 @@
     "remarks": "Searching in pairs.",
     "attacked": "No"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "12."
   },
   {
    "id": "SS-236-P04-N19",
@@ -1729,7 +1752,8 @@
     "remarks": "Fishing.",
     "attacked": "No"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "13."
   },
   {
    "id": "SS-236-P04-C14",
@@ -1765,7 +1789,8 @@
    },
    "flags": [
     "Transcriber: Latitude deg/min typed as \"7-10\" without hemisphere N on page"
-   ]
+   ],
+   "contact_no": "14."
   },
   {
    "id": "SS-236-P04-N20",
@@ -1837,7 +1862,8 @@
     "remarks": "In sight all day.",
     "attacked": "No"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "15."
   },
   {
    "id": "SS-236-P04-C16",
@@ -1871,7 +1897,8 @@
     "lead": "-",
     "attacked": "No"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "16."
   },
   {
    "id": "SS-236-P04-N21",
@@ -1969,7 +1996,8 @@
     "firing_range": "6000",
     "remarks": "Single float biplane."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "12."
   },
   {
    "id": "SS-236-P04-N23",
@@ -2029,7 +2057,8 @@
     "firing_range": "8000",
     "remarks": "Single float biplane"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "13."
   },
   {
    "id": "SS-236-P04-N24",
@@ -2100,7 +2129,8 @@
     "lead": "-",
     "attacked": "No"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "17."
   },
   {
    "id": "SS-236-P04-N25",
@@ -2171,7 +2201,8 @@
     "lead": "-",
     "attacked": "No"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "18."
   },
   {
    "id": "SS-236-P04-C19",
@@ -2212,7 +2243,8 @@
     "Narrative entry at 0103 L 18 January (page 5) describes this attack; its account is included here.",
     "Time zone K inferred from Part I note.",
     "Zone K corrected to L (zone_fix in patrol.yml)."
-   ]
+   ],
+   "contact_no": "19."
   },
   {
    "id": "SS-236-P04-C20",
@@ -2246,7 +2278,8 @@
     "lead": "-",
     "attacked": "No"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "20."
   },
   {
    "id": "SS-236-P04-N27",
@@ -2317,7 +2350,8 @@
     "firing_range": "4000",
     "remarks": "Low wing, twin float, zero type. In sight for 40' hunting for us."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "14."
   },
   {
    "id": "SS-236-P04-C37",
@@ -2349,7 +2383,8 @@
    },
    "flags": [
     "Transcriber: Remarks truncated/faint at right"
-   ]
+   ],
+   "contact_no": "15."
   },
   {
    "id": "SS-236-P04-N28",
@@ -2422,7 +2457,8 @@
    },
    "flags": [
     "Transcriber: Lead column printed \"VV\""
-   ]
+   ],
+   "contact_no": "21."
   },
   {
    "id": "SS-236-P04-C22",
@@ -2463,7 +2499,8 @@
     "Narrative entry at 1250 L 20 January (page 6) describes this attack; its account is included here.",
     "Report page 6 ends with freighter comparison list containing illegible/blank ship names before BELGIUM MARU; text continues onto page 7.",
     "Zone K corrected to L (zone_fix in patrol.yml)."
-   ]
+   ],
+   "contact_no": "22."
   },
   {
    "id": "SS-236-P04-N30",
@@ -2659,7 +2696,8 @@
     "firing_range": "14000",
     "remarks": "Radar did not p... pick it up."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "16."
   },
   {
    "id": "SS-236-P04-C39",
@@ -2692,7 +2730,8 @@
    "flags": [
     "Transcriber: Missing time zone letter in source",
     "No zone letter on this entry; zone M assumed from the previous entry."
-   ]
+   ],
+   "contact_no": "17."
   },
   {
    "id": "SS-236-P04-N34",

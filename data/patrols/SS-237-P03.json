@@ -317,7 +317,8 @@
     "Transcriber: Heading typed \"VESSSUS SJCHED.\"; time zone blank; lon missing E/W",
     "Review: The table gives 0430 for the first contact on 16 December; the narrative gives 0410(K). Check both against pages 2 and 13.",
     "No zone letter on this entry; zone K assumed from the narrative."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N05",
@@ -382,7 +383,8 @@
     "Uncertain reading in time: 05⟦5⟧8( )",
     "Uncertain reading in type: ⟦Freig⟧hter",
     "Uncertain reading in lat long: L⟦at⟧. 35-33N<br>Long. 140-57"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N06",
@@ -442,7 +444,8 @@
     "Transcriber: Date year typed 12/19/12; \"Froichter\" typed in source; lon missing E/W",
     "Uncertain reading in date: 12/19/⟦4⟧2",
     "Uncertain reading in type: Fr⟦e⟧ighter"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N07",
@@ -504,7 +507,8 @@
    "flags": [
     "Transcriber: Lat typed above cell: \"Lane 3542\"",
     "Uncertain reading in time: 04⟦3⟧0(K)"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N08",
@@ -739,7 +743,8 @@
     "Transcriber: Time appears as 2338(K) or 2332(K); 2332(K) in narrative; \"freichter\" typed in source",
     "Review: Gemini reads the time as 2332 or 2338. 2332 agrees with the narrative's (5th Contact) entry. This also settles which of the two Gemini runs of pages 2-4 had the times right: the second.",
     "Uncertain reading in time: 233⟦2⟧(K)"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N14",
@@ -1089,7 +1094,8 @@
    "flags": [
     "Transcriber: Time faint, appears as 12:6(K) or 1336(K); \"frei hter\" typed in source; lon missing E/W",
     "Uncertain reading in time: 1⟦33⟧6(K)"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N23",
@@ -1151,7 +1157,8 @@
    "flags": [
     "Transcriber: Column order has Course / Altitude in heading but 2000 ft printed under Course column; Course blank; \"seaplenes\" typed in source",
     "Position given only as 'Off Nojima Saki'; placed at Nojima Saki itself, as a rough estimate."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N26",
@@ -1220,7 +1227,8 @@
     "Transcriber: Time zone blank; lat second digit overstruck/faint",
     "No zone letter on this entry; zone K assumed from the previous entry.",
     "Uncertain reading in lat long: Lat. 34-4⟦5⟧N<br>Long. 139-47E"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N27",
@@ -1370,7 +1378,8 @@
    "flags": [
     "Transcriber: Time typed 1715(K) or 1745(K); 1745(K) in narrative; lon missing E/W",
     "Uncertain reading in time: 17⟦4⟧5(K)"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N32",
@@ -1572,7 +1581,8 @@
    "flags": [
     "Transcriber: Time digit faint (22:0(K)); \"climpse ves all\" typed in source",
     "Uncertain reading in time: 22⟦2⟧0(K)"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N37",
@@ -1665,7 +1675,8 @@
    },
    "flags": [
     "Transcriber: \"18500\" typed with struck 1 or smudge"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N39",
@@ -1807,7 +1818,8 @@
    "flags": [
     "Transcriber: Course and speed blank",
     "Position given as 'Ditto'; the previous entry's position is used."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N43",
@@ -2039,7 +2051,8 @@
    },
    "flags": [
     "Transcriber: Speed blank; lon missing E/W"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N51",
@@ -2133,7 +2146,8 @@
    },
    "flags": [
     "Transcriber: Speed and Remarks blank; lon missing E/W"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N52",
@@ -2342,7 +2356,8 @@
     "Transcriber: Heading typed \"5. VESSELE SICHTED.\"; time typed 1213( ) or 1313( ); time zone blank; lon missing E/W",
     "No zone letter on this entry; zone K assumed from the previous entry.",
     "Uncertain reading in time: 1⟦3⟧13( )"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N59",
@@ -2610,7 +2625,8 @@
     "Transcriber: Time typed ::J620(K) or 1620(K); \"Patrol plano\" typed in source",
     "Position derived from 'About 45 miles SE of Nojima Saki' using a modern landmark position; an estimate.",
     "Uncertain reading in time: ⟦1⟧620(K)"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N66",
@@ -2674,7 +2690,8 @@
     "Transcriber: Time typed 3130(K) or 1130(K)",
     "Position derived from 'About 15 miles ESE of Nojima Saki' using a modern landmark position; an estimate.",
     "Uncertain reading in time: ⟦1⟧130(K)"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N68",
@@ -2735,7 +2752,8 @@
    "flags": [
     "Transcriber: Date typed 1/15/45; lon missing E/W",
     "Uncertain reading in date: 1/15/4⟦3⟧"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P03-N69",

@@ -231,7 +231,8 @@
    },
    "flags": [
     "Review: Gun action: 164 rounds 3\"/50, 12 hits. Recorded in the torpedo column."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C02",
@@ -262,7 +263,8 @@
     "description": "Island type, about 6000 tons no war paint on upper works",
     "remarks": "Turned away on seeing burning trawler"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-N01",
@@ -325,7 +327,8 @@
    },
    "flags": [
     "Lat and long run together in the transcription (33-20-140-52); read as 33-20 / 140-52."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C04",
@@ -366,7 +369,8 @@
     "Review: Remarks: 'Explosion at 3'' is ambiguous (3 minutes?). Check against the report.",
     "Lat and long run together in the transcription (33-52-137-09); read as 33-52 / 137-09.",
     "Firing range (3000) is greater than initial range (1000)."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C05",
@@ -397,7 +401,8 @@
     "description": "Similar to Momo (DD) or Uji (PG) class",
     "remarks": "Crossed our stern at about 20 knots range 6500"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C06",
@@ -430,7 +435,8 @@
    },
    "flags": [
     "Review: 'Medium Freighter' at 500 tons doesn't fit the category. Check whether the report says 5000."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C07",
@@ -461,7 +467,8 @@
     "description": "1000-1500 ton coastal freighter",
     "remarks": "Close in shore"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C08",
@@ -492,7 +499,8 @@
     "description": "1000-1500 ton coastal freighter",
     "remarks": "close in shore"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C09",
@@ -523,7 +531,8 @@
     "description": "Similar to our coastal mine sweeps #63 on the bow about 750 tons",
     "remarks": "In area for next 2 days Had #63 on bow. Man of war flag."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C10",
@@ -554,7 +563,8 @@
     "description": "1000-1500 ton coastal freighter, reciprocating engines",
     "remarks": "close in shore"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C11",
@@ -585,7 +595,8 @@
     "description": "1000-1500 ton coastal freighter, reciprocating engines",
     "remarks": "close in shore started approach got caught in fish net"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C12",
@@ -622,7 +633,8 @@
     "hits": "2",
     "remarks": "Ship blew up after heading for beach"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C13",
@@ -659,7 +671,8 @@
     "hits": "2",
     "remarks": "Went deep before hits seen. 4 explosions heard after torpedo exploded."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C14",
@@ -695,7 +708,8 @@
     "firing_range": "4000",
     "hits": "0"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C15",
@@ -725,7 +739,8 @@
     "speed": "12",
     "description": "About 8000 tons. Angle on bow about 120 when sighted."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C16",
@@ -756,7 +771,8 @@
     "description": "Masts and stacks only sighted",
     "remarks": "Could not close range as ships were past when sighted."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C17",
@@ -787,7 +803,8 @@
     "description": "About 750 tons. Similar to coastal mine sweeps. #32 on bow",
     "remarks": "Equipped with good sonic gear and depth charges"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C18",
@@ -826,7 +843,8 @@
    },
    "flags": [
     "No zone letter on this entry; zone I assumed from the previous entry."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C19",
@@ -857,7 +875,8 @@
     "description": "Similar to our PC boats one mast and stack",
     "remarks": "Conducted search for us for 2 hrs"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C20",
@@ -888,7 +907,8 @@
     "description": "Medium tanker in ballast enrote KOBE rounding SHIONO MISAKI",
     "remarks": "Turned in shore just before we were about to fire"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C21",
@@ -925,7 +945,8 @@
     "hits": "0",
     "remarks": "Probably wooden hull. Running without lights"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C22",
@@ -956,7 +977,8 @@
     "description": "Sighted running lights of small ship in bright moonlight. Not over 500 tons at most",
     "remarks": "Trailed us on surface 1/2 hr, Evaded at 18 knots"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C23",
@@ -987,7 +1009,8 @@
     "description": "Large sampan type 2 masts and stack. no number. about 350 tons",
     "remarks": "Equipped with sonic gear and depth charges. Patrolling lanes."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C24",
@@ -1018,7 +1041,8 @@
     "description": "Small, well deck; one stack, two masts, about 1500 tons, reciprocating engines",
     "remarks": "Believed to be one who later depth charged us. Sighted masts of 3 other small steamers at this time range 12000"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C25",
@@ -1057,7 +1081,8 @@
    },
    "flags": [
     "Review: 'TATEKAWA MARU 10, 100 gross' likely means 10,100 tons."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C26",
@@ -1088,7 +1113,8 @@
     "description": "Sampan type, 2 masts, 1 stack, about 400 tons",
     "remarks": "Patrolling or trolling off ASHIZURI SAKI"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-236-P01-C27",
@@ -1119,7 +1145,8 @@
     "description": "One stack, 2 masts. About 2000 tons",
     "remarks": "On course toward TOKYO. Range and angle on bow too great for pursuit"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   }
  ],
  "tonnage": [],

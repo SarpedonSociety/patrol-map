@@ -52,6 +52,11 @@ landmarks:
   Nauru: { lat: -0.52, lon: 166.93, note: "Nauru Island, centre. Approximate; verify against a chart." }
   Steffan Strait: { lat: -2.62, lon: 150.55, note: "Steffen Strait, between New Hanover and New Ireland, west of Kavieng. Spelled as the report types it. Approximate; verify against a chart." }
   Fredrick Reef: { lat: -20.95, lon: 154.40, note: "Frederick Reef, Coral Sea. Spelled as the report types it. Approximate; verify against a chart." }
+  Wake: { lat: 19.28, lon: 166.65, note: "Wake Island. Approximate; verify against a chart." }
+  Anguar Island: { lat: 6.90, lon: 134.14, note: "Angaur, Palau. Spelled as the report types it. Approximate; verify against a chart." }
+  Malakal Harbor: { lat: 7.33, lon: 134.45, note: "Malakal Harbor, Koror, Palau: the harbour itself, not its reef entrances. Approximate; verify against a chart." }
+  Toagel Mlungui: { lat: 7.53, lon: 134.47, note: "Toagel Mlungui (West Passage) through the Palau barrier reef. Approximate; verify against a chart." }
+  Vlaming Head Light: { lat: -21.80, lon: 114.10, note: "Vlaming Head lighthouse, North West Cape, Western Australia. Approximate; verify against a chart." }
 
 # Place names drawn on the map. zoom = how far in before the label shows
 # (0 = always).

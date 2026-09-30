@@ -1,0 +1,68 @@
+# USS Finback (SS-230), War Patrol 5
+# Transcribed by Gemini in a fresh chat: gemini-01.yml (narrative, pages
+# 1-14) and contacts-01.md (contact, aircraft and attack tables, pages
+# 16-20). Hand entries here take precedence.
+
+boat: SS-230
+patrol: 5
+year: 1943
+report_found: yes
+report:
+comsubpac_report_no:
+commanding_officer:
+
+# The attack summary prints a time with each date but no zone. Every one
+# is nine hours behind the narrative's zone I time for the same attack
+# (Attack 1: 1717 on 5-26 against 0217 I on 27 May), so they are GCT.
+table_zones: { SUMMARY OF SUBMARINE ATTACKS: Z }
+
+departure:
+  port: Pearl Harbor
+  date: 12MAY
+  time: "1000"
+  zone: VX
+  page: 1
+  flags: "Zone typed VX. Read as Hawaiian time (GMT minus 10½), as Silversides' VW is; check what VX meant."
+
+period:
+  start: 1943-05-12
+  end: 1943-06-26
+  source: "Patrol report"
+
+# Claimed tonnage from the attack summary, pages 19-20. Times are GCT.
+tonnage:
+  - { date: 5-26-43, time: "1717", zone: Z, target: Freighter, result: sunk, tons: 6000, basis: claimed, source: "Attack 1, page 19" }
+  - { date: 6-1-43, time: "2012", zone: Z, target: Freighter (TATUKAMI MARU type), result: damaged, tons: 7065, basis: claimed, source: "Attack 2, page 19" }
+  - { date: 6-7-43, time: "1727", zone: Z, target: Freighter-passenger, result: damaged, tons: 7000, basis: claimed, source: "Attack 3, page 19" }
+  - { date: 6-7-43, time: "1727", zone: Z, target: Freighter, result: sunk, tons: 5704, basis: claimed, source: "Attack 4, page 19" }
+  - { date: 6-7-43, time: "1732", zone: Z, target: Freighter, result: sunk, tons: 5400, basis: claimed, source: "Attack 5, page 20" }
+  - { date: 6-8-43, time: "0947", zone: Z, target: Passenger, result: damaged, tons: 6370, basis: claimed, source: "Attack 6, page 20" }
+  - { date: 6-11-43, time: "0054", zone: Z, target: NAGOYA MARU, result: sunk, tons: 6072, basis: claimed, source: "Attack 7, page 20" }
+
+events:
+  # The latitude and longitude in this entry are the oil barge's, not the
+  # rendezvous position; the barge position goes with the mooring at 1301.
+  - replaces: { date: 23JUN, time: "0800" }
+    date: 23JUN
+    time: "0800"
+    zone: H
+    from: Vlaming Head Light
+    bearing: north
+    distance: five miles
+    bearing_is: from_landmark
+    tag: notable
+    title: Met USS Isabel for escort
+    part: I
+    event: "made rendezvous with U.S.S. ISABEL five miles north of Vlaming Head Light. Proceeded under escort to oil barge in Exmouth Gulf (Approximate location - Lat. 22°-11 ( ) Long. 114°-09 ( )) for fuel."
+    page: 13
+    flags: "Hemisphere letters blank in the source. The lat/long given is the oil barge's approximate position; used at 1301 instead. An escort meeting, so not tagged as a rendezvous."
+  - replaces: { date: 23JUN, time: "1301" }
+    date: 23JUN
+    time: "1301"
+    zone: H
+    lat: 22-11 S
+    lon: 114-09 E
+    part: I
+    event: "moored along side tanker."
+    page: 14
+    flags: "Position is the report's approximate location of the oil barge in Exmouth Gulf (page 13; hemispheres blank, south and east from the geography)."

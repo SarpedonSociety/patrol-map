@@ -76,7 +76,14 @@ entry's number in its source line.
 If the attack summary gives dates but no times (Silversides Patrol 5),
 the narrative's attack entries on the same date supply the times, in
 order, as long as the counts agree; otherwise each attack is flagged.
-Hawaiian time, typed `VW`, is read as GMT minus 10½ hours.
+Hawaiian time, typed `VW` (or `VX`), is read as GMT minus 10½ hours.
+
+A ship contact table with dates but no times (Finback Patrol 5) takes each
+contact's time from the narrative entry headed with its number ("Contact
+#6-7"). Table rows that still have no time show on the map on their date
+but stay off the track, since they can't be put in order along it. When a
+table's times are in a zone the report doesn't print, `patrol.yml` can set
+it: `table_zones: { SUMMARY OF SUBMARINE ATTACKS: Z }`.
 
 ## Tonnage scoreboard
 

@@ -1,0 +1,4997 @@
+{
+ "id": "SS-230-P05",
+ "boat": "SS-230",
+ "name": "Finback",
+ "class": "Gato",
+ "patrol": 5,
+ "year": 1943,
+ "report": "Report of Fifth War Patrol.",
+ "commanding_officer": null,
+ "citation": {
+  "archive": "NARA",
+  "record_group": "38",
+  "nara_catalog_id": "4697018",
+  "nara_catalog_title": "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946",
+  "reel": "A446",
+  "micro_serial": "52388",
+  "file": "A16-3",
+  "serial": "11",
+  "date": "6/26/1943"
+ },
+ "fold3_images": {
+  "1": "269714962",
+  "2": "269714963",
+  "3": "269714964",
+  "4": "269714965",
+  "5": "269714966",
+  "6": "269714967",
+  "7": "269714968",
+  "8": "269714969",
+  "9": "269714970",
+  "10": "269714971",
+  "11": "269714972",
+  "12": "269714973",
+  "13": "269714974",
+  "14": "269714975"
+ },
+ "miles_steamed": null,
+ "fuel_expended": null,
+ "start": "1943-05-12T12:00:00Z",
+ "end": "1943-06-26T12:00:00Z",
+ "departure": {
+  "label": "Departed",
+  "port": "Pearl Harbor",
+  "utc": "1943-05-12T20:30:00Z",
+  "local": "1000 VX 12MAY",
+  "lat": 21.35,
+  "lon": -157.95,
+  "page": "1",
+  "flags": [
+   "Zone typed VX. Read as Hawaiian time (GMT minus 10½), as Silversides' VW is; check what VX meant."
+  ]
+ },
+ "arrival": {
+  "label": "Arrived",
+  "port": "Fremantle",
+  "utc": "1943-06-26T12:00:00Z",
+  "local": "26JUN",
+  "lat": -32.05,
+  "lon": 115.74,
+  "page": "14",
+  "flags": [
+   "Time omitted in narrative entry",
+   "Time not recorded; placed at noon."
+  ]
+ },
+ "report_found": true,
+ "summary": {
+  "records": 149,
+  "sightings": 14,
+  "aircraft": 9,
+  "torpedo_attacks": 8,
+  "mine_attacks": 0,
+  "counterattacks": 8,
+  "torpedoes_fired": 23,
+  "gun_actions": 0,
+  "flagged": 98
+ },
+ "track": [
+  {
+   "lat": 21.35,
+   "lon": -157.95,
+   "utc": "1943-05-12T20:30:00Z",
+   "basis": "reference"
+  },
+  {
+   "lat": 8.53333,
+   "lon": 134.0,
+   "utc": "1943-05-26T15:02:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P05-C01"
+  },
+  {
+   "lat": 8.68333,
+   "lon": 134.03333,
+   "utc": "1943-05-26T17:17:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P05-C24"
+  },
+  {
+   "lat": 7.4,
+   "lon": 138.11667,
+   "utc": "1943-06-01T01:34:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P05-C06"
+  },
+  {
+   "lat": 7.18333,
+   "lon": 134.75,
+   "utc": "1943-06-01T20:12:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P05-C25"
+  },
+  {
+   "lat": 7.6,
+   "lon": 134.33333,
+   "utc": "1943-06-07T06:15:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P05-C11"
+  },
+  {
+   "lat": 9.11667,
+   "lon": 134.51667,
+   "utc": "1943-06-07T17:27:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P05-C26"
+  },
+  {
+   "lat": 10.35,
+   "lon": 133.21667,
+   "utc": "1943-06-07T20:15:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P05-C12"
+  },
+  {
+   "lat": 11.6,
+   "lon": 134.16667,
+   "utc": "1943-06-08T09:47:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P05-C29"
+  },
+  {
+   "lat": 7.6,
+   "lon": 134.28333,
+   "utc": "1943-06-10T23:17:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P05-C13"
+  },
+  {
+   "lat": 10.0,
+   "lon": 131.16667,
+   "utc": "1943-06-15T11:28:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P05-C31"
+  },
+  {
+   "lat": -22.18333,
+   "lon": 114.15,
+   "utc": "1943-06-23T05:01:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P05-N125"
+  },
+  {
+   "lat": -32.05,
+   "lon": 115.74,
+   "utc": "1943-06-26T12:00:00Z",
+   "basis": "reference"
+  }
+ ],
+ "records": [
+  {
+   "id": "SS-230-P05-N01",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "VX",
+   "local": "1000 VX 12MAY",
+   "utc": "1943-05-12T20:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    12
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Departed Pearl for Area Ten via Midway under escort of U.S.C.G. TANEY. Commander Submarines, Pacific Fleet in FINBACK."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-C15",
+   "source": "Description of aircraft sighted",
+   "row": 15,
+   "kind": "aircraft",
+   "page": "18",
+   "zone": null,
+   "local": "5-15-43",
+   "utc": "1943-05-15T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    5,
+    15
+   ],
+   "position_verbatim": "L-28°-00'(N) 179°-00'(W)",
+   "lat": 28.0,
+   "lon": -179.0,
+   "derived": null,
+   "type": "18 B-24s 5 PBYs searching for downed B-24",
+   "title": "Aircraft 1 · 18 B-24s 5 PBYs searching for downed B-24",
+   "fields": {
+    "type": "18 B-24s 5 PBYs searching for downed B-24",
+    "course": "070° to 250°",
+    "altitude": "1,000 to 5,000",
+    "remarks": "All planes connected with Wake Island raid."
+   },
+   "flags": [
+    "Transcriber: Date typed 5-15-43 (first digit 1 faint)",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "1."
+  },
+  {
+   "id": "SS-230-P05-N02",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "Y",
+   "local": "0703 Y 15MAY",
+   "utc": "1943-05-15T19:03:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    15
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Moored to dock at Midway. Commander Submarines, Pacific Fleet left ship. Received 19,800 gallons of fuel."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N03",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "Y",
+   "local": "1330 Y 15MAY",
+   "utc": "1943-05-16T01:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    15
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Departed Midway for area; encountered returning Army B-24s, and later PT-Boats and PBYs searching after dark for a downed B-24."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N04",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "Y",
+   "local": "0550 Y 16MAY",
+   "utc": "1943-05-16T17:50:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    16
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Crossed 180th Meridian."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-C16",
+   "source": "Description of aircraft sighted",
+   "row": 16,
+   "kind": "aircraft",
+   "page": "18",
+   "zone": null,
+   "local": "5-17-43",
+   "utc": "1943-05-17T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    5,
+    17
+   ],
+   "position_verbatim": "L-26°-50' (N) 178°-32'(E)",
+   "lat": 26.83333,
+   "lon": 178.53333,
+   "derived": null,
+   "type": "Navy PBY",
+   "title": "Aircraft 2 · Navy PBY",
+   "fields": {
+    "type": "Navy PBY",
+    "course": "070°",
+    "altitude": "700"
+   },
+   "flags": [
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "2."
+  },
+  {
+   "id": "SS-230-P05-N05",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": null,
+   "local": "17MAY",
+   "utc": "1943-05-17T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    17
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducting daily dives and drills for control parties and crew enroute to area."
+   },
+   "flags": [
+    "Heading dates: May 17-26, 1943. Time omitted.",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N06",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "L",
+   "local": "1941 L 19MAY",
+   "utc": "1943-05-19T08:41:00Z",
+   "position_verbatim": "230 miles north of Wake",
+   "derived": {
+    "from": "Wake",
+    "bearing": 0.0,
+    "distance_nm": 230.0,
+    "landmark": {
+     "lat": 19.28,
+     "lon": 166.65
+    },
+    "landmark_note": "Wake Island. Approximate; verify against a chart."
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    19
+   ],
+   "has_time": true,
+   "lat": 23.11333,
+   "lon": 166.65,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Dived when Quartermaster and O.O.D. sighted running lights of plane 230 miles north of Wake under full moon; no bombs dropped."
+   },
+   "flags": [
+    "Position derived from '230 miles north of Wake' using a modern landmark position; it is an estimate, not a position recorded in the report.",
+    "Landmark: Wake Island. Approximate; verify against a chart."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N07",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "L",
+   "local": "2000 L 19MAY",
+   "utc": "1943-05-19T09:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    19
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced and proceeded."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-C17",
+   "source": "Description of aircraft sighted",
+   "row": 17,
+   "kind": "aircraft",
+   "page": "18",
+   "zone": null,
+   "local": "5-19-43",
+   "utc": "1943-05-19T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    5,
+    19
+   ],
+   "position_verbatim": "L-23°-15(N) 166°-55(E)",
+   "lat": 23.25,
+   "lon": 166.91667,
+   "derived": null,
+   "type": "Unknown",
+   "title": "Aircraft 3 · Unknown",
+   "fields": {
+    "type": "Unknown",
+    "remarks": "After sunset on a clear, bright moonlight night."
+   },
+   "flags": [
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "3."
+  },
+  {
+   "id": "SS-230-P05-N08",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "L",
+   "local": "0554 L 20MAY",
+   "utc": "1943-05-19T18:54:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    20
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived on radar contact on plane at 6 miles. No bombs dropped. Conducted test of submerged loop while down."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N09",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "L",
+   "local": "0721 L 20MAY",
+   "utc": "1943-05-19T20:21:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    20
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-C18",
+   "source": "Description of aircraft sighted",
+   "row": 18,
+   "kind": "aircraft",
+   "page": "18",
+   "zone": null,
+   "local": "5-20-43",
+   "utc": "1943-05-20T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    5,
+    20
+   ],
+   "position_verbatim": "L-22°-45 (N) 164°-28' (E)",
+   "lat": 22.75,
+   "lon": 164.46667,
+   "derived": null,
+   "type": "Unknown",
+   "title": "Aircraft 4 · Unknown",
+   "fields": {
+    "type": "Unknown",
+    "remarks": "Dived on Radar contact at 6 miles"
+   },
+   "flags": [
+    "Transcriber: Date typed 4-20-43",
+    "Review: Gemini says the date is typed 4-20-43 and wrote 5-20-43. The narrative's 0554 L dive on a radar contact at 6 miles is 20 May, which fits 5-20.",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "4."
+  },
+  {
+   "id": "SS-230-P05-N10",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "L",
+   "local": "2300 L 23MAY",
+   "utc": "1943-05-23T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    23
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Passed between Pagan Island and Alamagan Island."
+   },
+   "flags": [
+    "Zone blank in source",
+    "No zone letter on this entry; zone L assumed from the previous entry."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N11",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "I",
+   "local": "1700 I 26MAY",
+   "utc": "1943-05-26T08:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    26
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Entered area. Set course across northern end of area to take up patrol across traffic lanes from Empire and Formosa ports."
+   },
+   "flags": [
+    "Date typed as Jay 26, 1943"
+   ]
+  },
+  {
+   "id": "SS-230-P05-C01",
+   "source": "Description of enemy vessels sighted",
+   "row": 1,
+   "kind": "sighting",
+   "page": "16",
+   "zone": "I",
+   "local": "0002 I 27MAY",
+   "utc": "1943-05-26T15:02:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    5,
+    26
+   ],
+   "position_verbatim": "L-8°-32'(N) 134°-00(E)",
+   "lat": 8.53333,
+   "lon": 134.0,
+   "derived": null,
+   "type": "Freighter 6,000 tons Unidentified",
+   "title": "Contact 1 · Freighter 6,000 tons Unidentified",
+   "fields": {
+    "type": "Freighter 6,000 tons Unidentified",
+    "initial_range": "10,000 on Radar",
+    "min_range": "1,800",
+    "course": "160°",
+    "speed": "10",
+    "remarks": "Picked up on Radar-Made submerged approach. Contact lost during 1st attack."
+   },
+   "flags": [
+    "Transcriber: Date 5-26-43 differs from narrative 5-27-43",
+    "Review: The table dates contacts 1 and 2 on 5-26-43 though its heading says local date; the narrative has them at 0002 and 0138 (I) on 27 May. The map uses the narrative's times.",
+    "The table gives no time; 0002 I 27MAY is from the narrative entry for this contact (page 2)."
+   ],
+   "contact_no": "1."
+  },
+  {
+   "id": "SS-230-P05-N12",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "I",
+   "local": "0002 I 27MAY",
+   "utc": "1943-05-26T15:02:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-05-26T15:02:00Z",
+     "1943-05-26T17:17:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    27
+   ],
+   "has_time": true,
+   "lat": 8.53333,
+   "lon": 134.0,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Radar contact at 10,250 yards; tracked on starboard quarter, closed ahead at four engines after moonrise, taking bearings on smoke."
+   },
+   "flags": [
+    "Heading includes Contact #1 (typed Contact (1)). Date typed lay 27, 1943",
+    "No position in the report. Placed on the track between the recorded positions at 1943-05-26 15:02 and 1943-05-26 17:17 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-C02",
+   "source": "Description of enemy vessels sighted",
+   "row": 2,
+   "kind": "sighting",
+   "page": "16",
+   "zone": "I",
+   "local": "0138 I 27MAY",
+   "utc": "1943-05-26T16:38:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    5,
+    26
+   ],
+   "position_verbatim": "L-8°-32'(N) 134°-00(E)",
+   "lat": 8.53333,
+   "lon": 134.0,
+   "derived": null,
+   "type": "3 Unidentified ships on Radar",
+   "title": "Contact 2 · 3 Unidentified ships on Radar",
+   "fields": {
+    "type": "3 Unidentified ships on Radar",
+    "initial_range": "13,500",
+    "min_range": "13,500",
+    "course": "315°",
+    "remarks": "Lost at 17,000 yards while attacking #1"
+   },
+   "flags": [
+    "Transcriber: Date 5-26-43 differs from narrative 5-27-43",
+    "Position given as 'Same'; the previous entry's position is used.",
+    "The table gives no time; 0138 I 27MAY is from the narrative entry for this contact (page 2)."
+   ],
+   "contact_no": "2."
+  },
+  {
+   "id": "SS-230-P05-N13",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "I",
+   "local": "0138 I 27MAY",
+   "utc": "1943-05-26T16:38:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-05-26T15:02:00Z",
+     "1943-05-26T17:17:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    27
+   ],
+   "has_time": true,
+   "lat": 8.64,
+   "lon": 134.0237,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Radar detected 3 pips bearing 315 relative at 13,500 yards; decided to attack first target first rather than bypass it to reach convoy."
+   },
+   "flags": [
+    "Heading includes Contact #2 (typed Contact #2))",
+    "No position in the report. Placed on the track between the recorded positions at 1943-05-26 15:02 and 1943-05-26 17:17 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N14",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "I",
+   "local": "0157 I 27MAY",
+   "utc": "1943-05-26T16:57:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-05-26T15:02:00Z",
+     "1943-05-26T17:17:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    27
+   ],
+   "has_time": true,
+   "lat": 8.66111,
+   "lon": 134.02839,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "with range of about 8,000 yards, dived to 40 feet."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-05-26 15:02 and 1943-05-26 17:17 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N15",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "I",
+   "local": "0212 I 27MAY",
+   "utc": "1943-05-26T17:12:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-05-26T15:02:00Z",
+     "1943-05-26T17:17:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    27
+   ],
+   "has_time": true,
+   "lat": 8.67777,
+   "lon": 134.0321,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "with range of about 3,300 yards, went to 60 feet."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-05-26 15:02 and 1943-05-26 17:17 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-C24",
+   "source": "Summary of submarine attacks",
+   "row": 24,
+   "kind": "torpedo",
+   "page": "19",
+   "zone": "Z",
+   "local": "1717 Z 5-26-43",
+   "utc": "1943-05-26T17:17:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    5,
+    26
+   ],
+   "position_verbatim": "8°-41(N) 134°-02(E)",
+   "lat": 8.68333,
+   "lon": 134.03333,
+   "derived": null,
+   "type": "Freighter",
+   "title": "Attack (1) 1 · Freighter",
+   "fields": {
+    "fired": "3 Mk XIV Torpex",
+    "hits": "2",
+    "sunk": "6,000",
+    "type": "Freighter",
+    "firing_range": "1,800",
+    "attack_type": "P",
+    "draft": "16",
+    "depth": "15",
+    "tube": "Bow",
+    "track": "90 (P)",
+    "gyro": "1-023 1/2<br>2-024<br>3-022",
+    "speed": "10",
+    "interval": "8 secs",
+    "spread": "2 1/2° Divergent",
+    "performance": "No SEE NOTES",
+    "narrative": "with target track of 90° port, speed 10, and range of about 1,800 yards, fired a three torpedo spread. First torpedo, prematured at 20 seconds, second torpedo hit on bow, third torpedo hit on stern. Sound unable to hear screws after two hits. Definitely heard breaking up noises on sound gear. The premature momentarily blinded the periscope. Only one torpedo, the third, was seen to hit, but all hands heard two hits following the premature. The target was surrounded by black smoke. Sighted target with decks awash."
+   },
+   "flags": [
+    "Transcriber: Date: Attack 1 time given as 1717 (narrative has 0217); Attack 2 time 2012 (narrative 0512); Attack 3 & 4 time 1727 (narrative 0227); Location (Lat.) (Long.): Attack 3 & 4 Longitude hemisphere blank; Track Angle (1st Torpedo): Attack 4 Track Angle port/starboard blank",
+    "The table gives no zone; zone Z set in patrol.yml (table_zones).",
+    "Narrative entry at 0217 I 27MAY (page 2) describes this attack; its account is included here.",
+    "Heading includes Attack #1 (typed Attack (1))"
+   ],
+   "contact_no": null
+  },
+  {
+   "id": "SS-230-P05-N17",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "I",
+   "local": "0230 I 27MAY",
+   "utc": "1943-05-26T17:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    27
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Came to 40 feet to search with radar; detected pip at 900 yards on surfacing to 25 feet, then dived to 60 feet to check escort."
+   },
+   "flags": [
+    "Entry text spans page 2 to page 3"
+   ]
+  },
+  {
+   "id": "SS-230-P05-N18",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "0240 I 27MAY",
+   "utc": "1943-05-26T17:40:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    27
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "shape disappeared. This target was an unidentified two masted, well deck freighter of about six thousand tons."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N19",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "0243 I 27MAY",
+   "utc": "1943-05-26T17:43:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    27
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Surfaced with nothing on radar; target took long to sink due to hits forward and aft, while M.O.T. torpedo prematured."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N20",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "0256 I 27MAY",
+   "utc": "1943-05-26T17:56:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    27
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "commenced chase of convoy at full speed, but suspected that first target had given alarm during long sinking period."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N21",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "0700 I 27MAY",
+   "utc": "1943-05-26T22:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    27
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Secured search after covering courses from 315°(T) to 270°(T); dived to check trim, check air coverage, and let crew sleep."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N22",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "1000 I 27MAY",
+   "utc": "1943-05-27T01:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    27
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced and commenced surface patrol across trade routes from Empire and Formosa to Palau."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N23",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "1605 I 27MAY",
+   "utc": "1943-05-27T07:05:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    27
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Approached smoke bearing 025°(T); found small PC-like patrol boat, took evasive action at periscope depth until sunset as target was too small for torpedoes."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N24",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "1956 I 27MAY",
+   "utc": "1943-05-27T10:56:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    27
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted red light of patrol vessel heading 300°(T) at 15 knots; radar unable to contact; turned south to let escort draw by hoping for targets."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-C03",
+   "source": "Description of enemy vessels sighted",
+   "row": 3,
+   "kind": "sighting",
+   "page": "16",
+   "zone": null,
+   "local": "5-27-43",
+   "utc": "1943-05-27T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    5,
+    27
+   ],
+   "position_verbatim": "L-08-56' (N)",
+   "lat": 8.93333,
+   "lon": null,
+   "derived": null,
+   "type": "Patrol Vessel similar to our PC-451",
+   "title": "Contact 3 · Patrol Vessel similar to our PC-451",
+   "fields": {
+    "type": "Patrol Vessel similar to our PC-451",
+    "initial_range": "18,000",
+    "min_range": "2,000",
+    "course": "Various",
+    "speed": "15",
+    "remarks": "searching for us after sighting us on surface."
+   },
+   "flags": [
+    "Transcriber: Longitude blank",
+    "Review: No longitude in the table; Gemini says the cell is blank. Check page 16.",
+    "No time recorded; placed at noon GMT on that date.",
+    "No usable position."
+   ],
+   "contact_no": "3."
+  },
+  {
+   "id": "SS-230-P05-C04",
+   "source": "Description of enemy vessels sighted",
+   "row": 4,
+   "kind": "sighting",
+   "page": "16",
+   "zone": null,
+   "local": "5-27-43",
+   "utc": "1943-05-27T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    5,
+    27
+   ],
+   "position_verbatim": "L-08°-43'(N) 133°-22(E)",
+   "lat": 8.71667,
+   "lon": 133.36667,
+   "derived": null,
+   "type": "Patrol vessel - Not seen",
+   "title": "Contact 4 · Patrol vessel - Not seen",
+   "fields": {
+    "type": "Patrol vessel - Not seen",
+    "initial_range": "8,000",
+    "min_range": "8,000",
+    "course": "300°",
+    "speed": "15",
+    "remarks": "Showed a red light."
+   },
+   "flags": [
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "4."
+  },
+  {
+   "id": "SS-230-P05-N26",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "0933 I 28MAY",
+   "utc": "1943-05-28T00:33:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    28
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced and commenced surface patrol."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N27",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "0950 I 28MAY",
+   "utc": "1943-05-28T00:50:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    28
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Sighted masts of same patrol vessel seen yesterday. He was headed toward us and apparently sighted us. Went ahead four engine speed. Was able to pull ahead very slowly."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N28",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "I",
+   "local": "1105 I 28MAY",
+   "utc": "1943-05-28T02:05:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    28
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Heard aircraft homing signals on 175 kcs. from patrol vessel's direction on D receiver; later heard plane transmissions on 350 kcs."
+   },
+   "flags": [
+    "Zone blank in source",
+    "No zone letter on this entry; zone I assumed from the previous entry."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N29",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "I",
+   "local": "1132 I 28MAY",
+   "utc": "1943-05-28T02:32:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    28
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted float observation plane near patrol vessel; dived to 200 feet; plane dropped no bombs; escort departed; decided to conduct submerged patrol and change location tomorrow."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-C05",
+   "source": "Description of enemy vessels sighted",
+   "row": 5,
+   "kind": "sighting",
+   "page": "16",
+   "zone": null,
+   "local": "5-28-43",
+   "utc": "1943-05-28T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    5,
+    28
+   ],
+   "position_verbatim": "L-08-28 (N) 133-52(E)",
+   "lat": 8.46667,
+   "lon": 133.86667,
+   "derived": null,
+   "type": "Same as contact #3",
+   "title": "Contact 5 · Same as contact #3",
+   "fields": {
+    "type": "Same as contact #3",
+    "initial_range": "18,000",
+    "min_range": "6,000",
+    "course": "Various",
+    "speed": "19",
+    "remarks": "Apparently trying to contact us."
+   },
+   "flags": [
+    "Transcriber: Degrees symbol omitted in coordinates",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "5."
+  },
+  {
+   "id": "SS-230-P05-C19",
+   "source": "Description of aircraft sighted",
+   "row": 19,
+   "kind": "aircraft",
+   "page": "18",
+   "zone": null,
+   "local": "5-28-43",
+   "utc": "1943-05-28T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    5,
+    28
+   ],
+   "position_verbatim": "L-08°-48' (N) 133°-23' (E)",
+   "lat": 8.8,
+   "lon": 133.38333,
+   "derived": null,
+   "type": "Float Type Observation",
+   "title": "Aircraft 5 · Float Type Observation",
+   "fields": {
+    "type": "Float Type Observation",
+    "course": "Circling.",
+    "altitude": "1,000",
+    "remarks": "Circling over patrol vessel."
+   },
+   "flags": [
+    "Transcriber: Longitude E cut off on edge",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "5."
+  },
+  {
+   "id": "SS-230-P05-N25",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": null,
+   "local": "28MAY",
+   "utc": "1943-05-28T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    28
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol along trade routes to Palau from Empire and Formosa."
+   },
+   "flags": [
+    "Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N30",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": null,
+   "local": "29MAY",
+   "utc": "1943-05-29T12:00:00Z",
+   "position_verbatim": "5 miles south of Anguar Island",
+   "derived": {
+    "from": "Anguar Island",
+    "bearing": 180.0,
+    "distance_nm": 5.0,
+    "landmark": {
+     "lat": 6.9,
+     "lon": 134.14
+    },
+    "landmark_note": "Angaur, Palau. Spelled as the report types it. Approximate; verify against a chart."
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    29
+   ],
+   "has_time": false,
+   "lat": 6.81667,
+   "lon": 134.14,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol 5 miles south of Anguar Island. The sea was glassy smooth."
+   },
+   "flags": [
+    "Time omitted",
+    "No time given; placed at noon GMT on that date.",
+    "Position derived from '5 miles south of Anguar Island' using a modern landmark position; it is an estimate, not a position recorded in the report.",
+    "Landmark: Angaur, Palau. Spelled as the report types it. Approximate; verify against a chart."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N31",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": null,
+   "local": "30MAY",
+   "utc": "1943-05-30T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    30
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol southeast of entrances to Malakal Harbor. The sea was glassy smooth. On surfacing, patrolled across traffic lane from Anguar Island to Truk."
+   },
+   "flags": [
+    "Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N33",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "I",
+   "local": "1000 I 31MAY",
+   "utc": "1943-05-31T01:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    31
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "heard two noises resembling low order detonations. Nothing in sight."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N34",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "I",
+   "local": "1900 I 31MAY",
+   "utc": "1943-05-31T10:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    31
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced and commenced patrolling along Truk - Palau route on surface."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N32",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": null,
+   "local": "31MAY",
+   "utc": "1943-05-31T12:00:00Z",
+   "position_verbatim": "5 miles south of entrances to Malakal Harbor",
+   "derived": {
+    "from": "entrances to Malakal Harbor",
+    "bearing": 180.0,
+    "distance_nm": 5.0,
+    "landmark": {
+     "lat": 7.33,
+     "lon": 134.45
+    },
+    "landmark_note": "Malakal Harbor, Koror, Palau: the harbour itself, not its reef entrances. Approximate; verify against a chart."
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    5,
+    31
+   ],
+   "has_time": false,
+   "lat": 7.24667,
+   "lon": 134.45,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Patrolled 5 miles south of Malakal Harbor entrances; sound reported screws bearing 120° relative, then distant heavy explosion and lost propeller noises; saw nothing through periscope."
+   },
+   "flags": [
+    "Time omitted",
+    "No time given; placed at noon GMT on that date.",
+    "Position derived from '5 miles south of entrances to Malakal Harbor' using a modern landmark position; it is an estimate, not a position recorded in the report.",
+    "Landmark: Malakal Harbor, Koror, Palau: the harbour itself, not its reef entrances. Approximate; verify against a chart."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N35",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "I",
+   "local": "1022 I 01JUN",
+   "utc": "1943-06-01T01:22:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "sighted smoke bearing 087° (T)."
+   },
+   "flags": [
+    "Date typed Tune 1, 1943"
+   ]
+  },
+  {
+   "id": "SS-230-P05-C06",
+   "source": "Description of enemy vessels sighted",
+   "row": 6,
+   "kind": "sighting",
+   "page": "16",
+   "zone": "I",
+   "local": "1034 I 01JUN",
+   "utc": "1943-06-01T01:34:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    6,
+    1
+   ],
+   "position_verbatim": "L-07°-24 (N) 138-07(E)",
+   "lat": 7.4,
+   "lon": 138.11667,
+   "derived": null,
+   "type": "Escort vessel Similar to our PC-451",
+   "title": "Contact 6 · Escort vessel Similar to our PC-451",
+   "fields": {
+    "type": "Escort vessel Similar to our PC-451",
+    "initial_range": "12,000",
+    "min_range": "2,500",
+    "course": "267°",
+    "speed": "12"
+   },
+   "flags": [
+    "The table gives no time; 1034 I 01JUN is from the narrative entry for this contact (page 4)."
+   ],
+   "contact_no": "6."
+  },
+  {
+   "id": "SS-230-P05-C07",
+   "source": "Description of enemy vessels sighted",
+   "row": 7,
+   "kind": "sighting",
+   "page": "16",
+   "zone": "I",
+   "local": "1034 I 01JUN",
+   "utc": "1943-06-01T01:34:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    6,
+    1
+   ],
+   "position_verbatim": "L-07-24'(N) 138°-07(E)",
+   "lat": 7.4,
+   "lon": 138.11667,
+   "derived": null,
+   "type": "Freighter-similar to Tatukami Maru",
+   "title": "Contact 7 · Freighter-similar to Tatukami Maru",
+   "fields": {
+    "type": "Freighter-similar to Tatukami Maru",
+    "initial_range": "20,000",
+    "min_range": "2,500",
+    "course": "267°",
+    "speed": "12",
+    "remarks": "Attacked 1 torpex hit."
+   },
+   "flags": [
+    "The table gives no time; 1034 I 01JUN is from the narrative entry for this contact (page 4)."
+   ],
+   "contact_no": "7."
+  },
+  {
+   "id": "SS-230-P05-N36",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "I",
+   "local": "1034 I 01JUN",
+   "utc": "1943-06-01T01:34:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-01T01:34:00Z",
+     "1943-06-01T20:12:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    1
+   ],
+   "has_time": true,
+   "lat": 7.4,
+   "lon": 138.11667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Dived on AK resembling TATUKAMI MARU (7,065 tons) with PC escort; complex zigging prevented good firing position, so withheld firing until night."
+   },
+   "flags": [
+    "Heading includes Contact #6-7. Text spans pages 4 and 5",
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-01 01:34 and 1943-06-01 20:12 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N37",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "I",
+   "local": "1346 I 01JUN",
+   "utc": "1943-06-01T04:46:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-01T01:34:00Z",
+     "1943-06-01T20:12:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    1
+   ],
+   "has_time": true,
+   "lat": 7.36279,
+   "lon": 137.53849,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced and commenced trailing."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-01 01:34 and 1943-06-01 20:12 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N38",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "I",
+   "local": "1857 I 01JUN",
+   "utc": "1943-06-01T09:57:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-01T01:34:00Z",
+     "1943-06-01T20:12:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    1
+   ],
+   "has_time": true,
+   "lat": 7.30252,
+   "lon": 136.60197,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "went ahead four engine speed to close target to radar range."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-01 01:34 and 1943-06-01 20:12 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N39",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "I",
+   "local": "2010 I 01JUN",
+   "utc": "1943-06-01T11:10:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-01T01:34:00Z",
+     "1943-06-01T20:12:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    1
+   ],
+   "has_time": true,
+   "lat": 7.28837,
+   "lon": 136.38214,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "contacted target on radar at 15,300 yards. Tracking showed that target had fooled us and was still zig-zagging."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-01 01:34 and 1943-06-01 20:12 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N40",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "I",
+   "local": "2055 I 01JUN",
+   "utc": "1943-06-01T11:55:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-01T01:34:00Z",
+     "1943-06-01T20:12:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    1
+   ],
+   "has_time": true,
+   "lat": 7.27965,
+   "lon": 136.24663,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Commenced rounding target for position ahead under starlit sky; light conditions were poor for surface attack and worse for submerged attack."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-01 01:34 and 1943-06-01 20:12 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N41",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "I",
+   "local": "0010 I 02JUN",
+   "utc": "1943-06-01T15:10:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-01T01:34:00Z",
+     "1943-06-01T20:12:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    2
+   ],
+   "has_time": true,
+   "lat": 7.24186,
+   "lon": 135.65942,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Reached position 4,000 yards off target's track, flooded down forward and after groups, and started in for surface attack."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-01 01:34 and 1943-06-01 20:12 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N42",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "I",
+   "local": "0032 I 02JUN",
+   "utc": "1943-06-01T15:32:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-01T01:34:00Z",
+     "1943-06-01T20:12:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    2
+   ],
+   "has_time": true,
+   "lat": 7.23759,
+   "lon": 135.59317,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Dived at 5,000 yards range from target to avoid escort; continued approach on radar at 40 feet; went to 60 feet at 3,000 yards, unable to see target; withheld fire."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-01 01:34 and 1943-06-01 20:12 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N43",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "I",
+   "local": "0110 I 02JUN",
+   "utc": "1943-06-01T16:10:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-01T01:34:00Z",
+     "1943-06-01T20:12:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    2
+   ],
+   "has_time": true,
+   "lat": 7.23023,
+   "lon": 135.47874,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced and ran ahead to get in attack position at dawn."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-01 01:34 and 1943-06-01 20:12 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N44",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "I",
+   "local": "0400 I 02JUN",
+   "utc": "1943-06-01T19:00:00Z",
+   "position_verbatim": "seventeen miles  of entrance to Malakal Harbor",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-01T01:34:00Z",
+     "1943-06-01T20:12:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    2
+   ],
+   "has_time": true,
+   "lat": 7.19728,
+   "lon": 134.96682,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "picked up land about entrance to Malakal Harbor, at seventeen miles. Gradually let target close."
+   },
+   "flags": [
+    "bearing blank in source; 'seventeen miles' from entrance to Malakal Harbor",
+    "Could not read bearing 'None' or distance 'seventeen miles'.",
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-01 01:34 and 1943-06-01 20:12 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N45",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "I",
+   "local": "0443 I 02JUN",
+   "utc": "1943-06-01T19:43:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-01T01:34:00Z",
+     "1943-06-01T20:12:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    2
+   ],
+   "has_time": true,
+   "lat": 7.18895,
+   "lon": 134.83733,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "picked up shape which looked like a patrol boat ahead while our target was astern of us, so dived and started approach."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-01 01:34 and 1943-06-01 20:12 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-C25",
+   "source": "Summary of submarine attacks",
+   "row": 25,
+   "kind": "torpedo",
+   "page": "19",
+   "zone": "Z",
+   "local": "2012 Z 6-1-43",
+   "utc": "1943-06-01T20:12:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    6,
+    1
+   ],
+   "position_verbatim": "7°-11' (N) 134°-45'(E)",
+   "lat": 7.18333,
+   "lon": 134.75,
+   "derived": null,
+   "type": "Freighter",
+   "title": "Attack (2) 2 · Freighter",
+   "fields": {
+    "fired": "3 Mk XIV Torpex",
+    "hits": "1",
+    "damaged": "7,065",
+    "type": "Freighter",
+    "firing_range": "1,150",
+    "attack_type": "P",
+    "draft": "13",
+    "depth": "15",
+    "tube": "Bow",
+    "track": "100(P)",
+    "gyro": "1-356<br>2-352<br>3-347",
+    "speed": "11 3/4",
+    "interval": "8 secs.",
+    "spread": "3 1/4° Divergent",
+    "performance": "Yes",
+    "narrative": "fired three torpedo spread with 100° port track, speed of 11 3/4 knots, and actual range of 1,150 yards. All torpedoes were set on 15 feet. The first torpedo hit amidships with a terrific explosion, but the second and third torpedoes missed. The second torpedo was tracked ahead of the screws by sound. The target's screws were not heard after the torpedo explosion. It is believed that the target was drawing less than was estimated and the one hit was an influence explosion. The other two torpedoes probably ran too deep. The draft was estimated at 13 feet and torpedoes were set at 15 feet to run at 12 feet. The target could have had a draft of 10 feet. Although the target was not seen to sink and cannot be credited as such, it is believed that there is a strong possibility a torpex hit amidships sank him."
+   },
+   "flags": [
+    "Transcriber: Date: Attack 1 time given as 1717 (narrative has 0217); Attack 2 time 2012 (narrative 0512); Attack 3 & 4 time 1727 (narrative 0227); Location (Lat.) (Long.): Attack 3 & 4 Longitude hemisphere blank; Track Angle (1st Torpedo): Attack 4 Track Angle port/starboard blank",
+    "The table gives no zone; zone Z set in patrol.yml (table_zones).",
+    "Narrative entry at 0512 I 02JUN (page 5) describes this attack; its account is included here.",
+    "Heading includes Attack #2. Entry text spans pages 5 and 6"
+   ],
+   "contact_no": null
+  },
+  {
+   "id": "SS-230-P05-N47",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "6",
+   "zone": "I",
+   "local": "0514 I 02JUN",
+   "utc": "1943-06-01T20:14:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    6,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Depth charging by escort",
+   "fields": {
+    "event": "the escort headed for us to start retaliatory measures. Went deep. Received depth charge attacks as follows: one charge, at a comfortable distance,",
+    "charges": "1",
+    "damage": "none"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N48",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "6",
+   "zone": "I",
+   "local": "0517 I 02JUN",
+   "utc": "1943-06-01T20:17:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    6,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Depth charging by escort",
+   "fields": {
+    "event": "two charges, close aboard. Jarred open valves. Started small leak in #1 air bank bottle opening.",
+    "charges": "2",
+    "damage": "Jarred open valves. Started small leak in #1 air bank bottle opening."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N49",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "6",
+   "zone": "I",
+   "local": "0520 I 02JUN",
+   "utc": "1943-06-01T20:20:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    6,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Depth charging by escort",
+   "fields": {
+    "event": "four charges, farther away.",
+    "charges": "4",
+    "damage": "none"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N50",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "6",
+   "zone": "I",
+   "local": "0524 I 02JUN",
+   "utc": "1943-06-01T20:24:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    6,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Depth charging by escort",
+   "fields": {
+    "event": "two charges.",
+    "charges": "2",
+    "damage": "none"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N51",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "6",
+   "zone": "I",
+   "local": "0528 I 02JUN",
+   "utc": "1943-06-01T20:28:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    6,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Depth charging / aerial bombing by escort",
+   "fields": {
+    "event": "four charges which sounded a lot like aerial bombs at a considerable distance. Escort continued supersonic pinging and maintained some kind of contact until 0800 (I). A temperature gradient of 16°F. was probably helping us.",
+    "charges": "4",
+    "damage": "none"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N52",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "I",
+   "local": "0548 I 02JUN",
+   "utc": "1943-06-01T20:48:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Lost supersonic pinging; escort may have stayed near target pinging while picking up survivors as indicated by bearings."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N53",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "I",
+   "local": "0845 I 02JUN",
+   "utc": "1943-06-01T23:45:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Ascended through density layers to periscope depth; nothing in sight; continued periscope patrol, then headed north on surfacing."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N54",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "I",
+   "local": "0945 I 02JUN",
+   "utc": "1943-06-02T00:45:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "notable",
+   "local_date": [
+    1943,
+    6,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Change of operation order routing to Fremantle",
+   "fields": {
+    "event": "Received dispatch on June 1, 1943 schedule from Commander Submarines, Pacific Fleet changing our operation orders. The FINBACK is to spend the rest of her patrol in the present area and then proceed to Fremantle, Western Australia for refit."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N55",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "K",
+   "local": "2000 K 02JUN",
+   "utc": "1943-06-02T10:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "received rest of information from Commander Submarines, Pacific Fleet giving routing to Fremantle."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N56",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": null,
+   "local": "03JUN",
+   "utc": "1943-06-03T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    3
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducting submerged patrol on Empire Palau trade lane."
+   },
+   "flags": [
+    "Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N57",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": null,
+   "local": "04JUN",
+   "utc": "1943-06-04T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    4
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducting surface patrol across trade lanes from Empire."
+   },
+   "flags": [
+    "Heading dates: June 4-5, 1943. Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N58",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": null,
+   "local": "05JUN",
+   "utc": "1943-06-05T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    5
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted debris including two overturned lifeboats, spars, oil drums, and furniture; boat falls parted; debris judged from target sunk May 27."
+   },
+   "flags": [
+    "Time omitted. Text spans pages 6 and 7",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N60",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "I",
+   "local": "0928 I 06JUN",
+   "utc": "1943-06-06T00:28:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    6
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted passenger-freighter, range 7,000 yards; started approach; target zigged to 300°(T); closest range 5,500 yards; trawler pinged from distance."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N61",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "I",
+   "local": "1010 I 06JUN",
+   "utc": "1943-06-06T01:10:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    6
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "secured from approach as range increased to 10,000 yards."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-C08",
+   "source": "Description of enemy vessels sighted",
+   "row": 8,
+   "kind": "sighting",
+   "page": "16",
+   "zone": null,
+   "local": "6-6-43",
+   "utc": "1943-06-06T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    6,
+    6
+   ],
+   "position_verbatim": "L-07°-36'(N) 134°-18'(E)",
+   "lat": 7.6,
+   "lon": 134.3,
+   "derived": null,
+   "type": "Passenger Freight-er 4,000 tons",
+   "title": "Contact 8 · Passenger Freight-er 4,000 tons",
+   "fields": {
+    "type": "Passenger Freight-er 4,000 tons",
+    "initial_range": "7,000",
+    "min_range": "5,500",
+    "course": "300°",
+    "speed": "10",
+    "remarks": "Could not close for attack."
+   },
+   "flags": [
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "8."
+  },
+  {
+   "id": "SS-230-P05-C09",
+   "source": "Description of enemy vessels sighted",
+   "row": 9,
+   "kind": "sighting",
+   "page": "16",
+   "zone": null,
+   "local": "6-6-43",
+   "utc": "1943-06-06T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    6,
+    6
+   ],
+   "position_verbatim": "L-07°-36 (N) 134°-18 (E)",
+   "lat": 7.6,
+   "lon": 134.3,
+   "derived": null,
+   "type": "Patrol Vessel Trawler type with supersonic ranging equipment.",
+   "title": "Contact 9 · Patrol Vessel Trawler type with supersonic ranging equipment.",
+   "fields": {
+    "type": "Patrol Vessel Trawler type with supersonic ranging equipment.",
+    "initial_range": "smoke at 10,000",
+    "min_range": "8,000",
+    "course": "Patrol ling off entran-ce",
+    "remarks": "Smoking heavily."
+   },
+   "flags": [
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "9."
+  },
+  {
+   "id": "SS-230-P05-N59",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": null,
+   "local": "06JUN",
+   "utc": "1943-06-06T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    6
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducting submerged approach off Toagel Mlungui Passage."
+   },
+   "flags": [
+    "Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N63",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "I",
+   "local": "1013 I 07JUN",
+   "utc": "1943-06-07T01:13:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "sighted smoke and heard pinging bearing 350°(T). As this smoke drew around to the southward, assumed it was our smoking trawler friend making his usual sweep."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N64",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "I",
+   "local": "1325 I 07JUN",
+   "utc": "1943-06-07T04:25:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted mast of 5,000-ton freighter bearing 240°(T) escorted by patrol vessel and plane; started approach reaching 8,000 yards closest range."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N65",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "I",
+   "local": "1430 I 07JUN",
+   "utc": "1943-06-07T05:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "when escorting plane headed in our direction, went to 140 feet. Target was already opening range."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-C11",
+   "source": "Description of enemy vessels sighted",
+   "row": 11,
+   "kind": "sighting",
+   "page": "17",
+   "zone": "I",
+   "local": "1515 I 07JUN",
+   "utc": "1943-06-07T06:15:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "position_verbatim": "L-07°-36(N) 134°-20(E)",
+   "lat": 7.6,
+   "lon": 134.33333,
+   "derived": null,
+   "type": "Convoy 4 Freighters with escort",
+   "title": "Contact 11 · Convoy 4 Freighters with escort",
+   "fields": {
+    "type": "Convoy 4 Freighters with escort",
+    "initial_range": "12,000",
+    "min_range": "800",
+    "course": "320°",
+    "speed": "8",
+    "remarks": "Chased and attacked at night on the surface"
+   },
+   "flags": [
+    "The table gives no time; 1515 I 07JUN is from the narrative entry for this contact (page 7)."
+   ],
+   "contact_no": "11."
+  },
+  {
+   "id": "SS-230-P05-N66",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "I",
+   "local": "1515 I 07JUN",
+   "utc": "1943-06-07T06:15:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T06:15:00Z",
+     "1943-06-07T17:27:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "has_time": true,
+   "lat": 7.6,
+   "lon": 134.33333,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted 4-ship convoy heading 320°(T) with escort and seaplane; trailed submerged at 8,000 yards preparatory to night surface chase."
+   },
+   "flags": [
+    "Heading includes Contact #11 (typed Contact #11))",
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 06:15 and 1943-06-07 17:27 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N67",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "I",
+   "local": "1827 I 07JUN",
+   "utc": "1943-06-07T09:27:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T06:15:00Z",
+     "1943-06-07T17:27:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "has_time": true,
+   "lat": 8.03333,
+   "lon": 134.38571,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "lost visual contact with smoke of convoy."
+   },
+   "flags": [
+    "Zone blank in source",
+    "No zone letter on this entry; zone I assumed from the previous entry.",
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 06:15 and 1943-06-07 17:27 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N68",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "I",
+   "local": "1858 I 07JUN",
+   "utc": "1943-06-07T09:58:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T06:15:00Z",
+     "1943-06-07T17:27:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "has_time": true,
+   "lat": 8.1033,
+   "lon": 134.39417,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced and started closing convoy at full speed."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 06:15 and 1943-06-07 17:27 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N69",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "I",
+   "local": "2021 I 07JUN",
+   "utc": "1943-06-07T11:21:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T06:15:00Z",
+     "1943-06-07T17:27:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "has_time": true,
+   "lat": 8.29063,
+   "lon": 134.41682,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "when no contact was established, stopped to listen for supersonic pinging of escort. It became apparent that the convoy had changed course radically at dark."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 06:15 and 1943-06-07 17:27 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N70",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "I",
+   "local": "2038 I 07JUN",
+   "utc": "1943-06-07T11:38:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T06:15:00Z",
+     "1943-06-07T17:27:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "has_time": true,
+   "lat": 8.32899,
+   "lon": 134.42145,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "started retiring search to northward to cover all enemy changes of course around to 030°(T)."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 06:15 and 1943-06-07 17:27 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-C10",
+   "source": "Description of enemy vessels sighted",
+   "row": 10,
+   "kind": "sighting",
+   "page": "16",
+   "zone": null,
+   "local": "6-7-43",
+   "utc": "1943-06-07T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "position_verbatim": "L-07°-32 (N) 134°-20'(E)",
+   "lat": 7.53333,
+   "lon": 134.33333,
+   "derived": null,
+   "type": "Freighter 5,000 tons with escort",
+   "title": "Contact 10 · Freighter 5,000 tons with escort",
+   "fields": {
+    "type": "Freighter 5,000 tons with escort",
+    "initial_range": "smoke",
+    "min_range": "8,000",
+    "course": "105°",
+    "speed": "10",
+    "remarks": "Unable to close for attack"
+   },
+   "flags": [
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "10."
+  },
+  {
+   "id": "SS-230-P05-C20",
+   "source": "Description of aircraft sighted",
+   "row": 20,
+   "kind": "aircraft",
+   "page": "18",
+   "zone": null,
+   "local": "6-7-43",
+   "utc": "1943-06-07T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "position_verbatim": "L-07°-36' (N) 134°-20 (E)",
+   "lat": 7.6,
+   "lon": 134.33333,
+   "derived": null,
+   "type": "Type unidentified",
+   "title": "Aircraft 6 · Type unidentified",
+   "fields": {
+    "type": "Type unidentified",
+    "course": "Circling",
+    "altitude": "2,000",
+    "remarks": "Circling over ship entering passage."
+   },
+   "flags": [
+    "Transcriber: Position coordinates partially overstruck",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "6."
+  },
+  {
+   "id": "SS-230-P05-C21",
+   "source": "Description of aircraft sighted",
+   "row": 21,
+   "kind": "aircraft",
+   "page": "18",
+   "zone": null,
+   "local": "6-7-43",
+   "utc": "1943-06-07T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "position_verbatim": "L-07°-32 (N) 134°-18 (E)",
+   "lat": 7.53333,
+   "lon": 134.3,
+   "derived": null,
+   "type": "Float Type Observation.",
+   "title": "Aircraft 7 · Float Type Observation.",
+   "fields": {
+    "type": "Float Type Observation.",
+    "course": "Circling",
+    "altitude": "1,000",
+    "remarks": "Circling over convoy during day light."
+   },
+   "flags": [
+    "Transcriber: Longitude E cut off on edge",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "7."
+  },
+  {
+   "id": "SS-230-P05-N62",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": null,
+   "local": "07JUN",
+   "utc": "1943-06-07T12:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T06:15:00Z",
+     "1943-06-07T17:27:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "has_time": false,
+   "lat": 8.37865,
+   "lon": 134.42746,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolling submerged off Toagel Mlungui Passage."
+   },
+   "flags": [
+    "Time omitted",
+    "No time given; placed at noon GMT on that date.",
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 06:15 and 1943-06-07 17:27 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N71",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "I",
+   "local": "2211 I 07JUN",
+   "utc": "1943-06-07T13:11:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T06:15:00Z",
+     "1943-06-07T17:27:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "has_time": true,
+   "lat": 8.53889,
+   "lon": 134.44683,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "shortly before we intended to start covering convoy course to the westward, picked up smoke just as convoy entered a rain squall."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 06:15 and 1943-06-07 17:27 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N72",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "I",
+   "local": "2213 I 07JUN",
+   "utc": "1943-06-07T13:13:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T06:15:00Z",
+     "1943-06-07T17:27:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "has_time": true,
+   "lat": 8.5434,
+   "lon": 134.44737,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "contacted convoy on radar at 13,700 yards. Commenced tracking convoy to determine his approximate course and to obtain an idea of his zig plan."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 06:15 and 1943-06-07 17:27 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N73",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "I",
+   "local": "2325 I 07JUN",
+   "utc": "1943-06-07T14:25:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T06:15:00Z",
+     "1943-06-07T17:27:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "has_time": true,
+   "lat": 8.70591,
+   "lon": 134.46702,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "started rounding convoy at about 12,000 yards range."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 06:15 and 1943-06-07 17:27 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N74",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "I",
+   "local": "0012 I 08JUN",
+   "utc": "1943-06-07T15:12:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T06:15:00Z",
+     "1943-06-07T17:27:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    8
+   ],
+   "has_time": true,
+   "lat": 8.81198,
+   "lon": 134.47984,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Steadied on convoy port bow; decided to await dark cloud background amidst rain squalls to make surface attack."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 06:15 and 1943-06-07 17:27 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N75",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "I",
+   "local": "0131 I 08JUN",
+   "utc": "1943-06-07T16:31:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T06:15:00Z",
+     "1943-06-07T17:27:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    8
+   ],
+   "has_time": true,
+   "lat": 8.99028,
+   "lon": 134.50139,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "crossed over to starboard bow for good background."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 06:15 and 1943-06-07 17:27 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N76",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "I",
+   "local": "0204 I 08JUN",
+   "utc": "1943-06-07T17:04:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T06:15:00Z",
+     "1943-06-07T17:27:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    8
+   ],
+   "has_time": true,
+   "lat": 9.06476,
+   "lon": 134.51039,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Turned toward convoy, shifted to battery, and stopped; escort 2,000 yards ahead; black clouds provided excellent cover."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 06:15 and 1943-06-07 17:27 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-C26",
+   "source": "Summary of submarine attacks",
+   "row": 26,
+   "kind": "torpedo",
+   "page": "19",
+   "zone": "Z",
+   "local": "1727 Z 6-7-43",
+   "utc": "1943-06-07T17:27:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "position_verbatim": "9°-07 (N) 134°-31( )",
+   "lat": 9.11667,
+   "lon": 134.51667,
+   "derived": null,
+   "type": "Fr-Pass",
+   "title": "Attack (3) 3 · Fr-Pass",
+   "fields": {
+    "fired": "3 Mk XIV Torpex",
+    "hits": "1",
+    "damaged": "7,000",
+    "type": "Fr-Pass",
+    "firing_range": "1,500",
+    "attack_type": "(S) (N) (R)",
+    "draft": "13",
+    "depth": "15",
+    "tube": "Bow",
+    "track": "100(S)",
+    "gyro": "1-349 1/2<br>2-344 1/2<br>3-344",
+    "speed": "8",
+    "interval": "8 secs",
+    "spread": "2° Divergent",
+    "performance": "Yes",
+    "narrative": "fired a three torpedo spread at each of two leading ships which almost presented an overlapping target. Range to nearest target 1,500 yards; track 100° starboard; gyro angle 011; and range to far target 2,300 yards. Swung hard left at flank speed to clear two after ships, who had a smaller angle on bow, and to try a stern tube shot. Cleared nearest ship 600 yards (by radar) when we were beam to beam. Already had two stern tubes ready and set on 10 feet in case our escort got too friendly."
+   },
+   "flags": [
+    "Transcriber: Date: Attack 1 time given as 1717 (narrative has 0217); Attack 2 time 2012 (narrative 0512); Attack 3 & 4 time 1727 (narrative 0227); Location (Lat.) (Long.): Attack 3 & 4 Longitude hemisphere blank; Track Angle (1st Torpedo): Attack 4 Track Angle port/starboard blank",
+    "The table gives no zone; zone Z set in patrol.yml (table_zones).",
+    "Narrative entry at 0227 I 08JUN (page 8) describes this attack; its account is included here.",
+    "Heading includes Attacks #3-4 (typed \"Attacks # 3-4))"
+   ],
+   "contact_no": null
+  },
+  {
+   "id": "SS-230-P05-C27",
+   "source": "Summary of submarine attacks",
+   "row": 27,
+   "kind": "torpedo",
+   "page": "19",
+   "zone": "Z",
+   "local": "1727 Z 6-7-43",
+   "utc": "1943-06-07T17:27:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "position_verbatim": "9°-07 (N) 134°-31( )",
+   "lat": 9.11667,
+   "lon": 134.51667,
+   "derived": null,
+   "type": "Freighter",
+   "title": "Attack (4) 4 · Freighter",
+   "fields": {
+    "fired": "3 Mk XIV Torpex",
+    "hits": "2",
+    "sunk": "5,704",
+    "type": "Freighter",
+    "firing_range": "2,300",
+    "attack_type": "(S) (N) (R)",
+    "draft": "13",
+    "depth": "15",
+    "tube": "Bow",
+    "track": "100( )",
+    "gyro": "1-024.5<br>2-033<br>3-033",
+    "speed": "8",
+    "interval": "8 secs.",
+    "spread": "3° Divergent",
+    "performance": "Yes"
+   },
+   "flags": [
+    "Transcriber: Date: Attack 1 time given as 1717 (narrative has 0217); Attack 2 time 2012 (narrative 0512); Attack 3 & 4 time 1727 (narrative 0227); Location (Lat.) (Long.): Attack 3 & 4 Longitude hemisphere blank; Track Angle (1st Torpedo): Attack 4 Track Angle port/starboard blank",
+    "The table gives no zone; zone Z set in patrol.yml (table_zones)."
+   ],
+   "contact_no": null
+  },
+  {
+   "id": "SS-230-P05-C28",
+   "source": "Summary of submarine attacks",
+   "row": 28,
+   "kind": "torpedo",
+   "page": "20",
+   "zone": "Z",
+   "local": "1732 Z 6-7-43",
+   "utc": "1943-06-07T17:32:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    6,
+    7
+   ],
+   "position_verbatim": "9°-07(N) 134°-31'(E)",
+   "lat": 9.11667,
+   "lon": 134.51667,
+   "derived": null,
+   "type": "Freighter",
+   "title": "Attack (5) 5 · Freighter",
+   "fields": {
+    "fired": "2 Mk XIV Torpex",
+    "hits": "1",
+    "sunk": "5,400",
+    "type": "Freighter",
+    "firing_range": "1,200",
+    "attack_type": "S (N) (R)",
+    "draft": "13",
+    "depth": "10",
+    "tube": "Stern",
+    "track": "100 (S)",
+    "gyro": "1-187<br>2-179",
+    "speed": "8",
+    "interval": "8 secs.",
+    "spread": "Longitudinal",
+    "performance": "Yes",
+    "narrative": "fired two torpedoes while still swinging at overlapping after ships. Total results one hit on nearest leading target (Lima Maru Class); two hits on farthest leading target (Yuki Maru); and one hit on farthest after target (Heian Maru class). These hits were seen, heard, and checked by time of torpedo run. The last ship hit was seen taking a down angle as we retired to southwest at full speed. We had four strong pips on the radar from the four freighters as we pulled away. The escort had never been easy to pick up on radar. He was first picked up during the approach at 7,000 yards. When the range to the nearest target was 3,000 yards, we ran into a rain squall. Heard two distant explosions which sounded like depth charges. The radar officer reported two of the pips getting weaker. Between 5,000 and 7,000 yards, we lost two pips. At 9,000 yards, since the escort did not seem to be on our trail, we stopped. A careful and continuous search over the target area, failed to reveal more than two pips indicating that two ships had sunk. All ships had shown up plainly on the radar screen at 13,500 yards during the tracking. All torpedoes fired had torpex heads which exploded with a terrific noise. The large remaining pip, which was believed to be on the largest ship (Lima Maru class one hit) moved slowly out to 17,500 yards and disappeared. The other pip closed us slowly to 8,500 yards and then opened out and was lost at 13,700 yards. It is believed that this ship was the undamaged one taking a quick look for survivors."
+   },
+   "flags": [
+    "Transcriber: Date: Attack 5 time 1732 (narrative 0232); Attack 6 date 6-8-43, time 0947 (narrative 1847); Attack 7 date 6-11-43, time 0054 (narrative 0954); Attack 8 date 6-15-43, time 1128 (narrative 2028); Location (Lat.) (Long.): Attack 8 Lat/Long hemispheres partially cut off; Torpedoes Fired on each Attack: Attack 7 & 8: 1 Torpex / 2 TNT; Type of Attack - Periscope (P), Radar (R), Night (N), Surface (S): Attack 8 shows (P) and (R)",
+    "The table gives no zone; zone Z set in patrol.yml (table_zones).",
+    "Narrative entry at 0232 I 08JUN (page 8) describes this attack; its account is included here.",
+    "Entry text spans pages 8 and 9"
+   ],
+   "contact_no": null
+  },
+  {
+   "id": "SS-230-P05-N79",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": "I",
+   "local": "0325 I 08JUN",
+   "utc": "1943-06-07T18:25:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T17:27:00Z",
+     "1943-06-07T20:15:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    8
+   ],
+   "has_time": true,
+   "lat": 9.54246,
+   "lon": 134.06786,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "heard two distant underwater explosions."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 17:27 and 1943-06-07 20:15 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N80",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": "I",
+   "local": "0330 I 08JUN",
+   "utc": "1943-06-07T18:30:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T17:27:00Z",
+     "1943-06-07T20:15:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    8
+   ],
+   "has_time": true,
+   "lat": 9.57917,
+   "lon": 134.02917,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "ran in to reestablish contact and start to round remaining ships for a dawn attack."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 17:27 and 1943-06-07 20:15 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N81",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": "I",
+   "local": "0340 I 08JUN",
+   "utc": "1943-06-07T18:40:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T17:27:00Z",
+     "1943-06-07T20:15:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    8
+   ],
+   "has_time": true,
+   "lat": 9.65258,
+   "lon": 133.95179,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "reestablished a radar contact. As it became lighter, opened out to 15 miles to round convoy."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 17:27 and 1943-06-07 20:15 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-C12",
+   "source": "Description of enemy vessels sighted",
+   "row": 12,
+   "kind": "sighting",
+   "page": "17",
+   "zone": "I",
+   "local": "0515 I 08JUN",
+   "utc": "1943-06-07T20:15:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    6,
+    9
+   ],
+   "position_verbatim": "L-10°-21(N) 133°-13(E)",
+   "lat": 10.35,
+   "lon": 133.21667,
+   "derived": null,
+   "type": "Convoy-2 Passenger vessels, 1 Freighter with one escort",
+   "title": "Contact 12 · Convoy-2 Passenger vessels, 1 Freighter with one escort",
+   "fields": {
+    "type": "Convoy-2 Passenger vessels, 1 Freighter with one escort",
+    "initial_range": "20,000",
+    "min_range": "300 to 1,000",
+    "course": "350°",
+    "speed": "12",
+    "remarks": "Chased and made submerged attack."
+   },
+   "flags": [
+    "Transcriber: Date 6-9-43 differs from narrative 6-8-43",
+    "The table gives no time; 0515 I 08JUN is from the narrative entry for this contact (page 9)."
+   ],
+   "contact_no": "12."
+  },
+  {
+   "id": "SS-230-P05-N82",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": "I",
+   "local": "0515 I 08JUN",
+   "utc": "1943-06-07T20:15:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T17:27:00Z",
+     "1943-06-07T20:15:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    8
+   ],
+   "has_time": true,
+   "lat": 10.35,
+   "lon": 133.21667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted convoy smoke bearing 257°(T); trailed 3 ships across changing bearings and squalls; determined base course 350°(T) by 1500."
+   },
+   "flags": [
+    "Heading includes Contact #12",
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 17:27 and 1943-06-07 20:15 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N83",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": "I",
+   "local": "1707 I 08JUN",
+   "utc": "1943-06-08T08:07:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-06-07T20:15:00Z",
+     "1943-06-08T09:47:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    8
+   ],
+   "has_time": true,
+   "lat": 11.44606,
+   "lon": 134.04967,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Dived to approach convoy (2 passenger vessels and 1 freighter) under sunset light; spotted small torpedo boat escort patrolling passenger ships."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-06-07 20:15 and 1943-06-08 09:47 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P05-C29",
+   "source": "Summary of submarine attacks",
+   "row": 29,
+   "kind": "torpedo",
+   "page": "20",
+   "zone": "Z",
+   "local": "0947 Z 6-8-43",
+   "utc": "1943-06-08T09:47:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    6,
+    8
+   ],
+   "position_verbatim": "11°-36' (N) 134°-10' (E)",
+   "lat": 11.6,
+   "lon": 134.16667,
+   "derived": null,
+   "type": "Passenger",
+   "title": "Attack (6) 6 · Passenger",
+   "fields": {
+    "fired": "3 Mk XIV TNT",
+    "hits": "1",
+    "damaged": "6,370",
+    "type": "Passenger",
+    "firing_range": "1,200",
+    "attack_type": "(P)",
+    "draft": "13",
+    "depth": "15",
+    "tube": "Bow",
+    "track": "90 (P)",
+    "gyro": "1-338.5<br>2-333<br>3-333",
+    "speed": "12",
+    "interval": "8 secs.",
+    "spread": "2 3/4° Divergent",
+    "performance": "NO SEE NOTES",
+    "narrative": "with escort passing ahead at 400 yards, right hand ship with zero angle on bow, range 2,000 yards, center ship with 20° port angle on bow, range 3,000 yards, and left hand ship 80° port angle on bow, 1,200 yards, fired three torpedoes (TNT heads) at left hand ship. 1st torpedo jumped clear of the water twice at about 400 yards, just astern of the escort and later prematured, the 2nd torpedo hit, and the 3rd torpedo missed. The escort started turning toward us after 1st torpedo prematured. Went deep to avoid ramming and to evade depth charge attack. Our going under one ship and astern of another seemed to confuse the escort. He dropped four depth charges, but none were very close. The escort then commenced searching with supersonic. He seemed to be strictly amateur."
+   },
+   "flags": [
+    "Transcriber: Date: Attack 5 time 1732 (narrative 0232); Attack 6 date 6-8-43, time 0947 (narrative 1847); Attack 7 date 6-11-43, time 0054 (narrative 0954); Attack 8 date 6-15-43, time 1128 (narrative 2028); Location (Lat.) (Long.): Attack 8 Lat/Long hemispheres partially cut off; Torpedoes Fired on each Attack: Attack 7 & 8: 1 Torpex / 2 TNT; Type of Attack - Periscope (P), Radar (R), Night (N), Surface (S): Attack 8 shows (P) and (R)",
+    "Review: The narrative heads this attack 'Attack #6' but Gemini's flag on the narrative entry says it reads #5 there. The table's column is Attack 6.",
+    "The table gives no zone; zone Z set in patrol.yml (table_zones).",
+    "Narrative entry at 1847 I 08JUN (page 10) describes this attack; its account is included here.",
+    "Heading includes Attack #5 (typed Attack #6)"
+   ],
+   "contact_no": null
+  },
+  {
+   "id": "SS-230-P05-N85",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "10",
+   "zone": "I",
+   "local": "1927 I 08JUN",
+   "utc": "1943-06-08T10:27:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    6,
+    8
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Depth charge dropped by escort",
+   "fields": {
+    "event": "escort dropped one depth charge at about 4,000 yards. Escort stayed in our vicinity echo-ranging.",
+    "charges": "1",
+    "damage": "none"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N86",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "I",
+   "local": "2036 I 08JUN",
+   "utc": "1943-06-08T11:36:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    8
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "lost echo-ranging and came up to periscope depth. Searched thoroughly with periscope and SJ radar."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N87",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "I",
+   "local": "2044 I 08JUN",
+   "utc": "1943-06-08T11:44:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    8
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Surfaced in moonlight; unable to regain contact; returned south toward area with poor torpedo distribution (6 aft, 1 forward)."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N88",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": null,
+   "local": "09JUN",
+   "utc": "1943-06-09T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    9
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolled on surface along Empire-Palau routes. Our recent activity had apparently caused a re-routing of traffic."
+   },
+   "flags": [
+    "Heading dates: June 9-10, 1943. Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-C13",
+   "source": "Description of enemy vessels sighted",
+   "row": 13,
+   "kind": "sighting",
+   "page": "17",
+   "zone": "I",
+   "local": "0817 I 11JUN",
+   "utc": "1943-06-10T23:17:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    6,
+    11
+   ],
+   "position_verbatim": "L-07°-36 (N) 134°-17'(E)",
+   "lat": 7.6,
+   "lon": 134.28333,
+   "derived": null,
+   "type": "3 Ship Convoy with DD Escort (Momo Class)",
+   "title": "Contact 13 · 3 Ship Convoy with DD Escort (Momo Class)",
+   "fields": {
+    "type": "3 Ship Convoy with DD Escort (Momo Class)",
+    "initial_range": "Smoke",
+    "min_range": "800",
+    "course": "105°",
+    "speed": "10.5",
+    "remarks": "Attacked and sank one ship"
+   },
+   "flags": [
+    "The table gives no time; 0817 I 11JUN is from the narrative entry for this contact (page 10)."
+   ],
+   "contact_no": "13."
+  },
+  {
+   "id": "SS-230-P05-N90",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "I",
+   "local": "0817 I 11JUN",
+   "utc": "1943-06-10T23:17:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted smoke bearing 285°(T); approached 3 ships in line abreast with small destroyer escort; identified Nagoya Maru, Sirogane Maru, and Nitiro Maru; rain masked approach."
+   },
+   "flags": [
+    "Heading includes Contact #13. Text spans pages 10 and 11"
+   ]
+  },
+  {
+   "id": "SS-230-P05-C30",
+   "source": "Summary of submarine attacks",
+   "row": 30,
+   "kind": "torpedo",
+   "page": "20",
+   "zone": "Z",
+   "local": "0054 Z 6-11-43",
+   "utc": "1943-06-11T00:54:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    6,
+    11
+   ],
+   "position_verbatim": "7°-36(N) 134°-17(E)",
+   "lat": 7.6,
+   "lon": 134.28333,
+   "derived": null,
+   "type": "Pass.-Frtr.",
+   "title": "Attack (7) 7 · Pass.-Frtr.",
+   "fields": {
+    "fired": "3 Mk XIV 1 Tor/2 TNT",
+    "hits": "2",
+    "sunk": "6,072",
+    "type": "Pass.-Frtr.",
+    "firing_range": "800",
+    "attack_type": "(P)",
+    "draft": "16",
+    "depth": "15",
+    "tube": "Stern",
+    "track": "80 (S)",
+    "gyro": "1-175<br>2-180<br>3-181",
+    "speed": "10 1/2",
+    "interval": "13 & 10 secs",
+    "spread": "3 1/4° Divergent",
+    "performance": "Yes",
+    "narrative": "fired three torpedo spread from stern tubes at left hand ship, Nagoya Maru, 6,072 tons, range 800 yards, track 80° starboard, gyro angle 175°. Results first and second torpedoes hit third torpedo missed astern. The first torpedo had a torpex head. The Commanding Officer watched both hits. The time of torpedo run and explosions checked. The ship gave off enormous quantities of smoke, rapidly settled in the water, listed to starboard 15°, and the starboard well deck rail was awash. This ship was loaded well down in the water."
+   },
+   "flags": [
+    "Transcriber: Date: Attack 5 time 1732 (narrative 0232); Attack 6 date 6-8-43, time 0947 (narrative 1847); Attack 7 date 6-11-43, time 0054 (narrative 0954); Attack 8 date 6-15-43, time 1128 (narrative 2028); Location (Lat.) (Long.): Attack 8 Lat/Long hemispheres partially cut off; Torpedoes Fired on each Attack: Attack 7 & 8: 1 Torpex / 2 TNT; Type of Attack - Periscope (P), Radar (R), Night (N), Surface (S): Attack 8 shows (P) and (R)",
+    "The table gives no zone; zone Z set in patrol.yml (table_zones).",
+    "Narrative entry at 0954 I 11JUN (page 11) describes this attack; its account is included here."
+   ],
+   "contact_no": null
+  },
+  {
+   "id": "SS-230-P05-N92",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": "I",
+   "local": "1000 I 11JUN",
+   "utc": "1943-06-11T01:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "with the ship definitely sinking and the destroyer headed in our direction, went deep. Heard cracking up noises for about forty minutes."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N93",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "11",
+   "zone": "I",
+   "local": "1011 I 11JUN",
+   "utc": "1943-06-11T01:11:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    6,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Depth charging by destroyer",
+   "fields": {
+    "event": "destroyer dropped two depth charges.",
+    "charges": "2",
+    "damage": "none"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N94",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "11",
+   "zone": "I",
+   "local": "1022 I 11JUN",
+   "utc": "1943-06-11T01:22:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    6,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Depth charging by destroyer",
+   "fields": {
+    "event": "he dropped two more. None close. The Palau temperature gradient and density layers apparently had enabled us to lose the destroyer at once. A temperature gradient of 17°F. existed between surface and 300 feet. Supersonic pinging and screws were heard until 1103 (I). Decided to take our time coming up to periscope depth due to expected plane search and proximity to channel entrance.",
+    "charges": "2",
+    "damage": "none"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N95",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": "I",
+   "local": "1157 I 11JUN",
+   "utc": "1943-06-11T02:57:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "picked up pinging again."
+   },
+   "flags": [
+    "Time typed 1.157 (I)"
+   ]
+  },
+  {
+   "id": "SS-230-P05-N96",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": "I",
+   "local": "1310 I 11JUN",
+   "utc": "1943-06-11T04:10:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "finally lost pinging."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N97",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": "I",
+   "local": "1327 I 11JUN",
+   "utc": "1943-06-11T04:27:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "notable",
+   "local_date": [
+    1943,
+    6,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Blowing negative tank to ascend through density layers",
+   "fields": {
+    "event": "started up to periscope depth. Again the need of a silent trim pump was sorely felt. It was necessary to blow out 15,000 pounds of water in bringing ship up from 300 feet. This was done by blowing water to negative tank from #2 and #3 auxiliary tanks and then blowing negative with 200 pound air. Found all clear at periscope depth. Reloaded torpedo tubes aft and pumped bilges. Decided to patrol off Anguar Island the next day in hope of getting a phosphate ship and in order to allow the area off the pass to cool down."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N89",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": null,
+   "local": "11JUN",
+   "utc": "1943-06-11T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    11
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolled submerged off Toagel Mlungui on channel range of 105°(T)."
+   },
+   "flags": [
+    "Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N98",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": null,
+   "local": "12JUN",
+   "utc": "1943-06-12T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    12
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolled submerged off Anguar Island. Sea was glassy smooth."
+   },
+   "flags": [
+    "Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N100",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "I",
+   "local": "0645 I 13JUN",
+   "utc": "1943-06-12T21:45:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    13
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted two heavy smokes bearing 358°(T) and 011°(T); found two trawler patrol boats hunting; evaded at periscope depth."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-C14",
+   "source": "Description of enemy vessels sighted",
+   "row": 14,
+   "kind": "sighting",
+   "page": "17",
+   "zone": null,
+   "local": "6-13-43",
+   "utc": "1943-06-13T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    6,
+    13
+   ],
+   "position_verbatim": "L-07°-40 (N) 134°-06' (E)",
+   "lat": 7.66667,
+   "lon": 134.1,
+   "derived": null,
+   "type": "2 Trawler Type Patrol Boats",
+   "title": "Contact 14 · 2 Trawler Type Patrol Boats",
+   "fields": {
+    "type": "2 Trawler Type Patrol Boats",
+    "initial_range": "Smoke",
+    "min_range": "2,000",
+    "course": "170° & 105°",
+    "speed": "6",
+    "remarks": "Patrolling"
+   },
+   "flags": [
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "14."
+  },
+  {
+   "id": "SS-230-P05-N99",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": null,
+   "local": "13JUN",
+   "utc": "1943-06-13T12:00:00Z",
+   "position_verbatim": "about 20 miles  of Toagel Mlungui",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    13
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolled submerged about 20 miles off Toagel Mlungui and was closing Island when"
+   },
+   "flags": [
+    "Time omitted. Text spans pages 11 and 12",
+    "No time given; placed at noon GMT on that date.",
+    "Could not read bearing 'None' or distance 'about 20 miles'."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N101",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": null,
+   "local": "14JUN",
+   "utc": "1943-06-14T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    14
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolled submerged off Toagel Mlungui. Sighted smoke of patrolling trawler intermittently during day."
+   },
+   "flags": [
+    "Heading typed ing 15, 1943. following June 13, 1943. Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N103",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "I",
+   "local": "1938 I 15JUN",
+   "utc": "1943-06-15T10:38:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    15
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "sighted ship at estimated range of 16,000 yards. SJ radar unable to pick up target which appeared to be large."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N104",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "I",
+   "local": "1945 I 15JUN",
+   "utc": "1943-06-15T10:45:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    15
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Dived to 40 feet on unescorted target making 17+ knots zig-zagging; went to 60 feet; sound got range 3,300 yards before firing."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-C31",
+   "source": "Summary of submarine attacks",
+   "row": 31,
+   "kind": "torpedo",
+   "page": "20",
+   "zone": "Z",
+   "local": "1128 Z 6-15-43",
+   "utc": "1943-06-15T11:28:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    6,
+    15
+   ],
+   "position_verbatim": "10°-00(N) 131°-10(E)",
+   "lat": 10.0,
+   "lon": 131.16667,
+   "derived": null,
+   "type": "Freighter",
+   "title": "Attack (8) 8 · Freighter",
+   "fields": {
+    "fired": "3 Mk XIV 1 Tor/2 TNT",
+    "hits": "0",
+    "type": "Freighter",
+    "firing_range": "3,500",
+    "attack_type": "(P) (R)",
+    "draft": "16",
+    "depth": "15",
+    "tube": "Stern",
+    "track": "90 (S)",
+    "gyro": "1-191<br>2-195<br>3-191",
+    "speed": "17",
+    "interval": "15 secs",
+    "spread": "3° Divergent",
+    "performance": "No",
+    "narrative": "fired three torpedo spread from stern tubes at range of 3,500 yards, track of 90° starboard, and gyro angle of 191. No hits. The target zigged away at this time. The first torpedo we tracked out running straight for about 2,000 yards and then it gradually drew around to the right. When sound reported the torpedo screws bearing 243° relative and getting louder, went to 140 feet to avoid torpedo. While passing 100 feet, a torpedo explosion was heard at an estimated range of 1,000 yards. A second torpedo explosion followed in about thirty five seconds at about the same range. The time of run of these torpedoes indicated they had reached the end of their run. This poor performance as regards hits is attributed to the following: (a) Poor torpedo performance. (b) Too great a firing range. (c) Firing torpedo on a \"knuckle\". (d) Disadvantage of having only torpedoes aft."
+   },
+   "flags": [
+    "Transcriber: Date: Attack 5 time 1732 (narrative 0232); Attack 6 date 6-8-43, time 0947 (narrative 1847); Attack 7 date 6-11-43, time 0054 (narrative 0954); Attack 8 date 6-15-43, time 1128 (narrative 2028); Location (Lat.) (Long.): Attack 8 Lat/Long hemispheres partially cut off; Torpedoes Fired on each Attack: Attack 7 & 8: 1 Torpex / 2 TNT; Type of Attack - Periscope (P), Radar (R), Night (N), Surface (S): Attack 8 shows (P) and (R)",
+    "The table gives no zone; zone Z set in patrol.yml (table_zones).",
+    "Narrative entry at 2028 I 15JUN (page 12) describes this attack; its account is included here."
+   ],
+   "contact_no": null
+  },
+  {
+   "id": "SS-230-P05-N106",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "I",
+   "local": "2059 I 15JUN",
+   "utc": "1943-06-15T11:59:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    15
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Surfaced and attempted to reestablish contact; decided not to spend fuel on a fruitless high-speed search since no other boat could intercept."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N102",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": null,
+   "local": "15JUN",
+   "utc": "1943-06-15T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    15
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolled on surface on Empire Palau trade lanes."
+   },
+   "flags": [
+    "Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N107",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "13",
+   "zone": "I",
+   "local": "2300 I 15JUN",
+   "utc": "1943-06-15T14:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    15
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "cleared message to Commander Submarines, Pacific Fleet reporting we were heading for Australia. Received Roger on following Fox schedule."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N108",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "13",
+   "zone": null,
+   "local": "16JUN",
+   "utc": "1943-06-16T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    16
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute Western Australia on surface via Djailolo Passage conducting daily drills."
+   },
+   "flags": [
+    "Heading dates: June 16-17, 1943. Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N110",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "13",
+   "zone": "I",
+   "local": "1320 I 18JUN",
+   "utc": "1943-06-18T04:20:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    18
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "dived on sighting two fighter planes. It is believed that these were probably high flying, soaring birds of a type not previously encountered by this ship. Conducted mad drill control problem while submerged."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N109",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "13",
+   "zone": null,
+   "local": "18JUN",
+   "utc": "1943-06-18T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "notable",
+   "local_date": [
+    1943,
+    6,
+    18
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Crossing the line ceremonies",
+   "fields": {
+    "event": "Enroute Western Australia via Ceram Sea and Manipa Pass. Held \"crossing the line\" ceremonies during the forenoon watch."
+   },
+   "flags": [
+    "Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N111",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "13",
+   "zone": null,
+   "local": "19JUN",
+   "utc": "1943-06-19T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    19
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Passing through Banda Sea and Ombai Strait."
+   },
+   "flags": [
+    "Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N113",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "13",
+   "zone": "H",
+   "local": "1127 H 20JUN",
+   "utc": "1943-06-20T03:27:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    20
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "dived on radar contact at 7 miles."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N114",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "13",
+   "zone": "H",
+   "local": "1204 H 20JUN",
+   "utc": "1943-06-20T04:04:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    20
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced, following lunch and proceeded."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-C22",
+   "source": "Description of aircraft sighted",
+   "row": 22,
+   "kind": "aircraft",
+   "page": "18",
+   "zone": null,
+   "local": "6-20-43",
+   "utc": "1943-06-20T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    6,
+    20
+   ],
+   "position_verbatim": "L-10°-00 (S) 121°-51' (E)",
+   "lat": -10.0,
+   "lon": 121.85,
+   "derived": null,
+   "type": "Unknown Radar contact at 7 miles",
+   "title": "Aircraft 8 · Unknown Radar contact at 7 miles",
+   "fields": {
+    "type": "Unknown Radar contact at 7 miles",
+    "remarks": "Dived"
+   },
+   "flags": [
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "8."
+  },
+  {
+   "id": "SS-230-P05-N112",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "13",
+   "zone": null,
+   "local": "20JUN",
+   "utc": "1943-06-20T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    20
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Completing transit of Ombai Strait and entering Indian Ocean east of Sawu Island."
+   },
+   "flags": [
+    "Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N116",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "13",
+   "zone": "H",
+   "local": "0710 H 21JUN",
+   "utc": "1943-06-20T23:10:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    21
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "sighted two engined bomber at about 7 miles. Dived. No bombs. Conducted trim dive."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N117",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "13",
+   "zone": "H",
+   "local": "0740 H 21JUN",
+   "utc": "1943-06-20T23:40:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    21
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced."
+   },
+   "flags": [
+    "Zone blank in source",
+    "No zone letter on this entry; zone H assumed from the previous entry."
+   ]
+  },
+  {
+   "id": "SS-230-P05-C23",
+   "source": "Description of aircraft sighted",
+   "row": 23,
+   "kind": "aircraft",
+   "page": "18",
+   "zone": null,
+   "local": "6-21-43",
+   "utc": "1943-06-21T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    6,
+    21
+   ],
+   "position_verbatim": "L-13°-45 (S) 118°-30(E)",
+   "lat": -13.75,
+   "lon": 118.5,
+   "derived": null,
+   "type": "Bomber two engine",
+   "title": "Aircraft 9 · Bomber two engine",
+   "fields": {
+    "type": "Bomber two engine",
+    "course": "040°",
+    "altitude": "3,000",
+    "remarks": "Dived No bombs."
+   },
+   "flags": [
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "9."
+  },
+  {
+   "id": "SS-230-P05-N115",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "13",
+   "zone": null,
+   "local": "21JUN",
+   "utc": "1943-06-21T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    21
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute Western Australia on surface."
+   },
+   "flags": [
+    "Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N118",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "13",
+   "zone": null,
+   "local": "22JUN",
+   "utc": "1943-06-22T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    22
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute from area on surface."
+   },
+   "flags": [
+    "Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N124",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "13",
+   "zone": "H",
+   "local": "0800 H 23JUN",
+   "utc": "1943-06-23T00:00:00Z",
+   "position_verbatim": "five miles north of Vlaming Head Light",
+   "derived": {
+    "from": "Vlaming Head Light",
+    "bearing": 0.0,
+    "distance_nm": 5.0,
+    "landmark": {
+     "lat": -21.8,
+     "lon": 114.1
+    },
+    "landmark_note": "Vlaming Head lighthouse, North West Cape, Western Australia. Approximate; verify against a chart."
+   },
+   "tag": "notable",
+   "local_date": [
+    1943,
+    6,
+    23
+   ],
+   "has_time": true,
+   "lat": -21.71667,
+   "lon": 114.1,
+   "type": "Narrative",
+   "title": "Met USS Isabel for escort",
+   "fields": {
+    "event": "made rendezvous with U.S.S. ISABEL five miles north of Vlaming Head Light. Proceeded under escort to oil barge in Exmouth Gulf (Approximate location - Lat. 22°-11 ( ) Long. 114°-09 ( )) for fuel."
+   },
+   "flags": [
+    "Hemisphere letters blank in the source. The lat/long given is the oil barge's approximate position; used at 1301 instead. An escort meeting, so not tagged as a rendezvous.",
+    "Position derived from 'five miles north of Vlaming Head Light' using a modern landmark position; it is an estimate, not a position recorded in the report.",
+    "Landmark: Vlaming Head lighthouse, North West Cape, Western Australia. Approximate; verify against a chart."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N119",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "14",
+   "zone": "H",
+   "local": "1210 H 23JUN",
+   "utc": "1943-06-23T04:10:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    23
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Parted mooring lines and carried away pelican hook in heavy seas at oil barge; received S.O.P.A. permission to fuel from CHANTICLEER or S.S. ONDINA."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N125",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "14",
+   "zone": "H",
+   "local": "1301 H 23JUN",
+   "utc": "1943-06-23T05:01:00Z",
+   "position_verbatim": "22-11 S 114-09 E",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    23
+   ],
+   "has_time": true,
+   "lat": -22.18333,
+   "lon": 114.15,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "moored along side tanker."
+   },
+   "flags": [
+    "Position is the report's approximate location of the oil barge in Exmouth Gulf (page 13; hemispheres blank, south and east from the geography)."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N120",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "14",
+   "zone": "H",
+   "local": "1533 H 23JUN",
+   "utc": "1943-06-23T07:33:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    23
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "cleared tanker and anchored to await completion of ISABEL's fueling."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N121",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "14",
+   "zone": "H",
+   "local": "1645 H 23JUN",
+   "utc": "1943-06-23T08:45:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    23
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "underway under escort of ISABEL for Fremantle."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-N122",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "14",
+   "zone": null,
+   "local": "24JUN",
+   "utc": "1943-06-24T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    24
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute Fremantle under escort of ISABEL. Conducted daily dive and approach on ISABEL. Conducted four hour battery discharge."
+   },
+   "flags": [
+    "Heading dates: June 24-25, 1943. Time omitted",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P05-N123",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "14",
+   "zone": null,
+   "local": "26JUN",
+   "utc": "1943-06-26T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    6,
+    26
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Arrived Fremantle."
+   },
+   "flags": [
+    "Time omitted in source",
+    "No time given; placed at noon GMT on that date."
+   ]
+  }
+ ],
+ "tonnage": [
+  {
+   "id": "SS-230-P05-T01",
+   "utc": "1943-05-26T17:17:00Z",
+   "target": "Freighter",
+   "name": null,
+   "result": "sunk",
+   "tons": 6000,
+   "ships": 1,
+   "basis": "claimed",
+   "source": "Attack 1, page 19",
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-T02",
+   "utc": "1943-06-01T20:12:00Z",
+   "target": "Freighter (TATUKAMI MARU type)",
+   "name": null,
+   "result": "damaged",
+   "tons": 7065,
+   "ships": 1,
+   "basis": "claimed",
+   "source": "Attack 2, page 19",
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-T03",
+   "utc": "1943-06-07T17:27:00Z",
+   "target": "Freighter-passenger",
+   "name": null,
+   "result": "damaged",
+   "tons": 7000,
+   "ships": 1,
+   "basis": "claimed",
+   "source": "Attack 3, page 19",
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-T04",
+   "utc": "1943-06-07T17:27:00Z",
+   "target": "Freighter",
+   "name": null,
+   "result": "sunk",
+   "tons": 5704,
+   "ships": 1,
+   "basis": "claimed",
+   "source": "Attack 4, page 19",
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-T05",
+   "utc": "1943-06-07T17:32:00Z",
+   "target": "Freighter",
+   "name": null,
+   "result": "sunk",
+   "tons": 5400,
+   "ships": 1,
+   "basis": "claimed",
+   "source": "Attack 5, page 20",
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-T06",
+   "utc": "1943-06-08T09:47:00Z",
+   "target": "Passenger",
+   "name": null,
+   "result": "damaged",
+   "tons": 6370,
+   "ships": 1,
+   "basis": "claimed",
+   "source": "Attack 6, page 20",
+   "flags": []
+  },
+  {
+   "id": "SS-230-P05-T07",
+   "utc": "1943-06-11T00:54:00Z",
+   "target": "NAGOYA MARU",
+   "name": null,
+   "result": "sunk",
+   "tons": 6072,
+   "ships": 1,
+   "basis": "claimed",
+   "source": "Attack 7, page 20",
+   "flags": []
+  }
+ ],
+ "minefields": []
+}

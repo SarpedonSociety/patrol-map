@@ -1,0 +1,9 @@
+# Reviewer notes for the contact tables, keyed by entry number: entries are
+# counted through contacts-01.md in order (Enemy Vessels 1-14, Aircraft
+# 15-23, attacks 24-31). Delete a note once it's resolved against the report.
+
+rows:
+  1: "The table dates contacts 1 and 2 on 5-26-43 though its heading says local date; the narrative has them at 0002 and 0138 (I) on 27 May. The map uses the narrative's times."
+  3: "No longitude in the table; Gemini says the cell is blank. Check page 16."
+  18: "Gemini says the date is typed 4-20-43 and wrote 5-20-43. The narrative's 0554 L dive on a radar contact at 6 miles is 20 May, which fits 5-20."
+  29: "The narrative heads this attack 'Attack #6' but Gemini's flag on the narrative entry says it reads #5 there. The table's column is Attack 6."

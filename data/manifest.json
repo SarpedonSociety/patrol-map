@@ -139,7 +139,7 @@
    "zoom": 4
   }
  ],
- "generated": "2026-09-30T20:40:14Z",
+ "generated": "2026-09-30T21:05:17Z",
  "patrols": [
   {
    "id": "SS-230-P02",
@@ -206,6 +206,28 @@
     "flagged": 2
    },
    "file": "patrols/SS-230-P04.json"
+  },
+  {
+   "id": "SS-230-P05",
+   "boat": "SS-230",
+   "name": "Finback",
+   "class": "Gato",
+   "patrol": 5,
+   "year": 1943,
+   "start": "1943-05-12T12:00:00Z",
+   "end": "1943-06-26T12:00:00Z",
+   "summary": {
+    "records": 149,
+    "sightings": 14,
+    "aircraft": 9,
+    "torpedo_attacks": 8,
+    "mine_attacks": 0,
+    "counterattacks": 8,
+    "torpedoes_fired": 23,
+    "gun_actions": 0,
+    "flagged": 98
+   },
+   "file": "patrols/SS-230-P05.json"
   },
   {
    "id": "SS-236-P01",

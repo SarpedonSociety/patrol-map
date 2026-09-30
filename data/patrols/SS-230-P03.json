@@ -282,7 +282,8 @@
     "altitude": "1000",
     "remarks": "Approached and challenged."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "1"
   },
   {
    "id": "SS-230-P03-C16",
@@ -310,7 +311,8 @@
     "course": "100",
     "altitude": "1000"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "2"
   },
   {
    "id": "SS-230-P03-C17",
@@ -342,7 +344,8 @@
    "flags": [
     "Transcriber: Zone typed L, but 167-51 W lies in zone X (+11 hours behind GMT, not ahead). Check.",
     "Review: Zone typed L, but 167-51 W lies in zone X. With L the time falls on 21 December GMT; with X it would be 22 December. Check the narrative for the date line crossing."
-   ]
+   ],
+   "contact_no": "3"
   },
   {
    "id": "SS-230-P03-C01",
@@ -373,7 +376,8 @@
    "flags": [
     "Transcriber: Longitude third digit faint: 154 or 158.",
     "Uncertain reading in lat long: 25-21.8 N 15⟦4⟧-22 E"
-   ]
+   ],
+   "contact_no": "1"
   },
   {
    "id": "SS-230-P03-C02",
@@ -402,7 +406,8 @@
     "speed": "2 kt",
     "remarks": "About 125 Ft., two masted raked stack. Box structure aft. Pitching heavily in moderate sea"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "2"
   },
   {
    "id": "SS-230-P03-C18",
@@ -433,7 +438,8 @@
    },
    "flags": [
     "Review: Aircraft 4 is dated 12/31/42 at 30-53 N 131-29 E, which puts Finback about 360 miles west of her 30 December and 1 January positions (141-34 E, 138-12 E), and back again within a day. The position is almost the same as aircraft 5 on 1/3/43 (30-50 N 131-28 E). Possibly a date error in the report; check against the narrative for 31 December and 3 January."
-   ]
+   ],
+   "contact_no": "4"
   },
   {
    "id": "SS-230-P03-C03",
@@ -461,7 +467,8 @@
     "course": "Patrolling on station",
     "remarks": "Closed to 2500 yds. Box structure fwd and aft. 4\" or 5\" gun aft."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "3"
   },
   {
    "id": "SS-230-P03-C04",
@@ -488,7 +495,8 @@
     "type": "Sampan",
     "course": "090"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "4"
   },
   {
    "id": "SS-230-P03-C19",
@@ -517,7 +525,8 @@
     "altitude": "200",
     "remarks": "Apparently not observed by plane."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "5"
   },
   {
    "id": "SS-230-P03-C05",
@@ -544,7 +553,8 @@
     "type": "Sampan",
     "speed": "4kts"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "5"
   },
   {
    "id": "SS-230-P03-C06",
@@ -573,7 +583,8 @@
     "speed": "8kts",
     "remarks": "Length 125-150 ft. Box structure fwd & aft. 3\" gun fwd. 4\" or 5\" gun aft. Small guns mounted around stack. About 500 tons. Single, broad raked stack. Same as #2 & #3."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "6"
   },
   {
    "id": "SS-230-P03-C20",
@@ -602,7 +613,8 @@
     "altitude": "2000",
     "remarks": "Formation of 6 planes."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "6"
   },
   {
    "id": "SS-230-P03-C07",
@@ -630,7 +642,8 @@
     "course": "330",
     "remarks": "Same vessel as contact No. 6."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "7"
   },
   {
    "id": "SS-230-P03-C21",
@@ -661,7 +674,8 @@
    },
    "flags": [
     "Transcriber: A second line under this entry gives altitude 200 and \"1 plane\"."
-   ]
+   ],
+   "contact_no": "7"
   },
   {
    "id": "SS-230-P03-C22",
@@ -693,7 +707,8 @@
    "flags": [
     "Transcriber: Last digit of time faint.",
     "Uncertain reading in time: 073⟦8⟧ I"
-   ]
+   ],
+   "contact_no": "8"
   },
   {
    "id": "SS-230-P03-C08",
@@ -721,7 +736,8 @@
     "speed": "6kts",
     "remarks": "About 100ft. High bow. Two light masts. Single short stack. Box structure aft. Welldeck amidships."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "8"
   },
   {
    "id": "SS-230-P03-C23",
@@ -752,7 +768,8 @@
    "flags": [
     "Transcriber: Last digit of time faint.",
     "Uncertain reading in time: 215⟦0⟧ I"
-   ]
+   ],
+   "contact_no": "9"
   },
   {
    "id": "SS-230-P03-N01",
@@ -816,7 +833,8 @@
     "Transcriber: Gun action; the only claim of the patrol.",
     "Narrative entry at 2143 I January 17, 1943 (page 6) describes this attack; its account is included here.",
     "Hand transcription, Fold3 image 268550847. The entry continues on report page 7, not transcribed. Comsubdiv 101 (Enclosure B, para. 4): 'The night battle surface, gun attack on the sampan patrol boat was very well conducted.'"
-   ]
+   ],
+   "contact_no": "9"
   },
   {
    "id": "SS-230-P03-C24",
@@ -847,7 +865,8 @@
    },
    "flags": [
     "Transcriber: Time and position overtyped but legible."
-   ]
+   ],
+   "contact_no": "10"
   },
   {
    "id": "SS-230-P03-C10",
@@ -879,7 +898,8 @@
    "flags": [
     "Transcriber: Last digit of time faint.",
     "Uncertain reading in time: 170⟦4⟧ I"
-   ]
+   ],
+   "contact_no": "10"
   },
   {
    "id": "SS-230-P03-C11",
@@ -911,7 +931,8 @@
    "flags": [
     "Transcriber: Last digit of time faint. \"Similiar\" as typed.",
     "Uncertain reading in time: 083⟦2⟧ I"
-   ]
+   ],
+   "contact_no": "11"
   },
   {
    "id": "SS-230-P03-C12",
@@ -940,7 +961,8 @@
     "speed": "12kts",
     "remarks": "Similiar to PC450 Class."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "12"
   },
   {
    "id": "SS-230-P03-C13",
@@ -969,7 +991,8 @@
     "speed": "10kts",
     "remarks": "Similiar to Contact #12."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "13"
   },
   {
    "id": "SS-230-P03-C25",
@@ -998,7 +1021,8 @@
     "altitude": "200",
     "remarks": "Details not noted. Came down moon."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "11"
   },
   {
    "id": "SS-230-P03-C14",
@@ -1027,7 +1051,8 @@
     "speed": "6 kts",
     "remarks": "Yacht type. About 150ft. High upper works. Tall masts. Stopped and smoking heavily when first observed."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "14"
   }
  ],
  "tonnage": [

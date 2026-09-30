@@ -461,7 +461,8 @@
    },
    "flags": [
     "Transcriber: Longitude typed as 150-15E"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N06",
@@ -580,7 +581,8 @@
    },
    "flags": [
     "Transcriber: Date split across lines as \"5/14/\" / \"43\"; time typed \"2345K\""
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N09",
@@ -759,7 +761,8 @@
    },
    "flags": [
     "Transcriber: Date typed \"5/20/43\"; narrative gave contact time as 1150(K)"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N10",
@@ -821,7 +824,8 @@
     "Transcriber: Longitude lacks hemisphere letter (E)",
     "Review: May 20 1222 destroyer: the table puts it at the same position as the 1026K freighters (34-53N 139-57). The narrative has the freighters at 1150(K), not 1026.",
     "No zone letter on this entry; zone K assumed from the previous entry."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N11",
@@ -951,7 +955,8 @@
     "course": "Southeast",
     "altitude": "4000 ft"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N14",
@@ -1018,7 +1023,8 @@
    },
    "flags": [
     "Transcriber: First word in type column overstruck/typed \"Two\"; remarks slash typed \"/\""
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-C21",
@@ -1051,7 +1057,8 @@
     "Transcriber: Date printed with overstruck \"8\" (5/⟦2⟧1/43)",
     "Review: May 21 1225 planes: Gemini notes an overstruck digit in the date (5/⟦2⟧1/43) but left the cell unmarked.",
     "Uncertain reading in flags: Date printed with overstruck \"8\" (5/⟦2⟧1/43)"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-C22",
@@ -1082,7 +1089,8 @@
    "flags": [
     "Transcriber: Zone letter blank",
     "No zone letter on this entry; zone K assumed from the previous entry."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N16",
@@ -1148,7 +1156,8 @@
    },
    "flags": [
     "Transcriber: Type column text condensed/partially obscured"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N17",
@@ -1208,7 +1217,8 @@
    },
    "flags": [
     "Transcriber: Longitude lacks hemisphere letter (E)"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N18",
@@ -1297,7 +1307,8 @@
    },
    "flags": [
     "Transcriber: Longitude lacks hemisphere letter (E); Course column left blank"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-C23",
@@ -1326,7 +1337,8 @@
     "altitude": "4000 ft",
     "remarks": "Air coverage for task force."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N19",
@@ -1468,7 +1480,8 @@
    },
    "flags": [
     "Transcriber: Date split as \"5/24/\" / \"43\"; longitude lacks hemisphere letter (E); Speed column blank"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N23",
@@ -1612,7 +1625,8 @@
    "flags": [
     "Transcriber: Latitude typed \"34-38N\" (34-58N overstruck to 34-38N)",
     "Review: May 26 1400: Gemini says the latitude is overstruck (34-58N typed over as 34-38N) but didn't mark the cell. The narrative also reads 34-38 N. 34-38N 140-02E is well offshore, which doesn't fit 'close inshore off Katsuura Wan'; 34-58N would. Check page 11."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N27",
@@ -1671,7 +1685,8 @@
    },
    "flags": [
     "Transcriber: Latitude typed \"35-00N\""
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N28",
@@ -1729,7 +1744,8 @@
    },
    "flags": [
     "Transcriber: Speed column blank"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N29",
@@ -1818,7 +1834,8 @@
    },
    "flags": [
     "Transcriber: Speed column blank"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N31",
@@ -1892,7 +1909,8 @@
    "flags": [
     "Transcriber: TIME GCT: Attack 1 heading typed \"I\"; NUMBER AND TYPE OF TORPEDOES FIRED: Attack I typed \"3-M XIV 3a\"; TYPE OF ATTACK: P.S.N OR R.: Footnote marker \"*\" printed under heading; GYRO ANGLES: Attack I has two lines; Attack II A has two lines",
     "Narrative entry at 1440 K May 28 (page 5) describes this attack; its account is included here."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N33",
@@ -1992,7 +2010,8 @@
    },
    "flags": [
     "Transcriber: Altitude column blank"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N35",
@@ -2058,7 +2077,8 @@
    },
    "flags": [
     "Transcriber: Course and remarks rows slightly offset"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N36",
@@ -2116,7 +2136,8 @@
     "speed": "10",
     "remarks": "Made torpedo attack. Severe depth charge attack followed."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N37",
@@ -2190,7 +2211,8 @@
    "flags": [
     "Transcriber: TIME GCT: Attack 1 heading typed \"I\"; LOCATION Lat. Long.: Lat. for Attack II A typed \"-34-35N\"; Long. for Attack II B typed \"138-40E\" (E overstruck); Attack III typed \"35-02N\"; TYPE OF ATTACK: P.S.N OR R.: Footnote marker \"*\" printed under heading; GYRO ANGLES: Attack I has two lines; Attack II A has two lines",
     "Narrative entry at 1726 K May 29 (page 6) describes this attack; its account is included here."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-C31",
@@ -2236,7 +2258,8 @@
     "Transcriber: TIME GCT: Attack 1 heading typed \"I\"; LOCATION Lat. Long.: Lat. for Attack II A typed \"-34-35N\"; Long. for Attack II B typed \"138-40E\" (E overstruck); Attack III typed \"35-02N\"; TYPE OF ATTACK: P.S.N OR R.: Footnote marker \"*\" printed under heading",
     "Narrative entry at 1729 K May 29 (page 6) describes this attack; its account is included here.",
     "also counterattack"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N40",
@@ -2435,7 +2458,8 @@
     "speed": "11",
     "remarks": "One sunk. Other one successfully entered SAGAMI NADA."
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N45",
@@ -2509,7 +2533,8 @@
    "flags": [
     "Transcriber: TIME GCT: Attack 1 heading typed \"I\"; LOCATION Lat. Long.: Lat. for Attack II A typed \"-34-35N\"; Long. for Attack II B typed \"138-40E\" (E overstruck); Attack III typed \"35-02N\"; NUMBER SUNK (TONNAGE): Attack III tonnage typed \"1-8200\" (narrative gives 8223 tons); TYPE OF ATTACK: P.S.N OR R.: Footnote marker \"*\" printed under heading; BOW OR STERN SHOT: Attack III typed \"Bow\"",
     "Narrative entry at 1032 K June 1 (page 7) describes this attack; its account is included here."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N47",
@@ -2590,7 +2615,8 @@
     "Transcriber: LOCATION:: Attack IV A longitude blurred, reads 140-14 E (resembles 1⟦4⟧0-1⟦4⟧ E); Attack V longitude typed \"139-50E\"; ESTIMATED DRAFT OF TARGET: Attack IV A draft typed \"20\" (second digit heavily inked/overstruck)",
     "Uncertain reading in flags: LOCATION:: Attack IV A longitude blurred, reads 140-14 E (resembles 1⟦4⟧0-1⟦4⟧ E); Attack V longitude typed \"139-50E\"; ESTIMATED DRAFT OF TARGET: Attack IV A draft typed \"20\" (second digit heavily inked/overstruck)",
     "Narrative entry at 1039 K June 1 (page 7) describes this attack; its account is included here."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-C34",
@@ -2636,7 +2662,8 @@
     "Transcriber: GYRO ANGLE: Attack IV B has 0; Attack V lists 5 gyro angles across lines",
     "Narrative entry at 1041 K June 1 (page 7) describes this attack; its account is included here.",
     "Two Gemini reads of page 7 differ: 'We might have made a clean sweep' (first) and 'made clean sweep' (second). Check the page."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N49",
@@ -2737,7 +2764,8 @@
    "flags": [
     "Transcriber: Time given as range across rows",
     "Review: June 1 planes: one row spans 1149(K) to 1659(K); the map places it at 1149."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N51",
@@ -2792,7 +2820,8 @@
     "course": "Southerly",
     "altitude": "1000 ft"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N52",
@@ -2855,7 +2884,8 @@
     "course": "Westerly",
     "altitude": "3000 ft"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N53",
@@ -2918,7 +2948,8 @@
     "course": "Southerly",
     "altitude": "2000 ft"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N54",
@@ -2976,7 +3007,8 @@
     "course": "330",
     "speed": "20"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N55",
@@ -3072,7 +3104,8 @@
    },
    "flags": [
     "Transcriber: Latitude typed \"32-32-N\""
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N57",
@@ -3130,7 +3163,8 @@
     "speed": "22",
     "remarks": "Four hits made in the carrier"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N58",
@@ -3207,7 +3241,8 @@
     "Uncertain reading in flags: LOCATION:: Attack IV A longitude blurred, reads 140-14 E (resembles 1⟦4⟧0-1⟦4⟧ E); Attack V longitude typed \"139-50E\"; NUMBER DAMAGED OR PROBABLY SUNK(TONNAGE): Attack V: verified against page 14 as 25,000 (Gemini read \"1 - 29,000\"; it also cited 27,500 tons from an endorsement not in these pages); TYPE OF TARGET: Target type row blank for Attack V in table; identified from contact log / text; GYRO ANGLE: Attack IV B has 0; Attack V lists 5 gyro angles across lines",
     "Narrative entry at 1955 K June 10 (page 9) describes this attack; its account is included here.",
     "entry also records enemy counterattack"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-237-P05-N60",

@@ -159,7 +159,8 @@
    },
    "flags": [
     "Review: The page 18 note says 'First 3 contacts of 8', but all 8 aircraft contacts are transcribed. Confirm whether any run onto a later page."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-283-P03-C01",
@@ -188,7 +189,8 @@
     "speed": "12K",
     "remarks": "Not sighted. from rad contact identified as patrol vessel"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "1"
   },
   {
    "id": "SS-283-P03-C02",
@@ -217,7 +219,8 @@
     "speed": "11.6K",
     "remarks": "Loaded"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "2"
   },
   {
    "id": "SS-283-P03-C12",
@@ -260,7 +263,8 @@
    },
    "flags": [
     "Review: Tonnage 9525 here; contact 2 gives HUZISAN MARU as 9527 tons. Check which figure the report uses in each place."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-283-P03-C05",
@@ -289,7 +293,8 @@
     "altitude": "Dist 2 mi",
     "remarks": "Picked up by Captain on periscope"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-283-P03-C03",
@@ -318,7 +323,8 @@
     "speed": "16K",
     "remarks": "Loaded"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": "3"
   },
   {
    "id": "SS-283-P03-C13",
@@ -359,7 +365,8 @@
     "spread": "9° total",
     "performance": "no 1 dud"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-283-P03-C14",
@@ -403,7 +410,8 @@
    "flags": [
     "Report note #: Should have been 3 hits",
     "Report note *: see VII Particulars of Attacks - Remarks"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-283-P03-C15",
@@ -447,7 +455,8 @@
    "flags": [
     "Review: The report numbers this attack 3(b).",
     "Report note *: see VII Particulars of Attacks - Remarks"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-283-P03-C16",
@@ -490,7 +499,8 @@
    },
    "flags": [
     "Report note *: See VII Particulars of Attacks - Remarks"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-283-P03-C17",
@@ -531,7 +541,8 @@
     "spread": "0",
     "performance": "Yes"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-283-P03-C18",
@@ -574,7 +585,8 @@
    },
    "flags": [
     "Report note *: See VII Particulars of Attacks - Remarks"
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-283-P03-C19",
@@ -617,7 +629,8 @@
    },
    "flags": [
     "Review: The only attack the report claims as a sinking (10000 plus, 'same as 2'). The sunk and damaged figures sit in opposite columns from attacks 3-7."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-283-P03-C06",
@@ -646,7 +659,8 @@
     "altitude": "6° Dist. 6 mi",
     "remarks": "Sighted by lookout"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-283-P03-C07",
@@ -675,7 +689,8 @@
     "altitude": "4° Dist. 6 mi",
     "remarks": "Sighted by lookout"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-283-P03-C08",
@@ -706,7 +721,8 @@
    },
    "flags": [
     "'161-21-3E' reads as degrees-minutes-seconds, but the last figure is a single digit; it may be decimal minutes. Read here as seconds."
-   ]
+   ],
+   "contact_no": null
   },
   {
    "id": "SS-283-P03-C09",
@@ -735,7 +751,8 @@
     "altitude": "6° Dist. 4.5 mi",
     "remarks": "Sighted by lookout"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-283-P03-C10",
@@ -764,7 +781,8 @@
     "altitude": "4° Dist. 4.5 mi",
     "remarks": "Sighted by lookout"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   },
   {
    "id": "SS-283-P03-C11",
@@ -793,7 +811,8 @@
     "altitude": "4° Dist. 6 mi",
     "remarks": "Sighted by lookout"
    },
-   "flags": []
+   "flags": [],
+   "contact_no": null
   }
  ],
  "tonnage": [
