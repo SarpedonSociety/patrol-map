@@ -18,9 +18,12 @@ sources/                      Transcriptions. Never edited by the scripts.
     contacts.md               Contact, aircraft and attack tables, verbatim
     review.yml                Open questions for the verification pass
   SS-283/P03/                 Tinosa, War Patrol 3
+  status/                     COMSUBPAC war diary "Disposition of Forces" listings,
+                              task group index, dated refit/overhaul periods
 tools/convert.py              Turns sources/ into data/
 data/
   manifest.json               List of patrols on the map (generated)
+  status.json                 Fleet status between patrols (generated)
   patrols/SS-236-P01.json     One file per patrol (generated)
   base/land-50m.json          Coastlines (Natural Earth via world-atlas)
 prompts/gemini-transcription.md   First-pass transcription prompt
@@ -137,6 +140,26 @@ place, e.g. to put back in full an entry Gemini summarized.
 
 If Gemini labels the narrative with the wrong zone, `zone_fix: { K: L }`
 in `patrol.yml` corrects it for every narrative entry.
+
+## Between patrols: refit, overhaul and training
+
+The fleet status strip under the map shows each boat as a row: patrols
+(solid; outlined where not yet transcribed), and what the boat was doing
+in between. That comes from `sources/status/` (see its README):
+
+- **War diary listings.** Each COMSUBPAC "Disposition of Forces" page is
+  one file, dated, listing boats under the war diary's own headings
+  ("Under refit at Pearl Harbor", "On patrol" and so on). Each listing
+  shows as a tick. The status it gives is drawn lightly for up to 8 days
+  either side, or through to the next listing that says the same thing.
+  That spread is inference, and the map labels it so.
+- **Dated periods.** A refit or overhaul with start and end dates from a
+  patrol report, the endorsement or DANFS goes in `periods.yml` with its
+  source. These draw solid and take precedence over the inferred spread.
+
+While a boat is in port, the chart shows it at that port with its
+status, and the scoreboard shows a status chip. A listing file without a
+`date:` is skipped until the date is filled in.
 
 ## Entries without a position
 

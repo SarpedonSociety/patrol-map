@@ -38,6 +38,7 @@ ports:
   Brisbane: { lat: -27.47, lon: 153.03 }
   Majuro: { lat: 7.09, lon: 171.38 }
   Guam: { lat: 13.44, lon: 144.66 }
+  San Francisco Bay area: { lat: 37.8, lon: -122.35 }
 
 # Landmarks for positions the reports give relative to a charted feature
 # ("9 miles NE of MINAMI JIMA"). Modern positions; a derived position is
@@ -62,6 +63,7 @@ places:
   - { name: Rabaul, lat: -4.2, lon: 152.18, zoom: 0 }
   - { name: Kavieng, lat: -2.58, lon: 150.8, zoom: 2 }
   - { name: Brisbane, lat: -27.47, lon: 153.03, zoom: 0 }
+  - { name: San Francisco, lat: 37.8, lon: -122.35, zoom: 0 }
   - { name: Guam, lat: 13.44, lon: 144.79, zoom: 2 }
   - { name: Hachijo Jima, lat: 33.1, lon: 139.8, zoom: 3 }
   - { name: Inubo Saki, lat: 35.707, lon: 140.869, zoom: 4 }

@@ -1,0 +1,59 @@
+# COMSUBPAC (Commander Task Force Seventeen) war diary, May 1943
+# "Disposition of Forces", page 2. Transcribed by Claude from the scan
+# supplied by Matt Howland; check against the original.
+#
+# The date of this listing is on an earlier page, not in the scan: fill
+# it in (YYYY-MM-DD). Until then the map skips this file.
+
+date:
+source: "Report for Commander Task Force Seventeen (Commander Submarine Force, Pacific Fleet), Disposition of Forces"
+page: "2"
+fold3_image:
+
+groups:
+  - heading: "Under modernization San Francisco Bay area"
+    status: modernization
+    place: San Francisco Bay area
+    boats: [SCULPIN, SARGO, SPEARFISH, STURGEON, SWORDFISH, SEARAVEN, SNAPPER, KINGFISH]
+  - heading: "Under refit at Pearl Harbor"
+    status: refit
+    place: Pearl Harbor
+    boats: [TINOSA, WHALE, SAURY, HADDOCK, PORPOISE, FINBACK, HALIBUT, SAILFISH, SEADRAGON, SILVERSIDES, S-38]
+  - heading: "Under refit at Midway"
+    status: refit
+    place: Midway
+    boats: [POLLACK, TUNNY]
+  - heading: "Enroute Patrol Stations, on patrol, or enroute from patrol stations"
+    status: patrol
+    boats:
+      SAWFISH: 17.1.1
+      POGY: 17.1.2
+      POMPANO: 17.1.3
+      SCORPION: 17.1.4
+      PICKEREL: 17.1.5
+      STEELHEAD: 17.1.6
+      RUNNER: 17.1.7
+      SALMON: 17.1.8
+      FLYING FISH: 17.1.9
+      STINGRAY: 17.1.10
+      SEAWOLF: 17.1.11
+      SNOOK: 17.1.12
+      WAHOO: 17.1.15
+      TRIGGER: 17.1.16
+      PLUNGER: 17.2.1
+      SUNFISH: 17.2.2
+      PIKE: 17.2.4
+      SEAL: 17.2.6
+      SKIPJACK: 17.2.10
+      TARPON: 17.2.14
+      PERMIT: 17.2.15
+  - heading: "Training on West Coast"
+    status: training
+    place: West Coast
+    boats: [TULLIBEE]
+  - heading: "Assigned other task forces"
+    status: other_task_force
+    boats: [S-18, S-23, S-28, S-30, S-32, S-33, S-34, S-35, S-37, S-40, S-41, S-43, S-45, S-47, DOLPHIN, NAUTILUS, NARWHAL, S-31, SCAMP, DRUM]
+
+tenders: "SPERRY at Pearl Harbor, HOLLAND undergoing overhaul in San Francisco Bay area, GRIFFIN enroute Pearl Harbor, from San Francisco."
+other_units: "Destroyer: LITCHFIELD at Pearl Harbor. Tug: SEAGULL at Pearl Harbor. Rescue Vessels: WIDGEON at Pearl Harbor, ORTOLAN operating with other task force."

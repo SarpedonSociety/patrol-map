@@ -887,6 +887,49 @@ def build_patrol(folder, ref):
     }
 
 
+STATUS_CODES = ("patrol", "refit", "overhaul", "modernization", "training", "other_task_force")
+
+
+def build_status(ref):
+    """Fleet status from the war diary snapshots in sources/status/."""
+    folder = SOURCES / "status"
+    if not folder.exists():
+        return None
+    name_to_hull = {str(v.get("name", "")).upper(): k for k, v in (ref.get("boats") or {}).items()}
+    observations, problems = [], []
+    for path in sorted(folder.glob("*.yml")):
+        if path.name in ("index.yml", "periods.yml"):
+            continue
+        snap = load_yaml_text(path)
+        if not snap.get("date"):
+            print(f"status: {path.name} skipped: no date yet")
+            continue
+        date = str(snap["date"])
+        for group in snap.get("groups") or []:
+            status = str(group.get("status") or "").lower()
+            if status not in STATUS_CODES:
+                problems.append(f"{path.name}: unknown status '{status}' for '{group.get('heading')}'")
+            boats = group.get("boats") or []
+            items = boats.items() if isinstance(boats, dict) else [(b, None) for b in boats]
+            for name, unit in items:
+                label = str(name).strip()
+                observations.append({
+                    "date": date, "boat": name_to_hull.get(label.upper()), "name": label,
+                    "status": status, "place": group.get("place"), "unit": unit,
+                    "heading": group.get("heading"), "source": snap.get("source"),
+                    "page": snap.get("page"), "fold3_image": snap.get("fold3_image"), "file": path.name,
+                })
+    periods = []
+    if (folder / "periods.yml").exists():
+        for p in load_yaml_text(folder / "periods.yml") or []:
+            periods.append({k: p.get(k) for k in ("boat", "status", "place", "start", "end", "source")})
+    index = load_yaml_text(folder / "index.yml") if (folder / "index.yml").exists() else []
+    for msg in problems:
+        print("status:", msg)
+    print(f"status: {len(observations)} observations, {len(periods)} dated periods")
+    return {"observations": observations, "periods": periods, "index": index or []}
+
+
 def main(selected):
     ref = yaml.safe_load((SOURCES / "reference.yml").read_text(encoding="utf-8"))
     folders = sorted({p.parent for p in SOURCES.glob("*/*/patrol.yml")} | {p.parent for p in SOURCES.glob("*/*/gemini-*.yml")})
@@ -911,7 +954,11 @@ def main(selected):
         p = json.loads(path.read_text(encoding="utf-8"))
         manifest.append({k: p[k] for k in ("id", "boat", "name", "class", "patrol", "year", "start", "end", "summary")}
                         | {"file": f"patrols/{path.name}"})
+    status = build_status(ref)
+    if status is not None:
+        (OUT / "status.json").write_text(json.dumps(status, indent=1, ensure_ascii=False), encoding="utf-8")
     (OUT / "manifest.json").write_text(json.dumps({
+        "ports": ref.get("ports") or {},
         "places": ref.get("places") or [],
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
         "patrols": manifest,

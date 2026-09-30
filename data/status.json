@@ -1,0 +1,38 @@
+{
+ "observations": [],
+ "periods": [
+  {
+   "boat": "SS-236",
+   "status": "refit",
+   "place": "Brisbane",
+   "start": "1942-11-25",
+   "end": "1942-12-09",
+   "source": "Silversides Patrol 4 report, prologue: 'Commenced refit on 25 November, 1942 by U.S.S. SPERRY. Completed refit on 9 December, 1942.' The tender's name is partly obscured by a punch hole."
+  },
+  {
+   "boat": "SS-230",
+   "status": "refit",
+   "place": "Pearl Harbor",
+   "start": "1943-04-13",
+   "end": "1943-05-12",
+   "source": "DANFS: refit at Pearl Harbor 13 April to 12 May 1943."
+  }
+ ],
+ "index": [
+  {
+   "from": "1943-05-01",
+   "source": "COMSUBPAC war diary, May 1943, task force index",
+   "groups": {
+    "17": "Task Force Seventeen, Rear Admiral Lockwood",
+    "17.1": "Empire Patrol Group",
+    "17.2": "Mandate Patrol Group",
+    "17.3": "Miscellaneous Operations Group",
+    "17.4": "Subron Four Independent Operations and Training",
+    "17.5": "Subordinate Command, Midway",
+    "17.7": "Subron Ten Independent Operations and Training",
+    "17.8": "San Francisco Training Group",
+    "17.9": "San Diego Training Group"
+   }
+  }
+ ]
+}

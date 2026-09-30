@@ -1,0 +1,7 @@
+# Maintenance periods with exact dates from other sources. These override
+# what the map infers from the war diary snapshots.
+
+- { boat: SS-236, status: refit, place: Brisbane, start: 1942-11-25, end: 1942-12-09,
+    source: "Silversides Patrol 4 report, prologue: 'Commenced refit on 25 November, 1942 by U.S.S. SPERRY. Completed refit on 9 December, 1942.' The tender's name is partly obscured by a punch hole." }
+- { boat: SS-230, status: refit, place: Pearl Harbor, start: 1943-04-13, end: 1943-05-12,
+    source: "DANFS: refit at Pearl Harbor 13 April to 12 May 1943." }

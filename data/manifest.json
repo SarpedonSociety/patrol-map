@@ -1,4 +1,34 @@
 {
+ "ports": {
+  "Pearl Harbor": {
+   "lat": 21.35,
+   "lon": -157.95
+  },
+  "Midway": {
+   "lat": 28.21,
+   "lon": -177.38
+  },
+  "Fremantle": {
+   "lat": -32.05,
+   "lon": 115.74
+  },
+  "Brisbane": {
+   "lat": -27.47,
+   "lon": 153.03
+  },
+  "Majuro": {
+   "lat": 7.09,
+   "lon": 171.38
+  },
+  "Guam": {
+   "lat": 13.44,
+   "lon": 144.66
+  },
+  "San Francisco Bay area": {
+   "lat": 37.8,
+   "lon": -122.35
+  }
+ },
  "places": [
   {
    "name": "Pearl Harbor",
@@ -61,6 +91,12 @@
    "zoom": 0
   },
   {
+   "name": "San Francisco",
+   "lat": 37.8,
+   "lon": -122.35,
+   "zoom": 0
+  },
+  {
    "name": "Guam",
    "lat": 13.44,
    "lon": 144.79,
@@ -103,7 +139,7 @@
    "zoom": 4
   }
  ],
- "generated": "2026-09-30T01:10:08Z",
+ "generated": "2026-09-30T01:41:18Z",
  "patrols": [
   {
    "id": "SS-230-P02",

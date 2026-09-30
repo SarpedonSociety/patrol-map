@@ -1,0 +1,16 @@
+# Task Force 17 organization, from the war diary's task force index.
+# Keyed by the first two parts of a task unit number (17.1.16 -> 17.1).
+# Add a new block if the organization changes.
+
+- from: 1943-05-01
+  source: "COMSUBPAC war diary, May 1943, task force index"
+  groups:
+    "17": "Task Force Seventeen, Rear Admiral Lockwood"
+    "17.1": "Empire Patrol Group"
+    "17.2": "Mandate Patrol Group"
+    "17.3": "Miscellaneous Operations Group"
+    "17.4": "Subron Four Independent Operations and Training"
+    "17.5": "Subordinate Command, Midway"
+    "17.7": "Subron Ten Independent Operations and Training"
+    "17.8": "San Francisco Training Group"
+    "17.9": "San Diego Training Group"

@@ -27,6 +27,10 @@
   --rescue: #1b7f8e;
   --mine: #7a4fa0;
   --dc: #3a4a55;
+  --st-refit: #c0841c;
+  --st-overhaul: #7a4fa0;
+  --st-training: #1b7f8e;
+  --st-other: #8a979b;
   --flag: #8a5a00;
   --flag-bg: #fbf0d6;
   --focus: #2f4b5a;
@@ -40,7 +44,7 @@
     --sea: #0d1416; --land: #35322a; --coast: #7a705e; --grid: #1a2427;
     --paper: #121a1c; --ink: #e3e0d7; --muted: #99a3a1; --rule: #283437;
     --track: #9db6c2; --torpedo: #e36452; --gun: #e2a441; --event: #6db795;
-    --sighting: #8d9ca0; --aircraft: #9aa6e6; --rescue: #5fc4d3; --mine: #c3a3e6; --dc: #c9d3d9; --flag: #f0c46c; --flag-bg: #2e2612; --focus: #9db6c2;
+    --sighting: #8d9ca0; --aircraft: #9aa6e6; --rescue: #5fc4d3; --mine: #c3a3e6; --dc: #c9d3d9; --st-refit: #e2a441; --st-overhaul: #c3a3e6; --st-training: #5fc4d3; --st-other: #7d8a8e; --flag: #f0c46c; --flag-bg: #2e2612; --focus: #9db6c2;
     --shadow: none;
   }
 }
@@ -49,7 +53,7 @@
   --sea: #0d1416; --land: #35322a; --coast: #7a705e; --grid: #1a2427;
   --paper: #121a1c; --ink: #e3e0d7; --muted: #99a3a1; --rule: #283437;
   --track: #9db6c2; --torpedo: #e36452; --gun: #e2a441; --event: #6db795;
-  --sighting: #8d9ca0; --aircraft: #9aa6e6; --rescue: #5fc4d3; --mine: #c3a3e6; --dc: #c9d3d9; --flag: #f0c46c; --flag-bg: #2e2612; --focus: #9db6c2;
+  --sighting: #8d9ca0; --aircraft: #9aa6e6; --rescue: #5fc4d3; --mine: #c3a3e6; --dc: #c9d3d9; --st-refit: #e2a441; --st-overhaul: #c3a3e6; --st-training: #5fc4d3; --st-other: #7d8a8e; --flag: #f0c46c; --flag-bg: #2e2612; --focus: #9db6c2;
   --shadow: none;
 }
 
@@ -70,8 +74,8 @@ button, select, input { font: inherit; color: inherit; }
   height: 100%;
   display: grid;
   grid-template-columns: minmax(0, 1fr) 360px;
-  grid-template-rows: auto minmax(0, 1fr) auto;
-  grid-template-areas: "head side" "map side" "time side";
+  grid-template-rows: auto minmax(0, 1fr) auto auto;
+  grid-template-areas: "head side" "map side" "fleet side" "time side";
 }
 header.head {
   grid-area: head;
@@ -82,6 +86,25 @@ header.head {
 .head h1 { margin: 0; font-size: 19px; font-weight: 800; letter-spacing: -0.01em; text-wrap: balance; }
 .head .org { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 
+.fleet { grid-area: fleet; border-top: 1px solid var(--rule); padding: 8px 20px 4px; max-height: 32vh; overflow: auto; }
+.fleet[hidden] { display: none !important; }
+.fleet-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+.fleet-head .eyebrow { margin: 0; }
+.fleet-key { display: flex; gap: 10px; flex-wrap: wrap; font-size: 11.5px; color: var(--muted); }
+.fleet-key span { display: inline-flex; align-items: center; gap: 4px; }
+.fleet-key i { display: inline-block; width: 14px; height: 8px; border-radius: 2px; }
+.fleet svg { display: block; width: 100%; cursor: pointer; }
+.fleet .blabel { font: 600 11px var(--sans); fill: var(--ink); }
+.fleet .axis text { font: 10px var(--typed); fill: var(--muted); }
+.fleet .axis line { stroke: var(--rule); }
+.fleet .obs { stroke: var(--ink); stroke-width: 1.5; }
+.fleet .head { stroke: var(--torpedo); stroke-width: 1.5; }
+.seg.inferred { opacity: .45; }
+.pin circle { fill: var(--paper); stroke: var(--muted); stroke-width: 1.6; }
+.pin.inferred circle { stroke-dasharray: 3 2; }
+.pin text { font: 700 8px var(--sans); fill: var(--muted); text-anchor: middle; dominant-baseline: central; }
+.pin .tag { font: 600 9.5px var(--sans); fill: var(--muted); text-anchor: start; paint-order: stroke; stroke: var(--sea); stroke-width: 3px; dominant-baseline: central; }
+.stchip { display: inline-block; font-size: 10.5px; font-weight: 600; padding: 0 6px; border-radius: 999px; margin-left: 6px; vertical-align: 1px; background: color-mix(in srgb, var(--muted) 14%, transparent); color: var(--muted); }
 .map { grid-area: map; position: relative; background: var(--sea); overflow: hidden; min-height: 280px; }
 .map svg { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; }
 .map svg:active { cursor: grabbing; }
@@ -218,8 +241,8 @@ aside.side {
   .app {
     height: auto; min-height: 100%;
     grid-template-columns: minmax(0, 1fr);
-    grid-template-rows: auto 62vh auto auto;
-    grid-template-areas: "head" "map" "time" "side";
+    grid-template-rows: auto 62vh auto auto auto;
+    grid-template-areas: "head" "map" "fleet" "time" "side";
   }
   aside.side { border-left: 0; }
   .log { max-height: 50vh; }
@@ -247,6 +270,23 @@ aside.side {
     </div>
     <div class="maploading" id="loading">Loading chart…</div>
     <div class="detail" id="detail" hidden></div>
+  </div>
+
+  <div class="fleet" id="fleet" hidden>
+    <div class="fleet-head">
+      <p class="eyebrow">Fleet status</p>
+      <div class="fleet-key">
+        <span><i style="background:var(--track)"></i>Patrol</span>
+        <span><i style="background:color-mix(in srgb, var(--track) 22%, transparent);box-shadow:inset 0 0 0 1.2px var(--track)"></i>Patrol not yet transcribed</span>
+        <span><i style="background:var(--st-refit)"></i>Refit</span>
+        <span><i style="background:var(--st-overhaul)"></i>Overhaul / modernization</span>
+        <span><i style="background:var(--st-training)"></i>Training</span>
+        <span><i style="background:var(--st-other)"></i>Other task force</span>
+        <span><i style="background:var(--muted);opacity:.45"></i>Inferred between reports</span>
+        <span><i style="background:none;border-left:2px solid var(--ink);width:2px;border-radius:0"></i>War diary listing</span>
+      </div>
+    </div>
+    <svg id="fleetsvg" aria-label="Fleet status timeline: patrols and time in port for each boat"></svg>
   </div>
 
   <div class="time">
@@ -338,6 +378,8 @@ aside.side {
   const patrols = await Promise.all(manifest.patrols.map((p) => fetch("data/" + p.file).then((r) => r.json())));
   patrols.sort((a, b) => Date.parse(a.start) - Date.parse(b.start) || a.boat.localeCompare(b.boat));
   $("loading").remove();
+  let STATUS = { observations: [], periods: [], index: [] };
+  try { const r = await fetch("data/status.json"); if (r.ok) STATUS = await r.json(); } catch (e) { /* optional */ }
   const PLACES = manifest.places || [];
 
   patrols.forEach((p) => {
@@ -393,6 +435,7 @@ aside.side {
       span.style.background = `var(--${r.kind})`;
       ticks.appendChild(span);
     });
+    if (typeof renderFleet === "function" && fsvg) renderFleet();
   }
 
   function boatAt(p, t) {
@@ -466,8 +509,154 @@ aside.side {
         g.append("text").text(p.boat.replace(/\D/g, ""));
       }
     }
+    if (typeof drawInPort === "function") drawInPort();
+    if (typeof updateFleetHead === "function") updateFleetHead();
     $("date").textContent = fmtDate(new Date(now));
     $("gmt").textContent = fmtGmt(new Date(now));
+  }
+
+  // ---------- fleet status (war diary snapshots + dated periods)
+  var PORTS = manifest.ports || {};
+  const DAY = 24 * HOUR;
+  const REACH = 8 * DAY;  // war diary listings come roughly twice a month
+  const ST_LABEL = { patrol: "On patrol", refit: "Refit", overhaul: "Overhaul", modernization: "Modernization",
+                     training: "Training", other_task_force: "Other task force" };
+  const ST_COLOR = { patrol: "var(--track)", refit: "var(--st-refit)", overhaul: "var(--st-overhaul)",
+                     modernization: "var(--st-overhaul)", training: "var(--st-training)", other_task_force: "var(--st-other)" };
+  var obsAll = (STATUS.observations || []).map((o) => ({ ...o, t: Date.parse(o.date + "T12:00:00Z") }));
+  var perAll = (STATUS.periods || []).map((o) => ({ ...o, a: Date.parse(o.start + "T00:00:00Z"), b: Date.parse(o.end + "T23:59:00Z") }));
+  function groupName(unit, t) {
+    if (!unit) return "";
+    const key = String(unit).split(".").slice(0, 2).join(".");
+    const idx = (STATUS.index || []).filter((x) => Date.parse(x.from) <= t).pop() || (STATUS.index || [])[0];
+    return idx && idx.groups && idx.groups[key] ? idx.groups[key] : "";
+  }
+  var timelines = new Map();
+  function timeline(hull) {
+    if (timelines.has(hull)) return timelines.get(hull);
+    const pats = patrols.filter((p) => p.boat === hull).map((p) => ({ a: Date.parse(p.start), b: Date.parse(p.end), p })).sort((x, y) => x.a - y.a);
+    const obs = obsAll.filter((o) => o.boat === hull).sort((x, y) => x.t - y.t);
+    const segs = [];
+    const bounds = [-Infinity, ...pats.flatMap((x) => [x.a, x.b]), Infinity];
+    const same = (x, y) => x && y && x.status === y.status && x.place === y.place;
+    for (let i = 0; i < bounds.length; i += 2) {
+      const ga = bounds[i], gb = bounds[i + 1];
+      const inGap = obs.filter((o) => o.t > ga && o.t < gb);
+      inGap.forEach((o, j) => {
+        const prev = inGap[j - 1], next = inGap[j + 1];
+        // A listing speaks for the days around it, not the whole gap: reach at most
+        // REACH either side, or to the next listing if it says the same thing.
+        const a = Math.max(ga, prev && same(prev, o) ? prev.t : prev ? Math.max((prev.t + o.t) / 2, o.t - REACH) : o.t - REACH);
+        const b = Math.min(gb, next && same(o, next) ? next.t : next ? Math.min((o.t + next.t) / 2, o.t + REACH) : o.t + REACH);
+        segs.push({ a, b, status: o.status, place: o.place, inferred: true, obs: o });
+      });
+    }
+    perAll.filter((o) => o.boat === hull).forEach((o) => segs.push({ a: o.a, b: o.b, status: o.status, place: o.place, inferred: false, period: o }));
+    const tl = { pats, obs, segs };
+    timelines.set(hull, tl);
+    return tl;
+  }
+  function statusAt(hull, t) {
+    const tl = timeline(hull);
+    const pat = tl.pats.find((x) => t >= x.a && t <= x.b);
+    if (pat) return { status: "patrol", patrol: pat.p };
+    const doc = tl.segs.filter((s) => !s.inferred && t >= s.a && t <= s.b)[0];
+    if (doc) return doc;
+    return tl.segs.find((s) => s.inferred && t >= s.a && t <= s.b) || null;
+  }
+  function statusText(st) {
+    if (!st) return "";
+    const base = ST_LABEL[st.status] || st.status;
+    return st.place && st.status !== "patrol" ? `${base} · ${st.place}` : base;
+  }
+  function fleetBoats() {
+    return [...new Set(on().map((p) => p.boat))].sort((a, b) => boatName(a).localeCompare(boatName(b)));
+  }
+  function boatName(hull) { return (patrols.find((p) => p.boat === hull) || {}).name || hull; }
+
+  var fsvg = d3.select("#fleetsvg");
+  var fleetHead = null, fx = null;
+  function renderFleet() {
+    const boats = fleetBoats();
+    const hasStatus = obsAll.length || perAll.length;
+    $("fleet").hidden = !boats.length || !hasStatus;
+    if ($("fleet").hidden) return;
+    const W = $("fleet").clientWidth - 40, LAB = 96, ROW = 18, TOP = 16;
+    const H = TOP + boats.length * ROW + 4;
+    fsvg.attr("viewBox", `0 0 ${W} ${H}`).attr("height", H);
+    fsvg.selectAll("*").remove();
+    fx = d3.scaleTime().domain([t0, t1]).range([LAB, W - 4]);
+    const ax = fsvg.append("g").attr("class", "axis");
+    fx.ticks(Math.max(2, Math.floor((W - LAB) / 90))).forEach((d) => {
+      ax.append("line").attr("x1", fx(d)).attr("x2", fx(d)).attr("y1", TOP - 3).attr("y2", H);
+      ax.append("text").attr("x", fx(d) + 3).attr("y", 10).text(d3.utcFormat("%b %Y")(d));
+    });
+    const clamp = (v) => Math.max(LAB, Math.min(W - 4, v));
+    boats.forEach((hull, i) => {
+      const y = TOP + i * ROW;
+      fsvg.append("text").attr("class", "blabel").attr("x", 0).attr("y", y + 12).text(boatName(hull));
+      const tl = timeline(hull);
+      for (const s of tl.segs) {
+        const a = clamp(fx(s.a)), b = clamp(fx(s.b));
+        if (b - a < 0.5) continue;
+        fsvg.append("rect").attr("class", "seg" + (s.inferred ? " inferred" : "")).attr("x", a).attr("y", y + 3)
+          .attr("width", b - a).attr("height", ROW - 7).attr("rx", 2).attr("fill", ST_COLOR[s.status] || "var(--st-other)")
+          .attr("fill-opacity", s.status === "patrol" ? 0.5 : null).attr("stroke", s.status === "patrol" ? "var(--track)" : null)
+          .attr("stroke-dasharray", s.status === "patrol" ? "3 2" : null)
+          .append("title").text(`${boatName(hull)}: ${statusText(s)}${s.inferred ? " (inferred between reports)" : ""}\n` +
+            (s.period ? s.period.source : `${s.obs.heading} (${s.obs.date})`));
+      }
+      for (const x of tl.pats) {
+        const a = clamp(fx(x.a)), b = clamp(fx(x.b));
+        if (b - a < 0.5) continue;
+        fsvg.append("rect").attr("x", a).attr("y", y + 3).attr("width", b - a).attr("height", ROW - 7).attr("rx", 2)
+          .attr("fill", "var(--track)").attr("fill-opacity", x.p.summary.records ? 0.9 : 0.22)
+          .attr("stroke", "var(--track)").attr("stroke-width", x.p.summary.records ? 0 : 1.2)
+          .append("title").text(`${x.p.name} Patrol ${x.p.patrol}: ${fmtDate(new Date(x.a))} – ${fmtDate(new Date(x.b))}${x.p.summary.records ? "" : " (not yet transcribed)"}`);
+      }
+      for (const o of tl.obs) {
+        const ox = fx(o.t);
+        if (ox < LAB || ox > W) continue;
+        fsvg.append("line").attr("class", "obs").attr("x1", ox).attr("x2", ox).attr("y1", y + 1).attr("y2", y + ROW - 2)
+          .append("title").text(`War diary, ${o.date}: "${o.heading}"${o.unit ? ` ${o.unit}${groupName(o.unit, o.t) ? " (" + groupName(o.unit, o.t) + ")" : ""}` : ""}`);
+      }
+    });
+    fleetHead = fsvg.append("line").attr("class", "head").attr("y1", TOP - 4).attr("y2", H);
+    updateFleetHead();
+  }
+  function updateFleetHead() {
+    if (!fleetHead || !fx) return;
+    const x = fx(now);
+    fleetHead.attr("x1", x).attr("x2", x);
+  }
+  fsvg.on("click", (ev) => {
+    if (!fx) return;
+    const [mx] = d3.pointer(ev);
+    const t = +fx.invert(mx);
+    if (t < t0 || t > t1) return;
+    now = t; $("slider").value = Math.round((now - t0) / HOUR); draw(); renderLog(); renderBoard();
+  });
+
+  // Boats in port between patrols: drawn at the port with their status.
+  function drawInPort() {
+    if (!obsAll || !perAll) return;
+    const byPort = new Map();
+    for (const hull of fleetBoats()) {
+      const st = statusAt(hull, now);
+      if (!st || st.status === "patrol" || !st.place || !PORTS[st.place]) continue;
+      if (!byPort.has(st.place)) byPort.set(st.place, []);
+      byPort.get(st.place).push({ hull, st });
+    }
+    for (const [place, list] of byPort) {
+      const [x, y] = px(PORTS[place].lon, PORTS[place].lat);
+      list.forEach(({ hull, st }, i) => {
+        const g = gOver.append("g").attr("class", "pin" + (st.inferred ? " inferred" : "")).attr("transform", `translate(${x + 18},${y + 20 + i * 25})`);
+        g.append("circle").attr("r", 11);
+        g.append("text").text(hull.replace(/\D/g, ""));
+        g.append("text").attr("class", "tag").attr("x", 15).text(`${boatName(hull)}: ${ST_LABEL[st.status] || st.status}`);
+        g.append("title").text(`${boatName(hull)}: ${statusText(st)}${st.inferred ? " (inferred between war diary listings)" : ""}`);
+      });
+    }
   }
 
   // ---------- side panel
@@ -507,7 +696,7 @@ aside.side {
       }
     }
     const rows = [...boats.values()].sort((a, b) => b.sunk - a.sunk || b.damaged - a.damaged || a.name.localeCompare(b.name));
-    const key = basis + rows.map((r) => `${r.boat}:${r.sunk}:${r.damaged}:${r.ships}:${r.partial}:${r.dmgShips}:${r.noTons}`).join("|");
+    const key = basis + rows.map((r) => `${r.boat}:${r.sunk}:${r.damaged}:${r.ships}:${r.partial}:${r.dmgShips}:${r.noTons}:${statusText(statusAt(r.boat, now))}`).join("|");
     if (key === lastBoard) return;
     lastBoard = key;
     const board = $("board");
@@ -528,7 +717,8 @@ aside.side {
       seen.add(r.boat);
       el.style.transform = `translateY(${i * 52}px)`;
       el.querySelector(".rank").textContent = i + 1;
-      el.querySelector(".who").innerHTML = `${esc(r.name)} <small style="font-weight:500;color:var(--muted)">${esc(r.boat)}</small>`;
+      const chip = statusText(statusAt(r.boat, now));
+      el.querySelector(".who").innerHTML = `${esc(r.name)} <small style="font-weight:500;color:var(--muted)">${esc(r.boat)}</small>${chip ? `<span class="stchip">${esc(chip)}</span>` : ""}`;
       el.querySelector(".tons").textContent = `${fmtTons(r.sunk)} t`;
       const shipText = r.partial ? (r.ships ? `${r.ships}+ ships sunk` : "ship count not recorded") : `${r.ships} ship${r.ships === 1 ? "" : "s"} sunk`;
       const noTonsText = r.noTons ? ` (${r.noTons} without tonnage)` : "";
@@ -664,8 +854,11 @@ aside.side {
   $("zout").addEventListener("click", () => svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.8));
   $("zfit").addEventListener("click", () => fit(true));
   new ResizeObserver(() => fit(false)).observe($("map"));
+  let fleetW = 0;
+  new ResizeObserver(() => { const w = $("fleet").clientWidth; if (w !== fleetW) { fleetW = w; renderFleet(); } }).observe($("fleet"));
 
   setRange();
+  renderFleet();
   renderPatrols();
   fit(false);
   renderLog(true);
