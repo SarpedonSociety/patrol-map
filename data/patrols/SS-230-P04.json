@@ -1,0 +1,83 @@
+{
+ "id": "SS-230-P04",
+ "boat": "SS-230",
+ "name": "Finback",
+ "class": "Gato",
+ "patrol": 4,
+ "year": 1943,
+ "report": null,
+ "commanding_officer": "Lt. Comdr. Hull",
+ "citation": {},
+ "fold3_images": {},
+ "miles_steamed": null,
+ "fuel_expended": null,
+ "start": "1943-02-27T12:00:00Z",
+ "end": "1943-04-13T12:00:00Z",
+ "departure": {
+  "label": "Departed",
+  "port": "Midway",
+  "utc": "1943-02-27T12:00:00Z",
+  "local": "27FEB",
+  "lat": 28.21,
+  "lon": -177.38,
+  "page": null,
+  "flags": [
+   "DANFS. The war history says the refit after the 3rd patrol was completed by Submarine Division 44 at Midway in February 1943.",
+   "Time not recorded; placed at noon."
+  ]
+ },
+ "arrival": {
+  "label": "Arrived",
+  "port": "Pearl Harbor",
+  "utc": "1943-04-13T12:00:00Z",
+  "local": "13APR",
+  "lat": 21.35,
+  "lon": -157.95,
+  "page": null,
+  "flags": [
+   "DANFS; refit at Pearl Harbor 13 April to 12 May 1943.",
+   "Time not recorded; placed at noon."
+  ]
+ },
+ "report_found": false,
+ "summary": {
+  "records": 0,
+  "sightings": 0,
+  "aircraft": 0,
+  "torpedo_attacks": 0,
+  "mine_attacks": 0,
+  "counterattacks": 0,
+  "torpedoes_fired": 0,
+  "gun_actions": 0,
+  "flagged": 2
+ },
+ "track": [],
+ "records": [],
+ "tonnage": [
+  {
+   "id": "SS-230-P04-T01",
+   "utc": "1943-04-13T12:00:00Z",
+   "target": null,
+   "name": null,
+   "result": "sunk",
+   "tons": 5336,
+   "ships": null,
+   "basis": "claimed",
+   "source": "Finback war history, Patrol 4 total",
+   "flags": []
+  },
+  {
+   "id": "SS-230-P04-T02",
+   "utc": "1943-04-13T12:00:00Z",
+   "target": null,
+   "name": null,
+   "result": "damaged",
+   "tons": 21860,
+   "ships": null,
+   "basis": "claimed",
+   "source": "Finback war history, Patrol 4 total",
+   "flags": []
+  }
+ ],
+ "minefields": []
+}

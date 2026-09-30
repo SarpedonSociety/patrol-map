@@ -28,9 +28,9 @@ departure:
   zone: W
   flags: "Date from the patrol dates. Port inferred, not stated in the pages transcribed: on 17 December she was about 300 miles west of Oahu (aircraft contacts 1-2). Confirm from the narrative."
 arrival:
-  port:
+  port: Midway
   date: 6FEB
-  flags: "Return date 6 February 1943; port not yet transcribed."
+  flags: "Port inferred from the war history: 'The refit after the 3rd patrol was completed by submarine division 44 at MIDWAY in February 1943.' Not yet confirmed from the report's narrative."
 
 period:
   start: 1942-12-16

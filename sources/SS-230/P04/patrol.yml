@@ -1,20 +1,32 @@
 # USS Finback (SS-230), War Patrol 4
-# No patrol report found yet. This file holds only the tonnage claimed,
-# so the scoreboard stays complete. The patrol draws nothing on the chart.
+# No patrol report found yet. This file holds the dates and the tonnage
+# claimed, so the scoreboard stays complete. It draws nothing on the chart.
 
 boat: SS-230
 patrol: 4
-year:
+year: 1943
 report_found: no
 report:
-commanding_officer:
+commanding_officer: "Lt. Comdr. Hull"
+
+departure:
+  port: Midway
+  date: 27FEB
+  flags: "DANFS. The war history says the refit after the 3rd patrol was completed by Submarine Division 44 at Midway in February 1943."
+arrival:
+  port: Pearl Harbor
+  date: 13APR
+  flags: "DANFS; refit at Pearl Harbor 13 April to 12 May 1943."
 
 # Patrol dates, needed to place the tonnage on the timeline.
 # Fill in from the war history or another source (YYYY-MM-DD).
+# The war history gives "a forty-five day patrol in the PALU-TRUK area";
+# DANFS places it between Rabaul and the Japanese home islands. The DANFS
+# dates give 45 days, matching the war history.
 period:
-  start:
-  end:
-  source:
+  start: 1943-02-27
+  end: 1943-04-13
+  source: "DANFS; 45 days agrees with the war history"
 
 tonnage:
   - { result: sunk, tons: 5336, ships: , basis: claimed, source: "Finback war history, Patrol 4 total" }

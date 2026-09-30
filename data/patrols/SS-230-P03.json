@@ -38,7 +38,19 @@
    "Time not recorded; placed at noon."
   ]
  },
- "arrival": null,
+ "arrival": {
+  "label": "Arrived",
+  "port": "Midway",
+  "utc": "1943-02-06T12:00:00Z",
+  "local": "6FEB",
+  "lat": 28.21,
+  "lon": -177.38,
+  "page": null,
+  "flags": [
+   "Port inferred from the war history: 'The refit after the 3rd patrol was completed by submarine division 44 at MIDWAY in February 1943.' Not yet confirmed from the report's narrative.",
+   "Time not recorded; placed at noon."
+  ]
+ },
  "report_found": true,
  "summary": {
   "records": 25,
@@ -49,7 +61,7 @@
   "counterattacks": 0,
   "torpedoes_fired": 0,
   "gun_actions": 1,
-  "flagged": 11
+  "flagged": 12
  },
  "track": [
   {
@@ -232,6 +244,12 @@
    "utc": "1943-01-23T13:36:00Z",
    "basis": "documented",
    "ref": "SS-230-P03-C14"
+  },
+  {
+   "lat": 28.21,
+   "lon": -177.38,
+   "utc": "1943-02-06T12:00:00Z",
+   "basis": "reference"
   }
  ],
  "records": [

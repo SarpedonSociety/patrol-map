@@ -33,8 +33,8 @@ SS-236:   # Silversides
 SS-230:   # Finback — commissioned 31 Jan 1942, Electric Boat
   1:  { status: available, found_in: "Fold3, COMSUBSPAC collection" }
   2:  { status: available, found_in: "Fold3, COMSUBSPAC collection", note: "Tonnage from war history already in sources/SS-230/P02; needs patrol dates" }
-  3:  { status: transcribed, found_in: Fold3, report_no: 141, start: 1942-12-16, end: 1943-02-06, note: "Tables (pages 13-14) and endorsement hand-transcribed; narrative not transcribed. Arrival port to add." }
-  4:  { status: missing, note: "Tonnage from war history in sources/SS-230/P04 (5,336 sunk, 21,860 damaged); needs patrol dates. Plausible inference: returned after Trigger (6 Apr 1943), so report number likely above 165; before Patrol 5 (12 May 1943)." }
+note: "War history: nearly lost in a quick dive when the conning tower hatch failed to close (control room, pump and store rooms flooded); narrative page not yet transcribed. Tables (pages 13-14) and endorsement hand-transcribed; narrative not transcribed. Arrival port to add." }
+  4:  { status: missing, start: 1943-02-27, end: 1943-04-13, note: "Dates from DANFS (45 days, agrees with war history). Midway to Pearl Harbor, Lt. Comdr. Hull. Tonnage-only entry in sources/SS-230/P04. Report number likely above 165 (returned after Trigger)." }
   5:  { status: available, found_in: Fold3, start: 1943-05-12, end: 1943-06-26, note: "Second overlap set" }
   6:  { status: available, found_in: Fold3 }
   7:  { status: available, found_in: Fold3 }
