@@ -171,11 +171,29 @@ input[type="range"] { width: 100%; margin: 0; accent-color: var(--track); }
 aside.side {
   grid-area: side;
   border-left: 1px solid var(--rule);
-  display: flex; flex-direction: column; min-height: 0;
+  display: flex; flex-direction: column; min-height: 0; overflow-y: auto;
 }
 .section { padding: 14px 18px; border-bottom: 1px solid var(--rule); }
 .eyebrow { font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
 .patrols { display: grid; gap: 8px; }
+details.picker > summary {
+  display: flex; align-items: baseline; gap: 8px; cursor: pointer; list-style: none; user-select: none;
+}
+details.picker > summary::-webkit-details-marker { display: none; }
+details.picker > summary .eyebrow { margin: 0; }
+details.picker > summary .count { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+details.picker > summary .caret { margin-left: auto; font-size: 12px; color: var(--muted); transition: transform .2s ease; }
+details.picker[open] > summary .caret { transform: rotate(180deg); }
+@media (prefers-reduced-motion: reduce) { details.picker > summary .caret { transition: none; } }
+.picker-body { margin-top: 10px; display: grid; gap: 14px; }
+.picker-tools { display: flex; gap: 6px; font-size: 12px; }
+.picker-tools button { border: 1px solid var(--rule); background: var(--paper); border-radius: 4px; padding: 2px 8px; cursor: pointer; color: var(--muted); }
+.picker-tools button:hover { color: var(--ink); }
+.boat-group { display: grid; gap: 6px; }
+.boat-row { display: flex; align-items: center; gap: 10px; cursor: pointer; font-weight: 700; }
+.boat-row input { accent-color: var(--track); margin: 0; }
+.boat-row small { font-weight: 500; color: var(--muted); font-variant-numeric: tabular-nums; }
+.boat-group .patrols { margin-left: 22px; }
 .patrol {
   display: grid; grid-template-columns: auto 1fr; gap: 4px 10px; align-items: start;
   padding: 10px 12px; border: 1px solid var(--rule); border-radius: 6px; cursor: pointer; background: var(--paper);
@@ -209,7 +227,7 @@ aside.side {
 .legend svg { flex: none; }
 .note { font-size: 12px; color: var(--muted); margin: 10px 0 0; max-width: 60ch; }
 
-.log { flex: 1; min-height: 0; overflow: auto; padding: 6px 0; }
+.log { flex: 1 0 180px; min-height: 180px; overflow: auto; padding: 6px 0; }
 .log-empty { padding: 14px 18px; color: var(--muted); }
 .entry {
   display: grid; grid-template-columns: 10px 1fr; gap: 10px; width: 100%; text-align: left;
@@ -315,10 +333,13 @@ aside.side {
   </div>
 
   <aside class="side">
-    <div class="section">
-      <p class="eyebrow">Patrols</p>
-      <div class="patrols" id="patrols"></div>
-    </div>
+    <details class="section picker" id="picker">
+      <summary><span class="eyebrow">Patrols</span><span class="count" id="pickcount"></span><span class="caret" aria-hidden="true">▾</span></summary>
+      <div class="picker-body">
+        <div class="picker-tools"><button type="button" id="pickall">Show all</button><button type="button" id="picknone">Hide all</button></div>
+        <div id="patrols"></div>
+      </div>
+    </details>
     <div class="section">
       <div class="board-head">
         <p class="eyebrow">Tonnage sunk</p>
@@ -744,24 +765,72 @@ aside.side {
     board.querySelectorAll(".brow").forEach((el) => { if (!seen.has(el.dataset.boat)) el.remove(); });
   }
 
+  function patrolsChanged() {
+    setRange(); fit(true); renderLog(); renderBoard(); syncPicker();
+  }
+  function patrolMeta(p) {
+    const s = p.summary;
+    return `${fmtDate(new Date(p.start))} – ${fmtDate(new Date(p.end))}<br>
+        ${!s.records ? (p.report_found === false ? "No report found · tonnage only" : "Not yet transcribed · tonnage only") : `${s.torpedo_attacks} torpedo attack${s.torpedo_attacks === 1 ? "" : "s"}${s.torpedoes_fired ? ` · ${s.torpedoes_fired} torpedoes` : ""}${s.mine_attacks ? ` · ${s.mine_attacks} by mines` : ""}${s.counterattacks ? ` · depth-charged ${s.counterattacks}×` : ""}`}${s.gun_actions ? ` · ${s.gun_actions} gun action${s.gun_actions === 1 ? "" : "s"}` : ""}${s.aircraft ? ` · ${s.aircraft} aircraft` : ""}
+        ${s.flagged ? `<br><span class="chip">${s.flagged} to review</span>` : ""}`;
+  }
+  // Patrols grouped by boat; the boat checkbox shows or hides all of that boat's patrols.
+  const boats = d3.groups(patrols, (p) => p.boat)
+    .map(([hull, ps]) => ({ hull, name: ps[0].name, ps }))
+    .sort((a, b) => (parseInt(a.hull.replace(/\D/g, ""), 10) || 0) - (parseInt(b.hull.replace(/\D/g, ""), 10) || 0));
   function renderPatrols() {
     const box = $("patrols");
     box.innerHTML = "";
-    patrols.forEach((p) => {
-      const s = p.summary;
-      const lab = document.createElement("label");
-      lab.className = "patrol";
-      lab.innerHTML = `<input type="checkbox" id="pt-${p.id}" ${p.on ? "checked" : ""}>
-        <span class="name">${p.name}<small>${p.boat} · Patrol ${p.patrol}</small></span>
-        <span class="meta">${fmtDate(new Date(p.start))} – ${fmtDate(new Date(p.end))}<br>
-        ${!s.records ? (p.report_found === false ? "No report found · tonnage only" : "Not yet transcribed · tonnage only") : `${s.torpedo_attacks} torpedo attack${s.torpedo_attacks === 1 ? "" : "s"}${s.torpedoes_fired ? ` · ${s.torpedoes_fired} torpedoes` : ""}${s.mine_attacks ? ` · ${s.mine_attacks} by mines` : ""}${s.counterattacks ? ` · depth-charged ${s.counterattacks}×` : ""}`}${s.gun_actions ? ` · ${s.gun_actions} gun action${s.gun_actions === 1 ? "" : "s"}` : ""}${s.aircraft ? ` · ${s.aircraft} aircraft` : ""}
-        ${s.flagged ? `<br><span class="chip">${s.flagged} to review</span>` : ""}</span>`;
-      lab.querySelector("input").addEventListener("change", (e) => {
-        p.on = e.target.checked; setRange(); fit(true); renderLog(); renderBoard();
+    boats.forEach((b) => {
+      const g = document.createElement("div");
+      g.className = "boat-group";
+      const row = document.createElement("label");
+      row.className = "boat-row";
+      row.innerHTML = `<input type="checkbox" id="bt-${b.hull}"><span>${b.name} <small>${b.hull} · <span class="n"></span></small></span>`;
+      row.querySelector("input").addEventListener("change", (e) => {
+        b.ps.forEach((p) => (p.on = e.target.checked));
+        patrolsChanged();
       });
-      box.appendChild(lab);
+      g.appendChild(row);
+      const list = document.createElement("div");
+      list.className = "patrols";
+      b.ps.forEach((p) => {
+        const lab = document.createElement("label");
+        lab.className = "patrol";
+        lab.innerHTML = `<input type="checkbox" id="pt-${p.id}">
+        <span class="name">Patrol ${p.patrol}</span>
+        <span class="meta">${patrolMeta(p)}</span>`;
+        lab.querySelector("input").addEventListener("change", (e) => { p.on = e.target.checked; patrolsChanged(); });
+        list.appendChild(lab);
+      });
+      g.appendChild(list);
+      box.appendChild(g);
     });
+    syncPicker();
   }
+  function syncPicker() {
+    patrols.forEach((p) => { const c = $("pt-" + p.id); if (c) c.checked = p.on; });
+    boats.forEach((b) => {
+      const c = $("bt-" + b.hull);
+      if (!c) return;
+      const n = b.ps.filter((p) => p.on).length;
+      c.checked = n === b.ps.length;
+      c.indeterminate = n > 0 && n < b.ps.length;
+      c.closest(".boat-row").querySelector(".n").textContent = `${n} of ${b.ps.length} patrol${b.ps.length === 1 ? "" : "s"}`;
+    });
+    const n = on().length;
+    const shownBoats = boats.filter((b) => b.ps.some((p) => p.on)).map((b) => b.name);
+    $("pickcount").textContent = n === patrols.length ? `All ${n} shown`
+      : n === 0 ? "None shown"
+      : `${n} of ${patrols.length} shown · ${shownBoats.join(", ")}`;
+  }
+  $("pickall").addEventListener("click", () => { patrols.forEach((p) => (p.on = true)); patrolsChanged(); });
+  $("picknone").addEventListener("click", () => { patrols.forEach((p) => (p.on = false)); patrolsChanged(); });
+  // Remember whether the viewer left the patrol list open; closed by default so the scoreboard sits under the map.
+  try { $("picker").open = localStorage.getItem("patrolPickerOpen") === "1"; } catch (e) { /* storage unavailable */ }
+  $("picker").addEventListener("toggle", () => {
+    try { localStorage.setItem("patrolPickerOpen", $("picker").open ? "1" : "0"); } catch (e) { /* storage unavailable */ }
+  });
 
   let lastLogCount = -1;
   function renderLog(force) {
