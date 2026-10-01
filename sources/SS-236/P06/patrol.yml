@@ -49,6 +49,15 @@ period:
 
 tonnage: []
 
+# Readings from the scan that differ from Gemini's, keyed by entry number
+# (counted through contacts-01.md, as in review.yml). The raw files stay as saved.
+row_fixes:
+  2:  { Remarks: "Similar to KENYO MARU" }
+  3:  { Type: "XAV", Lat Long: "2-43 S 152-49 E", Remarks: "Similar to KAMIKAWA MARU (ONI 14 P 63)" }
+  33: { Time Dato: "06⟦0⟧7 Sept 1" }
+form_fixes:
+  - { attack: 3, old: "LAT 02-40 N.", new: "LAT 0240 N." }
+
 events:
   # Aircraft contact 7 (1505 K 8 August) "dropped one bomb"; the first read left
   # this entry untagged, the second read tagged it a counterattack.

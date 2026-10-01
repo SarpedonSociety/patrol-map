@@ -728,9 +728,20 @@ def build_patrol(folder, ref):
         last_position = None
         for n, cells in enumerate(table["rows"]):
             entry += 1
+            # patrol.yml row_fixes: { <entry number>: { <heading as typed>: <value> } } puts a
+            # hand reading from the scan in place of the transcriber's cell.
+            fix_notes = []
+            fixes = meta.get("row_fixes") or {}
+            for head, val in (fixes.get(entry) or fixes.get(str(entry)) or {}).items():
+                i = next((k for k, h in enumerate(headers) if h.strip().lower() == str(head).strip().lower()), None)
+                if i is not None and i < len(cells):
+                    fix_notes.append(f"Corrected by hand from the scan: {headers[i].strip()} was '{cells[i]}'.")
+                    cells = list(cells)
+                    cells[i] = str(val)
             f = {nm: (cells[i] if i < len(cells) else "") for i, nm in enumerate(names) if nm}
             extra = {h: (cells[i] if i < len(cells) else "") for i, (h, nm) in enumerate(zip(headers, names)) if nm is None}
             flags = [f"Heading(s) not recognized, kept as typed: {', '.join(unknown)}"] if unknown and n == 0 and not is_fix else []
+            flags += fix_notes
             if f.get("flags"):
                 flags.append(f"Transcriber: {f['flags']}")
             if entry in row_notes:
@@ -881,11 +892,16 @@ def build_patrol(folder, ref):
             entry += 1
             body = form.get("attack") or ""
             flags = [f"Transcriber: {n}" for n in form["flags"]]
+            # patrol.yml form_fixes: [{ attack: 3, old: "LAT 02-40 N.", new: "LAT 0240 N." }]
+            for fx in meta.get("form_fixes") or []:
+                if str(fx.get("attack")) == str(atk_num) and fx.get("old") and fx["old"] in body:
+                    body = body.replace(fx["old"], str(fx.get("new", "")))
+                    flags.append(f"Corrected by hand from the scan: '{fx['old']}' read as '{fx.get('new', '')}'.")
             if entry in row_notes:
                 flags.append(f"Review: {row_notes[entry]}")
             tm = re.search(r"Time\s*[:;,]?\s*(\d{4})\s*\(?\s*([A-Z])?\s*\)?", body, re.I)
             dm = re.search(r"Date\s*[:;,]?\s*([A-Za-z]+\.?\s*\d{1,2},?\s*\d{4}|\d{1,2}[/-]\d{1,2}[/-]\d{2,4})", body, re.I)
-            la = re.search(r"Lat\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?)\s*\.?\s*([NS])", body, re.I)
+            la = re.search(r"Lat\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?|\d{4})\s*\.?\s*([NS])", body, re.I)
             lo = re.search(r"Long\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?)\s*\.?\s*([EW])", body, re.I)
             t = tm.group(1) if tm else None
             z = (tm.group(2) if tm and tm.group(2) else None)
@@ -897,7 +913,10 @@ def build_patrol(folder, ref):
             if z is None and t:
                 z = default_zone
                 flags.append(f"No zone letter on the form; zone {z} assumed from the narrative.")
-            lat = parse_coord(re.sub(r"\s", "", la.group(1)) + la.group(2), hemi["lat"], True) if la else None
+            if la and re.fullmatch(r"\d{4}", la.group(1)):   # "0240 N" typed without a dash
+                lat = parse_coord(la.group(1)[:2] + "-" + la.group(1)[2:] + la.group(2), hemi["lat"], True)
+            else:
+                lat = parse_coord(re.sub(r"\s", "", la.group(1)) + la.group(2), hemi["lat"], True) if la else None
             lon = parse_coord(re.sub(r"\s", "", lo.group(1)) + lo.group(2), hemi["lon"], False) if lo else None
             if body and (lat is None or lon is None):
                 flags.append("No usable position on the form.")

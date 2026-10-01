@@ -29,6 +29,9 @@ Preview: `python -m http.server`, then http://localhost:8000.
 - Corrections go in `patrol.yml`, which takes precedence over Gemini:
   `replaces: { date:, page: }` to swap an entry, `zone_fix: { K: L }`,
   `table_zones:`, hand `departure` / `arrival`.
+  Table cell wrong in `contacts-NN.md`: `row_fixes: { <entry no.>: { <heading>: <value> } }`.
+  Text wrong on an attack form: `form_fixes: [{ attack: n, old:, new: }]`.
+  Both add a "Corrected by hand" flag; the raw files stay as saved.
 - Transcription is verbatim. Do not correct, normalize or infer. Cells in
   ⟦ ⟧ and everything in a Flags column get checked against the report.
 - Open questions go in `review.yml` (entries numbered through the whole

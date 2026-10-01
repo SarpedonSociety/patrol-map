@@ -619,7 +619,7 @@
   {
    "lat": -1.5,
    "lon": 148.75,
-   "utc": "1943-08-31T20:57:00Z",
+   "utc": "1943-08-31T20:07:00Z",
    "basis": "documented",
    "ref": "SS-236-P06-C33"
   },
@@ -3156,10 +3156,12 @@
     "initial_range": "8500",
     "course": "Var 12 kts",
     "contacted": "Sighted",
-    "remarks": "Similar to KENYO M.RU"
+    "remarks": "Similar to KENYO MARU"
    },
    "flags": [
+    "Corrected by hand from the scan: Remarks was 'Similar to KENYO M.RU'.",
     "Transcriber: Longitude missing hemisphere letter; Initial Range typed under Type heading in original layout",
+    "Review: Remarks read KENYO MARU from the scan (Gemini had 'KENYO M.RU').",
     "No zone letter on this entry; zone K assumed from the previous entry."
    ],
    "contact_no": "2."
@@ -3251,22 +3253,25 @@
     7,
     31
    ],
-   "position_verbatim": "2-43 S 152-49",
+   "position_verbatim": "2-43 S 152-49 E",
    "lat": -2.71667,
    "lon": 152.81667,
    "derived": null,
-   "type": "X.V",
-   "title": "Contact 3 · X.V",
+   "type": "XAV",
+   "title": "Contact 3 · XAV",
    "fields": {
-    "type": "X.V",
+    "type": "XAV",
     "initial_range": "7000",
     "course": "Var 12 kts",
     "contacted": "\"",
-    "remarks": "Similar to KMIKW M.RU (ONI 14 P63)"
+    "remarks": "Similar to KAMIKAWA MARU (ONI 14 P 63)"
    },
    "flags": [
+    "Corrected by hand from the scan: Type was 'X.V'.",
+    "Corrected by hand from the scan: Lat Long was '2-43 S 152-49'.",
+    "Corrected by hand from the scan: Remarks was 'Similar to KMIKW M.RU (ONI 14 P63)'.",
     "Transcriber: \"3\" in Lat looks like overstrike/typo for S; Longitude missing hemisphere letter; Initial Range typed under Type heading in original layout",
-    "Review: Type read as 'X.V'; the narrative attack at 0750 2 August calls the target a converted AV. Check the type and the 'Lat' reading (2-43 S) on page 22.",
+    "Review: Read by hand from the scan: type XAV, position 2-43 S 152-49 E (no overstrike on the latitude), KAMIKAWA MARU (ONI 14 P 63). The Attack 1 form (page 24) has 'KAIKWA MARU (ONI 14 P.63)', presumably the same ship; not yet checked against the page.",
     "No zone letter on this entry; zone K assumed from the previous entry."
    ],
    "contact_no": "3."
@@ -4626,7 +4631,7 @@
    "flags": [
     "Transcriber: Page 26 begins with the conclusion of Attack #1 (Firing Interval, Type Spread, Sea Conditions, Overhaul Activity, Remarks) before commencing Torpedo Attack No. 2.",
     "Transcriber: Hit or Miss and Actuation Actual columns for tubes #8 and #7 are inverted relative to sequence in description (description states #7 premature, #8 miss; table has #8 Miss, #7 Premature under respective tube headings). Actuation Actual for Tube #10 has handwritten or typed slash modifier \"/Contact\".",
-    "Review: Attack 2: Gemini notes the Hit or Miss and Actuation Actual columns for tubes #8 and #7 look inverted against the description (which says #7 and #9 prematured, #8 missed, #10 a possible hit). Check page 27.",
+    "Review: Attack 2 torpedo table checked against the page: tube 7 premature, tube 8 miss, tube 9 premature, tube 10 possible hit. The table agrees with the description; Gemini's note about inverted columns is not a fault in the report.",
     "Narrative entry at 0900 K August 5, 1943 (page 7) describes this attack; its account is included here.",
     "Time zone K from heading 'All times King (-10)'",
     "Narrative entry at 0918 K August 5, 1943 (page 7) describes this attack; its account is included here.",
@@ -7175,7 +7180,7 @@
     8,
     13
    ],
-   "position_verbatim": "3-00 N 150-50 E",
+   "position_verbatim": "3-00 N ⟦150⟧-50 E",
    "lat": 3.0,
    "lon": 150.83333,
    "derived": null,
@@ -7186,7 +7191,8 @@
     "Fuel": "1265"
    },
    "flags": [
-    "Review: 13 August noon position: the transcriber says the reading is not fully certain (3-00 N 150-50 E). Check the page."
+    "Review: 13 August noon position: latitude 3-00 N is clear; the longitude is garbled (1, then 5? 0?, then -50 clear). ⟦150⟧ is a guess from the neighbouring days (12 Aug 149-43, 14 Aug 150-39), not a confident reading.",
+    "Uncertain reading in lat long: 3-00 N ⟦150⟧-50 E"
    ],
    "contact_no": null
   },
@@ -10348,21 +10354,22 @@
     8,
     30
    ],
-   "position_verbatim": "LAT 02-40 N LONG 150-00 E",
+   "position_verbatim": "LAT 0240 N LONG 150-00 E",
    "lat": 2.66667,
    "lon": 150.0,
    "derived": null,
    "type": "",
    "title": "Attack 3",
    "fields": {
-    "form": "U.S.S. SILVERSIDES                   PATROL NO. 6\nTORPEDO ATTACK No. 3\nTIME 0107 K DATE August 30, 1943.   LAT 02-40 N.  LONG 150-00 E\nTARGET DATA\nDESCRIPTION\nOriginal contact with target made at 1012 K\nthe previous day and had been stalking and tracking target\ncontinuously since that time.  One day submerged and one\nnight submerged approach had been made previously but no\ntorpedoes fired as was not in favorable firing position.\nAt 0043, K, with target bearing 043 T, range 11,500 yds,\nstarted surface approach.  Radar working well, two escorts\npicked up at about 6000 yds, one on port bow, one on star-\nboard quarter.  Came in on a 50 starboard track, maintaining\na small silhouette and using slow speed to reduce wake.  Radar\nranges and TBT bearings were introduced into TDC about every\n30 sec during approach and TDC was checking with plot.  At\n0106 it appeared that we would not be able to sneak in much\nfurther undetected so fired a spread of six torpedoes, using\na speed spread of 7.5 kts.  Fired six torpedoes at this target\nbecause it was southbound, loaded and if previous rate of\nprematures was maintained only three would cross the track.\nUsed depth setting of 18 feet to minimize chance of prematures.\nNo prematures were obtained and the tracks of three of the\ntorpedoes appeared to pass under the target.  It is believed\nthat he had a shallow draft and depth setting was too deep.\nAfter attack, retired on the surface at 18 kts.\nSHIPS SUNK              NONE\nSHIPS DAMAGED           NONE\nTARGET DRAFT 27 (?)     COURSE 190   SPEED 8 KNOTS             RANGE 2750\nOWN SHIP DATA\nSPEED 5 kts.            COURSE 060   DEPTH SURFACE             ANGLE 0°\nFIRE CONTROL AND TORPEDO DATA\nTYPE ATTACK             Night surface attack, using continuous TBT\n                        bearings and radar ranges.\n-28-",
+    "form": "U.S.S. SILVERSIDES                   PATROL NO. 6\nTORPEDO ATTACK No. 3\nTIME 0107 K DATE August 30, 1943.   LAT 0240 N.  LONG 150-00 E\nTARGET DATA\nDESCRIPTION\nOriginal contact with target made at 1012 K\nthe previous day and had been stalking and tracking target\ncontinuously since that time.  One day submerged and one\nnight submerged approach had been made previously but no\ntorpedoes fired as was not in favorable firing position.\nAt 0043, K, with target bearing 043 T, range 11,500 yds,\nstarted surface approach.  Radar working well, two escorts\npicked up at about 6000 yds, one on port bow, one on star-\nboard quarter.  Came in on a 50 starboard track, maintaining\na small silhouette and using slow speed to reduce wake.  Radar\nranges and TBT bearings were introduced into TDC about every\n30 sec during approach and TDC was checking with plot.  At\n0106 it appeared that we would not be able to sneak in much\nfurther undetected so fired a spread of six torpedoes, using\na speed spread of 7.5 kts.  Fired six torpedoes at this target\nbecause it was southbound, loaded and if previous rate of\nprematures was maintained only three would cross the track.\nUsed depth setting of 18 feet to minimize chance of prematures.\nNo prematures were obtained and the tracks of three of the\ntorpedoes appeared to pass under the target.  It is believed\nthat he had a shallow draft and depth setting was too deep.\nAfter attack, retired on the surface at 18 kts.\nSHIPS SUNK              NONE\nSHIPS DAMAGED           NONE\nTARGET DRAFT 27 (?)     COURSE 190   SPEED 8 KNOTS             RANGE 2750\nOWN SHIP DATA\nSPEED 5 kts.            COURSE 060   DEPTH SURFACE             ANGLE 0°\nFIRE CONTROL AND TORPEDO DATA\nTYPE ATTACK             Night surface attack, using continuous TBT\n                        bearings and radar ranges.\n-28-",
     "torpedoes": "ATTACK #3\nTubes fired             #1           #2           #3           #4           #5           #6\nTrack angle             45 S         45 S         46 S         48 S         42 S         43 S\nGyro angle              356          356          354          353          352          354\nDepth Set               18'          18'          18'          18'          18'          18'\nPower                   High------------------------------------------------------------\nHit or Miss             Miss------------------------------------------------------------\nErratic                 No--------------------------------------------------------------\nMark Torpedo            XIV-3A       XIV-3A       XIV-3A       XIV-3A       XIV-3A       XIV-3A\nSerial No.              41598        22313        22639        23210        23211        23205\nMark Exploder           VI-1         VI-1         VI-1         VI-1         VI-1         VI-1\nSerial No.              6074         5632         10373        6234         6075         5077\nActuation Set           CONTACT AND INFLUENCE\nActuation Actual        None------------------------------------------------------------\nMark Warhead            XVI          XVI          XVI          XVI          XVI          XVI\nSerial No.              1091         10379        9263         2365         2433         724\nExplosive               TPX          TPX          TPX          TPX          TPX          TPX\nFiring Interval                      12           10           9            19           5\nType Spread             SPEED SPREAD 10.5 to 7.5 kts.\nSea Conditions          Fairly Calm -- 2\nOverhaul Activity       USS FULTON\nREMARKS: Should have held fire until range was less or dove\nand fired using periscope.  However, in a previous\napproach, had submerged and had not been able to see\ntarget at 1500 yds. through periscope.  Depth setting\nof torpedoes was too deep.\n-29-\n\nI could not transcribe the preceding non-attack section on page 24 ((G) AIRCRAFT CONTACTS) and the succeeding patrol summary sections on page 29 ((I) MINES, (J) ANTI-SUBMARINE MEASURES AND EVASIVE TACTICS, and (K) MAJOR DEFECTS AND DAMAGE).",
     "narrative": "With target bearing 048 T, range 11,500 yds, started approach. There were now a few more clouds and it was difficult to see target through binoculars at ranges in excess of 6000 yds. Radar did not pick up escorts until their ranges were about 6000 yds, at which time one escort was located on target port bow, and another on starboard quarter. Decided best shot would be about 125 starboard track and maneuvered for this position. As this ship appeared loaded and was southbound, decided on a full salvo of six, depth setting 18 feet to minimize chances of prematures.\n\n0106-00 Fired # 3 tube. 0106-12 Fired # 4 tube. 0106-22 Fired # 5 tube. 0106-31 Fired # 6 tube. 0106-50 Fired # 1 tube. 0106-55 Fired # 2 tube.\n\nStarted swinging left.\n\nCould plainly see the tracks of four of the torpedoes. Three of them appeared to run under the target and expected to see some hits as TDC had been checking on during the entire run with radar ranges and TBT bearings. Spread was at least 150 percent of target length. At about this time target started tooting whistle rapidly to attract attention of escorts and fired bursts of 20 MM tracer firing not accurate and appeared to be toward opposite side of target. Shortly afterward the escort astern fired several shots from what sounded like a 3\" gun, but firing was erratic and don't believe we were spotted."
    },
    "flags": [
     "Transcriber: Latitude typed as \"02-40 N.\" with space between digits; longitude typed as \"150-00 E\" with faint or broken final characters. Target draft questioned in original (\"27 (?)\").",
     "Transcriber: Sections (I) MINES, (J) ANTI-SUBMARINE MEASURES AND EVASIVE TACTICS, and (K) MAJOR DEFECTS AND DAMAGE at the foot of page 29 are omitted as non-attack form sections.",
-    "Review: Attack 3: latitude typed '02-40 N.' and longitude '150-00 E' with faint final characters; target draft '27 (?)'. Check page 28.",
+    "Corrected by hand from the scan: 'LAT 02-40 N.' read as 'LAT 0240 N.'.",
+    "Review: Attack 3: latitude is typed 0240 N with no dash (hand correction in patrol.yml form_fixes); longitude 150-00 E. Target draft \"27 (?)\" is the report's own, not Gemini's.",
     "Narrative entry at 0043 K August 30, 1943 (page 16) describes this attack; its account is included here.",
     "Time zone K from heading 'All times King (-10)'",
     "Narrative entry at 0106-00 K August 30, 1943 (page 17) describes this attack; its account is included here.",
@@ -11593,7 +11600,7 @@
     "interpolated": true,
     "between": [
      "1943-08-31T02:00:00Z",
-     "1943-08-31T20:57:00Z"
+     "1943-08-31T20:07:00Z"
     ]
    },
    "tag": null,
@@ -11603,8 +11610,8 @@
     31
    ],
    "has_time": true,
-   "lat": -0.51959,
-   "lon": 149.30415,
+   "lat": -0.54502,
+   "lon": 149.28978,
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
@@ -11612,7 +11619,7 @@
    },
    "flags": [
     "Time zone K from heading 'All times King (-10)'",
-    "No position in the report. Placed on the track between the recorded positions at 1943-08-31 02:00 and 1943-08-31 20:57 GMT, as an estimate."
+    "No position in the report. Placed on the track between the recorded positions at 1943-08-31 02:00 and 1943-08-31 20:07 GMT, as an estimate."
    ]
   },
   {
@@ -11629,7 +11636,7 @@
     "interpolated": true,
     "between": [
      "1943-08-31T02:00:00Z",
-     "1943-08-31T20:57:00Z"
+     "1943-08-31T20:07:00Z"
     ]
    },
    "tag": null,
@@ -11639,8 +11646,8 @@
     1
    ],
    "has_time": true,
-   "lat": -1.39077,
-   "lon": 148.81174,
+   "lat": -1.45627,
+   "lon": 148.77472,
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
@@ -11648,43 +11655,7 @@
    },
    "flags": [
     "Time zone K from heading 'All times King (-10)'",
-    "No position in the report. Placed on the track between the recorded positions at 1943-08-31 02:00 and 1943-08-31 20:57 GMT, as an estimate."
-   ]
-  },
-  {
-   "id": "SS-236-P06-N251",
-   "source": "Part I narrative",
-   "part": "I",
-   "kind": "event",
-   "page": "19",
-   "zone": "K",
-   "local": "0607 K September 1, 1943",
-   "utc": "1943-08-31T20:07:00Z",
-   "position_verbatim": "",
-   "derived": {
-    "interpolated": true,
-    "between": [
-     "1943-08-31T02:00:00Z",
-     "1943-08-31T20:57:00Z"
-    ]
-   },
-   "tag": null,
-   "local_date": [
-    1943,
-    9,
-    1
-   ],
-   "has_time": true,
-   "lat": -1.43257,
-   "lon": 148.78811,
-   "type": "Narrative",
-   "title": "Narrative entry",
-   "fields": {
-    "event": "Sighted one float plane (Dave), bearing 165 T, course 275 T, altitude 1000 feet. AIRCRAFT CONTACT # 20."
-   },
-   "flags": [
-    "Time zone K from heading 'All times King (-10)'",
-    "No position in the report. Placed on the track between the recorded positions at 1943-08-31 02:00 and 1943-08-31 20:57 GMT, as an estimate."
+    "No position in the report. Placed on the track between the recorded positions at 1943-08-31 02:00 and 1943-08-31 20:07 GMT, as an estimate."
    ]
   },
   {
@@ -11694,8 +11665,8 @@
    "kind": "sighting",
    "page": "24",
    "zone": "K",
-   "local": "0657 K SEPT1",
-   "utc": "1943-08-31T20:57:00Z",
+   "local": "0607 K SEPT1",
+   "utc": "1943-08-31T20:07:00Z",
    "has_time": true,
    "local_date": [
     1943,
@@ -11716,11 +11687,49 @@
     "remarks": ".pparently did not sight us."
    },
    "flags": [
+    "Corrected by hand from the scan: Time Dato was '0657 Sept 1'.",
     "Transcriber: Time typed as 0667 (67 minutes); Longitude missing hemisphere letter",
-    "Review: Aircraft 20: Gemini's row reads 0657 but its flag says the time is typed 0667. 67 minutes is impossible; the map uses 0657. Check page 24.",
-    "No zone letter on this entry; zone K assumed from the previous entry."
+    "Review: Aircraft 20 time read by hand as 06⟦0⟧7: the middle digit is a 6 or a 0 (ink has run), not a 5, and 0667 is not a valid time. Gemini had 0657.",
+    "No zone letter on this entry; zone K assumed from the previous entry.",
+    "Uncertain reading in time date: 06⟦0⟧7 Sept 1"
    ],
    "contact_no": "20."
+  },
+  {
+   "id": "SS-236-P06-N251",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "19",
+   "zone": "K",
+   "local": "0607 K September 1, 1943",
+   "utc": "1943-08-31T20:07:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-08-31T02:00:00Z",
+     "1943-08-31T20:07:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    9,
+    1
+   ],
+   "has_time": true,
+   "lat": -1.5,
+   "lon": 148.75,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Sighted one float plane (Dave), bearing 165 T, course 275 T, altitude 1000 feet. AIRCRAFT CONTACT # 20."
+   },
+   "flags": [
+    "Time zone K from heading 'All times King (-10)'",
+    "No position in the report. Placed on the track between the recorded positions at 1943-08-31 02:00 and 1943-08-31 20:07 GMT, as an estimate."
+   ]
   },
   {
    "id": "SS-236-P06-C78",
@@ -11765,7 +11774,7 @@
    "derived": {
     "interpolated": true,
     "between": [
-     "1943-08-31T20:57:00Z",
+     "1943-08-31T20:07:00Z",
      "1943-09-01T02:00:00Z"
     ]
    },
@@ -11786,7 +11795,7 @@
    "flags": [
     "Time zone K from heading 'All times King (-10)'",
     "No time given; placed at noon GMT on that date.",
-    "No position in the report. Placed on the track between the recorded positions at 1943-08-31 20:57 and 1943-09-01 02:00 GMT, as an estimate."
+    "No position in the report. Placed on the track between the recorded positions at 1943-08-31 20:07 and 1943-09-01 02:00 GMT, as an estimate."
    ]
   },
   {

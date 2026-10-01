@@ -5,25 +5,26 @@
 
 rows:
   1: "Gemini notes 'Initial Range typed under Type heading' on every ship contact row. Check the Type and Initial Range columns against page 22 (Gemini read 200 yards for a periscope sighting at contact 1)."
-  3: "Type read as 'X.V'; the narrative attack at 0750 2 August calls the target a converted AV. Check the type and the 'Lat' reading (2-43 S) on page 22."
+  3: "Read by hand from the scan: type XAV, position 2-43 S 152-49 E (no overstrike on the latitude), KAMIKAWA MARU (ONI 14 P 63). The Attack 1 form (page 24) has 'KAIKWA MARU (ONI 14 P.63)', presumably the same ship; not yet checked against the page."
   6: "Date typed 'ug 2' (first letter lost). Read as 2 August; the narrative has the sighting at 0656 K 2 August."
   19: "Aircraft 6 (0917 6 August): Gemini says the month reads faint ' 6' / 'ug 6'; the longitude may have an overstrike (152-446)."
-  33: "Aircraft 20: Gemini's row reads 0657 but its flag says the time is typed 0667. 67 minutes is impossible; the map uses 0657. Check page 24."
+  33: "Aircraft 20 time read by hand as 06⟦0⟧7: the middle digit is a 6 or a 0 (ink has run), not a 5, and 0667 is not a valid time. Gemini had 0657."
   34: "Aircraft 21: the month is typed 'Sopt' (read as Sept)."
   90: "Attack 1 form: page 24 gives LAT 4-36 N, LONG 149-20 E at 0750 K 2 August; ship contact 6 (0656) puts the target at 4-38 N 149-25 E. Expected, since the contact was made earlier."
-  91: "Attack 2: Gemini notes the Hit or Miss and Actuation Actual columns for tubes #8 and #7 look inverted against the description (which says #7 and #9 prematured, #8 missed, #10 a possible hit). Check page 27."
-  92: "Attack 3: latitude typed '02-40 N.' and longitude '150-00 E' with faint final characters; target draft '27 (?)'. Check page 28."
+  91: "Attack 2 torpedo table checked against the page: tube 7 premature, tube 8 miss, tube 9 premature, tube 10 possible hit. The table agrees with the description; Gemini's note about inverted columns is not a fault in the report."
+  92: "Attack 3: latitude is typed 0240 N with no dash (hand correction in patrol.yml form_fixes); longitude 150-00 E. Target draft \"27 (?)\" is the report's own, not Gemini's."
 
   37: "22 July noon position: the narrative prints the longitude as 154-26 W; the table here reads it as 154-26 E in brackets, since W would put the boat in the mid-Pacific. Check the scan."
   53: "7 August noon position: the longitude is typed 14-49 E, a digit missing. Read here as ⟦149⟧-49 E. The ship contact table has the boat at 5-05 N 150-45 at 1530 that day; 149-49 is 56 miles from that (about 16 knots for 3.5 hours), 148-49 would need over 30 knots. Check the page for the missing digit."
-  59: "13 August noon position: the transcriber says the reading is not fully certain (3-00 N 150-50 E). Check the page."
+  59: "13 August noon position: latitude 3-00 N is clear; the longitude is garbled (1, then 5? 0?, then -50 clear). ⟦150⟧ is a guess from the neighbouring days (12 Aug 149-43, 14 Aug 150-39), not a confident reading."
   78: "1 September noon position: no E printed on the longitude (149-00); east assumed."
   89: "12 September: no noon position, arrived Brisbane 0800. Miles 268 and fuel 2750 are for that last day."
 
+  2: "Remarks read KENYO MARU from the scan (Gemini had 'KENYO M.RU')."
 callouts:
   - "Second read (check-gemini-01.yml, pages 5, 6, 7, 10, 16, 17) vs first read: positions, times, bearings and tubes agree everywhere they were compared. Settled by reading the scan: 7 Aug noon longitude is 14-49 E as typed with no faint digit (149 kept, in brackets); the 29 Aug 1916 target is PANAMA MARU (hand entry in patrol.yml; the ship contact 12 remark 'Similar to P..N..-M... M.RU' matches); the 5 Aug 0940 angle on the bow is 15 degrees port; the 5 Aug 0947-00 entry in the first read is complete; the 10 Aug 1305 periscope bearing is 000 T (ink runs through it). The 5 Aug 0944 angle on the bow is 30 degrees port (first read had 100)."
   - "Fuel totals: the report's three figures (17,080 + 65,095 + 14,755) add to 96,930 gallons; the noon table's daily figures (21 July to 12 September) add to 97,130, 200 more. Miles agree exactly (12,127). The difference equals the 21 July entry (200 gallons): perhaps that day is outside the report's 'to area' figure, or one table figure is misread. Not resolved."
-  - "The attack form pages run one page behind their headings: page 26 opens with the end of Attack 1 (firing interval, spread, remarks) and Gemini filed it under 'attack 2'. Attack 1's tail therefore shows in Attack 2's card. Raw files left as saved."
+  - "The attack forms are not on pages of their own: the report prints each attack in order wherever it fits, so Attack 1 begins at the foot of the aircraft contact table (page 24) and the end of Attack 1 runs onto page 26 before Attack 2 starts. Gemini filed page 26 under 'attack 2', so Attack 1's tail (firing interval, spread, remarks) shows in Attack 2's card. Raw file left as saved."
   - "Narrative page 10, 10 August 1305: the periscope sighting's bearing digits were blank or illegible in the scan (Gemini's closing note). Check the page."
   - "Several table dates read 'ug' for Aug (the A is missing on the carbon). The converter reads 'ug' as August."
   - "The ship contact table calls contact 2 'Similar to KENYO MARU' and contact 3 'Similar to KMIKW MARU (ONI 14 P63)'; the attack 1 form says KAIKWA MARU. Spellings are as Gemini read them; check against the scan."
