@@ -424,6 +424,17 @@ def as_int(text):
 
 # ---------------------------------------------------------------- building
 
+def page_numbers(text):
+    """'7-8' -> {'7', '8'}; '27, 28' -> {'27', '28'}."""
+    out = set()
+    for part in re.split(r"[,;]", str(text or "")):
+        m = re.fullmatch(r"\s*(\d+)\s*(?:[-–]\s*(\d+))?\s*", part)
+        if m:
+            a, b = int(m.group(1)), int(m.group(2) or m.group(1))
+            out |= {str(n) for n in range(a, min(b, a + 20) + 1)}
+    return out
+
+
 def blanks_to_none(value):
     if isinstance(value, dict):
         return {k: blanks_to_none(v) for k, v in value.items()}
@@ -1096,6 +1107,36 @@ def build_patrol(folder, ref):
     if not any(t["basis"] != "reference" for t in track):
         track = []
 
+    # Drawings from the report (figures: in patrol.yml). Each one is shown in
+    # the detail card of the attacks it names and of the narrative entries
+    # printed on the same page.
+    figures = []
+    for i, fg in enumerate(meta.get("figures") or [], start=1):
+        fid = str(fg.get("id") or f"F{i:02d}")
+        flags = []
+        for key in ("image", "cleaned", "thumb"):
+            if fg.get(key) and not (ROOT / str(fg[key])).is_file():
+                flags.append(f"Figure '{fid}': {key} file {fg[key]} not found.")
+        if not fg.get("image"):
+            flags.append(f"Figure '{fid}' has no image.")
+        for f in flags:
+            print(f"{pid}  warning: {f}")
+        page = str(fg["page"]) if fg.get("page") is not None else None
+        attacks = {str(a) for a in (fg.get("attacks") or [])}
+        figures.append({
+            "id": fid, "title": fg.get("title"), "caption": fg.get("caption"), "page": page,
+            "attacks": sorted(attacks, key=lambda a: (len(a), a)),
+            "image": fg.get("image"), "cleaned": fg.get("cleaned"), "thumb": fg.get("thumb") or fg.get("image"),
+            "flags": flags,
+        })
+        for rec in records:
+            m = re.match(r"attack\s+(\S+)", str(rec.get("title") or ""), re.I)
+            on_attack = rec["kind"] == "torpedo" and m and m.group(1) in attacks
+            on_page = page is not None and "narrative" in str(rec.get("source") or "").lower() \
+                and page in page_numbers(rec.get("page"))
+            if on_attack or on_page:
+                rec.setdefault("figures", []).append(fid)
+
     # Tonnage for the scoreboard
     tonnage = []
     for i, t in enumerate(meta.get("tonnage") or [], start=1):
@@ -1205,6 +1246,7 @@ def build_patrol(folder, ref):
         "departure": departure, "arrival": arrival,
         "report_found": str(meta.get("report_found", "yes")).lower() not in ("no", "false"),
         "summary": summary, "track": track, "records": records, "tonnage": tonnage, "minefields": minefields,
+        "figures": figures,
     }
 
 

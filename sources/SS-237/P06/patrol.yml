@@ -32,3 +32,18 @@ tonnage:
   - { date: Sept. 21, 1943, time: "1157", zone: Z, target: Freighter (ARGUN MARU type), result: sunk, tons: 6700, basis: claimed, source: "Attack 4, page 29: second freighter in far column" }
   - { date: Sept. 21, 1943, time: "1201", zone: Z, target: Tanker (SAN PEDRO MARU type), result: sunk, tons: 7300, basis: claimed, source: "Attack 6, page 33 (missed by attack 5)" }
   - { date: Sept. 21, 1943, time: "1312", zone: Z, target: Freighter (LIMA MARU type), result: damaged, tons: 7000, basis: claimed, source: "Attack 7, page 35; attacks 8 and 9 on the same ship, duds" }
+
+# Drawings in the report, shown in a lightbox from the detail card.
+# Images are crops of the Fold3 download in media/SS-237/P06/.
+figures:
+  - id: attack-sketch
+    title: Sketch of the convoy attacks, 21 September 1943
+    page: 8
+    attacks: [3, 4, 5, 6, 7, 8, 9]
+    image: media/SS-237/P06/attack-sketch.jpg
+    cleaned: media/SS-237/P06/attack-sketch-cleaned.jpg
+    thumb: media/SS-237/P06/attack-sketch-thumb.jpg
+    caption: >-
+      Hand-drawn in the narrative, Enclosure (A) page 8. Trigger's numbered
+      positions for attacks 3 to 9, the torpedo tracks, and the fate of each
+      ship as the report saw it. Not to scale.

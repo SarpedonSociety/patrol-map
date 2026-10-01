@@ -16,6 +16,7 @@ When they disagree, the README and the code win; fix this file.
 - `tools/import_war_diary.py` vault war diary -> `sources/status/war-diary/`
 - `data/` generated: `manifest.json`, `status.json`, `patrols/*.json`. `base/land-50m.json` is third-party.
 - `prompts/gemini-transcription.md` the Gemini prompt (three outputs)
+- `media/<hull>/P<nn>/` drawings from the reports (crops of the Fold3 download), listed under `figures:` in `patrol.yml`
 - `index.html` the whole front end; loads data with `fetch`
 
 Preview: `python -m http.server`, then http://localhost:8000.

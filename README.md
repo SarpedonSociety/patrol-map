@@ -27,6 +27,7 @@ data/
   patrols/SS-236-P01.json     One file per patrol (generated)
   base/land-50m.json          Coastlines (Natural Earth via world-atlas)
 prompts/                      Gemini transcription prompts (see prompts/README.md)
+media/                        Drawings from the reports (see below)
 index.html                    The map
 ```
 
@@ -169,6 +170,33 @@ the entries around it.
 
 If Gemini labels the narrative with the wrong zone, `zone_fix: { K: L }`
 in `patrol.yml` corrects it for every narrative entry.
+
+## Drawings from the report
+
+Some reports include a drawing, such as the commanding officer's sketch of
+Trigger's convoy attack on 21 September 1943 (Patrol 6, Enclosure (A)
+page 8). A drawing is listed under `figures` in `patrol.yml`, with its
+images in `media/<hull>/P<nn>/`:
+
+```yaml
+figures:
+  - id: attack-sketch
+    title: Sketch of the convoy attacks, 21 September 1943
+    page: 8                      # report page the drawing is on
+    attacks: [3, 4, 5, 6, 7, 8, 9]
+    image: media/SS-237/P06/attack-sketch.jpg           # as scanned
+    cleaned: media/SS-237/P06/attack-sketch-cleaned.jpg # optional
+    thumb: media/SS-237/P06/attack-sketch-thumb.jpg     # optional
+    caption: Hand-drawn in the narrative. Not to scale.
+```
+
+The detail card of each attack it names, and of every narrative entry
+printed on its page, shows a thumbnail that opens the drawing in a
+lightbox, with a switch between the scan and the cleaned copy and the
+citation (the Fold3 link comes from `fold3_images` for that page). A
+drawing isn't placed on the chart itself: it isn't to scale and has no
+coordinates. Images are crops of the Fold3 download; the converter warns
+if a file is missing.
 
 ## Between patrols: refit, overhaul and training
 

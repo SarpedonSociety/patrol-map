@@ -290,6 +290,33 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
 .flags p { margin: 0 0 4px; font-weight: 700; }
 .flags ul { margin: 0; padding-left: 18px; }
 .source { font-size: 12px; color: var(--muted); margin: 10px 0 0; }
+/* A drawing from the report, opened in the lightbox. */
+.figlink { display: block; width: 100%; margin: 0 0 12px; padding: 0; border: 1px solid var(--rule); border-radius: 6px;
+  background: #fbfbf8; cursor: zoom-in; overflow: hidden; text-align: left; color: inherit; font: inherit; }
+.figlink img { display: block; width: 100%; height: 150px; object-fit: cover; object-position: 50% 42%; }
+.figlink span { display: block; padding: 6px 10px; font-size: 12px; background: var(--paper); border-top: 1px solid var(--rule); }
+.figlink span b { font-weight: 600; }
+.figlink span small { color: var(--muted); }
+.figlink:hover span b, .figlink:focus-visible span b { text-decoration: underline; }
+.figlink:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.figbox { width: min(1100px, calc(100vw - 24px)); max-width: none; height: calc(100dvh - 24px); max-height: none; margin: auto;
+  padding: 0; border: 1px solid var(--rule); border-radius: 8px; background: var(--paper); color: var(--ink); overflow: hidden; }
+.figbox[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
+.figbox::backdrop { background: rgb(8 12 14 / .72); }
+.figbox header { display: flex; flex-wrap: wrap; align-items: start; justify-content: space-between; gap: 8px 12px; padding: 12px 14px 10px; border-bottom: 1px solid var(--rule); }
+.figbox header > div:first-child { flex: 1 1 240px; }
+.figbox h2 { margin: 0; font-size: 15px; font-weight: 800; text-wrap: balance; }
+.figbox .sub { font: 12px var(--typed); color: var(--muted); margin-top: 2px; }
+.figbox .tools { display: flex; gap: 6px; flex: none; align-items: center; }
+.figbox .tools button { border: 1px solid var(--rule); background: var(--paper); color: var(--ink); border-radius: 4px; padding: 4px 10px; font-size: 12.5px; cursor: pointer; }
+.figbox .tools button[aria-pressed="true"] { background: var(--track); border-color: var(--track); color: var(--paper); }
+.figbox .tools .x { border: 0; font-size: 20px; line-height: 1; padding: 0 4px; color: var(--muted); }
+.figbox .stage { overflow: auto; background: var(--sea); display: flex; min-height: 0; }
+.figbox .stage img { display: block; margin: auto; max-width: 100%; max-height: 100%; object-fit: contain; cursor: zoom-in; }
+.figbox .stage.full img { max-width: none; max-height: none; cursor: zoom-out; }
+.figbox footer { padding: 10px 14px 12px; border-top: 1px solid var(--rule); font-size: 12.5px; }
+.figbox footer p { margin: 0; max-width: 80ch; }
+.figbox footer .source { margin-top: 6px; }
 .source a { color: var(--track); }
 
 @media (max-width: 860px) {
@@ -325,6 +352,18 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     </div>
     <div class="maploading" id="loading">Loading chart…</div>
     <div class="detail" id="detail" hidden></div>
+    <dialog class="figbox" id="figbox" aria-labelledby="figtitle">
+      <header>
+        <div><h2 id="figtitle"></h2><div class="sub" id="figsub"></div></div>
+        <div class="tools">
+          <button type="button" id="figscan" aria-pressed="true">As scanned</button>
+          <button type="button" id="figclean" aria-pressed="false">Cleaned</button>
+          <button type="button" class="x" id="figclose" aria-label="Close">×</button>
+        </div>
+      </header>
+      <div class="stage" id="figstage"><img id="figimg" alt=""></div>
+      <footer><p id="figcap"></p><p class="source" id="figsrc"></p></footer>
+    </dialog>
     <div class="focuschip" id="focuschip" hidden role="status"></div>
   </div>
 
@@ -1023,6 +1062,50 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
 
   function esc(s) { return String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]); }
 
+  // ---------- drawings from the report (figures in patrol.yml)
+  function figuresOf(r) {
+    const all = (r.patrol && r.patrol.figures) || [];
+    return (r.figures || []).map((id) => all.find((f) => f.id === id)).filter(Boolean);
+  }
+  function figureLinks(r) {
+    return figuresOf(r).map((f) => `<button type="button" class="figlink" data-fig="${esc(f.id)}">
+        <img src="${esc(f.thumb || f.image)}" alt="" loading="lazy">
+        <span><b>${esc(f.title || "Drawing in the report")}</b><br><small>Page ${esc(f.page || "?")} of the report · open the drawing</small></span>
+      </button>`).join("");
+  }
+  const figbox = $("figbox");
+  let figShown = null;
+  function showFigVersion(cleaned) {
+    const f = figShown;
+    const useClean = cleaned && f.cleaned;
+    $("figimg").src = useClean ? f.cleaned : f.image;
+    $("figscan").setAttribute("aria-pressed", String(!useClean));
+    $("figclean").setAttribute("aria-pressed", String(!!useClean));
+  }
+  function openFigure(patrol, id) {
+    const f = ((patrol && patrol.figures) || []).find((x) => x.id === id);
+    if (!f) return;
+    figShown = f;
+    $("figtitle").textContent = f.title || "Drawing in the report";
+    const atk = f.attacks && f.attacks.length ? ` · Attacks ${f.attacks.length > 2 ? f.attacks[0] + "–" + f.attacks[f.attacks.length - 1] : f.attacks.join(", ")}` : "";
+    $("figsub").textContent = `${patrol.name} patrol ${patrol.patrol}${atk}`;
+    $("figimg").alt = f.title || "Drawing from the patrol report";
+    $("figcap").textContent = f.caption || "";
+    $("figsrc").innerHTML = `Source: ${esc(String(patrol.report || patrol.name).replace(/\.+$/, ""))}${f.page ? ", page " + esc(f.page) : ""}.${citeLine({ page: f.page, patrol })}`;
+    $("figclean").hidden = !f.cleaned;
+    $("figscan").hidden = !f.cleaned;
+    $("figstage").classList.remove("full");
+    showFigVersion(false);
+    if (playing) setPlaying(false);
+    figbox.showModal();
+  }
+  $("figscan").addEventListener("click", () => showFigVersion(false));
+  $("figclean").addEventListener("click", () => showFigVersion(true));
+  $("figclose").addEventListener("click", () => figbox.close());
+  // Click the drawing for full size; click outside it to close.
+  $("figimg").addEventListener("click", () => $("figstage").classList.toggle("full"));
+  figbox.addEventListener("click", (e) => { if (e.target === figbox) figbox.close(); });
+
   function tourNav(r) {
     if (!r.patrol) return "";
     const list = tourOf(r.patrol), i = list.indexOf(r);
@@ -1049,6 +1132,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     d.innerHTML = `<div class="detail-head"><div><h2>${esc(title)}</h2>
         <div class="sub">${esc(r.local)} · ${KIND[kind] || "Port"} · ${esc(r.patrol.name)} patrol ${r.patrol.patrol}</div></div>
         <button class="close" aria-label="Close details">×</button></div>
+      ${figureLinks(r)}
       <dl class="kv">${rows.map(([k, v]) => `<dt>${esc(k)}</dt><dd${String(v).includes("\n") ? ' class="pre"' : ""}>${esc(v)}</dd>`).join("")}</dl>
       ${r.flags && r.flags.length ? `<div class="flags"><p>To review</p><ul>${r.flags.map((f) => `<li>${esc(f)}</li>`).join("")}</ul></div>` : ""}
       <p class="source">Source: ${esc(String(r.patrol.report || r.patrol.name).replace(/\.+$/, ""))}. ${esc(src)}.${citeLine(r)}</p>
@@ -1056,6 +1140,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     const tl = r.patrol ? tourOf(r.patrol) : [], ti = tl.indexOf(r);
     d.querySelectorAll(".tour button").forEach((b) => b.addEventListener("click", () => goTo(tl[ti + +b.dataset.step])));
     d.querySelector(".close").addEventListener("click", () => { selected = null; renderDetail(); renderLog(true); draw(); });
+    d.querySelectorAll(".figlink").forEach((b) => b.addEventListener("click", () => openFigure(r.patrol, b.dataset.fig)));
   }
 
   // ---------- controls
@@ -1086,6 +1171,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
   $("slider").addEventListener("input", (e) => { now = t0 + e.target.value * HOUR; draw(); renderLog(); renderBoard(); });
   svg.on("click.focus", () => { if (focus) setFocus(null); });
   document.addEventListener("keydown", (e) => {
+    if (figbox.open) return;  // the dialog handles its own keys (Esc closes it)
     if (e.key === "Escape" && focus) { setFocus(null); return; }
     if ((e.key === "ArrowLeft" || e.key === "ArrowRight") && selected && selected.patrol
         && !["INPUT", "SELECT", "TEXTAREA"].includes(e.target.tagName)) {

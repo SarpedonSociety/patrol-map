@@ -2954,5 +2954,6 @@
    "estimated": true,
    "note": "Estimated area around the positions of the mine entries in the report. The report doesn't give the field's boundaries."
   }
- ]
+ ],
+ "figures": []
 }
