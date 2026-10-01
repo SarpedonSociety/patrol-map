@@ -60,7 +60,7 @@ COLUMNS = {
     "attack": "attack_no", "intrange": "initial_range", "minrange": "min_range", "beart": "bearing",
     "bear": "bearing", "bearing": "bearing", "crse": "course", "spd": "speed", "rks": "remarks",
     "lead": "lead", "timegct": "time", "locationlatlong": "lat_long", "datelocal": "date",
-    "rangesighted": "initial_range", "rangeclosest": "min_range",
+    "rangesighted": "initial_range", "rangeclosest": "min_range", "target": "type",
 }
 # Fallback: first keyword found in the normalized heading wins.
 KEYWORDS = [
@@ -637,7 +637,16 @@ def build_patrol(folder, ref):
     default_zone = max(set(narrative_zones), key=narrative_zones.count) if narrative_zones else None
     last_zone = None
     has_summary = any(t.get("transposed") for t in tables)
+    # "### Torpedoes, attack 3": the torpedo-by-torpedo list from a 1943
+    # attack report. Not contacts; attached to that attack below.
+    torpedo_lists = {}
     for table in tables:
+        m = re.match(r"\s*torpedoes\s*,?\s*attack\s*(?:no\.?\s*)?#?\s*(\w+)", table["section"] or "", re.I)
+        if m:
+            torpedo_lists[m.group(1).upper()] = table
+    for table in tables:
+        if table in torpedo_lists.values():
+            continue
         headers = table["headers"]
         names = [field_name(h) for h in headers]
         unknown = [h for h, n in zip(headers, names) if n is None]
@@ -803,6 +812,15 @@ def build_patrol(folder, ref):
                 "type": typ, "title": title, "fields": keep, "flags": flags,
                 "contact_no": f.get("contact_no"),
             })
+
+    for num, t in torpedo_lists.items():
+        target = next((r for r in records if r.get("row") and r["kind"] in ("torpedo", "gun")
+                       and re.fullmatch(rf"attack\s*\(?{re.escape(num)}\)?", str(r.get("title") or "").split(" · ")[0], re.I)), None)
+        lines = ["; ".join(f"{h}: {c}" for h, c in zip(t["headers"], row) if c and h.lower() != "flags") for row in t["rows"]]
+        if target:
+            target["fields"]["torpedoes"] = "\n".join(lines)
+            notes = [row[i] for row in t["rows"] for i, h in enumerate(t["headers"]) if h.lower() == "flags" and i < len(row) and row[i]]
+            target["flags"].extend(f"Transcriber (torpedoes): {n}" for n in notes)
 
     # An attack summary with dates but no times (Silversides Patrol 5): the
     # narrative's attack entries on the same report date supply the times, in

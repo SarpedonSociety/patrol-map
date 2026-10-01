@@ -16,7 +16,10 @@ with only:
    the boat in more detail than the narrative,
 4. the ship contact, aircraft contact and attack tables (if the report has
    no attack table, add the narrative around each attack, from the
-   approach through any depth charging that followed),
+   approach through any depth charging that followed); if the report has
+   a separate attack report for each attack instead (the 1943 forms with
+   torpedo settings and performance for the Mk XIV investigation), include
+   those pages,
 5. any table that records the boat's own positions: density layer or
    bathythermograph observations, noon positions and the like.
 
@@ -118,6 +121,13 @@ typed on that report page; skip pages with no typed page number.
 
 Make one `events` entry for each narrative entry on the pages provided.
 
+When a narrative entry states the boat's position in its text ("Lat.
+35-02 N. Long. 140-14 E.", "in 2-47 N 152 E"), copy it into `lat` and
+`lon` as typed, and leave the text in `event` as well. Only the boat's
+own position, or the position of an attack, goes there: a position the
+entry gives for something else (a target's destination, an anchorage, an
+oil barge) stays in `event` and is noted in `flags`.
+
 Use `from`, `bearing` and `distance` only for a position fixed from a
 charted landmark. A contact's bearing from the boat ("smoke bearing 315",
 "on the port bow") is not a position: leave it in `event`.
@@ -192,6 +202,16 @@ Reproduce each table as the report lays it out:
 - If the report prints a table with attacks as columns (Attack 1, 2, 3
   across the top and fields down the side), keep that layout. The first
   heading must be `Attack`.
+- If the report has a separate attack report for each attack instead of
+  a summary table, transcribe each one as its own attack-as-column table
+  with a single attack column: `### Attack report <n>` above it, first
+  row `| Attack | <n> | Flags |`, then one row per field of the form as
+  typed (date, time and zone, position, target, range, track, and so on),
+  keeping the form's own field names. Put the position in a row labelled
+  `Position` and the time and date in a row labelled `Time/Date`, as
+  typed. If the form lists torpedoes one by one (tube, depth set, gyro,
+  hit or miss, performance), put that list in a separate ordinary table
+  directly after it, headed `### Torpedoes, attack <n>`.
 - Add a final `Flags` column (or, for attack-as-column tables, a final
   `Flags` row) for your notes on that entry.
 - Copy any `Remarks:` line printed under a table onto its own line
