@@ -26,21 +26,19 @@ data/
   status.json                 Fleet status between patrols (generated)
   patrols/SS-236-P01.json     One file per patrol (generated)
   base/land-50m.json          Coastlines (Natural Earth via world-atlas)
-prompts/gemini-transcription.md   First-pass transcription prompt
+prompts/                      Gemini transcription prompts (see prompts/README.md)
 index.html                    The map
 ```
 
 ## Adding a patrol
 
-1. Build a PDF of the pages that matter: the first page of the COMSUBPAC
-   endorsement, the narrative entries with positions, course changes,
-   departure and arrival, and the contact and attack tables (keep each
-   page's Fold3 source sheet). Run it through Gemini with
-   `prompts/gemini-transcription.md`. It returns a `patrol.yml` and a
-   `contacts.md` with the report's tables.
+1. Build PDFs of the pages that matter, one for the narrative, one for the
+   tables and, for 1943 reports, one for the TORPEDO ATTACK DATA forms, and
+   run each through its own prompt in `prompts/` in a fresh Gemini chat
+   (see `prompts/README.md`).
 2. Save the outputs in the patrol's folder, e.g. `sources/SS-283/P03/`,
-   exactly as Gemini gives them: `gemini-01.yml`, `gemini-02.yml` ... for
-   OUTPUT 1 and `contacts-01.md`, `contacts-02.md` ... for OUTPUT 2. The
+   exactly as Gemini gives them: `gemini-01.yml` ... for the narrative,
+   `contacts-01.md` ... for the tables and `attacks-01.md` ... for the forms. The
    converter combines the batches in order. Hand entries in `patrol.yml`
    (departure, arrival, tonnage, corrections) take precedence, so the
    Gemini files can stay untouched as the raw transcription.
@@ -87,8 +85,8 @@ it: `table_zones: { SUMMARY OF SUBMARINE ATTACKS: Z }`.
 
 Reports from mid-1943 give each attack on a TORPEDO ATTACK DATA form (a
 target-data page and a torpedo-data page) instead of a summary table. Gemini
-transcribes those pages verbatim into `attacks-01.md` (OUTPUT 3 of the
-prompt). The converter takes the attack's time, zone, date, latitude and
+transcribes those pages verbatim into `attacks-01.md` (prompt
+`3-attack-forms.md`). The converter takes the attack's time, zone, date, latitude and
 longitude from the form's "Time: ... Lat. ... Long. ..." line and the target
 and damage lines from the rest, and keeps both pages as typed in the detail
 card, tube by tube, for the torpedo research.
