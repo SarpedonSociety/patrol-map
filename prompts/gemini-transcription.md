@@ -30,7 +30,8 @@ Paste everything between the lines, then attach that PDF.
 **Batches.** For a long report, run the pages in batches. Save each
 Gemini answer exactly as it comes (fences and all) in the patrol's folder:
 OUTPUT 1 as `gemini-01.yml`, `gemini-02.yml` ..., OUTPUT 2 as
-`contacts-01.md`, `contacts-02.md` .... The converter reads them in
+`contacts-01.md`, `contacts-02.md` ..., and OUTPUT 3, if there is one, as
+`attacks-01.md` .... The converter reads them in
 order and combines them. Anything you enter by hand in `patrol.yml`
 (departure, arrival, tonnage, corrections) takes precedence over the
 batches.
@@ -52,7 +53,9 @@ correct, or normalize the source text. Transcribe only what is on the
 pages provided. The pages are a selection, so never infer what the
 missing pages might say.
 
-Produce TWO outputs, unless told below to produce only one.
+Produce TWO outputs, unless told below to produce only one. If the pages
+include TORPEDO ATTACK DATA forms (one page of target data per attack and
+one of torpedo data), produce OUTPUT 3 as well.
 
 OUTPUT FORMAT
 Put each output inside its own fenced code block (```yaml for OUTPUT 1,
@@ -202,21 +205,28 @@ Reproduce each table as the report lays it out:
 - If the report prints a table with attacks as columns (Attack 1, 2, 3
   across the top and fields down the side), keep that layout. The first
   heading must be `Attack`.
-- If the report has a separate attack report for each attack instead of
-  a summary table, transcribe each one as its own attack-as-column table
-  with a single attack column: `### Attack report <n>` above it, first
-  row `| Attack | <n> | Flags |`, then one row per field of the form as
-  typed (date, time and zone, position, target, range, track, and so on),
-  keeping the form's own field names. Put the position in a row labelled
-  `Position` and the time and date in a row labelled `Time/Date`, as
-  typed. If the form lists torpedoes one by one (tube, depth set, gyro,
-  hit or miss, performance), put that list in a separate ordinary table
-  directly after it, headed `### Torpedoes, attack <n>`.
 - Add a final `Flags` column (or, for attack-as-column tables, a final
   `Flags` row) for your notes on that entry.
 - Copy any `Remarks:` line printed under a table onto its own line
   directly after the table, starting with `Remarks:`, keeping the
   report's footnote markers (#, *).
+
+OUTPUT 3 — attacks.md (only if the pages include TORPEDO ATTACK DATA forms)
+Transcribe each form page verbatim, as plain text, line for line, in one
+```text block. Do not turn the forms into tables.
+
+- Put `### Torpedo attack data, attack <n>` above the target-data page and
+  `### Torpedo data, attack <n>` above the torpedo-data page, where <n> is
+  the attack number as a numeral (TORPEDO ATTACK NO. TWO is 2), then a line
+  `Page <n>` with the page number typed on that page.
+- Keep the form's layout with spaces: each tube's value stays under its
+  tube number, and a value typed across all the tubes with dashes
+  ("- - - Average 130 Port - - - *") is copied with its dashes and marks.
+- Keep the time, zone letter, date, latitude and longitude exactly as typed
+  on the "Time: ... Date: ... Lat. ... Long. ..." line.
+- Copy footnotes (* - Estimates only.) and remarks as typed.
+- Mark uncertain characters with ⟦ ⟧ as elsewhere, and put your notes on
+  lines starting `Flags:` directly under the page they refer to.
 
 RULES
 1. Transcribe exactly as typed, including misspellings. Do not add [sic].

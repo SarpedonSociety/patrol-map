@@ -238,6 +238,58 @@ def split_lat_long(text):
     return None, None, f"Could not read a position from '{text}'."
 
 
+WORD_NUMBERS = {w: i for i, w in enumerate(
+    "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen "
+    "sixteen seventeen eighteen nineteen twenty".split())}
+
+
+def read_attack_forms(path):
+    """Read attacks-NN.md: the 1943 TORPEDO ATTACK DATA forms transcribed
+    verbatim, one block per page under '### Torpedo attack data, attack n'
+    or '### Torpedo data, attack n'. Returns {attack number: {...}}."""
+    text = plain(path.read_text(encoding="utf-8"))
+    text = "\n".join(l for l in text.splitlines() if not l.strip().startswith("```"))
+    forms = {}
+    for block in re.split(r"(?m)^###\s+", text)[1:]:
+        head, _, body = block.partition("\n")
+        m = re.search(r"attack\s*(?:no\.?\s*)?#?\s*(\w+)\s*$", head.strip(), re.I)
+        if not m:
+            continue
+        key = m.group(1).lower()
+        num = WORD_NUMBERS.get(key, key)
+        page = re.search(r"(?m)^\s*Page\s+(\d+)", body)
+        body = re.sub(r"(?m)^\s*Page\s+\d+\s*$\n?", "", body).rstrip()
+        notes = [l.split(":", 1)[1].strip() for l in body.splitlines() if re.match(r"\s*Flags\s*:", l)]
+        body = "\n".join(l for l in body.splitlines() if not re.match(r"\s*Flags\s*:", l)).strip("\n")
+        f = forms.setdefault(str(num), {"num": str(num), "pages": [], "flags": []})
+        f["flags"] += notes
+        if page:
+            f["pages"].append(page.group(1))
+        kind = "torpedoes" if re.match(r"\s*torpedo\s+data", head, re.I) else "attack"
+        f[kind] = body
+    return forms
+
+
+def form_fields(body):
+    """'Label: value' lines of a verbatim form, with indented continuation
+    lines joined on. Labels are lower-cased; ';' and ',' typed for ':' are
+    accepted."""
+    out, key = {}, None
+    for line in body.splitlines():
+        if line.strip() and not re.search(r"[a-z]", line):
+            key = None   # a section heading such as OWN SHIP DATA
+            continue
+        m = re.match(r"\s*([A-Za-z][A-Za-z ()/.'-]{1,40}?)\s*[:;]\s+(.*)$", line)
+        if m and not line.startswith("        "):
+            key = re.sub(r"\s+", " ", m.group(1).strip().lower())
+            out[key] = m.group(2).strip()
+        elif key and line.strip() and line.startswith(" "):
+            out[key] += " " + line.strip()
+        elif not line.strip():
+            key = None
+    return out
+
+
 def find_landmark(landmarks, name):
     """Look a landmark up as typed, then without a leading 'the',
     'entrance(s) to' or 'off' ('entrances to Malakal Harbor')."""
@@ -811,6 +863,53 @@ def build_patrol(folder, ref):
                 "derived": {"from_table": True} if derived_pos else None,
                 "type": typ, "title": title, "fields": keep, "flags": flags,
                 "contact_no": f.get("contact_no"),
+            })
+
+    # TORPEDO ATTACK DATA forms transcribed verbatim (attacks-01.md ...).
+    for path in sorted(folder.glob("attacks*.md")):
+        for num, form in read_attack_forms(path).items():
+            entry += 1
+            body = form.get("attack") or ""
+            flags = [f"Transcriber: {n}" for n in form["flags"]]
+            if entry in row_notes:
+                flags.append(f"Review: {row_notes[entry]}")
+            tm = re.search(r"Time\s*[:;,]?\s*(\d{4})\s*\(?\s*([A-Z])?\s*\)?", body)
+            dm = re.search(r"Date\s*[:;,]?\s*([A-Za-z]+\.?\s*\d{1,2},?\s*\d{4}|\d{1,2}[/-]\d{1,2}[/-]\d{2,4})", body)
+            la = re.search(r"Lat\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?)\s*\.?\s*([NS])", body)
+            lo = re.search(r"Long\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?)\s*\.?\s*([EW])", body)
+            t = tm.group(1) if tm else None
+            z = (tm.group(2) if tm and tm.group(2) else None)
+            d = dm.group(1) if dm else None
+            if not body:
+                flags.append("Only the torpedo page of this attack was transcribed; no time or position.")
+            if not t:
+                flags.append("No time found on the form.")
+            if z is None and t:
+                z = default_zone
+                flags.append(f"No zone letter on the form; zone {z} assumed from the narrative.")
+            lat = parse_coord(re.sub(r"\s", "", la.group(1)) + la.group(2), hemi["lat"], True) if la else None
+            lon = parse_coord(re.sub(r"\s", "", lo.group(1)) + lo.group(2), hemi["lon"], False) if lo else None
+            if body and (lat is None or lon is None):
+                flags.append("No usable position on the form.")
+            ff = form_fields(body)
+            pick = lambda *keys: next((ff[k] for k in ff for want in keys if k.startswith(want)), None)
+            fields = {k: v for k, v in (
+                ("description", pick("description")), ("sunk", pick("ship(s) sunk", "ships sunk")),
+                ("damaged", pick("ship(s) damaged", "probably sunk", "ships damaged")),
+                ("damage determined by", pick("damage determined")), ("target", pick("target draft")),
+                ("own ship", pick("speed")), ("attack_type", pick("type attack")),
+                ("form", body or None), ("torpedoes", form.get("torpedoes"))) if v}
+            desc = fields.get("description") or ""
+            records.append({
+                "id": f"{pid}-A{entry:02d}", "source": "Torpedo attack data", "row": entry, "kind": "torpedo",
+                "page": ", ".join(form["pages"]) or None, "zone": z,
+                "local": " ".join(x for x in (t, z, d) if x) or "",
+                "utc": to_utc(d or "", t, z, year, first_month) if d else None, "has_time": bool(t),
+                "local_date": list(parse_date(d or "", year, first_month) or []),
+                "position_verbatim": " ".join(m.group(0) for m in (la, lo) if m), "lat": lat, "lon": lon,
+                "derived": None, "type": desc.split(".")[0][:60],
+                "title": f"Attack {num}" + (f" · {desc.split('.')[0][:48]}" if desc else ""),
+                "fields": fields, "flags": flags,
             })
 
     for num, t in torpedo_lists.items():

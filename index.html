@@ -283,6 +283,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
 .kv { display: grid; grid-template-columns: minmax(0, 10.5em) minmax(0, 1fr); gap: 4px 12px; margin: 0; font-size: 12.5px; }
 .kv dt { color: var(--muted); }
 .kv dd { margin: 0; font-family: var(--typed); overflow-wrap: anywhere; }
+.kv dd.pre { grid-column: 1 / -1; white-space: pre; overflow-x: auto; font-size: 11px; line-height: 1.35; }
 .flags { margin: 12px 0 0; padding: 10px 12px; background: var(--flag-bg); color: var(--flag); border-radius: 6px; font-size: 12.5px; }
 .flags p { margin: 0 0 4px; font-weight: 700; }
 .flags ul { margin: 0; padding-left: 18px; }
@@ -416,7 +417,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     type: "Type", initial_range: "Initial range", course: "Est. course", speed: "Est. speed",
     description: "Description", weapon: "Weapon", fired: "Fired", depth: "Depth set",
     track: "Track angle", gyro: "Gyro angle", firing_range: "Firing range", hits: "Hits",
-    with: "With", contact_table: "Contact table", torpedoes: "Torpedoes", remarks: "Remarks", event: "Entry", charges: "Depth charges", damage: "Damage sustained", attacked: "Attacked", part_viii: "Part VIII account", narrative: "Narrative", min_range: "Min. range", lead: "Lead", bearing: "Bearing", altitude: "Altitude / distance",
+    with: "With", contact_table: "Contact table", torpedoes: "Torpedo data", form: "Attack data (as typed)", "damage determined by": "Damage determined by", own_ship: "Own ship", "own ship": "Own ship (at firing)", target: "Target (at firing)", remarks: "Remarks", event: "Entry", charges: "Depth charges", damage: "Damage sustained", attacked: "Attacked", part_viii: "Part VIII account", narrative: "Narrative", min_range: "Min. range", lead: "Lead", bearing: "Bearing", altitude: "Altitude / distance",
     sunk: "Claimed sunk (tons)", damaged: "Claimed damaged or probably sunk (tons)",
     attack_type: "Periscope or radar", draft: "Est. target draft", tube: "Bow or stern",
     interval: "Firing interval", spread: "Spread", performance: "Torpedo performance satisfactory",
@@ -1046,7 +1047,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     d.innerHTML = `<div class="detail-head"><div><h2>${esc(title)}</h2>
         <div class="sub">${esc(r.local)} · ${KIND[kind] || "Port"} · ${esc(r.patrol.name)} patrol ${r.patrol.patrol}</div></div>
         <button class="close" aria-label="Close details">×</button></div>
-      <dl class="kv">${rows.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
+      <dl class="kv">${rows.map(([k, v]) => `<dt>${esc(k)}</dt><dd${String(v).includes("\n") ? ' class="pre"' : ""}>${esc(v)}</dd>`).join("")}</dl>
       ${r.flags && r.flags.length ? `<div class="flags"><p>To review</p><ul>${r.flags.map((f) => `<li>${esc(f)}</li>`).join("")}</ul></div>` : ""}
       <p class="source">Source: ${esc(String(r.patrol.report || r.patrol.name).replace(/\.+$/, ""))}. ${esc(src)}.${citeLine(r)}</p>
       ${tourNav(r)}`;

@@ -85,6 +85,14 @@ but stay off the track, since they can't be put in order along it. When a
 table's times are in a zone the report doesn't print, `patrol.yml` can set
 it: `table_zones: { SUMMARY OF SUBMARINE ATTACKS: Z }`.
 
+Reports from mid-1943 give each attack on a TORPEDO ATTACK DATA form (a
+target-data page and a torpedo-data page) instead of a summary table. Gemini
+transcribes those pages verbatim into `attacks-01.md` (OUTPUT 3 of the
+prompt). The converter takes the attack's time, zone, date, latitude and
+longitude from the form's "Time: ... Lat. ... Long. ..." line and the target
+and damage lines from the rest, and keeps both pages as typed in the detail
+card, tube by tube, for the torpedo research.
+
 ## Tonnage scoreboard
 
 The map ranks boats by tonnage sunk as of the date on the timeline, so
