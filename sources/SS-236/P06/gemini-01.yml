@@ -1,0 +1,5588 @@
+YAML
+
+```
+boat: "SS-236"
+patrol: 6
+year: 1943
+report: "U.S.S. SILVERSIDES Report of Sixth War Patrol."
+comsubpac_report_no:
+commanding_officer: "J.S. COYE, Jr."
+citation:
+  archive: "NARA"
+  record_group: "38"
+  nara_catalog_id: "4697018"
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946"
+  reel: "A567"
+  micro_serial: "56148"
+  file: "A16-3"
+  serial: "6"
+  date: "9/12/1943"
+fold3_images:
+  1: 270149216
+  2: 270149223
+  3: 270149232
+  4: 270149242
+  5: 270149252
+  6: 270149258
+  7: 270149263
+  8: 270149270
+  9: 270149275
+  10: 270149282
+  11: 270149289
+  12: 270149300
+  13: 270149308
+  14: 270149314
+  15: 270149323
+  16: 270149327
+  17: 270149335
+  18: 270149338
+  19: 270149347
+  20: 270149356
+  21: 270149364
+default_hemisphere: { lat: S, lon: E }
+departure: { port: "Brisbane, Australia", date: "July 21, 1943", time: "0900", zone: "K", page: 1, flags: "Time zone from section heading 'All times King (-10)'" }
+arrival:   { port: "Brisbane, Australia", date: "September 12, 1943", time: "0800", zone: "K", page: 21, flags: "Time zone from narrative heading 'All times King (-10)'" }
+events:
+  - date: "July 21, 1943"
+    time: "0900"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Underway from alongside USS FULTON for sixth war patrol under CTF 72 Opord 341-43 to wage unrestricted warfare in Solomons-Bismarcks-New Guinea area."
+    page: 1
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 21, 1943"
+    time: "1134"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Commenced firing 16 rounds of ammunition from 4\" gun and test firing of 20 MM and 30 cal. machine guns at towed target,"
+    page: 1
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 21, 1943"
+    time: "1316"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted sound tests in Moreton Bay."
+    page: 1
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 21, 1943"
+    time: "1800"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "rendezvous"
+    title: "Rendezvous with USS COUCAL and USS TUNA"
+    part: "I"
+    charges:
+    damage:
+    with: "USS COUCAL and USS TUNA"
+    course:
+    speed:
+    event: "Rendezvoused with USS COUCAL and USS TUNA."
+    page: 1
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 21, 1943"
+    time: "2225"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted trim dive."
+    page: 1
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 22, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted special night training exercise two sugar, U.S.S. COUCAL target."
+    page: 1
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 22, 1943"
+    time: "0815"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "rendezvous"
+    title: "Exercises with USS COUCAL; USS GROWLER joins"
+    part: "I"
+    charges:
+    damage:
+    with: "USS GROWLER"
+    course:
+    speed:
+    event: "Made dive to test depth. No bad leaks, minor leaks in weld around newly installed MN aerial stuffing box. Later attempts to peen were unsucessful. During the day conducted submerged approaches on USS COUCAL, special exercise one sugar. During the night conducted approaches on USS COUCAL, special exercise two sugar. USS GROWLER joined up during the night."
+    page: 1
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 23, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Underway in cruising formation with USS COUCAL, USS TUNA, and USS GROWLER; conducted submerged approaches on COUCAL during the day."
+    page: 2
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 23, 1943"
+    time: "1420"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Conducted simulated depth charge attack exercise for 90 minutes with USS COUCAL, drilled crew in rig for depth charge and silent running; conducted night approaches."
+    page: 2
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 24, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Underway in cruising formation with USS COUCAL, USS TUNA AND USS GROWLER."
+    page: 2
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 24, 1943"
+    time: "0640"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "notable"
+    title: "Sighted possible submarine periscope"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "OOD (Lt. J.P. BIENIA) sighted periscope 200 yds on starboard beam, bearing 090 T, painted black, periscope pulled down after about 30 seconds. Turned away, went ahead emergency, notified other ships in formation. U.S.S. COUCAL conducted sound search which failed to reveal anything. Did not fire torpedoes due to proximity of USS DRUM and stipulations of operation order."
+    page: 2
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 24, 1943"
+    time: "1600"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Commenced special wolf pack exercise against USS COUCAL with TUNA and GROWLER; tested MN communications successfully up to 20 miles."
+    page: 2
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 25, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Continuing \"wolf pack\" exercise."
+    page: 2
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 25, 1943"
+    time: "1240"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove to make simulated attack."
+    page: 2
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 25, 1943"
+    time: "1325"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Simulated attack, after attack went deep and simulated depth charge attack."
+    page: 2
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 25, 1943"
+    time: "1421"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced, commenced end around run."
+    page: 2
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 25, 1943"
+    time: "1707"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove to make simulated attack."
+    page: 2
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 25, 1943"
+    time: "1823"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Simulated attack, running at 42 feet using radar, as could not see target clearly in periscope."
+    page: 2
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 25, 1943"
+    time: "1830"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced, commenced end around run."
+    page: 2
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 25, 1943"
+    time: "2215"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Simulated night surface attack on target."
+    page: 2
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 26, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Continuing \"wolf pack\" exercise."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 26, 1943"
+    time: "0814"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted USS COUCAL bearing 135 T, commenced end around run to get ahead of target."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 26, 1943"
+    time: "0852"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Submerged to make simulated attack."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 26, 1943"
+    time: "1012"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Secured approach, target had made a radical change in base course and could not close at 6 kts."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 26, 1943"
+    time: "1045"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced. Commenced end around run."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 26, 1943"
+    time: "1340"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove to make simulated attack."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 26, 1943"
+    time: "1555"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced, target had again made a radical change in base course. Closed target for instructions. Told to continue exercise and rendezvous at noon tomorrow."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 26, 1943"
+    time: "2109"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Made simulated night surface attack on target."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 26, 1943"
+    time: "2140"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Made simulated night surface attack on target."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 27, 1943"
+    time: "0858"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted USS COUCAL bearing 225 T commenced maneuvering for position ahead."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 27, 1943"
+    time: "1011"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove to conduct simulated attack."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 27, 1943"
+    time: "1122"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Simulated attacking target."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 27, 1943"
+    time: "1126"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced and fell in astern of USS COUCAL, \"wolf pack\" exercise completed."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 27, 1943"
+    time: "About 1500"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "About 1500 entered JOMARD ENTRANCE in the LOUISIADES in company with USS COUCAL, USS TUNA and USS GROWLER."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 27, 1943"
+    time: "1700"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "USS COUCAL stopped and USS GROWLER went alongside to port."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 27, 1943"
+    time: "1715"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "USS TUNA went alongside to starboard."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 27, 1943"
+    time: "1740"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] USS GROWLER reported radar pip, went ahead 11 kts and circled formation at 3 miles on negative radar search."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 27, 1943"
+    time: "1945"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "USS GROWLER underway."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 27, 1943"
+    time: "1955"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "notable"
+    title: "Alongside USS COUCAL for refueling"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Went alongside USS COUCAL to refuel. (While alongside pounded considerably. In the future, more sheltered area should be used, better fenders provided, or fueling should be done with way on. USS COUCAL was most obliging, giving us fresh water, sending a welder over to work on lead-in stuffing gland, and furnishing us a spare set of coils for distiller.)"
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 27, 1943"
+    time: "2149"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "USS TUNA underway."
+    page: 3
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 28, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Alongside USS COUCAL."
+    page: 4
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 28, 1943"
+    time: "0400"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "notable"
+    title: "Underway after fueling; navigational passage"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Underway in accordance with CTG 72.4 Routing Order 1-43 having received 15,900 gallons of fuel from USS COUCAL. It was found we had been set considerable to westward while lying to refueling. The night was dark and islands difficult to see. At 0200 cleared the ARCHIPELAGO, passing between CONFLICT GROUP and LUNN Island, instead of between LUNN Island and TORLESSE Island as had been original intention. Navigated with caution, using SJ, fathometer, and echo ranging on reefs."
+    page: 4
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 28, 1943"
+    time: "0538"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Submerged. During day MISSIMA Island visible to south."
+    page: 4
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 28, 1943"
+    time: "1852"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 4
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 29, 1943"
+    time: "0030"
+    zone: "K"
+    lat:
+    lon:
+    from: "LAUGHLAN Islands"
+    bearing: "318 T"
+    distance: "5 miles"
+    bearing_is: "to_landmark"
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted LAUGHLAN Islands bearing 318 T, distance 5 miles. Eased out to eastward then headed for point ROAM."
+    page: 4
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 29, 1943"
+    time: "0529"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Submerged."
+    page: 4
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 29, 1943"
+    time: "1840"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 4
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 30, 1943"
+    time: "0325"
+    zone: "K"
+    lat:
+    lon:
+    from: "BUKA Island"
+    bearing: "082 T"
+    distance: "30 miles"
+    bearing_is: "to_landmark"
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted BUKA Island bearing 082 T, distance 30 miles."
+    page: 4
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 30, 1943"
+    time: "0509"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Submerged, headed for passage between BUKA and GREEN Islands."
+    page: 4
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 30, 1943"
+    time: "1054"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Heard distant depth charge or bomb. Could see nothing."
+    page: 4
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 30, 1943"
+    time: "1310"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted MITSUBISHI Type 97 (Sally) bomber distance 8 miles, altitude 500 feet bearing 140 T, plane course 050 T. AIRCRAFT CONTACT # 1."
+    page: 4
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 30, 1943"
+    time: "1850"
+    zone: "K"
+    lat:
+    lon:
+    from: "C. HENPAN"
+    bearing: "155 T"
+    distance: "12 miles"
+    bearing_is: "to_landmark"
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "045 T"
+    speed: "17 kts"
+    event: "Surfaced with C. HENPAN bearing 155 T, distance 12 miles Set course 045 T speed 17 kts."
+    page: 4
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 30, 1943"
+    time: "2000"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "000 T"
+    speed: "15.5 kts"
+    event: "c/c to 000 T, slowed to 15.5 kts."
+    page: 4
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 30, 1943"
+    time: "2155"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "320 T"
+    speed:
+    event: "c/c to 320 T."
+    page: 4
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 31, 1943"
+    time: "0340"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "320"
+    speed: "20 kts"
+    event: "c/c to 320, increased speed to 20 kts."
+    page: 4
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 31, 1943"
+    time: "0540"
+    zone: "K"
+    lat:
+    lon:
+    from: "MAHUR Island"
+    bearing: "255 T"
+    distance: "18 miles"
+    bearing_is: "to_landmark"
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "2/3 speed"
+    event: "[SUMMARY] Made quick dive at broad daylight when searchlight on MAHUR Island flashed challenge; island bore 255 T, 18 miles; ran at 2/3 speed."
+    page: 4
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 31, 1943"
+    time: "0715"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "2/3 speed"
+    event: "[SUMMARY] Sighted smoke bearing 288 T, commenced approach; determined bearing drawing right, closed at normal approach course at 2/3 speed; sea calm."
+    page: 5
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 31, 1943"
+    time: "0732"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted masts of leading ship, angle on bow 30 starboard, true bearing 232, estimated course 020 T, range 8500 yards."
+    page: 5
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 31, 1943"
+    time: "0736"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "310 T"
+    speed: "6 kts"
+    event: "Went ahead 6 kts on course 310 T, at 100 feet."
+    page: 5
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 31, 1943"
+    time: "0745"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "6 kts"
+    event: "[SUMMARY] Sighted four targets (1 medium AK, 1 large AK, 2 destroyers) and two float biplanes; closed at 90 feet, flooded all tubes."
+    page: 5
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 31, 1943"
+    time: "0755"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "6 kts"
+    event: "[SUMMARY] Convoy zigged away to base course 315; range increasing, continued trying to close at 6 kts."
+    page: 5
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 31, 1943"
+    time: "0825"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Secured approach as convoy went over horizon; trailed submerged due to enemy air bases."
+    page: 5
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "July 31, 1943"
+    time: "1845"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "17 kts"
+    event: "Surfaced, went ahead 17 kts."
+    page: 5
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 1, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "17 kts"
+    event: "Underway on surface at 17 kts."
+    page: 5
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 1, 1943"
+    time: "0611"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Commenced adjusting course to make retiring search curve on the KAVIENG TRUK route."
+    page: 5
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 1, 1943"
+    time: "0940"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Distinct indication on SD radar at 20 miles. Did not come close, finally faded out. AIRCRAFT CONTACT # 4."
+    page: 5
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 1, 1943"
+    time: "1610"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Secured retiring search curve and changed course to northward."
+    page: 5
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 2, 1943"
+    time: "0656"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Sighting and approach on freighter"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "120 T"
+    speed:
+    event: "While on course 120 T, sighted target dead ahead emerging from a squally background. Dove and commenced approach. SHIP CONTACT # 6 ATTACK # 1."
+    page: 5
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 2, 1943"
+    time: "0709"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Maneuvering during Attack # 1"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "220 T"
+    speed: "9 kts"
+    event: "True bearing drawing to the right, and angle on the bow appears stbd. came to course 220 T, increased speed to 9 kts."
+    page: 6
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 2, 1943"
+    time: "0727"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Tracking target during Attack # 1"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "9 kts"
+    event: "Angle on the bow was 35 stbd, range 8400 yds, could only see one ship, was the # 2 in column sighted in the morning of July 31st. Went to 9 kts again."
+    page: 6
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 2, 1943"
+    time: "0747"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Position before firing Attack # 1"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Had him in a fair position, range 2400, angle on bow 70 stbd, gyro angle 350 coming on to zero."
+    page: 6
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 2, 1943"
+    time: "0749"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Target zig prior to attack"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Raised periscope to put in firing bearing; target had zigged away angle on bow now 130 stbd. Decided to accept change of track and go ahead and shoot."
+    page: 6
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 2, 1943"
+    time: "0750"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Attack # 1 on freighter"
+    part: "I"
+    charges: "1"
+    damage:
+    with:
+    course:
+    speed:
+    event: "Fired four bow tubes, 9 sec. firing interval, using speed spread of 13 to 16 kts. First two torpedoes fired were definitely prematures. Target saw these and maneuvered to port, evading last two torpedoes. Target then dropped a depth charge and opened fire with his deck gun at the periscope."
+    page: 6
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 2, 1943"
+    time: "0904"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "225"
+    speed: "20 kts"
+    event: "Surfaced to make end run, target still in sight, true bearing 270 T. Went ahead full speed, 20 kts, on course 225."
+    page: 6
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 2, 1943"
+    time: "0922"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "300 T"
+    speed:
+    event: "c/c to 300 T, as it appeared it would be shorter to get around his starboard side."
+    page: 6
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 2, 1943"
+    time: "1000"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Lost sight of target in heavy rain squall; squall persisted throughout the day, enabling target to change course radically and evade."
+    page: 6
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 2, 1943"
+    time: "1100"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "SD radar contact moving in from 20 to 12 miles and then disappearing. May have been due to the rain squall."
+    page: 6
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 2, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Kept SJ manned searching for target at high speed until nightfall, greatly hampered by heavy rain squalls."
+    page: 6
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 2, 1943"
+    time: "1900"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Set course to assigned area covering the TRUK - RABAUL shipping lanes."
+    page: 6
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 2, 1943"
+    time: "2328"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Transmitted message to CTF 72 informing him of days disappointment. No trouble was experienced in getting this message through."
+    page: 6
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 3, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Underway on surface, on TRUK - RABAUL route."
+    page: 6
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 3, 1943"
+    time: "0855"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Took DF bearing of Japanese ship on 500 KC band, bearing 209 T. Could have been GROWLER attack on trawler and barge."
+    page: 6
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 3, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surface patrol entire day."
+    page: 6
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 4, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Underway on surface as before, covering TRUK - RABAUL shipping lane."
+    page: 7
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 4, 1943"
+    time: "0942"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Submerged to conduct high periscope patrol."
+    page: 7
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 4, 1943"
+    time: "1800"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 7
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 4, 1943"
+    time: "1856"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "18 kts"
+    event: "Proceeded at 18 kts conducting search of TRUK - RBUL shipping lane."
+    page: 7
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 4, 1943"
+    time: "2315"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "17 kts"
+    event: "Slowed to 17 kts."
+    page: 7
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 5, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "17 kts"
+    event: "Underway on surface at 17 kts."
+    page: 7
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 5, 1943"
+    time: "0547"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Sighting of warship/tender"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted masts bearing 021 T, distance about 20 miles. SHIP CONTACT # 7 ATTACK # 2."
+    page: 7
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 5, 1943"
+    time: "0554"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Tracking target for Attack # 2"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "19 kts"
+    event: "Determined enemy course to be 170 T, increased speed to 19 kts, maneuvering to get ahead of him, as he appeared to be making good speed."
+    page: 7
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 5, 1943"
+    time: "0900"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Submerging for Attack # 2"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "170 T"
+    speed:
+    event: "Had masts bearing 350 T, submerged on course 170 T."
+    page: 7
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 5, 1943"
+    time: "0918"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Periscope approach on possible tender"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "100 T"
+    speed:
+    event: "Sighted masts through periscope, angle on the bow zero. By 0934 his angle on the bow was still zero, range decreasing rapidly, from bow on appeared to be a destroyer. Ordered stern tubes set at 8 feet. Believed he might be running ahead of a more valuable target I could not see, so c/c to 100 T to open out on track and better identify him. Went to battle stations. Set torpedo depth at 15 feet. By 0940 his angle on bow was 150 port, range 3200 yds, speed checking 18 kts. Still looked like a destroyer or destroyer leader. By 0944 his angle on bow was 100 port, indicating zig to 184 T, apparently not a destroyer, but had a long flat deck between his two masts and single stack amidships. Sea was glassy calm, periscope exposures of necessity brief. Standing by to fire four stern tubes."
+    page: 7
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 5, 1943"
+    time: "0947-00"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Attack # 2 on TAIGEI class tender"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "0947-00 Fired # 7 tube. 0947-08 Fired # 8 tube. 0947-15 Heard explosion, premature # 7. 0947-22 Fired # 9 tube. 0947-30 Fired # 10 tube. 0947-38 Heard and saw explosion, premature # 9 torpedo. 0948-33 Saw explosion about amidships near the target, but it had appearance of exploding between target and submarine. First impression was that he was throwing a depth charge at us (or toward premature) with a side thrower, but this may well have been a hit with # 10 torpedo. At this time his angle on bow was about 90 P and he took up entire field in periscope in high power. From his appearance later identified him as a submarine tender, TAIGEI class. Sound could only hear one torpedo running, which further indicates # 10 was a possible hit."
+    page: 7
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 5, 1943"
+    time: "0948-33"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Counterattack by TAIGEI class tender"
+    part: "I"
+    charges: "5"
+    damage: "none"
+    with:
+    course:
+    speed:
+    event: "He was swinging rapidly toward us, so 0950 Ordered 300 feet, rigged for depth charge. 0951 First depth charge, passing 180 feet. 0952 Second depth charge. 0952-30 Third depth charge. 0953 Fourth depth charge. 0955 Fifth depth charge. While the charges all sounded heavy, none could be described as \"close\", and all appeared to be on starboard quarter. 0955-1020 Maneuvered to keep screws astern. He would stop occasionally, but appeared to have lost us and did not drop any more. Bathythermograph indicated a layer at 175 feet, which we were well below. He did not echo range. 1020 Soundman heard cracking noises, which he attributed to target breaking up. However considering aggressive actions of target after firing, this is seriously doubted. It is believed that there was a possibility of one hit in the target. Screws were no longer heard."
+    page: 8
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 5, 1943"
+    time: "1100"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Started up to periscope depth, could not get above 200 feet without pumping and speeding up. Should have started up sooner."
+    page: 8
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 5, 1943"
+    time: "1135"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Reached periscope depth, nothing in sight; remained submerged remainder of day on high periscope patrol due to probability of air search."
+    page: 8
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 5, 1943"
+    time: "1840"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced heading for newly assigned area vicinity of TRUK."
+    page: 8
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 5, 1943"
+    time: "2034"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "#3 fuel ballast tank now empty. Removed blank flanges from vent to use it as a normal ballast tank."
+    page: 8
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 6, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "15 kts"
+    event: "Underway at 15 kts heading for assigned area."
+    page: 8
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 6, 1943"
+    time: "0519"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove to further flush out # 3 ballast tank."
+    page: 8
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 6, 1943"
+    time: "0546"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced, and continued as before."
+    page: 8
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 6, 1943"
+    time: "0745"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted masts and upper works of large AK bearing 260 T, base course 190 T, speed 13-14 kts; commenced end around run. SHIP CONTACT 8."
+    page: 9
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 6, 1943"
+    time: "0750"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "19 kts"
+    event: "[SUMMARY] Sighted Dave float seaplane near target; increased to 19 kts on surface to make end run for night attack."
+    page: 9
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 6, 1943"
+    time: "0917"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "SD radar indication at 20 miles. From size of pip it appeared to be a large plane. AIRCRAFT CONTACT # 6."
+    page: 9
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 6, 1943"
+    time: "1334"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "19 kts"
+    event: "[SUMMARY] Received orders to form scouting line south of Truk at best speed; reversed course to 19 kts, abandoning large Maru."
+    page: 9
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 6, 1943"
+    time: "1428"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Sent contact report and attack results to CTF 72; Japs jammed message, taking over half hour to clear; hoped GREENLING could intercept Maru."
+    page: 9
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 7, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "19 kts"
+    event: "Underway at 19 kts. proceeding to position on scouting line."
+    page: 9
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 7, 1943"
+    time: "0230"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "6 kts"
+    event: "At assigned position, slowed to 6 kts and maintained radar and sound search in vicinity of assigned position."
+    page: 9
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 7, 1943"
+    time: "0530"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "west"
+    speed: "10 kts"
+    event: "Headed west at 10 kts in accordance with search plan."
+    page: 9
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 7, 1943"
+    time: "1115"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "15 kts"
+    event: "Received message telling of new scouting position. Reversed course and increased speed to 15 kts."
+    page: 9
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 7, 1943"
+    time: "1526"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "notable"
+    title: "Sighted submarine"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted submarine bearing 063 T. distance about 12 miles. SHIP CONTACT # 9"
+    page: 9
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 7, 1943"
+    time: "1530"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "notable"
+    title: "Submerged on submarine contact"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove, angle on bow of submarine about zero, believe that it is BALAO in next sector and that he has not yet received word in shifting of search sectors."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 7, 1943"
+    time: "1555"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "notable"
+    title: "Exercised battle stations for submarine contact"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Submarine true bearing had drawn to 018 T, indicating he was making good speed. Last angle on bow 180. Exercised crew at battle stations."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 7, 1943"
+    time: "1645"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced and resumed surface patrol."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 7, 1943"
+    time: "2130"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Arrived in newly assigned scouting position."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 8, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted surface patrol on scouting line."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 8, 1943"
+    time: "1505"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Indication on SD radar at four miles. Dove to 150 feet, plane not sighted AIRCRAFT CONTACT # 9."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 8, 1943"
+    time: "1509"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Heard bomb explosion not close. The weather at this time was overcast, about 7 covered with low lying clouds."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 8, 1943"
+    time: "1706"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "15 kts"
+    event: "Surfaced. Increased speed to 15 kts to cover assigned sector before darkness."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 9, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducting surface patrol on scouting line."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted surface patrol on scouting line."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time: "1305"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "180"
+    speed: "emergency"
+    event: "OOD sighted what was believed to be a periscope on port beam, bearing about ⟦ ⟧ T, went ahead emergency and c/c to 180. Later decided that this 'periscope' was a stick."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'; bearing digit blank or illegible in source"
+  - date: "August 10, 1943"
+    time: "1315"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Resumed course."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time: "1725"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "207 T"
+    speed:
+    event: "Sighted smoke bearing 027 T, c/c to 207 T and tracked, bearing constant. SHIP CONTACT # 10."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time: "1734"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove and commenced approach."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time: "1750"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "030 T"
+    speed:
+    event: "[SUMMARY] Lost smoke in rain squall, last bearing 030 T; came to that course, maintained continuous periscope search in squally weather."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time: "1900"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "12 kts"
+    event: "Surfaced and started search for target at 12 kts."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time: "1910"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "270 T"
+    speed:
+    event: "c/c to 270 T."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time: "1944"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "000 T"
+    speed:
+    event: "c/c to 000 T."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time: "2005"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted smoke emerging from a rain squall bearing 045 T."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time: "2007"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "226 T"
+    speed:
+    event: "c/c to 226 T. to start tracking."
+    page: 10
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time: "2014"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "040 T"
+    speed:
+    event: "Reversed course to 040 T, as range was rapidly decreasing, target going very slow or stopped, radar could not pick up."
+    page: 11
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time: "2022"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Identified target as small smoking patrol boat with possible MTB-like boat; reversed course and speeded up toward rain squall background."
+    page: 11
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time: "2026"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Patrol boat appeared to speed up and was closing range."
+    page: 11
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time: "2028"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Patrol boat challenged us with flashing light, with letter \"N\"."
+    page: 11
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time: "2029"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "notable"
+    title: "Quick dive away from patrol boat"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Made quick dive, range 3 to 4000 yds closing, radar never picked up patrol boat, no doubt due to his small size. Rigged for silent running and went deep, expecting he would work us over. At 175 feet there was a marked negative temperature gradient and we could no longer hear his screws when we were below that depth."
+    page: 11
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time: "2053"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Came up to 150 feet, sound could hear nothing but rain. Started up to periscope depth."
+    page: 11
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 10, 1943"
+    time: "2140"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Surfaced, patrol boat not in sight, resumed surface patrol; believed patrol boat suspected contact but boat dove before it was certain."
+    page: 11
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 11, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted surface patrol on scouting line."
+    page: 11
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 11, 1943"
+    time: "0558"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted patrol plane KAWANISHI type 99 (Cherry) bearing about 090 T, distance about 5-6 miles, flying very low. Made quick dive. SD not in use. AIRCRAFT CONTACT # 8."
+    page: 11
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 11, 1943"
+    time: "0823"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "15 kts"
+    event: "Surfaced and resumed surface patrol, increased scouting speed to 15 kts to make up for lost time."
+    page: 11
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 11, 1943"
+    time: "1141"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Made quick dive on definite radar indication at 6 miles. SD had been in use because sky was about 7 overcast. Plane not sighted. AIRCRAFT CONTACT # 9."
+    page: 11
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 11, 1943"
+    time: "1410"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "15 kts"
+    event: "Surfaced and resumed surface patrol at 15 kts."
+    page: 11
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 12, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted surface patrol on scouting line."
+    page: 11
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 12, 1943"
+    time: "1410"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Made quick dive upon sighting twin-engined land bomber (Mitsubishi type 1 Betty) bearing 225 T, course 300 T, altitude 500 ft, 7 miles; not sighted by plane."
+    page: 11
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 12, 1943"
+    time: "1526"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced and resumed surface patrol."
+    page: 12
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 13, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted surface patrol on scouting line."
+    page: 12
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 13, 1943"
+    time: "1105"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Lookout sighted object resembling submarine conning tower and shears; dove to investigate, hoping to catch Jap submarine DF'd during the night."
+    page: 12
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 13, 1943"
+    time: "1345"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Identified object as a large tree, floating roots upward. Surfaced and resumed patrol."
+    page: 12
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 14, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducting surface patrol on scouting line."
+    page: 12
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 15, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducting surface patrol on scouting line."
+    page: 12
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 15, 1943"
+    time: "1815"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Made trim dive."
+    page: 12
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 15, 1943"
+    time: "1832"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 12
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 15, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "During the evening #5 ballast tank went dry, rigged it as normal ballast tank."
+    page: 12
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 16, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted surface patrol on scouting line."
+    page: 12
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 16, 1943"
+    time: "0540"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove to flush out # 5 ballast tank."
+    page: 12
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 16, 1943"
+    time: "0606"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 12
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 17, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted surface patrol on scouting line."
+    page: 12
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 18, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted surface patrol on scouting line."
+    page: 12
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 18, 1943"
+    time: "0505"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Made trim dive."
+    page: 12
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 18, 1943"
+    time: "0532"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 13
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 18, 1943"
+    time: "0600"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove to grind in negative blow valve."
+    page: 13
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 18, 1943"
+    time: "0817"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 13
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 18, 1943"
+    time: "1052"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove upon sighting two planes bearing 250 T, distance about 7 miles, type of plane undetermined. AIRCRAFT CONTACT # 11."
+    page: 13
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 18, 1943"
+    time: "1157"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 13
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 18, 1943"
+    time: "1301"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Dove on sighting plane bearing 180 T, 7 miles, course 090, 1000 ft; diving immediately to avoid disclosing scouting line. AIRCRAFT CONTACT # 12."
+    page: 13
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 18, 1943"
+    time: "1410"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 13
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 19, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted surface patrol on scouting line."
+    page: 13
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 20, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted surface patrol on scouting line."
+    page: 13
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 20, 1943"
+    time: "0515"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Submerged for trim dive."
+    page: 13
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 20, 1943"
+    time: "0525"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 13
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 21, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted surface patrol on scouting line."
+    page: 13
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 21, 1943"
+    time: "0454"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted red light bearing 068 T, proceeded to investigate. Shortly afterward could make out green light underneath red light. SHIP CONTACT # 11."
+    page: 13
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 21, 1943"
+    time: "0515"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Morning twilight commencing, submerged to avoid detection."
+    page: 13
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 21, 1943"
+    time: "0540"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "notable"
+    title: "Sighting of hospital ship BUENOS AIRES MARU"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "222 T"
+    speed: "15"
+    event: "Ship identified as properly marked hospital ship, the BUENOS AIRES MARU, on course 222 T, speed 15, heading from TRUK to WEWAK, making 192 RPM. Took pictures, appeared to be fairly well loaded."
+    page: 13
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 21, 1943"
+    time: "0712"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced and resumed surface patrol."
+    page: 14
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 22, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted surface patrol on scouting line."
+    page: 14
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 23, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted surface patrol on scouting line."
+    page: 14
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 23, 1943"
+    time: "0305"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted apparent green flare; ran toward it for six miles, nothing further sighted, probably a falling star or meteor."
+    page: 14
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 23, 1943"
+    time: "0510"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Made trim dive. Worked on hydraulic accumulator to remove noise."
+    page: 14
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 23, 1943"
+    time: "0640"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced and resumed surface patrol."
+    page: 14
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 24, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducting surface patrol on scouting line."
+    page: 14
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 24, 1943"
+    time: "1045"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove upon sighting plane bearing 080 T, distance 13 miles, plane on course 000 T, altitude 1000 feet, plane type not definitely determined. AIRCRAFT CONTACT # 13."
+    page: 14
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 24, 1943"
+    time: "1131"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced and resumed surface patrol."
+    page: 14
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 25, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducting surface patrol on scouting line."
+    page: 14
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 26, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducting surface patrol on scouting line."
+    page: 14
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 26, 1943"
+    time: "0430"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Attempted to transmit despatch giving results of patrol on scouting line. Could not raise any station."
+    page: 14
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 26, 1943"
+    time: "0620"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "15 kts"
+    event: "Finally cleared radio message. Left scouting line as directed and proceeded northward to assigned area, clearing vicinity of radio transmission at 15 kts."
+    page: 14
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 26, 1943"
+    time: "0811"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Dove to conduct submerged patrol to enter new area undetected, anticipating intensive air search after three boats sounded off on scouting line."
+    page: 15
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 26, 1943"
+    time: "1823"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 15
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 27, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Patrolling assigned area."
+    page: 15
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 27, 1943"
+    time: "0532"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Submerged conducting high periscope patrol."
+    page: 15
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 27, 1943"
+    time: "1325"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted two float planes, type 95 (Dave) AIRCRAFT CONTACT # 14."
+    page: 15
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 27, 1943"
+    time: "1445"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted two float planes, type zero (Rufe) AIRCRAFT CONTACT 15."
+    page: 15
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 27, 1943"
+    time: "1555"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted two float planes, type 95 (Dave) AIRCRAFT CONTACT 16."
+    page: 15
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 27, 1943"
+    time: "1831"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 15
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 27, 1943"
+    time: "1848"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted searchlights in the direction of TRUK."
+    page: 15
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 28, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Patrolling assigned area."
+    page: 15
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 28, 1943"
+    time: "0512"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Submerged conducting high periscope patrol."
+    page: 15
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 28, 1943"
+    time: "1612"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted float plane, type 95 (Dave) AIRCRAFT CONTACT # 17"
+    page: 15
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 28, 1943"
+    time: "1837"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 15
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 29, 1943"
+    time:
+    zone: "K"
+    lat: "4-30 N"
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Patrolling assigned area; decided surface patrol at Lat 4-30 N on Truk-Rabaul route would be more effective for visibility and reconnaissance contact reports."
+    page: 15
+    flags: "Time zone K from heading 'All times King (-10)'; Lat 4-30 N is prospective patrol station, not current boat fix"
+  - date: "August 29, 1943"
+    time: "1012"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "full speed"
+    event: "[SUMMARY] Sighted smoke bearing 077 T, 25 miles; went to full speed and commenced end around run; smoke in puffs at 10-minute intervals. SHIP CONTACT # 12."
+    page: 15
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 29, 1943"
+    time: "1553"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Dove with target bearing 000 T, 15 miles, base course 180 T, sea calm; planned to silhouette target against sunset or wait for night shot."
+    page: 15
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 29, 1943"
+    time: "1916"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Surfaced; target changed base course to 210, speed 9 kts, resembling FUJISAN MARU, with two PC-like escorts; no favorable day shot attained."
+    page: 16
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 29, 1943"
+    time: "1919"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Picked target up on radar, range 11,100 yds, bearing 284 T. Commenced end around run."
+    page: 16
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 29, 1943"
+    time: "2125"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove to conduct approach, target bearing 004 T, distance 8400 yds. Could see target through binoculars clearly at 12,000 yds. Weather was clear, partially overcast, no moon, many stars visible."
+    page: 16
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 29, 1943"
+    time: "2138"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Picked up target on radar, bearing 046 T, range 7600 yds. Tracked continuously by radar. Could hear pinging in direction of target but pinging was not \"on\"."
+    page: 16
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 29, 1943"
+    time: "2153"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Went to periscope depth when range decreased to 3200 yards. High speed screws of escort were plainly heard and also low speed screw of target."
+    page: 16
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 29, 1943"
+    time: "2155"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Escort crossed stern close aboard. Kept trying to pick up target through periscope, could see nothing."
+    page: 16
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 29, 1943"
+    time: "2203"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted target 20 deg past zero gyro angle bearing; unable to catch up; held fire for night surface attack because it was too dark for periscope."
+    page: 16
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 29, 1943"
+    time: "2237"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Picked target up on radar range 7600 yds, bearing 192 T."
+    page: 16
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 29, 1943"
+    time: "2250"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced to make another end around run."
+    page: 16
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Making end around run in preparation for night surface attack."
+    page: 16
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "0043"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Approach for night attack on freighter"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "With target bearing 048 T, range 11,500 yds, started approach. There were now a few more clouds and it was difficult to see target through binoculars at ranges in excess of 6000 yds. Radar did not pick up escorts until their ranges were about 6000 yds, at which time one escort was located on target port bow, and another on starboard quarter. Decided best shot would be about 125 starboard track and maneuvered for this position. As this ship appeared loaded and was southbound, decided on a full salvo of six, depth setting 18 feet to minimize chances of prematures."
+    page: 16
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "0106-00"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Torpedo firing on freighter"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "0106-00 Fired # 3 tube. 0106-12 Fired # 4 tube. 0106-22 Fired # 5 tube. 0106-31 Fired # 6 tube. 0106-50 Fired # 1 tube. 0106-55 Fired # 2 tube."
+    page: 17
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "0107"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Maneuvering after firing"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Started swinging left."
+    page: 17
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "0108"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Torpedo results and gunfire from target and escort"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Could plainly see the tracks of four of the torpedoes. Three of them appeared to run under the target and expected to see some hits as TDC had been checking on during the entire run with radar ranges and TBT bearings. Spread was at least 150 percent of target length. At about this time target started tooting whistle rapidly to attract attention of escorts and fired bursts of 20 MM tracer firing not accurate and appeared to be toward opposite side of target. Shortly afterward the escort astern fired several shots from what sounded like a 3\" gun, but firing was erratic and don't believe we were spotted."
+    page: 17
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "0110"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "full power"
+    event: "Increased speed to full power on four main engines."
+    page: 17
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "0111"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "60-90"
+    event: "Engines started to smoke, slowed to 60-90 on four main engines."
+    page: 17
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "0111-30"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Heavy explosions (depth charges or torpedoes)"
+    part: "I"
+    charges: "5"
+    damage: "none"
+    with:
+    course:
+    speed:
+    event: "0111-30 Heard heavy explosion. 0111-55 Heard heavy explosion. 0112-10 Heard heavy explosion. 0112-25 Heard heavy explosion. 0112-40 Heard heavy explosion. These were probably heavy depth charges but could have been torpedoes exploding at end of run."
+    page: 17
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "0113"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "250 T"
+    speed:
+    event: "Steadied on course 250 T, range on target and escorts opening."
+    page: 17
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "0144"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Lost radar contact."
+    page: 17
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "0146"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "14 kts"
+    event: "c/c to target base, course, slowed to 14 kts and commenced reload."
+    page: 17
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "0245"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "notable"
+    title: "Erratic gauges on forward trim"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove to check trim, gauges on forward trim erratic."
+    page: 17
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "0302"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced, started searching for target. Weather squally"
+    page: 17
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "0900"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Started retiring search curve."
+    page: 17
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "1038"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Heard three distant depth charges, could not tell direction or see anything."
+    page: 17
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "1130"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sent contact report to CTF 72. Message cleared within 20 minutes."
+    page: 17
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "1251"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted plane bearing 000 T, distance 7 miles, altitude 1000 feet, course 115 T, twin engined bomber probably a \"Betty\". AIRCRAFT CONTACT # 18."
+    page: 17
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "1252"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove to avoid detection."
+    page: 17
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "1333"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted same plane bearing 005 T while preparing to surface; apparently DF'd on transmission, remained submerged."
+    page: 18
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "1347"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted formation of 7 planes, type undetermined, range 11 miles, on course 051 T. AIRCRAFT CONTACT # 19."
+    page: 18
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "1550"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Heard pinging on sound gear dead ahead, bearing 090 T, sighted possible smoke in same direction."
+    page: 18
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "1706"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "160 T"
+    speed:
+    event: "Pinging and possible smoke drawing steady to right, c/c to 160 T to intercept."
+    page: 18
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "1845"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced. Pinging had ceased at sunset, last bearing 120 T. Weather on surfacing was squally."
+    page: 18
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "1905"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "120 T"
+    speed:
+    event: "c/c to 120 T, stopping about every half hour to listen on sound gear."
+    page: 18
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "2000"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "180 T"
+    speed:
+    event: "c/c to 180 T."
+    page: 18
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "2235"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Radar contact, range 12,000 yds, bearing 222 T. Started tracking."
+    page: 18
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 30, 1943"
+    time: "2240"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Commenced end around run around target's port beam beyond 10,000 yds; target and escorts recognized as same target shot at last night."
+    page: 18
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 31, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Underway on surface tracking target in preparation for night attack."
+    page: 18
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 31, 1943"
+    time: "0257"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Submerged to conduct approach; target bearing 022 T, 7250 yds; target heard pinging consistently toward submarine."
+    page: 18
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 31, 1943"
+    time: "0330"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Radar contact at 6700 yds; screen indicated another radar; fast escort screws closing; pinging came from slow screws with definite contact on boat; periscope blind."
+    page: 18
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 31, 1943"
+    time: "0345"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "notable"
+    title: "Evasion of suspected ASW group"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Pinging still directly on us, could hear the echo from him. Rigged for silent running and went deep. Negative temperature gradient was indicated at 175 feet, ran at 200 feet, after we were below temperature gradient he apparently lost us, as he started searching with his sound gear. It is strongly suspected that this was an anti-submarine group for the following reasons: (a) Target had much shallower draft than his appearance would indicate. (b) Pinging came from the target, not from the escorts. (c) Puffs of smoke appeared to say 'come on'. (d) If we had been DF'd in our morning transmission he apparently had headed for the spot, instead of avoiding it."
+    page: 19
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 31, 1943"
+    time: "0447"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced, nothing in sight."
+    page: 19
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 31, 1943"
+    time: "0534"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted small vessel bearing 178 T, 4-5 miles, which flashed green light; submerged, deciding it was patrol boat; it disappeared over horizon. SHIP CONTACT # 13."
+    page: 19
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "August 31, 1943"
+    time: "1850"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced. As our presence in this area was known headed for new spot southwest of MUSSAU, where the DRUM had reported good hunting."
+    page: 19
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 1, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted patrol in assigned area."
+    page: 19
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 1, 1943"
+    time: "0536"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Submerged."
+    page: 19
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 1, 1943"
+    time: "0607"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted one float plane (Dave), bearing 165 T, course 275 T, altitude 1000 feet. AIRCRAFT CONTACT # 20."
+    page: 19
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 1, 1943"
+    time: "1845"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 19
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 1, 1943"
+    time: "2230"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "330 T"
+    speed: "17.5 kts"
+    event: "Went ahead 17.5 kts on course 330 T."
+    page: 19
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 2, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "17.5 knots"
+    event: "Conducted surface patrol in assigned area at 17.5 knots."
+    page: 19
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 2, 1943"
+    time: "1300"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "11 knots"
+    event: "Slowed to 11 knots."
+    page: 19
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 3, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted patrol in assigned area."
+    page: 20
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 3, 1943"
+    time: "0532"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Submerged."
+    page: 20
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 3, 1943"
+    time: "1915"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced. Left patrol area tonight in accordance with despatch orders of CTF 72."
+    page: 20
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 4, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Underway on surface, crossing TRUK - RABAUL shipping lanes."
+    page: 20
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 4, 1943"
+    time: "0804"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "OOD sighted plane coming through cloud bank, KAWANISHI type 99 (Cherry), distance 5 miles, bearing 135 T, plane course 090 T. Made quick dive. AIRCRAFT CONTACT # 21."
+    page: 20
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 4, 1943"
+    time: "1034"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced in heavy rain squall and resumed surface patrol of shipping lanes."
+    page: 20
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 5, 1943"
+    time: "0035"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Transmitted position report in accordance with instructions from CTF 72."
+    page: 20
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 5, 1943"
+    time: "0607"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Submerged."
+    page: 20
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 5, 1943"
+    time: "1816"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 20
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 6, 1943"
+    time: "0517"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Submerged."
+    page: 20
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 6, 1943"
+    time: "1808"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 20
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 7, 1943"
+    time: "0456"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Submerged. During the day, sighted eight bombing planes at various times. Those close enough to identify were allied planes."
+    page: 20
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 7, 1943"
+    time: "1807"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 20
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 7, 1943"
+    time: "2015"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "rendezvous"
+    title: "Sighted USS GROWLER on parallel course"
+    part: "I"
+    charges:
+    damage:
+    with: "USS GROWLER"
+    course:
+    speed:
+    event: "Sighted USS GROWLER bearing 250 T, distance about 6 miles on parallel course."
+    page: 20
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 8, 1943"
+    time: "0340"
+    zone: "K"
+    lat:
+    lon:
+    from: "CAPE ASTROLABE, MALAITA"
+    bearing: "W"
+    distance: "5 miles"
+    bearing_is: "from_landmark"
+    tag: "rendezvous"
+    title: "Rendezvous with TUI and USS GROWLER"
+    part: "I"
+    charges:
+    damage:
+    with: "New Zealand corvette TUI and USS GROWLER"
+    course: "227 T"
+    speed: "11 kts"
+    event: "Contacted and exchanged recognition signals with New Zealand corvette TUI (our escort) and USS GROWLER at Rendezvous, 5 miles west of CAPE ASTROLABE, MALAITA. Started proceeding on course 227 T, at 11 kts, leaving TULAGI, SAVO ISLAND and GUADALCANAL on the port hand and SANTA ISABEL on the starboard. During the day sighted many aircraft, mainly liberators and flying fortresses also sighted several patrol craft, several friendly DD's and many landing craft."
+    page: 21
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 8, 1943"
+    time: "1400"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "rendezvous"
+    title: "Released escort, proceeding with USS GROWLER"
+    part: "I"
+    charges:
+    damage:
+    with: "USS GROWLER"
+    course:
+    speed:
+    event: "Released escort, proceeded on surface in company with USS GROWLER."
+    page: 21
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 9, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "rendezvous"
+    title: "Underway in company with USS GROWLER"
+    part: "I"
+    charges:
+    damage:
+    with: "USS GROWLER"
+    course:
+    speed:
+    event: "Underway on surface in company with USS GROWLER."
+    page: 21
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 9, 1943"
+    time: "0639"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "notable"
+    title: "Submerged for friendly plane"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "GROWLER reported plane over MN bearing 015 T. Dove as it could be enemy and own planes have been very unfriendly lately in this area. Plane was RAAF B-25. GROWLER remained on surface, exchanged recognition signals and informed planes we were friendly. AIRCRAFT CONTACT # 22."
+    page: 21
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 9, 1943"
+    time: "0655"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 21
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 10, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "rendezvous"
+    title: "Underway in company with USS GROWLER"
+    part: "I"
+    charges:
+    damage:
+    with: "USS GROWLER"
+    course:
+    speed:
+    event: "Underway on surface in company with USS GROWLER. During the afternoon conducted drills and radar tracking while GROWLER had slowed to conduct battery discharge."
+    page: 21
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 11, 1943"
+    time:
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "rendezvous"
+    title: "Underway in company with USS GROWLER"
+    part: "I"
+    charges:
+    damage:
+    with: "USS GROWLER"
+    course:
+    speed:
+    event: "Underway in company with USS GROWLER."
+    page: 21
+    flags: "Time zone K from heading 'All times King (-10)'"
+  - date: "September 12, 1943"
+    time: "0800"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Arrived Brisbane, Australia."
+    page: 21
+    flags: "Time zone K from heading 'All times King (-10)'"
+```
+
+On page 10 (August 10, 1943 at 1305), the bearing digits before "T" in the periscope sighting were blank or illegible in the scan.

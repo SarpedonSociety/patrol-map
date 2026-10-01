@@ -20,7 +20,7 @@ SS-236:   # Silversides
   3:  { status: missing }
   4:  { status: transcribed, found_in: Fold3, report_no: 133, start: 1942-12-17, end: 1943-01-31, note: "From Brisbane to Pearl. Gemini gemini-01/02 (narrative), gemini-03 (Part VIII), contacts-01; appendectomy and stuck-torpedo entries hand-transcribed from the scans" }
   5:  { status: transcribed, found_in: Fold3, start: 1943-05-17, end: 1943-07-01, note: "Second overlap set. Pearl Harbor to Brisbane; mine plant off Steffen Strait; rendezvous with Guardfish 19 June. Gemini gemini-01 (narrative, pages 1-9) and contacts-01 (Parts V-VII, pages 10-11); Part VIII 'nothing new'; to verify" }
-  6:  { status: available, found_in: Fold3 }
+  6:  { status: transcribed, found_in: Fold3, start: 1943-07-21, end: 1943-09-12, note: "Brisbane to Brisbane, pack with Coucal, Tuna, Growler; no ships sunk. Gemini gemini-01 (narrative, pages 1-21), contacts-01 (Parts F-G, pages 22-24), attacks-01 (3 forms, pages 24-29); noon positions and fuel/distance table still to transcribe; to verify" }
   7:  { status: available, found_in: Fold3 }
   8:  { status: available, found_in: Fold3 }
   9:  { status: available, found_in: Fold3 }

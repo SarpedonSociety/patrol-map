@@ -1,0 +1,1687 @@
+YAML
+
+```
+boat: "SS-236"
+patrol: 6
+year: 1943
+report: "Report of Sixth War Patrol."
+comsubpac_report_no:
+commanding_officer:
+citation:
+  archive: "NARA"
+  record_group: "38"
+  nara_catalog_id: "4697018"
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946"
+  reel: "A567"
+  micro_serial: "56148"
+  file: "A16-3"
+  serial: "6"
+  date: "9/12/1943"
+fold3_images: { 5: 270149252, 6: 270149258, 7: 270149263, 10: 270149282, 16: 270149327, 17: 270149335 }
+default_hemisphere: { lat: N, lon: E }
+departure: { port: , date: , time: , zone: , page: , flags: }
+arrival:   { port: , date: , time: , zone: , page: , flags: }
+events:
+  - date: 31JUL
+    time: "0715"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted smoke bearing 288 T, commenced approach on contacts 2-6 at 2/3 speed on calm sea."
+    page: 5
+    flags: "missing date heading on first entry of page 5; follows narrative preceding 1 August"
+  - date: 31JUL
+    time: "0732"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted masts of leading ship, angle on bow 30 starboard, bearing 232 T, range 8500 yards."
+    page: 5
+    flags:
+  - date: 31JUL
+    time: "0736"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "310 T"
+    speed: "6 kts"
+    event: "Went ahead 6 kts on course 310 T, at 100 feet."
+    page: 5
+    flags:
+  - date: 31JUL
+    time: "0745"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "6 kts"
+    event: "[SUMMARY] Sighted 4 targets (2 AKs, 2 DDs) and 2 float biplanes (Dave); closed at 90 feet, flooded tubes."
+    page: 5
+    flags:
+  - date: 31JUL
+    time: "0755"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "6 kts"
+    event: "[SUMMARY] Convoy zigged away to base course 315; continued attempting to close range at 6 kts."
+    page: 5
+    flags:
+  - date: 31JUL
+    time: "0825"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Secured approach as convoy crossed horizon; did not surface due to enemy air bases; trailed convoy."
+    page: 5
+    flags:
+  - date: 31JUL
+    time: "1845"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "17 kts."
+    event: "Surfaced, went ahead 17 kts.."
+    page: 5
+    flags:
+  - date: 01AUG
+    time: "2235"
+    zone:
+    lat: "2-33 S"
+    lon: "152-44 E"
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "17 kts.."
+    event: "Underway on surface at 17 kts.."
+    page: 5
+    flags: "lat and lon from Noon Position on page 5"
+  - date: 01AUG
+    time: "0611"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Commenced adjusting course to make retiring search curve on the KAVIENG TRUK route."
+    page: 5
+    flags:
+  - date: 01AUG
+    time: "0940"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Distinct indication on SD radar at 20 miles. Did not come close, finally faded out. AIRCRAFT CONTACT # 4."
+    page: 5
+    flags:
+  - date: 01AUG
+    time: "1610"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "northward"
+    speed:
+    event: "Secured retiring search curve and changed course to northward."
+    page: 5
+    flags:
+  - date: 02AUG
+    time: "0656"
+    zone:
+    lat: "1-42 N"
+    lon: "151-03 E"
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Attack No. 1"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "120 T"
+    speed:
+    event: "While on course 120 T, sighted target dead ahead emerging from a squally background. Dove and commenced approach. SHIP CONTACT # 6 ATTACK # 1."
+    page: 5
+    flags: "lat and lon from Noon Position preceding entry on page 5"
+  - date: 02AUG
+    time: "0709"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Approach on target"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "220 T"
+    speed: "9 kts."
+    event: "True bearing drawing to the right, and angle on the bow appears stbd. came to course 220 T, increased speed to 9 kts."
+    page: 6
+    flags:
+  - date: 02AUG
+    time: "0727"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Closing target"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "9 kts"
+    event: "Angle on the bow was 35 stbd, range 8400 yds, could only see one ship, was the # 2 in column sighted in the morning of July 31st. Went to 9 kts again."
+    page: 6
+    flags:
+  - date: 02AUG
+    time: "0747"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Approach bearing"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Had him in a fair position, range 2400, angle on bow 70 stbd, gyro angle 350 coming on to zero."
+    page: 6
+    flags:
+  - date: 02AUG
+    time: "0749"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Target zigs"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Raised periscope to put in firing bearings target had zigged away angle on bow now 130 stbd.. Decided to accept change of track and go ahead and shoot."
+    page: 6
+    flags:
+  - date: 02AUG
+    time: "0750"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Torpedo firing and gunfire/depth charge"
+    part: "I"
+    charges: "1"
+    damage:
+    with:
+    course:
+    speed:
+    event: "Fired four bow tubes, 9 sec. firing interval, using speed spread of 13 to 16 kts. First two torpedoes fired were definitely prematures. Target saw these and maneuvered to port, evading last two torpedoes. Target then dropped a depth charge and opened fire with his deck gun at the periscope."
+    page: 6
+    flags: "tagged counterattack due to target depth charge and deck gunfire"
+  - date: 02AUG
+    time: "0904"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "225"
+    speed: "20 kts"
+    event: "Surfaced to make end run, target still in sight, true bearing 270 T. Went ahead full speed, 20 kts, on course 225."
+    page: 6
+    flags:
+  - date: 02AUG
+    time: "0922"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "300 T"
+    speed:
+    event: "c/c to 300 T, as it appeared it would be shorter to get around his starboard side."
+    page: 6
+    flags:
+  - date: 02AUG
+    time: "1000"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Lost target in heavy rain squall; target made radical course change and contact was lost."
+    page: 6
+    flags:
+  - date: 02AUG
+    time: "1100"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "SD radar contact moving in from 20 to 12 miles and then disappearing. May have been due to the rain squall."
+    page: 6
+    flags:
+  - date: 02AUG
+    time: "1900"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Searched with SJ radar hampered by squalls; set course to TRUK-RABAUL lanes."
+    page: 6
+    flags:
+  - date: 02AUG
+    time: "2328"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Transmitted message to CTF 72 informing him of days disappointment. No trouble was experienced in getting this message through."
+    page: 6
+    flags:
+  - date: 03AUG
+    time:
+    zone:
+    lat: "4-58 N"
+    lon: "148-31 E"
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Underway on surface, on TRUK RABAUL route."
+    page: 6
+    flags: "lat and lon from Noon Position preceding entry on page 6"
+  - date: 03AUG
+    time: "0855"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Took DF bearing of Japanese ship on 500 KC band, bearing 209 T. Could have been GROWLER attack on trawler and barge. Surface patrol entire day."
+    page: 6
+    flags:
+  - date: 04AUG
+    time:
+    zone:
+    lat: "4-20 N"
+    lon: "150-20 E"
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Underway on surface as before, covering TRUK RABAUL shipping lane."
+    page: 7
+    flags: "lat and lon from Noon Position on August 3 preceding entry"
+  - date: 04AUG
+    time: "0942"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Submerged to conduct high periscope patrol."
+    page: 7
+    flags:
+  - date: 04AUG
+    time: "1800"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: 7
+    flags:
+  - date: 04AUG
+    time: "1856"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "18 kts"
+    event: "Proceeded at 18 kts conducting search of TRUK RBUL shipping lane."
+    page: 7
+    flags:
+  - date: 04AUG
+    time: "2315"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "17 kts."
+    event: "Slowed to 17 kts."
+    page: 7
+    flags:
+  - date: 05AUG
+    time:
+    zone:
+    lat: "4-29 N"
+    lon: "152-57 E"
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "17 kts."
+    event: "Underway on surface at 17 kts."
+    page: 7
+    flags: "lat and lon from Noon Position on August 4 preceding entry"
+  - date: 05AUG
+    time: "0547"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Contact with target"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted masts bearing 021 T, distance about 20 miles. SHIP CONTACT # 7 ATTACK # 2."
+    page: 7
+    flags:
+  - date: 05AUG
+    time: "0554"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Maneuvering ahead of target"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "19 kts"
+    event: "Determined enemy course to be 170 T, increased speed to 19 kts, maneuvering to get ahead of him, as he appeared to be making good speed."
+    page: 7
+    flags:
+  - date: 05AUG
+    time: "0900"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Submerging to attack"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "170 T."
+    speed:
+    event: "Had masts bearing 350 T, submerged on course 170 T."
+    page: 7
+    flags:
+  - date: 05AUG
+    time: "0918"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Periscope approach"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "100 T"
+    speed:
+    event: "Sighted masts through periscope, angle on the bow zero. By 0934 his angle on the bow was still zero, range decreasing rapidly, from bow on appeared to be a destroyer. Ordered stern tubes set at 8 feet. Believed he might be running ahead of a more valuable target I could not see, so c/c to 100 T to open out on track and better identify him. Went to battle stations. Set torpedo depth at 15 feet. By 0940 his angle on bow was 15° port, range 3200 yds, speed checking 18 kts. Still looked like a destroyer or destroyer leader. By 0944 his angle on bow was 30° port, indicating zig to 184 T, apparently not a destroyer, but had a long flat deck between his two masts and single stack amidships. Sea was glassy calm, periscope exposures of necessity brief. Standing by to fire four stern tubes."
+    page: 7
+    flags:
+  - date: 05AUG
+    time: "0947-00"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Firing torpedoes and prematures"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "0947-00 Fired # 7 tube. 0947-08 Fired # 8 tube. 0947-15 Heard explosion, premature # 7. 0947-22 Fired # 9 tube. 0947-30 Fired # 10 tube. 0947-38 Heard and saw explosion, premature # 9 torpedo. 0948-33 Saw explosion about amidship's near the target, but it had appearance of exploding between target and submarine. First impression was that he was throwing a"
+    page: 7
+    flags: "sentence cuts off at bottom of page 7"
+  - date: 07AUG
+    time: "1530"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "rendezvous"
+    title: "Sighting presumed BALAO"
+    part: "I"
+    charges:
+    damage:
+    with: "BALAO"
+    course:
+    speed:
+    event: "Dove, angle on bow of submarine about zero, believe that it is BALAO in next sector and that he has not yet received word in shifting of search sectors."
+    page: 10
+    flags: "tagged rendezvous due to encounter/working sector with BALAO"
+  - date: 07AUG
+    time: "1555"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Submarine true bearing had drawn to 018 T, indicating he was making good speed. Last angle on bow 180. Exercised crew at battle stations."
+    page: 10
+    flags:
+  - date: 07AUG
+    time: "1645"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced and resumed surface patrol."
+    page: 10
+    flags:
+  - date: 07AUG
+    time: "2130"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Arrived in newly assigned scouting position."
+    page: 10
+    flags:
+  - date: 08AUG
+    time:
+    zone:
+    lat: "4-57 N"
+    lon: "14⟦8⟧-49 E"
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted surface patrol on scouting line."
+    page: 10
+    flags: "date typed as August 8, 19434; lon typed as 14-49 E (likely 148-49 E); lat and lon from Noon Position on August 7 preceding entry"
+  - date: 08AUG
+    time: "1505"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Indication on SD radar at four miles. Dove to 150 feet, plane not sighted AIRCRAFT CONTACT # 9."
+    page: 10
+    flags:
+  - date: 08AUG
+    time: "1509"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Bomb explosion"
+    part: "I"
+    charges: "1"
+    damage:
+    with:
+    course:
+    speed:
+    event: "Heard bomb explosion not close. The weather at this time was overcast, about .7 covered with low lying clouds."
+    page: 10
+    flags:
+  - date: 08AUG
+    time: "1706"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "15. kts"
+    event: "Surfaced. Increased speed to 15. kts to cover assigned sector before darkness."
+    page: 10
+    flags:
+  - date: 09AUG
+    time:
+    zone:
+    lat: "4-57 N"
+    lon: "150-43 E"
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducting surface patrol on scouting line."
+    page: 10
+    flags: "lat and lon from Noon Position on August 8 preceding entry"
+  - date: 10AUG
+    time:
+    zone:
+    lat: "4-28 N"
+    lon: "150-42 E"
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted surface patrol on scouting line."
+    page: 10
+    flags: "lat and lon from Noon Position on August 9 preceding entry"
+  - date: 10AUG
+    time: "1305"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "180"
+    speed:
+    event: "OOD sighted what was believed to be a periscope on port beam, bearing about ⟦ ⟧ T, went ahead emergency and c/c to 180. Later decided that this 'periscope' was a stick."
+    page: 10
+    flags: "bearing omitted or unprinted before T"
+  - date: 10AUG
+    time: "1315"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Resumed course."
+    page: 10
+    flags:
+  - date: 10AUG
+    time: "1725"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "207 T"
+    speed:
+    event: "Sighted smoke bearing 027 T, c/c to 207 T and tracked, bearing constant. SHIP CONTACT # 10."
+    page: 10
+    flags:
+  - date: 10AUG
+    time: "1734"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove and commenced approach."
+    page: 10
+    flags:
+  - date: 10AUG
+    time: "1750"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "030 T"
+    speed:
+    event: "Lost smoke in rain squall, last bearing 030 T, came to that course, continuous search through periscope for target, but weather remained squally."
+    page: 10
+    flags:
+  - date: 10AUG
+    time: "1900"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "12 kts."
+    event: "Surfaced and started search for target at 12 kts."
+    page: 10
+    flags:
+  - date: 10AUG
+    time: "1910"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "270 T"
+    speed:
+    event: "c/c to 270 T."
+    page: 10
+    flags:
+  - date: 10AUG
+    time: "1944"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "000 T."
+    speed:
+    event: "c/c to 000 T."
+    page: 10
+    flags:
+  - date: 10AUG
+    time: "2005"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted smoke emerging from a rain squall bearing 045 ⟦T⟧."
+    page: 10
+    flags:
+  - date: 10AUG
+    time: "2007"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "226 T."
+    speed:
+    event: "c/c to 226 T. to start tracking."
+    page: 10
+    flags:
+  - date: 29AUG
+    time: "1916"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Surfaced; target altered course to 210, resembles FANA MARU; two small PC-type escorts sighted."
+    page: 16
+    flags: "missing date heading on first entry of page 16; follows narrative preceding 30 August"
+  - date: 29AUG
+    time: "1919"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Picked target up on radar, range 11,100 yds, bearing 284 T. Commenced end around run."
+    page: 16
+    flags:
+  - date: 29AUG
+    time: "2125"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove to conduct approach, target bearing 004 T, distance 8400 yds. Could see target through binoculars clearly at 12,000 yds. Weather was clear, partially overcast, no moon, many stars visible."
+    page: 16
+    flags:
+  - date: 29AUG
+    time: "2138"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Picked up target on radar, bearing 046 T, range 7600 yds, Tracked continuously by radar. Could hear pinging in direction of target but pinging was not 'on'."
+    page: 16
+    flags:
+  - date: 29AUG
+    time: "2153"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Went to periscope depth when range decreased to 3200 yards. High speed screws of escort were plainly heard and also low speed screw of target."
+    page: 16
+    flags:
+  - date: 29AUG
+    time: "2155"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Escort crossed stern close aboard. Kept trying to pick up target through periscope, could see nothing."
+    page: 16
+    flags:
+  - date: 29AUG
+    time: "2203"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted target past firing bearing; unable to catch up; held fire to attempt night surface attack."
+    page: 16
+    flags:
+  - date: 29AUG
+    time: "2237"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Picked target up on radar range 7600 yds, bearing 192 T."
+    page: 16
+    flags:
+  - date: 29AUG
+    time: "2250"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced to make another end around run."
+    page: 16
+    flags:
+  - date: 30AUG
+    time:
+    zone:
+    lat: "3-58 N"
+    lon: "150-33 E"
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Making end around run in preparation for night surface attack."
+    page: 16
+    flags: "lat and lon from Noon Position on page 16"
+  - date: 30AUG
+    time: "0043"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Surface approach on target"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "With target bearing 048 T, range 11,500 yds, started approach. There were now a few more clouds and it was difficult to see target through binoculars at ranges in excess of 6000 yds. Radar did not pick up escorts until their ranges were about 6000 yds, at which time one escort was located on target port bow, and another on starboard quarter. Decided best shot would be about 125° starboard track and maneuvered for this position. As this ship appeared loaded and was southbound, decided on a full salvo of six, depth setting 18 feet to minimize chances of prematures."
+    page: 16
+    flags:
+  - date: 30AUG
+    time: "0106-00"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Firing salvo of six torpedoes"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "0106-00 Fired # 3 Tube; 0106-12 Fired # 4 tube; 0106-22 Fired # 5 tube; 0106-31 Fired # 6 tube; 0106-50 Fired # 1 tube; 0106-55 Fired # 2 tube."
+    page: 17
+    flags:
+  - date: 30AUG
+    time: "0107"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Swinging clear after firing"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Started swinging left."
+    page: 17
+    flags:
+  - date: 30AUG
+    time: "0108"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Target and escort gunfire"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Could plainly see the tracks of four of the torpedoes. Three of them appeared to run under the target and expected to see some hits as TDC had been checking on during the entire run with radar ranges and TBT bearings. Spread was at least 150 percent of target length. At about this time target started tooting whistle rapidly to attract attention of escorts and fired bursts of 20 MM tracer firing not accurate and appeared to be toward opposite side of target. Shortly afterward the escort astern fired several shots from what sounded like a 3\" gun, but firing was erratic and don't believe we were spotted."
+    page: 17
+    flags: "tagged counterattack due to 20mm and 3-inch gunfire"
+  - date: 30AUG
+    time: "0110"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Increased speed to full power on four main engines."
+    page: 17
+    flags:
+  - date: 30AUG
+    time: "0111"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Engines started to smoke, slowed to 60-90 on four main engines."
+    page: 17
+    flags:
+  - date: 30AUG
+    time: "0111-30"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Heavy explosions / depth charges"
+    part: "I"
+    charges: "5"
+    damage:
+    with:
+    course:
+    speed:
+    event: "0111-30 Heard heavy explosion. 0111-55 Heard heavy explosion. 0112-10 Heard heavy explosion. 0112-25 Heard heavy explosion. 0112-40 Heard heavy explosion. These were probably heavy depth charges but could have been torpedoes exploding at end of run."
+    page: 17
+    flags:
+  - date: 30AUG
+    time: "0113"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "250 T"
+    speed:
+    event: "Steadied on course 250 T, range on target and escorts opening."
+    page: 17
+    flags:
+  - date: 30AUG
+    time: "0144"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Lost radar contact."
+    page: 17
+    flags:
+  - date: 30AUG
+    time: "0146"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "14 kts"
+    event: "c/c to target base course, slowed to 14 kts and commenced reload."
+    page: 17
+    flags:
+  - date: 30AUG
+    time: "0245"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "notable"
+    title: "Erratic trim gauges"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove to check trim, gauges on forward trim erratic."
+    page: 17
+    flags:
+  - date: 30AUG
+    time: "0302"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced, started searching for target. Weather squally"
+    page: 17
+    flags:
+  - date: 30AUG
+    time: "0900"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Started retiring search curve."
+    page: 17
+    flags:
+  - date: 30AUG
+    time: "1038"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Distant depth charges"
+    part: "I"
+    charges: "3"
+    damage:
+    with:
+    course:
+    speed:
+    event: "Heard three distant depth charges, could not tell direction or see anything."
+    page: 17
+    flags:
+  - date: 30AUG
+    time: "1130"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sent contact report to CTF 72. Message cleared within 20 minutes."
+    page: 17
+    flags:
+  - date: 30AUG
+    time: "1251"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "115 T"
+    speed:
+    event: "Sighted plane bearing 000 T, distance 7 miles, altitude 1000 feet, course 115 T, twin engined bomber probably a 'Betty'. AIRCRAFT CONTACT # 18."
+    page: 17
+    flags:
+  - date: 30AUG
+    time: "1252"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dove to avoid detection."
+    page: 17
+    flags:
+```
+
+Could not transcribe: missing intermediate pages between pages 7 and 10, and between pages 10 and 16; departure/arrival entries, endorsement first page, and commanding officer's name not present in the provided selection; the sentence ending on page 7 cuts off mid-phrase.

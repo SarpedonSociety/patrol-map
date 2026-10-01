@@ -1,0 +1,94 @@
+# USS Silversides (SS-236), War Patrol 6
+# Transcribed by Gemini in fresh chats, one output each: gemini-01.yml
+# (narrative, pages 1-21), contacts-01.md (Parts F and G, pages 22-24) and
+# attacks-01.md (three TORPEDO ATTACK DATA forms, pages 24-29). Hand entries
+# here take precedence.
+# check-gemini-01.yml is a second read of pages 5, 6, 7, 10, 16 and 17 in a fresh
+# chat, kept for verification; the converter ignores it.
+# Brisbane to Brisbane, with USS COUCAL, TUNA and GROWLER (a pack). Narrative
+# entries carry almost no positions of their own; the boat's noon positions
+# and the fuel and distance table are still to be transcribed.
+# No ships sunk or damaged: all three attacks missed or were prematures.
+
+boat: SS-236
+patrol: 6
+year: 1943
+report_found: yes
+report: "U.S.S. SILVERSIDES Report of Sixth War Patrol."
+comsubpac_report_no:
+commanding_officer: "J.S. COYE, Jr."
+# Time zone: the narrative is headed "(B) NARRATIVE -- All times King (-10)"
+# (zone K). The report types no zone letters on most table rows, so K is
+# assumed for them. The noon positions give no zone: K is set for that table
+# below, which longitude supports (all positions lie in 142.5E-157.5E).
+table_zones: { NOON POSITIONS: K }
+
+# Report totals (not the sum of the noon table). Fuel is in gallons.
+# 15,900 gallons received from USS COUCAL while enroute to the area.
+miles_steamed: { to_area: 2005, in_area: 8687, area_to_base: 1435, total: 12127 }
+fuel_expended: { to_area: 17080, in_area: 65095, area_to_base: 14755, total: 96930 }
+
+departure:
+  port: Brisbane
+  date: 21 July
+  time: "0900"
+  zone: K
+  page: 1
+
+arrival:
+  port: Brisbane
+  date: 12 September
+  time: "0800"
+  zone: K
+  page: 21
+
+period:
+  start: 1943-07-21
+  end: 1943-09-12
+  source: "Patrol report"
+
+tonnage: []
+
+events:
+  # Aircraft contact 7 (1505 K 8 August) "dropped one bomb"; the first read left
+  # this entry untagged, the second read tagged it a counterattack.
+  - replaces: { date: "August 8, 1943", time: "1509" }
+    date: "August 8, 1943"
+    time: "1509"
+    zone: K
+    tag: counterattack
+    title: Bomb dropped by aircraft
+    charges: 1
+    part: I
+    event: "Heard bomb explosion not close. The weather at this time was overcast, about 7 covered with low lying clouds."
+    page: 10
+    flags: "Tag and charge count added by hand from the aircraft contact table (contact 7: 'Plane not sighted. He sighted us and dropped one bomb')."
+  - replaces: { date: "August 5, 1943", time: "0918" }
+    date: August 5, 1943
+    time: 0918
+    zone: K
+    tag: attack
+    title: Periscope approach on possible tender
+    part: I
+    course: 100 T
+    event: Sighted masts through periscope, angle on the bow zero. By 0934 his angle on the bow was still zero, range decreasing rapidly, from bow on appeared to be a destroyer. Ordered stern tubes set at 8 feet. Believed he might be running ahead of a more valuable target I could not see, so c/c to 100 T to open out on track and better identify him. Went to battle stations. Set torpedo depth at 15 feet. By 0940 his angle on bow was 15° port, range 3200 yds, speed checking 18 kts. Still looked like a destroyer or destroyer leader. By 0944 his angle on bow was 30° port, indicating zig to 184 T, apparently not a destroyer, but had a long flat deck between his two masts and a single stack amidships. Sea was glassy calm, periscope exposures of necessity brief. Standing by to fire four stern tubes.
+    page: 7
+    flags: "Angles on the bow read from the scan by hand: '15° port' at 0940 (Gemini's first read had '150 port') and '30° port' at 0944 (first read '100 port'); also 'and a single stack amidships' (first read lacked the 'a'). Time zone K from heading 'All times King (-10)'."
+  - replaces: { date: "August 10, 1943", time: "1305" }
+    date: August 10, 1943
+    time: '1305'
+    zone: K
+    part: I
+    course: '180'
+    speed: emergency
+    event: OOD sighted what was believed to be a periscope on port beam, bearing about ⟦000⟧ T, went ahead emergency and c/c to 180. Later decided that this 'periscope' was a stick.
+    page: 10
+    flags: Bearing read as 000 T by hand from the scan; ink runs through the digits. Time zone K from heading 'All times King (-10)'.
+  - replaces: { date: "August 29, 1943", time: "1916" }
+    date: August 29, 1943
+    time: '1916'
+    zone: K
+    part: I
+    event: '[SUMMARY] Surfaced; target changed base course to 210, speed 9 kts, resembling PANAMA MARU, with two PC-like escorts; no favorable day shot attained.'
+    page: 16
+    flags: Ship name read as PANAMA MARU by hand from the scan (the tops of the letters are obliterated; P, N, M and the bases of the three A's are visible). Gemini's reads gave FUJISAN MARU and FANA MARU. Time zone K from heading 'All times King (-10)'.

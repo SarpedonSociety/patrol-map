@@ -62,6 +62,8 @@ COLUMNS = {
     "lead": "lead", "timegct": "time", "locationlatlong": "lat_long", "datelocal": "date",
     "rangesighted": "initial_range", "rangeclosest": "min_range", "target": "type",
     "types": "type", "howcontacted": "contacted",
+    # OCR typos in a heading ("Timo Date", "Typo") kept by the transcriber (Silversides Patrol 6).
+    "timodate": "time_date", "timedato": "time_date", "timodato": "time_date", "typo": "type",
 }
 # Fallback: first keyword found in the normalized heading wins.
 KEYWORDS = [
@@ -75,6 +77,7 @@ KEYWORDS = [
     ("attacked", "attack_no"), ("attackyes", "attack_no"),
     # "RANGE (1st TORPEDO)" in attack summaries; digits are stripped first.
     ("rangest", "firing_range"), ("speedtarget", "speed"), ("coursespeed", "course"),
+    ("crsspd", "course"), ("crsespd", "course"),   # "Est. Crs&Spd", "Est. Crse&Spd": course and speed in one cell
 ]
 # Tables that record the boat's own positions rather than contacts:
 # density layer / bathythermograph observations, noon positions and the like.
@@ -171,8 +174,10 @@ def field_name(heading):
 def parse_time_date(text):
     """'0805L 10MAY', '0310(K) 10/4/43', '1855 10/3/43' -> (time, zone, date)."""
     text = re.sub(r"(?<=[A-Z])\.", "", unbracket(plain(text)).strip().upper())
-    m = re.fullmatch(r"(\d{3,4})\s*\(?([A-Z])?\)?\s+(\d{1,2}\s*[A-Z]{3}[A-Z]*|\d{1,2}/\d{1,2}/\d{2,4})",
-                     text)
+    text = re.sub(r"SOPT", "SEPT", text)   # e read as o
+    text = re.sub(r"(?<![A-Z])\.*UG(?=\s*\d)", "AUG", text)   # a carbon copy that lost the A of "Aug"
+    m = re.fullmatch(r"(\d{3,4})\s*\(?([A-Z])?\)?\s+(\d{1,2}\s*[A-Z]{3}[A-Z]*|[A-Z]{3}[A-Z]*\s*\d{1,2}"
+                     r"|\d{1,2}/\d{1,2}/\d{2,4})", text)
     if not m:
         return None, None, None
     date = m.group(3).replace(" ", "")
@@ -878,10 +883,10 @@ def build_patrol(folder, ref):
             flags = [f"Transcriber: {n}" for n in form["flags"]]
             if entry in row_notes:
                 flags.append(f"Review: {row_notes[entry]}")
-            tm = re.search(r"Time\s*[:;,]?\s*(\d{4})\s*\(?\s*([A-Z])?\s*\)?", body)
-            dm = re.search(r"Date\s*[:;,]?\s*([A-Za-z]+\.?\s*\d{1,2},?\s*\d{4}|\d{1,2}[/-]\d{1,2}[/-]\d{2,4})", body)
-            la = re.search(r"Lat\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?)\s*\.?\s*([NS])", body)
-            lo = re.search(r"Long\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?)\s*\.?\s*([EW])", body)
+            tm = re.search(r"Time\s*[:;,]?\s*(\d{4})\s*\(?\s*([A-Z])?\s*\)?", body, re.I)
+            dm = re.search(r"Date\s*[:;,]?\s*([A-Za-z]+\.?\s*\d{1,2},?\s*\d{4}|\d{1,2}[/-]\d{1,2}[/-]\d{2,4})", body, re.I)
+            la = re.search(r"Lat\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?)\s*\.?\s*([NS])", body, re.I)
+            lo = re.search(r"Long\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?)\s*\.?\s*([EW])", body, re.I)
             t = tm.group(1) if tm else None
             z = (tm.group(2) if tm and tm.group(2) else None)
             d = dm.group(1) if dm else None
