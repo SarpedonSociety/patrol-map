@@ -1,0 +1,34 @@
+# USS Trigger (SS-237), War Patrol 6
+# Transcribed by Gemini in three fresh chats: gemini-01.yml (narrative,
+# pages 1-12), contacts-01.md (ship and aircraft contacts, pages 21-22)
+# and attacks-01.md (TORPEDO ATTACK DATA forms, pages 24-40, verbatim).
+# Hand entries here take precedence.
+
+boat: SS-237
+patrol: 6
+year: 1943
+report_found: yes
+report:
+comsubpac_report_no: 279
+commanding_officer:
+
+arrival:
+  port: Midway
+  date: September 30, 1943
+  page: 12
+  flags: "Report: 'Arrived Midway.' No time given."
+
+period:
+  start: 1943-09-01
+  end: 1943-09-30
+  source: "Patrol report"
+
+# Claimed tonnage from the TORPEDO ATTACK DATA forms (attacks-01.md). Times GCT.
+# Attack 1 (17 Sept, two duds) was the same freighter that attack 2 sank.
+tonnage:
+  - { date: Sept. 17, 1943, time: "1523", zone: Z, target: Freighter (GOSYO MARU type), result: sunk, tons: 8500, basis: claimed, source: "Attack 2, page 25" }
+  - { date: Sept. 21, 1943, time: "1156", zone: Z, target: Tanker (NIPPON MARU type), result: sunk, tons: 10000, basis: claimed, source: "Attack 3, page 27" }
+  - { date: Sept. 21, 1943, time: "1157", zone: Z, target: Tanker (SYOYO MARU type), result: sunk, tons: 7500, basis: claimed, source: "Attack 4, page 29" }
+  - { date: Sept. 21, 1943, time: "1157", zone: Z, target: Freighter (ARGUN MARU type), result: sunk, tons: 6700, basis: claimed, source: "Attack 4, page 29: second freighter in far column" }
+  - { date: Sept. 21, 1943, time: "1201", zone: Z, target: Tanker (SAN PEDRO MARU type), result: sunk, tons: 7300, basis: claimed, source: "Attack 6, page 33 (missed by attack 5)" }
+  - { date: Sept. 21, 1943, time: "1312", zone: Z, target: Freighter (LIMA MARU type), result: damaged, tons: 7000, basis: claimed, source: "Attack 7, page 35; attacks 8 and 9 on the same ship, duds" }

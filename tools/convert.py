@@ -61,6 +61,7 @@ COLUMNS = {
     "bear": "bearing", "bearing": "bearing", "crse": "course", "spd": "speed", "rks": "remarks",
     "lead": "lead", "timegct": "time", "locationlatlong": "lat_long", "datelocal": "date",
     "rangesighted": "initial_range", "rangeclosest": "min_range", "target": "type",
+    "types": "type", "howcontacted": "contacted",
 }
 # Fallback: first keyword found in the normalized heading wins.
 KEYWORDS = [
@@ -73,7 +74,7 @@ KEYWORDS = [
     ("performance", "performance"), ("initialrange", "initial_range"),
     ("attacked", "attack_no"), ("attackyes", "attack_no"),
     # "RANGE (1st TORPEDO)" in attack summaries; digits are stripped first.
-    ("rangest", "firing_range"), ("speedtarget", "speed"),
+    ("rangest", "firing_range"), ("speedtarget", "speed"), ("coursespeed", "course"),
 ]
 # Tables that record the boat's own positions rather than contacts:
 # density layer / bathythermograph observations, noon positions and the like.
@@ -338,7 +339,11 @@ def to_utc(date_str, time_str, zone, year, first_month):
     ymd = parse_date(date_str, year, first_month)
     if not ymd:
         return None
-    hh, mm = (int(time_str[:2]), int(time_str[2:])) if time_str else (12, 0)
+    digits = re.sub(r"\D", "", time_str.split("-")[0]) if time_str else ""
+    if time_str and len(digits) < 3:
+        digits = ""
+    digits = digits.zfill(4)[:4] if digits else ""
+    hh, mm = (int(digits[:2]), int(digits[2:])) if digits else (12, 0)
     try:
         local = datetime(*ymd, hh % 24, mm % 60)
     except ValueError:
@@ -840,7 +845,7 @@ def build_patrol(folder, ref):
             if kind == "torpedo" and ir and fr and fr > ir:
                 flags.append(f"Firing range ({fr}) is greater than initial range ({ir}).")
 
-            typ = unbracket(f.get("type", ""))
+            typ = re.sub(r"\s*<br\s*/?>\s*", " / ", unbracket(f.get("type", "")))
             if f.get("attack_no"):
                 title = f"Attack {f['attack_no']}" + (f" · {typ}" if typ else "")
             elif f.get("contact_no"):
@@ -867,7 +872,7 @@ def build_patrol(folder, ref):
 
     # TORPEDO ATTACK DATA forms transcribed verbatim (attacks-01.md ...).
     for path in sorted(folder.glob("attacks*.md")):
-        for num, form in read_attack_forms(path).items():
+        for atk_num, form in read_attack_forms(path).items():
             entry += 1
             body = form.get("attack") or ""
             flags = [f"Transcriber: {n}" for n in form["flags"]]
@@ -899,6 +904,9 @@ def build_patrol(folder, ref):
                 ("damage determined by", pick("damage determined")), ("target", pick("target draft")),
                 ("own ship", pick("speed")), ("attack_type", pick("type attack")),
                 ("form", body or None), ("torpedoes", form.get("torpedoes"))) if v}
+            tf = re.search(r"Tubes?\s+Fired\s*[:;]\s*(.*)", form.get("torpedoes") or "", re.I)
+            if tf and re.findall(r"#\s*\d+", tf.group(1)):
+                fields["fired"] = str(len(re.findall(r"#\s*\d+", tf.group(1))))
             desc = fields.get("description") or ""
             records.append({
                 "id": f"{pid}-A{entry:02d}", "source": "Torpedo attack data", "row": entry, "kind": "torpedo",
@@ -908,13 +916,23 @@ def build_patrol(folder, ref):
                 "local_date": list(parse_date(d or "", year, first_month) or []),
                 "position_verbatim": " ".join(m.group(0) for m in (la, lo) if m), "lat": lat, "lon": lon,
                 "derived": None, "type": desc.split(".")[0][:60],
-                "title": f"Attack {num}" + (f" · {desc.split('.')[0][:48]}" if desc else ""),
+                "title": f"Attack {atk_num}" + (f" · {desc.split('.')[0][:48]}" if desc else ""),
                 "fields": fields, "flags": flags,
             })
 
-    for num, t in torpedo_lists.items():
+    for r in [r for r in records if r.get("source") == "Torpedo attack data" and not r.get("has_time")]:
+        atk_num = str(r.get("title") or "").split(" · ")[0].replace("Attack", "").strip()
+        n = next((x for x in records if not x.get("row") and x["kind"] in ("torpedo", "gun") and x.get("has_time") and x["utc"]
+                  and re.search(rf"attack\s*(?:no\.?\s*)?#?\s*{re.escape(atk_num)}\b", str(x.get("title") or ""), re.I)), None)
+        if n:
+            r["utc"], r["zone"], r["has_time"], r["local"] = n["utc"], n.get("zone"), True, n["local"]
+            r["local_date"] = n.get("local_date")
+            r["flags"] = [f for f in r["flags"] if f != "No time found on the form."]
+            r["flags"].append(f"Time from the narrative entry headed attack {atk_num} (page {n.get('page') or '?'}).")
+
+    for atk_num, t in torpedo_lists.items():
         target = next((r for r in records if r.get("row") and r["kind"] in ("torpedo", "gun")
-                       and re.fullmatch(rf"attack\s*\(?{re.escape(num)}\)?", str(r.get("title") or "").split(" · ")[0], re.I)), None)
+                       and re.fullmatch(rf"attack\s*\(?{re.escape(atk_num)}\)?", str(r.get("title") or "").split(" · ")[0], re.I)), None)
         lines = ["; ".join(f"{h}: {c}" for h, c in zip(t["headers"], row) if c and h.lower() != "flags") for row in t["rows"]]
         if target:
             target["fields"]["torpedoes"] = "\n".join(lines)

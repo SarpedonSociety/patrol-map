@@ -273,6 +273,8 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
 /* Leave room for the focus chip at the top of the map. */
 .detail { box-sizing: border-box; }
 .map.focused .detail { max-height: calc(100% - 68px); }
+/* Typed forms need room for their columns. */
+.detail:has(dd.pre) { width: min(620px, calc(100% - 24px)); }
 /* Keep the title, date and step buttons in view while a long card scrolls. */
 .detail-head { position: sticky; top: -14px; z-index: 1; background: var(--paper); margin: -14px -16px 0; padding: 14px 16px 2px; }
 .detail .tour { position: sticky; bottom: -16px; background: var(--paper); margin: 12px -16px -16px; padding: 10px 16px 12px; }
@@ -417,7 +419,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     type: "Type", initial_range: "Initial range", course: "Est. course", speed: "Est. speed",
     description: "Description", weapon: "Weapon", fired: "Fired", depth: "Depth set",
     track: "Track angle", gyro: "Gyro angle", firing_range: "Firing range", hits: "Hits",
-    with: "With", contact_table: "Contact table", torpedoes: "Torpedo data", form: "Attack data (as typed)", "damage determined by": "Damage determined by", own_ship: "Own ship", "own ship": "Own ship (at firing)", target: "Target (at firing)", remarks: "Remarks", event: "Entry", charges: "Depth charges", damage: "Damage sustained", attacked: "Attacked", part_viii: "Part VIII account", narrative: "Narrative", min_range: "Min. range", lead: "Lead", bearing: "Bearing", altitude: "Altitude / distance",
+    with: "With", contact_table: "Contact table", torpedoes: "Torpedo data", contacted: "How contacted", form: "Attack data (as typed)", "damage determined by": "Damage determined by", own_ship: "Own ship", "own ship": "Own ship (at firing)", target: "Target (at firing)", remarks: "Remarks", event: "Entry", charges: "Depth charges", damage: "Damage sustained", attacked: "Attacked", part_viii: "Part VIII account", narrative: "Narrative", min_range: "Min. range", lead: "Lead", bearing: "Bearing", altitude: "Altitude / distance",
     sunk: "Claimed sunk (tons)", damaged: "Claimed damaged or probably sunk (tons)",
     attack_type: "Periscope or radar", draft: "Est. target draft", tube: "Bow or stern",
     interval: "Firing interval", spread: "Spread", performance: "Torpedo performance satisfactory",

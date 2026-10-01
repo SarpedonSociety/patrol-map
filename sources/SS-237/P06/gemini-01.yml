@@ -1,0 +1,1847 @@
+YAML
+
+```
+boat: SS-237
+patrol: 6
+year: 1943
+report: Report of Sixth War Patrol.
+comsubpac_report_no: 279
+commanding_officer: Lieutenant Commander R. E. Dornin, U.S.N.
+citation:
+  archive: NARA
+  record_group: 38
+  nara_catalog_id: 4697018
+  nara_catalog_title: World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946
+  reel: A614
+  micro_serial: 57647
+  file: A16-3
+  serial: 01469
+  date: 10/15/1944
+fold3_images: { 1: 270298291, 2: 270298293, 3: 270298295, 4: 270298298, 5: 270298302, 6: 270298305, 7: 270298307, 8: 270298309, 9: 270298312, 10: 270298315, 11: 270298317, 12: 270298321 }
+default_hemisphere: { lat: N, lon: E }
+departure: { port: Pearl Harbor, date: September 1, 1943, time: 1100, zone: VW, page: 1, flags: "Departure in company with USS GUDGEON and USS ALLEN (escort)" }
+arrival:   { port: Midway, date: September 30, 1943, time: , zone: , page: 12, flags: "Time and zone not given" }
+events:
+  - date: September 1, 1943
+    time: 1100
+    zone: VW
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Departed Pearl Harbor at 1100 VW September 1, 1943, on sixth war patrol, in company with USS GUDGEON and USS ALLEN (escort)."
+    page: 1
+    flags: ""
+  - date: September 3, 1943
+    time: 1035
+    zone: W
+    lat: 
+    lon: 
+    from: Johnston Island
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: notable
+    title: "Moored at Johnston Island, transfer of personnel"
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Moored starboard side to USS GUDGEON at Johnston Island. Topped off with fuel and water. Transferred JOHNSON, M.W., MOMM 1c, USN to dispensary, case diagnosed as pneumonia. Received GORDON, R. E., MM 2c, USN from Johnston Island."
+    page: 1
+    flags: ""
+  - date: September 3, 1943
+    time: 1830
+    zone: W
+    lat: 
+    lon: 
+    from: Johnston Island
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Departed Johnston Island. Set course for Area."
+    page: 1
+    flags: ""
+  - date: September 5, 1943
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Received instructions to proceed directly via great circle course to area. New course passes 230 miles north of Wake and 70 miles north of Marcus."
+    page: 1
+    flags: "Time not given"
+  - date: September 11, 1943
+    time: 0720
+    zone: L
+    lat: 
+    lon: 
+    from: Marcus
+    bearing: 
+    distance: 80 miles
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Radar contact, 6 miles. Dived. Plane not sighted. Eighty miles from Marcus. Took this opportunity to check torpedoes."
+    page: 1
+    flags: "Date typed as 1948"
+  - date: September 11, 1943
+    time: 1416
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Surfaced."
+    page: 2
+    flags: "Time typed as 1916 K above 1447 K entry; chronological order indicates 1416 K"
+  - date: September 11, 1943
+    time: 1447
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: counterattack
+    title: "Bombed by plane"
+    part: I
+    charges: two small bombs
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Plane sighted low on port quarter (direction of Marcus) coming in fast. Simultaneous radar contact, 6 miles. Dived, received two small bombs at moderate range."
+    page: 2
+    flags: ""
+  - date: September 12, 1943
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Uneventful. Changed course slightly to pass between HAHA JIMA and KITA IWO JIMA."
+    page: 2
+    flags: "Time not given; course typed sourse"
+  - date: September 13, 1943
+    time: 1020
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Sighted patrol plane through high periscope. Dived. Plane did not sight us."
+    page: 2
+    flags: ""
+  - date: September 13, 1943
+    time: 1159
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Surfaced."
+    page: 2
+    flags: ""
+  - date: September 13, 1943
+    time: 2215
+    zone: K
+    lat: 
+    lon: 
+    from: KITA IWO JIMA
+    bearing: 
+    distance: 34 miles
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Sighted KITA IWO JIMA distance 34 miles in bright moonlight."
+    page: 2
+    flags: ""
+  - date: September 13, 1943
+    time: 2345
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Sighted patrol vessel about 6 miles away, bearing 20 degrees forward of the starboard beam, on southerly course. Avoided."
+    page: 2
+    flags: ""
+  - date: September 15, 1943
+    time: 2030
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Entered Area."
+    page: 2
+    flags: ""
+  - date: September 16, 1943
+    time: 523
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "First all day dive. Passed between YORON JIMA and OKINOYERABU JIMA, entered East China Sea."
+    page: 2
+    flags: ""
+  - date: September 16, 1943
+    time: 1902
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Surfaced."
+    page: 2
+    flags: ""
+  - date: September 17, 1943
+    time: 543
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Dived."
+    page: 2
+    flags: ""
+  - date: September 17, 1943
+    time: 0708
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Surfaced to patrol area enroute to northern Straits of Formosa."
+    page: 2
+    flags: ""
+  - date: September 17, 1943
+    time: 0925
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Simultaneous sight and radar contact on two planes dead astern, distance 6 miles. Dived, not sighted."
+    page: 2
+    flags: ""
+  - date: September 17, 1943
+    time: 1530
+    zone: I
+    lat: 27 10 N
+    lon: 126 15 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 250
+    speed: eleven
+    event: "[SUMMARY] Sighted CONTACT #1, five ship convoy with air escort, headed for HOKO SHO LIGHT. Unable to close."
+    page: 2-3
+    flags: "Position from CONTACT #1 heading applied here"
+  - date: September 17, 1943
+    time: 1700
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Unable to close convoy. Decided to surface before sunset for end around run."
+    page: 3
+    flags: ""
+  - date: September 17, 1943
+    time: 1745
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Lost sight contact with convoy."
+    page: 3
+    flags: ""
+  - date: September 17, 1943
+    time: 1800
+    zone: I
+    lat: 27-10 N
+    lon: 126-15 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: eight knots
+    event: "[SUMMARY] Sighted CONTACT #2, two unescorted ships bearing 208 T. Commenced approach on larger vessel."
+    page: 3
+    flags: "Position from CONTACT #2 heading"
+  - date: September 17, 1943
+    time: 1911
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Convoy got by at long range. Have two hours of darkness in which to make a night surface attack."
+    page: 3
+    flags: ""
+  - date: September 17, 1943
+    time: 1941
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 070°T
+    speed: eight knots
+    event: "[SUMMARY] Surfaced in darkness; commenced surface approach on ships zigzagging on base course 070°T."
+    page: 3
+    flags: ""
+  - date: September 17, 1943
+    time: 2045
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Attained firing position for large ship."
+    page: 3
+    flags: ""
+  - date: September 17, 1943
+    time: 2055
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    title: "ATTACK NO. 1 - 8500 TON FREIGHTER - TWO DUDS"
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Fired four torpedoes, 80 starboard track, 1100 yards, GA 15 L. At time of firing had TBT bearings, periscope bearings, SJ bearings and ranges, all checking. Two hits seen from the bridge, both duds. Nothing heard below decks. No doubt about the hits the first was aft of the midship superstructure, and the second was on the bow. Immediately afterward, flashlights were seen on deck and over the side at the points where the torpedoes hit. The target swung towards to ram and we went to full speed and swung away. Lights all over his decks by this time."
+    page: 3
+    flags: ""
+  - date: September 17, 1943
+    time: 2057
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Target commenced firing deck guns; withheld fire from after tubes due to poor data and closing range."
+    page: 4
+    flags: ""
+  - date: September 17, 1943
+    time: 2058
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "dived. Made reload. Watched target through periscope, still firing."
+    page: 4
+    flags: ""
+  - date: September 17, 1943
+    time: 2100
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: counterattack
+    title: "Depth charged by target"
+    part: I
+    charges: three depth charges
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Received three depth charges, not close."
+    page: 4
+    flags: ""
+  - date: September 17, 1943
+    time: 2107
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Moonrise."
+    page: 4
+    flags: ""
+  - date: September 17, 1943
+    time: 2138
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Reload completed. Surfaced, full speed on all main engines."
+    page: 4
+    flags: ""
+  - date: September 17, 1943
+    time: 2142
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Radar contact. Commenced end around on dark side of moon, pursuing the larger ship."
+    page: 4
+    flags: ""
+  - date: September 17, 1943
+    time: 2347
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "In position ahead, very bright moonlight, dived to radar depth."
+    page: 4
+    flags: ""
+  - date: September 18, 1943
+    time: 0005
+    zone: I
+    lat: 27-31 N
+    lon: 126-57 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Target in sight through periscope. He was zigzagging radically at about one minute intervals from 030°T to 130°T. Went to 55 feet at 4000 yards. At 2000 yards commenced getting continuous echo ranges on him, and at"
+    page: 4
+    flags: "Position from ATTACK #2 heading"
+  - date: September 18, 1943
+    time: 0023
+    zone: I
+    lat: 27-31 N
+    lon: 126-57 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    title: "ATTACK #2 SAME TARGET SUNK"
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "fired 4 torpedoes, 130 port track, 1000 yards, GA 0. 45 seconds later saw and heard one hit on stern. Eight seconds later sound reported another hit, but not seen through periscope (maybe another dud). However, the effect of the single hit was remarkable. Target sank in two minutes, by the stern. All hands in conning tower got a look."
+    page: 4
+    flags: ""
+  - date: September 18, 1943
+    time: 0026
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Target completely under."
+    page: 4
+    flags: ""
+  - date: September 18, 1943
+    time: 0026
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Boilers blew up. A tremendous explosion."
+    page: 4
+    flags: ""
+  - date: September 18, 1943
+    time: 0029
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Battle surfaced; nothing in sight. Target sank very rapidly, identified as similar to GOSYO MARU, 8500 tons."
+    page: 4
+    flags: ""
+  - date: September 18, 1943
+    time: 0038
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Commenced search for the little fellow. Unsuccessful."
+    page: 5
+    flags: ""
+  - date: September 18, 1943
+    time: 0543
+    zone: I
+    lat: 
+    lon: 
+    from: HOKA SHO light
+    bearing: 070-250
+    distance: 
+    bearing_is: from_landmark
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Dived. Patrolling the 070 250 line from HOKA SHO light, in hopes of another windfall."
+    page: 5
+    flags: ""
+  - date: September 19, 1943
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Weather progressively worse, sea too heavy to fire torpedoes. Typhoon evidently passing to eastward of us."
+    page: 5
+    flags: "Time not given"
+  - date: September 20, 1943
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: SENTO SHOSHO
+    bearing: 160 T
+    distance: 30 miles
+    bearing_is: to_landmark
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Sighted islands of SENTO SHOSHO bearing 160 T, distance 30 miles. Weather improving."
+    page: 5
+    flags: "Time not given"
+  - date: September 21, 1943
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: HOKA SHO light
+    bearing: due north
+    distance: 30 miles
+    bearing_is: from_landmark
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Dived 30 miles due north of HOKA SHO light."
+    page: 5
+    flags: "Time not given"
+  - date: September 21, 1943
+    time: 1510
+    zone: I
+    lat: 26 27 N
+    lon: 122 40 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Sighted masts and smoke bearing 345 T, distance 10 miles. Commenced approach at high speed."
+    page: 5
+    flags: "Position from CONTACT #3 heading"
+  - date: September 21, 1943
+    time: 1545
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 030 T to 130°T
+    speed: eight
+    event: "[SUMMARY] Sighted convoy of 3 tankers and 3 freighters with air escort, zigzagging 030°T to 130°T, speed 8. Unable to close."
+    page: 5
+    flags: ""
+  - date: September 21, 1943
+    time: 1600
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Identified convoy: NIPPON MARU type tanker, SYOYO MARU and SAN PEDRO MARU types; freighters LIMA MARU, ARGUN MARU, KOHUKU MARU."
+    page: 5
+    flags: ""
+  - date: September 21, 1943
+    time: 1844
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Lost sight contact."
+    page: 5
+    flags: ""
+  - date: September 21, 1943
+    time: 1923
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Surfaced. Full speed on all engines."
+    page: 5
+    flags: ""
+  - date: September 21, 1943
+    time: 1955
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Radar contact. Commenced working around on starboard side of convoy. It is still fairly light, and lookouts picked up the convoy at about 8000 yards range."
+    page: 6
+    flags: ""
+  - date: September 21, 1943
+    time: 2030
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 080 T
+    speed: 8
+    event: "[SUMMARY] On starboard beam, range 8000, convoy course 080 T, speed 8. Two columns of 3 ships on PPI. Tankers on near side."
+    page: 6
+    flags: ""
+  - date: September 21, 1943
+    time: 2045
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Commenced surface approach, planning to fire three torpedoes at the first ship, three at the second, then swing and fire four at the third ship."
+    page: 6
+    flags: ""
+  - date: September 21, 1943
+    time: 2048
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Nearest column of ships in plain sight - THREE TANKERS, with the big one leading. It is still fairly light. They should see us but they don't."
+    page: 6
+    flags: ""
+  - date: September 21, 1943
+    time: 2056
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    title: "ATTACK #3 TANKER, 10,000 TONS SUNK"
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Fired three torpedoes at TANKER #1, 60 S track, GA 10 L, 1600 yards."
+    page: 6
+    flags: ""
+  - date: September 21, 1943
+    time: 2057
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    title: "ATTACK #4 - TANKER, 7500 TONS AND FREIGHTER, 6700 TONS - SUNK"
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Fired three torpedoes at TANKER #2, 60 S track, GA 0, 1200 yards. Came left with full rudder and full speed. During the firing, had TBT bearings, radar bearings, radar ranges, sound bearings, and periscope bearings, all checking."
+    page: 6
+    flags: ""
+  - date: September 21, 1943
+    time: 2057-10
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Two torpedo hits on TANKER #1 resulting in massive gasoline fire and conflagration; target's crew manned bow gun."
+    page: 6
+    flags: ""
+  - date: September 21, 1943
+    time: 2058-10
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "One hit on TANKER #2. A small flash amidships, a column of smoke and water were seen, and fire immediately broke out. She was turning away from us when hit."
+    page: 7
+    flags: ""
+  - date: September 21, 1943
+    time: 2058-50
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] One hit on FREIGHTER #2 in far column; broke in half and sank immediately, pip disappeared on radar."
+    page: 7
+    flags: "Time typed as 2056-50 I in text; chronological sequence indicates 2058-50 I"
+  - date: September 21, 1943
+    time: 2100
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    title: "ATTACK #5 TANKER, 7300 TONS MISSED"
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "During this time we were swinging hard left. Bridge saw FREIGHTER #3 turn away. FREIGHTER #1 was holding on her original course. Both remaining freighters and tankers opened fire. Range was about 1000 yards to the tanker column, 2000 yards to the freighter column. It was so bright they had no difficulty seeing us. Splashes were seen on both sides of us, but not too close. TANKER #3 presented a 50 starboard angle on the bow, and was closing rapidly, firing his bow gun. We seemed to take a year to pick up speed. Finally steadied with our stern toward him, and at fired three torpedoes aft at this tanker, 50 S track, GA 0, 1000 yards. All missed, probably because we had not steadied enough, and he was swinging toward us, as we realized in a moment."
+    page: 7
+    flags: "Text preceding fired three torpedoes leads directly into Attack 5 at 2100 I"
+  - date: September 21, 1943
+    time: 2101
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    title: "ATTACK 6 SAME TARGET HIT"
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Fired one torpedo aft down the throat, angle on the bow zero, GA 10 R, 800 yards. Hit on the starboard bow, observed from the bridge. We were making full speed by this time, and pulling away. However, he continued firing, and was getting a little better, as was evidenced by shells whistling overhead."
+    page: 7
+    flags: ""
+  - date: September 21, 1943
+    time: 2102
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Dived. CO fell into periscope well as quartermaster lowered periscope; CO supported on elbows and halted descent."
+    page: 7-8
+    flags: ""
+  - date: September 21, 1943
+    time: 2105
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "One violent explosion."
+    page: 9
+    flags: ""
+  - date: September 21, 1943
+    time: 2108
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Another violent explosion. Both sounded like ships sinking. No depth charges were dropped at any time during these attacks."
+    page: 9
+    flags: ""
+  - date: September 21, 1943
+    time: 2120
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Periscope depth; took periscope pictures of burning tanker. Reloaded, two torpedoes left forward, four aft."
+    page: 9
+    flags: ""
+  - date: September 21, 1943
+    time: 2140
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Reload completed."
+    page: 9
+    flags: ""
+  - date: September 21, 1943
+    time: 2141
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Surfaced. Five radar/PPI contacts. TANKER #1 stopped burning, TANKER #2 burning, TANKER #3 down by bow, FREIGHTER #1 undamaged stopped, FREIGHTER #2 sunk, FREIGHTER #3 undamaged heading north."
+    page: 9
+    flags: ""
+  - date: September 21, 1943
+    time: 2142
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Pursued FREIGHTER #3; observed vertical stern of sinking ship (believed TANKER #3) silhouetted against burning NIPPON MARU."
+    page: 9
+    flags: ""
+  - date: September 21, 1943
+    time: 2147
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "The stern went under. At this time the whole hull of TANKER #1 could be seen, red hot."
+    page: 9
+    flags: ""
+  - date: September 21, 1943
+    time: 2210
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Attained surface firing position on FREIGHTER # 3. So bright we nearly dived, but decided to ride our luck."
+    page: 9
+    flags: ""
+  - date: September 21, 1943
+    time: 2212
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    title: "ATTACK #7 FREIGHTER, 7000 TONS DAMAGED."
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Fired last two bow torpedoes, 90 S track, GA 0, 1400 yards. Two hits in the bow, target immediately went down by the bow, and we left him in an apparently sinking condition. As we swung left he opened fire. A light came on on his bridge and he commenced signalling. With this, FREIGHTER # 1 opened fire also. While we circled, it seemed there were flashes of gunfire all around us. Shooting still pretty wild."
+    page: 9
+    flags: ""
+  - date: September 21, 1943
+    time: 2220
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] FREIGHTER #3 dead in water with forecastle awash, firing wildly; FREIGHTER #1 firing back. Made surface approach."
+    page: 9
+    flags: ""
+  - date: September 21, 1943
+    time: 2235
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Swung to bring stern tubes to bear, range 1500 yards. At this moment he discovered us, and commenced shooting in our direction. Went to full speed, and at"
+    page: 10
+    flags: ""
+  - date: September 21, 1943
+    time: 2236
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    title: "ATTACK #8 SAME TARGET MISSED (OR DUD)"
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "fired two stern tubes, 110 port track, GA 0, 2200 yards. Should have got a hit, but nothing happened. Although no definite proof, from firing data feel sure we must have hit, and hence at least one dud. Pulled out again and thought it over. We have only two torpedoes left, both aft, and he is getting pretty handy with his gun."
+    page: 10
+    flags: ""
+  - date: September 21, 1943
+    time: 2242
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Dived for radar approach. Target in meantime had got underway, and we had to go to full speed submerged. Had almost reached favorable position when he reversed course."
+    page: 10
+    flags: ""
+  - date: September 21, 1943
+    time: 2332
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Surfaced silhouetted against burning TANKER #1. Ran full speed around FREIGHTER #3; passed at 2500 yards, target opened fire."
+    page: 10
+    flags: ""
+  - date: September 22, 1943
+    time: 0010
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Dived. Attained firing position for radar depth approach. Used radar, periscope, and continuous echo ranges."
+    page: 10
+    flags: ""
+  - date: September 22, 1943
+    time: 0022
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: attack
+    title: "ATTACK #9 SAME TARGET DUDS"
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Fired last two torpedoes, 90 port track, GA 0, 1000 yards. One hit, one missed, according to sound. No detonation, but target evidently felt the hit, for he opened fire immediately. The feelings of the Commanding Officer and the control party by this time can be imagined. Held huddle over a battle surface, decided against it, because our three inch deck gun has never in its history fired five consecutive shots without jamming. We felt, under the circumstances, that our chances in a gun fight against a fully aroused enemy were not of the best, and that the probability of the target's sinking eventually was still good."
+    page: 10
+    flags: ""
+  - date: September 22, 1943
+    time: 0036
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Surfaced. 3 radar contacts: burning TANKER #1, damaged FREIGHTER #3 firing aimlessly at 4 knots, and undamaged FREIGHTER #1."
+    page: 10
+    flags: ""
+  - date: September 22, 1943
+    time: 0045
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Entire 3 1/2 hour action occurred within 8000 yards of burning NIPPON MARU; bright fire aided boat's approach from dark side."
+    page: 11
+    flags: ""
+  - date: September 22, 1943
+    time: 0050
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Set course for edge of area, full speed on all engines."
+    page: 11
+    flags: ""
+  - date: September 22, 1943
+    time: 0055
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] TANKER #2 blew up in brilliant flame; two huge fires visible. Crew permitted on bridge to view fires."
+    page: 11
+    flags: ""
+  - date: September 22, 1943
+    time: 0220
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Lost sight of fires, distance 25 miles astern."
+    page: 11
+    flags: ""
+  - date: September 23, 1943
+    time: 0529
+    zone: I
+    lat: 27-23 N
+    lon: 127 40 E
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Sighted smoke dead ahead bearing 090 T, distance 15 miles."
+    page: 12
+    flags: "Position from CONTACT #4 heading"
+  - date: September 23, 1943
+    time: 0530
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Dived, avoided."
+    page: 12
+    flags: ""
+  - date: September 23, 1943
+    time: 0542
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 250
+    speed: 8
+    event: "Smoke identified as a small convoy of one old type tanker and three old type freighters, escorted by a PC or small DD. Course 250, speed 8, zigzagging."
+    page: 12
+    flags: ""
+  - date: September 23, 1943
+    time: 0555
+    zone: I
+    lat: 
+    lon: 
+    from: IHEYA JIMA
+    bearing: 139° T
+    distance: 15 miles
+    bearing_is: to_landmark
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Sighted IHEYA JIMA bearing 139° T, distance 15 miles."
+    page: 12
+    flags: ""
+  - date: September 23, 1943
+    time: 1915
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Surfaced, full speed on all engines."
+    page: 12
+    flags: ""
+  - date: September 24, 1943
+    time: 0400
+    zone: I
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Departed area. Set course for Midway."
+    page: 12
+    flags: "Zone I assumed from preceding entries"
+  - date: September 25, 1943
+    time: 0950
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Sighted plane, dived."
+    page: 12
+    flags: "Zone not given"
+  - date: September 25, 1943
+    time: 1050
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Surfaced."
+    page: 12
+    flags: "Zone not given"
+  - date: September 27, 1943
+    time: 0645
+    zone: K
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Sighted patrol vessel. Avoided."
+    page: 12
+    flags: ""
+  - date: September 30, 1943
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: I
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Arrived Midway."
+    page: 12
+    flags: "Time and zone not given"
+```
+
+The provided pages contain only the Third Endorsement and Part I (Prologue and Narrative); no contact, attack, or oceanographic tables (OUTPUT 2) or Torpedo Attack Data forms (OUTPUT 3) were included in this selection.

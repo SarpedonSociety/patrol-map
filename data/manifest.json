@@ -139,7 +139,7 @@
    "zoom": 4
   }
  ],
- "generated": "2026-10-01T00:24:05Z",
+ "generated": "2026-10-01T01:39:53Z",
  "patrols": [
   {
    "id": "SS-230-P02",
@@ -360,6 +360,28 @@
     "flagged": 82
    },
    "file": "patrols/SS-237-P05.json"
+  },
+  {
+   "id": "SS-237-P06",
+   "boat": "SS-237",
+   "name": "Trigger",
+   "class": "Gato",
+   "patrol": 6,
+   "year": 1943,
+   "start": "1943-09-01T12:00:00Z",
+   "end": "1943-09-30T12:00:00Z",
+   "summary": {
+    "records": 103,
+    "sightings": 5,
+    "aircraft": 7,
+    "torpedo_attacks": 9,
+    "mine_attacks": 0,
+    "counterattacks": 2,
+    "torpedoes_fired": 24,
+    "gun_actions": 0,
+    "flagged": 56
+   },
+   "file": "patrols/SS-237-P06.json"
   },
   {
    "id": "SS-283-P03",

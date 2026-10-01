@@ -1,0 +1,7 @@
+# Reviewer notes, keyed by entry number: entries are counted through
+# contacts-01.md (ship contacts 1-5, aircraft 6-12) and then attacks-01.md
+# (attacks 13-21). Delete a note once it's resolved against the report.
+
+rows:
+  13: "Attack 1 has only its torpedo-data page (24) in attacks-01.md; Gemini says the target-data page wasn't in the PDF. If page 23 is that page, add it. Until then the time comes from the narrative (2055 I, 17 Sept) and the position is estimated on the track."
+  4: "Contact 4: the table has 27-20 N; the narrative's entry at 0529 on 23 Sept has 27-23 N. Check page 21 and page 12."
