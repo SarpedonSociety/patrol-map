@@ -2060,6 +2060,9 @@
     "Transcriber: Latitude typed \"262-7 N.\" with hyphen struck over or faint, representing 26-27 N. Time given in Z (narrative gives 2056 I).",
     "Transcriber: ",
     "Narrative entry at 2056 I September 21, 1943 (page 6) describes this attack; its account is included here."
+   ],
+   "figures": [
+    "attack-sketch"
    ]
   },
   {
@@ -2099,6 +2102,9 @@
     "Transcriber: Time given in Z (narrative gives 2057 I). Freighter reference ONI 208-J typed as \"ONI 208-J\" (digit 8 faintly resembles 6).",
     "Transcriber: Mark Exploder line typed \"Mk. 6-1\" with hyphen faint.",
     "Narrative entry at 2057 I September 21, 1943 (page 6) describes this attack; its account is included here."
+   ],
+   "figures": [
+    "attack-sketch"
    ]
   },
   {
@@ -2222,6 +2228,9 @@
     "Transcriber: Depth Set line left blank in form.",
     "Narrative entry at 2100 I September 21, 1943 (page 7) describes this attack; its account is included here.",
     "Text preceding fired three torpedoes leads directly into Attack 5 at 2100 I"
+   ],
+   "figures": [
+    "attack-sketch"
    ]
   },
   {
@@ -2293,6 +2302,9 @@
     "Transcriber: Time given in Z (narrative gives 2101 I).",
     "Transcriber: Firing Interval and Type Spread lines blank (single torpedo fired).",
     "Narrative entry at 2101 I September 21, 1943 (page 7) describes this attack; its account is included here."
+   ],
+   "figures": [
+    "attack-sketch"
    ]
   },
   {
@@ -2320,7 +2332,10 @@
    "fields": {
     "event": "[SUMMARY] Dived. CO fell into periscope well as quartermaster lowered periscope; CO supported on elbows and halted descent."
    },
-   "flags": []
+   "flags": [],
+   "figures": [
+    "attack-sketch"
+   ]
   },
   {
    "id": "SS-237-P06-N61",
@@ -2576,6 +2591,9 @@
     "Transcriber: Time given in Z (narrative gives 2212 I).",
     "Transcriber: Overhaul Activity typed \"U.S.S. PUSHNELL\" (B faintly typed or misstruck as P).",
     "Narrative entry at 2212 I September 21, 1943 (page 9) describes this attack; its account is included here."
+   ],
+   "figures": [
+    "attack-sketch"
    ]
   },
   {
@@ -2670,6 +2688,9 @@
     "Transcriber: Time given in Z (narrative gives 2236 I).",
     "Transcriber: Actuation Actual line left blank in form.",
     "Narrative entry at 2236 I September 21, 1943 (page 10) describes this attack; its account is included here."
+   ],
+   "figures": [
+    "attack-sketch"
    ]
   },
   {
@@ -2791,6 +2812,9 @@
     "Transcriber: Time given in Z (narrative gives 0022 I on Sept. 22).",
     "Transcriber: Actuation Actual line left blank in form.",
     "Narrative entry at 0022 I September 22, 1943 (page 10) describes this attack; its account is included here."
+   ],
+   "figures": [
+    "attack-sketch"
    ]
   },
   {
@@ -3388,5 +3412,26 @@
    "flags": []
   }
  ],
- "minefields": []
+ "minefields": [],
+ "figures": [
+  {
+   "id": "attack-sketch",
+   "title": "Sketch of the convoy attacks, 21 September 1943",
+   "caption": "Hand-drawn in the narrative, Enclosure (A) page 8. Trigger's numbered positions for attacks 3 to 9, the torpedo tracks, and the fate of each ship as the report saw it. Not to scale.",
+   "page": "8",
+   "attacks": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "image": "media/SS-237/P06/attack-sketch.jpg",
+   "cleaned": "media/SS-237/P06/attack-sketch-cleaned.jpg",
+   "thumb": "media/SS-237/P06/attack-sketch-thumb.jpg",
+   "flags": []
+  }
+ ]
 }
