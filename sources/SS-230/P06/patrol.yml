@@ -1,0 +1,796 @@
+# USS Finback (SS-230), War Patrol 6
+# Fremantle to Pearl Harbor via Midway; Java Sea, Celebes Sea, Ceram Sea and
+# Dampier Strait. Under COMSUBSWPAC until 29-31 August.
+# Narrative: Gemini in fresh chats, gemini-01.yml (pages 1-9) and gemini-02.yml
+# (pages 10-17), saved as given. Tables: contacts-01.md (Gemini, pages 25-27).
+# The Summary of Submarine Attacks (pages 28-29) is contacts-02.md: Claude's
+# read of the scan, corrected by PSO; Gemini's read of those two pages put values in
+# the wrong columns and was not kept. Hand entries here take precedence.
+# Page numbers: gemini-01.yml uses the typed narrative page (1-9). gemini-02.yml,
+# contacts-01.md and contacts-02.md use the Fold3 / microfilm page (handwritten, 16-29).
+# fold3_images below is keyed to match each file, so the two schemes never collide.
+
+boat: SS-230
+patrol: 6
+year: 1943
+report_found: yes
+report: "U.S.S. FINBACK - Report of Sixth War Patrol."
+comsubpac_report_no: 249
+commanding_officer: "J.A. Tyree, Jr."
+
+# No position in the narrative or the tables gives a hemisphere for most of the patrol;
+# the Java, Celebes and Ceram Seas lie south of the equator. The Midway leg (aircraft
+# contacts 8-14) prints (N) and (W) itself.
+default_hemisphere: { lat: S, lon: E }
+
+# Fold3 image numbers from the SOURCE INFORMATION sheets. Keys 1-9: typed
+# narrative pages. Keys 16-23: Fold3 pages (narrative typed 10-17). Keys 25-29:
+# Fold3 pages (tables and attack summary). The endorsement is image 270500073.
+fold3_images:
+  1: 270500079
+  2: 270500080
+  3: 270500081
+  4: 270500082
+  5: 270500083
+  6: 270500084
+  7: 270500085
+  8: 270500086
+  9: 270500087
+  16: 270500088
+  17: 270500089
+  18: 270500090
+  19: 270500091
+  20: 270500092
+  21: 270500093
+  22: 270500094
+  23: 270500095
+  25: 270500097
+  26: 270500098
+  27: 270500099
+  28: 270500100
+  29: 270500101
+
+# Time zone: the narrative prints a zone letter on nearly every entry: H to
+# 20 August, I from 21 August (1615) to 28-31 August, K on 1-2 September, M at
+# 0200 on 7 September, Y at Midway and on the passage to Pearl Harbor.
+# The attack summary prints times and dates with no zone; they are GCT. Checked
+# against the narrative: attacks 1, 3, 4, 5, 6, 7 and 8 equal the narrative time
+# minus the zone's offset (H -8, I -9). Attack 2 does not (review.yml).
+table_zones: { SUMMARY OF SUBMARINE ATTACKS: Z }
+
+departure:
+  port: Fremantle
+  date: July 18, 1943
+  time: "1400"
+  zone: H
+  page: 1
+  flags: "The narrative entry does not name a port. The prologue says the boat arrived at Fremantle on 26 June and was ready for sea on 18 July. Zone H is printed."
+
+arrival:
+  port: Pearl Harbor
+  date: September 12, 1943
+  page: 23
+  standalone: true
+  flags: "'September 12, 1943. Arrived Pearl.' No time or zone printed. Gemini had made the arrival the stop at Midway (7 September 1638 Y, moored to USS SPERRY); the boat left Midway 8 September 1500 with TAMBOR."
+
+period:
+  start: 1943-07-18
+  end: 1943-09-12
+  source: "Patrol report"
+
+# The first endorsement (page 1) credits 17,021 tons sunk: 10,800 + 5,471 + 750.
+# Its list of damage continues on a page that is not in the PDFs read here, so
+# the two damaged ships below are the claims from the attack summary
+# (Number damaged or probably sunk). Each ship counted once. Times are local (narrative).
+tonnage:
+  - { date: 30JUL, time: "2311", zone: H, target: "Passenger-Cargo vessel (HUSIMI MARU class)", result: sunk, tons: 10800, basis: credited, source: "First endorsement, page 1; Attack 1" }
+  - { date: 3AUG, time: "2322", zone: H, target: "Freighter (KOYA MARU class)", result: sunk, tons: 5471, basis: credited, source: "First endorsement, page 1; Attack 4" }
+  - { date: 19AUG, time: "1328", zone: H, target: "Mine planter", result: sunk, tons: 750, basis: credited, source: "First endorsement, page 1 (marked with an asterisk); gun action, pages 13-14" }
+  - { date: 1AUG, time: "0634", zone: H, target: "AK (TAIGEN MARU type)", result: damaged, tons: 5660, basis: claimed, source: "Attack 2, summary page 28" }
+  - { date: 11AUG, time: "0021", zone: H, target: "AK (TATUNIYA MARU)", result: damaged, tons: 6344, basis: claimed, source: "Attack 5, summary page 29" }
+
+
+# Table cells read by hand from the scan, keyed by entry number (counted through
+# contacts-01.md: ship contacts 1-19, aircraft contacts 20-33). The raw file stays as saved.
+# Page 27 (aircraft) was out of step with the scan from row 4 on.
+row_fixes:
+  21:
+    Position: L-9°-51' (S)<br>λ-115°-25' (E)
+    Type: 2 - Dive Bombers - 97
+    Flags: Corrected by hand from the scan (page 27).
+  22:
+    Type: 1 - Mitsubishi -<br>96 bomber
+    Flags: Corrected by hand from the scan (page 27).
+  23:
+    Date: 8-1-43
+    Type: 1 - Kawasaki 97 -<br>Light bomber
+    Course: '---'
+    Alt.: '---'
+    Remarks: Picked up on radar at<br>7 miles. Dropped two<br>light bombs.
+    Flags: Corrected by hand from the scan (page 27).
+  24:
+    Date: 8-3-43
+    Course: Circl-<br>ing
+    Remarks: '- - - - -'
+    Flags: Corrected by hand from the scan (page 27).
+  25:
+    Date: 8-11-43
+    Position: L-5°-31' (S)<br>λ-120°-46' (E)
+    Type: 1 - Reconnaissance 97<br>(Divine Wind)
+    Course: Circl-<br>ing<br>target
+    Alt.: 1,000
+    Flags: Corrected by hand from the scan (page 27).
+  26:
+    Position: L-5°-49' (S)<br>λ-122°-25' (E)
+    Type: 1 - Heavy Bomber - 97
+    Course: 090°
+    Alt.: 2,000
+    Remarks: ''
+    Flags: Corrected by hand from the scan (page 27).
+  27:
+    Date: 9-1-43
+    Position: L-18°-14' (N)<br>λ-144°-59' (E)
+    Type: Unknown - Radar
+    Course: '---'
+    Alt.: '---'
+    Remarks: Radar contact at<br>6 miles.
+    Flags: Corrected by hand from the scan (page 27).
+  28:
+    Position: L-18°-17' (N)<br>λ-145°-13' (E)
+    Course: 250°
+    Alt.: 2,000
+    Remarks: '---------------'
+    Flags: Corrected by hand from the scan (page 27).
+  29:
+    Position: L-20°-10' (N)<br>λ-149°-32' (E)
+    Type: 1-Reconnaissance -97
+    Course: 160°
+    Alt.: 5,000
+    Remarks: Radar contact at<br>25 miles.
+    Flags: Corrected by hand from the scan (page 27).
+  30:
+    Date: 9-5-43
+    Position: L-23°-40' (N)<br>λ-164°-06' (E)
+    Type: 1-Bomber - Mitsubishi<br>96 - Mk III
+    Course: 340°
+    Alt.: 5,000
+    Remarks: Picked up on radar at<br>10 miles. Passed astern<br>at 9 miles.
+    Flags: Corrected by hand from the scan (page 27).
+  31:
+    Position: L-27°-54' (N)<br>λ-178°-30' (W)
+    Type: U.S. Army - B-24
+    Course: '255'
+    Alt.: 3,000
+    Remarks: Radar contact at<br>11 miles.
+    Flags: Corrected by hand from the scan (page 27).
+  32:
+    Date: 9-7-43
+    Type: Undentified
+    Course: '255'
+    Alt.: 3,000
+    Remarks: Radar contact at<br>10 miles.
+    Flags: Corrected by hand from the scan (page 27).
+  33:
+    Position: L-22°-46' (N)<br>λ-169°-02' (W)
+    Course: '290'
+    Alt.: 1,000
+    Remarks: Radar contact at<br>⟦8⟧ Miles.
+    Flags: Corrected by hand from the scan (page 27).
+
+# Hand entries. Gemini's raw files stay as saved; each entry replaces the Gemini entry it
+# names, or is new. Dates the Gemini file left blank (or gave as a day range) are filled in so
+# the converter can place them.
+events:
+- replaces:
+    date: July 18, 1943
+    time: '1400'
+    page: '1'
+    event: Underway for day and night training with H.N.M.S. TJERK HIDDES.
+  date: July 18, 1943
+  time: '1400'
+  zone: H
+  part: I
+  event: Underway for day and night training with H.N.M.S. TJERK HIDDES.
+  page: '1'
+- replaces:
+    date: July 18, 1943
+    time: '2100'
+    page: '1'
+    event: Departed operating area for Exmouth Gulf. Conducted daily fire control, ship, and gun drills enroute.
+  date: July 18, 1943
+  time: '2100'
+  zone: H
+  part: I
+  event: Departed operating area for Exmouth Gulf, Conducted daily fire control, ship, and gun drills enroute.
+  page: '1'
+- replaces:
+    date: July 22-24, 1943
+    page: '1'
+    event: Enroute to area on surface, conducted daily fire control, ship, and diving drills.
+  date: July 22, 1943
+  part: I
+  event: Enroute to area on surface, conducted daily fire control, ship, and diving drills.
+  page: '1'
+  flags: Time and zone blank The report's heading is the range 'July 22-24, 1943'; placed on its first day. The day is not stated.
+- replaces:
+    date: July 26-27, 1943
+    page: '2'
+    event: Conducted submerged patrol north of minefields off Surabaya, Java on the route to Tarakan, Borneo.
+  date: July 26, 1943
+  part: I
+  event: Conducted submerged patrol north of minefields off Surabaya, Java on the route to Tarakan, Borneo.
+  page: '2'
+  flags: Time and zone blank The report's heading is the range 'July 26-27, 1943'; placed on its first day. The day is not stated.
+- replaces:
+    date: July 26-27, 1943
+    time: '1000'
+    page: '2'
+    event: '[SUMMARY] Sighted trawler-type patrol vessel with forward gun and radio antennas; withheld gun attack to conceal position; numerous fishing and sailing craft present day and night.'
+  date: July 26, 1943
+  time: '1000'
+  zone: H
+  part: I
+  event: '[SUMMARY] Sighted trawler-type patrol vessel with forward gun and radio antennas; withheld gun attack to conceal position; numerous fishing and sailing craft present day and night.'
+  page: '2'
+  flags: The report's heading is the range 'July 26-27, 1943'; placed on its first day. The day is not stated.
+- replaces:
+    date: July 30, 1943
+    time: '2311'
+    page: '3'
+    event: fired three torpedo spread at range of 1,800 yards, track of 85° port, depth setting 12 feet, and gyro angle of 355°. Results one hit, one miss, and one premature. From checking times of firing and explosions, it was concluded that the first torpedo hit amidships, the second torpedo prematured at 23 seconds, and the third torpedo seemed to miss astern. The terrific explosion and turbulence produced by the premature may have thrown the third torpedo off its track as it swerved off to the right. All torpedoes were spread to hit the target as our information had checked accurately. Although disconcerting, the premature proved helpful in providing a smoke and water screen of about 100 feet height behind which we turned away. We cleared this screen just in time to observe a torpedo hit amidships. This hit was followed shortly by a flash of flame and an explosion aboard the target distinct from the hit. The target began to fire bow and stern guns of about 5" caliber toward our firing position which we had rapidly left astern. This target was the largest ship this vessel has fired at to date. He was well over 500 feet in length. His silhouette and upper works as seen during the daytime showed him to be similar to the Husimi Maru, 10,800 tons, page 33 of ONI-208-J. After the hit, the pip on the radar seemed to decrease about 1/3 and then stay the same size. We opened range to 7,500 yards and then rounded target to attack again from northward should he fail to sink. Target continued to fire guns to southward for about twenty minutes. Then numerous lights were seen about the decks.
+  date: July 30, 1943
+  time: '2311'
+  zone: H
+  tag: attack
+  title: Attack 1 on Husimi Maru class freighter
+  part: I
+  event: fired three torpedo spread at range of 1,800 yards, track of 85° port, depth setting 12 feet, and gyro angle of 355°. Results one hit, one miss, and one premature. From checking times of firing and explosions, it was concluded that the first torpedo hit amidships, the second torpedo prematured at 23 seconds, and the third torpedo seemed to miss astern. The terrific explosion and turbulence produced by the premature may have thrown the third torpedo off its track as it swerved off to the right. All torpedoes were spread to hit the target as our information had checked accurately. Although disconcerting, the premature proved helpful in providing a smoke and water screen of about 100 feet height behind which we turned away. We cleared this screen just in time to observe a torpedo hit amidships. This hit was followed shortly by a flash of flame and an explosion aboard the target distinct from the hit. The target began to fire bow and stern guns of about 5" caliber toward our firing position which we had rapidly left astern. This target was the largest ship this vessel has fired at to date. He was well over 500 feet in length. His silhouette and upper works as seen during the daytime showed him to be similar to the Husimi Maru, 10,800 tons, page 33 of ONI-208-J. After the hit, the pip on the radar seemed to decrease about 1/3 and then stay the same size. We opened range to 7,500 yards and then rounded target to attack again from northward should he fail to sink. Target continued to fire guns to southward for about twenty minutes. Then numerous lights were seen about the decks.
+  page: '3'
+  flags: 'Margin heading ''(Attack #1)''. Zone H is printed. Spans pages 3-4. Open readings (ONI page 83 or 33; pip decrease 15% or 1/3) are in review.yml.'
+- replaces:
+    date: August 1, 1943
+    time: '0634'
+    page: '5'
+    event: 'fired three torpedo spreads at range of 1,300 yards, 37° starboard track, 00° gyro angle, and depth setting of 15 feet. Results Nos. 1 and 2 prematured at 23 seconds; No. 3 hit target in bow. It is believed that targed slowed down on seeing prematures as #3 should have hit aft. When first two torpedoes prematured, made three more tubes ready for firing.'
+  date: August 1, 1943
+  time: '0634'
+  zone: H
+  tag: attack
+  title: Attack 2 on Taigen Maru type AK
+  part: I
+  event: 'fired three torpedo spreads at range of 1,300 yards, 37° starboard track, 0° gyro angle, and depth setting of 15 feet. Results Nos. 1 and 2 prematured at 23 seconds; No. 3 hit target in bow. It is believed that targed slowed down on seeing prematures as #3 should have hit aft. When first two torpedoes prematured, made three more tubes ready for firing.'
+  page: '5'
+  flags: 'Margin heading ''(Attack #2)''. Gyro angle printed 0° (Gemini read 00°). Track angle 87 or 37 is unresolved (review.yml).'
+- replaces:
+    date: August 1, 1943
+    time: '0637'
+    page: '5'
+    event: 'fired #4 torpedo at range of 1,700 yards with a track of 161° starboard, and 00° gyro angle. Torpedo missed as target evaded. Target took a 30° down angle, raised his screw partly out of the water, gave us a 180° angle on bow, and pulled away at about 8 knots. The target fired about 30 rounds from his stern gun at the periscope.'
+  date: August 1, 1943
+  time: '0637'
+  zone: H
+  tag: attack
+  title: Attack on Taigen Maru type AK (No. 4 torpedo)
+  part: I
+  event: 'fired #4 torpedo at range of 1,700 yards with a track of 161° starboard, and 001° gyro angle. Torpedo missed as target evaded. Target took a 30° down angle, raised his screw partly out of the water, gave us a 180° angle on bow, and pulled away at about 8 knots. The target fired about 30 rounds from his stern gun at the periscope.'
+  page: '5'
+  flags: Gyro angle printed 001° (Gemini read 00°). Target fired about 30 rounds at the periscope.
+- replaces:
+    date: August 1, 1943
+    time: '1038'
+    page: '6'
+    event: plane dropped two aerial bombs. Credit Japs with two "near misses". No damage done. Ran at 75 feet at two thirds speed to clear diving position.
+  date: August 1, 1943
+  time: '1038'
+  zone: H
+  tag: counterattack
+  title: Aerial bombing attack
+  part: I
+  charges: two aerial bombs
+  damage: No damage done.
+  event: plane dropped two aerial bombs. Credit Japs with two "near misses". No damage done. Ran at 75 feet at two thirds speed to clear diving position.
+  page: '6'
+  flags: Zone H is printed. Last digit of the time is S-like, read 8.
+- replaces:
+    date: August 5, 1943
+    time: '1940'
+    page: '8'
+    event: stopped on estimated track of targets, assuming they were large ships.
+  date: August 5, 1943
+  time: '1940'
+  zone: H
+  part: I
+  event: stopped on estimated track of targets, assuming they were large ships.
+  page: '8'
+- replaces:
+    date: August 7-8, 1943
+    page: '8'
+    event: Conducted submerged patrol off Laikang Bay, Celebes, N.E.I..
+  date: August 7, 1943
+  part: I
+  event: Conducted submerged patrol off Laikang Bay, Celebes, N.E.I..
+  page: '8'
+  flags: Time and zone blank The report's heading is the range 'August 7-8, 1943'; placed on its first day. The day is not stated.
+- replaces:
+    date: August 7-8, 1943
+    time: 0529
+    page: '8'
+    event: on the 8th while running at 120 feet waiting for sunrise, damaged JK-QC sound head by rubbing over an unplotted coral head. Ship's position as fixed before diving and after coming to periscope depth was 0.6 miles, outside of the 100 fathom curve. This sound head was put out of commission for the remainder of the patrol.
+  date: August 8, 1943
+  time: 0529
+  zone: H
+  tag: notable
+  title: Sound head damaged on unplotted coral head
+  part: I
+  event: on the 8th while running at 120 feet waiting for sunrise, damaged JK-QC sound head by rubbing over an unplotted coral head. Ship's position as fixed before diving and after coming to periscope depth was 0.6 miles, outside of the 100 fathom curve. This sound head was put out of commission for the remainder of the patrol.
+  page: '8'
+  flags: 'Spans pages 8-9 Date set to 8 August: the entry says ''on the 8th''.'
+- replaces:
+    date: August 10, 1943
+    page: '9'
+    event: Conducted submerged patrol off Laikang Bay, Celebes, N.E.I..
+  date: August 10, 1943
+  part: I
+  event: Conducted submerged patrol off Laikang Bay, Celebes,
+  page: '9'
+  flags: Time and zone blank The page ends at 'Celebes,' (Gemini added 'N.E.I..').
+- replaces:
+    time: '0026'
+    page: '16'
+    event: '[SUMMARY] Heard two explosions, possibly torpedoes exploding at run''s end or distant depth charges.'
+  date: August 11, 1943
+  time: '0026'
+  zone: H
+  part: I
+  event: '[SUMMARY] Heard two explosions, possibly torpedoes exploding at run''s end or distant depth charges.'
+  page: '16'
+  flags: Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '0035'
+    page: '16'
+    event: At escort dropped two depth charges at fairly good range, but they seemed to be large and set deep. Escort did not have echo ranging gear. Continued to hear screws above us for sometime. We had about a 6° F. negative temperature gradient.
+  date: August 11, 1943
+  time: '0035'
+  zone: H
+  tag: counterattack
+  title: Escort depth charges
+  part: I
+  charges: two
+  event: At escort dropped two depth charges at fairly good range, but they seemed to be large and set deep. Escort did not have echo ranging gear. Continued to hear screws above us for sometime. We had about a 6° F. negative temperature gradient.
+  page: '16'
+  flags: Zone typed as (II) in document. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '0212'
+    page: '16'
+    event: surfaced and headed for attack position.
+  date: August 11, 1943
+  time: '0212'
+  zone: H
+  part: I
+  event: surfaced and headed for attack position.
+  page: '16'
+  flags: Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '0222'
+    page: '16'
+    event: '[SUMMARY] Contacted target at 12,900 yards; target seemed stopped. Closed on surface very slowly, waiting for escort to circle target before continuing approach.'
+  date: August 11, 1943
+  time: '0222'
+  zone: H
+  part: I
+  event: '[SUMMARY] Contacted target at 12,900 yards; target seemed stopped. Closed on surface very slowly, waiting for escort to circle target before continuing approach.'
+  page: '16'
+  flags: Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '0333'
+    page: '16'
+    event: fired two bow tubes at about 3,800 yards 90° port track, 0° gyro angle, and depth setting of 12 feet. Results two prematures at about 17 seconds. Neither target nor escort fired at us as we retired southward. Decided to circle target at full speed and get in an attack from the north before dawn.
+  date: August 11, 1943
+  time: '0333'
+  zone: H
+  tag: attack
+  title: 'Attack #6'
+  part: I
+  event: fired two bow tubes at about 3,800 yards 90° port track, 0° gyro angle, and depth setting of 12 feet. Results two prematures at about 17 seconds. Neither target nor escort fired at us as we retired southward. Decided to circle target at full speed and get in an attack from the north before dawn.
+  page: '16'
+  flags: Zone typed as (11). Heading includes '(Attack 6)'. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '0447'
+    page: '16'
+    event: fired two bow tubes at 3,900 yard range, 0° gyro angle, 90° starboard track, and spread torpedoes by using masts as points of aim. Results two misses astern. The target seemed to kick ahead very slowly just as we fired. We had used a target speed of zero. This time the target opened up with his gun. No splashes were seen. This failure meant that our next attack would have to be a submerged one in daylight as dawn had begun breaking in the east.
+  date: August 11, 1943
+  time: '0447'
+  zone: H
+  tag: attack
+  title: 'Attack #7'
+  part: I
+  event: fired two bow tubes at 3,900 yard range, 0° gyro angle, 90° starboard track, and spread torpedoes by using masts as points of aim. Results two misses astern. The target seemed to kick ahead very slowly just as we fired. We had used a target speed of zero. This time the target opened up with his gun. No splashes were seen. This failure meant that our next attack would have to be a submerged one in daylight as dawn had begun breaking in the east.
+  page: '16'
+  flags: 'Heading includes ''(Attack #7)''. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).'
+- replaces:
+    time: '0515'
+    page: '16'
+    event: '[SUMMARY] Dived and ran west to head off target from Salier Strait; observed target with 10° list to port, attempting daylight submerged approach.'
+  date: August 11, 1943
+  time: '0515'
+  zone: H
+  part: I
+  event: '[SUMMARY] Dived and ran west to head off target from Salier Strait; observed target with 10° list to port, attempting daylight submerged approach.'
+  page: '16'
+  flags: Narrative paragraph continues onto page 17. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: 0847
+    page: '17'
+    event: '[SUMMARY] Sighted reconnaissance seaplane. Decided deliberate attack was impossible, started closing target hoping enemy maneuvers would offer an opportunity.'
+  date: August 11, 1943
+  time: 0847
+  zone: H
+  part: I
+  event: '[SUMMARY] Sighted reconnaissance seaplane. Decided deliberate attack was impossible, started closing target hoping enemy maneuvers would offer an opportunity.'
+  page: '17'
+  flags: Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '1143'
+    page: '17'
+    event: when about 5,000 yards from target, two small aerial bombs were dropped close aboard immediately following a periscope observation. As it looked like the enemy now had the ball, went deep to prepare for escort's depth charges. He obliged with two at 1206 (H).
+  date: August 11, 1943
+  time: '1143'
+  zone: H
+  tag: counterattack
+  title: Aerial bombing and depth charges
+  part: I
+  charges: '4'
+  event: when about 5,000 yards from target, two small aerial bombs were dropped close aboard immediately following a periscope observation. As it looked like the enemy now had the ball, went deep to prepare for escort's depth charges. He obliged with two at 1206 (H).
+  page: '17'
+  flags: Two bombs at 1143 and two depth charges at 1206 (H) in same entry. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '1214'
+    page: '17'
+    event: 'escort dropped another depth charge. These charges seemed to be large, but poorly placed. When we seemed to lose the escort, the enemy started a ferry run with some very large aerial bombs. All bombs were a good distance, but gave off the heaviest reverberations yet heard by this vessel. The ship vibrated all over. Bombs were dropped as follows:'
+  date: August 11, 1943
+  time: '1214'
+  zone: H
+  tag: counterattack
+  title: Escort depth charge
+  part: I
+  charges: one
+  damage: The ship vibrated all over.
+  event: 'escort dropped another depth charge. These charges seemed to be large, but poorly placed. When we seemed to lose the escort, the enemy started a ferry run with some very large aerial bombs. All bombs were a good distance, but gave off the heaviest reverberations yet heard by this vessel. The ship vibrated all over. Bombs were dropped as follows:'
+  page: '17'
+  flags: Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '1327'
+    page: '17'
+    event: two bombs,
+  date: August 11, 1943
+  time: '1327'
+  zone: H
+  tag: counterattack
+  title: Aerial bombing
+  part: I
+  charges: two bombs
+  event: two bombs,
+  page: '17'
+  flags: Zone typed as '( ) (11)'. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '1422'
+    page: '17'
+    event: one bomb;
+  date: August 11, 1943
+  time: '1422'
+  zone: H
+  tag: counterattack
+  title: Aerial bombing
+  part: I
+  charges: one bomb
+  event: one bomb;
+  page: '17'
+  flags: Zone H is printed (Gemini noted none).
+- replaces:
+    time: '1430'
+    page: '17'
+    event: one bomb;
+  date: August 11, 1943
+  time: '1430'
+  zone: H
+  tag: counterattack
+  title: Aerial bombing
+  part: I
+  charges: one bomb
+  event: one bomb;
+  page: '17'
+  flags: Zone typed as (II). Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '1439'
+    page: '17'
+    event: one bomb;
+  date: August 11, 1943
+  time: '1439'
+  zone: H
+  tag: counterattack
+  title: Aerial bombing
+  part: I
+  charges: one bomb
+  event: one bomb;
+  page: '17'
+  flags: Zone typed as (II). Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '1442'
+    page: '17'
+    event: one bomb,
+  date: August 11, 1943
+  time: '1442'
+  zone: H
+  tag: counterattack
+  title: Aerial bombing
+  part: I
+  charges: one bomb
+  event: one bomb,
+  page: '17'
+  flags: Zone H is printed (Gemini read a blank).
+- replaces:
+    time: '1446'
+    page: '17'
+    event: two bombs,
+  date: August 11, 1943
+  time: '1446'
+  zone: H
+  tag: counterattack
+  title: Aerial bombing
+  part: I
+  charges: two bombs
+  event: two bombs,
+  page: '17'
+  flags: Zone typed as (11). Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '1456'
+    page: '17'
+    event: one bomb,
+  date: August 11, 1943
+  time: '1456'
+  zone: H
+  tag: counterattack
+  title: Aerial bombing
+  part: I
+  charges: one bomb
+  event: one bomb,
+  page: '17'
+  flags: Zone typed as (II). Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '1656'
+    page: '17'
+    event: two bombs, For awhile we thought we must be leaving air or oil slick. It is believed now that the bombing was intended to hold us down while the target was being towed to shallow water.
+  date: August 11, 1943
+  time: '1656'
+  zone: H
+  tag: counterattack
+  title: Aerial bombing
+  part: I
+  charges: two bombs
+  event: two bombs, For awhile we thought we must be leaving air or oil slick. It is believed now that the bombing was intended to hold us down while the target was being towed to shallow water.
+  page: '17'
+  flags: Zone typed as (II). Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '1847'
+    page: '17'
+    event: '[SUMMARY] Surfaced in moonlight; unable to re-establish contact. Decided to patrol western end of Tioro Strait the following day.'
+  date: August 11, 1943
+  time: '1847'
+  zone: H
+  part: I
+  event: '[SUMMARY] Surfaced in moonlight; unable to re-establish contact. Decided to patrol western end of Tioro Strait the following day.'
+  page: '17'
+  flags: Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    date: August 12, 1943.
+    time: '2145'
+    page: '18'
+    event: just as ship was turning northward to patrol the following day off Pomalaa, Celebes, picked up target on radar at 3,750 yards, 034° relative. At that time we sighted a patrol vessel visually for the first time and turned away. When the commanding officer arrived on the bridge, he found a patrol vessel with a big bow wave bearing down with zero angle on the bow and range of 2,700 yards. The range opened fairly rapidly as four Fairbanks-Morse engines warmed up. At a range of about 3,500 yards, the patrol vessel presented a 10° angle on the bow and opened fired with a gun of about 3" caliber. At this point the FINBACK joined the group that strongly believes in the 5" gun aft. Decided to stay on surface as long as we opened range and firing was not too accurate. The only close shot dropped 75 yards to starboard of forward engine room hatch. This shot did not explode. He continued to fire until range opened to 6,000 yards. As he was in our path to Pomalaa, decided to retire to southeast and patrol southwest of Buton Island the following day. This patrol vessel was only seen head on. At first he appeared to be a small destroyer, but as he only made about 10-11 knots it is believed that he was a PC type patrol boat.
+  date: August 12, 1943.
+  time: '2145'
+  zone: H
+  tag: counterattack
+  title: Gunfire from patrol vessel
+  part: I
+  event: just as ship was turning northward to patrol the following day off Pomalaa, Celebes, picked up target on radar at 3,750 yards, 034° relative. At that time we sighted a patrol vessel visually for the first time and turned away. When the commanding officer arrived on the bridge, he found a patrol vessel with a big bow wave bearing down with zero angle on the bow and range of 2,700 yards. The range opened fairly rapidly as four Fairbanks-Morse engines warmed up. At a range of about 3,500 yards, the patrol vessel presented a 10° angle on the bow and opened fired with a gun of about 3" caliber. At this point the FINBACK joined the group that strongly believes in the 5" gun aft. Decided to stay on surface as long as we opened range and firing was not too accurate. The only close shot dropped 75 yards to starboard of forward engine room hatch. This shot did not explode. He continued to fire until range opened to 6,000 yards. As he was in our path to Pomalaa, decided to retire to southeast and patrol southwest of Buton Island the following day. This patrol vessel was only seen head on. At first he appeared to be a small destroyer, but as he only made about 10-11 knots it is believed that he was a PC type patrol boat.
+  page: '18'
+  flags: Zone H is printed. The report does not state damage; the shot 'did not explode'.
+- replaces:
+    date: August 15-16, 1943.
+    page: '18'
+    event: '[SUMMARY] Conducted submerged patrol in Buton Passage. Sighted and photographed beached tanker southwest of Wajo Bay, Buton Island, to confirm sunk credit.'
+  date: August 15, 1943
+  part: I
+  event: '[SUMMARY] Conducted submerged patrol in Buton Passage. Sighted and photographed beached tanker southwest of Wajo Bay, Buton Island, to confirm sunk credit.'
+  page: '18'
+  flags: Narrative paragraph continues onto page 19. The report's heading is the range 'August 15-16, 1943.'; placed on its first day. The day is not stated.
+- replaces:
+    time: '1328'
+    page: '19'
+    event: surfaced and started in pursuit. The range to the steamer by SJ radar was 9,000 yards. This showed we had been farther off the beach. Closed targets at full speed on the surface. They paid no attention until we opened fired on the steamer at 5,000 yards range. The steamer was light and very high out of the water. Hit steamer about five times. Leading mine planter turned toward us and opened fire with a gun which seemed to be about a one pounder. Directed 4" fire at this ship. He continued to close range in spite of numerous hits until we opened fire with our three 20 mm guns and two 50 caliber machine guns. This barrage combined with a fire breaking out on board, discouraged him and he opened range rapidly. This vessel had settled about three feet. Shifted fire back to the steamer and the second mine planter began closing us. His machine gun fire was falling about 100 yards short. Began to hit him repeatedly with 4" gun. Soon put him on fire from stem to stern. He finally headed for the beach blazing furiously. At this point the first mine planter began to fire at a range of about 8,000 yards. Shifted fire to steamer again and obtained about five more hits. When the mine planter began to straddle us at 6,500 yards, decided the one pounder had gotten larger, and as we had only twenty rounds of 4" left, retired to westward. The mine planters were from 500 1,000 tons. Pictures obtained may provide a better estimate. The one set on fire sank enroute to the beach. The damaged ships headed eastward with power plants apparently intact. Expended 100 rounds of 4" ammunition. As we had been along normal traffic lanes from Ambon to Tioro Strait and Makassar for several days without results, decided to work north of Ceram following day hunting for traffic to Dampier Strait and Babo, New Guinea. Following that, planned to concentrate on Dampier Strait which is reported virgin territory with some traffic.
+  date: August 19, 1943.
+  time: '1328'
+  zone: H
+  tag: gun
+  title: Gun action off Boeroe Island
+  part: I
+  event: surfaced and started in pursuit. The range to the steamer by SJ radar was 9,000 yards. This showed we had been farther off the beach. Closed targets at full speed on the surface. They paid no attention until we opened fired on the steamer at 5,000 yards range. The steamer was light and very high out of the water. Hit steamer about five times. Leading mine planter turned toward us and opened fire with a gun which seemed to be about a one pounder. Directed 4" fire at this ship. He continued to close range in spite of numerous hits until we opened fire with our three 20 mm guns and two 50 caliber machine guns. This barrage combined with a fire breaking out on board, discouraged him and he opened range rapidly. This vessel had settled about three feet. Shifted fire back to the steamer and the second mine planter began closing us. His machine gun fire was falling about 100 yards short. Began to hit him repeatedly with 4" gun. Soon put him on fire from stem to stern. He finally headed for the beach blazing furiously. At this point the first mine planter began to fire at a range of about 8,000 yards. Shifted fire to steamer again and obtained about five more hits. When the mine planter began to straddle us at 6,500 yards, decided the one pounder had gotten larger, and as we had only twenty rounds of 4" left, retired to westward. The mine planters were from 500 1,000 tons. Pictures obtained may provide a better estimate. The one set on fire sank enroute to the beach. The damaged ships headed eastward with power plants apparently intact. Expended 100 rounds of 4" ammunition. As we had been along normal traffic lanes from Ambon to Tioro Strait and Makassar for several days without results, decided to work north of Ceram following day hunting for traffic to Dampier Strait and Babo, New Guinea. Following that, planned to concentrate on Dampier Strait which is reported virgin territory with some traffic.
+  page: '19'
+  flags: Text spans pages 19 and 20. Target returned fire, straddling the boat. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '2030'
+    page: '20'
+    event: '[SUMMARY] Received message from CTF 71.1 requesting number of torpedoes aboard; remained close to Ceram to avoid disclosing movements.'
+  date: August 20, 1943.
+  time: '2030'
+  zone: H
+  part: I
+  event: '[SUMMARY] Received message from CTF 71.1 requesting number of torpedoes aboard; remained close to Ceram to avoid disclosing movements.'
+  page: '20'
+  flags: Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    date: August 22, 1943.
+    time: '1615'
+    page: '20'
+    event: Conducted submerged patrol off western entrance to Sagewin Strait. At surfaced and set course for Sagewin Strait.
+  date: August 21, 1943.
+  time: '1615'
+  zone: I
+  part: I
+  event: surfaced and set course for Sagewin Strait.
+  page: '20'
+  flags: 'Date corrected by hand: this entry is printed above the ''August 22, 1943.'' heading, so it belongs to 21 August. Zone I is printed. Gemini had dated it 22 August and merged the 22 August sentence into it.'
+- replaces:
+    date: August 23-24, 1943.
+    page: '21'
+    event: Conducted submerged patrol at western end of Dampier Strait.
+  date: August 23, 1943
+  part: I
+  event: Conducted submerged patrol at western end of Dampier Strait.
+  page: '21'
+  flags: The report's heading is the range 'August 23-24, 1943.'; placed on its first day. The day is not stated.
+- replaces:
+    time: '1300'
+    page: '21'
+    event: surfaced and recontacted target which had disappeared into rain squall.
+  date: August 24, 1943.
+  time: '1300'
+  zone: I
+  part: I
+  event: surfaced and recontacted target which had disappeared into rain squall.
+  page: '21'
+  flags: Zone typed as (1). Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '2032'
+    page: '21'
+    event: '[SUMMARY] Closed target to radar range of 13,300 yards and began working around ahead; target making 11.5 knots.'
+  date: August 24, 1943.
+  time: '2032'
+  zone: I
+  part: I
+  event: '[SUMMARY] Closed target to radar range of 13,300 yards and began working around ahead; target making 11.5 knots.'
+  page: '21'
+  flags: Zone typed as (I). Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '2340'
+    page: '21'
+    event: '[SUMMARY] In attack position with two torpedoes forward, three aft; sighted escort on starboard quarter in highly phosphorescent water.'
+  date: August 24, 1943.
+  time: '2340'
+  zone: I
+  part: I
+  event: '[SUMMARY] In attack position with two torpedoes forward, three aft; sighted escort on starboard quarter in highly phosphorescent water.'
+  page: '21'
+  flags: Zone typed as (I(. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    date: August 25, 1943.
+    time: '0007'
+    page: '21'
+    event: fired two torpedo spread from bow tubes at 1,430 yards range with 113 starboard track, 020° gyro angle, and depth setting of 12 feet. Results - two misses. Swung ship hard right; just as we were going to fire our stern tubes, noticed backing wash from target's screws. While shifting set up, target turned away giving us a large angle on the bow. Decided not to throw away any torpedoes. The escort apparently did not see us. The target must have seen us just prior to firing or after we started turning. The torpedoes ran normally and our set-up had checked accurately. The torpedo tracks looked good. Unless we were discovered at firing point, at least one torpedo should have hit. Our only mistake was that in trying to keep a small silhouette to both target and escort, a 020° right gyro was accepted. Target and escort headed south as we opened to north. Escort dropped two depth charges aimlessly. Abandoned chase as we could not get ahead of target undetected before he began to hug coast of Ceram. At daylight, he could be in either Kelang or Manipa Strait. This set-up had checked so accurately that we had already credited ourselves with 5,000 tons.
+  date: August 25, 1943.
+  time: '0007'
+  zone: I
+  tag: attack
+  title: Attack on AK
+  part: I
+  event: fired two torpedo spread from bow tubes at 1,430 yards range with 113 starboard track, 028° gyro angle, and depth setting of 12 feet. Results - two misses. Swung ship hard right; Just as we were going to fire our stern tubes, noticed backing wash from target's screws. While shifting set up, target turned away giving us a large angle on the bow. Decided not to throw away any torpedoes. The escort apparently did not see us. The target must have seen us just prior to firing or after we started turning. The torpedoes ran normally and our set-up had checked accurately. The torpedo tracks looked good. Unless we were discovered at firing point, at least one torpedo should have hit. Our only mistake was that in trying to keep a small silhouette to both target and escort, a 028° right gyro was accepted. Target and escort headed south as we opened to north. Escort dropped two depth charges aimlessly. Abandoned chase as we could not get ahead of target undetected before he began to hug coast of Ceram. At daylight, he could be in either Kelang or Manipa Strait. This set-up had checked so accurately that we had already credited ourselves with 5,000 tons.
+  page: '21'
+  flags: 'Gyro angle read 028° twice (Gemini 020°), as on the attack summary (attack 8, 028). The ''(Attack #8)'' margin heading is not printed on this entry. Spans pages 21-22.'
+- replaces:
+    date: August 29-31, 1943.
+    time: 0901
+    page: '22'
+    event: passed to Command of Submarines Pacific. Enroute from area to Midway. Conducted daily training dives.
+  date: August 29, 1943
+  time: 0901
+  zone: I
+  part: I
+  event: passed to Command of Submarines Pacific. Enroute from area to Midway. Conducted daily training dives.
+  page: '22'
+  flags: Zone typed as (1). The report's heading is the range 'August 29-31, 1943.'; placed on its first day. The day is not stated.
+- replaces:
+    time: '1257'
+    page: '23'
+    event: surfaced.
+  date: September 1, 1943.
+  time: '1257'
+  zone: K
+  part: I
+  event: surfaced.
+  page: '23'
+  flags: Zone K is printed (Gemini read a blank).
+- replaces:
+    time: '1420'
+    page: '23'
+    event: dived when lookout sighted reconnaissance plane. No bombs.
+  date: September 1, 1943.
+  time: '1420'
+  zone: K
+  part: I
+  event: dived when lookout sighted reconnaissance plane. No bombs.
+  page: '23'
+  flags: Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '1517'
+    page: '23'
+    event: surfaced.
+  date: September 1, 1943.
+  time: '1517'
+  zone: K
+  part: I
+  event: surfaced.
+  page: '23'
+  flags: Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).
+- replaces:
+    time: '1810'
+    page: '23'
+    event: passed between Pagan and Agrihan Islands, Marianas.
+  date: September 1, 1943.
+  time: '1810'
+  zone: K
+  part: I
+  event: passed between Pagan and Agrihan Islands, Marianas.
+  page: '23'
+  flags: 'Zone K is printed. Time 1810: the 8 is S-like (Gemini was unsure of 1810 or 1310).'
+- replaces:
+    date: September 2, 1943.
+    time: '1225'
+    page: '23'
+    event: '[SUMMARY] SD radar contact at 26 miles, closing to 24 miles; lookout sighted plane on course 160° (T); ship 240 miles from Pagan, 345 miles from Marcus Island.'
+  date: September 2, 1943.
+  time: '1225'
+  zone: K
+  part: I
+  event: '[SUMMARY] SD radar contact at 26 miles, closing to 24 miles; lookout sighted plane on course 160° (T); ship 240 miles from Pagan, 345 miles from Marcus Island.'
+  page: '23'
+  flags: Zone K is printed (Gemini read a blank).
+- replaces:
+    date: September 3-6, 1943.
+    page: '23'
+    event: Enroute from area to Midway. Conducted daily ship's drills and fire control problems.
+  date: September 3, 1943
+  part: I
+  event: Enroute from area to Midway. Conducted daily ship's drills and fire control problems.
+  page: '23'
+  flags: The report's heading is the range 'September 3-6, 1943.'; placed on its first day. The day is not stated.
+- replaces:
+    date: September 9-12, 1943.
+    page: '23'
+    event: Enroute Midway to Pearl. September 12, 1943. Arrived Pearl.
+  date: September 9, 1943
+  part: I
+  event: Enroute Midway to Pearl. September 12, 1943. Arrived Pearl.
+  page: '23'
+  flags: The report's heading is the range 'September 9-12, 1943.'; placed on its first day. The day is not stated.
+- date: August 12, 1943.
+  zone: H
+  part: I
+  page: '18'
+  event: Conducted submerged patrol in western entrance to Tioro Strait. On surfacing patrolled route to Salier Strait.
+  flags: 'Added by hand: Gemini left out this paragraph under the August 12 heading. No time printed.'
+- date: August 22, 1943.
+  zone: I
+  part: I
+  page: '20'
+  event: Conducted submerged patrol off western entrance to Sagewin Strait.
+  flags: 'Added by hand: split out of Gemini''s 1615 entry. No time printed.'

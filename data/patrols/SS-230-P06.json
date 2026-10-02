@@ -1,0 +1,5146 @@
+{
+ "id": "SS-230-P06",
+ "boat": "SS-230",
+ "name": "Finback",
+ "class": "Gato",
+ "patrol": 6,
+ "year": 1943,
+ "report": "U.S.S. FINBACK - Report of Sixth War Patrol.",
+ "commanding_officer": "J.A. Tyree, Jr.",
+ "citation": {
+  "archive": "NARA",
+  "record_group": "38",
+  "nara_catalog_id": "4697018",
+  "nara_catalog_title": "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946",
+  "reel": "A549",
+  "micro_serial": "55595",
+  "file": "A16-3 (5)",
+  "serial": "01285",
+  "date": "9/16/1943"
+ },
+ "fold3_images": {
+  "1": "270500079",
+  "7": "270500085",
+  "8": "270500086",
+  "9": "270500087",
+  "10": "270500082",
+  "11": "270500083",
+  "12": "270500084",
+  "13": "270500085",
+  "14": "270500086",
+  "15": "270500087",
+  "16": "270500088",
+  "17": "270500089",
+  "18": "270500090",
+  "19": "270500091",
+  "20": "270500092",
+  "21": "270500093",
+  "22": "270500094",
+  "23": "270500095",
+  "2": "270500080",
+  "3": "270500081",
+  "4": "270500082",
+  "5": "270500083",
+  "6": "270500084",
+  "25": "270500097",
+  "26": "270500098",
+  "27": "270500099",
+  "28": "270500100",
+  "29": "270500101"
+ },
+ "miles_steamed": null,
+ "fuel_expended": null,
+ "start": "1943-07-18T06:00:00Z",
+ "end": "1943-09-12T12:00:00Z",
+ "departure": {
+  "label": "Departed",
+  "port": "Fremantle",
+  "utc": "1943-07-18T06:00:00Z",
+  "local": "1400 H July 18, 1943",
+  "lat": -32.05,
+  "lon": 115.74,
+  "page": "1",
+  "flags": [
+   "The narrative entry does not name a port. The prologue says the boat arrived at Fremantle on 26 June and was ready for sea on 18 July. Zone H is printed."
+  ]
+ },
+ "arrival": {
+  "label": "Arrived",
+  "port": "Pearl Harbor",
+  "utc": "1943-09-12T12:00:00Z",
+  "local": "September 12, 1943",
+  "lat": 21.35,
+  "lon": -157.95,
+  "page": "23",
+  "flags": [
+   "'September 12, 1943. Arrived Pearl.' No time or zone printed. Gemini had made the arrival the stop at Midway (7 September 1638 Y, moored to USS SPERRY); the boat left Midway 8 September 1500 with TAMBOR.",
+   "Time not recorded; placed at noon."
+  ]
+ },
+ "report_found": true,
+ "summary": {
+  "records": 157,
+  "sightings": 19,
+  "aircraft": 14,
+  "torpedo_attacks": 10,
+  "mine_attacks": 0,
+  "counterattacks": 13,
+  "torpedoes_fired": 21,
+  "gun_actions": 1,
+  "flagged": 117
+ },
+ "track": [
+  {
+   "lat": -32.05,
+   "lon": 115.74,
+   "utc": "1943-07-18T06:00:00Z",
+   "basis": "reference"
+  },
+  {
+   "lat": -6.51667,
+   "lon": 111.43333,
+   "utc": "1943-07-30T15:11:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P06-C34"
+  },
+  {
+   "lat": -4.31667,
+   "lon": 112.15,
+   "utc": "1943-08-01T14:34:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P06-C35"
+  },
+  {
+   "lat": -5.3,
+   "lon": 111.86667,
+   "utc": "1943-08-03T15:19:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P06-C36"
+  },
+  {
+   "lat": -5.48333,
+   "lon": 120.96667,
+   "utc": "1943-08-10T14:15:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P06-C13"
+  },
+  {
+   "lat": -5.51667,
+   "lon": 120.76667,
+   "utc": "1943-08-10T16:21:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P06-C38"
+  },
+  {
+   "lat": -5.51667,
+   "lon": 120.75,
+   "utc": "1943-08-10T20:47:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P06-C40"
+  },
+  {
+   "lat": -2.36667,
+   "lon": 128.45,
+   "utc": "1943-08-24T15:07:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P06-C41"
+  },
+  {
+   "lat": 21.35,
+   "lon": -157.95,
+   "utc": "1943-09-12T12:00:00Z",
+   "basis": "reference"
+  }
+ ],
+ "records": [
+  {
+   "id": "SS-230-P06-N01",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "H",
+   "local": "1400 H July 18, 1943",
+   "utc": "1943-07-18T06:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    18
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Underway for day and night training with H.N.M.S. TJERK HIDDES."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N02",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "H",
+   "local": "2100 H July 18, 1943",
+   "utc": "1943-07-18T13:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    18
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Departed operating area for Exmouth Gulf, Conducted daily fire control, ship, and gun drills enroute."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-C20",
+   "source": "6. description of aircraft sighted:",
+   "row": 20,
+   "kind": "aircraft",
+   "page": "27",
+   "zone": null,
+   "local": "7-19-43",
+   "utc": "1943-07-19T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    7,
+    19
+   ],
+   "position_verbatim": "L-28°-34' (S)<br>λ-113°-00' (E)",
+   "lat": -28.56667,
+   "lon": 113.0,
+   "derived": null,
+   "type": "U.S. Navy Catalina",
+   "title": "Aircraft 1 · U.S. Navy Catalina",
+   "fields": {
+    "type": "U.S. Navy Catalina",
+    "course": "090°",
+    "altitude": "1,000",
+    "remarks": "Exchanged recognition<br>signals."
+   },
+   "flags": [
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "1."
+  },
+  {
+   "id": "SS-230-P06-N03",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "H",
+   "local": "0700 H July 21, 1943",
+   "utc": "1943-07-20T23:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    21
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted special assigned tests for shore installations north of Flaming Head Light."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N04",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "H",
+   "local": "1329 H July 21, 1943",
+   "utc": "1943-07-21T05:29:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    21
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Moored alongside Dutch Tanker, S.S. ODI, in Exmouth Gulf to fuel. Received 10,221 gallons."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N05",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "H",
+   "local": "1853 H July 21, 1943",
+   "utc": "1943-07-21T10:53:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    21
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Underway for area after waiting for Officer Messenger Mail."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-C01",
+   "source": "5. description of enemy vessels sighted:",
+   "row": 1,
+   "kind": "sighting",
+   "page": "25",
+   "zone": null,
+   "local": "7-21-43",
+   "utc": "1943-07-21T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    7,
+    21
+   ],
+   "position_verbatim": "L-6° -25' (S)<br>λ-112°-43'( )",
+   "lat": -6.41667,
+   "lon": 112.71667,
+   "derived": null,
+   "type": "Patrol Vessel / Trawler about 150 / tons",
+   "title": "Contact 1 · Patrol Vessel / Trawler about 150 / tons",
+   "fields": {
+    "type": "Patrol Vessel<br>Trawler about 150<br>tons",
+    "initial_range": "5,000",
+    "min_range": "3,000",
+    "course": "270°",
+    "speed": "8 kts",
+    "remarks": "Armed and<br>had radio<br>antenna."
+   },
+   "flags": [
+    "Transcriber: Longitude hemisphere missing; λ typed as lowercase lambda / inverted y-like symbol.",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "1."
+  },
+  {
+   "id": "SS-230-P06-N06",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": null,
+   "local": "July 22, 1943",
+   "utc": "1943-07-22T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    22
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute to area on surface, conducted daily fire control, ship, and diving drills."
+   },
+   "flags": [
+    "Time and zone blank The report's heading is the range 'July 22-24, 1943'; placed on its first day. The day is not stated.",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N07",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "H",
+   "local": "1410 H July 24, 1943",
+   "utc": "1943-07-24T06:10:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "notable",
+   "local_date": [
+    1943,
+    7,
+    24
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Hydraulic line failure on diving",
+   "fields": {
+    "event": "Dived when lookout reported two planes dead ahead with 45° port angle on bow. O.O.D. did not sight planes. No bombs. Hydraulic line to hull induction valve in crews mess carried away on diving. Some oil got into storeroom and magazines, but was quickly wiped up with no damage resulting. Remained submerged to repair hydraulic line."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N08",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "H",
+   "local": "1543 H July 24, 1943",
+   "utc": "1943-07-24T07:43:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    24
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced upon completing repairs."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-C21",
+   "source": "6. description of aircraft sighted:",
+   "row": 21,
+   "kind": "aircraft",
+   "page": "27",
+   "zone": null,
+   "local": "7-24-43",
+   "utc": "1943-07-24T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    7,
+    24
+   ],
+   "position_verbatim": "L-9°-51' (S)<br>λ-115°-25' (E)",
+   "lat": -9.85,
+   "lon": 115.41667,
+   "derived": null,
+   "type": "2 - Dive Bombers - 97",
+   "title": "Aircraft 2 · 2 - Dive Bombers - 97",
+   "fields": {
+    "type": "2 - Dive Bombers - 97",
+    "course": "240°",
+    "altitude": "3,000",
+    "remarks": "Sighted by<br>Lookout"
+   },
+   "flags": [
+    "Corrected by hand from the scan: Position was 'L-9°-51'(S)<br>λ-115°-25'( )'.",
+    "Corrected by hand from the scan: Type was '2<br>Dive Bombers 97'.",
+    "Corrected by hand from the scan: Flags was 'Longitude hemisphere missing.'.",
+    "Transcriber: Corrected by hand from the scan (page 27).",
+    "Review: Aircraft 2: the scan prints (E) after the longitude; Gemini read the hemisphere as blank.",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "2."
+  },
+  {
+   "id": "SS-230-P06-N09",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "H",
+   "local": "2030 H July 24, 1943",
+   "utc": "1943-07-24T12:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    24
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "started passage of Lombok Strait."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N10",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": null,
+   "local": "July 25, 1943",
+   "utc": "1943-07-25T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    25
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol south of Kangean Islands along Surabaya Ambon route in order to arrive off Surabaya undetected. Noted numerous small sailing vessels."
+   },
+   "flags": [
+    "Spans pages 1-2; time and zone blank",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N12",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "H",
+   "local": "1000 H July 26, 1943",
+   "utc": "1943-07-26T02:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    26
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted trawler-type patrol vessel with forward gun and radio antennas; withheld gun attack to conceal position; numerous fishing and sailing craft present day and night."
+   },
+   "flags": [
+    "The report's heading is the range 'July 26-27, 1943'; placed on its first day. The day is not stated."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N11",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": null,
+   "local": "July 26, 1943",
+   "utc": "1943-07-26T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    26
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol north of minefields off Surabaya, Java on the route to Tarakan, Borneo."
+   },
+   "flags": [
+    "Time and zone blank The report's heading is the range 'July 26-27, 1943'; placed on its first day. The day is not stated.",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N14",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "H",
+   "local": "0648 H July 28, 1943",
+   "utc": "1943-07-27T22:48:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    28
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted small ballast tanker of about 3,000 tons resembling four-stack destroyer; closest range 6,000 yards; shifted position to track future traffic; 20+ sailboats in sight."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-C02",
+   "source": "5. description of enemy vessels sighted:",
+   "row": 2,
+   "kind": "sighting",
+   "page": "25",
+   "zone": null,
+   "local": "7-28-43",
+   "utc": "1943-07-28T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    7,
+    28
+   ],
+   "position_verbatim": "L-6° -25'(S)<br>λ-112°-24'( )",
+   "lat": -6.41667,
+   "lon": 112.4,
+   "derived": null,
+   "type": "Tanker / About 3,000 / tons",
+   "title": "Contact 2 · Tanker / About 3,000 / tons",
+   "fields": {
+    "type": "Tanker<br>About 3,000<br>tons",
+    "initial_range": "16,000",
+    "min_range": "6,000",
+    "course": "170°",
+    "speed": "10",
+    "remarks": "In<br>ballast"
+   },
+   "flags": [
+    "Transcriber: Longitude hemisphere missing.",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "2."
+  },
+  {
+   "id": "SS-230-P06-N13",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": null,
+   "local": "July 28, 1943",
+   "utc": "1943-07-28T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    28
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol off western passage to Surabaya."
+   },
+   "flags": [
+    "Time and zone blank",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N15",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": null,
+   "local": "July 29, 1943",
+   "utc": "1943-07-29T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    29
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol at traffic focal point west of Bawean Island. Decided to spend remainder of time in area 404 off Surabaya until we disclosed our presence."
+   },
+   "flags": [
+    "Time and zone blank",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N17",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "H",
+   "local": "1346 H July 30, 1943",
+   "utc": "1943-07-30T05:46:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    30
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Contact 3: Sighted large freighter leaving western passage hugging coast at 12,000 yards; commenced submerged trail at standard speed to attack after dark."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N18",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "H",
+   "local": "1555 H July 30, 1943",
+   "utc": "1943-07-30T07:55:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    30
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "sighted Mitsubishi 96 bomber over target."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N19",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "H",
+   "local": "1615 H July 30, 1943",
+   "utc": "1943-07-30T08:15:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    30
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Contact 4: Sighted two Kuma class light cruisers and a destroyer zig-zagging at 25 knots 14 miles off coast; targets pulled away and disappeared."
+   },
+   "flags": [
+    "Spans pages 2-3"
+   ]
+  },
+  {
+   "id": "SS-230-P06-N20",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "H",
+   "local": "1855 H July 30, 1943",
+   "utc": "1943-07-30T10:55:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    30
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced and gave chase to freighter."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-C03",
+   "source": "5. description of enemy vessels sighted:",
+   "row": 3,
+   "kind": "sighting",
+   "page": "25",
+   "zone": null,
+   "local": "7-30-43",
+   "utc": "1943-07-30T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    7,
+    30
+   ],
+   "position_verbatim": "L-6°-57' (S)<br>λ-112°-29'(E)",
+   "lat": -6.95,
+   "lon": 112.48333,
+   "derived": null,
+   "type": "AK-10,300 tons / Similar to Husimi / Maru",
+   "title": "Contact 3 · AK-10,300 tons / Similar to Husimi / Maru",
+   "fields": {
+    "type": "AK-10,300 tons<br>Similar to Husimi<br>Maru",
+    "initial_range": "20,000",
+    "min_range": "1500",
+    "course": "290°",
+    "speed": "7",
+    "remarks": "Sunk with<br>one hit<br>(Loaded -"
+   },
+   "flags": [
+    "Transcriber: Closing parenthesis omitted in Remarks; range closest typed as \"1500\" without comma.",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "3."
+  },
+  {
+   "id": "SS-230-P06-C04",
+   "source": "5. description of enemy vessels sighted:",
+   "row": 4,
+   "kind": "sighting",
+   "page": "25",
+   "zone": null,
+   "local": "7-30-43",
+   "utc": "1943-07-30T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    7,
+    30
+   ],
+   "position_verbatim": "L-6°-39' (S)<br>λ-112°-15' (E)",
+   "lat": -6.65,
+   "lon": 112.25,
+   "derived": null,
+   "type": "2-CL- Kuma Class / 1-DD-Undentified",
+   "title": "Contact 4 · 2-CL- Kuma Class / 1-DD-Undentified",
+   "fields": {
+    "type": "2-CL- Kuma Class<br>1-DD-Undentified",
+    "initial_range": "6,000",
+    "min_range": "5,000",
+    "course": "290°",
+    "speed": "25",
+    "remarks": "Zig-Zagging<br>with con-<br>stant helm"
+   },
+   "flags": [
+    "Transcriber: \"Undentified\" typed as spelled in original.",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "4."
+  },
+  {
+   "id": "SS-230-P06-C22",
+   "source": "6. description of aircraft sighted:",
+   "row": 22,
+   "kind": "aircraft",
+   "page": "27",
+   "zone": null,
+   "local": "7-30-43",
+   "utc": "1943-07-30T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    7,
+    30
+   ],
+   "position_verbatim": "L-6°-42'(S)<br>λ-112°-12'(E)",
+   "lat": -6.7,
+   "lon": 112.2,
+   "derived": null,
+   "type": "1 - Mitsubishi - / 96 bomber",
+   "title": "Aircraft 3 · 1 - Mitsubishi - / 96 bomber",
+   "fields": {
+    "type": "1 - Mitsubishi -<br>96 bomber",
+    "course": "090°",
+    "altitude": "100",
+    "remarks": "Over target"
+   },
+   "flags": [
+    "Corrected by hand from the scan: Type was '1<br>Mitsubishi<br>96<br>bomber'.",
+    "Corrected by hand from the scan: Flags was 'Altitude listed as 100.'.",
+    "Transcriber: Corrected by hand from the scan (page 27).",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "3."
+  },
+  {
+   "id": "SS-230-P06-N16",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": null,
+   "local": "July 30, 1943",
+   "utc": "1943-07-30T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    30
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol west of minefield off Surabaya and west of western passage."
+   },
+   "flags": [
+    "Time and zone blank",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N21",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "H",
+   "local": "2026 H July 30, 1943",
+   "utc": "1943-07-30T12:26:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    30
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Radar contact on target at 10,000 yards; tracked for position ahead inshore between Tanjung Bendoh and Mandalika to provide surface retirement in 60 feet of water."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-C34",
+   "source": "7. summary of submarine attacks",
+   "row": 34,
+   "kind": "torpedo",
+   "page": "28",
+   "zone": "Z",
+   "local": "1511 GCT 7-30-43",
+   "utc": "1943-07-30T15:11:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    7,
+    30
+   ],
+   "position_verbatim": "6°-31' (S) 111°-26'(E)",
+   "lat": -6.51667,
+   "lon": 111.43333,
+   "derived": null,
+   "type": "AK",
+   "title": "Attack 1 · AK",
+   "fields": {
+    "fired": "3- Mk XIV Tpx - heads",
+    "hits": "1",
+    "sunk": "10,800",
+    "damaged": "----------",
+    "type": "AK",
+    "firing_range": "1,800",
+    "attack_type": "(S)(N) (R)",
+    "draft": "18",
+    "depth": "12",
+    "tube": "Bow",
+    "track": "1-86 P / 2-87 P / 3-90 P",
+    "gyro": "1-355 / 2-351½ / 3-354½",
+    "speed": "7.25",
+    "interval": "10 secs.",
+    "spread": "1.8° Divergent",
+    "performance": "No",
+    "narrative": "fired three torpedo spread at range of 1,800 yards, track of 85° port, depth setting 12 feet, and gyro angle of 355°. Results one hit, one miss, and one premature. From checking times of firing and explosions, it was concluded that the first torpedo hit amidships, the second torpedo prematured at 23 seconds, and the third torpedo seemed to miss astern. The terrific explosion and turbulence produced by the premature may have thrown the third torpedo off its track as it swerved off to the right. All torpedoes were spread to hit the target as our information had checked accurately. Although disconcerting, the premature proved helpful in providing a smoke and water screen of about 100 feet height behind which we turned away. We cleared this screen just in time to observe a torpedo hit amidships. This hit was followed shortly by a flash of flame and an explosion aboard the target distinct from the hit. The target began to fire bow and stern guns of about 5\" caliber toward our firing position which we had rapidly left astern. This target was the largest ship this vessel has fired at to date. He was well over 500 feet in length. His silhouette and upper works as seen during the daytime showed him to be similar to the Husimi Maru, 10,800 tons, page 33 of ONI-208-J. After the hit, the pip on the radar seemed to decrease about 1/3 and then stay the same size. We opened range to 7,500 yards and then rounded target to attack again from northward should he fail to sink. Target continued to fire guns to southward for about twenty minutes. Then numerous lights were seen about the decks."
+   },
+   "flags": [
+    "Transcriber: Time: Attack 4 time faint; Date Use G.C.T.: 8 printed S-like; Location (Lat.): Column 4 lat/long faint; Number sunk (Tonnage): Attack 1 tonnage: 8 glyph; Type of Attack: Periscope (P) Radar (R) Surface (S) Night (N): N printed as an H-like glyph; Bow or Stern Shot: \"Dow\" as typed; Track Angle: 8 glyphs; three tracks in column 3; Firing Interval: Columns 3 and 4 faint; Spread - Amount and Kind: Column 3 amount faint",
+    "Narrative entry at 2311 H July 30, 1943 (page 3) describes this attack; its account is included here.",
+    "Margin heading '(Attack #1)'. Zone H is printed. Spans pages 3-4. Open readings (ONI page 83 or 33; pip decrease 15% or 1/3) are in review.yml."
+   ],
+   "contact_no": null
+  },
+  {
+   "id": "SS-230-P06-N23",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "H",
+   "local": "2355 H July 30, 1943",
+   "utc": "1943-07-30T15:55:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    30
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "when north of target at range of 3,000 yards, headed toward target for another attack. At this time radar officer reported that pip on radar was getting weaker although we were closing the range."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N24",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "H",
+   "local": "0005 H July 31, 1943",
+   "utc": "1943-07-30T16:05:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    31
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Lost radar pip at 5,000 yards; approached spot and detected two lifeboats; confirmed target definitely sunk and headed north at 900 yards range."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N25",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "H",
+   "local": "0335 H July 31, 1943",
+   "utc": "1943-07-30T19:35:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    31
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "picked up pip on radar at 10,000 yards. Started tracking and working for position ahead."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N26",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "H",
+   "local": "0559 H July 31, 1943",
+   "utc": "1943-07-30T21:59:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    31
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Submerged for dawn attack but identified contact as shallow-draft Chidori-class torpedo boat (6-foot draft); abandoned attack and evaded at periscope depth."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-C05",
+   "source": "5. description of enemy vessels sighted:",
+   "row": 5,
+   "kind": "sighting",
+   "page": "25",
+   "zone": null,
+   "local": "7-31-43",
+   "utc": "1943-07-31T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    7,
+    31
+   ],
+   "position_verbatim": "L-5°-39' (S)<br>λ-111°-28' (E)",
+   "lat": -5.65,
+   "lon": 111.46667,
+   "derived": null,
+   "type": "1-Chidori Class / Torpedo Boat",
+   "title": "Contact 5 · 1-Chidori Class / Torpedo Boat",
+   "fields": {
+    "type": "1-Chidori Class<br>Torpedo Boat",
+    "initial_range": "10,000",
+    "min_range": "1,700",
+    "course": "323°",
+    "speed": "11.5",
+    "remarks": "Picked up<br>by radar."
+   },
+   "flags": [
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "5."
+  },
+  {
+   "id": "SS-230-P06-N27",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": null,
+   "local": "July 31, 1943",
+   "utc": "1943-07-31T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    31
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol along trade lane from Singapore to focal point off Bawean Island."
+   },
+   "flags": [
+    "Time and zone blank",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N28",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "H",
+   "local": "2140 H July 31, 1943",
+   "utc": "1943-07-31T13:40:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    31
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "made radar contact on target at range of 12,600 yards. Commenced tracking target. When we had determined target course and speed, closed range to about 6,000 yards to locate possible escorts. None found."
+   },
+   "flags": [
+    "Contact 6"
+   ]
+  },
+  {
+   "id": "SS-230-P06-N29",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "H",
+   "local": "2247 H July 31, 1943",
+   "utc": "1943-07-31T14:47:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    7,
+    31
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Bright light flashed on starboard beam; target turned away radically and moved suspiciously like an A/S vessel; trailed ahead to attack at dawn."
+   },
+   "flags": [
+    "Spans pages 4-5"
+   ]
+  },
+  {
+   "id": "SS-230-P06-N30",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "H",
+   "local": "0547 H August 1, 1943",
+   "utc": "1943-07-31T21:47:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "dived and commenced approach. As it became light, it was found that we had an unescorted, zig-zagging AK similiar to the Taigen Maru, 5,660 tons, Page 207 of ONI-208-J. The target was not loaded. It had the number 934 painted on the side of the bridge."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N31",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "torpedo",
+   "page": "5",
+   "zone": "H",
+   "local": "0634 H August 1, 1943",
+   "utc": "1943-07-31T22:34:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "attack",
+   "local_date": [
+    1943,
+    8,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Attack 2 on Taigen Maru type AK",
+   "fields": {
+    "event": "fired three torpedo spreads at range of 1,300 yards, 37° starboard track, 0° gyro angle, and depth setting of 15 feet. Results Nos. 1 and 2 prematured at 23 seconds; No. 3 hit target in bow. It is believed that targed slowed down on seeing prematures as #3 should have hit aft. When first two torpedoes prematured, made three more tubes ready for firing."
+   },
+   "flags": [
+    "Margin heading '(Attack #2)'. Gyro angle printed 0° (Gemini read 00°). Track angle 87 or 37 is unresolved (review.yml)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N32",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "torpedo",
+   "page": "5",
+   "zone": "H",
+   "local": "0637 H August 1, 1943",
+   "utc": "1943-07-31T22:37:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "attack",
+   "local_date": [
+    1943,
+    8,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Attack on Taigen Maru type AK (No. 4 torpedo)",
+   "fields": {
+    "event": "fired #4 torpedo at range of 1,700 yards with a track of 161° starboard, and 001° gyro angle. Torpedo missed as target evaded. Target took a 30° down angle, raised his screw partly out of the water, gave us a 180° angle on bow, and pulled away at about 8 knots. The target fired about 30 rounds from his stern gun at the periscope."
+   },
+   "flags": [
+    "Gyro angle printed 001° (Gemini read 00°). Target fired about 30 rounds at the periscope."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N33",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "H",
+   "local": "0820 H August 1, 1943",
+   "utc": "1943-08-01T00:20:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Surfaced at 16,000 yards range to commence surface chase, but target had more speed than expected and Finback did not gain bearing rapidly."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N34",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "H",
+   "local": "1025 H August 1, 1943",
+   "utc": "1943-08-01T02:25:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "abandoned chase when we reached 72 feet of water and he was still bearing 245° (T). It was heart breaking to lose an unescorted target with such a perfect set up. This retirement proved to be none to soon."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N35",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "H",
+   "local": "1037 H August 1, 1943",
+   "utc": "1943-08-01T02:37:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "dived on radar contact on SD radar at 7 miles. Depth of water was 82 feet."
+   },
+   "flags": [
+    "Time zone blank; water depth '⟦8⟧2 feet' typed over/smudged (could be 32)",
+    "No zone letter on this entry; zone H assumed from the previous entry."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N36",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "6",
+   "zone": "H",
+   "local": "1038 H August 1, 1943",
+   "utc": "1943-08-01T02:38:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    8,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Aerial bombing attack",
+   "fields": {
+    "event": "plane dropped two aerial bombs. Credit Japs with two \"near misses\". No damage done. Ran at 75 feet at two thirds speed to clear diving position.",
+    "charges": "two aerial bombs",
+    "damage": "No damage done."
+   },
+   "flags": [
+    "Zone H is printed. Last digit of the time is S-like, read 8."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N37",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "H",
+   "local": "1050 H August 1, 1943",
+   "utc": "1943-08-01T02:50:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "looked with periscope and found plane circling astern. White caps and clouds were on our side. Remained submerged and cleared area to south."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-C06",
+   "source": "5. description of enemy vessels sighted:",
+   "row": 6,
+   "kind": "sighting",
+   "page": "25",
+   "zone": null,
+   "local": "8-1-43",
+   "utc": "1943-08-01T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    1
+   ],
+   "position_verbatim": "L-5°-28' (S)<br>λ-111°-49'(E)",
+   "lat": -5.46667,
+   "lon": 111.81667,
+   "derived": null,
+   "type": "AK-5,660 tons / similar to Taigen / Maru",
+   "title": "Contact 6 · AK-5,660 tons / similar to Taigen / Maru",
+   "fields": {
+    "type": "AK-5,660 tons<br>similar to Taigen<br>Maru",
+    "initial_range": "12,600",
+    "min_range": "1,200",
+    "course": "Various",
+    "speed": "8.5",
+    "remarks": "Picked up<br>by radar.<br>Damaged"
+   },
+   "flags": [
+    "Transcriber: \"Taigen\" typed as Taigon; \"Damaged\" preceded by typed/struck symbol/character.",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "6."
+  },
+  {
+   "id": "SS-230-P06-C23",
+   "source": "6. description of aircraft sighted:",
+   "row": 23,
+   "kind": "aircraft",
+   "page": "27",
+   "zone": null,
+   "local": "8-1-43",
+   "utc": "1943-08-01T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    1
+   ],
+   "position_verbatim": "L-3°-50'(S)<br>λ-112°-08'(E)",
+   "lat": -3.83333,
+   "lon": 112.13333,
+   "derived": null,
+   "type": "1 - Kawasaki 97 - / Light bomber",
+   "title": "Aircraft 4 · 1 - Kawasaki 97 - / Light bomber",
+   "fields": {
+    "type": "1 - Kawasaki 97 -<br>Light bomber",
+    "course": "---",
+    "altitude": "---",
+    "remarks": "Picked up on radar at<br>7 miles. Dropped two<br>light bombs."
+   },
+   "flags": [
+    "Corrected by hand from the scan: Date was '7-30-43'.",
+    "Corrected by hand from the scan: Type was '1<br>Kawasaki 97 -<br>Light bomber'.",
+    "Corrected by hand from the scan: Course was 'Circl-<br>ing'.",
+    "Corrected by hand from the scan: Alt. was '1,000'.",
+    "Corrected by hand from the scan: Remarks was ''.",
+    "Corrected by hand from the scan: Flags was 'Contact Date missing in column row 4, appears between rows or omitted; position is 7-30-43 context.'.",
+    "Transcriber: Corrected by hand from the scan (page 27).",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "4."
+  },
+  {
+   "id": "SS-230-P06-C35",
+   "source": "7. summary of submarine attacks",
+   "row": 35,
+   "kind": "torpedo",
+   "page": "28",
+   "zone": "Z",
+   "local": "1434 GCT 8-1-43",
+   "utc": "1943-08-01T14:34:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    8,
+    1
+   ],
+   "position_verbatim": "4°-19' (S) 112°-09'(E)",
+   "lat": -4.31667,
+   "lon": 112.15,
+   "derived": null,
+   "type": "AK",
+   "title": "Attack 2 · AK",
+   "fields": {
+    "fired": "4- Mk XIV Tpx - heads",
+    "hits": "1",
+    "sunk": "----------",
+    "damaged": "5,660",
+    "type": "AK",
+    "firing_range": "1,300",
+    "attack_type": "(P)",
+    "draft": "15",
+    "depth": "12",
+    "tube": "Bow",
+    "track": "1-84 S / 2-87 S / 3-90 S / 4-161 S",
+    "gyro": "1-355 / 2-356½ / 3-356½ / 4-001½",
+    "speed": "8.5",
+    "interval": "10 secs",
+    "spread": "3¼° Divergent",
+    "performance": "No"
+   },
+   "flags": [
+    "Transcriber: Time: Attack 4 time faint; Date Use G.C.T.: 8 printed S-like; Location (Lat.): Column 4 lat/long faint; Number sunk (Tonnage): Attack 1 tonnage: 8 glyph; Type of Attack: Periscope (P) Radar (R) Surface (S) Night (N): N printed as an H-like glyph; Bow or Stern Shot: \"Dow\" as typed; Track Angle: 8 glyphs; three tracks in column 3; Firing Interval: Columns 3 and 4 faint; Spread - Amount and Kind: Column 3 amount faint",
+    "Review: Attack 2: the summary prints 1434 on 8-1-43 (GCT). The narrative has the attack at 0634 (H) on 1 August, which is 2234 GCT on 31 July; 1434 is 0634 plus 8 hours instead of minus. Attacks 1, 3, 4, 5, 6, 7 and 8 all agree with the narrative once the zone offset is taken off, so this one looks like an error in the report. The map shows Attack 2 twice (the summary row at 1434 on 1 August and the narrative entries at 2234 on 31 July). A discrepancy in the source, not in the transcription."
+   ],
+   "contact_no": null
+  },
+  {
+   "id": "SS-230-P06-C07",
+   "source": "5. description of enemy vessels sighted:",
+   "row": 7,
+   "kind": "sighting",
+   "page": "25",
+   "zone": null,
+   "local": "8-2-43",
+   "utc": "1943-08-02T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    2
+   ],
+   "position_verbatim": "L-6°-41' (S)<br>λ-112°-19'(E)",
+   "lat": -6.68333,
+   "lon": 112.31667,
+   "derived": null,
+   "type": "3-Escort Vessels / (1-Mine Sweeper / (1-Torpedo Boat / (1-Trawler",
+   "title": "Contact 7 · 3-Escort Vessels / (1-Mine Sweeper / (1-Torpedo Boat / (1-Trawler",
+   "fields": {
+    "type": "3-Escort Vessels<br>(1-Mine Sweeper<br>(1-Torpedo Boat<br>(1-Trawler",
+    "initial_range": "10,000",
+    "min_range": "4,000",
+    "course": "170°",
+    "speed": "8",
+    "remarks": "Headed<br>to<br>Surabaya"
+   },
+   "flags": [
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "7."
+  },
+  {
+   "id": "SS-230-P06-N38",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": null,
+   "local": "August 2, 1943",
+   "utc": "1943-08-02T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    2
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol at junction of two trade lanes east of Bawean Island."
+   },
+   "flags": [
+    "Time and zone blank",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N40",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "H",
+   "local": "0756 H August 3, 1943",
+   "utc": "1943-08-02T23:56:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "sighted three ships, which developed into escort vessels; headed into Surabaya. They were a mine sweeper, a torpedo boat, and a converted trawler."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N41",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "H",
+   "local": "0830 H August 3, 1943",
+   "utc": "1943-08-03T00:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "sighted a small PC boat following above ships. Apparently the Japs had decided their ships need escorts in this area. It lookedlike \"old home week\" in Surabaya."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N42",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "H",
+   "local": "0844 H August 3, 1943",
+   "utc": "1943-08-03T00:44:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "sighted plane above these ships. Went to 100 feet as sea was very smooth."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N43",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "H",
+   "local": "0851 H August 3, 1943",
+   "utc": "1943-08-03T00:51:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "plane not in sight."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N44",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "H",
+   "local": "1305 H August 3, 1943",
+   "utc": "1943-08-03T05:05:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted smoke to east and commenced approach on interisland trading vessel with forward mast, amidships stack, and canopy deck; not close enough for photo."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N45",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "H",
+   "local": "1422 H August 3, 1943",
+   "utc": "1943-08-03T06:22:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted AK similar to Koya Maru with converted cabin cruiser escort; unable to close favorably, decided to trail and attack on surface after dark."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N46",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "H",
+   "local": "1610 H August 3, 1943",
+   "utc": "1943-08-03T08:10:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "while trailing target, sighted small oiler heading toward Surabaya. This vessel was light and resembled our coastal oilers."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N47",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "H",
+   "local": "1855 H August 3, 1943",
+   "utc": "1943-08-03T10:55:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-C08",
+   "source": "5. description of enemy vessels sighted:",
+   "row": 8,
+   "kind": "sighting",
+   "page": "25",
+   "zone": null,
+   "local": "8-3-43",
+   "utc": "1943-08-03T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "position_verbatim": "L-6°-41'( )<br>λ-112°-19'( )",
+   "lat": -6.68333,
+   "lon": 112.31667,
+   "derived": null,
+   "type": "1-Escort Vessel / PC-Boat Class",
+   "title": "Contact 8 · 1-Escort Vessel / PC-Boat Class",
+   "fields": {
+    "type": "1-Escort Vessel<br>PC-Boat Class",
+    "initial_range": "8,000",
+    "min_range": "4,000",
+    "course": "170°",
+    "speed": "8"
+   },
+   "flags": [
+    "Transcriber: Latitude and Longitude hemispheres missing.",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "8."
+  },
+  {
+   "id": "SS-230-P06-C09",
+   "source": "5. description of enemy vessels sighted:",
+   "row": 9,
+   "kind": "sighting",
+   "page": "25",
+   "zone": null,
+   "local": "8-3-43",
+   "utc": "1943-08-03T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "position_verbatim": "L-6°-39' (S)<br>λ-112°-19' (E)",
+   "lat": -6.65,
+   "lon": 112.31667,
+   "derived": null,
+   "type": "1-Interisland / trading vessel / about 200 tons",
+   "title": "Contact 9 · 1-Interisland / trading vessel / about 200 tons",
+   "fields": {
+    "type": "1-Interisland<br>trading vessel<br>about 200 tons",
+    "initial_range": "smoke<br>at<br>12,000",
+    "min_range": "5,000",
+    "course": "170°",
+    "speed": "2",
+    "remarks": "1-mast, 1-<br>stack, and<br>engine aft"
+   },
+   "flags": [
+    "Transcriber: \"engine\" typed as ennemy; Range Sighted preceded by typed symbol.",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "9."
+  },
+  {
+   "id": "SS-230-P06-C10",
+   "source": "5. description of enemy vessels sighted:",
+   "row": 10,
+   "kind": "sighting",
+   "page": "25",
+   "zone": null,
+   "local": "8-3-43",
+   "utc": "1943-08-03T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "position_verbatim": "L-6°-33' (S)<br>λ-112°-21'(E)",
+   "lat": -6.55,
+   "lon": 112.35,
+   "derived": null,
+   "type": "1-AK of about 5471 / tons similar to / Koyo Maru with / small escort.",
+   "title": "Contact 10 · 1-AK of about 5471 / tons similar to / Koyo Maru with / small escort.",
+   "fields": {
+    "type": "1-AK of about 5471<br>tons similar to<br>Koyo Maru with<br>small escort.",
+    "initial_range": "10,000",
+    "min_range": "1,300",
+    "course": "340°",
+    "speed": "8.5",
+    "remarks": "Sunk at<br>night."
+   },
+   "flags": [
+    "Transcriber: Heading says \"Sunk At night...\".",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "10."
+  },
+  {
+   "id": "SS-230-P06-C11",
+   "source": "5. description of enemy vessels sighted:",
+   "row": 11,
+   "kind": "sighting",
+   "page": "25",
+   "zone": null,
+   "local": "8-3-43",
+   "utc": "1943-08-03T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "position_verbatim": "L-6°-35' (S)<br>λ-112°-21'(E)",
+   "lat": -6.58333,
+   "lon": 112.35,
+   "derived": null,
+   "type": "Small Oiler - 500- / 1,000 tons.",
+   "title": "Contact 11 · Small Oiler - 500- / 1,000 tons.",
+   "fields": {
+    "type": "Small Oiler - 500-<br>1,000 tons.",
+    "initial_range": "8,000",
+    "min_range": "8,000",
+    "course": "220°",
+    "speed": "6",
+    "remarks": "Sighted while<br>trailing<br>above AK."
+   },
+   "flags": [
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "11."
+  },
+  {
+   "id": "SS-230-P06-C24",
+   "source": "6. description of aircraft sighted:",
+   "row": 24,
+   "kind": "aircraft",
+   "page": "27",
+   "zone": null,
+   "local": "8-3-43",
+   "utc": "1943-08-03T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "position_verbatim": "L-6°-41'(S)<br>λ-112°-19' (E)",
+   "lat": -6.68333,
+   "lon": 112.31667,
+   "derived": null,
+   "type": "1-Reconnaissance Bomber / Mitsubishi 98",
+   "title": "Aircraft 5 · 1-Reconnaissance Bomber / Mitsubishi 98",
+   "fields": {
+    "type": "1-Reconnaissance Bomber<br>Mitsubishi 98",
+    "course": "Circl-<br>ing",
+    "altitude": "1,000",
+    "remarks": "- - - - -"
+   },
+   "flags": [
+    "Corrected by hand from the scan: Date was '7-31-43'.",
+    "Corrected by hand from the scan: Course was 'Circl-<br>ing<br>target'.",
+    "Corrected by hand from the scan: Remarks was 'Picked up on radar at<br>7 miles. Dropped two<br>light bombs.'.",
+    "Corrected by hand from the scan: Flags was 'Date omitted in Date column, typed between contacts 4 and 5; Mitsubishi typed as \"98\" (could be read 93).'.",
+    "Transcriber: Corrected by hand from the scan (page 27).",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "5."
+  },
+  {
+   "id": "SS-230-P06-N39",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": null,
+   "local": "August 3, 1943",
+   "utc": "1943-08-03T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol northwest of Surabaya."
+   },
+   "flags": [
+    "Time and zone blank",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N48",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "H",
+   "local": "2023 H August 3, 1943",
+   "utc": "1943-08-03T12:23:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "contacted target on radar at range of 14,000 yards."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N49",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "H",
+   "local": "2241 H August 3, 1943",
+   "utc": "1943-08-03T14:41:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "reached attack position on starboard bow. We had put two main engines on the battery charge after contacting target on radar. At 3,500 yards range, quartermaster sighted white signal light on escort."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-C36",
+   "source": "7. summary of submarine attacks",
+   "row": 36,
+   "kind": "torpedo",
+   "page": "28",
+   "zone": "Z",
+   "local": "1519 GCT 8-3-43",
+   "utc": "1943-08-03T15:19:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "position_verbatim": "5°-18' (S) 111°-52'(E)",
+   "lat": -5.3,
+   "lon": 111.86667,
+   "derived": null,
+   "type": "AK",
+   "title": "Attack 3 · AK",
+   "fields": {
+    "fired": "3- Mk XIV Tpx - heads",
+    "hits": "0",
+    "sunk": "----------",
+    "damaged": "----------",
+    "type": "AK",
+    "firing_range": "1,730",
+    "attack_type": "(S)(N) (R)",
+    "draft": "10",
+    "depth": "9",
+    "tube": "Dow",
+    "track": "1-94 S / 2-94½ S / 3-95 S",
+    "gyro": "1-003 / 2-006 / 3-004",
+    "speed": "8.5",
+    "interval": "8 secs",
+    "spread": "1.6° Divergent",
+    "performance": "?",
+    "narrative": "with escort at 2,000 yards, fired three torpedo spreads from bow tubes with following setup: track angle 95° (S); range 1,700 yards; gyro angle 4° right; and depth setting of 12 feet. All torpedoes seemed to run normally and looked good. Results - No hits. With the spreads used, the consistency of our data, and actual torpedo tracks observed, the commanding officer believes it was impossible to get three misses unless the torpedoes ran too deep. A subsequent careful check-up of all personnel and data has not revealed any explanation for three misses. When the third torpedo left the tube, swung ship hard right at flank speed and placed target astern."
+   },
+   "flags": [
+    "Transcriber: Time: Attack 4 time faint; Date Use G.C.T.: 8 printed S-like; Location (Lat.): Column 4 lat/long faint; Number sunk (Tonnage): Attack 1 tonnage: 8 glyph; Type of Attack: Periscope (P) Radar (R) Surface (S) Night (N): N printed as an H-like glyph; Bow or Stern Shot: \"Dow\" as typed; Track Angle: 8 glyphs; three tracks in column 3; Firing Interval: Columns 3 and 4 faint; Spread - Amount and Kind: Column 3 amount faint",
+    "Narrative entry at 2319 H August 3, 1943 (page 7) describes this attack; its account is included here."
+   ],
+   "contact_no": null
+  },
+  {
+   "id": "SS-230-P06-C37",
+   "source": "7. summary of submarine attacks",
+   "row": 37,
+   "kind": "torpedo",
+   "page": "28",
+   "zone": "Z",
+   "local": "1522 GCT 8-3-43",
+   "utc": "1943-08-03T15:22:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    8,
+    3
+   ],
+   "position_verbatim": "5°-18' (S) 111°-52'(E)",
+   "lat": -5.3,
+   "lon": 111.86667,
+   "derived": null,
+   "type": "AK",
+   "title": "Attack 4 · AK",
+   "fields": {
+    "fired": "2- Mk XIV Tpx - heads",
+    "hits": "2",
+    "sunk": "5,471",
+    "damaged": "----------",
+    "type": "AK",
+    "firing_range": "2,000",
+    "attack_type": "(S) (N) (R)",
+    "draft": "10",
+    "depth": "9",
+    "tube": "Stern",
+    "track": "1-98 S / 2-99½ S",
+    "gyro": "1-180 / 2-180",
+    "speed": "8.5",
+    "interval": "12 Secs",
+    "spread": "None",
+    "performance": "Yes",
+    "narrative": "fired two torpedoes from after tubes by applying lead angle on after T.D.T. and using zero gyro angles. Results two hits. The first torpedo hit amidships giving off a large amount of flame. The second torpedo hit well aft. The target was covered with black smoke, but seemed to start down aft at once. All hands on bridge watched bow rise out of water and then the target took its final plunge. At the same time the radar officer watched his pip increase and then disappear. The target sank in two and one-half minutes. Apparently neither the target, who was closed to 1,300 yards, nor the escort who closed us to 2,400 yards, with a broadsideview, ever saw us. The escort charged off astern of target dropping depth charges to a total of nine. They sound fine when you are on the surface. Cleared area to north, got off message to CTF 71.1, and headed east so as to be able to clear area the next night."
+   },
+   "flags": [
+    "Transcriber: Time: Attack 4 time faint; Date Use G.C.T.: 8 printed S-like; Location (Lat.): Column 4 lat/long faint; Number sunk (Tonnage): Attack 1 tonnage: 8 glyph; Type of Attack: Periscope (P) Radar (R) Surface (S) Night (N): N printed as an H-like glyph; Bow or Stern Shot: \"Dow\" as typed; Track Angle: 8 glyphs; three tracks in column 3; Firing Interval: Columns 3 and 4 faint; Spread - Amount and Kind: Column 3 amount faint",
+    "Narrative entry at 2322 H August 3, 1943 (page 7) describes this attack; its account is included here."
+   ],
+   "contact_no": null
+  },
+  {
+   "id": "SS-230-P06-N52",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": null,
+   "local": "August 4, 1943",
+   "utc": "1943-08-04T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    4
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolled submerged east of Bawean Island along trade route from Singapore to Makassar. On surfacing after sunset, took up patrol station north of Bawean Island on Borneo to Surabaya Route."
+   },
+   "flags": [
+    "Time and zone blank",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N54",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "H",
+   "local": "1642 H August 5, 1943",
+   "utc": "1943-08-05T08:42:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    5
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted smoke and approached two ships; mirage hindered identification; began end around to get ahead after dark but lost targets in rain squall."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N55",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "H",
+   "local": "1940 H August 5, 1943",
+   "utc": "1943-08-05T11:40:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    5
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "stopped on estimated track of targets, assuming they were large ships."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-C12",
+   "source": "5. DESCRIPTION OF ⟦ENEMY⟧ VESSELS SIGHTED: continued",
+   "row": 12,
+   "kind": "sighting",
+   "page": "26",
+   "zone": null,
+   "local": "8-5-43",
+   "utc": "1943-08-05T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    5
+   ],
+   "position_verbatim": "L-5°-50' (S)<br>λ-115°-05' ( )",
+   "lat": -5.83333,
+   "lon": 115.08333,
+   "derived": null,
+   "type": "2- Unidentified / Ships",
+   "title": "Contact 12 · 2- Unidentified / Ships",
+   "fields": {
+    "type": "2- Unidentified<br>Ships",
+    "initial_range": "14,000",
+    "min_range": "1,200",
+    "course": "270°",
+    "speed": "9",
+    "remarks": "Believed to<br>be fairly<br>small. Lost<br>due to rain<br>& then<br>darkness."
+   },
+   "flags": [
+    "Transcriber: Course and Speed labelled as \"Estimated\"; Longitude hemisphere missing.",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "12."
+  },
+  {
+   "id": "SS-230-P06-N53",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": null,
+   "local": "August 5, 1943",
+   "utc": "1943-08-05T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    5
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolled on surface along Singapore Makassar Route leaving area."
+   },
+   "flags": [
+    "Time and zone blank",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N56",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "H",
+   "local": "2140 H August 5, 1943",
+   "utc": "1943-08-05T13:40:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    5
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "when no radar contact had been established, resumed course to east."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N58",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "H",
+   "local": "0145 H August 6, 1943",
+   "utc": "1943-08-05T17:45:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    6
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "entered area 403. Same peculiar visibility existed as on previous day. Started approaches on small fishing vessel and on an island which appeared to be smoke."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N57",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": null,
+   "local": "August 6, 1943",
+   "utc": "1943-08-06T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    6
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "On surface enroute to patrol off Laikang Bay, southwest corner of Celebes, N.E.I.."
+   },
+   "flags": [
+    "Time and zone blank",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N59",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": null,
+   "local": "August 7, 1943",
+   "utc": "1943-08-07T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    7
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol off Laikang Bay, Celebes, N.E.I.."
+   },
+   "flags": [
+    "Time and zone blank The report's heading is the range 'August 7-8, 1943'; placed on its first day. The day is not stated.",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N60",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "H",
+   "local": "0529 H August 8, 1943",
+   "utc": "1943-08-07T21:29:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "notable",
+   "local_date": [
+    1943,
+    8,
+    8
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Sound head damaged on unplotted coral head",
+   "fields": {
+    "event": "on the 8th while running at 120 feet waiting for sunrise, damaged JK-QC sound head by rubbing over an unplotted coral head. Ship's position as fixed before diving and after coming to periscope depth was 0.6 miles, outside of the 100 fathom curve. This sound head was put out of commission for the remainder of the patrol."
+   },
+   "flags": [
+    "Spans pages 8-9 Date set to 8 August: the entry says 'on the 8th'."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N61",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": null,
+   "local": "August 9, 1943",
+   "utc": "1943-08-09T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    9
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol off of Makassar, Celebes, N.E.I.."
+   },
+   "flags": [
+    "Time and zone blank",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N63",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": "H",
+   "local": "1627 H August 10, 1943",
+   "utc": "1943-08-10T08:27:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    10
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced and set course for Salier Strait."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N64",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": "H",
+   "local": "1800 H August 10, 1943",
+   "utc": "1943-08-10T10:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    10
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "entered area 501. After clearing Salier Strait, commenced patrolling along route from Salier Strait to Tioro Strait (both off southern end of Celebes)."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N62",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": null,
+   "local": "August 10, 1943",
+   "utc": "1943-08-10T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    10
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol off Laikang Bay, Celebes,"
+   },
+   "flags": [
+    "Time and zone blank The page ends at 'Celebes,' (Gemini added 'N.E.I..').",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-C13",
+   "source": "5. DESCRIPTION OF ⟦ENEMY⟧ VESSELS SIGHTED: continued",
+   "row": 13,
+   "kind": "sighting",
+   "page": "26",
+   "zone": "H",
+   "local": "2215 H August 10, 1943",
+   "utc": "1943-08-10T14:15:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "position_verbatim": "L-5°-29' (S)<br>λ-120°-58'(E)",
+   "lat": -5.48333,
+   "lon": 120.96667,
+   "derived": null,
+   "type": "1-AK-with small / escort, target / similar to Tatwuiya / Maru 6,344 tons",
+   "title": "Contact 13 · 1-AK-with small / escort, target / similar to Tatwuiya / Maru 6,344 tons",
+   "fields": {
+    "type": "1-AK-with small<br>escort, target<br>similar to Tatwuiya<br>Maru 6,344 tons",
+    "initial_range": "14,000",
+    "min_range": "2,000",
+    "course": "244°",
+    "speed": "8.25",
+    "remarks": "Badly<br>damaged<br>with<br>one hit."
+   },
+   "flags": [
+    "Transcriber: Position L-5°-29' typed as \"L-5°-29' (S\"; Longitude printed with degree symbol misplaced/faint; Tatwuiya typed as Tatwniya.",
+    "The table gives no time; 2215 H August 10, 1943 is from the narrative entry for this contact (page 9)."
+   ],
+   "contact_no": "13."
+  },
+  {
+   "id": "SS-230-P06-N65",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": "H",
+   "local": "2215 H August 10, 1943",
+   "utc": "1943-08-10T14:15:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-08-10T14:15:00Z",
+     "1943-08-10T16:21:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    10
+   ],
+   "has_time": true,
+   "lat": -5.48333,
+   "lon": 120.96667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Contact #13: Sighted ship shape at 14,000 yards in bright moonlight; tracked with SJ radar and moved ahead for submerged attack before Salier Strait."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-08-10 14:15 and 1943-08-10 16:21 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N66",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": "H",
+   "local": "2341 H August 10, 1943",
+   "utc": "1943-08-10T15:41:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-08-10T14:15:00Z",
+     "1943-08-10T16:21:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    10
+   ],
+   "has_time": true,
+   "lat": -5.50609,
+   "lon": 120.83016,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "dived and continued approach at 40 feet."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-08-10 14:15 and 1943-08-10 16:21 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N67",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": "H",
+   "local": "0003 H August 11, 1943",
+   "utc": "1943-08-10T16:03:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-08-10T14:15:00Z",
+     "1943-08-10T16:21:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": -5.51191,
+   "lon": 120.79524,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "with target at 5,600 yards and radar unable to discover an escort, went to 60 feet and continued approach. Discovered small escort trailing target about 1,000 yards just prior to firing."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-08-10 14:15 and 1943-08-10 16:21 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P06-C38",
+   "source": "Summary of submarine attacks",
+   "row": 38,
+   "kind": "torpedo",
+   "page": "29",
+   "zone": "Z",
+   "local": "1621 GCT 8-10-43",
+   "utc": "1943-08-10T16:21:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    8,
+    10
+   ],
+   "position_verbatim": "5°-31' (S) 120°-46'(E)",
+   "lat": -5.51667,
+   "lon": 120.76667,
+   "derived": null,
+   "type": "AK",
+   "title": "Attack 5 · AK",
+   "fields": {
+    "fired": "3- Mk XIV Tpx - head",
+    "hits": "1",
+    "sunk": "----------",
+    "damaged": "6,344",
+    "type": "AK",
+    "firing_range": "2,000",
+    "attack_type": "(P)(N)(R)",
+    "draft": "10",
+    "depth": "9",
+    "tube": "Stern",
+    "track": "1 - 88½ P / 2 - 92 P / 3 - 87 P",
+    "gyro": "1 - 181½ / 2 - 178 / 3 - 183",
+    "speed": "8.25",
+    "interval": "8 secs",
+    "spread": "3 1/4° Divergent",
+    "performance": "Yes",
+    "narrative": "fired a three torpedo spread from stern tubes with 90° port track, 2,000 yard range, 180° gyro angle, and 12 foot depth setting. Results first torpedo hit under stack, second and third torpedoes missed ahead and astern as they should have, since a spread of 125% coverage was used. The target was very lightly loaded and riding high. It was identified as the Tatumiya Maru, 6,344 tons, page 77 of ONI-208-J. Changed course 90° to left after watching torpedo hit, to clear torpedo track. Although escort was hard to make out, sound heard him speed up immediately following the torpedo explosion. Ran at full speed for ten minutes and went deep."
+   },
+   "flags": [
+    "Transcriber: Date Use G.C.T.: 8 printed S-like; \"8-24-43\" last digits faint; Track Angle: Column 5 first track faint; 8 glyphs; Gyro Angle: Attack 8 gyro agrees with narrative 25 Aug 0007 (028°)",
+    "Narrative entry at 0021 H August 11, 1943 (page 9) describes this attack; its account is included here.",
+    "Entry text cuts off at end of page 9"
+   ],
+   "contact_no": null
+  },
+  {
+   "id": "SS-230-P06-N69",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "16",
+   "zone": "H",
+   "local": "0026 H August 11, 1943",
+   "utc": "1943-08-10T16:26:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-08-10T16:21:00Z",
+     "1943-08-10T20:47:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": -5.51667,
+   "lon": 120.76636,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Heard two explosions, possibly torpedoes exploding at run's end or distant depth charges."
+   },
+   "flags": [
+    "Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).",
+    "No position in the report. Placed on the track between the recorded positions at 1943-08-10 16:21 and 1943-08-10 20:47 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N70",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "16",
+   "zone": "H",
+   "local": "0035 H August 11, 1943",
+   "utc": "1943-08-10T16:35:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-08-10T16:21:00Z",
+     "1943-08-10T20:47:00Z"
+    ]
+   },
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": -5.51667,
+   "lon": 120.76579,
+   "type": "Narrative",
+   "title": "Escort depth charges",
+   "fields": {
+    "event": "At escort dropped two depth charges at fairly good range, but they seemed to be large and set deep. Escort did not have echo ranging gear. Continued to hear screws above us for sometime. We had about a 6° F. negative temperature gradient.",
+    "charges": "two"
+   },
+   "flags": [
+    "Zone typed as (II) in document. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).",
+    "No position in the report. Placed on the track between the recorded positions at 1943-08-10 16:21 and 1943-08-10 20:47 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N71",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "16",
+   "zone": "H",
+   "local": "0212 H August 11, 1943",
+   "utc": "1943-08-10T18:12:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-08-10T16:21:00Z",
+     "1943-08-10T20:47:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": -5.51667,
+   "lon": 120.75971,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced and headed for attack position."
+   },
+   "flags": [
+    "Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).",
+    "No position in the report. Placed on the track between the recorded positions at 1943-08-10 16:21 and 1943-08-10 20:47 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N72",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "16",
+   "zone": "H",
+   "local": "0222 H August 11, 1943",
+   "utc": "1943-08-10T18:22:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-08-10T16:21:00Z",
+     "1943-08-10T20:47:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": -5.51667,
+   "lon": 120.75909,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Contacted target at 12,900 yards; target seemed stopped. Closed on surface very slowly, waiting for escort to circle target before continuing approach."
+   },
+   "flags": [
+    "Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank).",
+    "No position in the report. Placed on the track between the recorded positions at 1943-08-10 16:21 and 1943-08-10 20:47 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P06-C39",
+   "source": "Summary of submarine attacks",
+   "row": 39,
+   "kind": "torpedo",
+   "page": "29",
+   "zone": "Z",
+   "local": "1933 GCT 8-10-43",
+   "utc": "1943-08-10T19:33:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    8,
+    10
+   ],
+   "position_verbatim": "5°-31' (S) 120°-46'(E)",
+   "lat": -5.51667,
+   "lon": 120.76667,
+   "derived": null,
+   "type": "AK",
+   "title": "Attack 6 · AK",
+   "fields": {
+    "fired": "2 - Mk XIV Tpx-Head",
+    "hits": "0",
+    "sunk": "----------",
+    "damaged": "----------",
+    "type": "AK",
+    "firing_range": "3,800",
+    "attack_type": "(S)(N)(R)",
+    "draft": "10",
+    "depth": "9",
+    "tube": "Bow",
+    "track": "90 P",
+    "gyro": "0°",
+    "speed": "0",
+    "interval": "10 secs",
+    "spread": "Point of aim",
+    "performance": "No",
+    "narrative": "fired two bow tubes at about 3,800 yards 90° port track, 0° gyro angle, and depth setting of 12 feet. Results two prematures at about 17 seconds. Neither target nor escort fired at us as we retired southward. Decided to circle target at full speed and get in an attack from the north before dawn."
+   },
+   "flags": [
+    "Transcriber: Date Use G.C.T.: 8 printed S-like; \"8-24-43\" last digits faint; Track Angle: Column 5 first track faint; 8 glyphs; Gyro Angle: Attack 8 gyro agrees with narrative 25 Aug 0007 (028°)",
+    "Narrative entry at 0333 H August 11, 1943 (page 16) describes this attack; its account is included here.",
+    "Zone typed as (11). Heading includes '(Attack 6)'. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ],
+   "contact_no": null
+  },
+  {
+   "id": "SS-230-P06-C40",
+   "source": "Summary of submarine attacks",
+   "row": 40,
+   "kind": "torpedo",
+   "page": "29",
+   "zone": "Z",
+   "local": "2047 GCT 8-10-43",
+   "utc": "1943-08-10T20:47:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    8,
+    10
+   ],
+   "position_verbatim": "5°-31' (S) 120°-45'(E)",
+   "lat": -5.51667,
+   "lon": 120.75,
+   "derived": null,
+   "type": "AK",
+   "title": "Attack 7 · AK",
+   "fields": {
+    "fired": "2 - Mk XIV Tpx - head",
+    "hits": "0",
+    "sunk": "----------",
+    "damaged": "----------",
+    "type": "AK",
+    "firing_range": "3,900",
+    "attack_type": "(S)(N)(R)",
+    "draft": "10",
+    "depth": "9",
+    "tube": "Bow",
+    "track": "90 S",
+    "gyro": "0°",
+    "speed": "0",
+    "interval": "10 secs",
+    "spread": "Point of aim",
+    "performance": "Yes",
+    "narrative": "fired two bow tubes at 3,900 yard range, 0° gyro angle, 90° starboard track, and spread torpedoes by using masts as points of aim. Results two misses astern. The target seemed to kick ahead very slowly just as we fired. We had used a target speed of zero. This time the target opened up with his gun. No splashes were seen. This failure meant that our next attack would have to be a submerged one in daylight as dawn had begun breaking in the east."
+   },
+   "flags": [
+    "Transcriber: Date Use G.C.T.: 8 printed S-like; \"8-24-43\" last digits faint; Track Angle: Column 5 first track faint; 8 glyphs; Gyro Angle: Attack 8 gyro agrees with narrative 25 Aug 0007 (028°)",
+    "Narrative entry at 0447 H August 11, 1943 (page 16) describes this attack; its account is included here.",
+    "Heading includes '(Attack #7)'. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ],
+   "contact_no": null
+  },
+  {
+   "id": "SS-230-P06-N75",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "16",
+   "zone": "H",
+   "local": "0515 H August 11, 1943",
+   "utc": "1943-08-10T21:15:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Dived and ran west to head off target from Salier Strait; observed target with 10° list to port, attempting daylight submerged approach."
+   },
+   "flags": [
+    "Narrative paragraph continues onto page 17. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N76",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "17",
+   "zone": "H",
+   "local": "0847 H August 11, 1943",
+   "utc": "1943-08-11T00:47:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted reconnaissance seaplane. Decided deliberate attack was impossible, started closing target hoping enemy maneuvers would offer an opportunity."
+   },
+   "flags": [
+    "Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N77",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "17",
+   "zone": "H",
+   "local": "1143 H August 11, 1943",
+   "utc": "1943-08-11T03:43:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Aerial bombing and depth charges",
+   "fields": {
+    "event": "when about 5,000 yards from target, two small aerial bombs were dropped close aboard immediately following a periscope observation. As it looked like the enemy now had the ball, went deep to prepare for escort's depth charges. He obliged with two at 1206 (H).",
+    "charges": "4"
+   },
+   "flags": [
+    "Two bombs at 1143 and two depth charges at 1206 (H) in same entry. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N78",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "17",
+   "zone": "H",
+   "local": "1214 H August 11, 1943",
+   "utc": "1943-08-11T04:14:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Escort depth charge",
+   "fields": {
+    "event": "escort dropped another depth charge. These charges seemed to be large, but poorly placed. When we seemed to lose the escort, the enemy started a ferry run with some very large aerial bombs. All bombs were a good distance, but gave off the heaviest reverberations yet heard by this vessel. The ship vibrated all over. Bombs were dropped as follows:",
+    "charges": "one",
+    "damage": "The ship vibrated all over."
+   },
+   "flags": [
+    "Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N79",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "17",
+   "zone": "H",
+   "local": "1327 H August 11, 1943",
+   "utc": "1943-08-11T05:27:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Aerial bombing",
+   "fields": {
+    "event": "two bombs,",
+    "charges": "two bombs"
+   },
+   "flags": [
+    "Zone typed as '( ) (11)'. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N80",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "17",
+   "zone": "H",
+   "local": "1422 H August 11, 1943",
+   "utc": "1943-08-11T06:22:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Aerial bombing",
+   "fields": {
+    "event": "one bomb;",
+    "charges": "one bomb"
+   },
+   "flags": [
+    "Zone H is printed (Gemini noted none)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N81",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "17",
+   "zone": "H",
+   "local": "1430 H August 11, 1943",
+   "utc": "1943-08-11T06:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Aerial bombing",
+   "fields": {
+    "event": "one bomb;",
+    "charges": "one bomb"
+   },
+   "flags": [
+    "Zone typed as (II). Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N82",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "17",
+   "zone": "H",
+   "local": "1439 H August 11, 1943",
+   "utc": "1943-08-11T06:39:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Aerial bombing",
+   "fields": {
+    "event": "one bomb;",
+    "charges": "one bomb"
+   },
+   "flags": [
+    "Zone typed as (II). Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N83",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "17",
+   "zone": "H",
+   "local": "1442 H August 11, 1943",
+   "utc": "1943-08-11T06:42:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Aerial bombing",
+   "fields": {
+    "event": "one bomb,",
+    "charges": "one bomb"
+   },
+   "flags": [
+    "Zone H is printed (Gemini read a blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N84",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "17",
+   "zone": "H",
+   "local": "1446 H August 11, 1943",
+   "utc": "1943-08-11T06:46:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Aerial bombing",
+   "fields": {
+    "event": "two bombs,",
+    "charges": "two bombs"
+   },
+   "flags": [
+    "Zone typed as (11). Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N85",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "17",
+   "zone": "H",
+   "local": "1456 H August 11, 1943",
+   "utc": "1943-08-11T06:56:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Aerial bombing",
+   "fields": {
+    "event": "one bomb,",
+    "charges": "one bomb"
+   },
+   "flags": [
+    "Zone typed as (II). Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N86",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "17",
+   "zone": "H",
+   "local": "1656 H August 11, 1943",
+   "utc": "1943-08-11T08:56:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Aerial bombing",
+   "fields": {
+    "event": "two bombs, For awhile we thought we must be leaving air or oil slick. It is believed now that the bombing was intended to hold us down while the target was being towed to shallow water.",
+    "charges": "two bombs"
+   },
+   "flags": [
+    "Zone typed as (II). Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N87",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "17",
+   "zone": "H",
+   "local": "1847 H August 11, 1943",
+   "utc": "1943-08-11T10:47:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Surfaced in moonlight; unable to re-establish contact. Decided to patrol western end of Tioro Strait the following day."
+   },
+   "flags": [
+    "Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-C25",
+   "source": "6. description of aircraft sighted:",
+   "row": 25,
+   "kind": "aircraft",
+   "page": "27",
+   "zone": null,
+   "local": "8-11-43",
+   "utc": "1943-08-11T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    11
+   ],
+   "position_verbatim": "L-5°-31' (S)<br>λ-120°-46' (E)",
+   "lat": -5.51667,
+   "lon": 120.76667,
+   "derived": null,
+   "type": "1 - Reconnaissance 97 / (Divine Wind)",
+   "title": "Aircraft 6 · 1 - Reconnaissance 97 / (Divine Wind)",
+   "fields": {
+    "type": "1 - Reconnaissance 97<br>(Divine Wind)",
+    "course": "Circl-<br>ing<br>target",
+    "altitude": "1,000",
+    "remarks": "Bombed us at peris-<br>cope depth."
+   },
+   "flags": [
+    "Corrected by hand from the scan: Date was '8-1-43'.",
+    "Corrected by hand from the scan: Position was 'L-5°-31'(E)<br>λ-120°-46'(E)'.",
+    "Corrected by hand from the scan: Type was '1<br>Reconnaissance 97<br>(Divine Wind)'.",
+    "Corrected by hand from the scan: Course was '090°'.",
+    "Corrected by hand from the scan: Alt. was '2,000'.",
+    "Corrected by hand from the scan: Flags was 'Contact number typed as \"6,\"; Latitude hemisphere typed as \"(E)\". Date omitted in Date cell.'.",
+    "Transcriber: Corrected by hand from the scan (page 27).",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "6."
+  },
+  {
+   "id": "SS-230-P06-N122",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "18",
+   "zone": "H",
+   "local": "H August 12, 1943.",
+   "utc": "1943-08-12T04:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    12
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol in western entrance to Tioro Strait. On surfacing patrolled route to Salier Strait."
+   },
+   "flags": [
+    "Added by hand: Gemini left out this paragraph under the August 12 heading. No time printed.",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N88",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "18",
+   "zone": "H",
+   "local": "2145 H August 12, 1943.",
+   "utc": "1943-08-12T13:45:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1943,
+    8,
+    12
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Gunfire from patrol vessel",
+   "fields": {
+    "event": "just as ship was turning northward to patrol the following day off Pomalaa, Celebes, picked up target on radar at 3,750 yards, 034° relative. At that time we sighted a patrol vessel visually for the first time and turned away. When the commanding officer arrived on the bridge, he found a patrol vessel with a big bow wave bearing down with zero angle on the bow and range of 2,700 yards. The range opened fairly rapidly as four Fairbanks-Morse engines warmed up. At a range of about 3,500 yards, the patrol vessel presented a 10° angle on the bow and opened fired with a gun of about 3\" caliber. At this point the FINBACK joined the group that strongly believes in the 5\" gun aft. Decided to stay on surface as long as we opened range and firing was not too accurate. The only close shot dropped 75 yards to starboard of forward engine room hatch. This shot did not explode. He continued to fire until range opened to 6,000 yards. As he was in our path to Pomalaa, decided to retire to southeast and patrol southwest of Buton Island the following day. This patrol vessel was only seen head on. At first he appeared to be a small destroyer, but as he only made about 10-11 knots it is believed that he was a PC type patrol boat."
+   },
+   "flags": [
+    "Zone H is printed. The report does not state damage; the shot 'did not explode'."
+   ]
+  },
+  {
+   "id": "SS-230-P06-C14",
+   "source": "5. DESCRIPTION OF ⟦ENEMY⟧ VESSELS SIGHTED: continued",
+   "row": 14,
+   "kind": "sighting",
+   "page": "26",
+   "zone": null,
+   "local": "8-13-43",
+   "utc": "1943-08-13T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    13
+   ],
+   "position_verbatim": "L-5°-23'(S)<br>λ-120°-58'( )",
+   "lat": -5.38333,
+   "lon": 120.96667,
+   "derived": null,
+   "type": "1-Patrol Vessel / PC type",
+   "title": "Contact 14 · 1-Patrol Vessel / PC type",
+   "fields": {
+    "type": "1-Patrol Vessel<br>PC type",
+    "initial_range": "3,750",
+    "min_range": "2,300",
+    "course": "130°",
+    "speed": "10",
+    "remarks": "Believed<br>Patrolling"
+   },
+   "flags": [
+    "Transcriber: Longitude hemisphere missing.",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "14."
+  },
+  {
+   "id": "SS-230-P06-C26",
+   "source": "6. description of aircraft sighted:",
+   "row": 26,
+   "kind": "aircraft",
+   "page": "27",
+   "zone": null,
+   "local": "8-13-43",
+   "utc": "1943-08-13T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    13
+   ],
+   "position_verbatim": "L-5°-49' (S)<br>λ-122°-25' (E)",
+   "lat": -5.81667,
+   "lon": 122.41667,
+   "derived": null,
+   "type": "1 - Heavy Bomber - 97",
+   "title": "Aircraft 7 · 1 - Heavy Bomber - 97",
+   "fields": {
+    "type": "1 - Heavy Bomber - 97",
+    "course": "090°",
+    "altitude": "2,000",
+    "remarks": "None"
+   },
+   "flags": [
+    "Corrected by hand from the scan: Position was 'L-5°-49'(S)<br>λ-122°-25'( )'.",
+    "Corrected by hand from the scan: Type was '1<br>Heavy Bomber 97'.",
+    "Corrected by hand from the scan: Course was '250°'.",
+    "Corrected by hand from the scan: Alt. was '12,000'.",
+    "Corrected by hand from the scan: Remarks was 'Radar contact at<br>6 miles.'.",
+    "Corrected by hand from the scan: Flags was 'Longitude hemisphere missing.'.",
+    "Transcriber: Corrected by hand from the scan (page 27).",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "7."
+  },
+  {
+   "id": "SS-230-P06-N89",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "18",
+   "zone": null,
+   "local": "August 13, 1943.",
+   "utc": "1943-08-13T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    13
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol at west entrance of Buton Passage."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-C15",
+   "source": "5. DESCRIPTION OF ⟦ENEMY⟧ VESSELS SIGHTED: continued",
+   "row": 15,
+   "kind": "sighting",
+   "page": "26",
+   "zone": null,
+   "local": "8-14-43",
+   "utc": "1943-08-14T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    14
+   ],
+   "position_verbatim": "L-4°-46'(S)<br>λ-121°-15'( )",
+   "lat": -4.76667,
+   "lon": 121.25,
+   "derived": null,
+   "type": "Patrol Vessel / similar to contact / 14",
+   "title": "Contact 15 · Patrol Vessel / similar to contact / 14",
+   "fields": {
+    "type": "Patrol Vessel<br>similar to contact<br>14",
+    "initial_range": "8,000",
+    "min_range": "8,000",
+    "course": "330°",
+    "speed": "10"
+   },
+   "flags": [
+    "Transcriber: Longitude hemisphere missing.",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "15."
+  },
+  {
+   "id": "SS-230-P06-N90",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "18",
+   "zone": "H",
+   "local": "2011 H August 14, 1943.",
+   "utc": "1943-08-14T12:11:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    14
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Conducted submerged patrol off Pomalaa, Celebes; sighted patrol boat at 2011 (H), ran around him and continued southward to Buton Passage."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N91",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "18",
+   "zone": null,
+   "local": "August 15, 1943",
+   "utc": "1943-08-15T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    15
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Conducted submerged patrol in Buton Passage. Sighted and photographed beached tanker southwest of Wajo Bay, Buton Island, to confirm sunk credit."
+   },
+   "flags": [
+    "Narrative paragraph continues onto page 19. The report's heading is the range 'August 15-16, 1943.'; placed on its first day. The day is not stated.",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N92",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "19",
+   "zone": null,
+   "local": "August 17, 1943.",
+   "utc": "1943-08-17T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    17
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol off eastern end of Tioro Strait."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N93",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "19",
+   "zone": null,
+   "local": "August 18, 1943.",
+   "utc": "1943-08-18T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    18
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted high periscope, submerged patrol along trade route from Tioro Strait to focal point off Boeroe Island."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N94",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "19",
+   "zone": "H",
+   "local": "1228 H August 19, 1943.",
+   "utc": "1943-08-19T04:28:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    19
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Submerged patrol off northwest Boeroe Island; sighted two mine planters, a small tug, and a 1,500-ton steamer passing inshore; prepared 4\" gun and SJ radar."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N95",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "gun",
+   "page": "19",
+   "zone": "H",
+   "local": "1328 H August 19, 1943.",
+   "utc": "1943-08-19T05:28:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "gun",
+   "local_date": [
+    1943,
+    8,
+    19
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Gun action off Boeroe Island",
+   "fields": {
+    "event": "surfaced and started in pursuit. The range to the steamer by SJ radar was 9,000 yards. This showed we had been farther off the beach. Closed targets at full speed on the surface. They paid no attention until we opened fired on the steamer at 5,000 yards range. The steamer was light and very high out of the water. Hit steamer about five times. Leading mine planter turned toward us and opened fire with a gun which seemed to be about a one pounder. Directed 4\" fire at this ship. He continued to close range in spite of numerous hits until we opened fire with our three 20 mm guns and two 50 caliber machine guns. This barrage combined with a fire breaking out on board, discouraged him and he opened range rapidly. This vessel had settled about three feet. Shifted fire back to the steamer and the second mine planter began closing us. His machine gun fire was falling about 100 yards short. Began to hit him repeatedly with 4\" gun. Soon put him on fire from stem to stern. He finally headed for the beach blazing furiously. At this point the first mine planter began to fire at a range of about 8,000 yards. Shifted fire to steamer again and obtained about five more hits. When the mine planter began to straddle us at 6,500 yards, decided the one pounder had gotten larger, and as we had only twenty rounds of 4\" left, retired to westward. The mine planters were from 500 1,000 tons. Pictures obtained may provide a better estimate. The one set on fire sank enroute to the beach. The damaged ships headed eastward with power plants apparently intact. Expended 100 rounds of 4\" ammunition. As we had been along normal traffic lanes from Ambon to Tioro Strait and Makassar for several days without results, decided to work north of Ceram following day hunting for traffic to Dampier Strait and Babo, New Guinea. Following that, planned to concentrate on Dampier Strait which is reported virgin territory with some traffic."
+   },
+   "flags": [
+    "Text spans pages 19 and 20. Target returned fire, straddling the boat. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-C16",
+   "source": "5. DESCRIPTION OF ⟦ENEMY⟧ VESSELS SIGHTED: continued",
+   "row": 16,
+   "kind": "sighting",
+   "page": "26",
+   "zone": null,
+   "local": "8-19-43",
+   "utc": "1943-08-19T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    19
+   ],
+   "position_verbatim": "L-3°-01'(S)<br>λ-125°-50'(E)",
+   "lat": -3.01667,
+   "lon": 125.83333,
+   "derived": null,
+   "type": "2-Vessels similar / to Army mine plant- / ers. / 1- Small Tug / 1- Interisland Steam- / er or barge of / about 1,500 / tons.",
+   "title": "Contact 16 · 2-Vessels similar / to Army mine plant- / ers. / 1- Small Tug / 1- Interisland Steam- / er or barge of / about 1,500 / tons.",
+   "fields": {
+    "type": "2-Vessels similar<br>to Army mine plant-<br>ers.<br>1- Small Tug<br>1- Interisland Steam-<br>er or barge of<br>about 1,500<br>tons.",
+    "initial_range": "smoke<br>at<br>9,000",
+    "min_range": "3,000",
+    "course": "270°",
+    "speed": "5",
+    "remarks": "Attacked<br>with gun<br>fire, sunk<br>1 mine<br>planter<br>damaged<br>others."
+   },
+   "flags": [
+    "Transcriber: Contact number written as \"16.\"; Range Sighted typed as \"9,000\" (or overstruck \"8,000\").",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "16."
+  },
+  {
+   "id": "SS-230-P06-N96",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "20",
+   "zone": "H",
+   "local": "1458 H August 20, 1943.",
+   "utc": "1943-08-20T06:58:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    20
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Patrolled submerged west of Ceram and northeast of Manipa Strait; sighted masts of small steamer or minesweeper, deemed too small for torpedo; surfaced for Dampier Strait."
+   },
+   "flags": [
+    "Zone typed as (11)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-C17",
+   "source": "5. DESCRIPTION OF ⟦ENEMY⟧ VESSELS SIGHTED: continued",
+   "row": 17,
+   "kind": "sighting",
+   "page": "26",
+   "zone": null,
+   "local": "8-20-43",
+   "utc": "1943-08-20T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    20
+   ],
+   "position_verbatim": "L-2°-55'(S)<br>λ-127°-47'( )",
+   "lat": -2.91667,
+   "lon": 127.78333,
+   "derived": null,
+   "type": "Small interisland / steamer.",
+   "title": "Contact 17 · Small interisland / steamer.",
+   "fields": {
+    "type": "Small interisland<br>steamer.",
+    "initial_range": "18,000",
+    "min_range": "4,000",
+    "course": "045°",
+    "speed": "9.5",
+    "remarks": "Target<br>not<br>loaded."
+   },
+   "flags": [
+    "Transcriber: Longitude hemisphere missing.",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "17."
+  },
+  {
+   "id": "SS-230-P06-N97",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "20",
+   "zone": "H",
+   "local": "2030 H August 20, 1943.",
+   "utc": "1943-08-20T12:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    20
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Received message from CTF 71.1 requesting number of torpedoes aboard; remained close to Ceram to avoid disclosing movements."
+   },
+   "flags": [
+    "Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N99",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "20",
+   "zone": "I",
+   "local": "1615 I August 21, 1943.",
+   "utc": "1943-08-21T07:15:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    21
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced and set course for Sagewin Strait."
+   },
+   "flags": [
+    "Date corrected by hand: this entry is printed above the 'August 22, 1943.' heading, so it belongs to 21 August. Zone I is printed. Gemini had dated it 22 August and merged the 22 August sentence into it."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N98",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "20",
+   "zone": null,
+   "local": "August 21, 1943.",
+   "utc": "1943-08-21T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    21
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted high periscope, submerged patrol in Ceram Sea, on route from Manipa Strait to Dampier Strait."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N123",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "20",
+   "zone": "I",
+   "local": "I August 22, 1943.",
+   "utc": "1943-08-22T03:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    22
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol off western entrance to Sagewin Strait."
+   },
+   "flags": [
+    "Added by hand: split out of Gemini's 1615 entry. No time printed.",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N100",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "21",
+   "zone": null,
+   "local": "August 23, 1943",
+   "utc": "1943-08-23T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    23
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol at western end of Dampier Strait."
+   },
+   "flags": [
+    "The report's heading is the range 'August 23-24, 1943.'; placed on its first day. The day is not stated.",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N101",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "21",
+   "zone": "I",
+   "local": "1042 I August 24, 1943.",
+   "utc": "1943-08-24T01:42:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    24
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted 5-6,000 ton AK with escort trailing off Batanta Island; decided to trail on surface and attack after dark."
+   },
+   "flags": [
+    "Zone typed as (1)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N102",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "21",
+   "zone": "I",
+   "local": "1300 I August 24, 1943.",
+   "utc": "1943-08-24T04:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    24
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced and recontacted target which had disappeared into rain squall."
+   },
+   "flags": [
+    "Zone typed as (1). Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N103",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "21",
+   "zone": "I",
+   "local": "2032 I August 24, 1943.",
+   "utc": "1943-08-24T11:32:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    24
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Closed target to radar range of 13,300 yards and began working around ahead; target making 11.5 knots."
+   },
+   "flags": [
+    "Zone typed as (I). Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-C18",
+   "source": "5. DESCRIPTION OF ⟦ENEMY⟧ VESSELS SIGHTED: continued",
+   "row": 18,
+   "kind": "sighting",
+   "page": "26",
+   "zone": null,
+   "local": "8-24-43",
+   "utc": "1943-08-24T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    24
+   ],
+   "position_verbatim": "L-0°-54' (S)<br>λ-130°-24'(E)",
+   "lat": -0.9,
+   "lon": 130.4,
+   "derived": null,
+   "type": "AK of about 5-6000 / tons with escort / converted trawler.",
+   "title": "Contact 18 · AK of about 5-6000 / tons with escort / converted trawler.",
+   "fields": {
+    "type": "AK of about 5-6000<br>tons with escort<br>converted trawler.",
+    "initial_range": "11,000",
+    "min_range": "1,200",
+    "course": "230°",
+    "speed": "11.5"
+   },
+   "flags": [
+    "Transcriber: Contact number typed as \"18,\".",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "18."
+  },
+  {
+   "id": "SS-230-P06-N104",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "21",
+   "zone": "I",
+   "local": "2340 I August 24, 1943.",
+   "utc": "1943-08-24T14:40:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    24
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] In attack position with two torpedoes forward, three aft; sighted escort on starboard quarter in highly phosphorescent water."
+   },
+   "flags": [
+    "Zone typed as (I(. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-C41",
+   "source": "Summary of submarine attacks",
+   "row": 41,
+   "kind": "torpedo",
+   "page": "29",
+   "zone": "Z",
+   "local": "1507 GCT 8-24-43",
+   "utc": "1943-08-24T15:07:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    8,
+    24
+   ],
+   "position_verbatim": "2°-22' (S) 128°-27'(E)",
+   "lat": -2.36667,
+   "lon": 128.45,
+   "derived": null,
+   "type": "AK",
+   "title": "Attack 8 · AK",
+   "fields": {
+    "fired": "2 - Mk XIV Tpx - head",
+    "hits": "0",
+    "sunk": "----------",
+    "damaged": "----------",
+    "type": "AK",
+    "firing_range": "1,450",
+    "attack_type": "(S)(N)(R)",
+    "draft": "9",
+    "depth": "9",
+    "tube": "Bow",
+    "track": "118° S",
+    "gyro": "028",
+    "speed": "11.5",
+    "interval": "8 secs",
+    "spread": "3° Divergent",
+    "performance": "Yes",
+    "narrative": "fired two torpedo spread from bow tubes at 1,430 yards range with 113 starboard track, 028° gyro angle, and depth setting of 12 feet. Results - two misses. Swung ship hard right; Just as we were going to fire our stern tubes, noticed backing wash from target's screws. While shifting set up, target turned away giving us a large angle on the bow. Decided not to throw away any torpedoes. The escort apparently did not see us. The target must have seen us just prior to firing or after we started turning. The torpedoes ran normally and our set-up had checked accurately. The torpedo tracks looked good. Unless we were discovered at firing point, at least one torpedo should have hit. Our only mistake was that in trying to keep a small silhouette to both target and escort, a 028° right gyro was accepted. Target and escort headed south as we opened to north. Escort dropped two depth charges aimlessly. Abandoned chase as we could not get ahead of target undetected before he began to hug coast of Ceram. At daylight, he could be in either Kelang or Manipa Strait. This set-up had checked so accurately that we had already credited ourselves with 5,000 tons."
+   },
+   "flags": [
+    "Transcriber: Date Use G.C.T.: 8 printed S-like; \"8-24-43\" last digits faint; Track Angle: Column 5 first track faint; 8 glyphs; Gyro Angle: Attack 8 gyro agrees with narrative 25 Aug 0007 (028°)",
+    "Review: Attack 8 (24 August GCT, 0007 I on 25 August local): the summary prints the track as 118° S (PSO checked against the scan). The narrative entry at 0007 I reads '113 starboard track' (Claude zoomed on the narrative scan and read 113). Gyro 028 and spread 3° agree. Recorded, not resolved.",
+    "Narrative entry at 0007 I August 25, 1943. (page 21) describes this attack; its account is included here.",
+    "Gyro angle read 028° twice (Gemini 020°), as on the attack summary (attack 8, 028). The '(Attack #8)' margin heading is not printed on this entry. Spans pages 21-22."
+   ],
+   "contact_no": null
+  },
+  {
+   "id": "SS-230-P06-N106",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "22",
+   "zone": null,
+   "local": "August 25, 1943.",
+   "utc": "1943-08-25T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    25
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted high periscope, submerged patrol along route from Manipa Strait to Dampier Strait."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N107",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "22",
+   "zone": "I",
+   "local": "1055 I August 26, 1943.",
+   "utc": "1943-08-26T01:55:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    26
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Conducted submerged patrol off west tip of Batanta Island; sighted smoke bearing 099° (T); patrol boat using 19 kc supersonic ranging, abandoned approach."
+   },
+   "flags": [
+    "Zone typed as (1)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-C19",
+   "source": "5. DESCRIPTION OF ⟦ENEMY⟧ VESSELS SIGHTED: continued",
+   "row": 19,
+   "kind": "sighting",
+   "page": "26",
+   "zone": null,
+   "local": "8-26-43",
+   "utc": "1943-08-26T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    8,
+    26
+   ],
+   "position_verbatim": "L-1°-00' (S)<br>λ-130°-28'( )",
+   "lat": -1.0,
+   "lon": 130.46667,
+   "derived": null,
+   "type": "PC-Boat or Torpedo / Boat.",
+   "title": "Contact 19 · PC-Boat or Torpedo / Boat.",
+   "fields": {
+    "type": "PC-Boat or Torpedo<br>Boat.",
+    "initial_range": "smoke at<br>20,000",
+    "min_range": "9,000",
+    "course": "240°",
+    "speed": "10"
+   },
+   "flags": [
+    "Transcriber: Longitude hemisphere missing.",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "19."
+  },
+  {
+   "id": "SS-230-P06-N108",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "22",
+   "zone": null,
+   "local": "August 27, 1943.",
+   "utc": "1943-08-27T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    27
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted surface patrol from Dampier Strait through Djailolo Passage."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N109",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "22",
+   "zone": "I",
+   "local": "0000 I August 28, 1943.",
+   "utc": "1943-08-27T15:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    28
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute from area to Midway. At left area 502."
+   },
+   "flags": [
+    "Zone typed as (1)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N110",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "22",
+   "zone": "I",
+   "local": "0901 I August 29, 1943",
+   "utc": "1943-08-29T00:01:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    8,
+    29
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "passed to Command of Submarines Pacific. Enroute from area to Midway. Conducted daily training dives."
+   },
+   "flags": [
+    "Zone typed as (1). The report's heading is the range 'August 29-31, 1943.'; placed on its first day. The day is not stated."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N111",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "22",
+   "zone": "K",
+   "local": "1222 K September 1, 1943.",
+   "utc": "1943-09-01T02:22:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    9,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute from area to Midway. At dived on SD radar contact at 5 miles. No bombs."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N112",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "23",
+   "zone": "K",
+   "local": "1257 K September 1, 1943.",
+   "utc": "1943-09-01T02:57:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    9,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced."
+   },
+   "flags": [
+    "Zone K is printed (Gemini read a blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N113",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "23",
+   "zone": "K",
+   "local": "1420 K September 1, 1943.",
+   "utc": "1943-09-01T04:20:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    9,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "dived when lookout sighted reconnaissance plane. No bombs."
+   },
+   "flags": [
+    "Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N114",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "23",
+   "zone": "K",
+   "local": "1517 K September 1, 1943.",
+   "utc": "1943-09-01T05:17:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    9,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced."
+   },
+   "flags": [
+    "Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-N115",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "23",
+   "zone": "K",
+   "local": "1810 K September 1, 1943.",
+   "utc": "1943-09-01T08:10:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    9,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "passed between Pagan and Agrihan Islands, Marianas."
+   },
+   "flags": [
+    "Zone K is printed. Time 1810: the 8 is S-like (Gemini was unsure of 1810 or 1310)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-C27",
+   "source": "6. description of aircraft sighted:",
+   "row": 27,
+   "kind": "aircraft",
+   "page": "27",
+   "zone": null,
+   "local": "9-1-43",
+   "utc": "1943-09-01T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    9,
+    1
+   ],
+   "position_verbatim": "L-18°-14' (N)<br>λ-144°-59' (E)",
+   "lat": 18.23333,
+   "lon": 144.98333,
+   "derived": null,
+   "type": "Unknown - Radar",
+   "title": "Aircraft 8 · Unknown - Radar",
+   "fields": {
+    "type": "Unknown - Radar",
+    "course": "---",
+    "altitude": "---",
+    "remarks": "Radar contact at<br>6 miles."
+   },
+   "flags": [
+    "Corrected by hand from the scan: Date was '8-28-43'.",
+    "Corrected by hand from the scan: Position was 'L-18°-14' (N)<br>λ-144°-59'( )'.",
+    "Corrected by hand from the scan: Type was 'Unknown'.",
+    "Corrected by hand from the scan: Course was '160°'.",
+    "Corrected by hand from the scan: Alt. was '15,000'.",
+    "Corrected by hand from the scan: Remarks was 'Radar contact at<br>25 miles.'.",
+    "Corrected by hand from the scan: Flags was 'Date faint/partially visible; Longitude hemisphere missing.'.",
+    "Transcriber: Corrected by hand from the scan (page 27).",
+    "Review: Aircraft 8 onward (page 27) were out of step with the scan in Gemini's file: dates, longitudes, courses, altitudes and remarks were taken from neighbouring rows. Read again by hand at 280 dpi; see row_fixes in patrol.yml. The last digit of the range in aircraft 14 ('8 Miles') is S-like.",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "8."
+  },
+  {
+   "id": "SS-230-P06-C28",
+   "source": "6. description of aircraft sighted:",
+   "row": 28,
+   "kind": "aircraft",
+   "page": "27",
+   "zone": null,
+   "local": "9-1-43",
+   "utc": "1943-09-01T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    9,
+    1
+   ],
+   "position_verbatim": "L-18°-17' (N)<br>λ-145°-13' (E)",
+   "lat": 18.28333,
+   "lon": 145.21667,
+   "derived": null,
+   "type": "1-Reconnaissance -97",
+   "title": "Aircraft 9 · 1-Reconnaissance -97",
+   "fields": {
+    "type": "1-Reconnaissance -97",
+    "course": "250°",
+    "altitude": "2,000",
+    "remarks": "---------------"
+   },
+   "flags": [
+    "Corrected by hand from the scan: Position was 'L-19°-17' (N)<br>λ-145°-13' (E)'.",
+    "Corrected by hand from the scan: Course was '340°'.",
+    "Corrected by hand from the scan: Alt. was '5,000'.",
+    "Corrected by hand from the scan: Remarks was 'Picked up on radar at<br>10 miles. Passed astern<br>at 9 miles.'.",
+    "Corrected by hand from the scan: Flags was 'Latitude hemisphere typed as \"(N)\", closing paren faint.'.",
+    "Transcriber: Corrected by hand from the scan (page 27).",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "9."
+  },
+  {
+   "id": "SS-230-P06-N116",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "23",
+   "zone": "K",
+   "local": "1225 K September 2, 1943.",
+   "utc": "1943-09-02T02:25:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    9,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] SD radar contact at 26 miles, closing to 24 miles; lookout sighted plane on course 160° (T); ship 240 miles from Pagan, 345 miles from Marcus Island."
+   },
+   "flags": [
+    "Zone K is printed (Gemini read a blank)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-C29",
+   "source": "6. description of aircraft sighted:",
+   "row": 29,
+   "kind": "aircraft",
+   "page": "27",
+   "zone": null,
+   "local": "9-2-43",
+   "utc": "1943-09-02T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    9,
+    2
+   ],
+   "position_verbatim": "L-20°-10' (N)<br>λ-149°-32' (E)",
+   "lat": 20.16667,
+   "lon": 149.53333,
+   "derived": null,
+   "type": "1-Reconnaissance -97",
+   "title": "Aircraft 10 · 1-Reconnaissance -97",
+   "fields": {
+    "type": "1-Reconnaissance -97",
+    "course": "160°",
+    "altitude": "5,000",
+    "remarks": "Radar contact at<br>25 miles."
+   },
+   "flags": [
+    "Corrected by hand from the scan: Position was 'L-20°-10'<br>λ-149°-32'(E)'.",
+    "Corrected by hand from the scan: Type was '1-Reconnaissance -97<br>Mitsubishi'.",
+    "Corrected by hand from the scan: Course was '255°'.",
+    "Corrected by hand from the scan: Alt. was '3,000'.",
+    "Corrected by hand from the scan: Remarks was 'Radar contact at<br>11 miles.'.",
+    "Corrected by hand from the scan: Flags was 'Contact number partially cut off; Latitude hemisphere omitted; Longitude hemisphere typed as \"(E)\" (resembles 3).'.",
+    "Transcriber: Corrected by hand from the scan (page 27).",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "10."
+  },
+  {
+   "id": "SS-230-P06-N117",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "23",
+   "zone": null,
+   "local": "September 3, 1943",
+   "utc": "1943-09-03T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    9,
+    3
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute from area to Midway. Conducted daily ship's drills and fire control problems."
+   },
+   "flags": [
+    "The report's heading is the range 'September 3-6, 1943.'; placed on its first day. The day is not stated.",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-C30",
+   "source": "6. description of aircraft sighted:",
+   "row": 30,
+   "kind": "aircraft",
+   "page": "27",
+   "zone": null,
+   "local": "9-5-43",
+   "utc": "1943-09-05T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    9,
+    5
+   ],
+   "position_verbatim": "L-23°-40' (N)<br>λ-164°-06' (E)",
+   "lat": 23.66667,
+   "lon": 164.1,
+   "derived": null,
+   "type": "1-Bomber - Mitsubishi / 96 - Mk III",
+   "title": "Aircraft 11 · 1-Bomber - Mitsubishi / 96 - Mk III",
+   "fields": {
+    "type": "1-Bomber - Mitsubishi<br>96 - Mk III",
+    "course": "340°",
+    "altitude": "5,000",
+    "remarks": "Picked up on radar at<br>10 miles. Passed astern<br>at 9 miles."
+   },
+   "flags": [
+    "Corrected by hand from the scan: Date was '9-6-43'.",
+    "Corrected by hand from the scan: Position was 'L-23°-40' (N)<br>λ-161°-15'(W)'.",
+    "Corrected by hand from the scan: Type was '1-Bomber<br>96-Mk III'.",
+    "Corrected by hand from the scan: Course was '255°'.",
+    "Corrected by hand from the scan: Alt. was '3,000'.",
+    "Corrected by hand from the scan: Remarks was 'Radar contact at<br>10 miles.'.",
+    "Corrected by hand from the scan: Flags was 'Date cut off/faint in cell; Longitude cut off in margin.'.",
+    "Transcriber: Corrected by hand from the scan (page 27).",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "11."
+  },
+  {
+   "id": "SS-230-P06-N118",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rendezvous",
+   "page": "23",
+   "zone": "M",
+   "local": "0200 M September 7, 1943.",
+   "utc": "1943-09-06T14:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "rendezvous",
+   "local_date": [
+    1943,
+    9,
+    7
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Rendezvous with TAMBOR",
+   "fields": {
+    "event": "made radar contact on object at 5,400 yards bearing 037° relative. Unable to sight object. Commenced tracking and found object which we suspected was a submarine was on same course we were and making 9 knots. At this time decoded message stating we would probably pass GAR. Decided to exchange identification signals. Found ship was TAMBOR. First sighted TAMBOR from astern at 1,900 yards. She fell in astern and took up our speed.",
+    "with": "TAMBOR"
+   },
+   "flags": [
+    "Zone typed as (11) or (M)."
+   ]
+  },
+  {
+   "id": "SS-230-P06-C31",
+   "source": "6. description of aircraft sighted:",
+   "row": 31,
+   "kind": "aircraft",
+   "page": "27",
+   "zone": null,
+   "local": "9-7-43",
+   "utc": "1943-09-07T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    9,
+    7
+   ],
+   "position_verbatim": "L-27°-54' (N)<br>λ-178°-30' (W)",
+   "lat": 27.9,
+   "lon": -178.5,
+   "derived": null,
+   "type": "U.S. Army - B-24",
+   "title": "Aircraft 12 · U.S. Army - B-24",
+   "fields": {
+    "type": "U.S. Army - B-24",
+    "course": "255",
+    "altitude": "3,000",
+    "remarks": "Radar contact at<br>11 miles."
+   },
+   "flags": [
+    "Corrected by hand from the scan: Position was 'L-27°-54' (N)<br>λ-173°-30'(W)'.",
+    "Corrected by hand from the scan: Type was 'U.S. Army B-24'.",
+    "Corrected by hand from the scan: Course was '290°'.",
+    "Corrected by hand from the scan: Alt. was '1,000'.",
+    "Corrected by hand from the scan: Remarks was 'Radar contact at<br>3 Miles.'.",
+    "Corrected by hand from the scan: Flags was ''.",
+    "Transcriber: Corrected by hand from the scan (page 27).",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "12."
+  },
+  {
+   "id": "SS-230-P06-C32",
+   "source": "6. description of aircraft sighted:",
+   "row": 32,
+   "kind": "aircraft",
+   "page": "27",
+   "zone": null,
+   "local": "9-7-43",
+   "utc": "1943-09-07T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    9,
+    7
+   ],
+   "position_verbatim": "L-27°-54' (N)<br>λ-178°-30'(W)",
+   "lat": 27.9,
+   "lon": -178.5,
+   "derived": null,
+   "type": "Undentified",
+   "title": "Aircraft 13 · Undentified",
+   "fields": {
+    "type": "Undentified",
+    "course": "255",
+    "altitude": "3,000",
+    "remarks": "Radar contact at<br>10 miles."
+   },
+   "flags": [
+    "Corrected by hand from the scan: Date was '9-8-43'.",
+    "Corrected by hand from the scan: Type was '1<br>Undentified'.",
+    "Corrected by hand from the scan: Course was ''.",
+    "Corrected by hand from the scan: Alt. was ''.",
+    "Corrected by hand from the scan: Remarks was 'Radar contact at ⟦...⟧; Course/Alt blanks; Date partly cut off.'.",
+    "No time recorded; placed at noon GMT on that date."
+   ],
+   "contact_no": "13."
+  },
+  {
+   "id": "SS-230-P06-N119",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "23",
+   "zone": "Y",
+   "local": "1638 Y September 7, 1943.",
+   "utc": "1943-09-08T04:38:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    9,
+    7
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Arrived Midway. Moored to U.S.S. SPERRY. Received 20,040 gallons of Diesel Oil."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N120",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "23",
+   "zone": "Y",
+   "local": "1500 Y September 8, 1943.",
+   "utc": "1943-09-09T03:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    9,
+    8
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Departed Midway for Pearl in company with TAMBOR.",
+    "with": "TAMBOR"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-N121",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "23",
+   "zone": null,
+   "local": "September 9, 1943",
+   "utc": "1943-09-09T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    9,
+    9
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute Midway to Pearl. September 12, 1943. Arrived Pearl."
+   },
+   "flags": [
+    "The report's heading is the range 'September 9-12, 1943.'; placed on its first day. The day is not stated.",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P06-C33",
+   "source": "6. description of aircraft sighted:",
+   "row": 33,
+   "kind": "aircraft",
+   "page": "27",
+   "zone": null,
+   "local": "9-10-43",
+   "utc": "1943-09-10T12:00:00Z",
+   "has_time": false,
+   "local_date": [
+    1943,
+    9,
+    10
+   ],
+   "position_verbatim": "L-22°-46' (N)<br>λ-169°-02' (W)",
+   "lat": 22.76667,
+   "lon": -169.03333,
+   "derived": null,
+   "type": "B-24",
+   "title": "Aircraft 14 · B-24",
+   "fields": {
+    "type": "B-24",
+    "course": "290",
+    "altitude": "1,000",
+    "remarks": "Radar contact at<br>⟦8⟧ Miles."
+   },
+   "flags": [
+    "Corrected by hand from the scan: Position was 'L-22°-46' (N)<br>λ-159°-02' (W)'.",
+    "Corrected by hand from the scan: Course was ''.",
+    "Corrected by hand from the scan: Alt. was ''.",
+    "Corrected by hand from the scan: Remarks was ''.",
+    "Corrected by hand from the scan: Flags was 'Course, Alt, Remarks blank.'.",
+    "Transcriber: Corrected by hand from the scan (page 27).",
+    "No time recorded; placed at noon GMT on that date.",
+    "Uncertain reading in remarks: Radar contact at<br>⟦8⟧ Miles."
+   ],
+   "contact_no": "14."
+  }
+ ],
+ "tonnage": [
+  {
+   "id": "SS-230-P06-T01",
+   "utc": "1943-07-30T15:11:00Z",
+   "target": "Passenger-Cargo vessel (HUSIMI MARU class)",
+   "name": null,
+   "result": "sunk",
+   "tons": 10800,
+   "ships": 1,
+   "basis": "credited",
+   "source": "First endorsement, page 1; Attack 1",
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-T02",
+   "utc": "1943-08-03T15:22:00Z",
+   "target": "Freighter (KOYA MARU class)",
+   "name": null,
+   "result": "sunk",
+   "tons": 5471,
+   "ships": 1,
+   "basis": "credited",
+   "source": "First endorsement, page 1; Attack 4",
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-T03",
+   "utc": "1943-08-19T05:28:00Z",
+   "target": "Mine planter",
+   "name": null,
+   "result": "sunk",
+   "tons": 750,
+   "ships": 1,
+   "basis": "credited",
+   "source": "First endorsement, page 1 (marked with an asterisk); gun action, pages 13-14",
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-T04",
+   "utc": "1943-07-31T22:34:00Z",
+   "target": "AK (TAIGEN MARU type)",
+   "name": null,
+   "result": "damaged",
+   "tons": 5660,
+   "ships": 1,
+   "basis": "claimed",
+   "source": "Attack 2, summary page 28",
+   "flags": []
+  },
+  {
+   "id": "SS-230-P06-T05",
+   "utc": "1943-08-10T16:21:00Z",
+   "target": "AK (TATUNIYA MARU)",
+   "name": null,
+   "result": "damaged",
+   "tons": 6344,
+   "ships": 1,
+   "basis": "claimed",
+   "source": "Attack 5, summary page 29",
+   "flags": []
+  }
+ ],
+ "minefields": []
+}

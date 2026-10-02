@@ -1,0 +1,1095 @@
+YAML
+
+```
+boat: "SS-230"
+patrol: 6
+year: 1943
+report:
+comsubpac_report_no:
+commanding_officer:
+citation:
+  archive: "NARA"
+  record_group: "38"
+  nara_catalog_id: 4697018
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - са. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946"
+  reel: "A549"
+  micro_serial: "55595"
+  file: "A16-3 (5)"
+  serial: "01285"
+  date: "9/16/1943"
+fold3_images:
+  16: 270500088
+  17: 270500089
+  18: 270500090
+  19: 270500091
+  20: 270500092
+  21: 270500093
+  22: 270500094
+  23: 270500095
+default_hemisphere: { lat: N, lon: E }
+departure: { port: , date: , time: , zone: , page: , flags: }
+arrival: { port: "Midway", date: "September 7, 1943.", time: "1638", zone: "Y", page: 23, flags: "Moored to U.S.S. SPERRY. Subsequent departure for and arrival at Pearl Harbor also noted in text." }
+events:
+  - date:
+    time: "0026"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Heard two explosions, possibly torpedoes exploding at run's end or distant depth charges."
+    page: 16
+    flags: ""
+  - date:
+    time: "0035"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Escort depth charges"
+    part: "I"
+    charges: "two"
+    damage:
+    with:
+    course:
+    speed:
+    event: "At escort dropped two depth charges at fairly good range, but they seemed to be large and set deep. Escort did not have echo ranging gear. Continued to hear screws above us for sometime. We had about a 6° F. negative temperature gradient."
+    page: 16
+    flags: "Zone typed as (II) in document."
+  - date:
+    time: "0212"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "surfaced and headed for attack position."
+    page: 16
+    flags: ""
+  - date:
+    time: "0222"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Contacted target at 12,900 yards; target seemed stopped. Closed on surface very slowly, waiting for escort to circle target before continuing approach."
+    page: 16
+    flags: ""
+  - date:
+    time: "0333"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Attack #6"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "fired two bow tubes at about 3,800 yards 90° port track, 0° gyro angle, and depth setting of 12 feet. Results two prematures at about 17 seconds. Neither target nor escort fired at us as we retired southward. Decided to circle target at full speed and get in an attack from the north before dawn."
+    page: 16
+    flags: "Zone typed as (11). Heading includes '(Attack 6)'."
+  - date:
+    time: "0447"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Attack #7"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "fired two bow tubes at 3,900 yard range, 0° gyro angle, 90° starboard track, and spread torpedoes by using masts as points of aim. Results two misses astern. The target seemed to kick ahead very slowly just as we fired. We had used a target speed of zero. This time the target opened up with his gun. No splashes were seen. This failure meant that our next attack would have to be a submerged one in daylight as dawn had begun breaking in the east."
+    page: 16
+    flags: "Heading includes '(Attack #7)'."
+  - date:
+    time: "0515"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Dived and ran west to head off target from Salier Strait; observed target with 10° list to port, attempting daylight submerged approach."
+    page: 16
+    flags: "Narrative paragraph continues onto page 17."
+  - date:
+    time: "0847"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted reconnaissance seaplane. Decided deliberate attack was impossible, started closing target hoping enemy maneuvers would offer an opportunity."
+    page: 17
+    flags: ""
+  - date:
+    time: "1143"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Aerial bombing and depth charges"
+    part: "I"
+    charges: "4"
+    damage:
+    with:
+    course:
+    speed:
+    event: "when about 5,000 yards from target, two small aerial bombs were dropped close aboard immediately following a periscope observation. As it looked like the enemy now had the ball, went deep to prepare for escort's depth charges. He obliged with two at 1206 (H)."
+    page: 17
+    flags: "Two bombs at 1143 and two depth charges at 1206 (H) in same entry."
+  - date:
+    time: "1214"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Escort depth charge"
+    part: "I"
+    charges: "one"
+    damage: "The ship vibrated all over."
+    with:
+    course:
+    speed:
+    event: "escort dropped another depth charge. These charges seemed to be large, but poorly placed. When we seemed to lose the escort, the enemy started a ferry run with some very large aerial bombs. All bombs were a good distance, but gave off the heaviest reverberations yet heard by this vessel. The ship vibrated all over. Bombs were dropped as follows:"
+    page: 17
+    flags: ""
+  - date:
+    time: "1327"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Aerial bombing"
+    part: "I"
+    charges: "two bombs"
+    damage:
+    with:
+    course:
+    speed:
+    event: "two bombs,"
+    page: 17
+    flags: "Zone typed as '( ) (11)'."
+  - date:
+    time: "1422"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Aerial bombing"
+    part: "I"
+    charges: "one bomb"
+    damage:
+    with:
+    course:
+    speed:
+    event: "one bomb;"
+    page: 17
+    flags: "No zone typed."
+  - date:
+    time: "1430"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Aerial bombing"
+    part: "I"
+    charges: "one bomb"
+    damage:
+    with:
+    course:
+    speed:
+    event: "one bomb;"
+    page: 17
+    flags: "Zone typed as (II)."
+  - date:
+    time: "1439"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Aerial bombing"
+    part: "I"
+    charges: "one bomb"
+    damage:
+    with:
+    course:
+    speed:
+    event: "one bomb;"
+    page: 17
+    flags: "Zone typed as (II)."
+  - date:
+    time: "1442"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Aerial bombing"
+    part: "I"
+    charges: "one bomb"
+    damage:
+    with:
+    course:
+    speed:
+    event: "one bomb,"
+    page: 17
+    flags: "Zone typed as blank parenthesis '( )'."
+  - date:
+    time: "1446"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Aerial bombing"
+    part: "I"
+    charges: "two bombs"
+    damage:
+    with:
+    course:
+    speed:
+    event: "two bombs,"
+    page: 17
+    flags: "Zone typed as (11)."
+  - date:
+    time: "1456"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Aerial bombing"
+    part: "I"
+    charges: "one bomb"
+    damage:
+    with:
+    course:
+    speed:
+    event: "one bomb,"
+    page: 17
+    flags: "Zone typed as (II)."
+  - date:
+    time: "1656"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Aerial bombing"
+    part: "I"
+    charges: "two bombs"
+    damage:
+    with:
+    course:
+    speed:
+    event: "two bombs, For awhile we thought we must be leaving air or oil slick. It is believed now that the bombing was intended to hold us down while the target was being towed to shallow water."
+    page: 17
+    flags: "Zone typed as (II)."
+  - date:
+    time: "1847"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Surfaced in moonlight; unable to re-establish contact. Decided to patrol western end of Tioro Strait the following day."
+    page: 17
+    flags: ""
+  - date: "August 12, 1943."
+    time: "2145"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Gunfire from patrol vessel"
+    part: "I"
+    charges:
+    damage: "none"
+    with:
+    course:
+    speed:
+    event: "just as ship was turning northward to patrol the following day off Pomalaa, Celebes, picked up target on radar at 3,750 yards, 034° relative. At that time we sighted a patrol vessel visually for the first time and turned away. When the commanding officer arrived on the bridge, he found a patrol vessel with a big bow wave bearing down with zero angle on the bow and range of 2,700 yards. The range opened fairly rapidly as four Fairbanks-Morse engines warmed up. At a range of about 3,500 yards, the patrol vessel presented a 10° angle on the bow and opened fired with a gun of about 3\" caliber. At this point the FINBACK joined the group that strongly believes in the 5\" gun aft. Decided to stay on surface as long as we opened range and firing was not too accurate. The only close shot dropped 75 yards to starboard of forward engine room hatch. This shot did not explode. He continued to fire until range opened to 6,000 yards. As he was in our path to Pomalaa, decided to retire to southeast and patrol southwest of Buton Island the following day. This patrol vessel was only seen head on. At first he appeared to be a small destroyer, but as he only made about 10-11 knots it is believed that he was a PC type patrol boat."
+    page: 18
+    flags: "Zone typed as '( )'."
+  - date: "August 13, 1943."
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted submerged patrol at west entrance of Buton Passage."
+    page: 18
+    flags: ""
+  - date: "August 14, 1943."
+    time: "2011"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Conducted submerged patrol off Pomalaa, Celebes; sighted patrol boat at 2011 (H), ran around him and continued southward to Buton Passage."
+    page: 18
+    flags: ""
+  - date: "August 15-16, 1943."
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Conducted submerged patrol in Buton Passage. Sighted and photographed beached tanker southwest of Wajo Bay, Buton Island, to confirm sunk credit."
+    page: 18
+    flags: "Narrative paragraph continues onto page 19."
+  - date: "August 17, 1943."
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted submerged patrol off eastern end of Tioro Strait."
+    page: 19
+    flags: ""
+  - date: "August 18, 1943."
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted high periscope, submerged patrol along trade route from Tioro Strait to focal point off Boeroe Island."
+    page: 19
+    flags: ""
+  - date: "August 19, 1943."
+    time: "1228"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Submerged patrol off northwest Boeroe Island; sighted two mine planters, a small tug, and a 1,500-ton steamer passing inshore; prepared 4\" gun and SJ radar."
+    page: 19
+    flags: ""
+  - date:
+    time: "1328"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "gun"
+    title: "Gun action off Boeroe Island"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "surfaced and started in pursuit. The range to the steamer by SJ radar was 9,000 yards. This showed we had been farther off the beach. Closed targets at full speed on the surface. They paid no attention until we opened fired on the steamer at 5,000 yards range. The steamer was light and very high out of the water. Hit steamer about five times. Leading mine planter turned toward us and opened fire with a gun which seemed to be about a one pounder. Directed 4\" fire at this ship. He continued to close range in spite of numerous hits until we opened fire with our three 20 mm guns and two 50 caliber machine guns. This barrage combined with a fire breaking out on board, discouraged him and he opened range rapidly. This vessel had settled about three feet. Shifted fire back to the steamer and the second mine planter began closing us. His machine gun fire was falling about 100 yards short. Began to hit him repeatedly with 4\" gun. Soon put him on fire from stem to stern. He finally headed for the beach blazing furiously. At this point the first mine planter began to fire at a range of about 8,000 yards. Shifted fire to steamer again and obtained about five more hits. When the mine planter began to straddle us at 6,500 yards, decided the one pounder had gotten larger, and as we had only twenty rounds of 4\" left, retired to westward. The mine planters were from 500 1,000 tons. Pictures obtained may provide a better estimate. The one set on fire sank enroute to the beach. The damaged ships headed eastward with power plants apparently intact. Expended 100 rounds of 4\" ammunition. As we had been along normal traffic lanes from Ambon to Tioro Strait and Makassar for several days without results, decided to work north of Ceram following day hunting for traffic to Dampier Strait and Babo, New Guinea. Following that, planned to concentrate on Dampier Strait which is reported virgin territory with some traffic."
+    page: 19
+    flags: "Text spans pages 19 and 20. Target returned fire, straddling the boat."
+  - date: "August 20, 1943."
+    time: "1458"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Patrolled submerged west of Ceram and northeast of Manipa Strait; sighted masts of small steamer or minesweeper, deemed too small for torpedo; surfaced for Dampier Strait."
+    page: 20
+    flags: "Zone typed as (11)."
+  - date:
+    time: "2030"
+    zone: "H"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Received message from CTF 71.1 requesting number of torpedoes aboard; remained close to Ceram to avoid disclosing movements."
+    page: 20
+    flags: ""
+  - date: "August 21, 1943."
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted high periscope, submerged patrol in Ceram Sea, on route from Manipa Strait to Dampier Strait."
+    page: 20
+    flags: ""
+  - date: "August 22, 1943."
+    time: "1615"
+    zone: "I"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted submerged patrol off western entrance to Sagewin Strait. At surfaced and set course for Sagewin Strait."
+    page: 20
+    flags: "Zone typed as (1)."
+  - date: "August 23-24, 1943."
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted submerged patrol at western end of Dampier Strait."
+    page: 21
+    flags: ""
+  - date: "August 24, 1943."
+    time: "1042"
+    zone: "I"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted 5-6,000 ton AK with escort trailing off Batanta Island; decided to trail on surface and attack after dark."
+    page: 21
+    flags: "Zone typed as (1)."
+  - date:
+    time: "1300"
+    zone: "I"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "surfaced and recontacted target which had disappeared into rain squall."
+    page: 21
+    flags: "Zone typed as (1)."
+  - date:
+    time: "2032"
+    zone: "I"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Closed target to radar range of 13,300 yards and began working around ahead; target making 11.5 knots."
+    page: 21
+    flags: "Zone typed as (I)."
+  - date:
+    time: "2340"
+    zone: "I"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] In attack position with two torpedoes forward, three aft; sighted escort on starboard quarter in highly phosphorescent water."
+    page: 21
+    flags: "Zone typed as (I(."
+  - date: "August 25, 1943."
+    time: "0007"
+    zone: "I"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Attack on AK"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "fired two torpedo spread from bow tubes at 1,430 yards range with 113 starboard track, 020° gyro angle, and depth setting of 12 feet. Results - two misses. Swung ship hard right; just as we were going to fire our stern tubes, noticed backing wash from target's screws. While shifting set up, target turned away giving us a large angle on the bow. Decided not to throw away any torpedoes. The escort apparently did not see us. The target must have seen us just prior to firing or after we started turning. The torpedoes ran normally and our set-up had checked accurately. The torpedo tracks looked good. Unless we were discovered at firing point, at least one torpedo should have hit. Our only mistake was that in trying to keep a small silhouette to both target and escort, a 020° right gyro was accepted. Target and escort headed south as we opened to north. Escort dropped two depth charges aimlessly. Abandoned chase as we could not get ahead of target undetected before he began to hug coast of Ceram. At daylight, he could be in either Kelang or Manipa Strait. This set-up had checked so accurately that we had already credited ourselves with 5,000 tons."
+    page: 21
+    flags: "Text spans pages 21 and 22. Note: Escort dropped two depth charges aimlessly following the attack."
+  - date: "August 25, 1943."
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted high periscope, submerged patrol along route from Manipa Strait to Dampier Strait."
+    page: 22
+    flags: ""
+  - date: "August 26, 1943."
+    time: "1055"
+    zone: "I"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Conducted submerged patrol off west tip of Batanta Island; sighted smoke bearing 099° (T); patrol boat using 19 kc supersonic ranging, abandoned approach."
+    page: 22
+    flags: "Zone typed as (1)."
+  - date: "August 27, 1943."
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Conducted surface patrol from Dampier Strait through Djailolo Passage."
+    page: 22
+    flags: ""
+  - date: "August 28, 1943."
+    time: "0000"
+    zone: "I"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Enroute from area to Midway. At left area 502."
+    page: 22
+    flags: "Zone typed as (1)."
+  - date: "August 29-31, 1943."
+    time: "0901"
+    zone: "I"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "passed to Command of Submarines Pacific. Enroute from area to Midway. Conducted daily training dives."
+    page: 22
+    flags: "Zone typed as (1)."
+  - date: "September 1, 1943."
+    time: "1222"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Enroute from area to Midway. At dived on SD radar contact at 5 miles. No bombs."
+    page: 22
+    flags: ""
+  - date:
+    time: "1257"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "surfaced."
+    page: 23
+    flags: "Zone typed as blank parenthesis '( )'."
+  - date:
+    time: "1420"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "dived when lookout sighted reconnaissance plane. No bombs."
+    page: 23
+    flags: ""
+  - date:
+    time: "1517"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "surfaced."
+    page: 23
+    flags: ""
+  - date:
+    time: "1810"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "passed between Pagan and Agrihan Islands, Marianas."
+    page: 23
+    flags: "Time typed as ⟦1810⟧ or ⟦1310⟧; zone typed as '( )'."
+  - date: "September 2, 1943."
+    time: "1225"
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] SD radar contact at 26 miles, closing to 24 miles; lookout sighted plane on course 160° (T); ship 240 miles from Pagan, 345 miles from Marcus Island."
+    page: 23
+    flags: "Zone typed as '( )'."
+  - date: "September 3-6, 1943."
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Enroute from area to Midway. Conducted daily ship's drills and fire control problems."
+    page: 23
+    flags: ""
+  - date: "September 7, 1943."
+    time: "0200"
+    zone: "M"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "rendezvous"
+    title: "Rendezvous with TAMBOR"
+    part: "I"
+    charges:
+    damage:
+    with: "TAMBOR"
+    course:
+    speed:
+    event: "made radar contact on object at 5,400 yards bearing 037° relative. Unable to sight object. Commenced tracking and found object which we suspected was a submarine was on same course we were and making 9 knots. At this time decoded message stating we would probably pass GAR. Decided to exchange identification signals. Found ship was TAMBOR. First sighted TAMBOR from astern at 1,900 yards. She fell in astern and took up our speed."
+    page: 23
+    flags: "Zone typed as (11) or (M)."
+  - date: "September 7, 1943."
+    time: "1638"
+    zone: "Y"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Arrived Midway. Moored to U.S.S. SPERRY. Received 20,040 gallons of Diesel Oil."
+    page: 23
+    flags: ""
+  - date: "September 8, 1943."
+    time: "1500"
+    zone: "Y"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with: "TAMBOR"
+    course:
+    speed:
+    event: "Departed Midway for Pearl in company with TAMBOR."
+    page: 23
+    flags: ""
+  - date: "September 9-12, 1943."
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Enroute Midway to Pearl. September 12, 1943. Arrived Pearl."
+    page: 23
+    flags: ""
+```
+
+I could not transcribe report title, commanding officer, COMSUBPAC patrol report number, initial departure details, and Part VIII (Anti-Submarine Measures), which were not present on the provided pages.

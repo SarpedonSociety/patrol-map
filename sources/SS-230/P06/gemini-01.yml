@@ -1,0 +1,1464 @@
+YAML
+
+```
+boat: "SS-230"
+patrol: 6
+year: 1943
+report: "U.S.S. FINBACK Report of Sixth War Patrol."
+comsubpac_report_no: "249"
+commanding_officer: 
+citation:
+  archive: "NARA"
+  record_group: "38"
+  nara_catalog_id: "4697018"
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946"
+  reel: "A549"
+  micro_serial: "55595"
+  file: "A16-3 (5)"
+  serial: "01285"
+  date: "9/16/1943"
+fold3_images:
+  1: 270500073
+  7: 270500079
+  8: 270500080
+  9: 270500081
+  10: 270500082
+  11: 270500083
+  12: 270500084
+  13: 270500085
+  14: 270500086
+  15: 270500087
+default_hemisphere: { lat: N, lon: E }
+departure: { port: , date: "July 18, 1943", time: "1400", zone: , page: 1, flags: "Time zone blank; port not specified in narrative departure entry (Fremantle stated in prologue)" }
+arrival:   { port: , date: , time: , zone: , page: , flags: }
+events:
+  - date: "July 18, 1943"
+    time: "1400"
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Underway for day and night training with H.N.M.S. TJERK HIDDES."
+    page: 1
+    flags: "Time zone blank"
+
+  - date: "July 18, 1943"
+    time: "2100"
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Departed operating area for Exmouth Gulf. Conducted daily fire control, ship, and gun drills enroute."
+    page: 1
+    flags: "Time zone blank; comma after Exmouth Gulf as typed"
+
+  - date: "July 21, 1943"
+    time: "0700"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Conducted special assigned tests for shore installations north of Flaming Head Light."
+    page: 1
+    flags: 
+
+  - date: "July 21, 1943"
+    time: "1329"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Moored alongside Dutch Tanker, S.S. ODI, in Exmouth Gulf to fuel. Received 10,221 gallons."
+    page: 1
+    flags: 
+
+  - date: "July 21, 1943"
+    time: "1853"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Underway for area after waiting for Officer Messenger Mail."
+    page: 1
+    flags: 
+
+  - date: "July 22-24, 1943"
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Enroute to area on surface, conducted daily fire control, ship, and diving drills."
+    page: 1
+    flags: "Time and zone blank"
+
+  - date: "July 24, 1943"
+    time: "1410"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: "notable"
+    title: "Hydraulic line failure on diving"
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Dived when lookout reported two planes dead ahead with 45° port angle on bow. O.O.D. did not sight planes. No bombs. Hydraulic line to hull induction valve in crews mess carried away on diving. Some oil got into storeroom and magazines, but was quickly wiped up with no damage resulting. Remained submerged to repair hydraulic line."
+    page: 1
+    flags: 
+
+  - date: "July 24, 1943"
+    time: "1543"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "surfaced upon completing repairs."
+    page: 1
+    flags: 
+
+  - date: "July 24, 1943"
+    time: "2030"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "started passage of Lombok Strait."
+    page: 1
+    flags: 
+
+  - date: "July 25, 1943"
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Conducted submerged patrol south of Kangean Islands along Surabaya Ambon route in order to arrive off Surabaya undetected. Noted numerous small sailing vessels."
+    page: 1
+    flags: "Spans pages 1-2; time and zone blank"
+
+  - date: "July 26-27, 1943"
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Conducted submerged patrol north of minefields off Surabaya, Java on the route to Tarakan, Borneo."
+    page: 2
+    flags: "Time and zone blank"
+
+  - date: "July 26-27, 1943"
+    time: "1000"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sighted trawler-type patrol vessel with forward gun and radio antennas; withheld gun attack to conceal position; numerous fishing and sailing craft present day and night."
+    page: 2
+    flags: 
+
+  - date: "July 28, 1943"
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Conducted submerged patrol off western passage to Surabaya."
+    page: 2
+    flags: "Time and zone blank"
+
+  - date: "July 28, 1943"
+    time: "0648"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sighted small ballast tanker of about 3,000 tons resembling four-stack destroyer; closest range 6,000 yards; shifted position to track future traffic; 20+ sailboats in sight."
+    page: 2
+    flags: 
+
+  - date: "July 29, 1943"
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Conducted submerged patrol at traffic focal point west of Bawean Island. Decided to spend remainder of time in area 404 off Surabaya until we disclosed our presence."
+    page: 2
+    flags: "Time and zone blank"
+
+  - date: "July 30, 1943"
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Conducted submerged patrol west of minefield off Surabaya and west of western passage."
+    page: 2
+    flags: "Time and zone blank"
+
+  - date: "July 30, 1943"
+    time: "1346"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Contact 3: Sighted large freighter leaving western passage hugging coast at 12,000 yards; commenced submerged trail at standard speed to attack after dark."
+    page: 2
+    flags: 
+
+  - date: "July 30, 1943"
+    time: "1555"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "sighted Mitsubishi 96 bomber over target."
+    page: 2
+    flags: 
+
+  - date: "July 30, 1943"
+    time: "1615"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Contact 4: Sighted two Kuma class light cruisers and a destroyer zig-zagging at 25 knots 14 miles off coast; targets pulled away and disappeared."
+    page: 2
+    flags: "Spans pages 2-3"
+
+  - date: "July 30, 1943"
+    time: "1855"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "surfaced and gave chase to freighter."
+    page: 3
+    flags: 
+
+  - date: "July 30, 1943"
+    time: "2026"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Radar contact on target at 10,000 yards; tracked for position ahead inshore between Tanjung Bendoh and Mandalika to provide surface retirement in 60 feet of water."
+    page: 3
+    flags: 
+
+  - date: "July 30, 1943"
+    time: "2311"
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: "attack"
+    title: "Attack 1 on Husimi Maru class freighter"
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "fired three torpedo spread at range of 1,800 yards, track of 85° port, depth setting 12 feet, and gyro angle of 355°. Results one hit, one miss, and one premature. From checking times of firing and explosions, it was concluded that the first torpedo hit amidships, the second torpedo prematured at 23 seconds, and the third torpedo seemed to miss astern. The terrific explosion and turbulence produced by the premature may have thrown the third torpedo off its track as it swerved off to the right. All torpedoes were spread to hit the target as our information had checked accurately. Although disconcerting, the premature proved helpful in providing a smoke and water screen of about 100 feet height behind which we turned away. We cleared this screen just in time to observe a torpedo hit amidships. This hit was followed shortly by a flash of flame and an explosion aboard the target distinct from the hit. The target began to fire bow and stern guns of about 5\" caliber toward our firing position which we had rapidly left astern. This target was the largest ship this vessel has fired at to date. He was well over 500 feet in length. His silhouette and upper works as seen during the daytime showed him to be similar to the Husimi Maru, 10,800 tons, page 33 of ONI-208-J. After the hit, the pip on the radar seemed to decrease about 1/3 and then stay the same size. We opened range to 7,500 yards and then rounded target to attack again from northward should he fail to sink. Target continued to fire guns to southward for about twenty minutes. Then numerous lights were seen about the decks."
+    page: 3
+    flags: "Time zone blank; spans pages 3-4"
+
+  - date: "July 30, 1943"
+    time: "2355"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "when north of target at range of 3,000 yards, headed toward target for another attack. At this time radar officer reported that pip on radar was getting weaker although we were closing the range."
+    page: 4
+    flags: 
+
+  - date: "July 31, 1943"
+    time: "0005"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Lost radar pip at 5,000 yards; approached spot and detected two lifeboats; confirmed target definitely sunk and headed north at 900 yards range."
+    page: 4
+    flags: 
+
+  - date: "July 31, 1943"
+    time: "0335"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "picked up pip on radar at 10,000 yards. Started tracking and working for position ahead."
+    page: 4
+    flags: 
+
+  - date: "July 31, 1943"
+    time: "0559"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Submerged for dawn attack but identified contact as shallow-draft Chidori-class torpedo boat (6-foot draft); abandoned attack and evaded at periscope depth."
+    page: 4
+    flags: 
+
+  - date: "July 31, 1943"
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Conducted submerged patrol along trade lane from Singapore to focal point off Bawean Island."
+    page: 4
+    flags: "Time and zone blank"
+
+  - date: "July 31, 1943"
+    time: "2140"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "made radar contact on target at range of 12,600 yards. Commenced tracking target. When we had determined target course and speed, closed range to about 6,000 yards to locate possible escorts. None found."
+    page: 4
+    flags: "Contact 6"
+
+  - date: "July 31, 1943"
+    time: "2247"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Bright light flashed on starboard beam; target turned away radically and moved suspiciously like an A/S vessel; trailed ahead to attack at dawn."
+    page: 4
+    flags: "Spans pages 4-5"
+
+  - date: "August 1, 1943"
+    time: "0547"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "dived and commenced approach. As it became light, it was found that we had an unescorted, zig-zagging AK similiar to the Taigen Maru, 5,660 tons, Page 207 of ONI-208-J. The target was not loaded. It had the number 934 painted on the side of the bridge."
+    page: 5
+    flags: 
+
+  - date: "August 1, 1943"
+    time: "0634"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: "attack"
+    title: "Attack 2 on Taigen Maru type AK"
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "fired three torpedo spreads at range of 1,300 yards, 37° starboard track, 00° gyro angle, and depth setting of 15 feet. Results Nos. 1 and 2 prematured at 23 seconds; No. 3 hit target in bow. It is believed that targed slowed down on seeing prematures as #3 should have hit aft. When first two torpedoes prematured, made three more tubes ready for firing."
+    page: 5
+    flags: 
+
+  - date: "August 1, 1943"
+    time: "0637"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: "attack"
+    title: "Attack on Taigen Maru type AK (No. 4 torpedo)"
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "fired #4 torpedo at range of 1,700 yards with a track of 161° starboard, and 00° gyro angle. Torpedo missed as target evaded. Target took a 30° down angle, raised his screw partly out of the water, gave us a 180° angle on bow, and pulled away at about 8 knots. The target fired about 30 rounds from his stern gun at the periscope."
+    page: 5
+    flags: 
+
+  - date: "August 1, 1943"
+    time: "0820"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Surfaced at 16,000 yards range to commence surface chase, but target had more speed than expected and Finback did not gain bearing rapidly."
+    page: 5
+    flags: 
+
+  - date: "August 1, 1943"
+    time: "1025"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "abandoned chase when we reached 72 feet of water and he was still bearing 245° (T). It was heart breaking to lose an unescorted target with such a perfect set up. This retirement proved to be none to soon."
+    page: 5
+    flags: 
+
+  - date: "August 1, 1943"
+    time: "1037"
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "dived on radar contact on SD radar at 7 miles. Depth of water was 82 feet."
+    page: 5
+    flags: "Time zone blank; water depth '⟦8⟧2 feet' typed over/smudged (could be 32)"
+
+  - date: "August 1, 1943"
+    time: "1038"
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: "counterattack"
+    title: "Aerial bombing attack"
+    part: "I"
+    charges: "two aerial bombs"
+    damage: "No damage done."
+    with: 
+    course: 
+    speed: 
+    event: "plane dropped two aerial bombs. Credit Japs with two \"near misses\". No damage done. Ran at 75 feet at two thirds speed to clear diving position."
+    page: 6
+    flags: "Time zone blank"
+
+  - date: "August 1, 1943"
+    time: "1050"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "looked with periscope and found plane circling astern. White caps and clouds were on our side. Remained submerged and cleared area to south."
+    page: 6
+    flags: 
+
+  - date: "August 2, 1943"
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Conducted submerged patrol at junction of two trade lanes east of Bawean Island."
+    page: 6
+    flags: "Time and zone blank"
+
+  - date: "August 3, 1943"
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Conducted submerged patrol northwest of Surabaya."
+    page: 6
+    flags: "Time and zone blank"
+
+  - date: "August 3, 1943"
+    time: "0756"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "sighted three ships, which developed into escort vessels; headed into Surabaya. They were a mine sweeper, a torpedo boat, and a converted trawler."
+    page: 6
+    flags: 
+
+  - date: "August 3, 1943"
+    time: "0830"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "sighted a small PC boat following above ships. Apparently the Japs had decided their ships need escorts in this area. It lookedlike \"old home week\" in Surabaya."
+    page: 6
+    flags: 
+
+  - date: "August 3, 1943"
+    time: "0844"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "sighted plane above these ships. Went to 100 feet as sea was very smooth."
+    page: 6
+    flags: 
+
+  - date: "August 3, 1943"
+    time: "0851"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "plane not in sight."
+    page: 6
+    flags: 
+
+  - date: "August 3, 1943"
+    time: "1305"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sighted smoke to east and commenced approach on interisland trading vessel with forward mast, amidships stack, and canopy deck; not close enough for photo."
+    page: 6
+    flags: 
+
+  - date: "August 3, 1943"
+    time: "1422"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sighted AK similar to Koya Maru with converted cabin cruiser escort; unable to close favorably, decided to trail and attack on surface after dark."
+    page: 6
+    flags: 
+
+  - date: "August 3, 1943"
+    time: "1610"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "while trailing target, sighted small oiler heading toward Surabaya. This vessel was light and resembled our coastal oilers."
+    page: 7
+    flags: 
+
+  - date: "August 3, 1943"
+    time: "1855"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "surfaced."
+    page: 7
+    flags: 
+
+  - date: "August 3, 1943"
+    time: "2023"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "contacted target on radar at range of 14,000 yards."
+    page: 7
+    flags: 
+
+  - date: "August 3, 1943"
+    time: "2241"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "reached attack position on starboard bow. We had put two main engines on the battery charge after contacting target on radar. At 3,500 yards range, quartermaster sighted white signal light on escort."
+    page: 7
+    flags: 
+
+  - date: "August 3, 1943"
+    time: "2319"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: "attack"
+    title: "Attack #3 on Koya Maru class AK"
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "with escort at 2,000 yards, fired three torpedo spreads from bow tubes with following setup: track angle 95° (S); range 1,700 yards; gyro angle 4° right; and depth setting of 12 feet. All torpedoes seemed to run normally and looked good. Results - No hits. With the spreads used, the consistency of our data, and actual torpedo tracks observed, the commanding officer believes it was impossible to get three misses unless the torpedoes ran too deep. A subsequent careful check-up of all personnel and data has not revealed any explanation for three misses. When the third torpedo left the tube, swung ship hard right at flank speed and placed target astern."
+    page: 7
+    flags: 
+
+  - date: "August 3, 1943"
+    time: "2322"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: "attack"
+    title: "Attack #4 on Koya Maru class AK"
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "fired two torpedoes from after tubes by applying lead angle on after T.D.T. and using zero gyro angles. Results two hits. The first torpedo hit amidships giving off a large amount of flame. The second torpedo hit well aft. The target was covered with black smoke, but seemed to start down aft at once. All hands on bridge watched bow rise out of water and then the target took its final plunge. At the same time the radar officer watched his pip increase and then disappear. The target sank in two and one-half minutes. Apparently neither the target, who was closed to 1,300 yards, nor the escort who closed us to 2,400 yards, with a broadsideview, ever saw us. The escort charged off astern of target dropping depth charges to a total of nine. They sound fine when you are on the surface. Cleared area to north, got off message to CTF 71.1, and headed east so as to be able to clear area the next night."
+    page: 7
+    flags: 
+
+  - date: "August 4, 1943"
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Patrolled submerged east of Bawean Island along trade route from Singapore to Makassar. On surfacing after sunset, took up patrol station north of Bawean Island on Borneo to Surabaya Route."
+    page: 8
+    flags: "Time and zone blank"
+
+  - date: "August 5, 1943"
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Patrolled on surface along Singapore Makassar Route leaving area."
+    page: 8
+    flags: "Time and zone blank"
+
+  - date: "August 5, 1943"
+    time: "1642"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Sighted smoke and approached two ships; mirage hindered identification; began end around to get ahead after dark but lost targets in rain squall."
+    page: 8
+    flags: 
+
+  - date: "August 5, 1943"
+    time: "1940"
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "stopped on estimated track of targets, assuming they were large ships."
+    page: 8
+    flags: "Time zone blank"
+
+  - date: "August 5, 1943"
+    time: "2140"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "when no radar contact had been established, resumed course to east."
+    page: 8
+    flags: 
+
+  - date: "August 6, 1943"
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "On surface enroute to patrol off Laikang Bay, southwest corner of Celebes, N.E.I.."
+    page: 8
+    flags: "Time and zone blank"
+
+  - date: "August 6, 1943"
+    time: "0145"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "entered area 403. Same peculiar visibility existed as on previous day. Started approaches on small fishing vessel and on an island which appeared to be smoke."
+    page: 8
+    flags: 
+
+  - date: "August 7-8, 1943"
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Conducted submerged patrol off Laikang Bay, Celebes, N.E.I.."
+    page: 8
+    flags: "Time and zone blank"
+
+  - date: "August 7-8, 1943"
+    time: "0529"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: "notable"
+    title: "Sound head damaged on unplotted coral head"
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "on the 8th while running at 120 feet waiting for sunrise, damaged JK-QC sound head by rubbing over an unplotted coral head. Ship's position as fixed before diving and after coming to periscope depth was 0.6 miles, outside of the 100 fathom curve. This sound head was put out of commission for the remainder of the patrol."
+    page: 8
+    flags: "Spans pages 8-9"
+
+  - date: "August 9, 1943"
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Conducted submerged patrol off of Makassar, Celebes, N.E.I.."
+    page: 9
+    flags: "Time and zone blank"
+
+  - date: "August 10, 1943"
+    time: 
+    zone: 
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "Conducted submerged patrol off Laikang Bay, Celebes, N.E.I.."
+    page: 9
+    flags: "Time and zone blank"
+
+  - date: "August 10, 1943"
+    time: "1627"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "surfaced and set course for Salier Strait."
+    page: 9
+    flags: 
+
+  - date: "August 10, 1943"
+    time: "1800"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "entered area 501. After clearing Salier Strait, commenced patrolling along route from Salier Strait to Tioro Strait (both off southern end of Celebes)."
+    page: 9
+    flags: 
+
+  - date: "August 10, 1943"
+    time: "2215"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "[SUMMARY] Contact #13: Sighted ship shape at 14,000 yards in bright moonlight; tracked with SJ radar and moved ahead for submerged attack before Salier Strait."
+    page: 9
+    flags: 
+
+  - date: "August 10, 1943"
+    time: "2341"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "dived and continued approach at 40 feet."
+    page: 9
+    flags: 
+
+  - date: "August 11, 1943"
+    time: "0003"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: 
+    title: 
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "with target at 5,600 yards and radar unable to discover an escort, went to 60 feet and continued approach. Discovered small escort trailing target about 1,000 yards just prior to firing."
+    page: 9
+    flags: 
+
+  - date: "August 11, 1943"
+    time: "0021"
+    zone: "H"
+    lat: 
+    lon: 
+    from: 
+    bearing: 
+    distance: 
+    bearing_is: 
+    tag: "attack"
+    title: "Attack on Tatumiya Maru"
+    part: "I"
+    charges: 
+    damage: 
+    with: 
+    course: 
+    speed: 
+    event: "fired a three torpedo spread from stern tubes with 90° port track, 2,000 yard range, 180° gyro angle, and 12 foot depth setting. Results first torpedo hit under stack, second and third torpedoes missed ahead and astern as they should have, since a spread of 125% coverage was used. The target was very lightly loaded and riding high. It was identified as the Tatumiya Maru, 6,344 tons, page 77 of ONI-208-J. Changed course 90° to left after watching torpedo hit, to clear torpedo track. Although escort was hard to make out, sound heard him speed up immediately following the torpedo explosion. Ran at full speed for ten minutes and went deep."
+    page: 9
+    flags: "Entry text cuts off at end of page 9"
+```
+
+Could not transcribe commanding officer name, arrival details, or narrative continuation past page 9, which were omitted from the provided document selection.

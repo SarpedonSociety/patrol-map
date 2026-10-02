@@ -60,6 +60,7 @@ COLUMNS = {
     "attack": "attack_no", "intrange": "initial_range", "minrange": "min_range", "beart": "bearing",
     "bear": "bearing", "bearing": "bearing", "crse": "course", "spd": "speed", "rks": "remarks",
     "lead": "lead", "timegct": "time", "locationlatlong": "lat_long", "datelocal": "date",
+    "dateusegct": "date", "locationlat": "lat", "locationlong": "lon",   # Finback Patrol 6 attack summary rows
     "rangesighted": "initial_range", "rangeclosest": "min_range", "target": "type",
     "types": "type", "howcontacted": "contacted",
     # OCR typos in a heading ("Timo Date", "Typo") kept by the transcriber (Silversides Patrol 6).
@@ -68,7 +69,7 @@ COLUMNS = {
 # Fallback: first keyword found in the normalized heading wins.
 KEYWORDS = [
     ("timedate", "time_date"), ("torpedoesfired", "fired"), ("torpsfired", "fired"),
-    ("torpfired", "fired"), ("roundsfired", "fired"), ("numbersunk", "sunk"),
+    ("torpfired", "fired"), ("torpedoesoneach", "fired"), ("roundsfired", "fired"), ("numbersunk", "sunk"),
     ("damaged", "damaged"), ("typeoftarget", "type"), ("typeofattack", "attack_type"),
     ("draft", "draft"), ("depthsetting", "depth"), ("boworstern", "tube"),
     ("trackangle", "track"), ("gyro", "gyro"), ("targetspeed", "speed"),
@@ -225,6 +226,7 @@ def split_lat_long(text):
     # "L-8°-32'(N) 134°-00(E)": drop the L- prefix and degree/minute marks,
     # and take the hemisphere out of its brackets.
     text = re.sub(r"^\s*L\s*-\s*", "", text)
+    text = re.sub(r"\s*[λΛʎʌ]\s*-\s*", " ", text)   # the printed longitude sign (Finback Patrol 6 tables)
     text = re.sub(r"(?<=\d)\s*°\s*-?\s*", "-", text).replace("'", "").replace("’", "")
     text = re.sub(r"\s*\(\s*([NSEW])\s*\)", r" \1", text, flags=re.I)
     text = re.sub(r"\s+", " ", text).strip()
@@ -476,6 +478,11 @@ def merge_meta(manual, batches):
     for src in batches + [manual]:
         for key, value in src.items():
             if key in ("events",):
+                continue
+            if src is manual and key in ("departure", "arrival") and isinstance(value, dict) and value.get("standalone"):
+                # `standalone: true`: use this block as written and take nothing from the Gemini
+                # entry (it may carry a time and zone from a different stop).
+                out[key] = {k: v for k, v in value.items() if k != "standalone"}
                 continue
             if isinstance(value, dict):
                 base = dict(out.get(key) or {})
