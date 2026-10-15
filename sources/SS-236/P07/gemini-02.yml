@@ -1,0 +1,1594 @@
+YAML
+
+```
+fold3_images:
+  6: 270629765
+  7: 270629771
+  8: 270629775
+  9: 270629779
+  10: 270629783
+  11: 270629786
+events:
+- date: "October 18, 1943"
+  time: "0535"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Convoy zigged left to starboard bow of leading right-column ship; selected largest target with overlapping center-column and right-column ships."
+  page: 6
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "0537-13"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "attack"
+  title: "Torpedo attack on convoy"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "0537-13 Fired #1 tube.\n0537-24 Fired #2 tube.\n0537-32 Fired #3 tube.\n0537-40 Fired #4 tube.\n0537-45 Heard and saw premature explosion.\n0537-50 Fired #5 tube.\n0537-58 Fired #6 tube."
+  page: 6
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "0539"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Escort 1000 yds on starboard bow; went deep; noted premature explosions alert convoys though less serious at night."
+  page: 6
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "0539-45"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Heard torpedo hit."
+  page: 6
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "0539-54"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Heard torpedo hit."
+  page: 6
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "0542-35"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "counterattack"
+  title: ""
+  part: "I"
+  charges: "7"
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "0542-35 First depth charge.\n0543-05 Second \" \"\n0543-25 Third \" \"\n0543-40 Fourth \" \"\n0544-01 Fifth \" \"\n0544-16 Sixth \" \"\n0544-26 Seventh \" \"\nSome of the above were probably end of run explosions."
+  page: 6
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "0554"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Heard noises of a ship breaking up. Escorts appeared to be persistent, but did not drop anymore. We were under a density layer which started at about 260'."
+  page: 6
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "0714"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Escort screws no longer heard though echo ranging continued; one escort toward convoy, another astern; started up for look."
+  page: 6
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "0758"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "⟦Sighted⟧ smoke bearing 026 T, and 076 T, and escort bearing 308 T."
+  page: 6
+  flags: "First word faint, reads ⟦Sighted⟧; Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "0840"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Lost sight of escort on bearing 047 T."
+  page: 6
+  flags: "Time typed as 0840; Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "0853"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Smoke from convoy now bears 087 T."
+  page: 6
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "0925"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surfaced to keep contact on convoy, sighted what appeared to be masts and bow of a ship bearing 315 T."
+  page: 6
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "0927"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Submerged and headed for possible cripple."
+  page: 6
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "0953"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Sighted escort departing from spot we were heading for, escort going full speed, heading in general direction of convoy."
+  page: 7
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "1051"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surfaced and went ahead full speed, when escort no longer visible. Found remnant of warhead case on deck, no doubt a souvenir of the premature."
+  page: 7
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "1056"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Sighted much debris ahead, manned 20 MM and all small arms."
+  page: 7
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "1130"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "gun"
+  title: "Gunfire on derelict landing barges"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Slowed down, cruising amongst debris. Escort had apparently rescued survivors. In addition to a large oil slick, there were two standard clinker lifeboats, four landing barges (either swamped or upside down) several small life rafts, numerous life preservers, general wreckage and flotsam. Shot at landing barges with 20 MM, but they were constructed of wood and would not sink. Went along side one landing barge and stripped it of name plate, boat box, anchor, steering wheel, boat hooks etc. Recovered two ring type life preservers which bore the markings TURI MARU KOBE. There were many small kegs floating about, picked one of them thinking it might contain saki but it was full of pickled onions. Picked up a float light of the Franklin variety. Took pictures."
+  page: 7
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "1230"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "This was fun but we had a long chase ahead of us to get the rest of them, went ahead full speed on four engines, heading on last bearing of convoy."
+  page: 7
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "1809"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: "BALAO"
+  course: 
+  speed: 
+  event: "Sighted submarine bearing 197 T, changed course to close and established contact with BALAO on Mike Megat. Was not in contact convoy. Estimated convoy must be close by and that we were on its 1900 position circle."
+  page: 7
+  flags: "Mike Megat as typed; Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "1910"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Evening stars placed boat south of convoy; conducted retiring search curve north at full speed; maintained contact with Balao; checked radar when it failed to detect Balao."
+  page: 7
+  flags: "Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "2053"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "OOD, Lt. Worthington, sighted convoy on starboard bow at estimated range of 10 miles. Reported this to BALAO via Mike Megat and told them we would start an end run to northward of convoy."
+  page: 7
+  flags: "Mike Megat as typed; Zone L applied from heading"
+- date: "October 18, 1943"
+  time: "2125"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Convoy bore 150 T, 8 miles; lost communication with Balao; radar failed; lost convoy and ran on cloud shadow in dark overcast while evading escort radar."
+  page: 7
+  flags: "Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "0053"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Radar tracked pip at 20,000 yds making 15 kts, course 110; suspected convoy split with a faster ship detached ahead."
+  page: 7
+  flags: "Year typed as 1943; Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "0152"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Range had closed to 12,000 yds, could see nothing. Decided radar must have been tracking an ionized cloud. Decided we had overrun convoy. Changed course to 235 T."
+  page: 8
+  flags: "Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "0257"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Sighted convoy on port bow rapidly emerging from haze in bright moonlight. Slowed down and started to reverse course to track."
+  page: 8
+  flags: "Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "0258"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "counterattack"
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Escort started shooting 20 MM tracers and headed for us. Our radar still failed to function."
+  page: 8
+  flags: "Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "0300"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Went ahead full speed, 18 knots."
+  page: 8
+  flags: "Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "0303"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Submerged deep as closing PC boat too small for down-the-throat shot; escort searched and echo-ranged unsuccessfully for half hour; returned to periscope depth."
+  page: 8
+  flags: "Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "0330"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "At periscope depth. Could see nothing, but ⟦further into squall⟧."
+  page: 8
+  flags: "End of entry faint; Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "⟦0527⟧"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surfaced, all clear, started searching for convoy."
+  page: 8
+  flags: "Time overstruck/faint, reads ⟦0527⟧; Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "0650"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "⟦Visibility improving⟧ during morning twilight, sighted masts of convoy bearing 153 T. Opened out at full speed to avoid being sighted and started end run."
+  page: 8
+  flags: "First words faint; Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "1100"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "In position ahead of convoy. Sent a contact report out blind on 2880 kcs, weather now squally and occasionally lost contact with convoy while one of us was in a rain squall."
+  page: 8
+  flags: "Frequency reads 2880 ⟦kcs⟧; Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "1225"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Submerged for approach with convoy bearing 289 T; decided to attempt attack despite doubtful daylight conditions, hoping rain squalls would mask approach."
+  page: 8
+  flags: "Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "1300"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Weather now bright and sunny, sea calm with slight swell."
+  page: 8
+  flags: "Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "1315"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Headed for convoy; formation reduced to two columns and four ships; selected leading left-column tanker and worked toward port bow; escort ahead."
+  page: 8
+  flags: "Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "1350"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Convoy zigged left placing boat on target starboard bow with escort heading directly at submarine; avoided periscope exposure using sound bearings."
+  page: 8
+  flags: "Portions faded/smudged; Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "1405"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Convoy zigged to right. Now 30° on port bow of tanker. Escort shifted to hand keying and may suspect our presence."
+  page: 8
+  flags: "Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "1408"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Escorts screws speeded up. Took a quick look at him and he was charging in with his attack flag flying. Started deep."
+  page: 8
+  flags: "Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "1410-30"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "counterattack"
+  title: ""
+  part: "I"
+  charges: "6"
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Escort dropped a pattern of six depth charges plus his galley range. All sounded as if they were set shallow and would have been uncomfortably close if we had been at periscope depth. Commenced evasive tactics and running sound echo ⟦---⟧ for escorts. Fortunately had a density layer of about ⟦---⟧ at 270 ft. Evaded at 2/3 speed to get away from spot as the little rascals seemed unusually persistent today and are showing improvement from the training we have given them."
+  page: 9
+  flags: "Density layer text faint; Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "1552"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Could no longer hear escorts screws. Could hear echo ranging, but they had apparently lost us. Started up to periscope depth."
+  page: 9
+  flags: "Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "1605"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "⟦At⟧ periscope depth. In a heavy rain squall, visibility about 500 yards. If we had been in this squall during the attack might have had better luck."
+  page: 9
+  flags: "First word faint; Zone L applied from heading"
+- date: "October 19, 1943"
+  time: "1715"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Weather cleared, surfaced full speed along convoy bearing in dark squally night; ideal for night radar attack but radar remained out of commission."
+  page: 9
+  flags: "Zone L applied from heading"
+- date: "October 20, 1943"
+  time: 
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Chased convoy through squally weather with unconfirmed sightings; proceeded to estimated dawn position to intercept."
+  page: 9
+  flags: "Zone L applied from heading"
+- date: "October 20, 1943"
+  time: "0617"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Submerged, estimating we were about 20 miles ahead of ⟦convoy⟧. Position doubtful as we had not had a fix due to squally weather since previous morning."
+  page: 9
+  flags: "End of first sentence faint; Zone L applied from heading"
+- date: "October 20, 1943"
+  time: "0637"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Sighted convoy smoke bearing 060 T drawing away; abandoned surfacing to chase due to float plane patrols near Manus Island."
+  page: 9
+  flags: "Island name typed as ⟦MANUS⟧ ISLAND; Zone L applied from heading"
+- date: "October 20, 1943"
+  time: "0640"
+  zone: "L"
+  lat: 
+  lon: 
+  from: "MANUS ISLAND"
+  bearing: "206 T"
+  distance: 
+  bearing_is: "to_landmark"
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Sighted MANUS ISLAND bearing 206 T."
+  page: 9
+  flags: "Island name typed as ⟦MANUS⟧ ISLAND; Zone L applied from heading"
+- date: "October 20, 1943"
+  time: "0758"
+  zone: "L"
+  lat: "1-51 S"
+  lon: "148-25 E"
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Sighted float type seaplane (DAVE) bearing 090, distance eight miles, apparently patrolling. AIRCRAFT CONTACT ⟦9⟧. Lat 1-51 S Long. 148-25 E."
+  page: 9
+  flags: "Contact number faint, reads 9; Zone L applied from heading"
+- date: "October 20, 1943"
+  time: "1945"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Surfaced; set course northwest of Manus Island for surface patrol on Palau-Rabaul shipping lane; trimmed #3 FBT as normal ballast gaining 1 kt speed."
+  page: 9
+  flags: "Island name typed as ⟦MANUS⟧ ISLAND; lane typed as PELEW-RABAUL; Zone L applied from heading"
+- date: "October 21, 1943"
+  time: "0629"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Dove to flush out #3 fuel ballast tank."
+  page: 9
+  flags: "Zone L applied from heading"
+- date: "October 21, 1943"
+  time: "0707"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surfaced, during day conducted surface patrol on ⟦RABAUL⟧ PELEW shipping lane."
+  page: 9
+  flags: "First port name faint; Zone L applied from heading"
+- date: "October 21, 1943"
+  time: "1716"
+  zone: "L"
+  lat: "0-04 S"
+  lon: "147-24 E"
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Dove on radar indication running in from 14 to 4 miles. Could not see plane, sky overcast with low clouds. AIRCRAFT CONTACT 10 Lat. 0-04 S Long. 147-24 E."
+  page: 10
+  flags: "Zone L applied from heading"
+- date: "October 21, 1943"
+  time: "1922"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surfaced."
+  page: 10
+  flags: "Zone L applied from heading"
+- date: "October 22, 1943"
+  time: "0554"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Sighted possible ships in morning twilight bearing 075 T. Dove to investigate."
+  page: 10
+  flags: "Zone L applied from heading"
+- date: "October 22, 1943"
+  time: "⟦0645⟧"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surfaced, contact was false and had been dark cloud on horizon. During day conducted high speed retiring search curve on ⟦RABAUL⟧ ⟦PELEW⟧ shipping ⟦lane⟧."
+  page: 10
+  flags: "Time illegible/blank, estimated ⟦0645⟧; route text faint; Zone L applied from heading"
+- date: "October 22, 1943"
+  time: "1530"
+  zone: "L"
+  lat: "0-09 S"
+  lon: "147-14 E"
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: "BALAO"
+  course: 
+  speed: 
+  event: "Sighted submarine on surface bearing 057 T. Lat 0-09 S Long. 147-14 E. Probably BALAO attempted to raise him on Mike Megat, but had no success. At 1535 submerged to close him."
+  page: 10
+  flags: "Submarine name faint, reads BALAO; Zone L applied from heading"
+- date: "October 22, 1943"
+  time: "1558"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: "BALAO"
+  course: 
+  speed: 
+  event: "Surfaced having identified him as BALAO. Resumed search at full speed on four engines. Closed BALAO and exchanged information. He had no contact. Agreed to continue present retiring search, staying about 10 miles apart to increase effectiveness of search."
+  page: 10
+  flags: "Zone L applied from heading"
+- date: "October 22, 1943"
+  time: "1720"
+  zone: "L"
+  lat: "0-07 S"
+  lon: "147-27 E"
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Sighted large plane, bearing 151 T, distance 8 miles. Unidentified as to type but probably a \"MAVIS\" AIRCRAFT CONTACT 11. Lat 0-07 S Long 147-27 E. Submerged to avoid detection."
+  page: 10
+  flags: "Zone L applied from heading"
+- date: "October 22, 1943"
+  time: "1800"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surfaced and resumed search at full speed. BALAO also forced down by plane so surfaced shortly after."
+  page: 10
+  flags: "Zone L applied from heading"
+- date: "October 22, 1943"
+  time: "1850"
+  zone: "L"
+  lat: "0-10 S"
+  lon: "147-30 E"
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Sighted smoke 199 T; tracked convoy on Rabaul-Palau course (SHIP CONTACT 3, Lat 0-10 S, Long 147-30 E); 7-8 ships, 2 escorts; arranged midnight coordinated attack with Balao."
+  page: 10
+  flags: "Zone L applied from heading"
+- date: "October 22, 1943"
+  time: "2347"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Went to stations, flooded down to decks awash and started in on attack, slightly on starboard ⟦bow of⟧ target, bearing 155 T. Night clear and dark, sea calm."
+  page: 10
+  flags: "Zone L applied from heading"
+- date: "October 23, 1943"
+  time: 
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Conducting night surface approach on convoy."
+  page: 10
+  flags: "Year typed as 1943; Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0012"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Made radar contact bearing 108 T, range 8950 yds. Sound reported could hear BALAO's torpedoes running."
+  page: 10
+  flags: "Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0016-30"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Heard explosion, probably BALAO torpedo."
+  page: 10
+  flags: "Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0017-00"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Heard explosion, probably BALAO torpedo."
+  page: 11
+  flags: "Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0019-30"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "⟦Heard explosion, probably BALAO torpedo.⟧"
+  page: 11
+  flags: "Time entry text faded/blank on line; Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0020-30 & 35"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Heard explosion, either torpedo or depth charge."
+  page: 11
+  flags: "Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0021"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Range now 5775 yards, bearing 197 T."
+  page: 11
+  flags: "Word now typed as ⟦now⟧; Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0025"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "counterattack"
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "⟦Had⟧ been detected by one of the escorts who was heading our way and one of the ships in the convoy was firing his deck gun at us. Submerged to 42' to continue attack."
+  page: 11
+  flags: "First word faint, reads ⟦Had⟧; Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0027"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Started deep as escort was coming in fast on steady bearing of 358 relative, pinging on short scale. Could see a dark shape in ⟦direction⟧ through periscope but it was so dark visibility was very limited."
+  page: 11
+  flags: "Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0032"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Escort passed us an estimated 700 yds, echoing, apparently did not ⟦have⟧ contact."
+  page: 11
+  flags: "Last words faint; Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0115"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Back up to periscope depth, could hear pinging and screws, but could see nothing through periscope."
+  page: 11
+  flags: "Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0135"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Screws faded out, could only hear pinging. Surfaced. Commenced closing convoy."
+  page: 11
+  flags: "Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0509"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "⟦Sighted⟧ convoy bearing 189 T. It was now moonlight and could not close to within radar range without good chance of being sighted."
+  page: 11
+  flags: "First word faint, reads ⟦Sighted⟧; Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0547"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Submerged for moonlight periscope approach, bearing 158 T, on course 145 T. Target was difficult to see through periscope and range was underestimated. ATTACK 2."
+  page: 11
+  flags: "Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0600"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Came to course 040 for stern tube shot, which appeared to be a good setup ⟦---⟧ indicated by ⟦---⟧."
+  page: 11
+  flags: "Last phrase faint/illegible; Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0623-00"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "attack"
+  title: "Attack #2 on convoy"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "0623-00 Fired #7 tube.\n0623-08 #8 tube.\n0623-15 #9 tube, and heard premature.\n0623-31 #10 tube.\n0623-35 Explosion.\n0623-48 Explosion. Could not see explosion.\n0628-45 Explosion.\n0628-46 Explosion.\n⟦Range excessive on this attack, but 3 ships in line covering 1000 yds of convoy spread accurately and tract was favorable. Gyro train and course errors, gyros were close to 180. Should have held fire, but having missed earlier in the night went ahead and shot. Premature did not help chances of success.⟧"
+  page: 11
+  flags: "Attack notes faded/smudged; Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0629"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Went deep as escort would no doubt see premature ⟦and head over⟧ our way."
+  page: 11
+  flags: "Words faint before our way; Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0702"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Back up at periscope depth."
+  page: 11
+  flags: "Zone L applied from heading"
+- date: "October 23, 1943"
+  time: "0709"
+  zone: "L"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: ""
+  title: ""
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Sighted smoke and stack bearing 250 T."
+  page: 11
+  flags: "Zone L applied from heading"
+```
+
+Could not transcribe: faint/washed-out words and times on page 8 (0330, 0527, 0650, 1350 entries), page 9 (density layer details in 1410-30 entry, contact 9 details), page 10 (missing time before 0554/surfaced entry, route words in 1850 entry), and page 11 (event line for 0019-30, faint words in 0027, 0032, 0600, and analytical remarks following 0623 firing).

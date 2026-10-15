@@ -41,7 +41,7 @@ default_hemisphere: { lat: N, lon: E }
 departure: { port: , date: , time: , zone: , page: , flags: }
 arrival:   { port: , date: , time: , zone: , page: , flags: }
 events:          # every narrative entry provided
-  - date:        # e.g. 10MAY
+  - date:        # e.g. 10MAY. Fill it on every entry: the day heading the entry falls under, as typed
     time:        # e.g. 0805
     zone:        # zone letter only, e.g. L
     lat:         # verbatim, e.g. 33-13-30N

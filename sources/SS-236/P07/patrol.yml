@@ -1,0 +1,68 @@
+# USS Silversides (SS-236), War Patrol 7
+# Transcribed by Gemini, one PDF per fresh chat: gemini-01.yml (narrative,
+# pages 1-5), gemini-02.yml (pages 6-11), gemini-03.yml (pages 12-18),
+# contacts-01.md (Parts F and G, pages 20-21) and attacks-01.md (five
+# TORPEDO ATTACK DATA forms and gun attack 1, pages 25-31). Hand entries here
+# take precedence. An earlier pair of runs made in one long chat (a second,
+# garbled read of pages 7-11 and an unusable read of pages 12-18) was discarded.
+# The carbon is badly faded; open questions are in review.yml.
+# Moreton Bay to Pearl Harbor. In company with BALAO for much of the patrol
+# (not a task-group pack). Routing changed from Brisbane to Pearl Harbor on
+# 26 October; operational control passed from CTF 72 to CTF 17 on 31 October.
+
+boat: SS-236
+patrol: 7
+year: 1943
+report_found: yes
+report: "Report of Seventh War Patrol."
+comsubpac_report_no: "308"
+commanding_officer:
+# Time zone: the narrative is headed "All times 'Love' -11, unless specified
+# otherwise" (zone L) until the clock changes of 3-7 November (M, then Y after
+# crossing the date line, X, W). The contact tables print no zone letters
+# (Gemini flags every row); all their entries fall before 3 November, so L
+# is set for them. The keys match the section titles as Gemini read them.
+table_zones:
+  "CO⟦N⟧TA⟦C⟧TS": L
+  "NTAC⟦T⟧S": L
+  "AFT CONTACTS (CONT)": L
+# Positions with no N/S letter are read as south (gemini-01's default); the
+# patrol crosses the equator on about 17 October, so check any missing letter.
+default_hemisphere: { lat: S, lon: E }
+
+departure:
+  port: Brisbane
+  date: October 5, 1943
+  time: "0505"
+  zone: L
+  page: 1
+  flags: "Departed vicinity Caloundra Head, Moreton Bay, Australia."
+
+arrival:
+  port: Pearl Harbor
+  date: November 8, 1943
+  time: "0830"
+  zone: W
+  page: 18
+  flags: "Moored Submarine Base, Pearl Harbor, T.H."
+
+period:
+  start: 1943-10-05
+  end: 1943-11-08
+  source: "Patrol report"
+
+# Claims are on the attack forms (attacks 1, 3, 4, 5); credits not yet entered.
+tonnage: []
+
+# Readings from the scan that differ from Gemini's, keyed by entry number
+# (counted through contacts-01.md: ship contacts 1-3, aircraft contacts 4-17,
+# then the attack forms 18-23). The raw files stay as saved.
+row_fixes:
+  1:  { Remarks: "Possibly GROWLER or GATO, avoided." }
+  3:  { Remarks: "Attack # 2, 3, 4, and 5. Sank JOROR_ MARU, KAZAN MARU, one estimated 7,000 ton MARU, and damaged or sank another 5,000 ton MARU." }
+  7:  { Type: "LILLY", Remarks: "Two planes of same type" }
+  9:  { Type: "SALLY", Remarks: "submerged" }
+form_fixes:
+  - { attack: 1, old: "VI-14", new: "VI-1A" }
+  - { attack: 1, old: "TAIAN MARU", new: "TAI⟦_⟧IN MARU" }
+  - { attack: 3, old: "Hit     Hit     Miss    Hit     Hit     Hit", new: "Hit     Hit     Hit     Hit     Hit     Miss" }

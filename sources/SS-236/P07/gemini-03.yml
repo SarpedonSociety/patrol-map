@@ -1,0 +1,1614 @@
+YAML
+
+```
+boat:
+patrol: 7
+year: 1943
+report:
+comsubpac_report_no:
+commanding_officer:
+citation:
+  archive: "NARA"
+  record_group: "38"
+  nara_catalog_id: "4697018"
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - са. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946"
+  reel: "A704"
+  micro_serial: "60372"
+  file: "A16-3"
+  serial: "01672"
+  date: "11/13/1943"
+fold3_images:
+  12: 270629793
+  13: 270629799
+  14: 270629803
+  15: 270629808
+  16: 270629814
+  17: 270629819
+  18: 270629826
+default_hemisphere: { lat: N, lon: E }
+departure: { port: , date: , time: , zone: , page: , flags: }
+arrival: { port: "Pearl Harbor", date: "November 8, 1943", time: "0830", zone: "W", page: "18", flags: "Year inferred from patrol dates; time recorded as 0830 W." }
+events:
+- date:
+  time: "0822"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Surfaced and tracked convoy smoke throughout the day, conducting an end run around the starboard side for a night attack in unfavorable day attack weather."
+  page: "12"
+  flags: "Missing date; continued from prior page."
+- date:
+  time: "1225"
+  zone:
+  lat: "1-42 N"
+  lon: "146-34 E"
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Sighted unidentified airplane bearing 340 T, 10 miles, and dived to avoid detection (AIRCRAFT CONTACT 12) at Lat. 1-42 N Long 146-34 E."
+  page: "12"
+  flags: "Missing date."
+- date:
+  time: "1253"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Started to surface, but had steady indication of another radar on SD. Remained submerged."
+  page: "12"
+  flags: ""
+- date:
+  time: "1320"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Indication disappeared. Surfaced and resumed tracking convoy, smoke still in sight."
+  page: "12"
+  flags: ""
+- date:
+  time: "2035"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Contacted White Wombat, transmitting target bearing, course, speed, and plan for starboard track, but could not see her."
+  page: "12"
+  flags: "White Wombat may be a vessel callsign/code name."
+- date:
+  time: "2142"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Lost communication with ⟦White Wombat⟧."
+  page: "12"
+  flags: "Name faint/illegible after 'with'."
+- date:
+  time: "2151"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Made convoy contact bearing 174, range 8350 yards in darkening night, and began radar tracking and plan analysis."
+  page: "12"
+  flags: ""
+- date:
+  time: "2311"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Went to battle stations as convoy bore 122, range 9250 yards; flooded down and began approach in calm sea with no moon."
+  page: "12"
+  flags: ""
+- date: "October 24, 1943."
+  time: "00-43-02"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Night attack on convoy"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Conducting approach on convoy, when it appeared that we could get in no closer without starboard escort spotting us, ⟦fired three tubes⟧ at leading ship in starboard column which appeared to be largest ship in formation and three at a medium ⟦AK⟧ astern of it. Times of firing were as follows:\n00-43-02 Fired 1\n00-43-16 \" 2\n00-43-26 \" 3\n00-43-50 \" 4\n00-44-00 \" 5\n00-44-09 \" 6\n(Note: TDC had been checking on with TBT bearings and radar ranges and in addition target speed was accurately known. In shifting to second target, radar shifted to escort by mistake and this range was introduced into TDC between fourth and fifth shots. It is believed that this caused us to get one or two hits into an engine aft on far column, as the two hits we aimed at had stacks amidships and later we were to find a crippled engine aft.)"
+  page: "12"
+  flags: "Portions faint or typed over."
+- date:
+  time: "0045"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dove and started deep as it appeared we would be sighted any minute and being flooded down makes turning and running for it unhandy."
+  page: "12"
+  flags: ""
+- date:
+  time: "00-45-26"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Heard explosion.\n00-45-41 \" \"\n00-45-47 \" \"\n00-46-09 \" \"\n00-48-15 \" \"\n00-49-25 \" \"\n00-49-43 \" \"\nOf the above explosions, only the fifth one sounded like a depth charge."
+  page: "13"
+  flags: ""
+- date:
+  time: "0058"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Heard ship breaking up through hull while escorts searched unsuccessfully due to density layer at 275 feet; evaded at 2/3 speed."
+  page: "13"
+  flags: ""
+- date:
+  time: "0245"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Surfaced after losing escort propeller noises while still hearing pinging, and tracked pinging through the night awaiting daylight."
+  page: "13"
+  flags: ""
+- date:
+  time: "0412"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Heard explosion, sounded like depth charge."
+  page: "13"
+  flags: ""
+- date:
+  time: "0414"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Heard explosion, sounded like depth charge. Escorts apparently still on the hunt."
+  page: "13"
+  flags: ""
+- date:
+  time: "0628"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dove to avoid being sighted in morning twilight, we were to east of convoy."
+  page: "13"
+  flags: ""
+- date:
+  time: "0644"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted escort and masts of several ships through periscope. Sea not rough enough for periscope approach, decided to wait until night for further attack."
+  page: "13"
+  flags: ""
+- date:
+  time: "0711"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "counterattack"
+  title:
+  part: "I"
+  charges: "one"
+  damage:
+  with:
+  course:
+  speed:
+  event: "Escort dropped one depth charge."
+  page: "13"
+  flags: ""
+- date:
+  time: "0815"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Periscope inadvertently breached; escort shifted to hand pinging and approached. Went deep; escort failed contact, returned to periscope depth at 0845."
+  page: "13"
+  flags: ""
+- date:
+  time: "0904"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Heard explosion, probably depth charge."
+  page: "13"
+  flags: ""
+- date:
+  time: "0905-20"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Heard explosion, probably depth charge."
+  page: "13"
+  flags: "Text represented by ditto marks under 'Heard explosion, probably depth charge.'"
+- date:
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Observed two stopped ships (one engine aft AK listing with bow blown off, one medium AK) while three others milled; five ships total seen."
+  page: "13"
+  flags: "Entry begins 'During morning closed convoy...'"
+- date:
+  time: "1400"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course: "280 T"
+  speed:
+  event: "[SUMMARY] About 1400 convoy (3 ships, 2 escorts) drew away on course 280 T; closed on listing, immobilized cripple, and noted other dead ship on fire."
+  page: "13"
+  flags: "Starts 'About 1400 convoy...'"
+- date:
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Could see no sign of life on first ship which was an engine aft AK and from life ring later picked up was KAZAN MARU. Went to battle stations surface and at"
+  page: "14"
+  flags: "Leads directly into 1532 entry."
+- date:
+  time: "1532"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced about 1500 ⟦yds⟧ from KAZAN MARU. It had its ⟦bow⟧ blown off and there was no sign of any life on board. It seemed to be slowly sinking so went to investigate burning ship which was about two miles distant."
+  page: "14"
+  flags: ""
+- date:
+  time: "1540"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "notable"
+  title: "Recovered 20mm gun and instruments"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "⟦KAZAN MARU⟧ sank, stern first. By now could see burning ship was abandoned, so reversed course to investigate debris of ⟦KAZAN⟧ MARU. Fortunately the top of the pilot house floated and on this was mounted a 20mm machine gun. After much work, succeeded in getting it on board, intact with mount, which was very heavy. Also picked up a packing case that was found to contain ⟦several⟧ beautiful new scientific instruments which appeared to ⟦be⟧ ⟦sextants⟧, meteorological instruments. Retrieved what appears to be a coast pilot. Looked for charts but could find none. Picked up the life ring and several other souvenirs."
+  page: "14"
+  flags: "Portions faded/overstruck."
+- date:
+  time: "1646"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Closed burning passenger freighter resembling JOHORE or GUY MARU with large 'W' on stack, holed amidships and burning furiously but not sinking."
+  page: "14"
+  flags: ""
+- date:
+  time: "1720"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "gun"
+  title: "Gun attack on damaged freighter"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Opened fire with deck gun, initial range 1500 yds, then closed to 500 yds. Fired ⟦--⟧ rounds which appeared to have little effect as far as sinking was concerned. Opened fire with 20mm. Most of these glanced off the hull, but apparently one of them set the forward magazine on fire as shortly after that it started to explode. It still did not appear to be sinking, and wanted to start closing remainder of convoy so decided to finish the job with a torpedo. GUN ATTACK #1"
+  page: "14"
+  flags: "Number of rounds fired blank or obscured."
+- date:
+  time: "1849-15"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Torpedo attack on burning ship"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Fired one torpedo ⟦from stern nest⟧, 180 gyro angle, range 1050 yards, 110 starboard track. ⟦Tor⟧ 4."
+  page: "14"
+  flags: ""
+- date:
+  time: "1849-45"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Torpedo hit amidships; hull broke and vessel settled rapidly while crew watched from topside."
+  page: "14"
+  flags: "Portions faded/rubbed."
+- date:
+  time: "1914"
+  zone:
+  lat: "2-05 N"
+  lon: "146-39 E"
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "⟦Ship⟧ broke in two and sank rapidly. Lat. 2-05 N Long. 146-39 E. Cruised around through debris looking for something to identify ship, but apparently the fire had destroyed most of the gear that usually floats."
+  page: "14"
+  flags: ""
+- date:
+  time: "1932"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Went ahead full speed closing remainder of convoy."
+  page: "15"
+  flags: ""
+- date:
+  time: "2045"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Transmitted SILVERSIDES #2 to CTF 72 giving results of patrol to date. The weather during the night was dark and squally. Slowed down about once an hour to listen for echo ranging."
+  page: "15"
+  flags: ""
+- date: "October 25, 1943."
+  time: "0937"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Sighted convoy smoke bearing 027 T, ~20 miles, tracking course 285 T while zig-zagging; planned bow and stern tube attacks for the night."
+  page: "15"
+  flags: ""
+- date: "October 26, 1943."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Tracking convoy, awaiting favorable light conditions for night surface attack."
+  page: "15"
+  flags: ""
+- date:
+  time: "0019"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Went to battle stations and started approach, weather too rough to flood down, sky about 50% overcast, no moon. Convoy bearing 095, range 7400, coming in for starboard track."
+  page: "15"
+  flags: ""
+- date:
+  time: "0030"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Found leading escort to be on starboard bow, maneuvered for a port track."
+  page: "15"
+  flags: ""
+- date:
+  time: "0109"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Night surface attack on convoy"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Trailing escort was not as far astern as he should have been. He was on port quarter, range 2400 yds, angle on bow zero and we were broadside to him. We were not yet in ideal shooting position but decided it was just a question of time before he spotted us so went ahead and shot. Fired all four of the bow tubes at leading ship instead of splitting between first and second ship to give a better spread.\n01-10-12 Fired 1 Tube.\n01-10-20 \" 2 tube.\n01-10-30 \" 3 tube.\n01-10-40 \" 4 tube.\nThen swung with right full rudder to swing the stern toward and steady on the last ship.\n01-13-00 Fired 7 tube.\n01-13-12 Fired ⟦8⟧ tube.\nWent ahead full and started clearing out. Escort spotted us about this time and headed our way.\nExplosions as follows:\n01-15-07 Heavy explosion\n01-15-08 \" \"\n01-15-43 \" \"\n01-15-47 \" \"\n01-16-28 \" \"\n01-18-30 \" \""
+  page: "15"
+  flags: ""
+- date:
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Saw bright flash and smoke from last ship; radar tracked a target bearing 350 T to 6300 yards dead in water and sinking before losing contact."
+  page: "16"
+  flags: "Entry continued onto page 16 without new timestamp."
+- date:
+  time: "0129"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Slowed to listen after losing sight of escort, but radar showed him closing at 3400 yards; accelerated to 17.8 knots in rough seas."
+  page: "16"
+  flags: ""
+- date:
+  time: "0210"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Shook escort and slowed to 5 knots to listen, securing from battle stations with one torpedo left; remained in area to search at daylight."
+  page: "16"
+  flags: ""
+- date:
+  time: "0400"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted what appears to be a small searchlight in direction of scene of attack."
+  page: "16"
+  flags: ""
+- date:
+  time: "0745"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course: "090 T"
+  speed:
+  event: "Set course 090 T to return to assigned area, having investigated vicinity of attack for possible cripple."
+  page: "16"
+  flags: ""
+- date:
+  time: "1145"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Sent SILVERSIDES #3 to CTF 72 reporting attack results and convoy diversion toward TRUK; received orders to return to PEARL HARBOR instead of BRISBANE."
+  page: "16"
+  flags: ""
+- date: "October 27, 1943."
+  time: "0649"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dove to flush out fuel ballast tank which had been rigged as normal ballast tank during previous night."
+  page: "16"
+  flags: ""
+- date:
+  time: "0722"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: "16"
+  flags: ""
+- date: "October 28, 1943."
+  time: "0645"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Made trim dive."
+  page: "16"
+  flags: ""
+- date:
+  time: "0705"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: "16"
+  flags: ""
+- date:
+  time: "1325"
+  zone:
+  lat: "1-04 N"
+  lon: "152-04 E"
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dove on radar ⟦indication⟧ ⟦--⟧ miles, weather cloudy, plane not ⟦seen⟧. AIRCRAFT CONTACT 13 Lat. 1-04 N Long 152-04 E."
+  page: "16"
+  flags: "Text faint/overstruck."
+- date:
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced"
+  page: "16"
+  flags: "Missing time."
+- date:
+  time: "1430"
+  zone:
+  lat: "1-04 N"
+  lon: "152-04 E"
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Dove upon sighting four engine patrol plane (EMILY) bearing 322, 5 miles, heading toward boat (AIRCRAFT CONTACT 14, Lat. 1-04 N Long 152-04 E); remained submerged."
+  page: "17"
+  flags: ""
+- date:
+  time: "1902"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: "17"
+  flags: ""
+- date: "October 29, 1943"
+  time: "1310"
+  zone:
+  lat: "0-08 N"
+  lon: "155-23 E"
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dove on radar indication of ⟦12⟧ miles, weather overcast, did not see plane. AIRCRAFT CONTACT 15 Lat. 0-08 N Long. 155-23 E."
+  page: "17"
+  flags: ""
+- date:
+  time: "1340"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Started to surface, but SD indicated presence of another radar, remained submerged."
+  page: "17"
+  flags: ""
+- date:
+  time: "1526"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: "17"
+  flags: ""
+- date:
+  time: "2000"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sent SILVERSIDES serial 4 to CTF 72 giving estimated time of arrival at 0 Lat. 160-00E."
+  page: "17"
+  flags: "Destination coordinates in event text."
+- date: "October 30, 1943."
+  time: "0959"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "SD indicated another radar."
+  page: "17"
+  flags: ""
+- date:
+  time: "1006"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Radar indication 12 miles, could not see plane."
+  page: "17"
+  flags: ""
+- date:
+  time: "1009"
+  zone:
+  lat: "0-37 N"
+  lon: "158-28 E"
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted plane, radar range ⟦10⟧ miles. Dove. Plane bore 295 T, appears to be B-24 on northeasterly course. AIRCRAFT CONTACT 16. Lat. 0-37 N Long. 158-28 E."
+  page: "17"
+  flags: ""
+- date:
+  time: "1052"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: "17"
+  flags: ""
+- date:
+  time: "1110"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted plane low on horizon, bearing 125 T, distance about 20 miles, apparently same plane. His range was opening and in a few minutes disappeared over horizon."
+  page: "17"
+  flags: ""
+- date: "October 31, 1943."
+  time: "1100"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Operational control passed CTF 72 to CTF 17. Task Unit designation now 17.8.9. Commenced copying ⟦NPM⟧ Schedule. During morning had indication of another radar, but no plane was sighted."
+  page: "17"
+  flags: ""
+- date: "November 1, 1943."
+  time: "0535"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Made trim dive."
+  page: "17"
+  flags: ""
+- date:
+  time: "0604"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: "17"
+  flags: ""
+- date: "⟦November⟧ 2, 1943"
+  time: "1255"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "⟦Slowed to one engine speed due to heavy head seas.⟧"
+  page: "17"
+  flags: "Text faint."
+- date:
+  time: "1435"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "⟦Sea moderated, resumed two engine speed.⟧"
+  page: "17"
+  flags: "Text faint."
+- date: "November 3, 1943."
+  time: "0000"
+  zone: "L"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Set clocks ahead one hour to -11(MIKE) time zone."
+  page: "17"
+  flags: "Entered as 0000 L.; typed as -12(MIKE) with -12 struck through or overstruck by -11."
+- date: "November 3, 1943"
+  time: "⟦0604⟧"
+  zone: "M"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "18"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Made trim dive."
+  page: "18"
+  flags: "Page header has ENCLOSURE (A) CONFIDENTIAL; page number 18 typed at bottom; time partly faint."
+- date:
+  time: "⟦0719⟧"
+  zone: "M"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: "18"
+  flags: "Time faint."
+- date: "November 4, 1943."
+  time: "1500"
+  zone: "M"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Started battery discharge."
+  page: "18"
+  flags: ""
+- date:
+  time: "1700"
+  zone: "M"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Crossed 180th Meridian, at 1700 (M), November 3, 1943."
+  page: "18"
+  flags: ""
+- date: "November 5, 1943."
+  time: "1301"
+  zone: "M"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Completed battery discharge. (Note: \"... does not cover the case wherein a battery discharge is started one day and completed the preceding day)."
+  page: "18"
+  flags: ""
+- date:
+  time: "2215"
+  zone: "Y"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Transmitted 1630 ⟦Y⟧ position to ComSubPac."
+  page: "18"
+  flags: ""
+- date: "November 6, 1943."
+  time: "0200"
+  zone: "X"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Set clocks ahead one hour to ⟦-11⟧ (Xray) time zone."
+  page: "18"
+  flags: ""
+- date:
+  time: "0514"
+  zone: "X"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Made trim dive."
+  page: "18"
+  flags: ""
+- date:
+  time: "⟦0605⟧"
+  zone: "X"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: "18"
+  flags: "Time faint."
+- date: "November ⟦7⟧, 1943"
+  time: "2000"
+  zone: "X"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Set clocks ahead one hour to ⟦+10⟧ (William) ⟦time⟧ zone."
+  page: "18"
+  flags: ""
+- date: "November 8, 1943."
+  time: "0515"
+  zone: "W"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Exchanged signals with escort PC ⟦459⟧ and proceeded in company."
+  page: "18"
+  flags: "Escort number partially faint."
+- date:
+  time: "0830"
+  zone: "W"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Moored Submarine Base, Pearl Harbor, T.H."
+  page: "18"
+  flags: ""
+```
+
+Could not transcribe: hull number and patrol report title (not present on the provided pages), vessel name after "Lost communication with" at 2142 on page 12, number of deck gun rounds fired at 1720 on page 14, range digit at 1325 on page 16, and several faint/overstruck words across pages 12, 14, 17, and 18.

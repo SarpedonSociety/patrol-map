@@ -310,7 +310,7 @@ def find_landmark(landmarks, name):
 
 def parse_date(date_str, year, first_month):
     """'10MAY' (year from patrol.yml) or '10/4/43' (M/D/YY) -> (y, m, d)."""
-    d = plain(date_str or "").upper().replace(",", " ").replace(".", " ").strip()
+    d = unbracket(plain(date_str or "")).upper().replace(",", " ").replace(".", " ").strip()
     d = re.sub(r"^(\d{1,2})\s*-\s*\d{1,2}\b(?!\s*-)", r"\1", d)   # "28-31 December" -> first day (not "5-27-43")
     d = re.sub(r"\s+", " ", d)
     words = re.fullmatch(r"([A-Z]{3})[A-Z]*\.?\s+(\d{1,2})(?:\s+(\d{4}))?|(\d{1,2})\s+([A-Z]{3})[A-Z]*\.?(?:\s+(\d{4}))?", d)
@@ -347,6 +347,9 @@ def to_utc(date_str, time_str, zone, year, first_month):
     if not ymd:
         return None
     digits = re.sub(r"\D", "", time_str.split("-")[0]) if time_str else ""
+    hms = re.fullmatch(r"\s*(\d{1,2})-(\d{2})(?:-\d{2})?\s*", str(time_str or ""))
+    if hms:   # "00-43-02" (hours-minutes-seconds), not "0537-13" (time, then seconds)
+        digits = hms.group(1).zfill(2) + hms.group(2)
     if time_str and len(digits) < 3:
         digits = ""
     digits = digits.zfill(4)[:4] if digits else ""
@@ -596,9 +599,19 @@ def build_patrol(folder, ref):
         if block.get("zone") and str(block["zone"]).upper() in zone_fix:
             block["zone"] = zone_fix[str(block["zone"]).upper()]
     last_event_zone = None
+    last_event_date = None
     for i, ev in enumerate(meta.get("events") or [], start=1):
         flags = [ev["flags"]] if ev.get("flags") else []
         ev = dict(ev)
+        # A report types the date once, as a day heading; entries under it carry none.
+        # Gemini sometimes repeats it on each entry and sometimes doesn't, so an
+        # entry with no date takes the previous entry's date (batches run in order).
+        if not str(ev.get("date") or "").strip():
+            if last_event_date:
+                ev["date"] = last_event_date
+                flags.append(f"No date on this entry; {last_event_date} assumed from the previous entry.")
+        else:
+            last_event_date = ev["date"]
         if not ev.get("zone"):
             if not ev.get("time") and ev.get("date"):
                 flags.append("No time given; placed at noon GMT on that date.")
@@ -630,7 +643,7 @@ def build_patrol(folder, ref):
             # on the reciprocal. Numeric bearings are usually the second kind.
             bearing_is = str(ev.get("bearing_is") or "").lower()
             numeric = brg is not None and re.fullmatch(r"\s*\d{1,3}(\.\d+)?\s*°?\s*T?\s*", str(ev.get("bearing")), re.I)
-            if bearing_is == "to_landmark":
+            if bearing_is == "to_landmark" and brg is not None:
                 brg = (brg + 180) % 360
             elif not bearing_is and numeric:
                 flags.append(f"Read as 'bearing {ev.get('bearing')} from {name}'. If the report means {name} bore "
