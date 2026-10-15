@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Range &amp; Bearing Plotter</title>
+<!-- Converts patrol-report positions given as range and bearing from a landmark into latitude/longitude.
+     Landmarks come from sources/reference.yml (the same list tools/convert.py uses). -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a chart table — patrol-report entries on the left, the plotting sheet on the right, the landmark gazetteer below */
+:root {
+  --paper: #eef2f3;
+  --sheet: #f8fafa;
+  --ink: #18262e;
+  --muted: #56666e;
+  --rule: #c7d3d8;
+  --sea: #dbe8ed;
+  --land: #e7d9b4;
+  --accent: #9b2760;
+  --on-accent: #ffffff;
+  --ok: #2c7349;
+  --warn: #9a5f0c;
+  --bad: #a8382c;
+  --f-display: 'Barlow Condensed', 'Arial Narrow', 'Roboto Condensed', sans-serif;
+  --f-body: 'Barlow', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --f-mono: 'IBM Plex Mono', ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0e171b; --sheet: #13212a; --ink: #d4e0e4; --muted: #8d9ea5; --rule: #2a3b43;
+    --sea: #173039; --land: #574d33; --accent: #e47fae; --on-accent: #1a0f15;
+    --ok: #74c695; --warn: #e2a852; --bad: #ef8072; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0e171b; --sheet: #13212a; --ink: #d4e0e4; --muted: #8d9ea5; --rule: #2a3b43;
+  --sea: #173039; --land: #574d33; --accent: #e47fae; --on-accent: #1a0f15;
+  --ok: #74c695; --warn: #e2a852; --bad: #ef8072; color-scheme: dark;
+}
+[hidden] { display: none !important; }
+img { max-width: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 22px 40px; }
+.scale { height: 7px; border: 1px solid var(--ink); background: repeating-linear-gradient(90deg, var(--ink) 0 30px, var(--sheet) 30px 60px); }
+header { display: flex; flex-direction: column; gap: 6px; margin-top: 14px; }
+h1 { font-family: var(--f-display); font-weight: 600; font-size: 2.2rem; line-height: 1.05; letter-spacing: .03em; text-transform: uppercase; margin: 0; text-wrap: balance; }
+h2 { font-family: var(--f-display); font-weight: 600; font-size: 1.35rem; letter-spacing: .04em; text-transform: uppercase; margin: 0; text-wrap: balance; }
+.lede { max-width: 66ch; color: var(--muted); margin: 0; }
+.grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 18px; margin-top: 20px; align-items: start; }
+@media (max-width: 880px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+.panel { background: var(--sheet); border: 1px solid var(--rule); border-radius: 4px; padding: 16px; min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+.label { font-family: var(--f-display); font-weight: 600; text-transform: uppercase; letter-spacing: .09em; font-size: .8rem; color: var(--muted); }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.spread { justify-content: space-between; }
+textarea, input, select { font: inherit; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 3px; }
+textarea { width: 100%; box-sizing: border-box; min-height: 160px; font-family: var(--f-mono); font-size: 13px; line-height: 1.55; padding: 10px; resize: vertical; }
+input, select { padding: 6px 8px; min-width: 0; }
+textarea:focus-visible, input:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.hint { font-size: .85rem; color: var(--muted); margin: 0; max-width: 66ch; }
+code, .mono { font-family: var(--f-mono); font-size: .88em; }
+.btn { font-family: var(--f-display); font-weight: 600; font-size: .9rem; text-transform: uppercase; letter-spacing: .07em; background: transparent; color: var(--ink); border: 1px solid var(--ink); border-radius: 3px; padding: 5px 12px; cursor: pointer; }
+.btn:hover { background: var(--paper); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.btn.primary:hover { filter: brightness(1.08); }
+.btn.small { font-size: .8rem; padding: 3px 9px; }
+.results { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.result { width: 100%; text-align: left; display: grid; grid-template-columns: 4px minmax(0, 1fr); gap: 10px; background: var(--paper); border: 1px solid var(--rule); border-radius: 3px; padding: 8px 10px 8px 0; cursor: pointer; color: var(--ink); font: inherit; }
+.result[aria-current="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.stripe { border-radius: 0 2px 2px 0; background: var(--rule); }
+.st-ok .stripe { background: var(--ok); } .st-assumed .stripe { background: var(--warn); } .st-attn .stripe { background: var(--bad); }
+.result .src { font-family: var(--f-mono); font-size: 12.5px; overflow-wrap: anywhere; }
+.result .sum { font-size: .85rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; }
+.chip { font-family: var(--f-display); font-weight: 600; text-transform: uppercase; letter-spacing: .07em; font-size: .72rem; padding: 1px 7px; border-radius: 2px; border: 1px solid currentColor; }
+.chip.ok { color: var(--ok); } .chip.assumed { color: var(--warn); } .chip.attn { color: var(--bad); } .chip.seed { color: var(--muted); } .chip.mine { color: var(--accent); }
+.empty { color: var(--muted); font-size: .9rem; padding: 10px 0; }
+.coords { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 6px 12px; align-items: center; }
+.coords .v { font-family: var(--f-mono); font-size: 1.05rem; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.reading { font-size: 1rem; margin: 0; }
+.reading strong { font-weight: 600; }
+.plotbox { background: var(--sea); border: 1px solid var(--rule); border-radius: 3px; display: flex; justify-content: center; }
+.plotbox svg { width: 100%; max-width: 420px; height: auto; display: block; }
+svg .ring { fill: none; stroke: var(--ink); stroke-opacity: .35; stroke-dasharray: 3 4; }
+svg .rose { fill: none; stroke: var(--ink); stroke-opacity: .5; }
+svg .tick { stroke: var(--ink); stroke-opacity: .5; }
+svg .t { fill: var(--ink); font-family: var(--f-mono); font-size: 10px; }
+svg .tm { fill: var(--muted); font-family: var(--f-mono); font-size: 9.5px; }
+svg .tn { fill: var(--ink); font-family: var(--f-display); font-weight: 600; font-size: 13px; }
+svg .lm { fill: var(--land); stroke: var(--ink); stroke-width: 1.2; }
+svg .lm2 { fill: var(--land); stroke: var(--ink); stroke-opacity: .6; }
+svg .leg { stroke: var(--accent); stroke-width: 2; fill: none; }
+svg .leg2 { stroke: var(--muted); stroke-width: 1.2; stroke-dasharray: 4 3; fill: none; }
+svg .pos { fill: var(--accent); stroke: var(--sheet); stroke-width: 1.5; }
+svg .pos2 { fill: var(--sea); stroke: var(--muted); stroke-width: 1.5; }
+svg .halo { fill: var(--sea); }
+.notes { margin: 0; padding-left: 18px; font-size: .88rem; color: var(--muted); display: flex; flex-direction: column; gap: 2px; }
+.notes .bad { color: var(--bad); }
+pre.yaml { margin: 0; background: var(--paper); border: 1px solid var(--rule); border-radius: 3px; padding: 10px; font-family: var(--f-mono); font-size: 12.5px; line-height: 1.5; overflow-x: auto; white-space: pre; }
+.alt { border-top: 1px dashed var(--rule); padding-top: 10px; display: flex; flex-direction: column; gap: 6px; }
+section.gaz { margin-top: 18px; }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+th { font-family: var(--f-display); font-weight: 600; text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; color: var(--muted); text-align: left; border-bottom: 1px solid var(--ink); padding: 6px 8px; white-space: nowrap; }
+td { border-bottom: 1px solid var(--rule); padding: 6px 8px; vertical-align: top; }
+td.num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.addform { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; align-items: end; }
+.addform label { display: flex; flex-direction: column; gap: 3px; font-size: .85rem; color: var(--muted); }
+.formmsg { font-size: .88rem; min-height: 1.3em; margin: 0; }
+.formmsg.err { color: var(--bad); } .formmsg.okm { color: var(--ok); }
+footer { margin-top: 22px; display: flex; flex-direction: column; gap: 6px; }
+.toast { position: fixed; right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); background: var(--ink); color: var(--sheet); font-family: var(--f-display); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; font-size: .85rem; padding: 7px 14px; border-radius: 3px; }
+@media (prefers-reduced-motion: no-preference) { .result { transition: border-color .12s; } }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <div class="scale" aria-hidden="true"></div>
+  <header>
+    <a class="hint" href="../">&larr; COMSUBPAC Patrol Plot</a>
+    <h1>Range &amp; Bearing Plotter</h1>
+    <p class="lede">Paste position entries from a patrol report, such as <span class="mono">40 miles, bearing 150T ASHIZURI SAKI</span>. Each line is matched to a landmark and converted to latitude and longitude. One entry per line; lines starting with <span class="mono">#</span> are skipped.</p>
+  </header>
+
+  <div class="grid">
+    <div class="panel">
+      <div class="row spread">
+        <label class="label" for="entries">Report entries</label>
+        <div class="row">
+          <button class="btn small" id="btn-clear" type="button">Clear</button>
+          <button class="btn small" id="btn-copyall" type="button">Copy all for patrol.yml</button>
+        </div>
+      </div>
+      <textarea id="entries" spellcheck="false" aria-describedby="entries-hint"></textarea>
+      <p class="hint" id="entries-hint">The degree sign is optional: <span class="mono">150T</span>, <span class="mono">150°T</span> and <span class="mono">150 T</span> all work. Distances in miles are read as nautical miles; yards are converted.</p>
+      <div class="label" id="results-label">Plotted entries</div>
+      <ul class="results" id="results" aria-labelledby="results-label"></ul>
+    </div>
+
+    <div class="panel" id="detail" aria-live="polite"></div>
+  </div>
+
+  <section class="panel gaz" aria-labelledby="gaz-h">
+    <div class="row spread">
+      <h2 id="gaz-h">Gazetteer</h2>
+      <button class="btn small" id="btn-copygaz" type="button">Copy your landmarks for reference.yml</button>
+    </div>
+    <p class="hint" id="gaz-source">Loading landmarks from <span class="mono">sources/reference.yml</span>&hellip;</p>
+    <p class="hint">This is the same landmark list <span class="mono">tools/convert.py</span> uses. Landmarks added here stay in this browser only and never change the repo; copy them into <span class="mono">landmarks:</span> in <span class="mono">sources/reference.yml</span> and commit to make them permanent. Adding a landmark with the same name as a repo one replaces it on this page.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Landmark</th><th>Kind</th><th>Latitude</th><th>Longitude</th><th>Also matches</th><th>Status</th><th></th></tr></thead>
+        <tbody id="gaz-body"></tbody>
+      </table>
+    </div>
+    <div class="label">Add a landmark</div>
+    <form class="addform" id="addform" novalidate>
+      <label for="lm-name">Name<input id="lm-name" placeholder="Kure Saki" autocomplete="off"></label>
+      <label for="lm-kind">Kind<select id="lm-kind"><option value="cape">Cape (saki / zaki / misaki)</option><option value="island">Island (shima / jima)</option><option value="other">Other</option></select></label>
+      <label for="lm-lat">Latitude<input id="lm-lat" placeholder="33°14.5'N or 33.2417" autocomplete="off"></label>
+      <label for="lm-lon">Longitude<input id="lm-lon" placeholder="134°10.6'E or 134.1767" autocomplete="off"></label>
+      <label for="lm-alias">Other spellings<input id="lm-alias" placeholder="comma separated" autocomplete="off"></label>
+      <label for="lm-note">Source<input id="lm-note" placeholder="H.O. chart no., light list…" autocomplete="off"></label>
+      <button class="btn primary" type="submit" id="btn-add">Add landmark</button>
+    </form>
+    <p class="formmsg" id="formmsg"></p>
+  </section>
+
+  <footer>
+    <div class="scale" aria-hidden="true"></div>
+    <p class="hint">Positions are computed on a sphere (R = 3,440 nautical miles); at ranges under 100 miles the error is far smaller than the precision of a report entry. Magnetic and relative bearings are flagged, not converted. Map links open OpenStreetMap in a new tab.</p>
+  </footer>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(function () {
+  'use strict';
+  var R_NM = 3440.065;
+  var YARDS_PER_NM = 2025.37;
+  var FALLBACK = [
+    { name: 'Ashizuri Saki', kind: 'cape', lat: 32.7217, lon: 133.0197, aliases: [] },
+    { name: 'Muroto Zaki', kind: 'cape', lat: 33.2450, lon: 134.1767, aliases: [] },
+    { name: 'Shiono Misaki', kind: 'cape', lat: 33.4340, lon: 135.7550, aliases: [] },
+    { name: 'Hino Misaki', kind: 'cape', lat: 33.8830, lon: 135.0580, aliases: [] },
+    { name: 'Daio Saki', kind: 'cape', lat: 34.2760, lon: 136.8990, aliases: [] },
+    { name: 'Omae Zaki', kind: 'cape', lat: 34.5950, lon: 138.2260, aliases: [] },
+    { name: 'Mikomoto Shima', kind: 'island', lat: 34.5720, lon: 138.9420, aliases: [] },
+    { name: 'Nojima Saki', kind: 'cape', lat: 34.9010, lon: 139.8880, aliases: [] },
+    { name: 'Inubo Saki', kind: 'cape', lat: 35.7080, lon: 140.8690, aliases: [] },
+    { name: 'Toi Misaki', kind: 'cape', lat: 31.3680, lon: 131.3430, aliases: [] },
+    { name: 'Sata Misaki', kind: 'cape', lat: 30.9940, lon: 130.6600, aliases: [] },
+    { name: 'Garanbi', kind: 'other', lat: 21.9020, lon: 120.8530, aliases: ['Oluanpi', 'Eluanbi', 'South Cape'] }
+  ];
+  var SAMPLE = [
+    '# Trigger, 11th patrol, 7-8 January (narrative)',
+    'Submerged 40 miles, bearing 150T ASHIZURI SAKI; and set course to close MUROTO ZAKI.',
+    'Submerged 16 miles, bearing 160T from MUROTO ZAKI and patrolled western entrance to KOBE.',
+    '# Made-up example of the other phrasing: the cape bears 020T from the boat',
+    'SHIONO MISAKI bearing 020T, 25 miles.'
+  ].join('\n');
+  var LS_GAZ = 'rbp-gazetteer-v1', LS_DRAFT = 'rbp-draft-v1';
+
+  function lsGet(k) { try { return window.localStorage.getItem(k); } catch (e) { return null; } }
+  function lsSet(k, v) { try { window.localStorage.setItem(k, v); } catch (e) { } }
+
+  var repoLms = null, repoNote = '';
+  var userLms = [];
+  try { var raw = lsGet(LS_GAZ); if (raw) { var p = JSON.parse(raw); if (Array.isArray(p)) userLms = p; } } catch (e) { userLms = []; }
+  var overrides = {};
+  var selected = 0;
+  var results = [];
+
+  var $ = function (id) { return document.getElementById(id); };
+  function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function norm(s) { return String(s).toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim(); }
+
+  function gazetteer() {
+    var byKey = {};
+    var out = [];
+    (repoLms || FALLBACK).forEach(function (s) { var o = Object.assign({ seed: true }, s); byKey[norm(s.name)] = out.length; out.push(o); });
+    userLms.forEach(function (u) {
+      var o = Object.assign({ seed: false }, u); var k = norm(u.name);
+      if (k in byKey) out[byKey[k]] = o; else { byKey[k] = out.length; out.push(o); }
+    });
+    return out;
+  }
+
+  function rootOf(lm) {
+    var n = norm(lm.name);
+    if (lm.kind === 'cape') return n.replace(/^cape /, '').replace(/ ?(misaki|zaki|saki|cape)$/, '').trim();
+    if (lm.kind === 'island') return n.replace(/ ?(shima|jima|island)$/, '').trim();
+    return n;
+  }
+  function aliasesFor(lm) {
+    var set = {}; set[norm(lm.name)] = 1;
+    (lm.aliases || []).forEach(function (a) { var n = norm(a); if (n) set[n] = 1; });
+    var r = rootOf(lm);
+    if (r && lm.kind === 'cape') ['saki', 'zaki', 'misaki'].forEach(function (s) { set[r + ' ' + s] = 1; set[r + s] = 1; set['cape ' + r] = 1; });
+    if (r && lm.kind === 'island') ['shima', 'jima'].forEach(function (s) { set[r + ' ' + s] = 1; set[r + s] = 1; set[r + ' island'] = 1; });
+    return Object.keys(set);
+  }
+
+  function padded0(t) { return ' ' + t + ' '; }
+  function findLandmark(ntext, gaz) {
+    var padded = ' ' + ntext + ' ', best = null;
+    gaz.forEach(function (lm) {
+      if (!isFinite(lm.lat) || !isFinite(lm.lon)) return;
+      aliasesFor(lm).forEach(function (a) {
+        var i = padded.indexOf(' ' + a + ' ');
+        if (i >= 0 && (!best || a.length > best.alen)) best = { lm: lm, idx: i, end: i + a.length, alen: a.length };
+      });
+    });
+    return best;
+  }
+
+  function dest(lat, lon, brg, nm) {
+    var r = Math.PI / 180, p1 = lat * r, l1 = lon * r, t = brg * r, d = nm / R_NM;
+    var p2 = Math.asin(Math.sin(p1) * Math.cos(d) + Math.cos(p1) * Math.sin(d) * Math.cos(t));
+    var l2 = l1 + Math.atan2(Math.sin(t) * Math.sin(d) * Math.cos(p1), Math.cos(d) - Math.sin(p1) * Math.sin(p2));
+    var lo = ((l2 / r + 540) % 360) - 180;
+    return { lat: p2 / r, lon: lo };
+  }
+
+  function parseLine(line) {
+    var res = { raw: line, problems: [], notes: [] };
+    var dm = line.match(/(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\s*(nautical\s+miles?|miles?|mi\b\.?|n\.?\s?m\b\.?|kyds?\b|yards?|yds?\b\.?)/i);
+    if (dm) {
+      res.distVerb = dm[0].trim();
+      var n = parseFloat(dm[1].replace(/,/g, '')), u = dm[2].toLowerCase();
+      if (/^kyd/.test(u)) { res.nm = n * 1000 / YARDS_PER_NM; res.distText = n + ' kyds'; }
+      else if (/^y/.test(u)) { res.nm = n / YARDS_PER_NM; res.distText = n.toLocaleString('en-US') + ' yds'; }
+      else { res.nm = n; res.distText = n + ' nm'; }
+    } else res.problems.push('No distance found (expected something like "40 miles").');
+
+    var bm = line.match(/\b(?:bearing|bears|brg)\.?\s*(\d{1,3}(?:\.\d+)?)\s*(?:°|º|˚|deg\.?|degrees)?\s*(true|t|mag(?:netic)?|m|rel(?:ative)?|r)?\b/i);
+    if (!bm) bm = line.match(/\b(\d{3}(?:\.\d+)?)\s*(?:°|º|˚)?\s*(T|M|R)\b/);
+    if (bm) {
+      res.brgVerb = (bm[1] + (bm[2] ? bm[2] : '')).trim();
+      var b = parseFloat(bm[1]), kind = (bm[2] || '').charAt(0).toUpperCase();
+      if (b > 360) res.problems.push('Bearing ' + b + ' is over 360.');
+      else res.brg = b % 360;
+      if (kind === 'M') res.problems.push('Magnetic bearing: it needs the local variation applied before it can be plotted.');
+      else if (kind === 'R') res.problems.push('Relative bearing: it needs the boat’s heading before it can be plotted.');
+      else if (!kind) res.notes.push('No T after the bearing; treated as true.');
+    } else res.problems.push('No bearing found (expected something like "bearing 150T").');
+
+    var ntext = norm(line);
+    var hit = findLandmark(ntext, gazetteer());
+    if (hit) { res.lm = hit.lm; if (padded0(ntext).indexOf(' ' + norm(hit.lm.name) + ' ') < 0) res.notes.push('Matched "' + hit.lm.name + '" from a different spelling. The converter looks landmarks up by exact name, so use from: ' + hit.lm.name + ' in patrol.yml.'); }
+    else res.problems.push('No known landmark in this entry. Add it to the gazetteer below.');
+
+    if (res.lm && res.brg != null) {
+      var padded = ' ' + ntext + ' ';
+      var before = padded.slice(0, hit.idx).trim().split(' ');
+      var w1 = before[before.length - 1], w2 = before[before.length - 2];
+      var bIdx = padded.search(/ (bearing|bears|brg) /);
+      var between = bIdx > hit.end ? padded.slice(hit.end, bIdx).trim() : null;
+      if (w1 === 'from' || (w2 === 'from' && /^(light|lt|lighthouse)$/.test(w1))) { res.dir = 'from'; res.certain = true; res.why = '"from" names the landmark as the reference.'; }
+      else if (between !== null && between.split(' ').filter(Boolean).length <= 2) { res.dir = 'toward'; res.certain = true; res.why = 'The landmark comes before "bearing", so the bearing is from the boat to the landmark.'; }
+      else { res.dir = 'from'; res.certain = false; res.why = 'The wording doesn’t say which way the bearing runs. Read as bearing from the landmark; check the other reading below.'; }
+      var key = line.trim();
+      if (overrides[key]) { res.dir = overrides[key]; res.certain = true; res.why = 'Reading set by you.'; }
+    }
+
+    if (!res.problems.length) {
+      var eff = res.dir === 'from' ? res.brg : (res.brg + 180) % 360;
+      var altEff = res.dir === 'from' ? (res.brg + 180) % 360 : res.brg;
+      res.pt = dest(res.lm.lat, res.lm.lon, eff, res.nm);
+      res.alt = dest(res.lm.lat, res.lm.lon, altEff, res.nm);
+      res.effBrg = eff; res.altBrg = altEff;
+      res.status = res.certain ? 'ok' : 'assumed';
+    } else res.status = 'attn';
+    return res;
+  }
+
+  function pad(n, w) { var s = String(n); while (s.length < w) s = '0' + s; return s; }
+  function ddm(v, isLat) {
+    var h = isLat ? (v >= 0 ? 'N' : 'S') : (v >= 0 ? 'E' : 'W');
+    var a = Math.abs(v), d = Math.floor(a), m = Math.round((a - d) * 600) / 10;
+    if (m >= 60) { d += 1; m = 0; }
+    return pad(d, isLat ? 2 : 3) + '°' + pad(m.toFixed(1), 4) + "'" + h;
+  }
+  function dec(v) { return v.toFixed(4); }
+  function bstr(b) { return pad(Math.round(b), 3) + '°T'; }
+  function osm(p) { return 'https://www.openstreetmap.org/?mlat=' + dec(p.lat) + '&mlon=' + dec(p.lon) + '#map=8/' + dec(p.lat) + '/' + dec(p.lon); }
+  function readingText(r, dir) {
+    return dir === 'from'
+      ? r.distText + ' on ' + bstr(r.brg) + ' from ' + r.lm.name
+      : r.distText + ' from ' + r.lm.name + ', which bears ' + bstr(r.brg) + ' from the boat';
+  }
+  function yq(s) { return '"' + String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"') + '"'; }
+  function yamlFor(r) {
+    // An event entry in the format tools/convert.py reads (see README, "Positions from landmarks").
+    // Date, time and zone are left for you to fill from the report.
+    return '  - date: \n' +
+      '    time: \n' +
+      '    zone: \n' +
+      '    from: ' + r.lm.name + '\n' +
+      '    bearing: ' + yq(r.brgVerb) + '\n' +
+      '    distance: ' + yq(r.distVerb) + '\n' +
+      '    bearing_is: ' + (r.dir === 'from' ? 'from_landmark' : 'to_landmark') + '\n' +
+      '    # ' + r.raw.trim().replace(/\s+/g, ' ').slice(0, 110) + '\n' +
+      '    # plots at ' + dec(r.pt.lat) + ', ' + dec(r.pt.lon) + (r.certain ? '' : ' (direction assumed; check)');
+  }
+
+  function plotSVG(r) {
+    var S = 320, C = S / 2, OUT = 146;
+    var frame = Math.max(r.nm * 1.3, 25);
+    var k = (OUT - 14) / frame;
+    var lat0 = r.lm.lat, lon0 = r.lm.lon, cl = Math.cos(lat0 * Math.PI / 180);
+    function xy(p) { return [C + (p.lon - lon0) * 60 * cl * k, C - (p.lat - lat0) * 60 * k]; }
+    var o = [];
+    o.push('<svg viewBox="0 0 ' + S + ' ' + S + '" role="img" aria-label="Plot of the position relative to ' + esc(r.lm.name) + '">');
+    o.push('<circle class="rose" cx="' + C + '" cy="' + C + '" r="' + OUT + '"/>');
+    for (var a = 0; a < 360; a += 10) {
+      var len = a % 30 === 0 ? 7 : 3.5, t = a * Math.PI / 180;
+      var x1 = C + Math.sin(t) * OUT, y1 = C - Math.cos(t) * OUT, x2 = C + Math.sin(t) * (OUT - len), y2 = C - Math.cos(t) * (OUT - len);
+      o.push('<line class="tick" x1="' + x1.toFixed(1) + '" y1="' + y1.toFixed(1) + '" x2="' + x2.toFixed(1) + '" y2="' + y2.toFixed(1) + '"/>');
+    }
+    o.push('<text class="tn" x="' + C + '" y="' + (C - OUT + 20) + '" text-anchor="middle">N</text>');
+    o.push('<circle class="ring" cx="' + C + '" cy="' + C + '" r="' + (r.nm * k).toFixed(1) + '"/>');
+    gazetteer().forEach(function (lm) {
+      if (norm(lm.name) === norm(r.lm.name) || !isFinite(lm.lat) || !isFinite(lm.lon)) return;
+      var q = xy(lm), dx = q[0] - C, dy = q[1] - C;
+      if (Math.sqrt(dx * dx + dy * dy) > OUT - 18) return;
+      o.push('<circle class="lm2" cx="' + q[0].toFixed(1) + '" cy="' + q[1].toFixed(1) + '" r="3"/>');
+      o.push('<text class="tm" x="' + (q[0] + 6).toFixed(1) + '" y="' + (q[1] + 3).toFixed(1) + '">' + esc(lm.name) + '</text>');
+    });
+    var p = xy(r.pt), q2 = xy(r.alt);
+    if (!r.certain) {
+      o.push('<line class="leg2" x1="' + C + '" y1="' + C + '" x2="' + q2[0].toFixed(1) + '" y2="' + q2[1].toFixed(1) + '"/>');
+      o.push('<circle class="pos2" cx="' + q2[0].toFixed(1) + '" cy="' + q2[1].toFixed(1) + '" r="4.5"/>');
+      o.push('<text class="tm" x="' + (q2[0] + 8).toFixed(1) + '" y="' + (q2[1] + 4).toFixed(1) + '">other reading</text>');
+    }
+    o.push('<line class="leg" x1="' + C + '" y1="' + C + '" x2="' + p[0].toFixed(1) + '" y2="' + p[1].toFixed(1) + '"/>');
+    var mx = (C + p[0]) / 2, my = (C + p[1]) / 2;
+    o.push('<rect class="halo" x="' + (mx - 20).toFixed(1) + '" y="' + (my - 7).toFixed(1) + '" width="40" height="13" rx="2"/>');
+    o.push('<text class="t" x="' + mx.toFixed(1) + '" y="' + (my + 3.5).toFixed(1) + '" text-anchor="middle">' + (Math.round(r.nm * 10) / 10) + ' nm</text>');
+    o.push('<circle class="lm" cx="' + C + '" cy="' + C + '" r="5"/>');
+    o.push('<text class="t" x="' + (C + 8) + '" y="' + (C - 8) + '">' + esc(r.lm.name) + '</text>');
+    o.push('<circle class="pos" cx="' + p[0].toFixed(1) + '" cy="' + p[1].toFixed(1) + '" r="5.5"/>');
+    o.push('</svg>');
+    return o.join('');
+  }
+
+  function renderResults() {
+    var ul = $('results');
+    if (!results.length) { ul.innerHTML = '<li class="empty">Paste an entry above to plot it.</li>'; return; }
+    ul.innerHTML = results.map(function (r, i) {
+      var chip = r.status === 'ok' ? '<span class="chip ok">Plotted</span>' : r.status === 'assumed' ? '<span class="chip assumed">Check reading</span>' : '<span class="chip attn">Needs attention</span>';
+      var sum = r.pt ? '<span class="mono">' + ddm(r.pt.lat, true) + ' ' + ddm(r.pt.lon, false) + '</span>' : '<span>' + esc(r.problems[0]) + '</span>';
+      return '<li><button type="button" class="result st-' + r.status + '" data-i="' + i + '" aria-current="' + (i === selected) + '" id="res-' + i + '">' +
+        '<span class="stripe" aria-hidden="true"></span><span style="display:flex;flex-direction:column;gap:3px;min-width:0">' +
+        '<span class="src">' + esc(r.raw.trim()) + '</span><span class="sum">' + chip + sum + '</span></span></button></li>';
+    }).join('');
+  }
+
+  function renderDetail() {
+    var el = $('detail');
+    var r = results[selected];
+    if (!r) { el.innerHTML = '<div class="label">Position</div><p class="empty">Nothing plotted yet. Paste an entry such as <span class="mono">16 miles, bearing 160T from MUROTO ZAKI</span>.</p>'; return; }
+    var h = ['<div class="label">Position</div>', '<p class="mono" style="margin:0;overflow-wrap:anywhere">' + esc(r.raw.trim()) + '</p>'];
+    if (r.pt) {
+      h.push('<p class="reading">Read as <strong>' + esc(readingText(r, r.dir)) + '</strong>.</p>');
+      h.push('<div class="coords">' +
+        '<span class="label">DDM</span><span class="v" id="v-ddm">' + ddm(r.pt.lat, true) + ' ' + ddm(r.pt.lon, false) + '</span><button class="btn small" type="button" data-copy="v-ddm">Copy</button>' +
+        '<span class="label">Decimal</span><span class="v" id="v-dec">' + dec(r.pt.lat) + ', ' + dec(r.pt.lon) + '</span><button class="btn small" type="button" data-copy="v-dec">Copy</button>' +
+        '</div>');
+      h.push('<div class="plotbox">' + plotSVG(r) + '</div>');
+      h.push('<div class="row"><a class="btn small" href="' + osm(r.pt) + '" target="_blank" rel="noopener">Open in OpenStreetMap</a><button class="btn small" type="button" data-copy="v-yaml">Copy for patrol.yml</button></div>');
+      h.push('<pre class="yaml" id="v-yaml">' + esc(yamlFor(r)) + '</pre>');
+      var notes = [r.why].concat(r.notes);
+      if (r.lm.seed) notes.push(r.lm.name + ' is a starter landmark; verify its position against a chart.');
+      h.push('<ul class="notes">' + notes.map(function (n) { return '<li>' + esc(n) + '</li>'; }).join('') + '</ul>');
+      var other = r.dir === 'from' ? 'toward' : 'from';
+      h.push('<div class="alt"><div class="label">Other reading</div>' +
+        '<p class="reading" style="font-size:.92rem">' + esc(readingText(r, other)) + ' puts the boat at <span class="mono">' + ddm(r.alt.lat, true) + ' ' + ddm(r.alt.lon, false) + '</span> (<a href="' + osm(r.alt) + '" target="_blank" rel="noopener">map</a>).</p>' +
+        '<div class="row"><button class="btn small" type="button" id="btn-flip" data-dir="' + other + '">Use this reading</button>' +
+        (overrides[r.raw.trim()] ? '<button class="btn small" type="button" id="btn-auto">Back to automatic</button>' : '') + '</div></div>');
+    } else {
+      h.push('<ul class="notes">' + r.problems.map(function (n) { return '<li class="bad">' + esc(n) + '</li>'; }).join('') + '</ul>');
+    }
+    el.innerHTML = h.join('');
+  }
+
+  function renderGaz() {
+    $('gaz-body').innerHTML = gazetteer().map(function (lm) {
+      var extra = (lm.aliases || []).join(', ');
+      return '<tr><td>' + esc(lm.name) + (lm.note ? '<div class="hint">' + esc(lm.note) + '</div>' : '') + '</td><td>' + esc(lm.kind) + '</td>' +
+        (isFinite(lm.lat) && isFinite(lm.lon) ? '<td class="num">' + ddm(lm.lat, true) + '</td><td class="num">' + ddm(lm.lon, false) + '</td>' : '<td colspan="2" class="hint">Not looked up yet</td>') +
+        '<td>' + esc(extra || '—') + '</td>' +
+        '<td>' + (!lm.seed ? '<span class="chip mine">This browser</span>' : /verify/i.test(lm.note || '') || !repoLms ? '<span class="chip seed">Verify</span>' : '<span class="chip ok">Repo</span>') + '</td>' +
+        '<td>' + (lm.seed ? '' : '<button class="btn small" type="button" data-del="' + esc(lm.name) + '">Remove</button>') + '</td></tr>';
+    }).join('');
+  }
+
+  function gazYAML() {
+    if (!userLms.length) return '';
+    return userLms.map(function (lm) {
+      return '  ' + lm.name + ': { lat: ' + lm.lat.toFixed(3) + ', lon: ' + lm.lon.toFixed(3) + ', note: ' + yq(lm.note || 'Added with the range & bearing plotter. Approximate; verify against a chart.') + ' }';
+    }).join('\n');
+  }
+
+
+  function update() {
+    var lines = $('entries').value.split(/\r?\n/).filter(function (l) { return l.trim() && !/^\s*#/.test(l); });
+    results = lines.map(parseLine);
+    if (selected >= results.length) selected = Math.max(0, results.length - 1);
+    renderResults(); renderDetail();
+  }
+
+  var toastTimer;
+  function toast(msg) { var t = $('toast'); t.textContent = msg; t.hidden = false; clearTimeout(toastTimer); toastTimer = setTimeout(function () { t.hidden = true; }, 1600); }
+  function selectText(el) { try { var rg = document.createRange(); rg.selectNodeContents(el); var s = window.getSelection(); s.removeAllRanges(); s.addRange(rg); } catch (e) { } }
+  function copy(text, el) {
+    var fallback = function () { if (el) selectText(el); toast('Selected. Press Ctrl+C to copy'); };
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(function () { toast('Copied'); }, fallback);
+      else fallback();
+    } catch (e) { fallback(); }
+  }
+
+  var draft = lsGet(LS_DRAFT);
+  $('entries').value = draft != null && draft.trim() ? draft : SAMPLE;
+  var deb;
+  $('entries').addEventListener('input', function () { clearTimeout(deb); deb = setTimeout(function () { lsSet(LS_DRAFT, $('entries').value); update(); }, 150); });
+  $('btn-clear').addEventListener('click', function () { $('entries').value = ''; lsSet(LS_DRAFT, ''); selected = 0; update(); $('entries').focus(); });
+  $('btn-copyall').addEventListener('click', function () {
+    var ok = results.filter(function (r) { return r.pt; });
+    if (!ok.length) { toast('Nothing plotted to copy'); return; }
+    copy(ok.map(yamlFor).join('\n'), null);
+  });
+  $('btn-copygaz').addEventListener('click', function () { var y = gazYAML(); if (!y) { toast('No landmarks added in this browser'); return; } copy(y, null); });
+
+  $('results').addEventListener('click', function (e) {
+    var b = e.target.closest('.result'); if (!b) return;
+    selected = +b.getAttribute('data-i'); renderResults(); renderDetail();
+  });
+  $('detail').addEventListener('click', function (e) {
+    var c = e.target.closest('[data-copy]');
+    if (c) { var el = $(c.getAttribute('data-copy')); copy(el.textContent, el); return; }
+    var r = results[selected]; if (!r) return;
+    if (e.target.id === 'btn-flip') { overrides[r.raw.trim()] = e.target.getAttribute('data-dir'); update(); return; }
+    if (e.target.id === 'btn-auto') { delete overrides[r.raw.trim()]; update(); }
+  });
+  $('gaz-body').addEventListener('click', function (e) {
+    var d = e.target.closest('[data-del]'); if (!d) return;
+    var name = d.getAttribute('data-del');
+    userLms = userLms.filter(function (u) { return norm(u.name) !== norm(name); });
+    lsSet(LS_GAZ, JSON.stringify(userLms)); renderGaz(); update();
+  });
+
+  function parseCoord(str, isLat) {
+    var s = String(str).trim().toUpperCase(); if (!s) return NaN;
+    var hemi = (s.match(/[NSEW]/) || [])[0];
+    if (hemi && (isLat ? /[EW]/.test(hemi) : /[NS]/.test(hemi))) return NaN;
+    var nums = s.match(/\d+(?:\.\d+)?/g); if (!nums) return NaN;
+    var v = +nums[0] + (nums[1] ? +nums[1] / 60 : 0) + (nums[2] ? +nums[2] / 3600 : 0);
+    if (/^-/.test(s) || hemi === 'S' || hemi === 'W') v = -v;
+    if (Math.abs(v) > (isLat ? 90 : 180)) return NaN;
+    return v;
+  }
+  $('addform').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var msg = $('formmsg');
+    var name = $('lm-name').value.trim(), lat = parseCoord($('lm-lat').value, true), lon = parseCoord($('lm-lon').value, false);
+    if (!name) { msg.className = 'formmsg err'; msg.textContent = 'Give the landmark a name, as it appears in the reports.'; return; }
+    if (isNaN(lat)) { msg.className = 'formmsg err'; msg.textContent = 'Latitude not understood. Try 33°14.5\'N, 33 14.5 N or 33.2417.'; return; }
+    if (isNaN(lon)) { msg.className = 'formmsg err'; msg.textContent = 'Longitude not understood. Try 134°10.6\'E, 134 10.6 E or 134.1767.'; return; }
+    var lm = { name: name, kind: $('lm-kind').value, lat: lat, lon: lon, aliases: $('lm-alias').value.split(',').map(function (a) { return a.trim(); }).filter(Boolean), note: $('lm-note').value.trim() };
+    userLms = userLms.filter(function (u) { return norm(u.name) !== norm(name); });
+    userLms.push(lm);
+    lsSet(LS_GAZ, JSON.stringify(userLms));
+    ['lm-name', 'lm-lat', 'lm-lon', 'lm-alias', 'lm-note'].forEach(function (id) { $(id).value = ''; });
+    msg.className = 'formmsg okm'; msg.textContent = 'Added ' + name + ' at ' + ddm(lat, true) + ' ' + ddm(lon, false) + '.';
+    renderGaz(); update();
+  });
+
+  function kindOf(name) { return /(saki|zaki|misaki)$/i.test(name) ? 'cape' : /(shima|jima|island)$/i.test(name) ? 'island' : 'other'; }
+  function setSource(t) { $('gaz-source').textContent = t; }
+  window.__rbp = { parseLine: parseLine, dest: dest, ddm: ddm };
+  renderGaz(); update();
+  setSource('Loading landmarks from sources/reference.yml\u2026');
+  fetch('../sources/reference.yml', { cache: 'no-cache' }).then(function (r) {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.text();
+  }).then(function (text) {
+    var ref = window.jsyaml.load(text) || {};
+    var lms = ref.landmarks || {};
+    repoLms = Object.keys(lms).map(function (name) {
+      var v = lms[name] || {};
+      var lat = v.lat === null || v.lat === '' || v.lat === undefined ? NaN : +v.lat;
+      var lon = v.lon === null || v.lon === '' || v.lon === undefined ? NaN : +v.lon;
+      return { name: name, kind: kindOf(name), lat: lat, lon: lon, note: v.note || '', aliases: [] };
+    });
+    setSource(repoLms.length + ' landmarks loaded from sources/reference.yml.');
+    renderGaz(); update();
+  }).catch(function (e) {
+    setSource('Could not load sources/reference.yml (' + e.message + '), so a built-in starter list is shown. Open this page from the published site or a local server (python -m http.server).');
+  });
+})();
+</script>
+</body>
+</html>

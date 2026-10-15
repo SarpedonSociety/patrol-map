@@ -14,6 +14,7 @@ When they disagree, the README and the code win; fix this file.
   - `status/` fleet status between patrols; `war-diary/` is generated
 - `tools/convert.py` sources/ -> data/ (needs Python 3 + pyyaml)
 - `tools/import_war_diary.py` vault war diary -> `sources/status/war-diary/`
+- `tools/range-bearing.html` browser plotter for "N miles, bearing X from LANDMARK" entries; reads `landmarks` from `reference.yml`, outputs `patrol.yml` event entries
 - `data/` generated: `manifest.json`, `status.json`, `patrols/*.json`. `base/land-50m.json` is third-party.
 - `prompts/gemini-transcription.md` the Gemini prompt (three outputs)
 - `media/<hull>/P<nn>/` drawings from the reports (crops of the Fold3 download), listed under `figures:` in `patrol.yml`

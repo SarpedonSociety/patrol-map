@@ -21,6 +21,7 @@ sources/                      Transcriptions. Never edited by the scripts.
   status/                     COMSUBPAC war diary "Disposition of Forces" listings,
                               task group index, dated refit/overhaul periods
 tools/convert.py              Turns sources/ into data/
+tools/range-bearing.html      Plotter for range-and-bearing positions (opens in the browser)
 data/
   manifest.json               List of patrols on the map (generated)
   status.json                 Fleet status between patrols (generated)
@@ -129,6 +130,16 @@ converter works out the position from the landmark's entry under
 `landmarks` in `sources/reference.yml`. These positions show on the map
 with a dashed outline, are flagged as estimates, and stay off the track
 line, since the report didn't record them as the boat's own position.
+
+`tools/range-bearing.html` checks these by hand before they go in
+`patrol.yml`. Paste entries such as "40 miles, bearing 150T ASHIZURI SAKI"
+and it plots each against the `landmarks` list in `sources/reference.yml`,
+shows both readings when the wording doesn't say which way the bearing
+runs, and gives an event entry ready for `patrol.yml` (`from`, `bearing`,
+`distance`, `bearing_is`). It needs the page served (the published site, or
+`python -m http.server` and http://localhost:8000/tools/range-bearing.html).
+Landmarks added on the page stay in that browser; add them to
+`reference.yml` to make them permanent.
 
 Entries tagged `rescue` (lifeguard duty) get their own marker. So do
 entries tagged `counterattack` (depth charges, bombs or gunfire against

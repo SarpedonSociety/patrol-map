@@ -57,6 +57,16 @@ landmarks:
   Malakal Harbor: { lat: 7.33, lon: 134.45, note: "Malakal Harbor, Koror, Palau: the harbour itself, not its reef entrances. Approximate; verify against a chart." }
   Toagel Mlungui: { lat: 7.53, lon: 134.47, note: "Toagel Mlungui (West Passage) through the Palau barrier reef. Approximate; verify against a chart." }
   Vlaming Head Light: { lat: -21.80, lon: 114.10, note: "Vlaming Head lighthouse, North West Cape, Western Australia. Approximate; verify against a chart." }
+  Ashizuri Saki: { lat: 32.722, lon: 133.020, note: "Cape Ashizuri lighthouse, southwest tip of Shikoku. Approximate; verify against a chart." }
+  Muroto Zaki: { lat: 33.245, lon: 134.177, note: "Cape Muroto lighthouse, southeast tip of Shikoku. Approximate; verify against a chart." }
+  Hino Misaki: { lat: 33.883, lon: 135.058, note: "Hino Misaki lighthouse, Wakayama, east side of Kii Suido. Approximate; verify against a chart." }
+  Shiono Misaki: { lat: 33.434, lon: 135.755, note: "Shiono Misaki lighthouse, southern tip of the Kii Peninsula. Approximate; verify against a chart." }
+  Daio Saki: { lat: 34.276, lon: 136.899, note: "Daio Saki lighthouse, Shima Peninsula. Approximate; verify against a chart." }
+  Omae Zaki: { lat: 34.595, lon: 138.226, note: "Omae Zaki lighthouse, Shizuoka. Approximate; verify against a chart." }
+  Mikomoto Shima: { lat: 34.572, lon: 138.942, note: "Mikomoto Shima lighthouse, off the Izu Peninsula. Approximate; verify against a chart." }
+  Toi Misaki: { lat: 31.368, lon: 131.343, note: "Toi Misaki lighthouse, southeast Kyushu. Approximate; verify against a chart." }
+  Sata Misaki: { lat: 30.994, lon: 130.660, note: "Sata Misaki lighthouse, southern tip of Kyushu. Approximate; verify against a chart." }
+  Garanbi: { lat: 21.902, lon: 120.853, note: "Garanbi (Eluanbi) lighthouse, southern tip of Formosa. Approximate; verify against a chart." }
 
 # Place names drawn on the map. zoom = how far in before the label shows
 # (0 = always).
