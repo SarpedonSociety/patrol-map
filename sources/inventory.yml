@@ -15,16 +15,16 @@
 #          entries), e.g. 1942-07-15. Used to find overlapping patrols.
 
 SS-236:   # Silversides
-  1:  { status: mapped, found_in: Fold3, start: 1942-04-30, note: "Hand transcription; departure/arrival still to add" }
-  2:  { status: available, found_in: Fold3 }
-  3:  { status: missing }
+  1:  { status: mapped, found_in: Fold3, report_no: 42, start: 1942-04-30, end: 1942-06-21, note: "Hand transcription; departure/arrival still to add" }
+  2:  { status: available, found_in: Fold3, report_no: 68, note: "Pearl Harbor to Pearl Harbor. Dates not yet entered: the index note repeats Patrol 7's" }
+  3:  { status: missing, start: 1942-10-02, end: 1942-11-25, note: "Pearl Harbor to Brisbane (index note; no report found)" }
   4:  { status: transcribed, found_in: Fold3, report_no: 133, start: 1942-12-17, end: 1943-01-31, note: "From Brisbane to Pearl. Gemini gemini-01/02 (narrative), gemini-03 (Part VIII), contacts-01; appendectomy and stuck-torpedo entries hand-transcribed from the scans" }
   5:  { status: transcribed, found_in: Fold3, start: 1943-05-17, end: 1943-07-01, note: "Second overlap set. Pearl Harbor to Brisbane; mine plant off Steffen Strait; rendezvous with Guardfish 19 June. Gemini gemini-01 (narrative, pages 1-9) and contacts-01 (Parts V-VII, pages 10-11); Part VIII 'nothing new'; to verify" }
   6:  { status: transcribed, found_in: Fold3, start: 1943-07-21, end: 1943-09-12, note: "Brisbane to Brisbane, pack with Coucal, Tuna, Growler; no ships sunk. Gemini gemini-01 (narrative, pages 1-21), contacts-01 (Parts F-G, pages 22-24), attacks-01 (3 forms, pages 24-29); noon positions and fuel/distance table still to transcribe; to verify" }
   7:  { status: transcribed, found_in: Fold3, report_no: 308, start: 1943-10-05, end: 1943-11-08, note: "Moreton Bay to Pearl Harbor, in company with BALAO. Badly faded carbon. Gemini gemini-01/02/03 (narrative, pages 1-18), contacts-01 (Parts F-G, pages 20-21), attacks-01 (attacks 1-5 and gun attack 1, pages 25-31); to verify, open items in review.yml" }
-  8:  { status: available, found_in: Fold3 }
-  9:  { status: available, found_in: Fold3 }
-  10: { status: available, found_in: Fold3 }
+  8:  { status: available, found_in: Fold3, report_no: 351, start: 1943-12-04, end: 1944-01-15, note: "Pearl Harbor to Midway" }
+  9:  { status: available, found_in: Fold3, start: 1944-02-15, end: 1944-04-06, note: "Pearl Harbor to Brisbane; no COMSUBPAC report number (ended in Brisbane)" }
+  10: { status: available, found_in: Fold3, report_no: 454, start: 1944-04-26, end: 1944-06-11, note: "Brisbane to Pearl Harbor" }
   11: { status: available, found_in: Fold3 }
   12: { status: available, found_in: Fold3 }
   13: { status: available, found_in: Fold3 }

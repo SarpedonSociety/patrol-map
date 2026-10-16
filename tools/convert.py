@@ -1270,6 +1270,90 @@ def build_patrol(folder, ref):
     }
 
 
+def load_index():
+    """Matt's per-patrol index notes (sources/index/INDEX_SS.236.7.md), copied
+    as-is from the vault: YAML front matter with the report number, claims,
+    endorsing officer, bases, days, miles and fuel. Keyed by (hull, patrol);
+    the file name decides which patrol a note belongs to."""
+    out = {}
+    folder = SOURCES / "index"
+    if not folder.exists():
+        return out
+    for path in sorted(folder.glob("*.md")):
+        m = re.fullmatch(r"INDEX_SS\.(\d+)\.(\d+)\.md", path.name)
+        if not m:
+            print(f"index: {path.name}: name not understood (expected INDEX_SS.236.7.md), skipped")
+            continue
+        text = path.read_text(encoding="utf-8")
+        fm = re.match(r"\s*---\s*\n(.*?)\n---", text, re.S)
+        data = (yaml.safe_load(fm.group(1)) if fm else None) or {}
+        hull, num = f"SS-{int(m.group(1))}", int(m.group(2))
+        if data.get("hull") and str(data["hull"]).strip() != hull:
+            print(f"index: {path.name}: hull reads {data['hull']}, file name says {hull}")
+        if data.get("patrol") not in (None, "") and as_int(str(data["patrol"])) != num:
+            print(f"index: {path.name}: patrol reads {data['patrol']}, file name says {num}")
+        clean = {k: (v.strip() if isinstance(v, str) else str(v) if hasattr(v, "isoformat") else v)
+                 for k, v in data.items() if v not in (None, "")}
+        clean["source"] = f"sources/index/{path.name}"
+        out[(hull, num)] = clean
+    return out
+
+
+def check_index(index, inventory, built):
+    """Print where an index note disagrees with itself, with inventory.yml or
+    with a patrol's own patrol.yml. Nothing is changed; the report decides."""
+    msgs = []
+    seen = {}
+    for (hull, num), ix in sorted(index.items()):
+        tag = f"{hull} P{num}"
+        def n(key):
+            v = ix.get(key)
+            try:
+                return int(str(v).replace(",", "")) if v not in (None, "") else None
+            except ValueError:
+                return None
+        parts = [n("days_to_station"), n("days_in_area"), n("days_from_station")]
+        if None not in parts and n("days_underway") is not None and sum(parts) != n("days_underway"):
+            msgs.append(f"{tag}: days to/in/from area add to {sum(parts)}, days underway is {n('days_underway')}")
+        for what, keys, total in (("miles", ("miles_to_area", "miles_in_area", "miles_from_area"), "total_miles"),
+                                  ("fuel", ("fuel_to", "fuel_in", "fuel_from"), "total_fuel")):
+            vals = [n(k) for k in keys]
+            if None not in vals and n(total) is not None and abs(sum(vals) - n(total)) > 2:
+                msgs.append(f"{tag}: {what} to/in/from area add to {sum(vals)}, total is {n(total)}")
+        try:
+            a = datetime.strptime(str(ix.get("started")), "%Y-%m-%d")
+            b = datetime.strptime(str(ix.get("ended")), "%Y-%m-%d")
+            span = (b - a).days + 1
+            if n("days_underway") is not None and abs(span - n("days_underway")) > 2:
+                msgs.append(f"{tag}: {ix['started']} to {ix['ended']} is {span} days, days underway is {n('days_underway')}")
+            key = (hull, str(ix.get("started")), str(ix.get("ended")))
+            if key in seen:
+                msgs.append(f"{hull} P{seen[key]} and P{num} have the same start and end dates "
+                            f"({ix['started']} to {ix['ended']}); one was probably copied from the other")
+            else:
+                seen[key] = num
+        except ValueError:
+            pass
+        inv = ((inventory.get(hull) or {}).get(num)) or {}
+        for ikey, xkey in (("report_no", "patrol_report_no"), ("start", "started"), ("end", "ended")):
+            if inv.get(ikey) not in (None, "") and ix.get(xkey) not in (None, "") and str(inv[ikey]) != str(ix[xkey]):
+                msgs.append(f"{tag}: inventory.yml {ikey} {inv[ikey]}, index {ix[xkey]}")
+        p = built.get((hull, num))
+        if p:
+            ms, fe = p.get("miles_steamed") or {}, p.get("fuel_expended") or {}
+            for label, have, key in (("total miles", ms.get("total"), "total_miles"),
+                                     ("total fuel", fe.get("total"), "total_fuel")):
+                if have not in (None, "") and n(key) is not None and int(have) != n(key):
+                    msgs.append(f"{tag}: patrol.yml {label} {have}, index {n(key)}")
+            co_a = re.sub(r"[^a-z]", "", str(p.get("commanding_officer") or "").lower())
+            co_b = re.sub(r"[^a-z]", "", str(ix.get("co") or "").lower())
+            if co_a and co_b and co_a != co_b:
+                msgs.append(f"{tag}: patrol.yml commanding officer {p['commanding_officer']}, index {ix['co']}")
+    for msg in msgs:
+        print("index:", msg)
+    print(f"index: {len(index)} patrol note(s), {len(msgs)} to check")
+
+
 STATUS_CODES = ("patrol", "refit", "overhaul", "modernization", "training", "other_task_force",
                 "transit", "miscellaneous", "other")
 
@@ -1338,8 +1422,13 @@ def main(selected):
     if selected:
         folders = [f for f in folders if any(str(f).endswith(s) for s in selected)]
     (OUT / "patrols").mkdir(parents=True, exist_ok=True)
+    index = load_index()
+    built = {}
     for folder in folders:
         patrol = build_patrol(folder, ref)
+        built[(patrol["boat"], patrol["patrol"])] = patrol
+        if (patrol["boat"], patrol["patrol"]) in index:
+            patrol["index"] = index[(patrol["boat"], patrol["patrol"])]
         if not patrol["start"]:
             print(f"{patrol['id']}  skipped: no dates. Add period: {{start: YYYY-MM-DD, end: YYYY-MM-DD}} to patrol.yml")
             (OUT / "patrols" / f"{patrol['id']}.json").unlink(missing_ok=True)
@@ -1356,6 +1445,9 @@ def main(selected):
         p = json.loads(path.read_text(encoding="utf-8"))
         manifest.append({k: p[k] for k in ("id", "boat", "name", "class", "patrol", "year", "start", "end", "summary")}
                         | {"file": f"patrols/{path.name}"})
+    inv_path = SOURCES / "inventory.yml"
+    inventory = yaml.safe_load(inv_path.read_text(encoding="utf-8")) if inv_path.exists() else {}
+    check_index(index, inventory or {}, built)
     status = build_status(ref)
     if status is not None:
         (OUT / "status.json").write_text(json.dumps(status, indent=1, ensure_ascii=False), encoding="utf-8")

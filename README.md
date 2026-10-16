@@ -13,6 +13,8 @@ them isn't recorded, and the map doesn't pretend otherwise.
 sources/                      Transcriptions. Never edited by the scripts.
   reference.yml               Boats, port positions, map place names
   inventory.yml               Every patrol report: found, missing, transcribed, mapped
+  index/INDEX_SS.236.7.md     Per-patrol index notes from the vault (report no., claims,
+                              endorsing officer, bases, days, miles, fuel), copied as-is
   SS-236/P01/
     patrol.yml                Metadata, departure/arrival, Part I events
     contacts.md               Contact, aircraft and attack tables, verbatim
@@ -302,3 +304,20 @@ must be public for Pages to work.
 
 Patrol reports: U.S. Navy war patrol reports, WWII. Coastlines: Natural
 Earth, public domain, via the `world-atlas` package.
+
+## Patrol index notes
+
+`sources/index/` holds one note per patrol, copied unchanged from the vault
+(`INDEX_SS.236.7.md`: the file name gives the hull and patrol). The YAML
+front matter records the report number, ships and tonnage claimed sunk and
+damaged, commanding and endorsing officers, bases out and in, and days,
+miles and fuel to, in and from the area. The converter attaches a note to
+its patrol as `index` in `data/patrols/*.json`, and prints a line for
+anything to check: days or miles or fuel that don't add up to the totals,
+dates whose span doesn't match the days underway, two notes with the same
+dates, and differences from `inventory.yml` (report number, start, end) or
+from the patrol's own `patrol.yml` (total miles and fuel, commanding
+officer). Nothing is changed automatically: where a note and the report
+disagree, the report decides. Notes for patrols not yet on the map are kept
+for reference and checked the same way.
+

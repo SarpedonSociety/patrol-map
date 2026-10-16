@@ -10,6 +10,7 @@ When they disagree, the README and the code win; fix this file.
 - `sources/` transcriptions and hand data. Scripts never edit it.
   - `reference.yml` boats, ports, landmarks, map place names
   - `inventory.yml` per-patrol status (missing / available / transcribed / verified / mapped)
+  - `index/INDEX_SS.<hull>.<n>.md` Matt's per-patrol index notes from the vault, copied unchanged; converter attaches them as `index` and prints mismatches
   - `<hull>/P<nn>/` `patrol.yml` (hand), `gemini-NN.yml`, `contacts-NN.md`, `attacks-NN.md` (raw Gemini), `review.yml` (open questions)
   - `status/` fleet status between patrols; `war-diary/` is generated
 - `tools/convert.py` sources/ -> data/ (needs Python 3 + pyyaml)
