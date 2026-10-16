@@ -68,15 +68,15 @@
  },
  "report_found": true,
  "summary": {
-  "records": 242,
+  "records": 241,
   "sightings": 17,
   "aircraft": 0,
-  "torpedo_attacks": 6,
+  "torpedo_attacks": 5,
   "mine_attacks": 0,
   "counterattacks": 5,
   "torpedoes_fired": 0,
   "gun_actions": 2,
-  "flagged": 240
+  "flagged": 239
  },
  "track": [
   {
@@ -6456,9 +6456,9 @@
   },
   {
    "id": "SS-236-P07-A23",
-   "source": "Torpedo attack data",
+   "source": "Gun attack data",
    "row": 23,
-   "kind": "torpedo",
+   "kind": "gun",
    "page": "31",
    "zone": "L",
    "local": "1720 L Oct. 24, 1943",
@@ -6474,52 +6474,19 @@
    "lon": 144.65,
    "derived": null,
    "type": "",
-   "title": "Attack 6",
+   "title": "Gun attack 6",
    "fields": {
     "damaged": "One passenger freighter, JOHORE MARU (6182 tons) or its sister ship NAGOYA MARU (6072 tons)",
     "damage determined by": "Observed shells hit.",
-    "form": "(H) ATTACK DATA (CON'T)\nRemarks:\nRun in on convoy until detection by trailing escort became imminent.\nUSS SILVERSIDES                          PATROL 7\nTIME 1720 L     DATE Oct. 24, 1943       LAT 2-05 N     LONG 144-39 E\nGUN ATTACK NO. 1 - DAMAGE INFLICTED\nShip(s) Sunk:\nShip(s) Damaged:          One passenger freighter, JOHORE MARU\n                          (6182 tons) or its sister ship\n                          NAGOYA MARU (6072 tons)\nDamage Determined by:     Observed shells hit.\nDESCRIPTION:\nThis ship had been previously hit in the engine room\nby a torpedo in attack 3. It had been abandoned and\nsuperstructure was in flames, but ship was\nnot sinking. Attempted to sink by shell fire, firing 82 rounds of\n4\" 50 cal at ranges from 1500 to 500 yards. The binocular sights in-\nstalled during last refit were unsatisfactory in that they soon\njarred loose. Even at close range it was almost impossible to aim.\nWas not impressed by effect of shell fire. It would be extremely\ndifficult to sink a ship of this size with 4\" 50 cal gun. Finally\nsank ship with torpedo (attack 4).\nPage 31 covers \"GUN ATTACK NO. 1\" rather than a torpedo attack form, concluding Patrol 7 attack reports in this sequence.\n\nI could not transcribe the illegible words in the lower part of the description on Page 26 and Page 29 where carbon ink was excessively faded or heavily smudged, as well as the missing bottom portion of the Gun Attack description on Page 31."
+    "form": "(H) ATTACK DATA (CON'T)\nRemarks:\nRun in on convoy until detection by trailing escort became imminent.\nUSS SILVERSIDES                          PATROL 7\nTIME 1720 L     DATE Oct. 24, 1943       LAT 2-05 N     LONG 144-39 E\nGUN ATTACK NO. 1 - DAMAGE INFLICTED\nShip(s) Sunk:\nShip(s) Damaged:          One passenger freighter, JOHORE MARU\n                          (6182 tons) or its sister ship\n                          NAGOYA MARU (6072 tons)\nDamage Determined by:     Observed shells hit.\nDESCRIPTION:\nThis ship had been previously hit in the engine room\nby a torpedo in attack 3. It had been abandoned and\nsuperstructure was in flames, but ship was\nnot sinking. Attempted to sink by shell fire, firing 82 rounds of\n4\" 50 cal at ranges from 1500 to 500 yards. The binocular sights in-\nstalled during last refit were unsatisfactory in that they soon\njarred loose. Even at close range it was almost impossible to aim.\nWas not impressed by effect of shell fire. It would be extremely\ndifficult to sink a ship of this size with 4\" 50 cal gun. Finally\nsank ship with torpedo (attack 4).\nPage 31 covers \"GUN ATTACK NO. 1\" rather than a torpedo attack form, concluding Patrol 7 attack reports in this sequence.\n\nI could not transcribe the illegible words in the lower part of the description on Page 26 and Page 29 where carbon ink was excessively faded or heavily smudged, as well as the missing bottom portion of the Gun Attack description on Page 31.",
+    "narrative": "Opened fire with deck gun, initial range 1500 yds, then closed to 500 yds. Fired ⟦--⟧ rounds which appeared to have little effect as far as sinking was concerned. Opened fire with 20mm. Most of these glanced off the hull, but apparently one of them set the forward magazine on fire as shortly after that it started to explode. It still did not appear to be sinking, and wanted to start closing remainder of convoy so decided to finish the job with a torpedo. GUN ATTACK #1"
    },
    "flags": [
-    "Transcriber: "
-   ]
-  },
-  {
-   "id": "SS-236-P07-N174",
-   "source": "Part I narrative",
-   "part": "I",
-   "kind": "gun",
-   "page": "14",
-   "zone": "L",
-   "local": "1720 L October 24, 1943.",
-   "utc": "1943-10-24T06:20:00Z",
-   "position_verbatim": "",
-   "derived": {
-    "interpolated": true,
-    "between": [
-     "1943-10-23T13:43:00Z",
-     "1943-10-24T08:14:00Z"
-    ]
-   },
-   "tag": "gun",
-   "local_date": [
-    1943,
-    10,
-    24
-   ],
-   "has_time": true,
-   "lat": 2.08333,
-   "lon": 146.44478,
-   "type": "Narrative",
-   "title": "Gun attack on damaged freighter",
-   "fields": {
-    "event": "Opened fire with deck gun, initial range 1500 yds, then closed to 500 yds. Fired ⟦--⟧ rounds which appeared to have little effect as far as sinking was concerned. Opened fire with 20mm. Most of these glanced off the hull, but apparently one of them set the forward magazine on fire as shortly after that it started to explode. It still did not appear to be sinking, and wanted to start closing remainder of convoy so decided to finish the job with a torpedo. GUN ATTACK #1"
-   },
-   "flags": [
+    "Transcriber: ",
+    "Narrative entry at 1720 L October 24, 1943. (page 14) describes this attack; its account is included here.",
     "Number of rounds fired blank or obscured.",
     "No date on this entry; October 24, 1943. assumed from the previous entry.",
-    "No zone letter on this entry; zone L assumed from the previous entry.",
-    "No position in the report. Placed on the track between the recorded positions at 1943-10-23 13:43 and 1943-10-24 08:14 GMT, as an estimate."
+    "No zone letter on this entry; zone L assumed from the previous entry."
    ]
   },
   {

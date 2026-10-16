@@ -37,7 +37,8 @@ index.html                    The map
 ## Adding a patrol
 
 1. Build PDFs of the pages that matter, one for the narrative, one for the
-   tables and, for 1943 reports, one for the TORPEDO ATTACK DATA forms, and
+   tables and, for 1943 reports, one for the TORPEDO ATTACK DATA forms (and any
+   GUN ATTACK forms, filed under `### Gun attack data, attack <n>`), and
    run each through its own prompt in `prompts/` in a fresh Gemini chat
    (see `prompts/README.md`).
 2. Save the outputs in the patrol's folder, e.g. `sources/SS-283/P03/`,

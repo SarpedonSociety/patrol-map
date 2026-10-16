@@ -17,6 +17,7 @@ and writes:
 Nothing in sources/ is ever modified. Verbatim readings are kept alongside
 the parsed values, and anything the script had to interpret is flagged.
 """
+import difflib
 import json
 import math
 import re
@@ -30,6 +31,8 @@ ROOT = Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "sources"
 OUT = ROOT / "data"
 
+FULL_MONTHS = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST",
+               "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"]
 MONTHS = {m: i + 1 for i, m in enumerate(
     ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"])}
 
@@ -177,8 +180,8 @@ def parse_time_date(text):
     text = re.sub(r"(?<=[A-Z])\.", "", unbracket(plain(text)).strip().upper())
     text = re.sub(r"SOPT", "SEPT", text)   # e read as o
     text = re.sub(r"(?<![A-Z])\.*UG(?=\s*\d)", "AUG", text)   # a carbon copy that lost the A of "Aug"
-    m = re.fullmatch(r"(\d{3,4})\s*\(?([A-Z])?\)?\s+(\d{1,2}\s*[A-Z]{3}[A-Z]*|[A-Z]{3}[A-Z]*\s*\d{1,2}"
-                     r"|\d{1,2}/\d{1,2}/\d{2,4})", text)
+    m = re.fullmatch(r"(\d{3,4})\s*\(?([A-Z])?\)?\s*:?\s+(\d{1,2}\s*[A-Z]{3}[A-Z]*|[A-Z]{3}[A-Z]*\s*\d{1,2}"
+                     r"|\d{1,2}[/-]\d{1,2}[/-]\d{2,4})", text)
     if not m:
         return None, None, None
     date = m.group(3).replace(" ", "")
@@ -265,6 +268,8 @@ def read_attack_forms(path):
             continue
         key = m.group(1).lower()
         num = WORD_NUMBERS.get(key, key)
+        if re.match(r"\s*gun\b", head, re.I):   # "### Gun attack data, attack 1": its own numbering
+            num = f"G{num}"
         page = re.search(r"(?m)^\s*Page\s+(\d+)", body)
         body = re.sub(r"(?m)^\s*Page\s+\d+\s*$\n?", "", body).rstrip()
         notes = [l.split(":", 1)[1].strip() for l in body.splitlines() if re.match(r"\s*Flags\s*:", l)]
@@ -315,6 +320,14 @@ def parse_date(date_str, year, first_month):
     d = d.replace(",", " ").replace(".", " ").strip()
     d = re.sub(r"^(\d{1,2})\s*-\s*\d{1,2}\b(?!\s*-)", r"\1", d)   # "28-31 December" -> first day (not "5-27-43")
     d = re.sub(r"\s+", " ", d)
+    # "December 16-18 1943" or "January 19 21 1944" (a heading covering several days) -> first day
+    d = re.sub(r"^([A-Z]+ \d{1,2})(?: ?- ?\d{1,2}| \d{1,2}(?= \d{4}))\b", r"\1", d)
+    # A month name with its first letters lost at the margin ("ecember", "nuary", "Tebruary")
+    lead = re.match(r"([A-Z]{4,})\b", d)
+    if lead and lead.group(1)[:3] not in MONTHS:
+        close = difflib.get_close_matches(lead.group(1), FULL_MONTHS, n=1, cutoff=0.75)
+        if close:
+            d = close[0] + d[len(lead.group(1)):]
     words = re.fullmatch(r"([A-Z]{3})[A-Z]*\.?\s+(\d{1,2})(?:\s+(\d{4}))?|(\d{1,2})\s+([A-Z]{3})[A-Z]*\.?(?:\s+(\d{4}))?", d)
     if words:
         mon = words.group(1) or words.group(5)
@@ -625,7 +638,7 @@ def build_patrol(folder, ref):
         else:
             if not ev.get("time") and ev.get("date"):
                 flags.append("No time given; placed at noon GMT on that date.")
-            ev["zone"] = plain(ev["zone"]).strip().upper()
+            ev["zone"] = unbracket(plain(ev["zone"])).strip().upper()
             if ev["zone"] in zone_fix:
                 flags.append(f"Zone {ev['zone']} corrected to {zone_fix[ev['zone']]} (zone_fix in patrol.yml).")
                 ev["zone"] = zone_fix[ev["zone"]]
@@ -936,6 +949,15 @@ def build_patrol(folder, ref):
             dm = re.search(r"Date\s*[:;,]?\s*([A-Za-z]+\.?\s*\d{1,2}(?:,?\s*\d{4})?|\d{1,2}[/-]\d{1,2}[/-]\d{2,4})", body, re.I)
             la = re.search(r"Lat\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?|\d{4})\s*\.?\s*([NS])", body, re.I)
             lo = re.search(r"Long\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?)\s*\.?\s*([EW])", body, re.I)
+            # Degrees-and-minutes form, "Lat. 29° 30' (N) Long. 128° 50'(E)": rewrite as 29-30 N.
+            plain_body = unbracket(body)
+            if not la:
+                dm_ = re.search(r"Lat\.?\s*[:;,]?\s*(\d+)\s*°?\s*(\d+)\s*'?\s*\(?\s*([NS])", plain_body, re.I)
+                la = re.search(r"(\d+-\d+)\s*([NS])", f"{dm_.group(1)}-{dm_.group(2)} {dm_.group(3)}") if dm_ else None
+            if not lo:
+                dm_ = re.search(r"Long\.?\s*[:;,]?\s*(\d+)\s*°?\s*(\d+)\s*'?\s*\(?\s*([EW])", plain_body, re.I)
+                lo = re.search(r"(\d+-\d+)\s*([EW])", f"{dm_.group(1)}-{dm_.group(2)} {dm_.group(3)}") if dm_ else None
+            is_gun = str(atk_num).startswith("G") or bool(re.search(r"GUN\s+ATTACK\s+NO", body, re.I))
             t = tm.group(1) if tm else None
             z = (tm.group(2) if tm and tm.group(2) else None)
             d = dm.group(1) if dm else None
@@ -966,14 +988,16 @@ def build_patrol(folder, ref):
                 fields["fired"] = str(len(re.findall(r"#\s*\d+", tf.group(1))))
             desc = fields.get("description") or ""
             records.append({
-                "id": f"{pid}-A{entry:02d}", "source": "Torpedo attack data", "row": entry, "kind": "torpedo",
+                "id": f"{pid}-A{entry:02d}", "source": "Gun attack data" if is_gun else "Torpedo attack data",
+                "row": entry, "kind": "gun" if is_gun else "torpedo",
                 "page": ", ".join(form["pages"]) or None, "zone": z,
                 "local": " ".join(x for x in (t, z, d) if x) or "",
                 "utc": to_utc(d or "", t, z, year, first_month) if d else None, "has_time": bool(t),
                 "local_date": list(parse_date(d or "", year, first_month) or []),
                 "position_verbatim": " ".join(m.group(0) for m in (la, lo) if m), "lat": lat, "lon": lon,
                 "derived": None, "type": desc.split(".")[0][:60],
-                "title": f"Attack {atk_num}" + (f" · {desc.split('.')[0][:48]}" if desc else ""),
+                "title": (f"Gun attack {str(atk_num).lstrip('G')}" if is_gun else f"Attack {atk_num}")
+                         + (f" · {desc.split('.')[0][:48]}" if desc else ""),
                 "fields": fields, "flags": flags,
             })
 

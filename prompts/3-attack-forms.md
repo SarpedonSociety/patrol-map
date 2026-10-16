@@ -15,7 +15,8 @@ pages provided. The pages are a selection, so never infer what the
 missing pages might say.
 
 This PDF holds TORPEDO ATTACK DATA forms: for each attack, one page of
-target data and one page of torpedo data. These pages are evidence in a
+target data and one page of torpedo data. It may also hold GUN ATTACK
+forms. These pages are evidence in a
 study of torpedo performance, so the exact order and placement of every
 value matters as much as the value itself.
 
@@ -32,6 +33,9 @@ turn the forms into tables.
   `### Torpedo data, attack <n>` above the torpedo-data page, where <n> is
   the attack number as a numeral (TORPEDO ATTACK NO. TWO is 2), then a line
   `Page <n>` with the page number typed on that page.
+- GUN ATTACK forms are part of this task too. Put
+  `### Gun attack data, attack <n>` above each, with the gun attack's own
+  number (GUN ATTACK NO. 1 is 1), and transcribe it the same way.
 - Keep the time, zone letter, date, latitude and longitude exactly as typed
   on the "Time: ... Date: ... Lat. ... Long. ..." line.
 - Copy footnotes (* - Estimates only.) and remarks as typed.
