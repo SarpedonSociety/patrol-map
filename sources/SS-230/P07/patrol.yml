@@ -1,8 +1,8 @@
 # USS Finback (SS-230), War Patrol 7
 # Transcribed by Gemini, one PDF per fresh chat: gemini-01.yml (narrative,
 # pages 1-7), contacts-01.md (ship and aircraft contacts, pages 10-11) and
-# attacks-01.md (torpedo attack forms 1 and 2, pages 12-13). Gun attacks 1
-# and 2 (pages 14-15) are still to transcribe, as attacks-02.md.
+# attacks-01.md (torpedo attack forms 1 and 2, pages 12-13) and
+# attacks-02.md (gun attack forms 1 and 2, pages 14-15).
 # Pearl Harbor by Midway to the East China Sea (Tokara Kaikyo, Quelpart,
 # Danjo Gunto, Nagasaki trade lanes), back by Midway (refit cancelled,
 # ordered on) to Pearl Harbor. The narrative gives no positions of its own;
@@ -19,6 +19,13 @@ report: "Report of Seventh War Patrol"
 comsubpac_report_no:
 commanding_officer:
 
+# Readings from the scan that differ from Gemini's, keyed by entry number
+# (counted through contacts-01.md, as in review.yml).
+row_fixes:
+  13: { "Type(s)": "Flying Boat #97" }
+form_fixes:
+  - { attack: 2, old: "Long 12⟦8⟧° 50' (⟦E⟧)", new: "Long 128° 50' (E)" }
+
 # Dash typed for the zone on 22 December 2100; the 0930 entry that day is M
 # (after crossing the 180th meridian westbound on 20 December).
 zone_fix: { "-": M }
@@ -29,7 +36,7 @@ departure:
   time: "1300"
   zone: VW
   page: 1
-  flags: "No zone letter typed; Pearl Harbor time (VW) assumed. In company with POBALO (as Gemini read it), escorted by PC-457."
+  flags: "Zone read on the scan as '(VX)'; taken as VW, Hawaiian time (-10:30). Departed in company with U.S.S. SALMON under escort of PC-487 (read by hand; Gemini had POBALO and PC-457)."
 
 arrival:
   port: Pearl Harbor

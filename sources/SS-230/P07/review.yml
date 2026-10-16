@@ -1,17 +1,16 @@
 # Reviewer notes for the contact tables, keyed by entry number: entries are
 # counted through contacts-01.md in order (ship contacts 1-8, aircraft
-# contacts 9-13), then the attack forms in attacks-01.md (14-15).
+# contacts 9-13), then the attack forms in attacks-01.md (14-15) and the gun attack forms in
+# attacks-02.md (16-17).
 # Delete a note once it's resolved against the report.
 
 rows:
   1: "Ship contact 1 (1950 I 1 Jan, 30-26 N 130-01 E) is the tanker of attacks 1 and 2: first radar contact at 22,000 yards, tracked on 245 at 14 knots."
-  6: "Ship contact 6 (trawler destroyed by gunfire, 30 Jan) is gun attack 1; the gun attack forms (pages 14-15) aren't transcribed yet."
-  7: "Ship contact 7 (trawler damaged by gunfire) is at 1431 I 31 January; the narrative has the gun attack at 1345 I. Check against gun attack form 2 when transcribed."
-  13: "Aircraft contact 5: type typed with an overstrike, '#22' and '#97' (Gemini can't tell which is struck out). Latitude minutes 0⟦4⟧ faint."
-  14: "Attacks 1 and 2 give the same position, 29° 30' N 128° 50' E, two hours apart; the target was stopped after attack 1, so plausible. Attack 2 longitude: 12⟦8⟧ smeared (could read 123)."
+  7: "Ship contact 7 and gun attack form 2 both give 1431 I 31 January; the narrative (page 7) has the gun attack at 1345 I as Gemini read it. Check the narrative time."
+  13: "Aircraft contact 5: type read by hand as Flying Boat #97 (row_fixes). Latitude minutes 0⟦4⟧ faint."
+  14: "Attacks 1 and 2 give the same position, 29° 30' N 128° 50' E (checked on the scan), two hours apart; the target was stopped after attack 1."
 
 callouts:
-  - "Departure, 15 December (page 1): 'in company with U.S.S. POBALO' as Gemini read it (faint). No submarine of that name; check the page."
   - "The scan's left margin is clipped: day headings lose their first letters ('ecember', 'nuary', 'Tebruary'). The converter reads them as the nearest month name; the raw file is left as saved."
-  - "Gun attacks 1 and 2 (pages 14-15) to transcribe as attacks-02.md with the attack forms prompt."
+  - "Gun attack forms (attacks-02.md): Gemini's Flags list many misspellings ('Oven- edaire', 'DILOT MELATED', 'feos rimming devine') that its own transcription doesn't contain; probably OCR noise, not the report. They show on the detail cards as transcriber notes until checked."
   - "22 December 1317: the injured lookout's name is lost in the margin."

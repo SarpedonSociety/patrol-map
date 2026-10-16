@@ -40,7 +40,7 @@
   "lon": -157.95,
   "page": "1",
   "flags": [
-   "No zone letter typed; Pearl Harbor time (VW) assumed. In company with POBALO (as Gemini read it), escorted by PC-457."
+   "Zone read on the scan as '(VX)'; taken as VW, Hawaiian time (-10:30). Departed in company with U.S.S. SALMON under escort of PC-487 (read by hand; Gemini had POBALO and PC-457)."
   ]
  },
  "arrival": {
@@ -66,7 +66,7 @@
   "counterattacks": 0,
   "torpedoes_fired": 0,
   "gun_actions": 2,
-  "flagged": 75
+  "flagged": 76
  },
  "track": [
   {
@@ -157,14 +157,14 @@
    "lon": 134.0,
    "utc": "1944-01-30T02:10:00Z",
    "basis": "documented",
-   "ref": "SS-230-P07-C06"
+   "ref": "SS-230-P07-A16"
   },
   {
    "lat": 30.7,
    "lon": 139.81667,
    "utc": "1944-01-31T05:31:00Z",
    "basis": "documented",
-   "ref": "SS-230-P07-C07"
+   "ref": "SS-230-P07-A17"
   },
   {
    "lat": 30.68333,
@@ -837,6 +837,7 @@
     "remarks": "Sunk with five hits"
    },
    "flags": [
+    "Review: Ship contact 1 (1950 I 1 Jan, 30-26 N 130-01 E) is the tanker of attacks 1 and 2: first radar contact at 22,000 yards, tracked on 245 at 14 knots.",
     "Lat and long run together in the transcription (30-26 N : 130-01 E); read as 30-26 / 130-01."
    ],
    "contact_no": "1."
@@ -1063,7 +1064,7 @@
    "kind": "torpedo",
    "page": "12, 12",
    "zone": "I",
-   "local": "0152 I Anuary 2, 1944.",
+   "local": "0152 I 1-2-44",
    "utc": "1944-01-01T16:52:00Z",
    "has_time": true,
    "local_date": [
@@ -1086,8 +1087,7 @@
    "flags": [
     "Transcriber: ",
     "Transcriber: ",
-    "No time found on the form.",
-    "The attack table gives no time; 0152 I Anuary 2, 1944. is from the narrative entry (page 3), matched in order.",
+    "Review: Attacks 1 and 2 give the same position, 29° 30' N 128° 50' E (checked on the scan), two hours apart; the target was stopped after attack 1.",
     "Narrative entry at 0152 I Anuary 2, 1944. (page 3) describes this attack; its account is included here."
    ]
   },
@@ -1179,7 +1179,7 @@
    "kind": "torpedo",
    "page": "13, 13",
    "zone": "I",
-   "local": "0336 I Anuary 2, 1944.",
+   "local": "0336 I 1-2-44",
    "utc": "1944-01-01T18:36:00Z",
    "has_time": true,
    "local_date": [
@@ -1195,15 +1195,14 @@
    "title": "Attack 2",
    "fields": {
     "damage determined by": "\"exolceed\" typed for \"exploded\" (struck/smeared); \"un bar et\" typed for \"up target\"; \"hek up\" typed for \"pick up\".",
-    "form": "(⟦H⟧) ATTACK DATA: (continued)\n⟦U⟧.S.S. FI⟦N⟧BACK          TORPEDO ATTACK NO. 2       PATROL NO. 7\n⟦Ti⟧me 0336 (I) Date 1-2-44 Lat. 29° 30' (N) Long 12⟦8⟧° 50' (⟦E⟧)\nTARGET DATA                           DAMAGE INFLICTED\n⟦De⟧scription: Same target hit with two torpedoes on attack ⟦1⟧\n⟦Sh⟧ip's ⟦/⟧ Sunk:\n⟦   ⟧      Damaged\n           probably sunk : 1 tanker of about 10,000 tons.\n⟦Da⟧mage Determined      : Seeing three torpedoes hit.  Target exploded with a\n                         terrific explosion.  Unable to pick up target on Radar\n                         at range of 2,500 yards and depth of 40 feet.  Sur-\n                         faced at 3,000 yards range and could not ⟦pi⟧ck up\n                         target by sight or on radar.\n⟦Ta⟧rget Draft 32              Course 210     Speed 1 1/2\nOWN SHIP DATA\n⟦Sp⟧eed 4      Course 173      Depth 52       Angle 2° dive     Range 1,300\n                                                                (at firing)\nFIRE CONTROL ⟦AN⟧D TORPEDO DATA\n⟦Ty⟧pe Attack: Radar approach.  Submerged to depth of 40 feet.  When\n            unable to see target continually thru #1 periscope,\n            fired on SJ Radar bearings.\nLeft margin clipped throughout.\nLong 12⟦8⟧° 50' (⟦E⟧): middle digit appears typed over/smeared as \"123°\" or \"128°\"; zone letter typed as \"(1)\" or faint \"(E)\".\nDamage Determined text: \"exolceed\" typed for \"exploded\" (struck/smeared); \"un bar et\" typed for \"up target\"; \"hek up\" typed for \"pick up\".\n\"attack ⟦1⟧\": digit at end of line clipped/cut off.",
+    "form": "(⟦H⟧) ATTACK DATA: (continued)\n⟦U⟧.S.S. FI⟦N⟧BACK          TORPEDO ATTACK NO. 2       PATROL NO. 7\n⟦Ti⟧me 0336 (I) Date 1-2-44 Lat. 29° 30' (N) Long 128° 50' (E)\nTARGET DATA                           DAMAGE INFLICTED\n⟦De⟧scription: Same target hit with two torpedoes on attack ⟦1⟧\n⟦Sh⟧ip's ⟦/⟧ Sunk:\n⟦   ⟧      Damaged\n           probably sunk : 1 tanker of about 10,000 tons.\n⟦Da⟧mage Determined      : Seeing three torpedoes hit.  Target exploded with a\n                         terrific explosion.  Unable to pick up target on Radar\n                         at range of 2,500 yards and depth of 40 feet.  Sur-\n                         faced at 3,000 yards range and could not ⟦pi⟧ck up\n                         target by sight or on radar.\n⟦Ta⟧rget Draft 32              Course 210     Speed 1 1/2\nOWN SHIP DATA\n⟦Sp⟧eed 4      Course 173      Depth 52       Angle 2° dive     Range 1,300\n                                                                (at firing)\nFIRE CONTROL ⟦AN⟧D TORPEDO DATA\n⟦Ty⟧pe Attack: Radar approach.  Submerged to depth of 40 feet.  When\n            unable to see target continually thru #1 periscope,\n            fired on SJ Radar bearings.\nLeft margin clipped throughout.\nLong 128° 50' (E): middle digit appears typed over/smeared as \"123°\" or \"128°\"; zone letter typed as \"(1)\" or faint \"(E)\".\nDamage Determined text: \"exolceed\" typed for \"exploded\" (struck/smeared); \"un bar et\" typed for \"up target\"; \"hek up\" typed for \"pick up\".\n\"attack ⟦1⟧\": digit at end of line clipped/cut off.",
     "torpedoes": "⟦Tu⟧bes Fired           1                  2                  3\n⟦Tr⟧ack angle        148(S)             150(S)             148(S)\n⟦Gy⟧ro Angle         005 1/2            007                005\n⟦De⟧pth Set          8 ft               8 ft               8 ft\n⟦Po⟧wer              High               High               High\n⟦Hi⟧t or Miss        Hit                Hit                Hit\n⟦Er⟧ratic            No                 No                 No\n⟦Ma⟧rk Torpedo       XIV-3A             XIV-3A             XIV-3A\n⟦Se⟧rial ⟦No.⟧       25652              23780              39283\n⟦Mk⟧. Exploder       V-4                V-4                V-4\n⟦Se⟧rial No.         1331               2376               1614\n⟦Ac⟧tuation Set      Contact            Contact            Contact\n⟦Ac⟧tuation Actual   Contact            Contact            Contact\n⟦Mk⟧. Warhead        XVI                XVI                XVI\n⟦Se⟧rial No.         10336              10127              2156\n⟦Ex⟧plosive          TPX                TPX                TPX\n⟦Fi⟧ring Interval    10 sec\n⟦Sp⟧read             1 1/4°\n⟦Se⟧a Condition      Two\n⟦Ov⟧erhaul Activity  S/M Base           S/M Base           S/M Base\n                     P.H., T.H.         P.H., T.H.         P.H., T.H.\nThe last two lines of torpedo data for Attack 2 (\"Sea Condition Two\", \"Overhaul Activity...\") appear typed at the top of Page 14 above the header for Gun Attack No. 1.\nSerial No. label on tube 1 line typed simply as \"Serial\".\nPower for tubes 2 and 3 typed as \"Hich\".\n\nLeft-margin characters cut off by page binding/scanning on pages 12, 13, and 14; text spanning from Attack 1 onto page 13 and Attack 2 onto page 14; and Gun Attacks 1 and 2 and narrative sections (pages 14–15) omitted as they are not torpedo attack forms.",
     "narrative": "fired tubes #1, #2, and #3 at range of 1,300 yards. Results three observed hits. Heard cracking up noises in sound gear."
    },
    "flags": [
     "Transcriber: ",
     "Transcriber: ",
-    "No time found on the form.",
-    "The attack table gives no time; 0336 I Anuary 2, 1944. is from the narrative entry (page 3), matched in order.",
+    "Corrected by hand from the scan: 'Long 12⟦8⟧° 50' (⟦E⟧)' read as 'Long 128° 50' (E)'.",
     "Narrative entry at 0336 I Anuary 2, 1944. (page 3) describes this attack; its account is included here."
    ]
   },
@@ -2319,7 +2318,9 @@
     "Estimate Course": "270°"
    },
    "flags": [
+    "Corrected by hand from the scan: Type(s) was 'Flying Boat #97'.",
     "Transcriber: No period after \"5\"; latitude minutes faint/overstruck \"31°-0⟦4⟧\"; latitude and longitude coordinates lack explicit hemisphere letters; \"#22\" struck out and replaced by \"#97\" (or vice versa); course contains degree symbol.",
+    "Review: Aircraft contact 5: type read by hand as Flying Boat #97 (row_fixes). Latitude minutes 0⟦4⟧ faint.",
     "Lat and long run together in the transcription (31-04 N : 127-57 E); read as 31-04 / 127-57.",
     "Uncertain reading in lat long: 31°-0⟦4⟧(N) : 127°-57'(E)",
     "Uncertain reading in flags: No period after \"5\"; latitude minutes faint/overstruck \"31°-0⟦4⟧\"; latitude and longitude coordinates lack explicit hemisphere letters; \"#22\" struck out and replaced by \"#97\" (or vice versa); course contains degree symbol."
@@ -2414,6 +2415,37 @@
    ]
   },
   {
+   "id": "SS-230-P07-A16",
+   "source": "Gun attack data",
+   "row": 16,
+   "kind": "gun",
+   "page": "14",
+   "zone": "I",
+   "local": "1110 I 1-30-44",
+   "utc": "1944-01-30T02:10:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    1,
+    30
+   ],
+   "position_verbatim": "30-19 N 134-00 E",
+   "lat": 30.31667,
+   "lon": 134.0,
+   "derived": null,
+   "type": "",
+   "title": "Gun attack 1",
+   "fields": {
+    "form": "U.S.S. FINBACK              GUN ATTACK NO. 1           PATROL NO. 7\n⟦T⟧ime 1110 (I) Date 1-30-44 Lat. 30° 19' (⟦N⟧) Long. 134° 00'(⟦E⟧)\nTARGET DATA                           DA⟦MAGE INFLICTED⟧\n⟦S⟧unk:                               Trawler (sampan bow) of about 100 tons.  Target speeded\nDamaged or :                          up from 7 to 10 knots.  Diesel propelled.\n⟦Probab⟧ly Sunk\n⟦Da⟧mage Determined: Going alongside and examining visually.  Left with\n                   : stern submerged, on fire, and sinking.\nDETAILS OF ACTION\nSea was condition four which made the ship an unstable platform.\n⟦T⟧arget bounced around in sea.  Sighted target with #1 p⟦e⟧riscope and\nclosed it on the surface.  Opened fire at 2,100 yards with 4\" gun using\nsensitive nose ammunition.  Gradually closed range to 400 yards.  Open-\ned fire with three 20 mm guns and two air cooled 50 cal. machine guns.\nAt 1,000 yards target fired at us with small arms until we silenced\nthem with several hits which cleaned off the superstructure.\nUsed SJ Radar for ranges.  Fire was not too accurate in this sea.\nThe loss of our foot firing device, due to the linkage carrying away in\nrough seas enroute to the area, undoubtedly caused a lot of near misses.\nSensitive nose ammunition was very effective against this wooden target.\nAmmunition Expended:\n     4\" -  99 rounds\n  20 mm - 550 rounds\n 50 cal.- 320 rounds\nLeft margin clipped affecting heading letters (\"Time\", \"Sunk\", \"Damage Determined\", etc.).\nHeader line appears as \"PATROL NO7\" (space omitted between NO and 7).\nLat./Long.: degree mark on latitude typed as \"30° 19 (N)\"; Longitude zone letter clipped/faint in parenthesis.\nMisspellings/typos in original: \"DILOT MELATED\" typed near header/damage column; \"#lpriscope\"; \"clce ed\" typed and corrected/struck as \"closed\"; \"cur\" for \"gun\"; \"Cradually\"; \"Oven- edaire\" for \"Opened fire\"; \"dovice\"; \"carrving awer\".",
+    "narrative": "sighted trawler with #1 periscope. Closed trawler on surface and destroyed with gunfire."
+   },
+   "flags": [
+    "Transcriber: ",
+    "Narrative entry at 1110 I anuary 30, 1944. (page 6) describes this attack; its account is included here.",
+    "periscope typed periscone"
+   ]
+  },
+  {
    "id": "SS-230-P07-C06",
    "source": "(f) ship contacts:",
    "row": 6,
@@ -2448,35 +2480,6 @@
    "contact_no": "6."
   },
   {
-   "id": "SS-230-P07-N63",
-   "source": "Part I narrative",
-   "part": "I",
-   "kind": "gun",
-   "page": "6",
-   "zone": "I",
-   "local": "1110 I anuary 30, 1944.",
-   "utc": "1944-01-30T02:10:00Z",
-   "position_verbatim": "",
-   "derived": null,
-   "tag": "gun",
-   "local_date": [
-    1944,
-    1,
-    30
-   ],
-   "has_time": true,
-   "lat": null,
-   "lon": null,
-   "type": "Narrative",
-   "title": "Destruction of trawler with gunfire",
-   "fields": {
-    "event": "sighted trawler with #1 periscope. Closed trawler on surface and destroyed with gunfire."
-   },
-   "flags": [
-    "periscope typed periscone"
-   ]
-  },
-  {
    "id": "SS-230-P07-N62",
    "source": "Part I narrative",
    "part": "I",
@@ -2507,31 +2510,36 @@
    ]
   },
   {
-   "id": "SS-230-P07-N65",
-   "source": "Part I narrative",
-   "part": "I",
+   "id": "SS-230-P07-A17",
+   "source": "Gun attack data",
+   "row": 17,
    "kind": "gun",
-   "page": "7",
+   "page": "14",
    "zone": "I",
-   "local": "1345 I January 31, 1944.",
-   "utc": "1944-01-31T04:45:00Z",
-   "position_verbatim": "",
-   "derived": null,
-   "tag": "gun",
+   "local": "1431 I 1-31-44",
+   "utc": "1944-01-31T05:31:00Z",
+   "has_time": true,
    "local_date": [
     1944,
     1,
     31
    ],
-   "has_time": true,
-   "lat": null,
-   "lon": null,
-   "type": "Narrative",
-   "title": "Gun attack on trawler",
+   "position_verbatim": "30-42 N 139-49 E",
+   "lat": 30.7,
+   "lon": 139.81667,
+   "derived": null,
+   "type": "",
+   "title": "Gun attack 2",
    "fields": {
-    "event": "sighted trawler with #1 periscope. Decided to expend remainder of 4\" ammunition. Sea too rough to be sure of many hits. Expended 4\" ammunition, damaged trawler, killed majority of personnel, and resumed course to eastward."
+    "damaged": "Diesel propelled.  Damaged.",
+    "damage determined by": "Seeing 4 inch shells hit and explode.  Superstructure by: and hull holed.",
+    "form": "U.S.S. FINBACK              GUN ATTACK NO. 2           PATROL NO. 7\nTime 1431 (I)   Date 1-31-44          Lat. 30° 42' (⟦N⟧)      Long. 139° 49' (E)\nTARGET DATA                           DAMAGE INFLICTED\nSunk:\nDamaged or :                          Trawler of about 100 tons.  Target speed of 7 knots.\nProbably Sunk:                        Diesel propelled.  Damaged.\nDamage Determined: Seeing 4 inch shells hit and explode.  Superstructure\n               by: and hull holed.\nDETAILS OF ACTION\nSea was condition four.  Too rough for good shooting.  Sighted\ntarget with #1 periscope and closed it on the surface.  Opened fire\nat 2,200 yards with 4\" gun using 4\" common ammunition.  Closed range\nto 900 yards.  Opened fire with three 20 mm guns and two air cooled\n50 cal. machine guns at 1,800 yards when target opened fire with a\nmachine gun.  Obtained about eight hits with 4\" gun, three of which\nexploded.  Numerous hits were obtained with the small arms and the\nenemy machine gun was silenced.  The small arms eliminated all per-\nsonnel topside.  Broke off action when all 4\" ammunition was expended.\nHad we had a smooth sea, more hits would have been obtained, and the\ntarget completely wrecked.  The lack of a foot firing device again\ncontributed to our inaccuracy of fire.  Sensitive nose ammunition is\nmuch more effective than common ammunition against targets.\nAmmunition expended:\n     4\" - 129 rounds\n  20 mm - 600 rounds\n 50 cal - 600 rounds\nGun Attack No. 2 begins on page 14 and concludes at the top of page 15.\nPage 14 left margin slightly clipped at latitude hemisphere: \"30° 42' ( )\".\nMisspellings/typos in original on page 15: \"co mon\", \"onened fire.\", \"Achine gun\", \"lumerous\", \"ver- sonnel\", \"exmended\", \"feos rimming devine\", \"come arunction\", \"co mon\", \"ageldgets\".\nAmmunition counts on page 15: \"129\" faintly overstruck/obscured as \"1,29\", \"rounds\" partly cut off on edge.\n\nLeft-margin characters clipped by binding/edge on page 14; text below the Gun Attack No. 2 Ammunition Expended list on page 15 (Anti-Submarine Measures, Major Defects and Damage) omitted as it is outside the gun attack report.",
+    "narrative": "sighted trawler with #1 periscope. Decided to expend remainder of 4\" ammunition. Sea too rough to be sure of many hits. Expended 4\" ammunition, damaged trawler, killed majority of personnel, and resumed course to eastward."
    },
-   "flags": []
+   "flags": [
+    "Transcriber: ",
+    "Narrative entry at 1345 I January 31, 1944. (page 7) describes this attack; its account is included here."
+   ]
   },
   {
    "id": "SS-230-P07-C07",
@@ -2563,6 +2571,7 @@
    },
    "flags": [
     "Transcriber: Gun action in ship contacts table; Longitude hemisphere missing letter \"1390-49( )\"; degree symbols typed as zeros in \"300-42\" and \"1390-49\".",
+    "Review: Ship contact 7 and gun attack form 2 both give 1431 I 31 January; the narrative (page 7) has the gun attack at 1345 I as Gemini read it. Check the narrative time.",
     "Lat and long run together in the transcription (30-42 N : 139-49 E); read as 30-42 / 139-49."
    ],
    "contact_no": "7."

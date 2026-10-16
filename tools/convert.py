@@ -945,8 +945,8 @@ def build_patrol(folder, ref):
                     flags.append(f"Corrected by hand from the scan: '{fx['old']}' read as '{fx.get('new', '')}'.")
             if entry in row_notes:
                 flags.append(f"Review: {row_notes[entry]}")
-            tm = re.search(r"Time\s*[:;,]?\s*(\d{4})\s*\(?\s*([A-Z])?\s*\)?", body, re.I)
-            dm = re.search(r"Date\s*[:;,]?\s*([A-Za-z]+\.?\s*\d{1,2}(?:,?\s*\d{4})?|\d{1,2}[/-]\d{1,2}[/-]\d{2,4})", body, re.I)
+            tm = re.search(r"Time\s*[:;,]?\s*(\d{4})\s*\(?\s*([A-Z])?\s*\)?", unbracket(body), re.I)
+            dm = re.search(r"Date\s*[:;,]?\s*([A-Za-z]+\.?\s*\d{1,2}(?:,?\s*\d{4})?|\d{1,2}[/-]\d{1,2}[/-]\d{2,4})", unbracket(body), re.I)
             la = re.search(r"Lat\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?|\d{4})\s*\.?\s*([NS])", body, re.I)
             lo = re.search(r"Long\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?)\s*\.?\s*([EW])", body, re.I)
             # Degrees-and-minutes form, "Lat. 29° 30' (N) Long. 128° 50'(E)": rewrite as 29-30 N.
