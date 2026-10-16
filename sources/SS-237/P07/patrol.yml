@@ -23,6 +23,12 @@ commanding_officer: "R. E. Dornin"
 miles_steamed: { to_area: 2912, in_area: 2275, area_to_base: 2920, midway_to_pearl: 1268, total: 9375 }
 fuel_expended: { to_area: 32890, in_area: 17430, area_to_base: 33470, midway_to_pearl: 18300, total: 112090 }
 
+# Attack 3 form read by hand from page 16: target course 010, own course 280
+# (Gemini had them the other way round).
+form_fixes:
+  - { attack: 3, old: "Course: 280.  Speed: 5.", new: "Course: 010.  Speed: 5." }
+  - { attack: 3, old: "Course: 010.  Depth: Surface.", new: "Course: 280.  Depth: Surface." }
+
 # A zone letter typed as the numeral 1 (6 November 0602) is zone I.
 zone_fix: { "1": I }
 

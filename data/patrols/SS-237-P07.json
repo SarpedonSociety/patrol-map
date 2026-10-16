@@ -1256,9 +1256,9 @@
     "description": "Same target as attack #2. 3 island freighter, class unknown, about 7000 tons.",
     "sunk": "The target.",
     "damage determined by": "Saw two torpedoes hit. Saw ship sink.",
-    "target": "20 ft.  Course: 280.  Speed: 5.  Range: 1700 (at firing)",
-    "own ship": "8.             Course: 010.  Depth: Surface. Angle: 0-10 R (at firing)",
-    "form": "U.S.S. TRIGGER                                  Report of Seventh War Patrol (Cont'd.)\n(H) ATTACK DATA (Cont'd)\n                          TORPEDO ATTACK REPORT FORM\nU.S.S. TRIGGER            Torpedo Attack No. THREE. Patrol No. SEVEN.\nTime: 0216 I              Date: November 2        Lat. 28-55 N. Long. 134-43 E.\n         TARGET DATA                                DAMAGE INFLICTED\nDescription: Same target as attack #2. 3 island freighter, class\n             unknown, about 7000 tons.\nShip(s) sunk: The target.\nShip(s) damaged or\nprobably sunk:\nDamage determined by: Saw two torpedoes hit. Saw ship sink.\nTarget draft: 20 ft.  Course: 280.  Speed: 5.  Range: 1700 (at firing)\n         OWN SHIP DATA\nSpeed: 8.             Course: 010.  Depth: Surface. Angle: 0-10 R (at firing)",
+    "target": "20 ft.  Course: 010.  Speed: 5.  Range: 1700 (at firing)",
+    "own ship": "8.             Course: 280.  Depth: Surface. Angle: 0-10 R (at firing)",
+    "form": "U.S.S. TRIGGER                                  Report of Seventh War Patrol (Cont'd.)\n(H) ATTACK DATA (Cont'd)\n                          TORPEDO ATTACK REPORT FORM\nU.S.S. TRIGGER            Torpedo Attack No. THREE. Patrol No. SEVEN.\nTime: 0216 I              Date: November 2        Lat. 28-55 N. Long. 134-43 E.\n         TARGET DATA                                DAMAGE INFLICTED\nDescription: Same target as attack #2. 3 island freighter, class\n             unknown, about 7000 tons.\nShip(s) sunk: The target.\nShip(s) damaged or\nprobably sunk:\nDamage determined by: Saw two torpedoes hit. Saw ship sink.\nTarget draft: 20 ft.  Course: 010.  Speed: 5.  Range: 1700 (at firing)\n         OWN SHIP DATA\nSpeed: 8.             Course: 280.  Depth: Surface. Angle: 0-10 R (at firing)",
     "torpedoes": "FIRE CONTROL AND TORPEDO DATA\nType Attack: Night surface, with Radar and TBT.\nTubes fired:             #4               #5               #6\nTrack Angles:                 - - - - - -  90 S - - - - - -\nGyro Angles:                  - - - - -  0-10 R - - - - - -\nDepth Set:               10 ft            10 ft            10 ft\nPower:                   High             High             High\nHit or miss                   - - - - - Two hits- - - - - -\nErratic:                      - - - - One erratic run - - -\nMark Torpedo:            14-3-A           14-3-A           14-3-A\nSerial No:               23513            25265            23260\nMark Exploder            6-1              6-1              6-1\nSerial No:               5940             6139             3890\nActuation Set:           Contact          Contact          Contact\nActuation Actual:        Contact          Contact          Contact\nMark Warhead:            16               16               16\nSerial No:               6048             1175             11175\nExplosive:               Torpex           Torpex           Torpex\nFiring Interval:         8 Sec            8 Sec            8 Sec\nType Spread:             3° ahead         MOT              3° astern\nSea Condition:                - - - - - State Four- - - - -\nOverhaul Activity:            - - - - U.S.S. SPERRY - - - -\nRemarks:                 One erratic run, two hits. Target sank.",
     "fired": "3",
     "narrative": "Fired three torpedoes forward, range 1700 yards, 90 starboard track, GA O. Two hits in forward part of the target."
@@ -1266,7 +1266,9 @@
    "flags": [
     "Transcriber: \"Targot\" typed on form for \"Target\"; \"Speod\" typed on form for \"Speed\".",
     "Transcriber: Torpedo attack data and torpedo data share page 16; colon missing after \"Mark Exploder\"; \"Actuation Set\" and \"Actuation Actual\" end with colons/semicolons blurred as \"Sets\" and \"Actuals\"; \"Torpex\" on tube #5 typed as \"Torrex\"; \"Firing Interval\" on tube #5 typed as \"8 Sac\"; \"Sea Condition:\" has a typo or faint character \"Sen Condition:\".",
-    "Review: Attack 3: form gives target course 280, own course 010; the narrative (2 Nov 0208) says 'Tracked target on course 010, speed 5'. Check page 3 and page 16. The form's 'One erratic run' isn't mentioned in the narrative.",
+    "Corrected by hand from the scan: 'Course: 280.  Speed: 5.' read as 'Course: 010.  Speed: 5.'.",
+    "Corrected by hand from the scan: 'Course: 010.  Depth: Surface.' read as 'Course: 280.  Depth: Surface.'.",
+    "Review: Attack 3: courses read by hand from page 16 (form_fixes): target course 010, speed 5 (agrees with the narrative, 2 Nov 0208); own ship course 280, speed 8. The form's 'One erratic run' isn't mentioned in the narrative.",
     "Narrative entry at 0216 I November 2 (page 3) describes this attack; its account is included here."
    ]
   },
@@ -2490,7 +2492,7 @@
    },
    "flags": [
     "Transcriber: \"waile\" typed as in original",
-    "Review: Ship contact 4 (periscope): 0306 Z 6 Nov is 1206 I 6 November, but the narrative has 1206 I on 7 November (page 6). Check which date the report gives."
+    "Review: Ship contact 4 (periscope, SS submerged): checked on the scan. The table has 0306 Z 6 Nov (1206 I 6 November); the narrative has 1206 I 7 November. Same time of day, different date: one is a typing error in the report. The track favours the narrative: aircraft contact 5 puts the boat at 29-04 N 132-25 E at 0636 I on 6 November, about 95 miles east of this position, and she dived at 0636; reaching 130-38 E by 1206 would need about 17 knots, mostly submerged. Left as typed, so the map places it on the 6th."
    ],
    "contact_no": "4"
   },
@@ -4371,6 +4373,7 @@
     "remarks": "Avoided."
    },
    "flags": [
+    "Review: Ship contact 6: time typed as a span, '0000 Z to 1500 Z Nov 16' (seven patrol boats over the day), so it has no single time and isn't placed on the timeline. The narrative entry for 16 November covers it.",
     "Could not read time/date '0000 Z to 1500 Z Nov 16'."
    ],
    "contact_no": "6"

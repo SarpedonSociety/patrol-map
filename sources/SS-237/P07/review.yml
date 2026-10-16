@@ -4,11 +4,11 @@
 # Delete a note once it's resolved against the report.
 
 rows:
-  4: "Ship contact 4 (periscope): 0306 Z 6 Nov is 1206 I 6 November, but the narrative has 1206 I on 7 November (page 6). Check which date the report gives."
+  4: "Ship contact 4 (periscope, SS submerged): checked on the scan. The table has 0306 Z 6 Nov (1206 I 6 November); the narrative has 1206 I 7 November. Same time of day, different date: one is a typing error in the report. The track favours the narrative: aircraft contact 5 puts the boat at 29-04 N 132-25 E at 0636 I on 6 November, about 95 miles east of this position, and she dived at 0636; reaching 130-38 E by 1206 would need about 17 knots, mostly submerged. Left as typed, so the map places it on the 6th."
   6: "Ship contact 6: time typed as a span, '0000 Z to 1500 Z Nov 16' (seven patrol boats over the day), so it has no single time and isn't placed on the timeline. The narrative entry for 16 November covers it."
   11: "Ship contact 11: 36-37 N 125-31 E; the narrative (21 Nov 2130) and attack form 7 have 36-40 N."
   23: "Attack 1: Range typed as two figures, 1400 over 2400. The narrative gives 1400 yards to the near (#1) freighter; 2400 is probably the far (#2) one."
-  25: "Attack 3: form gives target course 280, own course 010; the narrative (2 Nov 0208) says 'Tracked target on course 010, speed 5'. Check page 3 and page 16. The form's 'One erratic run' isn't mentioned in the narrative."
+  25: "Attack 3: courses read by hand from page 16 (form_fixes): target course 010, speed 5 (agrees with the narrative, 2 Nov 0208); own ship course 280, speed 8. The form's 'One erratic run' isn't mentioned in the narrative."
   27: "Attack 5: Range typed as 2400 over 1200: 2400 for the three torpedoes at the second ship, 1200 for the fourth at the third ship (narrative 0814 and 0815)."
 
 callouts:
