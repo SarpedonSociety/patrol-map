@@ -1,0 +1,827 @@
+YAML
+
+```
+boat: "SS-237"
+patrol: 7
+year: 1943
+report: "Report of Seventh War Patrol."
+comsubpac_report_no: "323"
+commanding_officer:
+citation:
+  archive: "NARA"
+  record_group: "38"
+  nara_catalog_id: "4697018"
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946"
+  reel: "A761"
+  micro_serial: "62127"
+  file: "A16-3"
+  serial: "01904"
+  date: "12/14/1943"
+fold3_images: { 1: 270916875, 2: 270916884, 3: 270916895, 4: 270916905 }
+default_hemisphere: { lat: N, lon: E }
+departure: { port: "Midway", date: "October 22", time: "1500", zone: "Y", page: 1, flags: "" }
+arrival:   { port: , date: , time: , zone: , page: , flags: "" }
+events:
+- date: "October 22"
+  time: "1500"
+  zone: "Y"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Departed Midway on 7th War Patrol."
+  page: 1
+  flags: ""
+- date: "October 22 30"
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Conducted training exercises enroute."
+  page: 1
+  flags: "Date heading typed as 'October 22 30' covering span through October 30; no time given."
+- date: "October 30"
+  time: "0900"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived for a plane. Took this opportunity to check torpedoes."
+  page: 1
+  flags: ""
+- date: "October 30"
+  time: "1244"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 1
+  flags: ""
+- date: "November 1"
+  time: "0735"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted formation of 5 unidentified planes, heading south at high altitude. They passed out of sight almost immediately, and we did not dive."
+  page: 1
+  flags: ""
+- date: "November 1"
+  time: "2025"
+  zone: "I"
+  lat: "29-35 N."
+  lon: "134-31 E."
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Radar contact at 10,000 yards on 12-plus ship convoy. Tracked on port flank, crossed ahead to right flank; dark conditions prevented sighting escorts or ships."
+  page: 1
+  flags: "Heading typed: 'FIRST CONTACT LARGE ESCORTED CONVOY.' with position."
+- date: "November 1"
+  time: "2130"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Approached starboard beam, broke off when convoy zigged and two more escorts appeared. Made several false starts over next half hour due to zigs and escorts."
+  page: 1
+  flags: "Text spans pages 1 and 2."
+- date: "November 1"
+  time: "2200"
+  zone: "I"
+  lat: "29-12 N."
+  lon: "134-37 E."
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Commenced attack approach; escort closed on PPI and targets zigged, showing overlapping broadsides of two freighters in near and far columns."
+  page: 2
+  flags: "Heading typed: 'FIRST ATTACK #1 FREIGHTER, 7000 TONS (CLASS UNKNOWN) SUNK. #2 FREIGHTER, 7000 TONS (CLASS UNKNOWN) PROBABLY SUNK.' with position; latitude typed '29-12 ⟦N⟧.' with N slightly blurred/resembling 2; 'FREIGHTER' typed with typos in heading ('FRUIGHTER', 'FREL... UNO FROBABLY')."
+- date: "November 1"
+  time: "2217"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Attack on two freighters"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "fired three torpedoes forward, range 1400 yards, 110 starboard track, GA O, at the near ( #1) FREIGHTER, figuring we had a good chance of hitting the far(#2) FREIGHTER also. Both were 3 island type freighters of about 7000 tons."
+  page: 2
+  flags: "Number symbols in text typed as faint '⟦#⟧1' and '⟦#⟧2'."
+- date: "November 1"
+  time: "2218"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "One hit in the bow of #1 FREIGHTER, 60 seconds after firing. A large column of spray and smoke enveloped his forward part. He was last seen down by the bow, definitely sinking."
+  page: 2
+  flags: "Target typed as '⟦#⟧ 1 FREIGHTER'."
+- date: "November 1"
+  time: "2218 1/2"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "One hit amidships in #2 FREIGHTER, 90 seconds after firing. This was a terrific explosion. Smoke and debris rose over the tops of his masts, and continued to rise and spread until not only the remains of this ship, but also several other ships, were obscured. Smoke and poor visibility prevented seeing this one sink."
+  page: 2
+  flags: "Target typed as '⟦#⟧ 2 FREIGHTER'."
+- date: "November 1"
+  time: "2219"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Swung left to reverse course and went ahead full on four engines. In the meantime the convoy scattered in all directions."
+  page: 2
+  flags: "Typo in original: 'roverse course'."
+- date: "November 1"
+  time: "2221"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "PPI reported a pip on the starboard bow and one astern, range about 1800 yards to each, and bridge then saw two escorts coming out of the smoke with zero angles on their bows and bones in their teeth."
+  page: 2
+  flags: ""
+- date: "November 1"
+  time: "2222"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Made quick dive to 300 feet."
+  page: 2
+  flags: ""
+- date: "November 1"
+  time: "2223"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Heard somebody's boilers explode."
+  page: 2
+  flags: ""
+- date: "November 1"
+  time: "2232"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "counterattack"
+  title: "Depth charge attack by two escorts"
+  part: "I"
+  charges: "20"
+  damage:
+  with:
+  course:
+  speed:
+  event: "Commenced receiving 20 depth charges from two escorts, pinging and making runs alternately."
+  page: 3
+  flags: ""
+- date: "November 2"
+  time: "0015"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Escorts still echo ranging, but had apparently lost contact."
+  page: 3
+  flags: ""
+- date: "November 2"
+  time: "0025"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Radar depth, all clear."
+  page: 3
+  flags: ""
+- date: "November 2"
+  time: "0028"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Commenced reload."
+  page: 3
+  flags: ""
+- date: "November 2"
+  time: "0043"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Two distant explosions."
+  page: 3
+  flags: ""
+- date: "November 2"
+  time: "0048"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Reload completed."
+  page: 3
+  flags: ""
+- date: "November 2"
+  time: "0050"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course: "160°T"
+  speed:
+  event: "Surfaced, full speed on four engines. Course 160°T, attempting to regain contact."
+  page: 3
+  flags: ""
+- date: "November 2"
+  time: "0145"
+  zone: "I"
+  lat: "28-55 N."
+  lon: "134-43 E."
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course: "310° T"
+  speed: "8"
+  event: "Radar contact. Target tracked on course 310° T, speed 8, not zigzagging."
+  page: 3
+  flags: "Heading typed: 'SECOND ATTACK FREIGHTER, MEDIUM 3 ISLAND TYPE, 7000 TONS, DAMAGED' with position."
+- date: "November 2"
+  time: "0203"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Second attack on freighter"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Fired three torpedoes forward, range 1200 yards, 105 starboard track, GA O. One hit. Target covered with smoke and steam."
+  page: 3
+  flags: ""
+- date: "November 2"
+  time: "0208"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course: "010"
+  speed: "5"
+  event: "Target not sinking. Commenced another approach. Tracked target on course 010, speed 5."
+  page: 3
+  flags: "Heading typed: 'THIRD ATTACK SAME TARGET, SUNK.'"
+- date: "November 2"
+  time: "0210"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "counterattack"
+  title: "Gunfire from freighter"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "The FREIGHTER opened fire with bow and stern guns, but no shells landed even dangerously close."
+  page: 3
+  flags: ""
+- date: "November 2"
+  time: "0216"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Third attack on freighter"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Fired three torpedoes forward, range 1700 yards, 90 starboard track, GA O. Two hits in forward part of the target."
+  page: 3
+  flags: ""
+- date: "November 2"
+  time: "0220"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "FREIGHTER sank, bow first in a vertical plunge. Headed in that direction in hopes of picking up survivors. No luck. They would have been hard to see, in any event."
+  page: 3
+  flags: ""
+- date: "November 2"
+  time: "0228"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course: "160°T"
+  speed:
+  event: "Changed course to 160°T, at full speed."
+  page: 3
+  flags: ""
+- date: "November 2"
+  time: "0245"
+  zone: "I"
+  lat: "28-49 N."
+  lon: "134-50 E."
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Radar contact. Commenced approach and tracking."
+  page: 4
+  flags: "Heading typed: 'FOURTH ATTACK TANKER, 8000 TONS (CLASS UNKNOWN) SUNK' with position; longitude typed '134-50 ⟦E⟧.' (typed as B)."
+- date: "November 2"
+  time: "0310"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Target in sight."
+  page: 4
+  flags: ""
+- date: "November 2"
+  time: "0315"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course: "130° T"
+  speed: "8"
+  event: "Target identified as a TANKER of about 8000 tons, course 130° T, speed 8."
+  page: 4
+  flags: ""
+- date: "November 2"
+  time: "0321"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Fourth attack on tanker"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Fired three torpedoes forward, range 1200 yards, 90 starboard track, GA O."
+  page: 4
+  flags: ""
+- date: "November 2"
+  time: "0322"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Three hits; target disintegrated with bow broken off vertically and sinking immediately, and after two thirds remaining awash two minutes before sinking flat."
+  page: 4
+  flags: ""
+- date: "November 2"
+  time: "0327"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Ran through a large diesel oil slick. Heard indescribable screaming and yelling from ahead, and saw a group of two or three life boats and about five life rafts."
+  page: 4
+  flags: ""
+- date: "November 2"
+  time: "0330"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course: "160° T"
+  speed:
+  event: "Reversed course and searched for survivors, but could find only one shattered empty life boat. Finally departed, course 160° T, at full speed."
+  page: 4
+  flags: ""
+- date: "November 2"
+  time: "0545"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "No further contacts; dived. Rough weather and poor visibility throughout day (from 500 to 5000 yards) precluded any surface search."
+  page: 4
+  flags: ""
+- date: "November 2"
+  time: "0855"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Heard four distant explosions."
+  page: 4
+  flags: ""
+- date: "November 2"
+  time: "1732"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course: "090° T / 290° T"
+  speed: "16 knots"
+  event: "Surfaced, transmitted message on course 090° T, then came to 290° T at 16 knots."
+  page: 4
+  flags: ""
+- date: "November 2"
+  time: "2315"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Sighted life raft 25 yards away with three men; stopped abreast, but raft drifted away in darkness during maneuvers and could not be relocated."
+  page: 4
+  flags: ""
+```
+
+Could not transcribe: Commanding officer name, arrival information, and narrative entries beyond page 4 (not present in the provided pages).

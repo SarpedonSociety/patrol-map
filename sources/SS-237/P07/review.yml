@@ -1,0 +1,17 @@
+# Reviewer notes for the contact tables, keyed by entry number: entries are
+# counted through contacts-01.md in order (ship contacts 1-12, aircraft
+# contacts 13-22), then the attack forms in attacks-01.md (23-29).
+# Delete a note once it's resolved against the report.
+
+rows:
+  4: "Ship contact 4 (periscope): 0306 Z 6 Nov is 1206 I 6 November, but the narrative has 1206 I on 7 November (page 6). Check which date the report gives."
+  6: "Ship contact 6: time typed as a span, '0000 Z to 1500 Z Nov 16' (seven patrol boats over the day), so it has no single time and isn't placed on the timeline. The narrative entry for 16 November covers it."
+  11: "Ship contact 11: 36-37 N 125-31 E; the narrative (21 Nov 2130) and attack form 7 have 36-40 N."
+  23: "Attack 1: Range typed as two figures, 1400 over 2400. The narrative gives 1400 yards to the near (#1) freighter; 2400 is probably the far (#2) one."
+  25: "Attack 3: form gives target course 280, own course 010; the narrative (2 Nov 0208) says 'Tracked target on course 010, speed 5'. Check page 3 and page 16. The form's 'One erratic run' isn't mentioned in the narrative."
+  27: "Attack 5: Range typed as 2400 over 1200: 2400 for the three torpedoes at the second ship, 1200 for the fourth at the third ship (narrative 0814 and 0815)."
+
+callouts:
+  - "Page 7 heading: 'November 9' with '13' typed below; entries from 0300 dated 13 November by hand in patrol.yml (confirmed by ship contact 5, aircraft contact 6 and attack form 6). Page 8 has '16' below 'November 14' and '18' below 'November 17', read here as spans (14-16, 17-18); the 16 November entry stands on its own. Confirm on pages 7-8."
+  - "Report fuel total 112,090 is 10,000 more than the four legs (102,090). Kept as printed."
+  - "Landmarks not yet in reference.yml: AKUSEKI JIMA (5 Nov 0625, '20 miles southeastward', but the entry also gives 29-08 N 129-37 E), CHOSAN KAN (20 Nov 0640, 5 miles, no bearing), WEST CLIFFORD Island (21 Nov 2027, 5 miles, no bearing)."

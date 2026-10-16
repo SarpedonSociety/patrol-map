@@ -26,6 +26,8 @@ Reproduce each table as the report lays it out:
 - Put `### <table title as typed>` above each table, and a line
   `Page <n>` above it and wherever the table continues on a new page.
 - Keep the report's own column headings, spelled as typed.
+- Put the Markdown separator row (`| --- | --- |`, one `---` per column)
+  directly under each heading row, so the table displays in Markdown viewers.
 - If the report prints a table with attacks as columns (Attack 1, 2, 3
   across the top and fields down the side), keep that layout. The first
   heading must be `Attack`.

@@ -310,7 +310,9 @@ def find_landmark(landmarks, name):
 
 def parse_date(date_str, year, first_month):
     """'10MAY' (year from patrol.yml) or '10/4/43' (M/D/YY) -> (y, m, d)."""
-    d = unbracket(plain(date_str or "")).upper().replace(",", " ").replace(".", " ").strip()
+    d = unbracket(plain(date_str or "")).upper()
+    d = re.sub(r"\(\s*CONT[^)]*\)", "", d)   # "November 21 (Cont'd.)": a day heading carried onto a new page
+    d = d.replace(",", " ").replace(".", " ").strip()
     d = re.sub(r"^(\d{1,2})\s*-\s*\d{1,2}\b(?!\s*-)", r"\1", d)   # "28-31 December" -> first day (not "5-27-43")
     d = re.sub(r"\s+", " ", d)
     words = re.fullmatch(r"([A-Z]{3})[A-Z]*\.?\s+(\d{1,2})(?:\s+(\d{4}))?|(\d{1,2})\s+([A-Z]{3})[A-Z]*\.?(?:\s+(\d{4}))?", d)
@@ -931,7 +933,7 @@ def build_patrol(folder, ref):
             if entry in row_notes:
                 flags.append(f"Review: {row_notes[entry]}")
             tm = re.search(r"Time\s*[:;,]?\s*(\d{4})\s*\(?\s*([A-Z])?\s*\)?", body, re.I)
-            dm = re.search(r"Date\s*[:;,]?\s*([A-Za-z]+\.?\s*\d{1,2},?\s*\d{4}|\d{1,2}[/-]\d{1,2}[/-]\d{2,4})", body, re.I)
+            dm = re.search(r"Date\s*[:;,]?\s*([A-Za-z]+\.?\s*\d{1,2}(?:,?\s*\d{4})?|\d{1,2}[/-]\d{1,2}[/-]\d{2,4})", body, re.I)
             la = re.search(r"Lat\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?|\d{4})\s*\.?\s*([NS])", body, re.I)
             lo = re.search(r"Long\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?)\s*\.?\s*([EW])", body, re.I)
             t = tm.group(1) if tm else None
@@ -1320,11 +1322,12 @@ def check_index(index, inventory, built):
         parts = [n("days_to_station"), n("days_in_area"), n("days_from_station")]
         if None not in parts and n("days_underway") is not None and abs(sum(parts) - n("days_underway")) > 0.01:
             msgs.append(f"{tag}: days to/in/from area add to {fmt(sum(parts))}, days underway is {fmt(n('days_underway'))}")
-        for what, keys, total in (("miles", ("miles_to_area", "miles_in_area", "miles_from_area"), "total_miles"),
-                                  ("fuel", ("fuel_to", "fuel_in", "fuel_from"), "total_fuel")):
-            vals = [n(k) for k in keys]
+        for what, keys, extra, total in (
+                ("miles", ("miles_to_area", "miles_in_area", "miles_from_area"), "midway_pearl_mi", "total_miles"),
+                ("fuel", ("fuel_to", "fuel_in", "fuel_from"), "midway_pearl_gal", "total_fuel")):
+            vals = [n(k) for k in keys] + ([n(extra)] if n(extra) is not None else [])
             if None not in vals and n(total) is not None and abs(sum(vals) - n(total)) > 2:
-                msgs.append(f"{tag}: {what} to/in/from area add to {fmt(sum(vals))}, total is {fmt(n(total))}")
+                msgs.append(f"{tag}: {what} legs add to {fmt(sum(vals))}, total is {fmt(n(total))}")
         try:
             a = datetime.strptime(str(ix.get("started")), "%Y-%m-%d")
             b = datetime.strptime(str(ix.get("ended")), "%Y-%m-%d")
