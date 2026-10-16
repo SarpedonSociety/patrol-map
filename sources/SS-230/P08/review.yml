@@ -1,0 +1,33 @@
+# Reviewer notes for Finback Patrol 8, keyed by entry number: entries are
+# counted through contacts-01.md in order (ship contacts 1-5, aircraft
+# contacts 6-44), then the forms in attacks-01.md (torpedo attacks 45-47,
+# gun attack 48).
+# Delete a note once it's resolved against the report.
+
+rows:
+  1: "Ship contact 1: table gives 13,000 yards; the narrative (23 March 2348, page 2) reads 18,000. Read both on the scan."
+  2: "Ship contact 2 (periscope): Gemini read the date 3-6-44 (image run) and 3-26-44 (text-layer run); the narrative puts it at 1109 K 6 April, page 5. row_fixes sets 4-6-44 provisionally; replace with the scan reading."
+  3: "Ship contact 3 (the convoy of attacks 1-3): Gemini read 3-13-44 and 3-30-44; the narrative puts it on 12 April. row_fixes sets 4-12-44 provisionally. Table time 1705 (first run 1709); the narrative smoke sighting reads 1745. Latitude 9° 48' (first run 7°)."
+  4: "Ship contact 4 (patrol boat): table 1525 K, narrative 1625 K (16 April, page 11). As typed the 1525 position lies 12 miles from aircraft contact 35 at 1541. Read both."
+  6: "Aircraft contact 1: Gemini read 3-27-44 and 3-25-44; the narrative (page 1) and the en-route position 12° 02' N 155° 12' E put it at 0725 K 21 March. row_fixes sets 3-21-44 provisionally."
+  12: "Aircraft contact 7: remark read 'Pip in lobster large high flying plane'; first run read 'High flying plane'."
+  13: "Aircraft contacts 8-11: the Remarks column looks offset by one row. The remark on 8 (one bomb dropped) fits 9 (bomb at 1754); on 9 (B-24 lining up) fits 10; on 10 (B-24s raiding) fits 11 (31 March raid); on 11 (C.O. with periscope) fits 12 (0550 periscope sighting). Both runs read it this way, so it's probably the report; left as typed."
+  15: "Aircraft contact 10: 1922 K 30 March has no narrative entry; the narrative's 1922 is 29 March (friendly bombers over Dublon). Check the date."
+  25: "Aircraft contact 20: 1352 K 8 April; the narrative image run read 1552 (text-layer run 1352). Read the narrative time."
+  26: "Aircraft contact 21: table 1133 K, latitude 8° 10' (first run 8° 05'); the narrative image run read 1102, text-layer run 1132. As typed, 3 miles from contact 22 in two minutes."
+  28: "Aircraft contact 23: remark read 'were at war with us', probably 'were staying with us' (first run)."
+  29: "Aircraft contact 24: rerun read 1552, first run 1554; narrative 1554 (text layer 1556)."
+  36: "Aircraft contact 31: 'Sally' agrees with the narrative (Gemini's text-layer runs had 'Betty'). No bombs."
+  39: "Aircraft contact 34: table '3 unidentified planes'; narrative 1442 '4 planes'; first table run also read 4."
+  47: "Torpedo attack 3: form 2117 K, narrative 2116 K. No hits."
+  48: "Gun attack 1: form 1143 K (opened fire), narrative 1127 K (surfaced). Damage claimed: a 150-ton sampan."
+
+callouts:
+  - "Gemini read the stitched PDF's hidden OCR text layer, not the page images: two fresh-chat runs gave identical misspellings and degree signs read as 0. All four files here are reruns from JPG page images."
+  - "Page 7 has badly faded times (a wavy faded band runs through the scan): 12 April 0100 and 0407 differed in every run (0215/0030, 0407/0507); 0900 surfacing (text layer 0600); 1404 (or 1444); 11 April 1707 surfacing. Read them on the scan."
+  - "12 April 1745 summary: Gemini's image run says 'maneuvered for submerged attack after moonrise'; earlier runs and the attack that followed say a surface attack before moonrise. Reread the paragraph; if Gemini summarized it wrongly, replace it in patrol.yml."
+  - "16 April, Oroluk: steamer on the reef bearing 110° (T) in the image run, 130° (T) in the text-layer runs, 1/4 mile from Oroluk Island. The position is the steamer's, not the boat's. Oroluk Island and North Pass (Truk; '15 miles off North Pass', 30 March and 2 April) aren't yet in reference.yml landmarks."
+  - "17 April 1950 'Headed west to attempt interception of ship sighted by our search planes': the text differed in all three runs. Check it."
+  - "23 March 2348 and 25-26 March 2300: the 2300 lifeguard instructions sit under the heading 'March 25-26'; the converter places it on the 25th."
+  - "12 April 2325: radar officer read as Lt.(jg) C.Z. KUZELL, E(V), USNR. Verify the initials on the scan before a crew file."
+  - "Attack forms claim nothing sunk: attack 1 one medium AK/AP damaged (possibly another), attack 2 two damaged; the narrative calls the smoke-covered ship 'probably sunk'. Tubes 2 and 8 were Mark 23 torpedoes. Tube 6 exploder serial read 20500 (possibly 20:00)."

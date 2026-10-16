@@ -86,5 +86,8 @@ Checking a new patrol (lessons from Silversides 7, Trigger 7, Finback 7):
 - Matt's index note for the patrol (`sources/index/`) gives report number,
   dates, bases, miles and fuel; the converter prints any mismatch.
 
+- Send Gemini JPG page images, not the stitched PDF: Gemini reads a PDF's hidden
+  OCR text layer (identical misspellings across fresh chats, degree signs read
+  as 0, `[cite: N]` markers). Finback 8 was rerun from images.
 - One report per Gemini chat; a fresh chat per report.
 - Work in short sessions (one patrol each) to keep context use low.

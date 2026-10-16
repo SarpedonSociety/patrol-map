@@ -279,7 +279,9 @@ def read_attack_forms(path):
         if page:
             f["pages"].append(page.group(1))
         kind = "torpedoes" if re.match(r"\s*torpedo\s+data", head, re.I) else "attack"
-        f[kind] = body
+        # A form that runs onto the next page comes as two blocks under the
+        # same heading (Finback 8 gun attack 1, pages 23-24): join them.
+        f[kind] = f[kind] + "\n" + body if f.get(kind) else body
     return forms
 
 

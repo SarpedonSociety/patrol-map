@@ -38,7 +38,7 @@ SS-230:   # Finback — commissioned 31 Jan 1942, Electric Boat
   5:  { status: transcribed, found_in: Fold3, start: 1943-05-12, end: 1943-06-26, note: "Second overlap set. Pearl Harbor via Midway to Palau; rerouted to Fremantle. Gemini gemini-01 (narrative, pages 1-14) and contacts-01 (tables, pages 16-20), fresh chat; to verify" }
   6:  { status: transcribed, found_in: Fold3, report_no: 249, start: 1943-07-18, end: 1943-09-12, note: "Fremantle to Pearl Harbor via Midway (COMSUBSWPAC, then COMSUBPAC). Gemini narrative (gemini-01, pages 1-9; gemini-02, pages 10-17) and contacts-01 (pages 25-27), with hand corrections in patrol.yml; the attack summary (contacts-02, pages 28-29) is Claude's read of the scan, corrected by PSO. Contact pages 25-26 not yet checked against the scan; see review.yml." }
   7:  { status: transcribed, found_in: Fold3, start: 1943-12-15, end: 1944-02-11, note: "Pearl Harbor by Midway to the East China Sea and back by Midway to Pearl. Gemini gemini-01 (narrative, pages 1-7), contacts-01 (pages 10-11), attacks-01 (torpedo attacks 1-2, pages 12-13), attacks-02 (gun attacks 1-2, pages 14-15); to verify" }
-  8:  { status: available, found_in: Fold3 }
+  8:  { status: transcribed, found_in: Fold3, start: 1944-03-06, end: 1944-05-01, note: "Pearl Harbor by Midway to the Truk area (lifeguard for the Truk strikes, convoy attack 12 April) and back by Johnston Island to Pearl. Gemini from JPG page images: gemini-01 (narrative, pages 1-6), gemini-02 (pages 7-12), contacts-01 (pages 14-18), attacks-01 (torpedo attacks 1-3, gun attack 1, pages 20-24); three contact dates set provisionally from the narrative; to verify" }
   9:  { status: available, found_in: Fold3 }
   10: { status: available, found_in: Fold3 }
   11: { status: missing }
