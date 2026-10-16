@@ -1294,6 +1294,9 @@ def load_index():
             print(f"index: {path.name}: patrol reads {data['patrol']}, file name says {num}")
         clean = {k: (v.strip() if isinstance(v, str) else str(v) if hasattr(v, "isoformat") else v)
                  for k, v in data.items() if v not in (None, "")}
+        body = text[fm.end():].strip() if fm else ""
+        if body:
+            clean["text"] = body
         clean["source"] = f"sources/index/{path.name}"
         out[(hull, num)] = clean
     return out
@@ -1309,23 +1312,25 @@ def check_index(index, inventory, built):
         def n(key):
             v = ix.get(key)
             try:
-                return int(str(v).replace(",", "")) if v not in (None, "") else None
+                return float(str(v).replace(",", "")) if v not in (None, "") else None
             except ValueError:
                 return None
+        def fmt(x):
+            return f"{x:g}"
         parts = [n("days_to_station"), n("days_in_area"), n("days_from_station")]
-        if None not in parts and n("days_underway") is not None and sum(parts) != n("days_underway"):
-            msgs.append(f"{tag}: days to/in/from area add to {sum(parts)}, days underway is {n('days_underway')}")
+        if None not in parts and n("days_underway") is not None and abs(sum(parts) - n("days_underway")) > 0.01:
+            msgs.append(f"{tag}: days to/in/from area add to {fmt(sum(parts))}, days underway is {fmt(n('days_underway'))}")
         for what, keys, total in (("miles", ("miles_to_area", "miles_in_area", "miles_from_area"), "total_miles"),
                                   ("fuel", ("fuel_to", "fuel_in", "fuel_from"), "total_fuel")):
             vals = [n(k) for k in keys]
             if None not in vals and n(total) is not None and abs(sum(vals) - n(total)) > 2:
-                msgs.append(f"{tag}: {what} to/in/from area add to {sum(vals)}, total is {n(total)}")
+                msgs.append(f"{tag}: {what} to/in/from area add to {fmt(sum(vals))}, total is {fmt(n(total))}")
         try:
             a = datetime.strptime(str(ix.get("started")), "%Y-%m-%d")
             b = datetime.strptime(str(ix.get("ended")), "%Y-%m-%d")
             span = (b - a).days + 1
             if n("days_underway") is not None and abs(span - n("days_underway")) > 2:
-                msgs.append(f"{tag}: {ix['started']} to {ix['ended']} is {span} days, days underway is {n('days_underway')}")
+                msgs.append(f"{tag}: {ix['started']} to {ix['ended']} is {span} days, days underway is {fmt(n('days_underway'))}")
             key = (hull, str(ix.get("started")), str(ix.get("ended")))
             if key in seen:
                 msgs.append(f"{hull} P{seen[key]} and P{num} have the same start and end dates "
@@ -1334,6 +1339,14 @@ def check_index(index, inventory, built):
                 seen[key] = num
         except ValueError:
             pass
+        figs = tuple(n(k) for k in ("miles_to_area", "miles_in_area", "miles_from_area", "fuel_to", "fuel_in", "fuel_from"))
+        if sum(v is not None for v in figs) >= 4:
+            fkey = (hull, figs)
+            if fkey in seen:
+                msgs.append(f"{hull} P{seen[fkey]} and P{num} have the same miles and fuel figures; "
+                            f"one was probably copied from the other")
+            else:
+                seen[fkey] = num
         inv = ((inventory.get(hull) or {}).get(num)) or {}
         for ikey, xkey in (("report_no", "patrol_report_no"), ("start", "started"), ("end", "ended")):
             if inv.get(ikey) not in (None, "") and ix.get(xkey) not in (None, "") and str(inv[ikey]) != str(ix[xkey]):
@@ -1343,11 +1356,17 @@ def check_index(index, inventory, built):
             ms, fe = p.get("miles_steamed") or {}, p.get("fuel_expended") or {}
             for label, have, key in (("total miles", ms.get("total"), "total_miles"),
                                      ("total fuel", fe.get("total"), "total_fuel")):
-                if have not in (None, "") and n(key) is not None and int(have) != n(key):
-                    msgs.append(f"{tag}: patrol.yml {label} {have}, index {n(key)}")
+                if have not in (None, "") and n(key) is not None and float(have) != n(key):
+                    msgs.append(f"{tag}: patrol.yml {label} {have}, index {fmt(n(key))}")
+            for label, have, key in (("departure", (p.get("departure") or {}).get("port"), "base_out"),
+                                     ("arrival", (p.get("arrival") or {}).get("port"), "base_in")):
+                first = lambda x: re.sub(r"[^a-z ]", "", str(x).lower()).split()[:1]
+                if have and ix.get(key) and first(have) != first(ix[key]):
+                    msgs.append(f"{tag}: patrol.yml {label} {have}, index {ix[key]}")
             co_a = re.sub(r"[^a-z]", "", str(p.get("commanding_officer") or "").lower())
             co_b = re.sub(r"[^a-z]", "", str(ix.get("co") or "").lower())
-            if co_a and co_b and co_a != co_b:
+            co_a = re.sub(r"lieutenant|commander|captain|usnr|usn", "", co_a)
+            if co_a and co_b and co_b not in co_a:
                 msgs.append(f"{tag}: patrol.yml commanding officer {p['commanding_officer']}, index {ix['co']}")
     for msg in msgs:
         print("index:", msg)
