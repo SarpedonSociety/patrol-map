@@ -36,7 +36,7 @@ departure:
   time: "1300"
   zone: VW
   page: 1
-  flags: "Zone read on the scan as '(VX)'; taken as VW, Hawaiian time (-10:30). Departed in company with U.S.S. SALMON under escort of PC-487 (read by hand; Gemini had POBALO and PC-457)."
+  flags: "Zone typed '(VX)', which is not a zone letter: a typing error in the report for VW, Hawaiian time (-10:30). Departed in company with U.S.S. SALMON under escort of PC-487 (read by hand; Gemini had POBALO and PC-457)."
 
 arrival:
   port: Pearl Harbor

@@ -40,7 +40,7 @@
   "lon": -157.95,
   "page": "1",
   "flags": [
-   "Zone read on the scan as '(VX)'; taken as VW, Hawaiian time (-10:30). Departed in company with U.S.S. SALMON under escort of PC-487 (read by hand; Gemini had POBALO and PC-457)."
+   "Zone typed '(VX)', which is not a zone letter: a typing error in the report for VW, Hawaiian time (-10:30). Departed in company with U.S.S. SALMON under escort of PC-487 (read by hand; Gemini had POBALO and PC-457)."
   ]
  },
  "arrival": {
@@ -2571,7 +2571,7 @@
    },
    "flags": [
     "Transcriber: Gun action in ship contacts table; Longitude hemisphere missing letter \"1390-49( )\"; degree symbols typed as zeros in \"300-42\" and \"1390-49\".",
-    "Review: Ship contact 7 and gun attack form 2 both give 1431 I 31 January; the narrative (page 7) has the gun attack at 1345 I as Gemini read it. Check the narrative time.",
+    "Review: Checked on the scan: ship contact 7 and gun attack form 2 give 1431 I 31 January, the narrative (page 7) 1345 I. A discrepancy in the report itself; the map uses the form's 1431.",
     "Lat and long run together in the transcription (30-42 N : 139-49 E); read as 30-42 / 139-49."
    ],
    "contact_no": "7."

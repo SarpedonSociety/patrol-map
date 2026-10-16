@@ -70,5 +70,21 @@ The transcription source material lives in the Gato vault, outside this repo:
 
 ## Working notes
 
+Checking a new patrol (lessons from Silversides 7, Trigger 7, Finback 7):
+- Before saving Gemini output: every narrative entry needs a date (the
+  converter carries one forward, flagged); no `[cite: N]`, CJK or Cyrillic
+  in dates (a chat that ran too long: rerun in a fresh chat); page range
+  matches the PDF sent (no duplicated batch).
+- Contact tables are often in GCT (Z) while the narrative is in a zone
+  letter: convert and cross-check times and positions both ways. Where
+  they disagree, ask Matt to read the scan; he answers with hand readings.
+- Hand readings go in `patrol.yml` (`row_fixes`, `form_fixes`, `replaces`).
+  A discrepancy inside the report itself stays as typed, with the evidence
+  in `review.yml`.
+- After converting, check: every record has a time, torpedoes fired match
+  the forms, and no track leg needs an implausible speed.
+- Matt's index note for the patrol (`sources/index/`) gives report number,
+  dates, bases, miles and fuel; the converter prints any mismatch.
+
 - One report per Gemini chat; a fresh chat per report.
 - Work in short sessions (one patrol each) to keep context use low.
