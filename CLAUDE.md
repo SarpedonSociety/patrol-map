@@ -10,10 +10,12 @@ When they disagree, the README and the code win; fix this file.
 - `sources/` transcriptions and hand data. Scripts never edit it.
   - `reference.yml` boats, ports, landmarks, map place names
   - `inventory.yml` per-patrol status (missing / available / transcribed / verified / mapped)
+  - `index/INDEX_SS.<hull>.<n>.md` Matt's per-patrol index notes from the vault, copied unchanged; converter attaches them as `index` and prints mismatches
   - `<hull>/P<nn>/` `patrol.yml` (hand), `gemini-NN.yml`, `contacts-NN.md`, `attacks-NN.md` (raw Gemini), `review.yml` (open questions)
   - `status/` fleet status between patrols; `war-diary/` is generated
 - `tools/convert.py` sources/ -> data/ (needs Python 3 + pyyaml)
 - `tools/import_war_diary.py` vault war diary -> `sources/status/war-diary/`
+- `tools/range-bearing.html` browser plotter for "N miles, bearing X from LANDMARK" entries; reads `landmarks` from `reference.yml`, outputs `patrol.yml` event entries
 - `data/` generated: `manifest.json`, `status.json`, `patrols/*.json`. `base/land-50m.json` is third-party.
 - `prompts/gemini-transcription.md` the Gemini prompt (three outputs)
 - `media/<hull>/P<nn>/` drawings from the reports (crops of the Fold3 download), listed under `figures:` in `patrol.yml`
@@ -74,5 +76,24 @@ The transcription source material lives in the Gato vault, outside this repo:
 
 ## Working notes
 
+Checking a new patrol (lessons from Silversides 7, Trigger 7, Finback 7):
+- Before saving Gemini output: every narrative entry needs a date (the
+  converter carries one forward, flagged); no `[cite: N]`, CJK or Cyrillic
+  in dates (a chat that ran too long: rerun in a fresh chat); page range
+  matches the PDF sent (no duplicated batch).
+- Contact tables are often in GCT (Z) while the narrative is in a zone
+  letter: convert and cross-check times and positions both ways. Where
+  they disagree, ask Matt to read the scan; he answers with hand readings.
+- Hand readings go in `patrol.yml` (`row_fixes`, `form_fixes`, `replaces`).
+  A discrepancy inside the report itself stays as typed, with the evidence
+  in `review.yml`.
+- After converting, check: every record has a time, torpedoes fired match
+  the forms, and no track leg needs an implausible speed.
+- Matt's index note for the patrol (`sources/index/`) gives report number,
+  dates, bases, miles and fuel; the converter prints any mismatch.
+
+- Send Gemini JPG page images, not the stitched PDF: Gemini reads a PDF's hidden
+  OCR text layer (identical misspellings across fresh chats, degree signs read
+  as 0, `[cite: N]` markers). Finback 8 was rerun from images.
 - One report per Gemini chat; a fresh chat per report.
 - Work in short sessions (one patrol each) to keep context use low.

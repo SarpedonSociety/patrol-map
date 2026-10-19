@@ -1,0 +1,1727 @@
+YAML
+
+```
+boat:
+patrol: 8
+year: 1944
+report:
+comsubpac_report_no:
+commanding_officer:
+citation:
+  archive:
+  record_group:
+  nara_catalog_id:
+  nara_catalog_title:
+  reel:
+  micro_serial:
+  file:
+  serial:
+  date:
+fold3_images: {}
+default_hemisphere: { lat: N, lon: E }
+departure: { port: "Pearl", date: "March 6, 1944", time: "1300", zone: "V", page: 1, flags: "zone typed as (VW) with W overstruck or slurred" }
+arrival:   { port: , date: , time: , zone: , page: , flags: }
+events:
+- date: "March 6, 1944."
+  time: "1300"
+  zone: "V"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Departed Pearl for Eighth War Patrol in company with WHALE and PC580."
+  page: 1
+  flags: "zone typed as (VW)"
+- date: "March 6, 1944."
+  time: "1915"
+  zone: "V"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Escort departed."
+  page: 1
+  flags: "zone typed as (VW)"
+- date: "March 7-10"
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Enroute to Midway conducting daily ship, fire control, and diving drills. Arrival delayed by rough weather."
+  page: 1
+  flags:
+- date: "March 11 - 12"
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Circled off Midway waiting for channel to be opened."
+  page: 1
+  flags:
+- date: "March 13."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Entered lagoon at Midway, received 23,000 gallons of fuel and effected minor repairs."
+  page: 1
+  flags:
+- date: "March 14."
+  time: "0700"
+  zone: "Y"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Departed Midway. Departure date from area extended four days by CTF-17.5."
+  page: 1
+  flags:
+- date: "March 14."
+  time: "2230"
+  zone: "Y"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Crossed 180th Meridian"
+  page: 1
+  flags:
+- date: "March 16 - 20."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Enroute to area conducting daily dives, ship drills, fire control problems, gun firing, and controller drills for new men."
+  page: 1
+  flags:
+- date: "March 21."
+  time: "0725"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived when after lookout sighted plane which was probably a friendly B-24 out of Eniwetok."
+  page: 1
+  flags:
+- date: "March 21."
+  time: "0745"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced and continued to area."
+  page: 1
+  flags:
+- date: "March 21."
+  time: "2300"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Entered area. Decided to patrol east of Hall Island as we could not reach passage between Hall and Namonuito before following dawn."
+  page: 1
+  flags:
+- date: "March 22."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Conducted submerged patrol. Believed this would be most productive in view of ASPRO'S sinking of enemy submarine and lack of knowledge of air coverage at present."
+  page: 1
+  flags:
+- date: "March 23."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Conducted submerged patrol between Hall Island and Namonuito Island. On surfacing, set course to patrol across route from Palau to Truk."
+  page: 2
+  flags:
+- date: "March 23."
+  time: "2348"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "At 2348 (K) made radar contact on object at 18,000 yards."
+  page: 2
+  flags: "preceded by heading '(Contact #1)'"
+- date: "March 24."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Closed radar contact to 10,000 yards; radar showed two targets and 3-4 escorts zig-zagging. Plotted convoy base courses with 5-minute solution times."
+  page: 2
+  flags:
+- date: "March 24."
+  time: "0208"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Attempted attacks; lost second target, called off initial run dead ahead, opened out, attempted three approaches. Alert escort forced boat out; target zigged away."
+  page: 2
+  flags:
+- date: "March 24."
+  time: "0430"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Abandoned chase when unable to reach ahead position before daylight. CO noted mistake attempting last surface attack instead of pulling ahead for dawn submerged attack."
+  page: 2
+  flags:
+- date: "March 25 -26"
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Conducted submerged patrol along Palau-Truk route."
+  page: 3
+  flags: "first line carried over from bottom of previous day/page"
+- date: "March 25 -26"
+  time: "2300"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: rescue
+  title: "Lifeguard duty instructions"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Received instructions from ComSubPac to take station to act as life guard for plane strikes on Truk until April 5, 1944."
+  page: 3
+  flags:
+- date: "March 27."
+  time: "0530"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: rescue
+  title: "Lifeguard patrol on surface"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "In position to act as plane life guard. Patrolled station on surface. Heard planes on aircraft frequency."
+  page: 3
+  flags:
+- date: "March 27."
+  time: "0804"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived on sighting of observation plane by quartermaster."
+  page: 3
+  flags:
+- date: "March 27."
+  time: "0837"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 3
+  flags:
+- date: "March 27."
+  time: "1010"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived on sighting of three bombers by lookout and O.O.D."
+  page: 3
+  flags:
+- date: "March 27."
+  time: "1028"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 3
+  flags:
+- date: "March 27."
+  time: "1143"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted bomber at about 15 miles on northerly course."
+  page: 3
+  flags:
+- date: "March 27."
+  time: "1704"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Dived on sighting Zero fighter at 4 miles; no bombs. SD radar picked up plane at 4 miles. Stayed submerged until sunset; decoded messages unhelpful."
+  page: 3
+  flags:
+- date: "March 28."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: rescue
+  title: "Lifeguard patrol in new position"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Conducted plane life guard patrol on surface in new position. Found this position quieter as no planes were sighted. No information received relative to previously scheduled strikes. Did not see or hear definite evidence of strikes."
+  page: 3
+  flags:
+- date: "March 29."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: rescue
+  title: "Airstrike notification"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Received message from ComSubPac stating that our planes would strike at 1900. Decided to patrol submerged until four hours before strike."
+  page: 3
+  flags:
+- date: "March 29."
+  time: "1120"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced to get some sun lines to check position."
+  page: 3
+  flags:
+- date: "March 29."
+  time: "1147"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived on SD Radar contact at 7 miles coming in. Plane not sighted."
+  page: 3
+  flags:
+- date: "March 29."
+  time: "1500"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 3
+  flags:
+- date: "March 29."
+  time: "1743"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived when low flying bomber crossing stern at 7 to 8 miles seemed to turn in our direction."
+  page: 3
+  flags:
+- date: "March 29."
+  time: "1800"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 3
+  flags:
+- date: "March 29."
+  time: "1922"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Observed friendly bombers dropping flares and bombs on Dublon Island, explosions, AA fire, and searchlights. Position 38 miles from Dublon, 34-1/2 miles from Moen."
+  page: 3
+  flags: "positions 38 miles from Dublon Island and 34-1/2 miles from Moen Island stay in event"
+- date: "March 29."
+  time: "2130"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Headed for next day's station, patrolling Truk-Empire route enroute."
+  page: 3
+  flags:
+- date: "March 30."
+  time:
+  zone:
+  lat:
+  lon:
+  from: "North Pass"
+  bearing:
+  distance: "15 miles"
+  bearing_is: "from_landmark"
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Patrolled on surface 15 miles off North Pass. Received ComSubPac message of strikes between 1800 and 2100; planned submerged patrol until strike began if planes active."
+  page: 4
+  flags:
+- date: "March 30."
+  time: "0829"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived on Radar contact at 4 miles. Plane not sighted."
+  page: 4
+  flags:
+- date: "March 30."
+  time: "1121"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced. Continued surface patrol."
+  page: 4
+  flags:
+- date: "March 30."
+  time: "1751"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived on sighting float biplane at 6 miles."
+  page: 4
+  flags:
+- date: "March 30."
+  time: "1754"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: counterattack
+  title: "Bomb dropped by float biplane"
+  part: "I"
+  charges: "one bomb"
+  damage: "Not close."
+  with:
+  course:
+  speed:
+  event: "Plane dropped one bomb. Not close."
+  page: 4
+  flags:
+- date: "March 30."
+  time: "1829"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 4
+  flags:
+- date: "March 30."
+  time: "1846"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Observed friendly planes bombing Truk; clouds prevented good observation. Tracked friendly plane on SJ Radar to 2000 yards; plane apparently lining up for new run."
+  page: 4
+  flags:
+- date: "March 30."
+  time: "1943"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Saw last flares and explosions."
+  page: 4
+  flags:
+- date: "March 31."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "This position again proved to be the most healthy for a submarine on the surface."
+  page: 4
+  flags:
+- date: "March 31."
+  time: "2110"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Attack by friendly planes commenced on Truk. Cloud formations prevented good view; observed flashes and searchlights. Contacted friendly planes on SJ Radar at 20,000 yards."
+  page: 4
+  flags:
+- date: "March 31."
+  time: "2130"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Raid seemed to be completed."
+  page: 4
+  flags:
+- date: "April 1."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "No planes seen and no word received relative to attacks."
+  page: 4
+  flags:
+- date: "April 1."
+  time: "1732"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Conducted trim dive."
+  page: 4
+  flags:
+- date: "April 2."
+  time:
+  zone:
+  lat:
+  lon:
+  from: "North Pass"
+  bearing:
+  distance: "15 miles"
+  bearing_is: "from_landmark"
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Patrolled at our spot 15 miles off North Pass."
+  page: 4
+  flags:
+- date: "April 2."
+  time: "0550"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived on sighting plane with periscope at about 10 miles. No bombs."
+  page: 4
+  flags:
+- date: "April 2."
+  time: "0735"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 4
+  flags:
+- date: "April 2."
+  time: "0739"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived on sighting similar plane heading toward us at 9 miles."
+  page: 4
+  flags:
+- date: "April 2."
+  time: "1047"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced to get in on raid from south."
+  page: 4
+  flags:
+- date: "April 2."
+  time: "1118"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived on sighting big bomber at 8 miles. Plane looked like a Jap 96 bomber."
+  page: 4
+  flags:
+- date: "April 2."
+  time: "1138"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Came to 50 feet and found planes on the SD radar at 2 miles."
+  page: 4
+  flags:
+- date: "April 2."
+  time: "1144"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Surfaced with ten B-24's in sight; watched them line up for bombing run. Sighted Japanese two-motored bomber at 1 mile heading toward submarine."
+  page: 4
+  flags:
+- date: "April 2."
+  time: "1155"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived. Decided we could get this news a little later. Looked like a rather poor idea to provide target service for Japs needing a landing field. Conducted patrol at 56 feet with high periscope."
+  page: 5
+  flags:
+- date: "April 2."
+  time: "1515"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: rescue
+  title: "Lifeguard operations summary note"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Sighted twin-engine bomber at 3 miles circling for 30 minutes; remained submerged until sunset. Noted planes life guarded for had struck after dark; no bombs observed at night."
+  page: 5
+  flags:
+- date: "April 3."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: rescue
+  title: "Surface plane lifeguard patrol"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Conducted surface plane life guard patrol. No planes seen."
+  page: 5
+  flags:
+- date: "April 3."
+  time: "2345"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "One flash of attack noted."
+  page: 5
+  flags:
+- date: "April 4."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: rescue
+  title: "Surface plane lifeguard patrol"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Conducted surface plane life guard patrol. No planes seen."
+  page: 5
+  flags:
+- date: "April 4."
+  time: "2125"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Observed start of bombing; saw flashes, bright flare-up, and rapidly falling flares that may have been burning planes at a distance."
+  page: 5
+  flags:
+- date: "April 4."
+  time: "2137"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Obtained radar contact with SJ on plane at 8 miles."
+  page: 5
+  flags:
+- date: "April 4."
+  time: "2300"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "At 2300 (K) decided bombing was over and set course to westward to resume patrol in accordance with ComSubPac Dispatch 260750 of 26 March,1944."
+  page: 5
+  flags:
+- date: "April 5."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Conducted surface patrol on Truk-Saipan route."
+  page: 5
+  flags:
+- date: "April 5."
+  time: "1230"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: rescue
+  title: "Report of downed planes"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "At 1230 (K) received message saying two planes were down. Set course eastward at four engine speed. Subsequent message reported lack of knowlege as to probable position of downed planes."
+  page: 5
+  flags:
+- date: "April 5."
+  time: "2100"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: rescue
+  title: "Search for downed planes near reef"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "In position where we had been for raid on previous night. Commenced search to southward. With moon out the majority of the night, we were able to conduct search within five miles of reef."
+  page: 5
+  flags:
+- date: "April 6."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: rescue
+  title: "Search for downed B-24s"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Searched along line from Truk to Eniwetok for downed B-24s; white caps and a three sea hindered search. Maintained continuous search with two periscopes."
+  page: 5
+  flags:
+- date: "April 6."
+  time: "1109"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Lookout reported periscope (Contact #2). O.O.D. swung ship away and readied tubes. Submarine opened out eastward and resumed search."
+  page: 5
+  flags: "heading '(Contact #2)'; entry spans pages 5 and 6"
+- date: "April 6."
+  time: "2000"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: rescue
+  title: "End of Truk lifeguard duties message"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Sent PINBACK #1 message to ComSubPac reporting no search results and requested return to patrol. Concluded north and northeast of Truk was not a traffic lane."
+  page: 6
+  flags:
+- date: "April 7."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: rescue
+  title: "Awaiting orders on search"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Searched for planes north and northeast of Truk awaiting answer to our message."
+  page: 6
+  flags:
+- date: "April 7."
+  time: "0559"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived on SD radar contact at 7 miles. While submerged trimmed ship and took it deep."
+  page: 6
+  flags:
+- date: "April 7."
+  time: "0631"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced. A three sea with whitecaps again reduced efficiency of search."
+  page: 6
+  flags:
+- date: "April 7."
+  time: "2200"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "At 2200 (K) on receiving message from ComSubPac, headed west to patrol Saipan-Truk route south of Namonuito Islands."
+  page: 6
+  flags:
+- date: "April 8."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Enroute to and patrolled south of Namonuito Islands."
+  page: 6
+  flags:
+- date: "April 8."
+  time: "1552"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived on sighting a \"Betty\" bomber at about 4 miles coming out of a cloud."
+  page: 6
+  flags:
+- date: "April 8."
+  time: "2140"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: rescue
+  title: "Return to lifeguard duty order"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Received message ordering us to return to plane guard duty. We had had about twelve hours in a possibly fruitful spot."
+  page: 6
+  flags:
+- date: "April 9."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: rescue
+  title: "Plane lifeguard patrol"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Conducted plane life guard patrol. No planes sighted."
+  page: 6
+  flags:
+- date: "April 10."
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: rescue
+  title: "Lifeguard patrol and strike expectations"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Conducted plane life guard patrol. No information received relative to last strike. Decided to stay in this position and take position for that night's strike after dark."
+  page: 6
+  flags:
+- date: "April 10."
+  time: "0845"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived as QM reported a plane. Believe it was a bird."
+  page: 6
+  flags:
+- date: "April 10."
+  time: "0930"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 6
+  flags:
+- date: "April 10."
+  time: "1102"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted float reconnaisance plane at 10 miles."
+  page: 6
+  flags:
+- date: "April 10."
+  time: "1135"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived on sighting another float reconnaissance plane at 5 miles."
+  page: 6
+  flags:
+- date: "April 10."
+  time: "1240"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Surfaced assuming planes were not covering shipping; resighted plane and returned to 60 feet. Spotted second circling plane; watched until it turned toward boat."
+  page: 6
+  flags:
+- date: "April 10."
+  time: "1250"
+  zone: "K"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: counterattack
+  title: "Aircraft dive attempt"
+  part: "I"
+  charges: "none"
+  damage: "Saw no bombs on plane and he dropped none."
+  with:
+  course:
+  speed:
+  event: "Watched this plane until when he turned toward us and started dive. Went to 140 feet. Nice white caps and clouds helping us. Saw no bombs on plane and he dropped none."
+  page: 6
+  flags:
+```
+
+Could not transcribe: boat hull number, report title, COMSUBPAC report number, commanding officer, arrival details, Fold3 citation information, and Fold3 image numbers (endorsement, title cover, and Fold3 SOURCE INFORMATION sheets were not included in the provided pages).

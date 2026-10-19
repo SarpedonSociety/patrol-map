@@ -256,7 +256,7 @@
   {
    "lat": 8.0,
    "lon": 133.85,
-   "utc": "1943-12-28T18:55:00Z",
+   "utc": "1943-12-28T18:56:00Z",
    "basis": "documented",
    "ref": "SS-236-P08-A48"
   },
@@ -4350,7 +4350,7 @@
    "kind": "torpedo",
    "page": "21, 22",
    "zone": "I",
-   "local": "0246-07 I December 29, 1943",
+   "local": "0246 I Dec. 29, 1943",
    "utc": "1943-12-28T17:46:00Z",
    "has_time": true,
    "local_date": [
@@ -4375,7 +4375,7 @@
    "flags": [
     "Transcriber: Last digit of the time is overstruck (read 6; the narrative gives 0246-07). First letter of the tanker type is missing and the first digit of the range under it is overstruck. The bottom half of this page holds the tube rows of attack 4.",
     "Transcriber: The values on the Firing Interval and Type spread lines sit one line out of place: 1 R and 1 L are typed on the Firing Interval line and 10 S and 10 S on the Type spread line, as read here. Tube 2 is 39308 / 6763 / 11184 and tube 3 is 22605 / 12019 / 2881 (Gemini had them the other way round).",
-    "Time from the narrative entry headed attack 4 (page 8).",
+    "No zone letter on the form; zone I assumed from the narrative.",
     "Narrative entry at 0246-07 I December 29, 1943 (page 8) describes this attack; its account is included here.",
     "No zone letter on this entry; zone I assumed from the previous entry."
    ],
@@ -4465,8 +4465,8 @@
    "kind": "torpedo",
    "page": "23, 24",
    "zone": "I",
-   "local": "0355-40 I December 29, 1943",
-   "utc": "1943-12-28T18:55:00Z",
+   "local": "0356 I Dec. 29, 1943",
+   "utc": "1943-12-28T18:56:00Z",
    "has_time": true,
    "local_date": [
     1943,
@@ -4491,7 +4491,7 @@
     "Transcriber: Last digit of the time is overstruck (read 6; the narrative gives 03-55-40). The first letters of the ship type are faint. Exploder serial of tube 5 read as 6060 (Gemini had 6850).",
     "Transcriber: Mark Warhead typed XIV on all three tubes (XVI elsewhere). The firing interval of tube 5 reads 8 (it may be 6).",
     "Review: Attack 6: the time on the form reads 0356, the narrative 03-55-40 (taken for the marker).",
-    "Time from the narrative entry headed attack 6 (page 9).",
+    "No zone letter on the form; zone I assumed from the narrative.",
     "Narrative entry at 0355-40 I December 29, 1943 (page 9) describes this attack; its account is included here.",
     "Time typed 03-55-40 as in the report; written 0355-40 so the converter reads it. Attack 6, page 9.",
     "No zone letter on this entry; zone I assumed from the previous entry."
@@ -4550,7 +4550,7 @@
    "derived": {
     "interpolated": true,
     "between": [
-     "1943-12-28T18:55:00Z",
+     "1943-12-28T18:56:00Z",
      "1943-12-28T20:03:00Z"
     ]
    },
@@ -4561,7 +4561,7 @@
     29
    ],
    "has_time": true,
-   "lat": 8.09044,
+   "lat": 8.08955,
    "lon": 133.85,
    "type": "Narrative",
    "title": "Narrative entry",
@@ -4570,7 +4570,7 @@
    },
    "flags": [
     "No zone letter on this entry; zone I assumed from the previous entry.",
-    "No position in the report. Placed on the track between the recorded positions at 1943-12-28 18:55 and 1943-12-28 20:03 GMT, as an estimate."
+    "No position in the report. Placed on the track between the recorded positions at 1943-12-28 18:56 and 1943-12-28 20:03 GMT, as an estimate."
    ]
   },
   {
@@ -7587,5 +7587,39 @@
   }
  ],
  "minefields": [],
- "figures": []
+ "figures": [],
+ "index": {
+  "boat": "Silversides",
+  "hull": "SS-236",
+  "patrol": 8,
+  "co": "J.S. Coye, Jr.",
+  "patrol_report_no": 351,
+  "tonnage_sunk": 18500,
+  "tonnage_damaged": 8000,
+  "endorsing_officer": "C.A. Lockwood, Jr.",
+  "started": "1943-12-04",
+  "ended": "1944-01-15",
+  "base_out": "Pearl Harbor",
+  "base_in": "Midway",
+  "days_underway": 43,
+  "days_submerged": 7,
+  "days_to_station": 15,
+  "days_in_area": 20,
+  "days_from_station": 8,
+  "miles_to_area": 4470,
+  "miles_in_area": 4800,
+  "miles_from_area": 2167,
+  "fuel_received": 14690,
+  "fuel_to": 42935,
+  "fuel_in": 43820,
+  "fuel_from": 27885,
+  "total_miles": 11437,
+  "total_fuel": 114640,
+  "note": "Totals for fuel and miles not printed in report, added by PSO from figures printed.",
+  "density_chart": true,
+  "fold3_url": "https://www.fold3.com/image/270957892/report-of-eighth-war-patrol-page-1-us-world-war-ii-war-diaries-1941-1945",
+  "ships_sunk": 3,
+  "ships_damaged": 2,
+  "source": "sources/index/INDEX_SS.236.8.md"
+ }
 }

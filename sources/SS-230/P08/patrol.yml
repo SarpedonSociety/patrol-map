@@ -1,0 +1,141 @@
+# USS Finback (SS-230), War Patrol 8
+# Transcribed by Gemini from JPG page images (not the stitched PDF, whose
+# hidden OCR text layer Gemini had been copying), one fresh chat per batch:
+# gemini-01.yml (narrative, pages 1-6), gemini-02.yml (narrative, pages 7-12),
+# contacts-01.md (ship and aircraft contacts, typed pages 14-18 = microfilm
+# 15-19) and attacks-01.md (torpedo attack forms 1-3 and gun attack form 1,
+# pages 20-24).
+# Pearl Harbor by Midway to the Truk area: lifeguard for the Truk air strikes
+# (27 March - 5 April and 9-20 April), searches for downed B-24s, a convoy
+# attack north of Truk on 12 April, gun actions at Oroluk (16 April) and off
+# Nomwin (19 April); back by Johnston Island to Pearl Harbor.
+# The scan has a regular wavy band of faded text (probably a microfilm
+# artifact); page 7 times are the worst affected.
+
+boat: SS-230
+patrol: 8
+year: 1944
+report_found: yes
+report: "Report of Eighth War Patrol"
+comsubpac_report_no:
+commanding_officer:
+
+citation:
+  archive: NARA
+  record_group: "38"
+  nara_catalog_id: "4697018"
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946"
+  reel: A1019
+  micro_serial: "76926"
+  file: A16-3
+  serial: "011"
+  date: 5/1/1944
+
+fold3_images:
+  1: 277011681
+  2: 277011682
+  3: 277011683
+  4: 277011684
+  5: 277011685
+  6: 277011686
+  7: 277011688
+  8: 277011690
+  9: 277011692
+  10: 277011694
+  11: 277011697
+  12: 277011702
+
+# PROVISIONAL dates from the narrative, not yet read on the scan: two Gemini
+# runs read these dates differently (3-26 / 3-6, 3-30 / 3-13, 3-25 / 3-27) and
+# as typed they throw the track across the Pacific. Replace with the scan
+# reading; if the report itself is wrong, restore it and note it in review.yml.
+# Entries counted through contacts-01.md (ship 1-5, aircraft 6-44).
+row_fixes:
+  2: { "Time Date": "1109(K) 4-6-44" }
+  3: { "Time Date": "1705(K) 4-12-44" }
+  6: { "Time Date": "0725(K) 3-21-44" }
+
+# Gemini wrote the 6 March zone as "V"; the report types (VW), Hawaiian time.
+zone_fix: { V: VW }
+
+departure:
+  port: Pearl Harbor
+  date: March 6, 1944
+  time: "1300"
+  zone: VW
+  page: 1
+  flags: "Departed in company with U.S.S. WHALE and PC-580 (image run; the text-layer run had 'WH and 0580'). Escort departed 1915 VW."
+
+arrival:
+  port: Pearl Harbor
+  date: May 1, 1944
+  page: 12
+  flags: "Arrived for refit. No arrival time given. Fuelled at Midway 13 March (outbound) and Johnston Island 28 April (inbound)."
+
+period:
+  start: 1944-03-06
+  end: 1944-05-01
+  source: "Patrol report"
+
+# Claims on the attack forms are damage only, with no tonnage given for the
+# damaged ships: attack 1 one medium AK/AP (possibly another), attack 2 two
+# medium AK/AP (the narrative calls the smoke-covered ship "probably sunk");
+# attack 3 none. Gun attack 1 damaged a 150-ton sampan. Credits not yet entered.
+tonnage:
+  - { date: 4/19/44, time: "1143", zone: K, target: sampan, result: damaged, tons: 150,
+      basis: claimed, source: "Gun attack 1, page 23" }
+
+# Hand entries. Gemini's raw files stay as saved; each entry replaces the
+# Gemini entry it names.
+events:
+# Typed above the April 11 heading on page 7; it continues the April 10
+# 1240-1250 entry (read by hand).
+- replaces:
+    date: April 11.
+    time: '1310'
+    page: '7'
+  date: April 10, 1944
+  time: '1310'
+  zone: K
+  part: I
+  event: "Returned to periscope depth. Looked like we had better stay submerged awhile. Our next strike was scheduled for that night."
+  page: '7'
+  flags: "Dated April 10 by hand: typed above the April 11 heading, continuing the 1240-1250 entry."
+
+# Gemini tagged this as a counterattack, but the plane dropped nothing.
+- replaces:
+    date: April 10.
+    time: '1250'
+    page: '6'
+  date: April 10, 1944
+  time: '1250'
+  zone: K
+  part: I
+  event: "Watched this plane until 1250 when he turned toward us and started dive. Went to 140 feet. Nice white caps and clouds helping us. Saw no bombs on plane and he dropped none."
+  page: '6'
+  flags: "Zone left blank for 1250 in the report. Counterattack tag removed: no bombs dropped."
+
+# Johnston Island lies near 169 W, zone X (GMT -11). Gemini read the letter as
+# "K or overstruck X"; the text layer had X.
+- replaces:
+    date: April 28.
+    time: '0747'
+    page: '12'
+  date: April 28, 1944
+  time: '0747'
+  zone: X
+  part: I
+  event: "Arrived Johnston Island. Received 17,000 gallons of fuel oil."
+  page: '12'
+  flags: "Zone X (Johnston Island, about 169 W); Gemini offered K or X."
+- replaces:
+    date: April 28.
+    time: '1549'
+    page: '12'
+  date: April 28, 1944
+  time: '1549'
+  zone: X
+  part: I
+  event: "Departed Johnston for Pearl"
+  page: '12'
+  flags: "Zone X (Johnston Island, about 169 W); Gemini offered K or X."

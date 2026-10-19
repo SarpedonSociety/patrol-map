@@ -13,6 +13,8 @@ them isn't recorded, and the map doesn't pretend otherwise.
 sources/                      Transcriptions. Never edited by the scripts.
   reference.yml               Boats, port positions, map place names
   inventory.yml               Every patrol report: found, missing, transcribed, mapped
+  index/INDEX_SS.236.7.md     Per-patrol index notes from the vault (report no., claims,
+                              endorsing officer, bases, days, miles, fuel), copied as-is
   SS-236/P01/
     patrol.yml                Metadata, departure/arrival, Part I events
     contacts.md               Contact, aircraft and attack tables, verbatim
@@ -21,6 +23,7 @@ sources/                      Transcriptions. Never edited by the scripts.
   status/                     COMSUBPAC war diary "Disposition of Forces" listings,
                               task group index, dated refit/overhaul periods
 tools/convert.py              Turns sources/ into data/
+tools/range-bearing.html      Plotter for range-and-bearing positions (opens in the browser)
 data/
   manifest.json               List of patrols on the map (generated)
   status.json                 Fleet status between patrols (generated)
@@ -34,7 +37,8 @@ index.html                    The map
 ## Adding a patrol
 
 1. Build PDFs of the pages that matter, one for the narrative, one for the
-   tables and, for 1943 reports, one for the TORPEDO ATTACK DATA forms, and
+   tables and, for 1943 reports, one for the TORPEDO ATTACK DATA forms (and any
+   GUN ATTACK forms, filed under `### Gun attack data, attack <n>`), and
    run each through its own prompt in `prompts/` in a fresh Gemini chat
    (see `prompts/README.md`).
 2. Save the outputs in the patrol's folder, e.g. `sources/SS-283/P03/`,
@@ -147,6 +151,16 @@ converter works out the position from the landmark's entry under
 `landmarks` in `sources/reference.yml`. These positions show on the map
 with a dashed outline, are flagged as estimates, and stay off the track
 line, since the report didn't record them as the boat's own position.
+
+`tools/range-bearing.html` checks these by hand before they go in
+`patrol.yml`. Paste entries such as "40 miles, bearing 150T ASHIZURI SAKI"
+and it plots each against the `landmarks` list in `sources/reference.yml`,
+shows both readings when the wording doesn't say which way the bearing
+runs, and gives an event entry ready for `patrol.yml` (`from`, `bearing`,
+`distance`, `bearing_is`). It needs the page served (the published site, or
+`python -m http.server` and http://localhost:8000/tools/range-bearing.html).
+Landmarks added on the page stay in that browser; add them to
+`reference.yml` to make them permanent.
 
 Entries tagged `rescue` (lifeguard duty) get their own marker. So do
 entries tagged `counterattack` (depth charges, bombs or gunfire against
@@ -309,3 +323,20 @@ must be public for Pages to work.
 
 Patrol reports: U.S. Navy war patrol reports, WWII. Coastlines: Natural
 Earth, public domain, via the `world-atlas` package.
+
+## Patrol index notes
+
+`sources/index/` holds one note per patrol, copied unchanged from the vault
+(`INDEX_SS.236.7.md`: the file name gives the hull and patrol). The YAML
+front matter records the report number, ships and tonnage claimed sunk and
+damaged, commanding and endorsing officers, bases out and in, and days,
+miles and fuel to, in and from the area. The converter attaches a note to
+its patrol as `index` in `data/patrols/*.json`, and prints a line for
+anything to check: days or miles or fuel that don't add up to the totals,
+dates whose span doesn't match the days underway, two notes with the same
+dates, and differences from `inventory.yml` (report number, start, end) or
+from the patrol's own `patrol.yml` (total miles and fuel, commanding
+officer). Nothing is changed automatically: where a note and the report
+disagree, the report decides. Notes for patrols not yet on the map are kept
+for reference and checked the same way.
+

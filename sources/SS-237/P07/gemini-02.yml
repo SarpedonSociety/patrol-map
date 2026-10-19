@@ -1,0 +1,1347 @@
+YAML
+
+```
+boat:
+patrol: 7
+year:
+report: "Report of Seventh War Patrol (Cont'd.)"
+comsubpac_report_no:
+commanding_officer:
+citation:
+  archive: "NARA"
+  record_group: "38"
+  nara_catalog_id: "4697018"
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - са. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946"
+  reel: "A761"
+  micro_serial: "62127"
+  file: "A16-3"
+  serial: "01904"
+  date: "12/14/1943"
+fold3_images: { 5: 270916917, 6: 270916923, 7: 270916932, 8: 270916937, 9: 270916942, 10: 270916952, 11: 270916959 }
+default_hemisphere: { lat: N, lon: E }
+departure: { port: , date: , time: , zone: , page: , flags: }
+arrival:   { port: "Midway", date: "December 3", time: , zone: , page: "- 11 -", flags: "First arrival; later arrived Pearl on December 8" }
+events:
+- date: "November 3"
+  time: "0540"
+  zone: "I"
+  lat: "29-24 N."
+  lon: "132-57 E."
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Sighted two destroyers in dawn on horizon; no radar contact. Heavy seas, approach impossible. Believed course 130° T, speed 15."
+  page: "-5-"
+  flags: "Heading above entry: SECOND CONTACT NO ATTACK / TWO DESTROYERS"
+- date: "November 3"
+  time: "0630"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Lost contact."
+  page: "-5-"
+  flags: ""
+- date: "November 4"
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Uneventful. Surface patrol."
+  page: "-5-"
+  flags: ""
+- date: "November 5"
+  time: "0625"
+  zone: "I"
+  lat: "29-08 Ν."
+  lon: "129-37 Ε."
+  from: "AKUSEKI JIMA"
+  bearing: "southeastward"
+  distance: "20 miles"
+  bearing_is: "from_landmark"
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived 20 miles southeastward of AKUSEKI JIMA. Went deep for density layer information, then commenced submergod patrol."
+  page: "-5-"
+  flags: "Heading above entry: THIRD CONTACT / CONVOY WITH SURFACE AND AIR COVERAGE. Greek capital Nu and Epsilon in Lat/Long coordinates as typed."
+- date: "November 5"
+  time: "0708"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Sighted smoke bearing 223 T, commenced approach. Developed into 3-ship convoy (one 9000-ton freighter, two 6000-ton freighters) escorted by MOMI-class destroyer and two landplanes."
+  page: "-5-"
+  flags: ""
+- date: "November 5"
+  time: "0745"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "The convoy took an unfortunate zig away, which took us out of position for the largest ship, but left us in good position for the other two."
+  page: "-5-"
+  flags: ""
+- date: "November 5"
+  time: "0800"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Another zig away, leaving a long range shot on the second ship and a good shot at the third. Unfortunately had but four torpedoes left forward."
+  page: "-5-"
+  flags: ""
+- date: "November 5"
+  time: "0814"
+  zone: "I"
+  lat: "29-08 N."
+  lon: "129-37 E."
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Attack on second freighter"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Fired three bow torpedoes at the second FREIGHTER, range 2400 yards, 110 starboard track, GA O."
+  page: "-5-"
+  flags: "Heading above entry: FIFTH ATTACK / TWO MEDIUM 3 ISLAND FREIGHTERS, MISSED"
+- date: "November 5 (Cont'd.)"
+  time: "0815"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Attack on third freighter"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Fired the last bow torpedo at the third FREIGHTER, range 1200, 90 starboard track, GA 10 L. Went deep to avoid depth bombs."
+  page: "-6-"
+  flags: ""
+- date: "November 5 (Cont'd.)"
+  time: "0820"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Heard two explosions. Time too great for hits."
+  page: "-6-"
+  flags: ""
+- date: "November 5 (Cont'd.)"
+  time: "0830"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "counterattack"
+  title: "Depth charge attack"
+  part: "I"
+  charges: "about 20"
+  damage:
+  with:
+  course:
+  speed:
+  event: "Commenced receiving about 20 depth charges. The destroyer seemed to have us well located, but his runs were only fair."
+  page: "-6-"
+  flags: ""
+- date: "November 5 (Cont'd.)"
+  time: "0926"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Thinking we were well clear, came to periscope depth. Poriscope had hardly been raised, when at"
+  page: "-6-"
+  flags: "Text ends with 'when at' pointing directly to next entry at 0926.1 I"
+- date: "November 5 (Cont'd.)"
+  time: "0926.1"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "counterattack"
+  title: "Aircraft bombs and depth charge attack"
+  part: "I"
+  charges: "5 depth charges or bombs"
+  damage:
+  with:
+  course:
+  speed:
+  event: "received 5 depth charges or bombs very close aboard. Scared hell out of us. No screws were heard, and the echo ranging was still off in the distance. Concluded these were aircraft bombs and went deep again. The destroyer regained contact, guided by the planes, no doubt, and dropped a few more depth charges."
+  page: "-6-"
+  flags: ""
+- date: "November 5 (Cont'd.)"
+  time: "1215"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Periscope depth. DD still in sight patrolling retiring search curve and echo ranging, distant about 10,000 yards."
+  page: "-6-"
+  flags: ""
+- date: "November 5 (Cont'd.)"
+  time: "1400"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted a plane bearing 190° T, heading north."
+  page: "-6-"
+  flags: ""
+- date: "November 5 (Cont'd.)"
+  time: "1836"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course: "east"
+  speed: "13 knots"
+  event: "Surfaced heading east at 13 knots."
+  page: "-6-"
+  flags: ""
+- date: "November 6"
+  time: "0602"
+  zone: "1"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived for trim and density layer."
+  page: "-6-"
+  flags: "Zone letter typed as numeral 1"
+- date: "November 6"
+  time: "0633"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course: "270 T"
+  speed:
+  event: "Surfaced, on course 270 T, intending to patrol on surface."
+  page: "-6-"
+  flags: ""
+- date: "November 6"
+  time: "0636"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted two planes astern. They turned and headed toward us."
+  page: "-6-"
+  flags: "First of two entries at 0636 I"
+- date: "November 6"
+  time: "0636"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived."
+  page: "-6-"
+  flags: "Second of two entries at 0636 I"
+- date: "November 7"
+  time: "1206"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Conducting submerged patrol near Nansei Shoto Islands. Sighted periscope bearing 153 T, distance 1500 yards; watched it lowered. (4th Contact)."
+  page: "-6-"
+  flags: ""
+- date: "November 8"
+  time: "0430"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Passed through NANSEI SHOTO Islands."
+  page: "-6-"
+  flags: ""
+- date: "November 9"
+  time: "0200"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Entered Area."
+  page: "-7-"
+  flags: ""
+- date: "November 9"
+  time: "0300"
+  zone: "I"
+  lat: "33-05 N."
+  lon: "125-13 E."
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted smoke of several ships. Because of extraordinarily bright moonlight, could not close to radar range."
+  page: "-7-"
+  flags: "Headings above entry: FIFTH CONTACT / 9 SHIP CONVOY WITH 4 ESCORTS. Marginal notation '13' typed below date."
+- date: "November 9"
+  time: "0415"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Tracked by TBT and visual estimates; convoy base course 250° T, zig-zagging 210 to 290, speed 8. Total about 12 ships with 3-4 escorts."
+  page: "-7-"
+  flags: ""
+- date: "November 9"
+  time: "0459"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "In position ahead of convoy, estimated range 11,000 yards."
+  page: "-7-"
+  flags: ""
+- date: "November 9"
+  time: "0515"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived. Still unable to get radar ranges. Target in sight through periscope, went to 60 feet."
+  page: "-7-"
+  flags: ""
+- date: "November 9"
+  time: "0535"
+  zone: "I"
+  lat: "32-57 N."
+  lon: "125-06 E."
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Moonlight periscope approach heading for convoy center. Passed between MOMI-class destroyer screen. One destroyer made knuckle at 700 yards, echo-ranged, but continued on."
+  page: "-7-"
+  flags: "Headings above entry: SIXTH ATTACK / 10,000 ΤΟΝ TRANSPORT, SUNK"
+- date: "November 9"
+  time: "0545"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Convoy zigged towards us. Three ships passed 700 yards ahead. Swung left full speed to target largest ship with stern tubes."
+  page: "-7-"
+  flags: ""
+- date: "November 13 (Cont'd.)"
+  time: "0555"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Attack on transport"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Firod four torpedoes aft, range 800 yards, 100 starboard track, GA O. Two hits seen, one under the stack and one aft. Went to 200 feet (depth of water 240) with the rear escort heading for us at about 800 yards range."
+  page: "-8-"
+  flags: "Date heading 'November 13 (Cont'd.)' typed on page 8 continues attack narrative begun under November 9 on page 7."
+- date: "November 13 (Cont'd.)"
+  time: "0602"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "counterattack"
+  title: "Depth charge attack"
+  part: "I"
+  charges: "5"
+  damage:
+  with:
+  course:
+  speed:
+  event: "Received 5 very excellent depth charges. Found density layer and the escort lost contact, but remained in the near vicinity, alternately listening and echo-ranging."
+  page: "-8-"
+  flags: ""
+- date: "November 13 (Cont'd.)"
+  time: "0840"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] At periscope depth saw destroyer, rescue ship picking up survivors, and patrolling plane. Headed toward spot. Ships and plane departed about an hour before our arrival."
+  page: "-8-"
+  flags: ""
+- date: "November 13 (Cont'd.)"
+  time: "1520"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Reached scene of sinking; found coal dust, barrels, 5 lifeboats, rafts, hatch covers, life belts, and bridge section. Took pictures."
+  page: "-8-"
+  flags: ""
+- date: "November 13 (Cont'd.)"
+  time: "1620"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted and photographed a red flag on the end of a bamboo pole, lashed to a can and floating vertically."
+  page: "-8-"
+  flags: "Followed by narrative paragraph discussing sunken ship identity/troop transport characteristics."
+- date: "November 14"
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Patrolling submerged in the vicinity of QUELPART Island."
+  page: "-8-"
+  flags: "Marginal notation '16' typed below date."
+- date: "November 16"
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Encountered 7 patrol boats (5 submerged, 2 surfaced). Suspecting radar on MARA TO near QUELPART Island, headed southwest high speed, doubled north into Yellow Sea. (6th Contact)."
+  page: "-8-"
+  flags: ""
+- date: "November 17"
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "These days entirely wasted, because of a storm."
+  page: "-8-"
+  flags: "Entry covers November 17-18; marginal notation '18' typed below date."
+- date: "November 19"
+  time: "0640"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived for trim and density layer information."
+  page: "-9-"
+  flags: ""
+- date: "November 19"
+  time: "0800"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced, intending to patrol on the surface in order to in- crease visibility. This is the first day weather conditions made this possible."
+  page: "-9-"
+  flags: ""
+- date: "November 19"
+  time: "0801"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "SD radar contact at two miles. Dived. No plano seen either before or after diving. Considered it probable that the pip was due to electrical disturbances in the boat; so at"
+  page: "-9-"
+  flags: "Text leads directly into next entry at 0900 I"
+- date: "November 19"
+  time: "0900"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "surfaced."
+  page: "-9-"
+  flags: ""
+- date: "November 19"
+  time: "0934"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Plane sighted about two miles away. Dived. Stayed down. Evidently a fairly close air patrol is maintained over the Yellow Sen or else we have been unusually unlucky."
+  page: "-9-"
+  flags: ""
+- date: "November 20"
+  time: "0640"
+  zone: "I"
+  lat:
+  lon:
+  from: "CHOSAN KAN"
+  bearing:
+  distance: "5 miles"
+  bearing_is: "from_landmark"
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived 5 miles off CHOSAN KAN."
+  page: "-9-"
+  flags: ""
+- date: "November 20"
+  time: "1145"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted smoke between CHOSAN KAN and HAKURIE TO. Commenced approach. (7th Contact)."
+  page: "-9-"
+  flags: ""
+- date: "November 20"
+  time: "1208"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Lost sight of smoke. Believe the ship slipped down the coast close inshore, doubled CHOSAN KAN and then ran between HAKURIE TO and the KOREAN mainland."
+  page: "-9-"
+  flags: ""
+- date: "November 20"
+  time: "1232"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced for a better look, about four miles off shore. The smoke was seen again, passing out of sight behind HAKURIE TO."
+  page: "-9-"
+  flags: ""
+- date: "November 20"
+  time: "1239"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted a plane distant about four miles. Dived."
+  page: "-9-"
+  flags: ""
+- date: "November 20"
+  time: "1430"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted patrol boat. Avoided. (8th Contact)."
+  page: "-9-"
+  flags: ""
+- date: "November 20"
+  time: "1914"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Surfaced and headed south due to poor weather and lack of contacts. Decided to run down 20-fathom curve off west Chosen coast for coastal traffic."
+  page: "-9-"
+  flags: ""
+- date: "November 21"
+  time: "0638"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived in 20 fathoms of water off MOKUTOKU TO."
+  page: "-9-"
+  flags: ""
+- date: "November 21"
+  time: "1239"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted smoke, proved to be a very small coastal FREIGHTER, passing close inshoro. Too small for torpedoes and too close to MOKUTOKU TO (five miles) to use 3\" gun. (9th Contact)."
+  page: "-9-"
+  flags: ""
+- date: "November 21 (Cont'd.)"
+  time: "1340"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Headed closer inshore."
+  page: "- 10 -"
+  flags: ""
+- date: "November 21 (Cont'd.)"
+  time: "1707"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted patrol boat resembling a converted yacht. Depth of water 12 to 15 fathoms at the time, not a comfortable situation. He passed close aboard, but evidontly did not suspect our presence. (10th Contact)."
+  page: "- 10 -"
+  flags: ""
+- date: "November 21 (Cont'd.)"
+  time: "1832"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced, full speed on all engines."
+  page: "- 10 -"
+  flags: ""
+- date: "November 21 (Cont'd.)"
+  time: "2027"
+  zone: "I"
+  lat:
+  lon:
+  from: "WEST CLIFFORD Island"
+  bearing:
+  distance: "5 miles"
+  bearing_is: "from_landmark"
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Rounded WEST CLIFFORD Island, distance 5 miles."
+  page: "- 10 -"
+  flags: ""
+- date: "November 21 (Cont'd.)"
+  time: "2130"
+  zone: "I"
+  lat: "36-40 N."
+  lon: "125-31 Ε."
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Radar contact on target at 3500 yards. Commenced approach directly ahead to fire stern tubes; target course 300° T, speed 7 knots."
+  page: "- 10 -"
+  flags: "Headings above entry: ELEVENTH CONTACT / SEVENTH ATTACK / 5000 ΤΟΝ FREIGHTER, SUNK. Greek capital Epsilon in Longitude as typed."
+- date: "November 21 (Cont'd.)"
+  time: "2215"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "When the range had decreased to 2000 yards, pulled off the track a distance of 300 yards and stopped, swinging slowly to the right and kicking ahend occasionally to keep stern toward him, and opening out so as to be 1000 yards from the track at the firing point."
+  page: "- 10 -"
+  flags: ""
+- date: "November 21 (Cont'd.)"
+  time: "2237"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Attack on 5000-ton freighter"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Fired four torpedoes aft, range 1000 yards, 90 starboard track, GA O. Two hits. Target started down by the bow."
+  page: "- 10 -"
+  flags: ""
+- date: "November 21 (Cont'd.)"
+  time: "2238"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Started around to head for deep water, and observo sinking."
+  page: "- 10 -"
+  flags: ""
+- date: "November 21 (Cont'd.)"
+  time: "2240"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Observed target sink bow first at 2247 I in 24 fathoms; identified as medium freighter similar to KIMISIMA MARU (ONI 208-J)."
+  page: "- 10 -"
+  flags: ""
+- date: "November 22"
+  time: "0322"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Radar contact. Avoided. Vessel not seen. (12th Contact)."
+  page: "- 10 -"
+  flags: ""
+- date: "November 24"
+  time: "0406"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Left area."
+  page: "- 10 -"
+  flags: ""
+- date: "November 27"
+  time: "0841"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dived for plane. Radar contact. Not seon."
+  page: "- 11 -"
+  flags: ""
+- date: "November 27"
+  time: "1013"
+  zone: "I"
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: "- 11 -"
+  flags: ""
+- date: "December 3"
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Arrived Midway."
+  page: "- 11 -"
+  flags: ""
+- date: "December 8"
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Arrived Pearl."
+  page: "- 11 -"
+  flags: ""
+```
+
+Hull number (SS-), year patrol began, commanding officer, endorsement first page/COMSUBPAC report number, departure entry, and Part VIII (Anti-Submarine Measures) were not present on the provided pages.

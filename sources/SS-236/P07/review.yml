@@ -1,0 +1,30 @@
+# Reviewer notes for the contact tables, keyed by entry number: entries are
+# counted through contacts-01.md in order (ship contacts 1-3, aircraft
+# contacts 4-17), then the attack forms in attacks-01.md (18-23, the last
+# being gun attack 1). Delete a note once it's resolved against the report.
+
+rows:
+  1: "Remarks read by hand: 'Possibly GROWLER or GATO, avoided.' The narrative (15 Oct, page 4) has 2333 and 'It could be ⟦SCAMP⟧'; the table has 2335. Check the narrative's boat name."
+  2: "Table: 1116 Oct 17, 0-23 S 142-03 E, type '3 FAF 240, 2 PC', remarks 'Sank TSUKISHI MARU'. The narrative (17 Oct 1416, page 4) has smoke at 25 miles, convoy of 3 AK, 2 AO, 2 PC, at 0-23 N 14⟦8⟧-03 E. 142 E is about 360 miles off the track (14 Oct 152-50 E; attack 1 next morning at 149-20 E). Gemini flags the hemisphere letters as missing yet the cell shows S, so it may have supplied the letter. Check time, position, type and the ship name against page 20."
+  3: "Remarks read by hand (row_fixes). Position typed 0.10 N 147-3⟦0⟧ E; the narrative (22 Oct 1850, page 10) has 0-10 S 147-30 E, and the boat was at 0-07 S an hour earlier. Type read '7 ⟦AO⟧ 3 DD'; the narrative has seven, possibly eight ships with two escorts, the attack 2 form six ships and two escorts. Check."
+  4: "Aircraft 1: table 158-06 E, narrative (9 Oct 0800) 158-05 E."
+  6: "Aircraft 3: table 5-16 S, narrative (11 Oct 1501) 05-15 S. Type read '3 ⟦B⟧i-lan⟦e⟧s'."
+  7: "Aircraft 4: type and remarks read by hand (row_fixes). The narrative (12 Oct 1113) calls them two medium bombers, 'LILY'."
+  8: "Aircraft 5: table 0658, narrative (13 Oct) 0558, two DAVEs."
+  9: "Aircraft 6: type and remarks read by hand (row_fixes). Course: table 000 T, narrative (14 Oct 1140) 090 T."
+  11: "Aircraft 8: table 1530, 1-39 S 152-51 E; narrative 1630, Long. 152-45 E (latitude illegible). Check both."
+  13: "Aircraft 10: table 147-21 E, narrative (21 Oct 1716) 147-24 E."
+  14: "From here the table runs one number behind the narrative: table aircraft 11-14 are the narrative's contacts 12-15. The narrative's contact 11 (22 Oct 1720, 'MAVIS', 0-07 S 147-27 E) and contact 16 (30 Oct 1009, B-24, 0-37 N 158-28 E) are not in the table. Check page 20-21 for a dropped row and for a continuation page."
+  15: "Aircraft 12 (28 Oct 1325): table 1-06 N 152-03 E, narrative 1-04 N 152-04 E."
+  16: "Aircraft 13 (28 Oct 1430): position agrees with the narrative; type MAVIS here, EMILY in the narrative."
+  17: "Aircraft 14 (29 Oct 1310): table 0-08 S 156-23 E, narrative 0-08 N 155-23 E. The row is malformed in contacts-01.md (Gemini's note landed in Remarks, no Flags cell; contact number cut off at the margin)."
+  18: "Attack 1: target name read by hand as TAI⟦_⟧IN MARU (a faint mark before IN; form_fixes). TAIRIN MARU would fit the gap; check against the postwar credit. Both Gemini reads of the narrative (18 Oct 1130, page 7) give the life rings as 'TURI MARU KOBE'; check page 7. Exploder Mark VI-1A read by hand (Gemini read VI-14)."
+  19: "Attack 2: warhead serial 2549 (tube 10) is the same as attack 4's (tube 10). Checked on the scan: typed that way, likely a typing error in the report. 'Heard two torpedoes explode' (damage determined by) against 'One premature seen, remainder probably misses'."
+  20: "Attack 3: Hit or Miss read by hand as hits on tubes 1-5, a miss on tube 6 (form_fixes; Gemini had tube 3 a miss, tube 6 a hit). Gemini's 'Damage Determined by' text includes 'Heard three hits in this attack'; the Remarks and Type of attack don't mention three hits. Check page 27; if the phrase isn't there, add a form_fixes entry."
+  21: "Attack 4: the form gives 2-05 N 144-39 E (as do attack 3 and gun attack 1). The narrative (24 Oct 1914, page 14) has the ship breaking in two at 2-05 N 146-39 E in both Gemini reads. The cripple lay dead in the water at the attack 3 position; 146-39 is about 120 miles east. Check page 14: if the report has 146, it's a typing error in the report."
+
+callouts:
+  - "Narrative dates: gemini-03 fills the date only on the first entry under each day heading. The converter carries the previous entry's date forward and flags it."
+  - "Date line, 3-6 November (page 18): clock changes to M (typed '-11 (MIKE)' with an overstrike; M is -12), crossed the 180th meridian at 1700 M, then Y, X ('-11 (Xray)' as read; X is +11) and W. Gemini dates 'Completed battery discharge' 1301 M as 5 November, after the 1700 M crossing; the report's note about a discharge 'completed the preceding day' suggests the repeated day of an eastbound crossing. Check the day headings and zone letters on page 18 and enter them here by hand if they differ."
+  - "Landmarks not yet in reference.yml: FENI ISLAND (12 Oct 0330, bearing 224T, 20 miles, the island's bearing from the boat) and MANUS ISLAND (20 Oct 0640, bearing 206 T, no distance). 14 Oct 0330: '⟦MABUA⟧ ISLAND abeam to port distance 13 miles' can't be plotted without the course; the name may be Mahur Island in the Lihir group, where the boat had been patrolling. Check page 3."
+  - "23 Oct 2035 and 2142: Gemini reads the station called as 'White Wombat'; earlier entries read the radiotelephone as 'Mike Megat' (gemini-02). Probably a voice call for BALAO; check page 12."

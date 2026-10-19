@@ -17,6 +17,7 @@ and writes:
 Nothing in sources/ is ever modified. Verbatim readings are kept alongside
 the parsed values, and anything the script had to interpret is flagged.
 """
+import difflib
 import json
 import math
 import re
@@ -30,6 +31,8 @@ ROOT = Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "sources"
 OUT = ROOT / "data"
 
+FULL_MONTHS = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST",
+               "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"]
 MONTHS = {m: i + 1 for i, m in enumerate(
     ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"])}
 
@@ -177,8 +180,8 @@ def parse_time_date(text):
     text = re.sub(r"(?<=[A-Z])\.", "", unbracket(plain(text)).strip().upper())
     text = re.sub(r"SOPT", "SEPT", text)   # e read as o
     text = re.sub(r"(?<![A-Z])\.*UG(?=\s*\d)", "AUG", text)   # a carbon copy that lost the A of "Aug"
-    m = re.fullmatch(r"(\d{3,4})\s*\(?([A-Z])?\)?\s+(\d{1,2}\s*[A-Z]{3}[A-Z]*|[A-Z]{3}[A-Z]*\s*\d{1,2}"
-                     r"|\d{1,2}/\d{1,2}/\d{2,4})", text)
+    m = re.fullmatch(r"(\d{3,4})\s*\(?([A-Z])?\)?\s*:?\s+(\d{1,2}\s*[A-Z]{3}[A-Z]*|[A-Z]{3}[A-Z]*\s*\d{1,2}"
+                     r"|\d{1,2}[/-]\d{1,2}[/-]\d{2,4})", text)
     if not m:
         return None, None, None
     date = m.group(3).replace(" ", "")
@@ -265,6 +268,8 @@ def read_attack_forms(path):
             continue
         key = m.group(1).lower()
         num = WORD_NUMBERS.get(key, key)
+        if re.match(r"\s*gun\b", head, re.I):   # "### Gun attack data, attack 1": its own numbering
+            num = f"G{num}"
         page = re.search(r"(?m)^\s*Page\s+(\d+)", body)
         body = re.sub(r"(?m)^\s*Page\s+\d+\s*$\n?", "", body).rstrip()
         notes = [l.split(":", 1)[1].strip() for l in body.splitlines() if re.match(r"\s*Flags\s*:", l)]
@@ -274,7 +279,9 @@ def read_attack_forms(path):
         if page:
             f["pages"].append(page.group(1))
         kind = "torpedoes" if re.match(r"\s*torpedo\s+data", head, re.I) else "attack"
-        f[kind] = body
+        # A form that runs onto the next page comes as two blocks under the
+        # same heading (Finback 8 gun attack 1, pages 23-24): join them.
+        f[kind] = f[kind] + "\n" + body if f.get(kind) else body
     return forms
 
 
@@ -312,9 +319,19 @@ def find_landmark(landmarks, name):
 
 def parse_date(date_str, year, first_month):
     """'10MAY' (year from patrol.yml) or '10/4/43' (M/D/YY) -> (y, m, d)."""
-    d = plain(date_str or "").upper().replace(",", " ").replace(".", " ").strip()
+    d = unbracket(plain(date_str or "")).upper()
+    d = re.sub(r"\(\s*CONT[^)]*\)", "", d)   # "November 21 (Cont'd.)": a day heading carried onto a new page
+    d = d.replace(",", " ").replace(".", " ").strip()
     d = re.sub(r"^(\d{1,2})\s*-\s*\d{1,2}\b(?!\s*-)", r"\1", d)   # "28-31 December" -> first day (not "5-27-43")
     d = re.sub(r"\s+", " ", d)
+    # "December 16-18 1943" or "January 19 21 1944" (a heading covering several days) -> first day
+    d = re.sub(r"^([A-Z]+ \d{1,2})(?: ?- ?\d{1,2}| \d{1,2}(?= \d{4}))\b", r"\1", d)
+    # A month name with its first letters lost at the margin ("ecember", "nuary", "Tebruary")
+    lead = re.match(r"([A-Z]{4,})\b", d)
+    if lead and lead.group(1)[:3] not in MONTHS:
+        close = difflib.get_close_matches(lead.group(1), FULL_MONTHS, n=1, cutoff=0.75)
+        if close:
+            d = close[0] + d[len(lead.group(1)):]
     words = re.fullmatch(r"([A-Z]{3})[A-Z]*\.?\s+(\d{1,2})(?:\s+(\d{4}))?|(\d{1,2})\s+([A-Z]{3})[A-Z]*\.?(?:\s+(\d{4}))?", d)
     if words:
         mon = words.group(1) or words.group(5)
@@ -349,6 +366,9 @@ def to_utc(date_str, time_str, zone, year, first_month):
     if not ymd:
         return None
     digits = re.sub(r"\D", "", time_str.split("-")[0]) if time_str else ""
+    hms = re.fullmatch(r"\s*(\d{1,2})-(\d{2})(?:-\d{2})?\s*", str(time_str or ""))
+    if hms:   # "00-43-02" (hours-minutes-seconds), not "0537-13" (time, then seconds)
+        digits = hms.group(1).zfill(2) + hms.group(2)
     if time_str and len(digits) < 3:
         digits = ""
     digits = digits.zfill(4)[:4] if digits else ""
@@ -598,9 +618,19 @@ def build_patrol(folder, ref):
         if block.get("zone") and str(block["zone"]).upper() in zone_fix:
             block["zone"] = zone_fix[str(block["zone"]).upper()]
     last_event_zone = None
+    last_event_date = None
     for i, ev in enumerate(meta.get("events") or [], start=1):
         flags = [ev["flags"]] if ev.get("flags") else []
         ev = dict(ev)
+        # A report types the date once, as a day heading; entries under it carry none.
+        # Gemini sometimes repeats it on each entry and sometimes doesn't, so an
+        # entry with no date takes the previous entry's date (batches run in order).
+        if not str(ev.get("date") or "").strip():
+            if last_event_date:
+                ev["date"] = last_event_date
+                flags.append(f"No date on this entry; {last_event_date} assumed from the previous entry.")
+        else:
+            last_event_date = ev["date"]
         if not ev.get("zone"):
             if not ev.get("time") and ev.get("date"):
                 flags.append("No time given; placed at noon GMT on that date.")
@@ -612,7 +642,7 @@ def build_patrol(folder, ref):
         else:
             if not ev.get("time") and ev.get("date"):
                 flags.append("No time given; placed at noon GMT on that date.")
-            ev["zone"] = plain(ev["zone"]).strip().upper()
+            ev["zone"] = unbracket(plain(ev["zone"])).strip().upper()
             if ev["zone"] in zone_fix:
                 flags.append(f"Zone {ev['zone']} corrected to {zone_fix[ev['zone']]} (zone_fix in patrol.yml).")
                 ev["zone"] = zone_fix[ev["zone"]]
@@ -632,7 +662,7 @@ def build_patrol(folder, ref):
             # on the reciprocal. Numeric bearings are usually the second kind.
             bearing_is = str(ev.get("bearing_is") or "").lower()
             numeric = brg is not None and re.fullmatch(r"\s*\d{1,3}(\.\d+)?\s*°?\s*T?\s*", str(ev.get("bearing")), re.I)
-            if bearing_is == "to_landmark":
+            if bearing_is == "to_landmark" and brg is not None:
                 brg = (brg + 180) % 360
             elif not bearing_is and numeric:
                 flags.append(f"Read as 'bearing {ev.get('bearing')} from {name}'. If the report means {name} bore "
@@ -919,10 +949,19 @@ def build_patrol(folder, ref):
                     flags.append(f"Corrected by hand from the scan: '{fx['old']}' read as '{fx.get('new', '')}'.")
             if entry in row_notes:
                 flags.append(f"Review: {row_notes[entry]}")
-            tm = re.search(r"Time\s*[:;,]?\s*(\d{4})\s*\(?\s*([A-Z])?\s*\)?", body, re.I)
-            dm = re.search(r"Date\s*[:;,]?\s*([A-Za-z]+\.?\s*\d{1,2},?\s*\d{4}|\d{1,2}[/-]\d{1,2}[/-]\d{2,4})", body, re.I)
+            tm = re.search(r"Time\s*[:;,]?\s*(\d{4})\s*\(?\s*([A-Z])?\s*\)?", unbracket(body), re.I)
+            dm = re.search(r"Date\s*[:;,]?\s*([A-Za-z]+\.?\s*\d{1,2}(?:,?\s*\d{4})?|\d{1,2}[/-]\d{1,2}[/-]\d{2,4})", unbracket(body), re.I)
             la = re.search(r"Lat\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?|\d{4})\s*\.?\s*([NS])", body, re.I)
             lo = re.search(r"Long\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?)\s*\.?\s*([EW])", body, re.I)
+            # Degrees-and-minutes form, "Lat. 29° 30' (N) Long. 128° 50'(E)": rewrite as 29-30 N.
+            plain_body = unbracket(body)
+            if not la:
+                dm_ = re.search(r"Lat\.?\s*[:;,]?\s*(\d+)\s*°?\s*(\d+)\s*'?\s*\(?\s*([NS])", plain_body, re.I)
+                la = re.search(r"(\d+-\d+)\s*([NS])", f"{dm_.group(1)}-{dm_.group(2)} {dm_.group(3)}") if dm_ else None
+            if not lo:
+                dm_ = re.search(r"Long\.?\s*[:;,]?\s*(\d+)\s*°?\s*(\d+)\s*'?\s*\(?\s*([EW])", plain_body, re.I)
+                lo = re.search(r"(\d+-\d+)\s*([EW])", f"{dm_.group(1)}-{dm_.group(2)} {dm_.group(3)}") if dm_ else None
+            is_gun = str(atk_num).startswith("G") or bool(re.search(r"GUN\s+ATTACK\s+NO", body, re.I))
             t = tm.group(1) if tm else None
             z = (tm.group(2) if tm and tm.group(2) else None)
             d = dm.group(1) if dm else None
@@ -953,14 +992,16 @@ def build_patrol(folder, ref):
                 fields["fired"] = str(len(re.findall(r"#\s*\d+", tf.group(1))))
             desc = fields.get("description") or ""
             records.append({
-                "id": f"{pid}-A{entry:02d}", "source": "Torpedo attack data", "row": entry, "kind": "torpedo",
+                "id": f"{pid}-A{entry:02d}", "source": "Gun attack data" if is_gun else "Torpedo attack data",
+                "row": entry, "kind": "gun" if is_gun else "torpedo",
                 "page": ", ".join(form["pages"]) or None, "zone": z,
                 "local": " ".join(x for x in (t, z, d) if x) or "",
                 "utc": to_utc(d or "", t, z, year, first_month) if d else None, "has_time": bool(t),
                 "local_date": list(parse_date(d or "", year, first_month) or []),
                 "position_verbatim": " ".join(m.group(0) for m in (la, lo) if m), "lat": lat, "lon": lon,
                 "derived": None, "type": desc.split(".")[0][:60],
-                "title": f"Attack {atk_num}" + (f" · {desc.split('.')[0][:48]}" if desc else ""),
+                "title": (f"Gun attack {str(atk_num).lstrip('G')}" if is_gun else f"Attack {atk_num}")
+                         + (f" · {desc.split('.')[0][:48]}" if desc else ""),
                 "fields": fields, "flags": flags,
             })
 
@@ -1286,6 +1327,110 @@ def build_patrol(folder, ref):
     }
 
 
+def load_index():
+    """Matt's per-patrol index notes (sources/index/INDEX_SS.236.7.md), copied
+    as-is from the vault: YAML front matter with the report number, claims,
+    endorsing officer, bases, days, miles and fuel. Keyed by (hull, patrol);
+    the file name decides which patrol a note belongs to."""
+    out = {}
+    folder = SOURCES / "index"
+    if not folder.exists():
+        return out
+    for path in sorted(folder.glob("*.md")):
+        m = re.fullmatch(r"INDEX_SS\.(\d+)\.(\d+)\.md", path.name)
+        if not m:
+            print(f"index: {path.name}: name not understood (expected INDEX_SS.236.7.md), skipped")
+            continue
+        text = path.read_text(encoding="utf-8")
+        fm = re.match(r"\s*---\s*\n(.*?)\n---", text, re.S)
+        data = (yaml.safe_load(fm.group(1)) if fm else None) or {}
+        hull, num = f"SS-{int(m.group(1))}", int(m.group(2))
+        if data.get("hull") and str(data["hull"]).strip() != hull:
+            print(f"index: {path.name}: hull reads {data['hull']}, file name says {hull}")
+        if data.get("patrol") not in (None, "") and as_int(str(data["patrol"])) != num:
+            print(f"index: {path.name}: patrol reads {data['patrol']}, file name says {num}")
+        clean = {k: (v.strip() if isinstance(v, str) else str(v) if hasattr(v, "isoformat") else v)
+                 for k, v in data.items() if v not in (None, "")}
+        body = text[fm.end():].strip() if fm else ""
+        if body:
+            clean["text"] = body
+        clean["source"] = f"sources/index/{path.name}"
+        out[(hull, num)] = clean
+    return out
+
+
+def check_index(index, inventory, built):
+    """Print where an index note disagrees with itself, with inventory.yml or
+    with a patrol's own patrol.yml. Nothing is changed; the report decides."""
+    msgs = []
+    seen = {}
+    for (hull, num), ix in sorted(index.items()):
+        tag = f"{hull} P{num}"
+        def n(key):
+            v = ix.get(key)
+            try:
+                return float(str(v).replace(",", "")) if v not in (None, "") else None
+            except ValueError:
+                return None
+        def fmt(x):
+            return f"{x:g}"
+        parts = [n("days_to_station"), n("days_in_area"), n("days_from_station")]
+        if None not in parts and n("days_underway") is not None and abs(sum(parts) - n("days_underway")) > 0.01:
+            msgs.append(f"{tag}: days to/in/from area add to {fmt(sum(parts))}, days underway is {fmt(n('days_underway'))}")
+        for what, keys, extra, total in (
+                ("miles", ("miles_to_area", "miles_in_area", "miles_from_area"), "midway_pearl_mi", "total_miles"),
+                ("fuel", ("fuel_to", "fuel_in", "fuel_from"), "midway_pearl_gal", "total_fuel")):
+            vals = [n(k) for k in keys] + ([n(extra)] if n(extra) is not None else [])
+            if None not in vals and n(total) is not None and abs(sum(vals) - n(total)) > 2:
+                msgs.append(f"{tag}: {what} legs add to {fmt(sum(vals))}, total is {fmt(n(total))}")
+        try:
+            a = datetime.strptime(str(ix.get("started")), "%Y-%m-%d")
+            b = datetime.strptime(str(ix.get("ended")), "%Y-%m-%d")
+            span = (b - a).days + 1
+            if n("days_underway") is not None and abs(span - n("days_underway")) > 2:
+                msgs.append(f"{tag}: {ix['started']} to {ix['ended']} is {span} days, days underway is {fmt(n('days_underway'))}")
+            key = (hull, str(ix.get("started")), str(ix.get("ended")))
+            if key in seen:
+                msgs.append(f"{hull} P{seen[key]} and P{num} have the same start and end dates "
+                            f"({ix['started']} to {ix['ended']}); one was probably copied from the other")
+            else:
+                seen[key] = num
+        except ValueError:
+            pass
+        figs = tuple(n(k) for k in ("miles_to_area", "miles_in_area", "miles_from_area", "fuel_to", "fuel_in", "fuel_from"))
+        if sum(v is not None for v in figs) >= 4:
+            fkey = (hull, figs)
+            if fkey in seen:
+                msgs.append(f"{hull} P{seen[fkey]} and P{num} have the same miles and fuel figures; "
+                            f"one was probably copied from the other")
+            else:
+                seen[fkey] = num
+        inv = ((inventory.get(hull) or {}).get(num)) or {}
+        for ikey, xkey in (("report_no", "patrol_report_no"), ("start", "started"), ("end", "ended")):
+            if inv.get(ikey) not in (None, "") and ix.get(xkey) not in (None, "") and str(inv[ikey]) != str(ix[xkey]):
+                msgs.append(f"{tag}: inventory.yml {ikey} {inv[ikey]}, index {ix[xkey]}")
+        p = built.get((hull, num))
+        if p:
+            ms, fe = p.get("miles_steamed") or {}, p.get("fuel_expended") or {}
+            for label, have, key in (("total miles", ms.get("total"), "total_miles"),
+                                     ("total fuel", fe.get("total"), "total_fuel")):
+                if have not in (None, "") and n(key) is not None and float(have) != n(key):
+                    msgs.append(f"{tag}: patrol.yml {label} {have}, index {fmt(n(key))}")
+            for label, have, key in (("departure", (p.get("departure") or {}).get("port"), "base_out"),
+                                     ("arrival", (p.get("arrival") or {}).get("port"), "base_in")):
+                first = lambda x: re.sub(r"[^a-z ]", "", str(x).lower()).split()[:1]
+                if have and ix.get(key) and first(have) != first(ix[key]):
+                    msgs.append(f"{tag}: patrol.yml {label} {have}, index {ix[key]}")
+            co_a = re.sub(r"[^a-z]", "", str(p.get("commanding_officer") or "").lower())
+            co_b = re.sub(r"[^a-z]", "", str(ix.get("co") or "").lower())
+            co_a = re.sub(r"lieutenant|commander|captain|usnr|usn", "", co_a)
+            if co_a and co_b and co_b not in co_a:
+                msgs.append(f"{tag}: patrol.yml commanding officer {p['commanding_officer']}, index {ix['co']}")
+    for msg in msgs:
+        print("index:", msg)
+    print(f"index: {len(index)} patrol note(s), {len(msgs)} to check")
+
+
 STATUS_CODES = ("patrol", "refit", "overhaul", "modernization", "training", "other_task_force",
                 "transit", "miscellaneous", "other")
 
@@ -1354,8 +1499,13 @@ def main(selected):
     if selected:
         folders = [f for f in folders if any(str(f).endswith(s) for s in selected)]
     (OUT / "patrols").mkdir(parents=True, exist_ok=True)
+    index = load_index()
+    built = {}
     for folder in folders:
         patrol = build_patrol(folder, ref)
+        built[(patrol["boat"], patrol["patrol"])] = patrol
+        if (patrol["boat"], patrol["patrol"]) in index:
+            patrol["index"] = index[(patrol["boat"], patrol["patrol"])]
         if not patrol["start"]:
             print(f"{patrol['id']}  skipped: no dates. Add period: {{start: YYYY-MM-DD, end: YYYY-MM-DD}} to patrol.yml")
             (OUT / "patrols" / f"{patrol['id']}.json").unlink(missing_ok=True)
@@ -1372,6 +1522,9 @@ def main(selected):
         p = json.loads(path.read_text(encoding="utf-8"))
         manifest.append({k: p[k] for k in ("id", "boat", "name", "class", "patrol", "year", "start", "end", "summary")}
                         | {"file": f"patrols/{path.name}"})
+    inv_path = SOURCES / "inventory.yml"
+    inventory = yaml.safe_load(inv_path.read_text(encoding="utf-8")) if inv_path.exists() else {}
+    check_index(index, inventory or {}, built)
     status = build_status(ref)
     if status is not None:
         (OUT / "status.json").write_text(json.dumps(status, indent=1, ensure_ascii=False), encoding="utf-8")

@@ -1,0 +1,2829 @@
+{
+ "id": "SS-230-P07",
+ "boat": "SS-230",
+ "name": "Finback",
+ "class": "Gato",
+ "patrol": 7,
+ "year": 1943,
+ "report": "Report of Seventh War Patrol",
+ "commanding_officer": null,
+ "citation": {
+  "archive": "NARA",
+  "record_group": "38",
+  "nara_catalog_id": "4697018",
+  "nara_catalog_title": "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946",
+  "reel": "A855",
+  "micro_serial": "66905",
+  "file": "A16-3",
+  "serial": "05",
+  "date": "2/6/1944"
+ },
+ "fold3_images": {
+  "1": "270669267",
+  "2": "270669268",
+  "3": "270669269",
+  "4": "270669270",
+  "5": "270669271",
+  "6": "270669272",
+  "7": "270669273"
+ },
+ "miles_steamed": null,
+ "fuel_expended": null,
+ "start": "1943-12-15T12:00:00Z",
+ "end": "1944-02-11T12:00:00Z",
+ "departure": {
+  "label": "Departed",
+  "port": "Pearl Harbor",
+  "utc": "1943-12-15T23:30:00Z",
+  "local": "1300 VW December 15, 1943",
+  "lat": 21.35,
+  "lon": -157.95,
+  "page": "1",
+  "flags": [
+   "Zone typed '(VX)', which is not a zone letter: a typing error in the report for VW, Hawaiian time (-10:30). Departed in company with U.S.S. SALMON under escort of PC-487 (read by hand; Gemini had POBALO and PC-457)."
+  ]
+ },
+ "arrival": {
+  "label": "Arrived",
+  "port": "Pearl Harbor",
+  "utc": "1944-02-11T12:00:00Z",
+  "local": "February 11, 1944",
+  "lat": 21.35,
+  "lon": -157.95,
+  "page": "7",
+  "flags": [
+   "Arrived Midway for refit 6 February, ordered on to Pearl Harbor; departed Midway 7 February. No arrival time given.",
+   "Time not recorded; placed at noon."
+  ]
+ },
+ "report_found": true,
+ "summary": {
+  "records": 84,
+  "sightings": 8,
+  "aircraft": 5,
+  "torpedo_attacks": 2,
+  "mine_attacks": 0,
+  "counterattacks": 0,
+  "torpedoes_fired": 0,
+  "gun_actions": 2,
+  "flagged": 76
+ },
+ "track": [
+  {
+   "lat": 21.35,
+   "lon": -157.95,
+   "utc": "1943-12-15T23:30:00Z",
+   "basis": "reference"
+  },
+  {
+   "lat": 30.88333,
+   "lon": 140.16667,
+   "utc": "1943-12-30T00:44:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P07-C09"
+  },
+  {
+   "lat": 30.98333,
+   "lon": 139.83333,
+   "utc": "1943-12-30T02:30:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P07-C10"
+  },
+  {
+   "lat": 30.43333,
+   "lon": 130.01667,
+   "utc": "1944-01-01T10:50:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P07-C01"
+  },
+  {
+   "lat": 29.5,
+   "lon": 128.83333,
+   "utc": "1944-01-01T16:52:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P07-A14"
+  },
+  {
+   "lat": 33.0,
+   "lon": 126.35,
+   "utc": "1944-01-04T00:35:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P07-C02"
+  },
+  {
+   "lat": 33.38333,
+   "lon": 127.3,
+   "utc": "1944-01-06T02:10:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P07-C03"
+  },
+  {
+   "lat": 32.6,
+   "lon": 127.45,
+   "utc": "1944-01-08T07:00:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P07-C04"
+  },
+  {
+   "lat": 32.5,
+   "lon": 127.31667,
+   "utc": "1944-01-24T02:57:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P07-C11"
+  },
+  {
+   "lat": 31.3,
+   "lon": 127.78333,
+   "utc": "1944-01-24T23:32:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P07-C05"
+  },
+  {
+   "lat": 31.5,
+   "lon": 127.78333,
+   "utc": "1944-01-25T01:38:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P07-C12"
+  },
+  {
+   "lat": 31.06667,
+   "lon": 127.95,
+   "utc": "1944-01-27T01:45:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P07-C13"
+  },
+  {
+   "lat": 30.31667,
+   "lon": 134.0,
+   "utc": "1944-01-30T02:10:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P07-A16"
+  },
+  {
+   "lat": 30.7,
+   "lon": 139.81667,
+   "utc": "1944-01-31T05:31:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P07-A17"
+  },
+  {
+   "lat": 30.68333,
+   "lon": 140.43333,
+   "utc": "1944-01-31T07:36:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P07-C08"
+  },
+  {
+   "lat": 21.35,
+   "lon": -157.95,
+   "utc": "1944-02-11T12:00:00Z",
+   "basis": "reference"
+  }
+ ],
+ "records": [
+  {
+   "id": "SS-230-P07-N01",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": null,
+   "local": "1300 ecember 15, 1943.",
+   "utc": "1943-12-15T13:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    12,
+    15
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Departed Pearl in company with U.S.S. POBALO under escort of PC-457."
+   },
+   "flags": [
+    "POBALO or POBALON faint; initial D missing in ecember",
+    "No time zone recorded; treated as GMT."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N02",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": null,
+   "local": "ecember 16-18, 1943.",
+   "utc": "1943-12-16T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    12,
+    16
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute Midway conducting daily dives, dive drills, and fire control drills."
+   },
+   "flags": [
+    "initial D missing in ecember",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N03",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": null,
+   "local": "1224 ecember 19, 1943.",
+   "utc": "1943-12-19T12:24:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    12,
+    19
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Arrived Midway. Delay caused by rough head seas. Received 16,000 gallons diesel oil."
+   },
+   "flags": [
+    "initial D missing in ecember; zone letter missing",
+    "No time zone recorded; treated as GMT."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N04",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "Y",
+   "local": "1630 Y ecember 19, 1943.",
+   "utc": "1943-12-20T04:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    12,
+    19
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Underway for anchorage in lagoon. Channel blocked until dark."
+   },
+   "flags": [
+    "anchorage typed 'anchorae'"
+   ]
+  },
+  {
+   "id": "SS-230-P07-N05",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "Y",
+   "local": "0715 Y ecember 20, 1943.",
+   "utc": "1943-12-20T19:15:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    12,
+    20
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Underway for area heading into heavy seas and strong wind, speed about 9 knots, taking water down hatch and induction."
+   },
+   "flags": [
+    "zone letter missing; initial D missing in ecember",
+    "No zone letter on this entry; zone Y assumed from the previous entry."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N06",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "Y",
+   "local": "2300 Y ecember 20, 1943.",
+   "utc": "1943-12-21T11:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    12,
+    20
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Crossed 180th Meridian."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P07-N07",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "M",
+   "local": "0930 M ccember 22, 1943.",
+   "utc": "1943-12-21T21:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    12,
+    22
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sea rougher with 50-knot wind; slowed to six knots, rigged canvas duct from engine induction to bilges, running with hatch closed."
+   },
+   "flags": [
+    "date typed 'ccember'; zone letter faint/overstruck, appears as M"
+   ]
+  },
+  {
+   "id": "SS-230-P07-N08",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "M",
+   "local": "1317 M ccember 22, 1943.",
+   "utc": "1943-12-22T01:17:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "notable",
+   "local_date": [
+    1943,
+    12,
+    22
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Lookout injured in heavy sea",
+   "fields": {
+    "event": "⟦...⟧, 2c, Starboard Lookout, suffered a lacerated lower lip and and broken cap of two upper teeth when thrown against railing round lookout platform by heavy sea. Pharmacist's Mate took three stitches on outside and one on inside of lower lip."
+   },
+   "flags": [
+    "name omitted/illegible on left margin; zone letter blank",
+    "No zone letter on this entry; zone M assumed from the previous entry."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N09",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "M",
+   "local": "2100 M ccember 22, 1943.",
+   "utc": "1943-12-22T09:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    12,
+    22
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Made dive to 100 feet to check trim and drill fire control party; rolling 5 degrees; sent position message to Comsubpac; sea abated, built speed to 11 knots."
+   },
+   "flags": [
+    "zone typed as horizontal dash ⟦-⟧",
+    "Zone - corrected to M (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N10",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": null,
+   "local": "ecember 23-29, 1943.",
+   "utc": "1943-12-23T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    12,
+    23
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Enroute to area conducting daily drills; speed reduced by heavy seas which carried away superstructure plating/supports and 4-inch gun parts."
+   },
+   "flags": [
+    "text continues onto page 2; initial D missing in ecember",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N11",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "K",
+   "local": "0944 K cember 30, 1943.",
+   "utc": "1943-12-29T23:44:00Z",
+   "position_verbatim": "24 miles 165°T of Tori Shima",
+   "derived": {
+    "from": "Tori Shima",
+    "bearing": 345.0,
+    "distance_nm": 24.0,
+    "landmark": {
+     "lat": 30.483,
+     "lon": 140.303
+    },
+    "landmark_note": "Torishima, Izu Islands (the island's summit). Approximate; verify against a chart."
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    12,
+    30
+   ],
+   "has_time": true,
+   "lat": 30.86937,
+   "lon": 140.18287,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived on SD Radar contact at 6 miles with Tori Shima bearing 165°T, distance 24 miles."
+   },
+   "flags": [
+    "initial De missing in cember",
+    "Position derived from '24 miles 165°T of Tori Shima' using a modern landmark position; it is an estimate, not a position recorded in the report.",
+    "Landmark: Torishima, Izu Islands (the island's summit). Approximate; verify against a chart."
+   ]
+  },
+  {
+   "id": "SS-230-P07-C09",
+   "source": "(g) aircraft contacts:",
+   "row": 9,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "I",
+   "local": "0944 I 12-30-43",
+   "utc": "1943-12-30T00:44:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    12,
+    30
+   ],
+   "position_verbatim": "30°-53(N) : 140°-10(E)",
+   "lat": 30.88333,
+   "lon": 140.16667,
+   "derived": null,
+   "type": "1 Unknown not sighted",
+   "title": "Aircraft 1 · 1 Unknown not sighted",
+   "fields": {
+    "type": "1 Unknown not sighted",
+    "initial_range": "6 mi.",
+    "contacted": "Radar",
+    "remarks": "Radar contact at 6 miles."
+   },
+   "flags": [
+    "Heading(s) not recognized, kept as typed: Estimate Course",
+    "Transcriber: Section letter faint/blank \"⟦G⟧\"; time zone letter typed as \"I\" or digit \"1\"; Longitude degree symbol typed as zero/nine \"140⟦0⟧-10(E)\".",
+    "Lat and long run together in the transcription (30-53 N : 140-10 E); read as 30-53 / 140-10.",
+    "Uncertain reading in flags: Section letter faint/blank \"⟦G⟧\"; time zone letter typed as \"I\" or digit \"1\"; Longitude degree symbol typed as zero/nine \"140⟦0⟧-10(E)\"."
+   ],
+   "contact_no": "1."
+  },
+  {
+   "id": "SS-230-P07-N12",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "K",
+   "local": "1125 K cember 30, 1943.",
+   "utc": "1943-12-30T01:25:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-12-30T00:44:00Z",
+     "1943-12-30T02:30:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    12,
+    30
+   ],
+   "has_time": true,
+   "lat": 30.92201,
+   "lon": 140.03774,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Sighted very slow biplane at 3,000 feet at about 12 miles headed across our track. Stayed on surface and headed toward plane until"
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-12-30 00:44 and 1943-12-30 02:30 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N13",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "K",
+   "local": "1130 K cember 30, 1943.",
+   "utc": "1943-12-30T01:30:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-12-30T00:44:00Z",
+     "1943-12-30T02:30:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    12,
+    30
+   ],
+   "has_time": true,
+   "lat": 30.92673,
+   "lon": 140.02201,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "when we dived as plane started to head in our direction. At"
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1943-12-30 00:44 and 1943-12-30 02:30 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N14",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "K",
+   "local": "1140 K cember 30, 1943.",
+   "utc": "1943-12-30T01:40:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1943-12-30T00:44:00Z",
+     "1943-12-30T02:30:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1943,
+    12,
+    30
+   ],
+   "has_time": true,
+   "lat": 30.93616,
+   "lon": 139.99057,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced. Picked up plane at about 25 miles heading away on northeasterly course."
+   },
+   "flags": [
+    "zone letter missing",
+    "No zone letter on this entry; zone K assumed from the previous entry.",
+    "No position in the report. Placed on the track between the recorded positions at 1943-12-30 00:44 and 1943-12-30 02:30 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P07-C10",
+   "source": "(g) aircraft contacts:",
+   "row": 10,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "I",
+   "local": "1130 I 12-30-43",
+   "utc": "1943-12-30T02:30:00Z",
+   "has_time": true,
+   "local_date": [
+    1943,
+    12,
+    30
+   ],
+   "position_verbatim": "30°-5⟦9⟧(N) : 139°-50(E)",
+   "lat": 30.98333,
+   "lon": 139.83333,
+   "derived": null,
+   "type": "Not identified",
+   "title": "Aircraft 2 · Not identified",
+   "fields": {
+    "type": "Not identified",
+    "initial_range": "12 mi.",
+    "contacted": "Sighted by lookout day",
+    "remarks": "SD Radar not in use"
+   },
+   "flags": [
+    "Transcriber: Time zone missing letter \"1130( )\"; latitude minutes partially cut off/faint \"30°-5⟦9⟧\"; longitude hemisphere missing letter \"1390-50( )\"; \"Sighted\" typed as \"Si⟦g⟧hted\".",
+    "Lat and long run together in the transcription (30-59 N : 139-50 E); read as 30-59 / 139-50.",
+    "Uncertain reading in lat long: 30°-5⟦9⟧(N) : 139°-50(E)",
+    "Uncertain reading in flags: Time zone missing letter \"1130( )\"; latitude minutes partially cut off/faint \"30°-5⟦9⟧\"; longitude hemisphere missing letter \"1390-50( )\"; \"Sighted\" typed as \"Si⟦g⟧hted\"."
+   ],
+   "contact_no": "2."
+  },
+  {
+   "id": "SS-230-P07-N15",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "K",
+   "local": "2015 K cember 30, 1943.",
+   "utc": "1943-12-30T10:15:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    12,
+    30
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Picked up 10 cm interference on SJ Radar assumed from BATFISH; removed blanks from vents on #4 Fuel Oil Ballast Tank and flushed tank."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P07-N16",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": null,
+   "local": "ecember 31, 1943.",
+   "utc": "1943-12-31T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1943,
+    12,
+    31
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute to area."
+   },
+   "flags": [
+    "initial D missing in ecember",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N18",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "I",
+   "local": "1700 I nuary 1, 1944.",
+   "utc": "1944-01-01T08:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "actually entered area."
+   },
+   "flags": [
+    "zone letter typed as numeral 1 or letter I"
+   ]
+  },
+  {
+   "id": "SS-230-P07-N19",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "I",
+   "local": "1832 I nuary 1, 1944.",
+   "utc": "1944-01-01T09:32:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "surfaced and proceeded thru Tokara Kaikyo headed for center of area."
+   },
+   "flags": [
+    "zone letter typed as numeral 1 or letter I"
+   ]
+  },
+  {
+   "id": "SS-230-P07-C01",
+   "source": "(f) ship contacts:",
+   "row": 1,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "I",
+   "local": "1950 I 1-1-44",
+   "utc": "1944-01-01T10:50:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    1,
+    1
+   ],
+   "position_verbatim": "30°-26(N) : 130°-01(E)",
+   "lat": 30.43333,
+   "lon": 130.01667,
+   "derived": null,
+   "type": "1-AO about 10,000 tons",
+   "title": "Contact 1 · 1-AO about 10,000 tons",
+   "fields": {
+    "type": "1-AO about 10,000 tons",
+    "initial_range": "22,000 on PPI",
+    "course": "245° 14 kts",
+    "contacted": "Radar",
+    "remarks": "Sunk with five hits"
+   },
+   "flags": [
+    "Review: Ship contact 1 (1950 I 1 Jan, 30-26 N 130-01 E) is the tanker of attacks 1 and 2: first radar contact at 22,000 yards, tracked on 245 at 14 knots.",
+    "Lat and long run together in the transcription (30-26 N : 130-01 E); read as 30-26 / 130-01."
+   ],
+   "contact_no": "1."
+  },
+  {
+   "id": "SS-230-P07-N20",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "I",
+   "local": "1950 I nuary 1, 1944.",
+   "utc": "1944-01-01T10:50:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-01-01T10:50:00Z",
+     "1944-01-01T16:52:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    1
+   ],
+   "has_time": true,
+   "lat": 30.43333,
+   "lon": 130.01667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Contact #1: SJ Radar contact at 22,000 yards near Kuchinoyerabu Shima; tracked target on course 245° at 14 knots; ended around target identified as possible tanker."
+   },
+   "flags": [
+    "text continues to next entry; zone letter typed as 1 or I",
+    "No position in the report. Placed on the track between the recorded positions at 1944-01-01 10:50 and 1944-01-01 16:52 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N17",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": null,
+   "local": "nuary 1, 1944.",
+   "utc": "1944-01-01T12:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-01-01T10:50:00Z",
+     "1944-01-01T16:52:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    1
+   ],
+   "has_time": false,
+   "lat": 30.25285,
+   "lon": 129.78785,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol across and in Tokara Kaikyo (Colnett Strait)."
+   },
+   "flags": [
+    "initial Ja missing in nuary",
+    "No time given; placed at noon GMT on that date.",
+    "No position in the report. Placed on the track between the recorded positions at 1944-01-01 10:50 and 1944-01-01 16:52 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N21",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "I",
+   "local": "2313 I nuary 1, 1944.",
+   "utc": "1944-01-01T14:13:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-01-01T10:50:00Z",
+     "1944-01-01T16:52:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    1
+   ],
+   "has_time": true,
+   "lat": 29.90994,
+   "lon": 129.35308,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "moonset."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-01-01 10:50 and 1944-01-01 16:52 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N22",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "2320 I nuary 1, 1944.",
+   "utc": "1944-01-01T14:20:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-01-01T10:50:00Z",
+     "1944-01-01T16:52:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    1
+   ],
+   "has_time": true,
+   "lat": 29.8919,
+   "lon": 129.3302,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Target changed course to 215 degrees, began small helm zig, increased speed to 16 knots; placed ship 3,500 yards off port bow to attack on surface."
+   },
+   "flags": [
+    "text continues into January 2",
+    "No position in the report. Placed on the track between the recorded positions at 1944-01-01 10:50 and 1944-01-01 16:52 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N23",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "0115 I Anuary 2, 1944.",
+   "utc": "1944-01-01T16:15:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-01-01T10:50:00Z",
+     "1944-01-01T16:52:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    2
+   ],
+   "has_time": true,
+   "lat": 29.5954,
+   "lon": 128.95428,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "started in to attack."
+   },
+   "flags": [
+    "month typed Anuary; zone typed as 1 or I",
+    "No position in the report. Placed on the track between the recorded positions at 1944-01-01 10:50 and 1944-01-01 16:52 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N24",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "0134 I Anuary 2, 1944.",
+   "utc": "1944-01-01T16:34:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-01-01T10:50:00Z",
+     "1944-01-01T16:52:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    2
+   ],
+   "has_time": true,
+   "lat": 29.54641,
+   "lon": 128.89217,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Dead ahead of target at 14,600 yards; turned for stern then bow shots; ended with 115°(P) track, 15° gyro, 3,000 yard range; decided to shoot."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-01-01 10:50 and 1944-01-01 16:52 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P07-A14",
+   "source": "Torpedo attack data",
+   "row": 14,
+   "kind": "torpedo",
+   "page": "12, 12",
+   "zone": "I",
+   "local": "0152 I 1-2-44",
+   "utc": "1944-01-01T16:52:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    1,
+    2
+   ],
+   "position_verbatim": "29-30 N 128-50 E",
+   "lat": 29.5,
+   "lon": 128.83333,
+   "derived": null,
+   "type": "",
+   "title": "Attack 1",
+   "fields": {
+    "target": "28 — no units given on form.",
+    "form": "(⟦H⟧) ATTACK DATA:\n⟦U⟧.S.S. FINBACK           TORPEDO ATTACK NO. 1       PATROL NO. 7\n⟦T⟧ime 0152 (I) Date 1-2-44 Lat. 29° 30' (⟦N⟧) Long. 128° 50'(⟦E⟧)\nTARGET DATA                           DA⟦MA⟧GE INFLICTED\n⟦De⟧scription: Target was picked up at 22,000 yards on P.P.I. screen.  He\n            was making 14 knots, zig-zagging, and supersonic ranging\n            was heard once in his direction.  Target was a large tanker\n            of 10,000 tons or more.  He could not be identified more\n            closely in the darkness.  Target was picked up during moon-\n            light and attacked after moonset under an overcast sky.\n            Target had no escort when he was attacked.\n⟦Sh⟧ip's ⟦/⟧ Sunk:\n⟦Sh⟧ip's Damaged\n            None\n⟦Pr⟧obably sunk: 1 tanker of about 10,000 tons.  (later sunk)\n⟦Da⟧mage Determined\n               : seeing two torpedoes hit.\n⟦Ta⟧rget Draft: 28             Course 230     Speed 16\nOWN SHIP DATA\n⟦Sp⟧eed 10     Course 310      Depth  ⟦   ⟧   Angle ⟦     ⟧ Range 3,000\n                                                        (at firing)\nFIRE CONTROL AND TORPEDO DATA\n⟦Ty⟧pe Attack: Surface attack using T.B.T. bearings and Radar ranges.\n            Fired first torpedo with constant bearing and others with\n            T.D.C. check bearings.  Reason for not using 90° track\n            and 0° gyro angle was a last minute zi⟦g⟧ by target.\nLeft margin clipped throughout, affecting section letters, labels, and first letters of lines.\nTarget Data / Damage Inflicted columns overlap; text is transcribed as laid out across the page.\nLat. 29° 30' (⟦N⟧): \"N\" is faint and broken, resembles \"(IT)\".\nLong. 128° 50'(⟦E⟧): \"E\" is obscured by fold/strike, looks like \"(고)\".\nTarget Draft: 28 — no units given on form.\nzi⟦g⟧: typed as \"zi\", \"g\" omitted or clipped at margin.",
+    "torpedoes": "⟦T⟧ubes Fired           4                  5                  6\n⟦Tr⟧ack Angle        115° (P)           117° (P)           118° (P)\n⟦Gy⟧ro Angle         345                342°               343°-15'\n⟦De⟧pth Set          10 ft              10 ft              10 ft\n⟦Po⟧wer              High               High               High\n⟦Hi⟧t or Miss        Hit                Hit                Miss\n⟦Er⟧ratic            No                 No                 No\n⟦Ma⟧rk Torpedo       XIV-3A             XIV-3A             XIV-3A\n⟦Se⟧rial No.         25630              25562              25672\n⟦Mk⟧. Exploder:      V-4                V-4                V-4\n⟦Se⟧rial No.         1338               2149               1339\n⟦Ac⟧tuation Set      Contact            Contact            Contact\n⟦Ac⟧tuation Actual   Contact            Contact            Contact\n⟦Mk⟧. Warhead        XVI                XVI                XVI\n⟦Se⟧rial No.         10116              1729               2044\n⟦Ex⟧plosive          TPX                TPX                TPX\n⟦Fi⟧ring Interval     9 sec\n⟦Sp⟧read             Div 1 1/4°\n⟦Se⟧a Condition      Two\n⟦Ov⟧erhaul Activity  SPERRY             S/M Base           S/M Base\n                                        P.H., T.H.         P.H., T.H.\nIn the original document, Torpedo Attack No. 1 and Torpedo Attack No. 2 are recorded on single continuous sheets containing both Target Data and Torpedo Data (Page 12 and Page 13), rather than separate target-data and torpedo-data sheets.\nThe bottom two lines of Torpedo Data for Attack 1 (\"Spread Div 1 1/4°\", \"Sea Condition Two\", \"Overhaul Activity...\") appear typed at the top of Page 13 above the header for Torpedo Attack No. 2.",
+    "narrative": "Attack #1) fired tubes #4, #5, and #6. Result two observed hits. Retired on surface. Target did not have an escort. These hits stopped the target."
+   },
+   "flags": [
+    "Transcriber: ",
+    "Transcriber: ",
+    "Review: Attacks 1 and 2 give the same position, 29° 30' N 128° 50' E (checked on the scan), two hours apart; the target was stopped after attack 1.",
+    "Narrative entry at 0152 I Anuary 2, 1944. (page 3) describes this attack; its account is included here."
+   ],
+   "result": null,
+   "result_basis": null
+  },
+  {
+   "id": "SS-230-P07-N26",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "0204 I Anuary 2, 1944.",
+   "utc": "1944-01-01T17:04:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Target commenced firing deck guns intermittently; opened range to 10,000 yards; target radioed Nagasaki; decided to conduct submerged attack."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P07-N27",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "0319 I Anuary 2, 1944.",
+   "utc": "1944-01-01T18:19:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "dived to 40 feet at range of 3,000 yards."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P07-N28",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "0334 I Anuary 2, 1944.",
+   "utc": "1944-01-01T18:34:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "with range of 1,400 yards, went to 60 feet when a shell exploded close aboard. As we definitely wanted to sink this ship before help arrived,"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P07-A15",
+   "source": "Torpedo attack data",
+   "row": 15,
+   "kind": "torpedo",
+   "page": "13, 13",
+   "zone": "I",
+   "local": "0336 I 1-2-44",
+   "utc": "1944-01-01T18:36:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    1,
+    2
+   ],
+   "position_verbatim": "29-30 N 128-50 E",
+   "lat": 29.5,
+   "lon": 128.83333,
+   "derived": null,
+   "type": "",
+   "title": "Attack 2",
+   "fields": {
+    "damage determined by": "\"exolceed\" typed for \"exploded\" (struck/smeared); \"un bar et\" typed for \"up target\"; \"hek up\" typed for \"pick up\".",
+    "form": "(⟦H⟧) ATTACK DATA: (continued)\n⟦U⟧.S.S. FI⟦N⟧BACK          TORPEDO ATTACK NO. 2       PATROL NO. 7\n⟦Ti⟧me 0336 (I) Date 1-2-44 Lat. 29° 30' (N) Long 128° 50' (E)\nTARGET DATA                           DAMAGE INFLICTED\n⟦De⟧scription: Same target hit with two torpedoes on attack ⟦1⟧\n⟦Sh⟧ip's ⟦/⟧ Sunk:\n⟦   ⟧      Damaged\n           probably sunk : 1 tanker of about 10,000 tons.\n⟦Da⟧mage Determined      : Seeing three torpedoes hit.  Target exploded with a\n                         terrific explosion.  Unable to pick up target on Radar\n                         at range of 2,500 yards and depth of 40 feet.  Sur-\n                         faced at 3,000 yards range and could not ⟦pi⟧ck up\n                         target by sight or on radar.\n⟦Ta⟧rget Draft 32              Course 210     Speed 1 1/2\nOWN SHIP DATA\n⟦Sp⟧eed 4      Course 173      Depth 52       Angle 2° dive     Range 1,300\n                                                                (at firing)\nFIRE CONTROL ⟦AN⟧D TORPEDO DATA\n⟦Ty⟧pe Attack: Radar approach.  Submerged to depth of 40 feet.  When\n            unable to see target continually thru #1 periscope,\n            fired on SJ Radar bearings.\nLeft margin clipped throughout.\nLong 128° 50' (E): middle digit appears typed over/smeared as \"123°\" or \"128°\"; zone letter typed as \"(1)\" or faint \"(E)\".\nDamage Determined text: \"exolceed\" typed for \"exploded\" (struck/smeared); \"un bar et\" typed for \"up target\"; \"hek up\" typed for \"pick up\".\n\"attack ⟦1⟧\": digit at end of line clipped/cut off.",
+    "torpedoes": "⟦Tu⟧bes Fired           1                  2                  3\n⟦Tr⟧ack angle        148(S)             150(S)             148(S)\n⟦Gy⟧ro Angle         005 1/2            007                005\n⟦De⟧pth Set          8 ft               8 ft               8 ft\n⟦Po⟧wer              High               High               High\n⟦Hi⟧t or Miss        Hit                Hit                Hit\n⟦Er⟧ratic            No                 No                 No\n⟦Ma⟧rk Torpedo       XIV-3A             XIV-3A             XIV-3A\n⟦Se⟧rial ⟦No.⟧       25652              23780              39283\n⟦Mk⟧. Exploder       V-4                V-4                V-4\n⟦Se⟧rial No.         1331               2376               1614\n⟦Ac⟧tuation Set      Contact            Contact            Contact\n⟦Ac⟧tuation Actual   Contact            Contact            Contact\n⟦Mk⟧. Warhead        XVI                XVI                XVI\n⟦Se⟧rial No.         10336              10127              2156\n⟦Ex⟧plosive          TPX                TPX                TPX\n⟦Fi⟧ring Interval    10 sec\n⟦Sp⟧read             1 1/4°\n⟦Se⟧a Condition      Two\n⟦Ov⟧erhaul Activity  S/M Base           S/M Base           S/M Base\n                     P.H., T.H.         P.H., T.H.         P.H., T.H.\nThe last two lines of torpedo data for Attack 2 (\"Sea Condition Two\", \"Overhaul Activity...\") appear typed at the top of Page 14 above the header for Gun Attack No. 1.\nSerial No. label on tube 1 line typed simply as \"Serial\".\nPower for tubes 2 and 3 typed as \"Hich\".\n\nLeft-margin characters cut off by page binding/scanning on pages 12, 13, and 14; text spanning from Attack 1 onto page 13 and Attack 2 onto page 14; and Gun Attacks 1 and 2 and narrative sections (pages 14–15) omitted as they are not torpedo attack forms.",
+    "narrative": "fired tubes #1, #2, and #3 at range of 1,300 yards. Results three observed hits. Heard cracking up noises in sound gear."
+   },
+   "flags": [
+    "Transcriber: ",
+    "Transcriber: ",
+    "Corrected by hand from the scan: 'Long 12⟦8⟧° 50' (⟦E⟧)' read as 'Long 128° 50' (E)'.",
+    "Narrative entry at 0336 I Anuary 2, 1944. (page 3) describes this attack; its account is included here."
+   ],
+   "result": null,
+   "result_basis": null
+  },
+  {
+   "id": "SS-230-P07-N30",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "0341 I Anuary 2, 1944.",
+   "utc": "1944-01-01T18:41:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Terrific explosion shook ship, target lost; took sound range of 2,180 yards; came to 40 feet at 2,500 yards; no radar contacts except land at 58,000 yards."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P07-N31",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "I",
+   "local": "0358 I Anuary 2, 1944.",
+   "utc": "1944-01-01T18:58:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Surfaced at 3,000 yards; no target in sight; cleared area of attack to northwest; conducted submerged patrol at focal point of Sasebo Nagasaki to Formosa traffic."
+   },
+   "flags": [
+    "entry continues onto page 4"
+   ]
+  },
+  {
+   "id": "SS-230-P07-N32",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": null,
+   "local": "nuary 3, 1944.",
+   "utc": "1944-01-03T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    3
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Conducted submerged patrol at focal point of Nagasaki - Tsushima traffic; sighted numerous lighted sampans."
+   },
+   "flags": [
+    "initial Ja missing in nuary; faded text in middle lines illegible",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-C02",
+   "source": "(f) ship contacts:",
+   "row": 2,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "I",
+   "local": "0935 I 1-4-44",
+   "utc": "1944-01-04T00:35:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    1,
+    4
+   ],
+   "position_verbatim": "33°-00(N) : 126°-21(E)",
+   "lat": 33.0,
+   "lon": 126.35,
+   "derived": null,
+   "type": "4 trawlers",
+   "title": "Contact 2 · 4 trawlers",
+   "fields": {
+    "type": "4 trawlers",
+    "initial_range": "6,000",
+    "course": "Various 7 kts",
+    "contacted": "sighted day",
+    "remarks": "2-trawlers fished near us all day. 2-trawlers just seen in afternoon."
+   },
+   "flags": [
+    "Transcriber: Missing closing parenthesis in Time zone letter \"0935( )\"; degree symbol in Long \"1260-21(N)\" typed as zero \"0\", and latitude/longitude hemispheres typed as \"(N)\" and \"(N)\" (or \"(E)\" misstruck as \"(N)\").",
+    "Lat and long run together in the transcription (33-00 N : 126-21 E); read as 33-00 / 126-21."
+   ],
+   "contact_no": "2."
+  },
+  {
+   "id": "SS-230-P07-N33",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": null,
+   "local": "nuary 4, 1944",
+   "utc": "1944-01-04T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    4
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Conducted submerged patrol south of ⟦...⟧; patrolled area ⟦...⟧ - Tsingtao trade lane."
+   },
+   "flags": [
+    "initial Ja missing in nuary; multiple words illegible due to poor contrast",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N34",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": null,
+   "local": "anuary 5, 1944.",
+   "utc": "1944-01-05T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    5
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Submerged patrol off Kokuzan To Light; heavy seas (condition six) and snow; impossible to shoot torpedoes; headed east of Quelpart Island."
+   },
+   "flags": [
+    "initial J missing in anuary",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-C03",
+   "source": "(f) ship contacts:",
+   "row": 3,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "I",
+   "local": "1110 I 1-6-44",
+   "utc": "1944-01-06T02:10:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    1,
+    6
+   ],
+   "position_verbatim": "33°-23(N) : 127°-18(E)",
+   "lat": 33.38333,
+   "lon": 127.3,
+   "derived": null,
+   "type": "2- trawlers",
+   "title": "Contact 3 · 2- trawlers",
+   "fields": {
+    "type": "2- trawlers",
+    "initial_range": "7,000",
+    "course": "090° 8 kts",
+    "contacted": "sighted day",
+    "remarks": "Traveling together."
+   },
+   "flags": [
+    "Transcriber: Longitude hemisphere missing closing parenthesis \"127-18 (\".",
+    "Lat and long run together in the transcription (33-23 N : 127-18 E); read as 33-23 / 127-18."
+   ],
+   "contact_no": "3."
+  },
+  {
+   "id": "SS-230-P07-N36",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "I",
+   "local": "1110 I anuary 6, 1944.",
+   "utc": "1944-01-06T02:10:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    6
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "sighted two trawlers on course 090°. Too rough to use gun."
+   },
+   "flags": [
+    "zone typed 1 or I"
+   ]
+  },
+  {
+   "id": "SS-230-P07-N37",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "I",
+   "local": "1124 I anuary 6, 1944.",
+   "utc": "1944-01-06T02:24:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    6
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "sighted large sampan headed 275°(T). Most fishing vessels seen were working in ⟦...⟧."
+   },
+   "flags": [
+    "last word illegible"
+   ]
+  },
+  {
+   "id": "SS-230-P07-N35",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": null,
+   "local": "anuary 6, 1944.",
+   "utc": "1944-01-06T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    6
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolled submerged east and southeast of Quelpart Island."
+   },
+   "flags": [
+    "initial J missing in anuary",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N38",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": null,
+   "local": "anuary 7, 1944.",
+   "utc": "1944-01-07T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    7
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Conducted submerged patrol along Tsushima Shanghai trade lane; sea rough, unable to shoot except at deep draft targets."
+   },
+   "flags": [
+    "initial J missing in anuary; words partially faded",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-C04",
+   "source": "(f) ship contacts:",
+   "row": 4,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "I",
+   "local": "1600 I 1-8-44",
+   "utc": "1944-01-08T07:00:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    1,
+    8
+   ],
+   "position_verbatim": "32°-36(N) : 127°-27(E)",
+   "lat": 32.6,
+   "lon": 127.45,
+   "derived": null,
+   "type": "2 trawlers",
+   "title": "Contact 4 · 2 trawlers",
+   "fields": {
+    "type": "2 trawlers",
+    "initial_range": "8,000",
+    "course": "230° 8 kts",
+    "contacted": "sighted day",
+    "remarks": "Traveling together."
+   },
+   "flags": [
+    "Transcriber: Longitude hemisphere typed with strike-through/overstrike \"127-27(⟦E⟧)\".",
+    "Lat and long run together in the transcription (32-36 N : 127-27 E); read as 32-36 / 127-27.",
+    "Uncertain reading in flags: Longitude hemisphere typed with strike-through/overstrike \"127-27(⟦E⟧)\"."
+   ],
+   "contact_no": "4."
+  },
+  {
+   "id": "SS-230-P07-N39",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": null,
+   "local": "anuary 8-9, 1944.",
+   "utc": "1944-01-08T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    8
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol along Tsushima Shanghai trade lane. Sea fairly smooth."
+   },
+   "flags": [
+    "initial J missing in anuary",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N40",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": null,
+   "local": "anuary 10-11, 1944.",
+   "utc": "1944-01-10T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    10
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol at focal point of Nagasaki - Formosa trade lanes. High sea running."
+   },
+   "flags": [
+    "initial J missing in anuary",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N41",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": null,
+   "local": "anuary 12-13, 1944.",
+   "utc": "1944-01-12T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    12
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Submerged patrol off Suzune Shima and Kusakaki Shima noting Jap traffic following Nansei Shoto; sea smooth; weather unpredictable."
+   },
+   "flags": [
+    "initial J missing in anuary",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N43",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "I",
+   "local": "1945 I nuary 14, 1944.",
+   "utc": "1944-01-14T10:45:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "notable",
+   "local_date": [
+    1944,
+    1,
+    14
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Main engine casualty",
+   "fields": {
+    "event": "#4 main engine put out of commission due to broken rollers in wrist pin bearing of ⟦...⟧ upper piston. This marked the first time on any war patrol the FINBACK could not call for four engines."
+   },
+   "flags": [
+    "word before upper piston illegible; initial Ja missing in nuary"
+   ]
+  },
+  {
+   "id": "SS-230-P07-N42",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": null,
+   "local": "anuary 14-16, 1944.",
+   "utc": "1944-01-14T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    14
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol at focal point of southbound traffic from Nagasaki or Van Dieman Strait and traffic thru ⟦...⟧ Strait."
+   },
+   "flags": [
+    "strait name faint/illegible; initial J missing in anuary",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N44",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "I",
+   "local": "2000 I nuary 15, 1944.",
+   "utc": "1944-01-15T11:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    15
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "All main engines in commission again."
+   },
+   "flags": [
+    "initial Ja missing in nuary; zone typed 1 or I"
+   ]
+  },
+  {
+   "id": "SS-230-P07-N45",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": null,
+   "local": "anuary 17, 1944.",
+   "utc": "1944-01-17T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    17
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol close to coast of Kyushu between Noma Misaki and Bono Misaki."
+   },
+   "flags": [
+    "initial J missing in anuary",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N46",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": null,
+   "local": "anuary 18, 1944.",
+   "utc": "1944-01-18T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    18
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol southeast of Danjo Gunto on Nagasaki Sasebo trade route to the south."
+   },
+   "flags": [
+    "initial J missing in anuary",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N47",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": null,
+   "local": "Enuary 19, 21, 1944.",
+   "utc": "1944-01-19T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    19
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol at focal point of Nagasaki - Tsushima to Shanghai traffic west of Danjo Gunto."
+   },
+   "flags": [
+    "month typed Enuary",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N48",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": null,
+   "local": "anuary 22-23, 1944.",
+   "utc": "1944-01-22T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    22
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Submerged patrol east and northeast of Quelpart Island; noted radar interference on 22nd, probably from our submarine in adjacent area."
+   },
+   "flags": [
+    "initial J missing in anuary; words illegible in middle of paragraph",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N50",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "I",
+   "local": "1030 I anuary 24, 1944.",
+   "utc": "1944-01-24T01:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "notable",
+   "local_date": [
+    1944,
+    1,
+    24
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Pneumonia patient under oxygen tent",
+   "fields": {
+    "event": "surfaced to change air in boat. MATHEW, CMMAA, was being kept under oxygen tent for treatment on pneumonia."
+   },
+   "flags": [
+    "name and rating typed MATHEW, CMM(AA) or similar overstruck letters; kept typed keep; on typed for of"
+   ]
+  },
+  {
+   "id": "SS-230-P07-N51",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "I",
+   "local": "1057 I anuary 24, 1944.",
+   "utc": "1944-01-24T01:57:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    24
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "dived to 140 feet on sighting plane. SD Radar not in use."
+   },
+   "flags": [
+    "Radar typed Rader"
+   ]
+  },
+  {
+   "id": "SS-230-P07-N52",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "I",
+   "local": "1112 I anuary 24, 1944.",
+   "utc": "1944-01-24T02:12:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    24
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "returned to periscope depth and found plane circling us. Went to 140 feet"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P07-N53",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "I",
+   "local": "1150 I anuary 24, 1944.",
+   "utc": "1944-01-24T02:50:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    24
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "unable to find plane. Surface patrolling did not seem too smart in this area."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P07-C11",
+   "source": "(g) aircraft contacts:",
+   "row": 11,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "I",
+   "local": "1157 I 1-24-44",
+   "utc": "1944-01-24T02:57:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    1,
+    24
+   ],
+   "position_verbatim": "32°-30(N) : 127°-19(E)",
+   "lat": 32.5,
+   "lon": 127.31667,
+   "derived": null,
+   "type": "1-Engine Bomber",
+   "title": "Aircraft 3 · 1-Engine Bomber",
+   "fields": {
+    "type": "1-Engine Bomber",
+    "initial_range": "7 mi.",
+    "contacted": "sighted day",
+    "Estimate Course": "220°"
+   },
+   "flags": [
+    "Transcriber: Time separator typed as \"1157⟦(I)⟧\" or \"1157/I/\"; latitude and longitude coordinates lack explicit hemisphere letters; \"1-Engine\" typed as \"⟦1-⟧Engine Bomber\".",
+    "Lat and long run together in the transcription (32-30 N : 127-19 E); read as 32-30 / 127-19.",
+    "Uncertain reading in flags: Time separator typed as \"1157⟦(I)⟧\" or \"1157/I/\"; latitude and longitude coordinates lack explicit hemisphere letters; \"1-Engine\" typed as \"⟦1-⟧Engine Bomber\"."
+   ],
+   "contact_no": "3."
+  },
+  {
+   "id": "SS-230-P07-N49",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": null,
+   "local": "anuary 24, 1944.",
+   "utc": "1944-01-24T12:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-01-24T02:57:00Z",
+     "1944-01-24T23:32:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    24
+   ],
+   "has_time": false,
+   "lat": 31.97239,
+   "lon": 127.52185,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol on ⟦...⟧ Shanghai trade lane."
+   },
+   "flags": [
+    "words illegible between on and Shanghai",
+    "No time given; placed at noon GMT on that date.",
+    "No position in the report. Placed on the track between the recorded positions at 1944-01-24 02:57 and 1944-01-24 23:32 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P07-C05",
+   "source": "(f) ship contacts:",
+   "row": 5,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "I",
+   "local": "0832 I 1-25-44",
+   "utc": "1944-01-24T23:32:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    1,
+    25
+   ],
+   "position_verbatim": "31°-18(N) : 127°-47(E)",
+   "lat": 31.3,
+   "lon": 127.78333,
+   "derived": null,
+   "type": "Convoy three or four ships (type unknown",
+   "title": "Contact 5 · Convoy three or four ships (type unknown",
+   "fields": {
+    "type": "Convoy three or four ships (type unknown",
+    "initial_range": "24,000",
+    "course": "025° 12 kts",
+    "contacted": "sighted day",
+    "remarks": "Convoy not closed enough to identify all ships. Had air escort."
+   },
+   "flags": [
+    "Transcriber: Latitude hemisphere missing letter \"31°-18( )\"; type missing closing parenthesis; degree symbols typed as zeros in \"310-18\" and \"1270-47\".",
+    "Lat and long run together in the transcription (31-18 N : 127-47 E); read as 31-18 / 127-47."
+   ],
+   "contact_no": "5."
+  },
+  {
+   "id": "SS-230-P07-N55",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "I",
+   "local": "0832 I anuary 25, 1944.",
+   "utc": "1944-01-24T23:32:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-01-24T02:57:00Z",
+     "1944-01-24T23:32:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    25
+   ],
+   "has_time": true,
+   "lat": 31.3,
+   "lon": 127.78333,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Contact #5) sighted smoke. Started tracking with T.D.C."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-01-24 02:57 and 1944-01-24 23:32 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N56",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "I",
+   "local": "0945 I anuary 25, 1944.",
+   "utc": "1944-01-25T00:45:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-01-24T23:32:00Z",
+     "1944-01-25T01:38:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    25
+   ],
+   "has_time": true,
+   "lat": 31.41587,
+   "lon": 127.78333,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Surfaced on four engines; target making 12 knots; end around impossible due to proximity to port; made out two ships and three smokes."
+   },
+   "flags": [
+    "zone letter missing",
+    "No zone letter on this entry; zone I assumed from the previous entry.",
+    "No position in the report. Placed on the track between the recorded positions at 1944-01-24 23:32 and 1944-01-25 01:38 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P07-C12",
+   "source": "(g) aircraft contacts:",
+   "row": 12,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "I",
+   "local": "1038 I 1-25-44",
+   "utc": "1944-01-25T01:38:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    1,
+    25
+   ],
+   "position_verbatim": "31°-30(N) : 127°-47(E)",
+   "lat": 31.5,
+   "lon": 127.78333,
+   "derived": null,
+   "type": "Flying Boat #97 4 engine",
+   "title": "Aircraft 4 · Flying Boat #97 4 engine",
+   "fields": {
+    "type": "Flying Boat #97 4 engine",
+    "initial_range": "8 mi.",
+    "contacted": "sighted day",
+    "remarks": "Circling over convoy.",
+    "Estimate Course": "000°"
+   },
+   "flags": [
+    "Transcriber: No period after \"4\"; date zone missing letter \"1-25-44( )\"; latitude and longitude coordinates lack explicit hemisphere letters; \"sighted\" typed as \"si⟦gh⟧ted\".",
+    "Lat and long run together in the transcription (31-30 N : 127-47 E); read as 31-30 / 127-47.",
+    "Uncertain reading in flags: No period after \"4\"; date zone missing letter \"1-25-44( )\"; latitude and longitude coordinates lack explicit hemisphere letters; \"sighted\" typed as \"si⟦gh⟧ted\"."
+   ],
+   "contact_no": "4"
+  },
+  {
+   "id": "SS-230-P07-N57",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "I",
+   "local": "1038 I anuary 25, 1944.",
+   "utc": "1944-01-25T01:38:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-01-24T23:32:00Z",
+     "1944-01-25T01:38:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    25
+   ],
+   "has_time": true,
+   "lat": 31.5,
+   "lon": 127.78333,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "dived when forced down by air escort which caused us to lose contact. Closed this trade lane submerged."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-01-24 23:32 and 1944-01-25 01:38 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N54",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": null,
+   "local": "anuary 25, 1944.",
+   "utc": "1944-01-25T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    25
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducting submerged patrol along Nagasaki Formosa trade lane."
+   },
+   "flags": [
+    "initial J missing in anuary",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N58",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": null,
+   "local": "anuary 26-27, 1944.",
+   "utc": "1944-01-26T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    26
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducting submerged patrol along Nagasaki Formosa trade lane."
+   },
+   "flags": [
+    "initial J missing in anuary",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-C13",
+   "source": "(g) aircraft contacts:",
+   "row": 13,
+   "kind": "aircraft",
+   "page": "11",
+   "zone": "I",
+   "local": "1045 I 1-27-44",
+   "utc": "1944-01-27T01:45:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    1,
+    27
+   ],
+   "position_verbatim": "31°-0⟦4⟧(N) : 127°-57'(E)",
+   "lat": 31.06667,
+   "lon": 127.95,
+   "derived": null,
+   "type": "Flying Boat #97",
+   "title": "Aircraft 5 · Flying Boat #97",
+   "fields": {
+    "type": "Flying Boat #97",
+    "initial_range": "7 mi.",
+    "contacted": "sighted day",
+    "Estimate Course": "270°"
+   },
+   "flags": [
+    "Corrected by hand from the scan: Type(s) was 'Flying Boat #97'.",
+    "Transcriber: No period after \"5\"; latitude minutes faint/overstruck \"31°-0⟦4⟧\"; latitude and longitude coordinates lack explicit hemisphere letters; \"#22\" struck out and replaced by \"#97\" (or vice versa); course contains degree symbol.",
+    "Review: Aircraft contact 5: type read by hand as Flying Boat #97 (row_fixes). Latitude minutes 0⟦4⟧ faint.",
+    "Lat and long run together in the transcription (31-04 N : 127-57 E); read as 31-04 / 127-57.",
+    "Uncertain reading in lat long: 31°-0⟦4⟧(N) : 127°-57'(E)",
+    "Uncertain reading in flags: No period after \"5\"; latitude minutes faint/overstruck \"31°-0⟦4⟧\"; latitude and longitude coordinates lack explicit hemisphere letters; \"#22\" struck out and replaced by \"#97\" (or vice versa); course contains degree symbol."
+   ],
+   "contact_no": "5"
+  },
+  {
+   "id": "SS-230-P07-N59",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": null,
+   "local": "anuary 28, 1944.",
+   "utc": "1944-01-28T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    28
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol off Colnett Strait and on traffic lane along Nansei Shoto. Avoided patrol boat prior to diving."
+   },
+   "flags": [
+    "initial J missing in anuary",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N61",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "I",
+   "local": "2050 I anuary 29, 1944.",
+   "utc": "1944-01-29T11:50:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    29
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "departed area. Decided to use only two engine speed while crossing traffic lanes from empire."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P07-N60",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": null,
+   "local": "anuary 29, 1944.",
+   "utc": "1944-01-29T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    29
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted patrol as on 28th."
+   },
+   "flags": [
+    "initial J missing in anuary",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-A16",
+   "source": "Gun attack data",
+   "row": 16,
+   "kind": "gun",
+   "page": "14",
+   "zone": "I",
+   "local": "1110 I 1-30-44",
+   "utc": "1944-01-30T02:10:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    1,
+    30
+   ],
+   "position_verbatim": "30-19 N 134-00 E",
+   "lat": 30.31667,
+   "lon": 134.0,
+   "derived": null,
+   "type": "",
+   "title": "Gun attack 1",
+   "fields": {
+    "form": "U.S.S. FINBACK              GUN ATTACK NO. 1           PATROL NO. 7\n⟦T⟧ime 1110 (I) Date 1-30-44 Lat. 30° 19' (⟦N⟧) Long. 134° 00'(⟦E⟧)\nTARGET DATA                           DA⟦MAGE INFLICTED⟧\n⟦S⟧unk:                               Trawler (sampan bow) of about 100 tons.  Target speeded\nDamaged or :                          up from 7 to 10 knots.  Diesel propelled.\n⟦Probab⟧ly Sunk\n⟦Da⟧mage Determined: Going alongside and examining visually.  Left with\n                   : stern submerged, on fire, and sinking.\nDETAILS OF ACTION\nSea was condition four which made the ship an unstable platform.\n⟦T⟧arget bounced around in sea.  Sighted target with #1 p⟦e⟧riscope and\nclosed it on the surface.  Opened fire at 2,100 yards with 4\" gun using\nsensitive nose ammunition.  Gradually closed range to 400 yards.  Open-\ned fire with three 20 mm guns and two air cooled 50 cal. machine guns.\nAt 1,000 yards target fired at us with small arms until we silenced\nthem with several hits which cleaned off the superstructure.\nUsed SJ Radar for ranges.  Fire was not too accurate in this sea.\nThe loss of our foot firing device, due to the linkage carrying away in\nrough seas enroute to the area, undoubtedly caused a lot of near misses.\nSensitive nose ammunition was very effective against this wooden target.\nAmmunition Expended:\n     4\" -  99 rounds\n  20 mm - 550 rounds\n 50 cal.- 320 rounds\nLeft margin clipped affecting heading letters (\"Time\", \"Sunk\", \"Damage Determined\", etc.).\nHeader line appears as \"PATROL NO7\" (space omitted between NO and 7).\nLat./Long.: degree mark on latitude typed as \"30° 19 (N)\"; Longitude zone letter clipped/faint in parenthesis.\nMisspellings/typos in original: \"DILOT MELATED\" typed near header/damage column; \"#lpriscope\"; \"clce ed\" typed and corrected/struck as \"closed\"; \"cur\" for \"gun\"; \"Cradually\"; \"Oven- edaire\" for \"Opened fire\"; \"dovice\"; \"carrving awer\".",
+    "narrative": "sighted trawler with #1 periscope. Closed trawler on surface and destroyed with gunfire."
+   },
+   "flags": [
+    "Transcriber: ",
+    "Narrative entry at 1110 I anuary 30, 1944. (page 6) describes this attack; its account is included here.",
+    "periscope typed periscone"
+   ]
+  },
+  {
+   "id": "SS-230-P07-C06",
+   "source": "(f) ship contacts:",
+   "row": 6,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "I",
+   "local": "1110 I 1-30-44",
+   "utc": "1944-01-30T02:10:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    1,
+    30
+   ],
+   "position_verbatim": "30°-19(N) : 134°-00(E)",
+   "lat": 30.31667,
+   "lon": 134.0,
+   "derived": null,
+   "type": "1 trawler",
+   "title": "Contact 6 · 1 trawler",
+   "fields": {
+    "type": "1 trawler",
+    "initial_range": "12,000",
+    "course": "315° 7 kts",
+    "contacted": "sighted day",
+    "remarks": "Destroyed by gunfire."
+   },
+   "flags": [
+    "Transcriber: Gun action in ship contacts table; Longitude hemisphere missing letter \"1340-00( )\"; degree symbols typed as zeros in \"300-19\" and \"1340-00\".",
+    "Lat and long run together in the transcription (30-19 N : 134-00 E); read as 30-19 / 134-00."
+   ],
+   "contact_no": "6."
+  },
+  {
+   "id": "SS-230-P07-N62",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": null,
+   "local": "anuary 30, 1944.",
+   "utc": "1944-01-30T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    30
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute from area."
+   },
+   "flags": [
+    "initial J missing in anuary",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-A17",
+   "source": "Gun attack data",
+   "row": 17,
+   "kind": "gun",
+   "page": "14",
+   "zone": "I",
+   "local": "1431 I 1-31-44",
+   "utc": "1944-01-31T05:31:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    1,
+    31
+   ],
+   "position_verbatim": "30-42 N 139-49 E",
+   "lat": 30.7,
+   "lon": 139.81667,
+   "derived": null,
+   "type": "",
+   "title": "Gun attack 2",
+   "fields": {
+    "damaged": "Diesel propelled.  Damaged.",
+    "damage determined by": "Seeing 4 inch shells hit and explode.  Superstructure by: and hull holed.",
+    "form": "U.S.S. FINBACK              GUN ATTACK NO. 2           PATROL NO. 7\nTime 1431 (I)   Date 1-31-44          Lat. 30° 42' (⟦N⟧)      Long. 139° 49' (E)\nTARGET DATA                           DAMAGE INFLICTED\nSunk:\nDamaged or :                          Trawler of about 100 tons.  Target speed of 7 knots.\nProbably Sunk:                        Diesel propelled.  Damaged.\nDamage Determined: Seeing 4 inch shells hit and explode.  Superstructure\n               by: and hull holed.\nDETAILS OF ACTION\nSea was condition four.  Too rough for good shooting.  Sighted\ntarget with #1 periscope and closed it on the surface.  Opened fire\nat 2,200 yards with 4\" gun using 4\" common ammunition.  Closed range\nto 900 yards.  Opened fire with three 20 mm guns and two air cooled\n50 cal. machine guns at 1,800 yards when target opened fire with a\nmachine gun.  Obtained about eight hits with 4\" gun, three of which\nexploded.  Numerous hits were obtained with the small arms and the\nenemy machine gun was silenced.  The small arms eliminated all per-\nsonnel topside.  Broke off action when all 4\" ammunition was expended.\nHad we had a smooth sea, more hits would have been obtained, and the\ntarget completely wrecked.  The lack of a foot firing device again\ncontributed to our inaccuracy of fire.  Sensitive nose ammunition is\nmuch more effective than common ammunition against targets.\nAmmunition expended:\n     4\" - 129 rounds\n  20 mm - 600 rounds\n 50 cal - 600 rounds\nGun Attack No. 2 begins on page 14 and concludes at the top of page 15.\nPage 14 left margin slightly clipped at latitude hemisphere: \"30° 42' ( )\".\nMisspellings/typos in original on page 15: \"co mon\", \"onened fire.\", \"Achine gun\", \"lumerous\", \"ver- sonnel\", \"exmended\", \"feos rimming devine\", \"come arunction\", \"co mon\", \"ageldgets\".\nAmmunition counts on page 15: \"129\" faintly overstruck/obscured as \"1,29\", \"rounds\" partly cut off on edge.\n\nLeft-margin characters clipped by binding/edge on page 14; text below the Gun Attack No. 2 Ammunition Expended list on page 15 (Anti-Submarine Measures, Major Defects and Damage) omitted as it is outside the gun attack report.",
+    "narrative": "sighted trawler with #1 periscope. Decided to expend remainder of 4\" ammunition. Sea too rough to be sure of many hits. Expended 4\" ammunition, damaged trawler, killed majority of personnel, and resumed course to eastward."
+   },
+   "flags": [
+    "Transcriber: ",
+    "Narrative entry at 1345 I January 31, 1944. (page 7) describes this attack; its account is included here."
+   ]
+  },
+  {
+   "id": "SS-230-P07-C07",
+   "source": "(f) ship contacts:",
+   "row": 7,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "I",
+   "local": "1431 I 1-31-44",
+   "utc": "1944-01-31T05:31:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    1,
+    31
+   ],
+   "position_verbatim": "30°-42(N) : 139°-49(E)",
+   "lat": 30.7,
+   "lon": 139.81667,
+   "derived": null,
+   "type": "1-trawler",
+   "title": "Contact 7 · 1-trawler",
+   "fields": {
+    "type": "1-trawler",
+    "initial_range": "12,000",
+    "course": "045° 7 kts",
+    "contacted": "sighted day",
+    "remarks": "Damaged by gunfire."
+   },
+   "flags": [
+    "Transcriber: Gun action in ship contacts table; Longitude hemisphere missing letter \"1390-49( )\"; degree symbols typed as zeros in \"300-42\" and \"1390-49\".",
+    "Review: Checked on the scan: ship contact 7 and gun attack form 2 give 1431 I 31 January, the narrative (page 7) 1345 I. A discrepancy in the report itself; the map uses the form's 1431.",
+    "Lat and long run together in the transcription (30-42 N : 139-49 E); read as 30-42 / 139-49."
+   ],
+   "contact_no": "7."
+  },
+  {
+   "id": "SS-230-P07-C08",
+   "source": "(f) ship contacts:",
+   "row": 8,
+   "kind": "sighting",
+   "page": "10",
+   "zone": "I",
+   "local": "1636 I 1-31-44",
+   "utc": "1944-01-31T07:36:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    1,
+    31
+   ],
+   "position_verbatim": "30°-41(N) : 140°-26(E)",
+   "lat": 30.68333,
+   "lon": 140.43333,
+   "derived": null,
+   "type": "1 trawler",
+   "title": "Contact 8 · 1 trawler",
+   "fields": {
+    "type": "1 trawler",
+    "initial_range": "12,000",
+    "contacted": "sighted day"
+   },
+   "flags": [
+    "Transcriber: No speed or course entered; period missing after \"8\".",
+    "Lat and long run together in the transcription (30-41 N : 140-26 E); read as 30-41 / 140-26."
+   ],
+   "contact_no": "8"
+  },
+  {
+   "id": "SS-230-P07-N66",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "I",
+   "local": "1636 I January 31, 1944.",
+   "utc": "1944-01-31T07:36:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-01-31T05:31:00Z",
+     "1944-01-31T07:36:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    31
+   ],
+   "has_time": true,
+   "lat": 30.68333,
+   "lon": 140.43333,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "sighted another trawler similar to one just fired on. Avoided."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-01-31 05:31 and 1944-01-31 07:36 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N64",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": null,
+   "local": "January 31, 1944.",
+   "utc": "1944-01-31T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    1,
+    31
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute from area."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N67",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": null,
+   "local": "February 1-5, 1944.",
+   "utc": "1944-02-01T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    2,
+    1
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Enroute from area; rough quartering sea tore loose metal decking plates aft; conducted daily fire control and ship drills."
+   },
+   "flags": [
+    "heading typed 'ebruary 1⟦-⟧5, 1944.'",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N68",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "Y",
+   "local": "0900 Y February 6, 1944.",
+   "utc": "1944-02-06T21:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    2,
+    6
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Arrived Midway for refit, ordered to Pearl; transferred 16 Mk. XIV-3A torpedoes, received 21 Mk XVIII torpedoes to transport, and received 14,000 gallons fuel oil."
+   },
+   "flags": [
+    "heading initial F missing"
+   ]
+  },
+  {
+   "id": "SS-230-P07-N69",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "Y",
+   "local": "0700 Y February 7, 1944.",
+   "utc": "1944-02-07T19:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    2,
+    7
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Departed Midway."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P07-N70",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": null,
+   "local": "February 8-10, 1944.",
+   "utc": "1944-02-08T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    2,
+    8
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute Midway to Pearl. Conducting daily training dives, fire control drills, and ship's drills."
+   },
+   "flags": [
+    "heading typed ' ruary 8-10, 1944.'",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P07-N71",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": null,
+   "local": "February 11, 1944.",
+   "utc": "1944-02-11T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    2,
+    11
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Arrived Pearl."
+   },
+   "flags": [
+    "heading typed 'Tebruary 11, 1944.'",
+    "No time given; placed at noon GMT on that date."
+   ]
+  }
+ ],
+ "tonnage": [],
+ "minefields": [],
+ "figures": []
+}

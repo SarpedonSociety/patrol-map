@@ -15,20 +15,20 @@
 #          entries), e.g. 1942-07-15. Used to find overlapping patrols.
 
 SS-236:   # Silversides
-  1:  { status: mapped, found_in: Fold3, start: 1942-04-30, note: "Hand transcription; departure/arrival still to add" }
-  2:  { status: available, found_in: Fold3 }
-  3:  { status: missing }
+  1:  { status: mapped, found_in: Fold3, report_no: 42, start: 1942-04-30, end: 1942-06-21, note: "Hand transcription; departure/arrival still to add" }
+  2:  { status: available, found_in: Fold3, report_no: 68, note: "Pearl Harbor to Pearl Harbor. Dates not yet entered: the index note repeats Patrol 7's" }
+  3:  { status: missing, start: 1942-10-02, end: 1942-11-25, note: "Pearl Harbor to Brisbane (index note; no report found)" }
   4:  { status: transcribed, found_in: Fold3, report_no: 133, start: 1942-12-17, end: 1943-01-31, note: "From Brisbane to Pearl. Gemini gemini-01/02 (narrative), gemini-03 (Part VIII), contacts-01; appendectomy and stuck-torpedo entries hand-transcribed from the scans" }
   5:  { status: transcribed, found_in: Fold3, start: 1943-05-17, end: 1943-07-01, note: "Second overlap set. Pearl Harbor to Brisbane; mine plant off Steffen Strait; rendezvous with Guardfish 19 June. Gemini gemini-01 (narrative, pages 1-9) and contacts-01 (Parts V-VII, pages 10-11); Part VIII 'nothing new'; to verify" }
   6:  { status: transcribed, found_in: Fold3, start: 1943-07-21, end: 1943-09-12, note: "Brisbane to Brisbane, pack with Coucal, Tuna, Growler; no ships sunk. Gemini gemini-01 (narrative, pages 1-21), contacts-01 (Parts F-G, pages 22-24), attacks-01 (3 forms, pages 24-29); noon positions and fuel/distance table still to transcribe; to verify" }
-  7:  { status: available, found_in: Fold3 }
+  7:  { status: transcribed, found_in: Fold3, report_no: 308, start: 1943-10-05, end: 1943-11-08, note: "Moreton Bay to Pearl Harbor, in company with BALAO. Badly faded carbon. Gemini gemini-01/02/03 (narrative, pages 1-18), contacts-01 (Parts F-G, pages 20-21), attacks-01 (attacks 1-5 and gun attack 1, pages 25-31); to verify, open items in review.yml" }
   8:  { status: transcribed, found_in: Fold3, report_no: 351, start: 1943-12-04, end: 1944-01-15, note: "Pearl Harbor to Midway, Palau area; convoy attack of 29 Dec sank 3 ships (18,500 tons claimed). Gemini gemini-01..03 (narrative; pages 11-15 checked against the scan by the PSO and Claude); tables and attack forms transcribed by Claude from the scans; pages 1-10 of the narrative to verify" }
-  9:  { status: available, found_in: Fold3 }
-  10: { status: available, found_in: Fold3 }
-  11: { status: available, found_in: Fold3 }
-  12: { status: available, found_in: Fold3 }
-  13: { status: available, found_in: Fold3 }
-  14: { status: available, found_in: Fold3 }
+  9:  { status: available, found_in: Fold3, start: 1944-02-15, end: 1944-04-06, note: "Pearl Harbor to Brisbane; no COMSUBPAC report number (ended in Brisbane)" }
+  10: { status: available, found_in: Fold3, report_no: 454, start: 1944-04-26, end: 1944-06-11, note: "Brisbane to Pearl Harbor" }
+  11: { status: available, found_in: Fold3, report_no: 588, start: 1944-09-24, end: 1944-11-23, note: "Pearl Harbor to Midway. Patrol, then 3-10 Nov at Saipan forming the sweep group, then the sweep (flagship of both the wolfpack and the sweep)" }
+  12: { status: available, found_in: Fold3, report_no: 679, start: 1944-12-22, end: 1945-02-12, note: "Midway to Midway" }
+  13: { status: available, found_in: Fold3, report_no: 745, start: 1945-03-09, end: 1945-04-29, note: "Midway to Pearl Harbor" }
+  14: { status: available, found_in: Fold3, report_no: 851, start: 1945-05-30, end: 1945-07-30, note: "Pearl Harbor to Guam. Noon positions table" }
 
 SS-230:   # Finback — commissioned 31 Jan 1942, Electric Boat
   1:  { status: available, found_in: "Fold3, COMSUBSPAC collection" }
@@ -37,8 +37,8 @@ SS-230:   # Finback — commissioned 31 Jan 1942, Electric Boat
   4:  { status: missing, start: 1943-02-27, end: 1943-04-13, note: "Dates from DANFS (45 days, agrees with war history). Midway to Pearl Harbor, Lt. Comdr. Hull. Tonnage-only entry in sources/SS-230/P04. Report number likely above 165 (returned after Trigger)." }
   5:  { status: transcribed, found_in: Fold3, start: 1943-05-12, end: 1943-06-26, note: "Second overlap set. Pearl Harbor via Midway to Palau; rerouted to Fremantle. Gemini gemini-01 (narrative, pages 1-14) and contacts-01 (tables, pages 16-20), fresh chat; to verify" }
   6:  { status: transcribed, found_in: Fold3, report_no: 249, start: 1943-07-18, end: 1943-09-12, note: "Fremantle to Pearl Harbor via Midway (COMSUBSWPAC, then COMSUBPAC). Gemini narrative (gemini-01, pages 1-9; gemini-02, pages 10-17) and contacts-01 (pages 25-27), with hand corrections in patrol.yml; the attack summary (contacts-02, pages 28-29) is Claude's read of the scan, corrected by PSO. Contact pages 25-26 not yet checked against the scan; see review.yml." }
-  7:  { status: available, found_in: Fold3 }
-  8:  { status: available, found_in: Fold3 }
+  7:  { status: transcribed, found_in: Fold3, start: 1943-12-15, end: 1944-02-11, note: "Pearl Harbor by Midway to the East China Sea and back by Midway to Pearl. Gemini gemini-01 (narrative, pages 1-7), contacts-01 (pages 10-11), attacks-01 (torpedo attacks 1-2, pages 12-13), attacks-02 (gun attacks 1-2, pages 14-15); to verify" }
+  8:  { status: transcribed, found_in: Fold3, start: 1944-03-06, end: 1944-05-01, note: "Pearl Harbor by Midway to the Truk area (lifeguard for the Truk strikes, convoy attack 12 April) and back by Johnston Island to Pearl. Gemini from JPG page images: gemini-01 (narrative, pages 1-6), gemini-02 (pages 7-12), contacts-01 (pages 14-18), attacks-01 (torpedo attacks 1-3, gun attack 1, pages 20-24); three contact dates set provisionally from the narrative; to verify" }
   9:  { status: available, found_in: Fold3 }
   10: { status: available, found_in: Fold3 }
   11: { status: missing }
@@ -46,16 +46,16 @@ SS-230:   # Finback — commissioned 31 Jan 1942, Electric Boat
 
 SS-237:   # Trigger — commissioned 31 Jan 1942, Mare Island; lost 28 Mar 1945
   1:  { status: missing }
-  2:  { status: available, found_in: Fold3 }
+  2:  { status: available, found_in: Fold3, report_no: 96, start: 1942-09-23, end: 1942-11-08, note: "Pearl Harbor to Pearl Harbor" }
   3:  { status: transcribed, found_in: Fold3, report_no: 128, start: 1942-12-03, end: 1943-01-22, note: "Gemini batches 01-03 (narrative, pages 2-11) and contacts-01 (tables, pages 13-15); to verify" }
   4:  { status: available, found_in: Fold3, report_no: 165, start: 1943-02-13, end: 1943-04-06, note: "Midway to Pearl Harbor, 52 days incl. 2 at Midway. 21,793 tons damaged (tonnage-only entry in sources/SS-237/P04)" }
   5:  { status: transcribed, found_in: Fold3, report_no: 203, start: 1943-04-30, end: 1943-06-22, note: "Second overlap set. Gemini gemini-01..02 (narrative, typed pages 1-10) and contacts-01 (tables, pages 11-14); to verify" }
   6:  { status: transcribed, found_in: Fold3, report_no: 279, start: 1943-09-01, end: 1943-09-30, note: "Pearl Harbor to Midway, East China Sea. Gemini gemini-01 (narrative), contacts-01 (contacts), attacks-01 (TORPEDO ATTACK DATA forms, verbatim); attack 1 target page missing; to verify" }
-  7:  { status: available, found_in: Fold3 }
+  7:  { status: transcribed, found_in: Fold3, report_no: 323, start: 1943-10-22, end: 1943-12-08, note: "Midway to the East China and Yellow Seas; Midway 3 Dec, Pearl Harbor 8 Dec. Gemini gemini-01/02 (narrative, pages 1-11), contacts-01 (pages 19-20, GCT), attacks-01 (7 forms, pages 14-20); 13 Nov dates set by hand; to verify" }
   8:  { status: transcribed, found_in: Fold3, report_no: 375, start: 1944-01-01, end: 1944-02-23, note: "Pearl Harbor to Pearl Harbor via Midway, Caroline Islands. Sank a Fubuki-class DD and a 10,000-ton AP on 31 Jan (11,850 tons credited per the index). Gemini gemini-01..02 (narrative, to verify against the scan); tables and attack forms transcribed by Claude from the scans" }
-  9:  { status: available, found_in: Fold3 }
-  10: { status: available, found_in: Fold3 }
-  11: { status: available, found_in: Fold3 }
+  9:  { status: available, found_in: Fold3, report_no: 428, start: 1944-03-23, end: 1944-05-15, note: "Pearl Harbor to Pearl Harbor. Cartoon (Palau, Trigger 237 and Tang 306)" }
+  10: { status: available, found_in: Fold3, report_no: 591, start: 1944-09-24, end: 1944-11-23, note: "Pearl Harbor to Pearl Harbor. Report covers 24 Sep-3 Nov and 10-23 Nov; wolfpack with Silversides and Salmon, Salmon escort, then the 7-boat sweep from Saipan" }
+  11: { status: available, found_in: Fold3, report_no: 667, start: 1944-12-28, end: 1945-02-03, note: "Saipan to Guam. First narrative page missing (zone K inferred from dive times). Cartoon on page 27" }
   12: { status: no-report, note: "Lost on this patrol; reconstruct from other sources" }
 
 SS-229:   # Flying Fish

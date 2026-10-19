@@ -1,0 +1,6752 @@
+{
+ "id": "SS-230-P08",
+ "boat": "SS-230",
+ "name": "Finback",
+ "class": "Gato",
+ "patrol": 8,
+ "year": 1944,
+ "report": "Report of Eighth War Patrol",
+ "commanding_officer": null,
+ "citation": {
+  "archive": "NARA",
+  "record_group": "38",
+  "nara_catalog_id": "4697018",
+  "nara_catalog_title": "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946",
+  "reel": "A1019",
+  "micro_serial": "76926",
+  "file": "A16-3",
+  "serial": "011",
+  "date": "5/1/1944"
+ },
+ "fold3_images": {
+  "1": "277011681",
+  "2": "277011682",
+  "3": "277011683",
+  "4": "277011684",
+  "5": "277011685",
+  "6": "277011686",
+  "7": "277011688",
+  "8": "277011690",
+  "9": "277011692",
+  "10": "277011694",
+  "11": "277011697",
+  "12": "277011702"
+ },
+ "miles_steamed": null,
+ "fuel_expended": null,
+ "start": "1944-03-06T12:00:00Z",
+ "end": "1944-05-01T12:00:00Z",
+ "departure": {
+  "label": "Departed",
+  "port": "Pearl Harbor",
+  "utc": "1944-03-06T23:30:00Z",
+  "local": "1300 VW March 6, 1944",
+  "lat": 21.35,
+  "lon": -157.95,
+  "page": "1",
+  "flags": [
+   "Departed in company with U.S.S. WHALE and PC-580 (image run; the text-layer run had 'WH and 0580'). Escort departed 1915 VW."
+  ]
+ },
+ "arrival": {
+  "label": "Arrived",
+  "port": "Pearl Harbor",
+  "utc": "1944-05-01T12:00:00Z",
+  "local": "May 1, 1944",
+  "lat": 21.35,
+  "lon": -157.95,
+  "page": "12",
+  "flags": [
+   "Arrived for refit. No arrival time given. Fuelled at Midway 13 March (outbound) and Johnston Island 28 April (inbound).",
+   "Time not recorded; placed at noon."
+  ]
+ },
+ "report_found": true,
+ "summary": {
+  "records": 209,
+  "sightings": 5,
+  "aircraft": 39,
+  "torpedo_attacks": 3,
+  "mine_attacks": 0,
+  "counterattacks": 3,
+  "torpedoes_fired": 0,
+  "gun_actions": 2,
+  "flagged": 115
+ },
+ "track": [
+  {
+   "lat": 21.35,
+   "lon": -157.95,
+   "utc": "1944-03-06T23:30:00Z",
+   "basis": "reference"
+  },
+  {
+   "lat": 12.03333,
+   "lon": 155.2,
+   "utc": "1944-03-20T21:25:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C06"
+  },
+  {
+   "lat": 7.56667,
+   "lon": 150.31667,
+   "utc": "1944-03-23T13:48:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C01"
+  },
+  {
+   "lat": 7.85,
+   "lon": 151.61667,
+   "utc": "1944-03-26T22:04:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C07"
+  },
+  {
+   "lat": 8.05,
+   "lon": 152.06667,
+   "utc": "1944-03-29T01:47:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C11"
+  },
+  {
+   "lat": 7.85,
+   "lon": 151.61667,
+   "utc": "1944-03-29T22:29:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C13"
+  },
+  {
+   "lat": 8.05,
+   "lon": 152.06667,
+   "utc": "1944-03-31T11:11:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C16"
+  },
+  {
+   "lat": 7.85,
+   "lon": 151.61667,
+   "utc": "1944-04-01T19:50:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C17"
+  },
+  {
+   "lat": 8.05,
+   "lon": 152.06667,
+   "utc": "1944-04-04T11:37:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C23"
+  },
+  {
+   "lat": 7.71667,
+   "lon": 152.71667,
+   "utc": "1944-04-06T01:09:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C02"
+  },
+  {
+   "lat": 8.05,
+   "lon": 151.31667,
+   "utc": "1944-04-06T19:59:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C24"
+  },
+  {
+   "lat": 8.3,
+   "lon": 150.15,
+   "utc": "1944-04-08T03:52:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C25"
+  },
+  {
+   "lat": 8.16667,
+   "lon": 152.53333,
+   "utc": "1944-04-10T01:33:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C26"
+  },
+  {
+   "lat": 8.11667,
+   "lon": 152.55,
+   "utc": "1944-04-10T01:35:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C27"
+  },
+  {
+   "lat": 8.1,
+   "lon": 152.55,
+   "utc": "1944-04-10T02:40:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C28"
+  },
+  {
+   "lat": 7.3,
+   "lon": 152.43333,
+   "utc": "1944-04-11T05:52:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C29"
+  },
+  {
+   "lat": 9.15,
+   "lon": 150.66667,
+   "utc": "1944-04-11T19:17:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C30"
+  },
+  {
+   "lat": 9.68333,
+   "lon": 149.06667,
+   "utc": "1944-04-12T02:17:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C31"
+  },
+  {
+   "lat": 9.8,
+   "lon": 148.08333,
+   "utc": "1944-04-12T07:05:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C03"
+  },
+  {
+   "lat": 9.65,
+   "lon": 147.83333,
+   "utc": "1944-04-12T11:15:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-A45"
+  },
+  {
+   "lat": 8.16667,
+   "lon": 151.75,
+   "utc": "1944-04-13T06:28:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C32"
+  },
+  {
+   "lat": 8.0,
+   "lon": 153.0,
+   "utc": "1944-04-13T14:43:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C33"
+  },
+  {
+   "lat": 7.21667,
+   "lon": 154.15,
+   "utc": "1944-04-15T22:59:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C37"
+  },
+  {
+   "lat": 7.41667,
+   "lon": 154.63333,
+   "utc": "1944-04-16T03:26:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C38"
+  },
+  {
+   "lat": 7.45,
+   "lon": 154.58333,
+   "utc": "1944-04-16T04:42:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C39"
+  },
+  {
+   "lat": 7.36667,
+   "lon": 154.46667,
+   "utc": "1944-04-16T05:25:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C04"
+  },
+  {
+   "lat": 7.55,
+   "lon": 154.55,
+   "utc": "1944-04-16T05:41:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C40"
+  },
+  {
+   "lat": 8.0,
+   "lon": 153.0,
+   "utc": "1944-04-16T23:28:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C41"
+  },
+  {
+   "lat": 8.28333,
+   "lon": 151.38333,
+   "utc": "1944-04-18T21:20:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C05"
+  },
+  {
+   "lat": 8.36667,
+   "lon": 151.68333,
+   "utc": "1944-04-19T01:43:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-A48"
+  },
+  {
+   "lat": 7.9,
+   "lon": 152.51667,
+   "utc": "1944-04-19T08:37:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C42"
+  },
+  {
+   "lat": 12.25,
+   "lon": 157.35,
+   "utc": "1944-04-21T20:54:00Z",
+   "basis": "documented",
+   "ref": "SS-230-P08-C43"
+  },
+  {
+   "lat": 21.35,
+   "lon": -157.95,
+   "utc": "1944-05-01T12:00:00Z",
+   "basis": "reference"
+  }
+ ],
+ "records": [
+  {
+   "id": "SS-230-P08-N01",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "VW",
+   "local": "1300 VW March 6, 1944.",
+   "utc": "1944-03-06T23:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    6
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Departed Pearl for Eighth War Patrol in company with WHALE and PC580."
+   },
+   "flags": [
+    "zone typed as (VW)",
+    "Zone V corrected to VW (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N02",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "VW",
+   "local": "1915 VW March 6, 1944.",
+   "utc": "1944-03-07T05:45:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    6
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Escort departed."
+   },
+   "flags": [
+    "zone typed as (VW)",
+    "Zone V corrected to VW (zone_fix in patrol.yml)."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N03",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": null,
+   "local": "March 7-10",
+   "utc": "1944-03-07T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    7
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute to Midway conducting daily ship, fire control, and diving drills. Arrival delayed by rough weather."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N04",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": null,
+   "local": "March 11 - 12",
+   "utc": "1944-03-11T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    11
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Circled off Midway waiting for channel to be opened."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N05",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": null,
+   "local": "March 13.",
+   "utc": "1944-03-13T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    13
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Entered lagoon at Midway, received 23,000 gallons of fuel and effected minor repairs."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N06",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "Y",
+   "local": "0700 Y March 14.",
+   "utc": "1944-03-14T19:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    14
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Departed Midway. Departure date from area extended four days by CTF-17.5."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N07",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "Y",
+   "local": "2230 Y March 14.",
+   "utc": "1944-03-15T10:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    14
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Crossed 180th Meridian"
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N08",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": null,
+   "local": "March 16 - 20.",
+   "utc": "1944-03-16T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    16
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute to area conducting daily dives, ship drills, fire control problems, gun firing, and controller drills for new men."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C06",
+   "source": "(g) aircraft contacts",
+   "row": 6,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "0725 K 3-21-44",
+   "utc": "1944-03-20T21:25:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    3,
+    21
+   ],
+   "position_verbatim": "12° 02'(N) 155° 12'(E)",
+   "lat": 12.03333,
+   "lon": 155.2,
+   "derived": null,
+   "type": "Not identified",
+   "title": "Aircraft 1 · Not identified",
+   "fields": {
+    "type": "Not identified",
+    "initial_range": "10 Mi.(E)",
+    "course": "260°(T)",
+    "contacted": "SD",
+    "remarks": "Sighted by lookout be-lieved to be a B-24 search from Eniwetok"
+   },
+   "flags": [
+    "Corrected by hand from the scan: Time Date was '0725(K) 3-27-44'.",
+    "Review: Aircraft contact 1: Gemini read 3-27-44 and 3-25-44; the narrative (page 1) and the en-route position 12° 02' N 155° 12' E put it at 0725 K 21 March. row_fixes sets 3-21-44 provisionally."
+   ],
+   "contact_no": "1"
+  },
+  {
+   "id": "SS-230-P08-N09",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "K",
+   "local": "0725 K March 21.",
+   "utc": "1944-03-20T21:25:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    21
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived when after lookout sighted plane which was probably a friendly B-24 out of Eniwetok."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N10",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "K",
+   "local": "0745 K March 21.",
+   "utc": "1944-03-20T21:45:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    21
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced and continued to area."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N11",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": "K",
+   "local": "2300 K March 21.",
+   "utc": "1944-03-21T13:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    21
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Entered area. Decided to patrol east of Hall Island as we could not reach passage between Hall and Namonuito before following dawn."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N12",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "1",
+   "zone": null,
+   "local": "March 22.",
+   "utc": "1944-03-22T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    22
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol. Believed this would be most productive in view of ASPRO'S sinking of enemy submarine and lack of knowledge of air coverage at present."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N13",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": null,
+   "local": "March 23.",
+   "utc": "1944-03-23T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    23
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol between Hall Island and Namonuito Island. On surfacing, set course to patrol across route from Palau to Truk."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C01",
+   "source": "(f) ship contacts",
+   "row": 1,
+   "kind": "sighting",
+   "page": null,
+   "zone": "K",
+   "local": "2348 K 3-23-44",
+   "utc": "1944-03-23T13:48:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    3,
+    23
+   ],
+   "position_verbatim": "7° 34'(N) 150° 19' (E)",
+   "lat": 7.56667,
+   "lon": 150.31667,
+   "derived": null,
+   "type": "2 - unknown 3 to 4 - escorts",
+   "title": "Contact 1 · 2 - unknown 3 to 4 - escorts",
+   "fields": {
+    "type": "2 - unknown 3 to 4 - escorts",
+    "initial_range": "13,000",
+    "course": "090° 10 kts",
+    "contacted": "R",
+    "remarks": "Unable to reach attack position-discovered by escort."
+   },
+   "flags": [
+    "Review: Ship contact 1: table gives 13,000 yards; the narrative (23 March 2348, page 2) reads 18,000. Read both on the scan."
+   ],
+   "contact_no": "1."
+  },
+  {
+   "id": "SS-230-P08-N14",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "K",
+   "local": "2348 K March 23.",
+   "utc": "1944-03-23T13:48:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    23
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "At 2348 (K) made radar contact on object at 18,000 yards."
+   },
+   "flags": [
+    "preceded by heading '(Contact #1)'"
+   ]
+  },
+  {
+   "id": "SS-230-P08-N16",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "K",
+   "local": "0208 K March 24.",
+   "utc": "1944-03-23T16:08:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    24
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Attempted attacks; lost second target, called off initial run dead ahead, opened out, attempted three approaches. Alert escort forced boat out; target zigged away."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N17",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": "K",
+   "local": "0430 K March 24.",
+   "utc": "1944-03-23T18:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    24
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Abandoned chase when unable to reach ahead position before daylight. CO noted mistake attempting last surface attack instead of pulling ahead for dawn submerged attack."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N15",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "2",
+   "zone": null,
+   "local": "March 24.",
+   "utc": "1944-03-24T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    24
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Closed radar contact to 10,000 yards; radar showed two targets and 3-4 escorts zig-zagging. Plotted convoy base courses with 5-minute solution times."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N18",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": null,
+   "local": "March 25 -26",
+   "utc": "1944-03-25T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    25
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted submerged patrol along Palau-Truk route."
+   },
+   "flags": [
+    "first line carried over from bottom of previous day/page",
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N19",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "3",
+   "zone": "K",
+   "local": "2300 K March 25 -26",
+   "utc": "1944-03-25T13:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    3,
+    25
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Lifeguard duty instructions",
+   "fields": {
+    "event": "Received instructions from ComSubPac to take station to act as life guard for plane strikes on Truk until April 5, 1944."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N20",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "3",
+   "zone": "K",
+   "local": "0530 K March 27.",
+   "utc": "1944-03-26T19:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    3,
+    27
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Lifeguard patrol on surface",
+   "fields": {
+    "event": "In position to act as plane life guard. Patrolled station on surface. Heard planes on aircraft frequency."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C07",
+   "source": "(g) aircraft contacts",
+   "row": 7,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "0804 K 3-27-44",
+   "utc": "1944-03-26T22:04:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    3,
+    27
+   ],
+   "position_verbatim": "7° 51'(N) 151° 37'(E)",
+   "lat": 7.85,
+   "lon": 151.61667,
+   "derived": null,
+   "type": "1-Biplane-observation similar to \"Pete\"",
+   "title": "Aircraft 2 · 1-Biplane-observation similar to \"Pete\"",
+   "fields": {
+    "type": "1-Biplane-observation similar to \"Pete\"",
+    "initial_range": "8 Mi. (E)",
+    "course": "055°",
+    "contacted": "SD",
+    "remarks": "Sighted by lookout"
+   },
+   "flags": [],
+   "contact_no": "2"
+  },
+  {
+   "id": "SS-230-P08-N21",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "0804 K March 27.",
+   "utc": "1944-03-26T22:04:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    27
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived on sighting of observation plane by quartermaster."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N22",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "0837 K March 27.",
+   "utc": "1944-03-26T22:37:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    27
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C08",
+   "source": "(g) aircraft contacts",
+   "row": 8,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1010 K 3-27-44",
+   "utc": "1944-03-27T00:10:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    3,
+    27
+   ],
+   "position_verbatim": "7° 51'(N) 151° 37'(E)",
+   "lat": 7.85,
+   "lon": 151.61667,
+   "derived": null,
+   "type": "3-Bombers-unidentifi-ed",
+   "title": "Aircraft 3 · 3-Bombers-unidentifi-ed",
+   "fields": {
+    "type": "3-Bombers-unidentifi-ed",
+    "initial_range": "10 Mi.(E)",
+    "course": "315°",
+    "contacted": "SD",
+    "remarks": "Sighted by lookout and O.O.D.; could have been our striking force. Fly ing very low."
+   },
+   "flags": [],
+   "contact_no": "3"
+  },
+  {
+   "id": "SS-230-P08-N23",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "1010 K March 27.",
+   "utc": "1944-03-27T00:10:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    27
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived on sighting of three bombers by lookout and O.O.D."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N24",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "1028 K March 27.",
+   "utc": "1944-03-27T00:28:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    27
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C09",
+   "source": "(g) aircraft contacts",
+   "row": 9,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1143 K 3-27-44",
+   "utc": "1944-03-27T01:43:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    3,
+    27
+   ],
+   "position_verbatim": "7° 51'(N) 151° 37'(E)",
+   "lat": 7.85,
+   "lon": 151.61667,
+   "derived": null,
+   "type": "1 - bomber",
+   "title": "Aircraft 4 · 1 - bomber",
+   "fields": {
+    "type": "1 - bomber",
+    "initial_range": "15 Mi.(E)",
+    "course": "000°",
+    "contacted": "SD",
+    "remarks": "Sighted by lookout and O.O.D. looked like B-17 from side."
+   },
+   "flags": [],
+   "contact_no": "4"
+  },
+  {
+   "id": "SS-230-P08-N25",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "1143 K March 27.",
+   "utc": "1944-03-27T01:43:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    27
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Sighted bomber at about 15 miles on northerly course."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C10",
+   "source": "(g) aircraft contacts",
+   "row": 10,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1704 K 3-27-44",
+   "utc": "1944-03-27T07:04:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    3,
+    27
+   ],
+   "position_verbatim": "7° 51'(N) 151° 37'(E)",
+   "lat": 7.85,
+   "lon": 151.61667,
+   "derived": null,
+   "type": "1-Fighter, Zero",
+   "title": "Aircraft 5 · 1-Fighter, Zero",
+   "fields": {
+    "type": "1-Fighter, Zero",
+    "initial_range": "4 Mi",
+    "course": "130°",
+    "contacted": "SD",
+    "remarks": "Plane was banking to start run when sighted by O.O.D."
+   },
+   "flags": [],
+   "contact_no": "5"
+  },
+  {
+   "id": "SS-230-P08-N26",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "1704 K March 27.",
+   "utc": "1944-03-27T07:04:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    27
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Dived on sighting Zero fighter at 4 miles; no bombs. SD radar picked up plane at 4 miles. Stayed submerged until sunset; decoded messages unhelpful."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N27",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "3",
+   "zone": null,
+   "local": "March 28.",
+   "utc": "1944-03-28T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    3,
+    28
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Lifeguard patrol in new position",
+   "fields": {
+    "event": "Conducted plane life guard patrol on surface in new position. Found this position quieter as no planes were sighted. No information received relative to previously scheduled strikes. Did not see or hear definite evidence of strikes."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N29",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "1120 K March 29.",
+   "utc": "1944-03-29T01:20:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    29
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced to get some sun lines to check position."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C11",
+   "source": "(g) aircraft contacts",
+   "row": 11,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1147 K 3-29-44",
+   "utc": "1944-03-29T01:47:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    3,
+    29
+   ],
+   "position_verbatim": "8° 03'(N) 152° 04'(E)",
+   "lat": 8.05,
+   "lon": 152.06667,
+   "derived": null,
+   "type": "Not identified",
+   "title": "Aircraft 6 · Not identified",
+   "fields": {
+    "type": "Not identified",
+    "initial_range": "7 Mi",
+    "course": "--",
+    "contacted": "R",
+    "remarks": "Not sighted visually apparently a sunset A.S. patrol"
+   },
+   "flags": [],
+   "contact_no": "6"
+  },
+  {
+   "id": "SS-230-P08-N30",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "1147 K March 29.",
+   "utc": "1944-03-29T01:47:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-03-29T01:47:00Z",
+     "1944-03-29T22:29:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    29
+   ],
+   "has_time": true,
+   "lat": 8.05,
+   "lon": 152.06667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived on SD Radar contact at 7 miles coming in. Plane not sighted."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-03-29 01:47 and 1944-03-29 22:29 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N31",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "1500 K March 29.",
+   "utc": "1944-03-29T05:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-03-29T01:47:00Z",
+     "1944-03-29T22:29:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    29
+   ],
+   "has_time": true,
+   "lat": 8.01892,
+   "lon": 151.99674,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-03-29 01:47 and 1944-03-29 22:29 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C12",
+   "source": "(g) aircraft contacts",
+   "row": 12,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1743 K 3-29-44",
+   "utc": "1944-03-29T07:43:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    3,
+    29
+   ],
+   "position_verbatim": "8° 03'(N) 152° 04'(E)",
+   "lat": 8.05,
+   "lon": 152.06667,
+   "derived": null,
+   "type": "Bomber-2 engine",
+   "title": "Aircraft 7 · Bomber-2 engine",
+   "fields": {
+    "type": "Bomber-2 engine",
+    "initial_range": "3 Mi",
+    "course": "290°",
+    "contacted": "SD",
+    "remarks": "Pip in lobster large high flying plane."
+   },
+   "flags": [
+    "Transcriber: Remarks appear swapped or combined with entry 8.",
+    "Review: Aircraft contact 7: remark read 'Pip in lobster large high flying plane'; first run read 'High flying plane'."
+   ],
+   "contact_no": "7"
+  },
+  {
+   "id": "SS-230-P08-N32",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "1743 K March 29.",
+   "utc": "1944-03-29T07:43:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-03-29T01:47:00Z",
+     "1944-03-29T22:29:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    29
+   ],
+   "has_time": true,
+   "lat": 7.99267,
+   "lon": 151.93768,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived when low flying bomber crossing stern at 7 to 8 miles seemed to turn in our direction."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-03-29 01:47 and 1944-03-29 22:29 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N33",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "1800 K March 29.",
+   "utc": "1944-03-29T08:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-03-29T01:47:00Z",
+     "1944-03-29T22:29:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    29
+   ],
+   "has_time": true,
+   "lat": 7.98994,
+   "lon": 151.93153,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-03-29 01:47 and 1944-03-29 22:29 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N34",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "1922 K March 29.",
+   "utc": "1944-03-29T09:22:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-03-29T01:47:00Z",
+     "1944-03-29T22:29:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    29
+   ],
+   "has_time": true,
+   "lat": 7.97673,
+   "lon": 151.90181,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Observed friendly bombers dropping flares and bombs on Dublon Island, explosions, AA fire, and searchlights. Position 38 miles from Dublon, 34-1/2 miles from Moen."
+   },
+   "flags": [
+    "positions 38 miles from Dublon Island and 34-1/2 miles from Moen Island stay in event",
+    "No position in the report. Placed on the track between the recorded positions at 1944-03-29 01:47 and 1944-03-29 22:29 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N35",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "3",
+   "zone": "K",
+   "local": "2130 K March 29.",
+   "utc": "1944-03-29T11:30:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-03-29T01:47:00Z",
+     "1944-03-29T22:29:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    29
+   ],
+   "has_time": true,
+   "lat": 7.95612,
+   "lon": 151.85544,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Headed for next day's station, patrolling Truk-Empire route enroute."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-03-29 01:47 and 1944-03-29 22:29 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N28",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "3",
+   "zone": null,
+   "local": "March 29.",
+   "utc": "1944-03-29T12:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-03-29T01:47:00Z",
+     "1944-03-29T22:29:00Z"
+    ]
+   },
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    3,
+    29
+   ],
+   "has_time": false,
+   "lat": 7.95129,
+   "lon": 151.84457,
+   "type": "Narrative",
+   "title": "Airstrike notification",
+   "fields": {
+    "event": "Received message from ComSubPac stating that our planes would strike at 1900. Decided to patrol submerged until four hours before strike."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date.",
+    "No position in the report. Placed on the track between the recorded positions at 1944-03-29 01:47 and 1944-03-29 22:29 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C13",
+   "source": "(g) aircraft contacts",
+   "row": 13,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "0829 K 3-30-44",
+   "utc": "1944-03-29T22:29:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    3,
+    30
+   ],
+   "position_verbatim": "7° 51'(N) 151° 37'(E)",
+   "lat": 7.85,
+   "lon": 151.61667,
+   "derived": null,
+   "type": "Not identified",
+   "title": "Aircraft 8 · Not identified",
+   "fields": {
+    "type": "Not identified",
+    "initial_range": "4 Mi",
+    "course": "--",
+    "contacted": "R",
+    "remarks": "Apparently a multi sighting as he dropped one bomb. Looked like a sunset patrol"
+   },
+   "flags": [
+    "Transcriber: Remarks appear swapped or combined with entry 9.",
+    "Review: Aircraft contacts 8-11: the Remarks column looks offset by one row. The remark on 8 (one bomb dropped) fits 9 (bomb at 1754); on 9 (B-24 lining up) fits 10; on 10 (B-24s raiding) fits 11 (31 March raid); on 11 (C.O. with periscope) fits 12 (0550 periscope sighting). Both runs read it this way, so it's probably the report; left as typed."
+   ],
+   "contact_no": "8"
+  },
+  {
+   "id": "SS-230-P08-N37",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "0829 K March 30.",
+   "utc": "1944-03-29T22:29:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-03-29T01:47:00Z",
+     "1944-03-29T22:29:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    30
+   ],
+   "has_time": true,
+   "lat": 7.85,
+   "lon": 151.61667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived on Radar contact at 4 miles. Plane not sighted."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-03-29 01:47 and 1944-03-29 22:29 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N38",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "1121 K March 30.",
+   "utc": "1944-03-30T01:21:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    30
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced. Continued surface patrol."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C14",
+   "source": "(g) aircraft contacts",
+   "row": 14,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1751 K 3-30-44",
+   "utc": "1944-03-30T07:51:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    3,
+    30
+   ],
+   "position_verbatim": "7° 51'(N) 151° 37'(E)",
+   "lat": 7.85,
+   "lon": 151.61667,
+   "derived": null,
+   "type": "Biplane twin float",
+   "title": "Aircraft 9 · Biplane twin float",
+   "fields": {
+    "type": "Biplane twin float",
+    "initial_range": "6 Mi",
+    "course": "220°",
+    "contacted": "SD",
+    "remarks": "Believed to be one of our B-24's lining up for next bombing run."
+   },
+   "flags": [
+    "Transcriber: Remarks appear swapped or misaligned with entry 10."
+   ],
+   "contact_no": "9"
+  },
+  {
+   "id": "SS-230-P08-N39",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "1751 K March 30.",
+   "utc": "1944-03-30T07:51:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    30
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived on sighting float biplane at 6 miles."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N40",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "4",
+   "zone": "K",
+   "local": "1754 K March 30.",
+   "utc": "1944-03-30T07:54:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "counterattack",
+   "local_date": [
+    1944,
+    3,
+    30
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Bomb dropped by float biplane",
+   "fields": {
+    "event": "Plane dropped one bomb. Not close.",
+    "charges": "one bomb",
+    "damage": "Not close."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N41",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "1829 K March 30.",
+   "utc": "1944-03-30T08:29:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    30
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N42",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "1846 K March 30.",
+   "utc": "1944-03-30T08:46:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    30
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Observed friendly planes bombing Truk; clouds prevented good observation. Tracked friendly plane on SJ Radar to 2000 yards; plane apparently lining up for new run."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C15",
+   "source": "(g) aircraft contacts",
+   "row": 15,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1922 K 3-30-44",
+   "utc": "1944-03-30T09:22:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    3,
+    30
+   ],
+   "position_verbatim": "7° 51'(N) 151° 37'(E)",
+   "lat": 7.85,
+   "lon": 151.61667,
+   "derived": null,
+   "type": "Not identified",
+   "title": "Aircraft 10 · Not identified",
+   "fields": {
+    "type": "Not identified",
+    "initial_range": "3 Mi",
+    "course": "--",
+    "contacted": "R",
+    "remarks": "Believed to be friendly B-24s on raiding mission"
+   },
+   "flags": [
+    "Review: Aircraft contact 10: 1922 K 30 March has no narrative entry; the narrative's 1922 is 29 March (friendly bombers over Dublon). Check the date."
+   ],
+   "contact_no": "10"
+  },
+  {
+   "id": "SS-230-P08-N43",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "1943 K March 30.",
+   "utc": "1944-03-30T09:43:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    30
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Saw last flares and explosions."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N36",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": null,
+   "local": "March 30.",
+   "utc": "1944-03-30T12:00:00Z",
+   "position_verbatim": "15 miles  of North Pass",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    30
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Patrolled on surface 15 miles off North Pass. Received ComSubPac message of strikes between 1800 and 2100; planned submerged patrol until strike began if planes active."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date.",
+    "No position for landmark 'North Pass'. Add it to landmarks in sources/reference.yml."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N45",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "2110 K March 31.",
+   "utc": "1944-03-31T11:10:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    31
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Attack by friendly planes commenced on Truk. Cloud formations prevented good view; observed flashes and searchlights. Contacted friendly planes on SJ Radar at 20,000 yards."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C16",
+   "source": "(g) aircraft contacts",
+   "row": 16,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "2111 K 3-31-44",
+   "utc": "1944-03-31T11:11:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    3,
+    31
+   ],
+   "position_verbatim": "8° 03'(N) 152° 04'(E)",
+   "lat": 8.05,
+   "lon": 152.06667,
+   "derived": null,
+   "type": "Not identified",
+   "title": "Aircraft 11 · Not identified",
+   "fields": {
+    "type": "Not identified",
+    "initial_range": "10 Mi",
+    "course": "--",
+    "contacted": "R",
+    "remarks": "Sighted by C.O. with periscope."
+   },
+   "flags": [],
+   "contact_no": "11"
+  },
+  {
+   "id": "SS-230-P08-N46",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "2130 K March 31.",
+   "utc": "1944-03-31T11:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    31
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Raid seemed to be completed."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N44",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": null,
+   "local": "March 31.",
+   "utc": "1944-03-31T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    3,
+    31
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "This position again proved to be the most healthy for a submarine on the surface."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N48",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "1732 K April 1.",
+   "utc": "1944-04-01T07:32:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    1
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted trim dive."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N47",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": null,
+   "local": "April 1.",
+   "utc": "1944-04-01T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    1
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "No planes seen and no word received relative to attacks."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C17",
+   "source": "(g) aircraft contacts",
+   "row": 17,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "0550 K 4-2-44",
+   "utc": "1944-04-01T19:50:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    2
+   ],
+   "position_verbatim": "7° 51'(N) 151° 37'(E)",
+   "lat": 7.85,
+   "lon": 151.61667,
+   "derived": null,
+   "type": "Reconnaissance - 1",
+   "title": "Aircraft 12 · Reconnaissance - 1",
+   "fields": {
+    "type": "Reconnaissance - 1",
+    "initial_range": "10 Mi",
+    "course": "160°",
+    "contacted": "P"
+   },
+   "flags": [],
+   "contact_no": "12"
+  },
+  {
+   "id": "SS-230-P08-N50",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "0550 K April 2.",
+   "utc": "1944-04-01T19:50:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived on sighting plane with periscope at about 10 miles. No bombs."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N51",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "0735 K April 2.",
+   "utc": "1944-04-01T21:35:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C18",
+   "source": "(g) aircraft contacts",
+   "row": 18,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "0739 K 4-2-44",
+   "utc": "1944-04-01T21:39:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    2
+   ],
+   "position_verbatim": "7° 51'(N) 151° 37'(E)",
+   "lat": 7.85,
+   "lon": 151.61667,
+   "derived": null,
+   "type": "Reconnaissance -1",
+   "title": "Aircraft 13 · Reconnaissance -1",
+   "fields": {
+    "type": "Reconnaissance -1",
+    "initial_range": "8 Mi.",
+    "course": "205°",
+    "contacted": "SD",
+    "remarks": "Sighted by lookout and O.O. same as contact #12"
+   },
+   "flags": [],
+   "contact_no": "13"
+  },
+  {
+   "id": "SS-230-P08-N52",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "0739 K April 2.",
+   "utc": "1944-04-01T21:39:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived on sighting similar plane heading toward us at 9 miles."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N53",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "1047 K April 2.",
+   "utc": "1944-04-02T00:47:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced to get in on raid from south."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C19",
+   "source": "(g) aircraft contacts",
+   "row": 19,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1118 K 4-2-44",
+   "utc": "1944-04-02T01:18:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    2
+   ],
+   "position_verbatim": "7° 51'(N) 151° 37'(E)",
+   "lat": 7.85,
+   "lon": 151.61667,
+   "derived": null,
+   "type": "1 - Bomber 96",
+   "title": "Aircraft 14 · 1 - Bomber 96",
+   "fields": {
+    "type": "1 - Bomber 96",
+    "initial_range": "8 Mi",
+    "course": "150°",
+    "contacted": "SD",
+    "remarks": "Sighted by lookout and O.O.D."
+   },
+   "flags": [],
+   "contact_no": "14"
+  },
+  {
+   "id": "SS-230-P08-N54",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "1118 K April 2.",
+   "utc": "1944-04-02T01:18:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived on sighting big bomber at 8 miles. Plane looked like a Jap 96 bomber."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C20",
+   "source": "(g) aircraft contacts",
+   "row": 20,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1135 K 4-2-44",
+   "utc": "1944-04-02T01:35:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    2
+   ],
+   "position_verbatim": "7° 51'(N) 151° 37'(E)",
+   "lat": 7.85,
+   "lon": 151.61667,
+   "derived": null,
+   "type": "10 - B-24's",
+   "title": "Aircraft 15 · 10 - B-24's",
+   "fields": {
+    "type": "10 - B-24's",
+    "initial_range": "2 Mi",
+    "course": "150°",
+    "contacted": "P",
+    "remarks": "Our attack group."
+   },
+   "flags": [],
+   "contact_no": "15"
+  },
+  {
+   "id": "SS-230-P08-N55",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "1138 K April 2.",
+   "utc": "1944-04-02T01:38:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Came to 50 feet and found planes on the SD radar at 2 miles."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N56",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": "K",
+   "local": "1144 K April 2.",
+   "utc": "1944-04-02T01:44:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Surfaced with ten B-24's in sight; watched them line up for bombing run. Sighted Japanese two-motored bomber at 1 mile heading toward submarine."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C21",
+   "source": "(g) aircraft contacts",
+   "row": 21,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1155 K 4-2-44",
+   "utc": "1944-04-02T01:55:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    2
+   ],
+   "position_verbatim": "7° 51'(N) 151° 37'(E)",
+   "lat": 7.85,
+   "lon": 151.61667,
+   "derived": null,
+   "type": "1 Bomber 2 engine - 96",
+   "title": "Aircraft 16 · 1 Bomber 2 engine - 96",
+   "fields": {
+    "type": "1 Bomber 2 engine - 96",
+    "initial_range": "1 Mi",
+    "course": "300°",
+    "contacted": "SD",
+    "remarks": "Plane wheeled and headed toward us."
+   },
+   "flags": [],
+   "contact_no": "16"
+  },
+  {
+   "id": "SS-230-P08-N57",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "K",
+   "local": "1155 K April 2.",
+   "utc": "1944-04-02T01:55:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived. Decided we could get this news a little later. Looked like a rather poor idea to provide target service for Japs needing a landing field. Conducted patrol at 56 feet with high periscope."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C22",
+   "source": "(g) aircraft contacts",
+   "row": 22,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1515 K 4-2-44",
+   "utc": "1944-04-02T05:15:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    2
+   ],
+   "position_verbatim": "7° 51'(N) 151° 37'(E)",
+   "lat": 7.85,
+   "lon": 151.61667,
+   "derived": null,
+   "type": "1 Bomber 2 engine - 96",
+   "title": "Aircraft 17 · 1 Bomber 2 engine - 96",
+   "fields": {
+    "type": "1 Bomber 2 engine - 96",
+    "initial_range": "3 Mi",
+    "course": "090°",
+    "contacted": "P",
+    "remarks": "Similar to contact #16 He remained near our position."
+   },
+   "flags": [],
+   "contact_no": "17"
+  },
+  {
+   "id": "SS-230-P08-N58",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "5",
+   "zone": "K",
+   "local": "1515 K April 2.",
+   "utc": "1944-04-02T05:15:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    2
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Lifeguard operations summary note",
+   "fields": {
+    "event": "[SUMMARY] Sighted twin-engine bomber at 3 miles circling for 30 minutes; remained submerged until sunset. Noted planes life guarded for had struck after dark; no bombs observed at night."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N49",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "4",
+   "zone": null,
+   "local": "April 2.",
+   "utc": "1944-04-02T12:00:00Z",
+   "position_verbatim": "15 miles  of North Pass",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    2
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Patrolled at our spot 15 miles off North Pass."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date.",
+    "No position for landmark 'North Pass'. Add it to landmarks in sources/reference.yml."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N59",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "5",
+   "zone": null,
+   "local": "April 3.",
+   "utc": "1944-04-03T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    3
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Surface plane lifeguard patrol",
+   "fields": {
+    "event": "Conducted surface plane life guard patrol. No planes seen."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N60",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "K",
+   "local": "2345 K April 3.",
+   "utc": "1944-04-03T13:45:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    3
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "One flash of attack noted."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N62",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "K",
+   "local": "2125 K April 4.",
+   "utc": "1944-04-04T11:25:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    4
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Observed start of bombing; saw flashes, bright flare-up, and rapidly falling flares that may have been burning planes at a distance."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C23",
+   "source": "(g) aircraft contacts",
+   "row": 23,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "2137 K 4-4-44",
+   "utc": "1944-04-04T11:37:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    4
+   ],
+   "position_verbatim": "8° 03'(N) 152° 04'(E)",
+   "lat": 8.05,
+   "lon": 152.06667,
+   "derived": null,
+   "type": "Plane unidentified",
+   "title": "Aircraft 18 · Plane unidentified",
+   "fields": {
+    "type": "Plane unidentified",
+    "initial_range": "8 Mi",
+    "course": "--",
+    "contacted": "R",
+    "remarks": "Believed to be on of our raiding B-24s"
+   },
+   "flags": [],
+   "contact_no": "18"
+  },
+  {
+   "id": "SS-230-P08-N63",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "K",
+   "local": "2137 K April 4.",
+   "utc": "1944-04-04T11:37:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    4
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Obtained radar contact with SJ on plane at 8 miles."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N61",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "5",
+   "zone": null,
+   "local": "April 4.",
+   "utc": "1944-04-04T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    4
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Surface plane lifeguard patrol",
+   "fields": {
+    "event": "Conducted surface plane life guard patrol. No planes seen."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N64",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "K",
+   "local": "2300 K April 4.",
+   "utc": "1944-04-04T13:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    4
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "At 2300 (K) decided bombing was over and set course to westward to resume patrol in accordance with ComSubPac Dispatch 260750 of 26 March,1944."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N66",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "5",
+   "zone": "K",
+   "local": "1230 K April 5.",
+   "utc": "1944-04-05T02:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    5
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Report of downed planes",
+   "fields": {
+    "event": "At 1230 (K) received message saying two planes were down. Set course eastward at four engine speed. Subsequent message reported lack of knowlege as to probable position of downed planes."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N67",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "5",
+   "zone": "K",
+   "local": "2100 K April 5.",
+   "utc": "1944-04-05T11:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    5
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Search for downed planes near reef",
+   "fields": {
+    "event": "In position where we had been for raid on previous night. Commenced search to southward. With moon out the majority of the night, we were able to conduct search within five miles of reef."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N65",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": null,
+   "local": "April 5.",
+   "utc": "1944-04-05T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    5
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted surface patrol on Truk-Saipan route."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C02",
+   "source": "(f) ship contacts",
+   "row": 2,
+   "kind": "sighting",
+   "page": null,
+   "zone": "K",
+   "local": "1109 K 4-6-44",
+   "utc": "1944-04-06T01:09:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    6
+   ],
+   "position_verbatim": "7° 43'(N) 152° 43'(E)",
+   "lat": 7.71667,
+   "lon": 152.71667,
+   "derived": null,
+   "type": "1 - periscope",
+   "title": "Contact 2 · 1 - periscope",
+   "fields": {
+    "type": "1 - periscope",
+    "initial_range": "1,000(E)",
+    "course": "- -",
+    "contacted": "SD",
+    "remarks": "Sighted by after look-out."
+   },
+   "flags": [
+    "Corrected by hand from the scan: Time Date was '1109(K) 3-6-44'.",
+    "Transcriber: Date 3-6-44 out of sequence (follows 3-23-44).",
+    "Review: Ship contact 2 (periscope): Gemini read the date 3-6-44 (image run) and 3-26-44 (text-layer run); the narrative puts it at 1109 K 6 April, page 5. row_fixes sets 4-6-44 provisionally; replace with the scan reading."
+   ],
+   "contact_no": "2."
+  },
+  {
+   "id": "SS-230-P08-N69",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "5",
+   "zone": "K",
+   "local": "1109 K April 6.",
+   "utc": "1944-04-06T01:09:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-06T01:09:00Z",
+     "1944-04-06T19:59:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    6
+   ],
+   "has_time": true,
+   "lat": 7.71667,
+   "lon": 152.71667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Lookout reported periscope (Contact #2). O.O.D. swung ship away and readied tubes. Submarine opened out eastward and resumed search."
+   },
+   "flags": [
+    "heading '(Contact #2)'; entry spans pages 5 and 6",
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-06 01:09 and 1944-04-06 19:59 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N70",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "6",
+   "zone": "K",
+   "local": "2000 K April 6.",
+   "utc": "1944-04-06T10:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-06T01:09:00Z",
+     "1944-04-06T19:59:00Z"
+    ]
+   },
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    6
+   ],
+   "has_time": true,
+   "lat": 7.87331,
+   "lon": 152.05879,
+   "type": "Narrative",
+   "title": "End of Truk lifeguard duties message",
+   "fields": {
+    "event": "[SUMMARY] Sent PINBACK #1 message to ComSubPac reporting no search results and requested return to patrol. Concluded north and northeast of Truk was not a traffic lane."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-06 01:09 and 1944-04-06 19:59 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N68",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "5",
+   "zone": null,
+   "local": "April 6.",
+   "utc": "1944-04-06T12:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-06T01:09:00Z",
+     "1944-04-06T19:59:00Z"
+    ]
+   },
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    6
+   ],
+   "has_time": false,
+   "lat": 7.9087,
+   "lon": 151.91012,
+   "type": "Narrative",
+   "title": "Search for downed B-24s",
+   "fields": {
+    "event": "[SUMMARY] Searched along line from Truk to Eniwetok for downed B-24s; white caps and a three sea hindered search. Maintained continuous search with two periscopes."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date.",
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-06 01:09 and 1944-04-06 19:59 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C24",
+   "source": "(g) aircraft contacts",
+   "row": 24,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "0559 K 4-7-44",
+   "utc": "1944-04-06T19:59:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    7
+   ],
+   "position_verbatim": "8° 03'(N) 151° 19'(E)",
+   "lat": 8.05,
+   "lon": 151.31667,
+   "derived": null,
+   "type": "Plane unidentified",
+   "title": "Aircraft 19 · Plane unidentified",
+   "fields": {
+    "type": "Plane unidentified",
+    "initial_range": "7 Mi",
+    "course": "--",
+    "contacted": "R"
+   },
+   "flags": [],
+   "contact_no": "19"
+  },
+  {
+   "id": "SS-230-P08-N72",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "K",
+   "local": "0559 K April 7.",
+   "utc": "1944-04-06T19:59:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-06T01:09:00Z",
+     "1944-04-06T19:59:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    7
+   ],
+   "has_time": true,
+   "lat": 8.05,
+   "lon": 151.31667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived on SD radar contact at 7 miles. While submerged trimmed ship and took it deep."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-06 01:09 and 1944-04-06 19:59 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N73",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "K",
+   "local": "0631 K April 7.",
+   "utc": "1944-04-06T20:31:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    7
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced. A three sea with whitecaps again reduced efficiency of search."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N71",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "6",
+   "zone": null,
+   "local": "April 7.",
+   "utc": "1944-04-07T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    7
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Awaiting orders on search",
+   "fields": {
+    "event": "Searched for planes north and northeast of Truk awaiting answer to our message."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N74",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "K",
+   "local": "2200 K April 7.",
+   "utc": "1944-04-07T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    7
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "At 2200 (K) on receiving message from ComSubPac, headed west to patrol Saipan-Truk route south of Namonuito Islands."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C25",
+   "source": "(g) aircraft contacts",
+   "row": 25,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1352 K 4-8-44",
+   "utc": "1944-04-08T03:52:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    8
+   ],
+   "position_verbatim": "8° 18'(N) 150° 09'(E)",
+   "lat": 8.3,
+   "lon": 150.15,
+   "derived": null,
+   "type": "1 Bomber \"Betty\"",
+   "title": "Aircraft 20 · 1 Bomber \"Betty\"",
+   "fields": {
+    "type": "1 Bomber \"Betty\"",
+    "initial_range": "4 Mi",
+    "course": "105°",
+    "contacted": "SD",
+    "remarks": "Came out of cloud did not sight us."
+   },
+   "flags": [
+    "Review: Aircraft contact 20: 1352 K 8 April; the narrative image run read 1552 (text-layer run 1352). Read the narrative time."
+   ],
+   "contact_no": "20"
+  },
+  {
+   "id": "SS-230-P08-N76",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "K",
+   "local": "1552 K April 8.",
+   "utc": "1944-04-08T05:52:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    8
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived on sighting a \"Betty\" bomber at about 4 miles coming out of a cloud."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N77",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "6",
+   "zone": "K",
+   "local": "2140 K April 8.",
+   "utc": "1944-04-08T11:40:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    8
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Return to lifeguard duty order",
+   "fields": {
+    "event": "Received message ordering us to return to plane guard duty. We had had about twelve hours in a possibly fruitful spot."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N75",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": null,
+   "local": "April 8.",
+   "utc": "1944-04-08T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    8
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute to and patrolled south of Namonuito Islands."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N78",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "6",
+   "zone": null,
+   "local": "April 9.",
+   "utc": "1944-04-09T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    9
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Plane lifeguard patrol",
+   "fields": {
+    "event": "Conducted plane life guard patrol. No planes sighted."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N80",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "K",
+   "local": "0845 K April 10.",
+   "utc": "1944-04-09T22:45:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    10
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived as QM reported a plane. Believe it was a bird."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N81",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "K",
+   "local": "0930 K April 10.",
+   "utc": "1944-04-09T23:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    10
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N82",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "K",
+   "local": "1102 K April 10.",
+   "utc": "1944-04-10T01:02:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    10
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Sighted float reconnaisance plane at 10 miles."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C26",
+   "source": "(g) aircraft contacts",
+   "row": 26,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1133 K 4-10-44",
+   "utc": "1944-04-10T01:33:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    10
+   ],
+   "position_verbatim": "8° 10'(N) 152° 32'(E)",
+   "lat": 8.16667,
+   "lon": 152.53333,
+   "derived": null,
+   "type": "1 Reconnaissance 97",
+   "title": "Aircraft 21 · 1 Reconnaissance 97",
+   "fields": {
+    "type": "1 Reconnaissance 97",
+    "initial_range": "10 Mi",
+    "course": "000°",
+    "contacted": "SD",
+    "remarks": "Plane crossed stern and passed out of sight"
+   },
+   "flags": [
+    "Transcriber: Latitude and longitude faint; best reading.",
+    "Review: Aircraft contact 21: table 1133 K, latitude 8° 10' (first run 8° 05'); the narrative image run read 1102, text-layer run 1132. As typed, 3 miles from contact 22 in two minutes."
+   ],
+   "contact_no": "21"
+  },
+  {
+   "id": "SS-230-P08-C27",
+   "source": "(g) aircraft contacts",
+   "row": 27,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1135 K 4-10-44",
+   "utc": "1944-04-10T01:35:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    10
+   ],
+   "position_verbatim": "8° 07'(N) 152° 33'(E)",
+   "lat": 8.11667,
+   "lon": 152.55,
+   "derived": null,
+   "type": "1 Reconnaissance 97",
+   "title": "Aircraft 22 · 1 Reconnaissance 97",
+   "fields": {
+    "type": "1 Reconnaissance 97",
+    "initial_range": "5 Mi",
+    "course": "090°",
+    "contacted": "SD",
+    "remarks": "Dived as plane passed at 5 miles. No indication of sighting"
+   },
+   "flags": [],
+   "contact_no": "22"
+  },
+  {
+   "id": "SS-230-P08-N83",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "K",
+   "local": "1135 K April 10.",
+   "utc": "1944-04-10T01:35:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-10T01:33:00Z",
+     "1944-04-10T01:35:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    10
+   ],
+   "has_time": true,
+   "lat": 8.11667,
+   "lon": 152.55,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived on sighting another float reconnaissance plane at 5 miles."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-10 01:33 and 1944-04-10 01:35 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C28",
+   "source": "(g) aircraft contacts",
+   "row": 28,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1240 K 4-10-44",
+   "utc": "1944-04-10T02:40:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    10
+   ],
+   "position_verbatim": "8° 06'(N) 152° 33'(E)",
+   "lat": 8.1,
+   "lon": 152.55,
+   "derived": null,
+   "type": "2 reconnaissance 97 Probably same as contacts 21 & 22",
+   "title": "Aircraft 23 · 2 reconnaissance 97 Probably same as contacts 21 & 22",
+   "fields": {
+    "type": "2 reconnaissance 97 Probably same as contacts 21 & 22",
+    "initial_range": "5 Mi",
+    "course": "045° circling",
+    "contacted": "P",
+    "remarks": "Apparently 3 seaplanes Had sighted us and were at war with us."
+   },
+   "flags": [
+    "Transcriber: Remarks partially faded; best reading.",
+    "Review: Aircraft contact 23: remark read 'were at war with us', probably 'were staying with us' (first run)."
+   ],
+   "contact_no": "23"
+  },
+  {
+   "id": "SS-230-P08-N84",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "K",
+   "local": "1240 K April 10.",
+   "utc": "1944-04-10T02:40:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-10T01:35:00Z",
+     "1944-04-10T02:40:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    10
+   ],
+   "has_time": true,
+   "lat": 8.1,
+   "lon": 152.55,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Surfaced assuming planes were not covering shipping; resighted plane and returned to 60 feet. Spotted second circling plane; watched until it turned toward boat."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-10 01:35 and 1944-04-10 02:40 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N85",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "6",
+   "zone": "K",
+   "local": "1250 K April 10, 1944",
+   "utc": "1944-04-10T02:50:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    10
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Watched this plane until 1250 when he turned toward us and started dive. Went to 140 feet. Nice white caps and clouds helping us. Saw no bombs on plane and he dropped none."
+   },
+   "flags": [
+    "Zone left blank for 1250 in the report. Counterattack tag removed: no bombs dropped."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N86",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "K",
+   "local": "1310 K April 10, 1944",
+   "utc": "1944-04-10T03:10:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    10
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Returned to periscope depth. Looked like we had better stay submerged awhile. Our next strike was scheduled for that night."
+   },
+   "flags": [
+    "Dated April 10 by hand: typed above the April 11 heading, continuing the 1240-1250 entry."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N79",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "6",
+   "zone": null,
+   "local": "April 10.",
+   "utc": "1944-04-10T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    10
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Lifeguard patrol and strike expectations",
+   "fields": {
+    "event": "Conducted plane life guard patrol. No information received relative to last strike. Decided to stay in this position and take position for that night's strike after dark."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N88",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "K",
+   "local": "0300 K April 11.",
+   "utc": "1944-04-10T17:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Observed large flare-up in the direction of Truk."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N89",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "K",
+   "local": "0350 K April 11.",
+   "utc": "1944-04-10T17:50:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Heard plane motors."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N90",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "7",
+   "zone": "K",
+   "local": "0355 K April 11.",
+   "utc": "1944-04-10T17:55:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Plane falling in flames",
+   "fields": {
+    "event": "Observed what appeared to be a plane falling in flames. The distance to this flare was hard to estimate, but it was definitely over the horizon. At daybreak commenced search along this bearing in absence of further information. A man in a life jacket alone would be hard to find in the existing sea."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N91",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "K",
+   "local": "1521 K April 11.",
+   "utc": "1944-04-11T05:21:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    11
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Received ComSubPac dispatch releasing us to patrol area. Headed to western part of area at 15 knots."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C29",
+   "source": "(g) aircraft contacts",
+   "row": 29,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1552 K 4-11-44",
+   "utc": "1944-04-11T05:52:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    11
+   ],
+   "position_verbatim": "7° 18'(N) 152° 26'(E)",
+   "lat": 7.3,
+   "lon": 152.43333,
+   "derived": null,
+   "type": "2 Fighters \"Hap\"",
+   "title": "Aircraft 24 · 2 Fighters \"Hap\"",
+   "fields": {
+    "type": "2 Fighters \"Hap\"",
+    "initial_range": "Overhead",
+    "course": "090°",
+    "contacted": "SD",
+    "remarks": "Apparently not sighted"
+   },
+   "flags": [
+    "Review: Aircraft contact 24: rerun read 1552, first run 1554; narrative 1554 (text layer 1556)."
+   ],
+   "contact_no": "24"
+  },
+  {
+   "id": "SS-230-P08-N92",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "K",
+   "local": "1⟦55⟧4 K April 11.",
+   "utc": "1944-04-11T05:54:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-11T05:52:00Z",
+     "1944-04-11T19:17:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    11
+   ],
+   "has_time": true,
+   "lat": 7.3046,
+   "lon": 152.42894,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "At dived when QM sighted two fighters crossing and almost overhead."
+   },
+   "flags": [
+    "Time overstruck or faint, best reading 1⟦55⟧4 or 1654",
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-11 05:52 and 1944-04-11 19:17 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N93",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "K",
+   "local": "1707 K April 11.",
+   "utc": "1944-04-11T07:07:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-11T05:52:00Z",
+     "1944-04-11T19:17:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    11
+   ],
+   "has_time": true,
+   "lat": 7.47236,
+   "lon": 152.26873,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-11 05:52 and 1944-04-11 19:17 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N87",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "7",
+   "zone": null,
+   "local": "April 11.",
+   "utc": "1944-04-11T12:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-11T05:52:00Z",
+     "1944-04-11T19:17:00Z"
+    ]
+   },
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    11
+   ],
+   "has_time": false,
+   "lat": 8.14571,
+   "lon": 151.62571,
+   "type": "Narrative",
+   "title": "Life guard patrol",
+   "fields": {
+    "event": "Conducted life guard patrol."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date.",
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-11 05:52 and 1944-04-11 19:17 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N94",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "7",
+   "zone": "K",
+   "local": "0100 K April 12.",
+   "utc": "1944-04-11T15:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-11T05:52:00Z",
+     "1944-04-11T19:17:00Z"
+    ]
+   },
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "has_time": true,
+   "lat": 8.55938,
+   "lon": 151.23068,
+   "type": "Narrative",
+   "title": "Report on missing planes",
+   "fields": {
+    "event": "Decoded ComSubPac message telling us two of our planes were missing. Sent FINBACK'S serial two to ComSubPac reporting what we had seen and action taken. Requested permission continue patrol."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-11 05:52 and 1944-04-11 19:17 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N95",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "K",
+   "local": "0407 K April 12.",
+   "utc": "1944-04-11T18:07:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-11T05:52:00Z",
+     "1944-04-11T19:17:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "has_time": true,
+   "lat": 8.98913,
+   "lon": 150.82029,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Received permission to continue patrol."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-11 05:52 and 1944-04-11 19:17 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C30",
+   "source": "(g) aircraft contacts",
+   "row": 30,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "0517 K 4-12-44",
+   "utc": "1944-04-11T19:17:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "position_verbatim": "9° 09'(N) 150° 40'(E)",
+   "lat": 9.15,
+   "lon": 150.66667,
+   "derived": null,
+   "type": "1 Bomber \"Betty\"",
+   "title": "Aircraft 25 · 1 Bomber \"Betty\"",
+   "fields": {
+    "type": "1 Bomber \"Betty\"",
+    "initial_range": "6 Mi",
+    "course": "135°",
+    "contacted": "SD and R",
+    "remarks": "Seen by lookout and gotten on Radar"
+   },
+   "flags": [],
+   "contact_no": "25"
+  },
+  {
+   "id": "SS-230-P08-N96",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "K",
+   "local": "0517 K April 12.",
+   "utc": "1944-04-11T19:17:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-11T05:52:00Z",
+     "1944-04-11T19:17:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "has_time": true,
+   "lat": 9.15,
+   "lon": 150.66667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Dived after lookout sighted \"Betty\" bomber dead ahead; tracked plane on SJ radar to 16,000 yards, trimmed boat and took deep Bathythermograph card."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-11 05:52 and 1944-04-11 19:17 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N97",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "K",
+   "local": "0900 K April 12.",
+   "utc": "1944-04-11T23:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-11T19:17:00Z",
+     "1944-04-12T02:17:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "has_time": true,
+   "lat": 9.43317,
+   "lon": 149.81715,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced. Patrolling Truk-Empire route."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-11 19:17 and 1944-04-12 02:17 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C31",
+   "source": "(g) aircraft contacts",
+   "row": 31,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1217 K 4-12-44",
+   "utc": "1944-04-12T02:17:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "position_verbatim": "9° 41'(N) 149° 04'(E)",
+   "lat": 9.68333,
+   "lon": 149.06667,
+   "derived": null,
+   "type": "1 Kawanishi 97 Flying Boat",
+   "title": "Aircraft 26 · 1 Kawanishi 97 Flying Boat",
+   "fields": {
+    "type": "1 Kawanishi 97 Flying Boat",
+    "initial_range": "6 Mi.",
+    "course": "315°",
+    "contacted": "SD",
+    "remarks": "Sighted us and held us down. No bombs."
+   },
+   "flags": [],
+   "contact_no": "26"
+  },
+  {
+   "id": "SS-230-P08-N98",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "K",
+   "local": "1217 K April 12.",
+   "utc": "1944-04-12T02:17:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-11T19:17:00Z",
+     "1944-04-12T02:17:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "has_time": true,
+   "lat": 9.68333,
+   "lon": 149.06667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived to 140 feet on sighting a Kawanishi 97 Flying Boat headed in our direction."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-11 19:17 and 1944-04-12 02:17 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N99",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "K",
+   "local": "1227 K April 12.",
+   "utc": "1944-04-12T02:27:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-12T02:17:00Z",
+     "1944-04-12T07:05:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "has_time": true,
+   "lat": 9.68738,
+   "lon": 149.03253,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "At assuming he hadn't sighted us, came to 60 feet to find this plane 3 miles away headed toward us. Went deep. Still no bombs, but he had us spotted."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-12 02:17 and 1944-04-12 07:05 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N100",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "K",
+   "local": "1300 K April 12.",
+   "utc": "1944-04-12T03:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-12T02:17:00Z",
+     "1944-04-12T07:05:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "has_time": true,
+   "lat": 9.70075,
+   "lon": 148.91985,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "At found nothing in sight, but sky was full of cumulus clouds."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-12 02:17 and 1944-04-12 07:05 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N101",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "K",
+   "local": "1404 K April 12.",
+   "utc": "1944-04-12T04:04:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-12T02:17:00Z",
+     "1944-04-12T07:05:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "has_time": true,
+   "lat": 9.72668,
+   "lon": 148.70133,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced. Hoped we hadn't spoiled our chances in this part of area."
+   },
+   "flags": [
+    "First digit of minutes partially faint, looks like 1404 or 1444",
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-12 02:17 and 1944-04-12 07:05 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C03",
+   "source": "(f) ship contacts",
+   "row": 3,
+   "kind": "sighting",
+   "page": null,
+   "zone": "K",
+   "local": "1705 K 4-12-44",
+   "utc": "1944-04-12T07:05:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "position_verbatim": "9° 48'(N) 148° 05'(E)",
+   "lat": 9.8,
+   "lon": 148.08333,
+   "derived": null,
+   "type": "1 - large AK or AP Convoy 5-medium AK's or AP's - 3 es-corts",
+   "title": "Contact 3 · 1 - large AK or AP Convoy 5-medium AK's or AP's - 3 es-corts",
+   "fields": {
+    "type": "1 - large AK or AP Convoy 5-medium AK's or AP's - 3 es-corts",
+    "initial_range": "12 Mi.",
+    "course": "153° 8.5 kts",
+    "contacted": "SD",
+    "remarks": "Attacked after sunset"
+   },
+   "flags": [
+    "Corrected by hand from the scan: Time Date was '1705(K) 3-13-44'.",
+    "Transcriber: Date 3-13-44 out of sequence.",
+    "Review: Ship contact 3 (the convoy of attacks 1-3): Gemini read 3-13-44 and 3-30-44; the narrative puts it on 12 April. row_fixes sets 4-12-44 provisionally. Table time 1705 (first run 1709); the narrative smoke sighting reads 1745. Latitude 9° 48' (first run 7°)."
+   ],
+   "contact_no": "3."
+  },
+  {
+   "id": "SS-230-P08-N102",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "K",
+   "local": "1745 K April 12.",
+   "utc": "1944-04-12T07:45:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-12T07:05:00Z",
+     "1944-04-12T11:15:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "has_time": true,
+   "lat": 9.776,
+   "lon": 148.04333,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted smoke of convoy (Contact #3); tracked on base course and maneuvered for submerged attack after moonrise, closing under cover of twilight."
+   },
+   "flags": [
+    "Heading (Contact #3) embedded in margin/text",
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-12 07:05 and 1944-04-12 11:15 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N103",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "7",
+   "zone": "K",
+   "local": "1855 K April 12.",
+   "utc": "1944-04-12T08:55:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-12T07:05:00Z",
+     "1944-04-12T11:15:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "has_time": true,
+   "lat": 9.734,
+   "lon": 147.97333,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Began radar tracking of convoy at 8,000–10,000 yards, detecting six targets and three escorts zigzagging and changing course right 90° at dusk."
+   },
+   "flags": [
+    "Entry text continues onto page 8",
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-12 07:05 and 1944-04-12 11:15 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N104",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "K",
+   "local": "2043 K April 12.",
+   "utc": "1944-04-12T10:43:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-12T07:05:00Z",
+     "1944-04-12T11:15:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "has_time": true,
+   "lat": 9.6692,
+   "lon": 147.86533,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Ready to attack, sighted white signal light on port quarter from ranging escort, but decided to press attack as escort was too distant."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-12 07:05 and 1944-04-12 11:15 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N105",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "8",
+   "zone": "K",
+   "local": "2050 K April 12.",
+   "utc": "1944-04-12T10:50:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-12T07:05:00Z",
+     "1944-04-12T11:15:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "has_time": true,
+   "lat": 9.665,
+   "lon": 147.85833,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Secured engines and moved in to attack two-stack destroyer escort and convoy of six AKs/APs in two columns, closing to 4,800 yards."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-12 07:05 and 1944-04-12 11:15 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-A45",
+   "source": "Torpedo attack data",
+   "row": 45,
+   "kind": "torpedo",
+   "page": "20, 21",
+   "zone": "K",
+   "local": "2115 K 4-12-44",
+   "utc": "1944-04-12T11:15:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "position_verbatim": "09-39 N 147-50 E",
+   "lat": 9.65,
+   "lon": 147.83333,
+   "derived": null,
+   "type": "The convoy consisted of one large AK or AP, five medium AK's",
+   "title": "Attack 1 · The convoy consisted of one large AK or AP, five",
+   "fields": {
+    "description": "The convoy consisted of one large AK or AP, five medium AK's or AP's, and three escorts (one a two stack destroy- er, one ⟦CH⟧ or PC, and the other not seen). The contact was made by sighting smoke and later seeing tops of the targets. After dark six shapes were counted at about 7000 yards. The escorts could not be seen until about 5000 yards. The large AK or AP was definitely seen as a modern ship of from 8-10,000 tons. The only other target definitely silhouetted by an explosion was an old M-F-M freighter of about 5000 tons. The near es- cort was long, low and had two stacks. He was seen at 900 yards. The PC was identified as such by his smaller relative size.",
+    "sunk": "None",
+    "target": "20'           Course: 245°(T)    Speed: 8.5    Range: 3750",
+    "own ship": "8.5 — '8' has faint upper loop resembling '9'",
+    "attack_type": "Surface radar attack, using T.B.T. bearings for firing 1st torpedo and generated bearings for 2nd and 3rd tor- pedo. Range was excessive due to position of escort. Overlapping targets presented unusually good target. Escort not fired on as did not want to take time to set torpedoes to shallow depth. Assumed target length of 400 feet and used 100% spread coverage.",
+    "form": "(H) ATTACK DATA:\nU.S.S. FINBACK                             PATROL NO. 8\nTORPEDO ATTACK NO. 1\nTime 2115 (K) Date: 4-12-44 Lat. 09° 39' (N) Long. 147° 50' (E)\n                       Target Data Damage Inflicted\nDescription: The convoy consisted of one large AK or AP, five medium\n             AK's or AP's, and three escorts (one a two stack destroy-\n             er, one ⟦CH⟧ or PC, and the other not seen). The contact\n             was made by sighting smoke and later seeing tops of the\n             targets. After dark six shapes were counted at about\n             7000 yards. The escorts could not be seen until about\n             5000 yards. The large AK or AP was definitely seen as\n             a modern ship of from 8-10,000 tons. The only other\n             target definitely silhouetted by an explosion was an\n             old M-F-M freighter of about 5000 tons. The near es-\n             cort was long, low and had two stacks. He was seen at\n             900 yards. The PC was identified as such by his smaller\n             relative size.\nShips   Sunk:    None\nShips Damaged\nor probably sunk: One medium AK or AP (possibly another AK or AP)\nDamage Determined\nby              : Reading a duel orange-colored explosion, hearing\n                  two torpedo hits on bridge, in the boat, and over\n                  the sound gear, and checking time of torpedo\n                  run against the times of the explosions.\nTarget Draft: 20'           Course: 245°(T)    Speed: 8.5    Range: 3750\nOWN SHIP DATA\nSpeed: 10                   Course: 345°       Depth: --     Angle: --\n(at firing)                                    (turning slowly left)\n               FIRE CONTROL and TORPEDO DATA\nType attack: Surface radar attack, using T.B.T. bearings for firing\n             1st torpedo and generated bearings for 2nd and 3rd tor-\n             pedo. Range was excessive due to position of escort.\n             Overlapping targets presented unusually good target.\n             Escort not fired on as did not want to take time to set\n             torpedoes to shallow depth. Assumed target length of\n             400 feet and used 100% spread coverage.\n09° 39' (N) — minute mark faint, typed as prime symbol\n147° 50' (E) — 'E' is faint/partially obscured in parentheses\none ⟦CH⟧ or PC — letters faint and partially filled\nduel orange-colored explosion — typed \"duel\" for \"dual\"\nSpeed: 8.5 — '8' has faint upper loop resembling '9'",
+    "torpedoes": "(H) ATTACK DATA: (continued)\nTubes Fired              1             2             3\nTrack angle              113(P)        112(P)        114(P)\nGyro Angle               327°          330°          331°\nDepth Set                8'            8'            8'\nPower                    High          High          High\nHit or Miss              Miss          Hit           Hit\nErratic                  No            No            No\nMark Torpedo             XIV-3A        XXIII         XIV-3A\nSerial                   26870         26269         26767\nMk. Exploder             VI-4          VI-4          VI-4A\nSerial No.               8598          70            3231\nActuation Set            Contact       Contact       Contact\nActuation Actual         Contact       Contact       Contact\nMk. Warhead              XVI-1         XVI-1         XVI\nSerial No.               12539         12204         11160\nExplosive                TPX           TPX           TPX\nFiring Interval          - - - - - - - - - 8 sec - - - - - - - - -\nSpread                   - - - - - - - - - 3/4° - - - - - - - - -\nSea Condition            - - - - - - - - - One - - - - - - - - - -\nOverhaul                 S/M Base      S/M Base      S/M Base\nActivity                 P.H.T.H.      P.H.T.H.      P.H.T.H.\nPage 21 contains Torpedo Data for Attack 1 on the upper half and Torpedo Attack Data for Attack 2 on the lower half.\nDepth Set: tube 2 has an ink dash following \"8'\" (\"8'-\")\nMark Torpedo tube 2: typed \"XXIII\" (Mark 23)",
+    "narrative": "At with destroyer bearing 005º relative, range 1100 yards, fired three torpedo spread at leading ship of the near column using a 327º gyro angle, 112º(P) track, and 3750 yard range. With destroyer dead ahead, fired a three torpedo spread at three overlapping ships which were next astern using a 350º gyro angle, 90º(P) track, and 3500 yard range. These torpedoes passed under the bow of the destroyer who was frantically signalling and had stopped. Due to the proximity of the escort, his movements were followed more closely than those of the targets after we fired. The following facts were definitely noted: (1) Explosions were seen from the bridge on two targets; (2) Five torpedo explosions were heard topside and below; (3) The soundman reported five torpedo explosions; (4) The times of the explosions checked well with expected torpedo runs; (5) One of the ships in the second target group was stopped and completely covered with greyish smoke similar to ships sunk on other patrols by this ship; (6) Neither of the observed explosions was on the smoking ship; and (7) No depth charges were seen or heard until after the last torpedo explosion. Entering the field of deduction, the torpedo runs indicated a hit on the first ship, a hit on a ship in the far column, two hits on a near ship in the overlapping group of three, and a hit on a ship in the far column. It is believed the ship covered with smoke received two hits and probably sunk. As the radar was kept on the escort during the evasion, no information relative to the targets was obtained."
+   },
+   "flags": [
+    "Transcriber: ",
+    "Transcriber: ",
+    "Narrative entry at 2115 K April 12. (page 8) describes this attack; its account is included here.",
+    "Heading typed as (Attack #1 & #2). Text carries over to page 9."
+   ],
+   "result": null,
+   "result_basis": null
+  },
+  {
+   "id": "SS-230-P08-A46",
+   "source": "Torpedo attack data",
+   "row": 46,
+   "kind": "torpedo",
+   "page": "21, 22",
+   "zone": "K",
+   "local": "2116 K 4-12-44",
+   "utc": "1944-04-12T11:16:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "position_verbatim": "09-39 N 147-50 E",
+   "lat": 9.65,
+   "lon": 147.83333,
+   "derived": null,
+   "type": "Same convoy described under attack #1",
+   "title": "Attack 2 · Same convoy described under attack #1",
+   "fields": {
+    "description": "Same convoy described under attack #1. Torpedoes fired at three overlapping medium AK's or AP's astern of first target. (Attack #1)",
+    "sunk": "None",
+    "target": "20' — prime mark slightly blurred",
+    "own ship": "10                   Course: 340°       Depth: --     Angle: -- (At firing)",
+    "form": "U.S.S. FINBACK                             PATROL NO. 8\nTORPEDO ATTACK NO. 2\nTime 2116 (K) Date 4-12-44 Lat. 09° 39' (N) Long. 147° 50' (E)\n                       Target Data Damage Inflicted\nDescription:     Same convoy described under attack #1. Torpedoes fired\n                 at three overlapping medium AK's or AP's astern of\n                 first target. (Attack #1)\nShips   Sunk:    None\nShips Damaged\nor probably sunk: Two medium AK's or AP's.\nDamage Determined\nBy              : Seeing one right explosion; hearing three torpedo\n                  explosions on bridge, below, and over sound gear,\n                  checking times of torpedo runs against the times\n                  of the explosions, and seeing one ship stopped\n                  and covered by dense smoke not the color of coal\n                  smoke. The explosion seen was on a ship beyond\n                  the one heavily smoking.\nTarget Draft: 20'           Course: 245°       Speed: 8.5    Range: 3500\nOWN SHIP DATA\nSpeed: 10                   Course: 340°       Depth: --     Angle: --\n                                                             (At firing)\nTime 2116 (K) — zone letter is light/faint in parentheses\nTarget Draft: 20' — prime mark slightly blurred\nDamage: typed \"right\" for \"bright\" (\"Seeing one right explosion\")",
+    "torpedoes": "(H) ATTACK DATA: (continued)\n               FIRE CONTROL and TORPEDO DATA\nType Attack: Surface radar attack using T.B.T. bearings for 1st\n             torpedo and generated bearings for second and third\n             torpedoes. Excessive range due to position of escort.\n             Used 400 foot length and 100% spread coverage. Had\n             three overlapping targets. Good results due to size\n             of target, surprise of attack, and his slow speed.\nTubes Fired              4             5             6\nTrack Angle              90(P)         90(P)         90(P)\nGyro Angle               350°          351°          355°\nDepth Set                8'            8'            8'\nPower                    High          High          High\nHit or Miss              Hit           Hit           Hit\nErratic                  No            No            No\nMark Torpedo             XIV-3A        XIV-3A        XIV-3A\nSerial                   22341         26076         39781\nMk. Exploder             VI-4          VI-4          VI-4\nSerial No.               90            42            20500\nActuation Set            Contact       Contact       Contact\nActuation Actual         Contact       Contact       Contact\nMk. Warhead              XVI           XVI-1         XVI-1\nSerial No.               11095         12703         5336\nExplosive                TPX           TPX           TPX\nFiring Interval          - - - - - - - - - 8 sec - - - - - - - - -\nSpread                   - - - - - - - - - 3/4° - - - - - - - - -\nSea Condition            - - - - - - - - - One - - - - - - - - - -\nOverhaul                 S/M Base      S/M Base      S/M Base\nActivity                 P.H.T.H.      P.H.T.H.      P.H.T.H.\nPage 22 contains Fire Control & Torpedo Data for Attack 2 on the upper half and Torpedo Attack Data for Attack 3 on the lower half.\nTube 6 Depth Set: mark faint, aligned with 8'\nTube 6 Exploder Serial No.: typed \"20500\" with colon/smudge between digits (\"20:00\")\nTube 6 Explosive: blank line under tube 6, dashes under tube 4 and 5",
+    "narrative": "At swung ship 180º, set after tubes on 4 feet, and drew a bead on the destroyer. Intended to let him have a salvo in order to dampen his ardor. He turned toward us blinked a red light and we fired three torpedoes down the throat at 1100 yards. He jogged left and evaded. No hits. Saw the destroyer drop one depth charge. Escorts around the targets dropped several depth charges. The destroyer let us open to 2500 yards before using his gun. He apparently was not sure we were not another escort until we fired at him. The gunfire fell 500 yards wide. Another escort headed in our direction, but dropped behind as we speeded up. At 3400 yards range the destroyer decided it was safe to follow us and he held the range steady. Four main engines would not get us clear. At this point a nearly full moon cleared the clouds and the destroyer became more accurate with his gunfire."
+   },
+   "flags": [
+    "Transcriber: ",
+    "Transcriber: ",
+    "Narrative entry at 2116 K April 12. (page 9) describes this attack; its account is included here.",
+    "Heading typed as (Attact #3)"
+   ],
+   "result": null,
+   "result_basis": null
+  },
+  {
+   "id": "SS-230-P08-A47",
+   "source": "Torpedo attack data",
+   "row": 47,
+   "kind": "torpedo",
+   "page": "22, 23",
+   "zone": "K",
+   "local": "2117 K 4-12-44",
+   "utc": "1944-04-12T11:17:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "position_verbatim": "09-39 N 147-50 E",
+   "lat": 9.65,
+   "lon": 147.83333,
+   "derived": null,
+   "type": "typed \"Destroyer two stacks\" without article",
+   "title": "Attack 3 · typed \"Destroyer two stacks\" without article",
+   "fields": {
+    "description": "typed \"Destroyer two stacks\" without article",
+    "sunk": "None",
+    "form": "U.S.S. FINBACK                             PATROL NO. 8\nTORPEDO ATTACK NO. 3\nTime 2117 (K) Date 4-12-44 Lat. 09° 39' (N) Long. 147° 50' (E)\n                       Target Data Damage Inflicted\nDescription:     Destroyer two stacks (large stack aft). Believed to\n                 be Fubuki type destroyer.\nShips   Sunk:    None\nShips Damaged\nor probable sunk: None\nDamage Determined\nby              : None\nLong. 147° 50' (E) — zone letter omitted or blank in parentheses on this line\nDescription: typed \"Destroyer two stacks\" without article",
+    "torpedoes": "(H) ATTACK DATA: (continued)\nTarget Draft: 6'            Course: 130°       Speed: 12     Range: 1100\nOWN SHIP DATA\nSpeed: 15                   Course: 130°       Depth: --     Angle: --\n                                                             (at fir-\n                                                             ing)\n               FIRE CONTROL and TORPEDO DATA\nType Attack: Surface radar attack. \"Down-the-throat shot\" fired\n             in effort to discourage the escort. Range too great\n             to expect a sure hit. Target evaded by jogging to the\n             left.\nTubes Fired              7             8             9\nTrack Angle              0             0             0\nGyro Angle               182°          184°          187°\nDepth Set                4'            4'            4'\nPower                    High          High          High\nHit or Miss              Miss          Miss          Miss\nErratic                  No            No            No\nMark Torpedo             XIV-3A        XXIII         XIV-3A\nSerial                   23035         41020         26780\nMk. Exploder             VI-4A         VI-4          VI-4A\nSerial No.               3646          3240          2352\nActuation Set            Contact       Contact       Contact\nActuation Actual         --            --            --\nMk. Warhead              XVI           XVI-1         XVI\nSerial No.               523           12050         2484\nExplosive                TPX           TPX           TPX\nFiring Interval          - - - - - - - - - 9 sec - - - - - - - - -\nSpread                   - - - - - - - - - 1/2° - - - - - - - - -\nSea Condition            - - - - - - - - - One - - - - - - - - - -\nOverhaul                 S/M Base      S/M Base      S/M Base\nActivity                 P.H.T.H.      P.H.T.H.      P.H.T.H.\nPage 23 contains Target/Ship/Torpedo Data for Attack 3 on the upper half and Gun Attack No. 1 on the lower half.\nMark Torpedo tube 7: typed \"⟦X⟧IV-3A\" with the initial X faint or lightly struck\nActuation Actual: left blank for all three tubes\nMk. Warhead Serial No. tube 7: \"523\" is a three-digit serial number"
+   },
+   "flags": [
+    "Transcriber: ",
+    "Transcriber: ",
+    "Review: Torpedo attack 3: form 2117 K, narrative 2116 K. No hits."
+   ],
+   "result": null,
+   "result_basis": null
+  },
+  {
+   "id": "SS-230-P08-N108",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "9",
+   "zone": "K",
+   "local": "2133 K April 12.",
+   "utc": "1944-04-12T11:33:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-12T11:15:00Z",
+     "1944-04-13T06:28:00Z"
+    ]
+   },
+   "tag": "counterattack",
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "has_time": true,
+   "lat": 9.62684,
+   "lon": 147.89447,
+   "type": "Narrative",
+   "title": "Gunfire and depth charging",
+   "fields": {
+    "event": "At just after he dropped a shell twenty yards abreast of the forward torpedo room, decided we had better dive and take our licking. Swung hard right just prior to diving. We were 90º to our original track and going ahead full speed when we reached 300 feet. This ruse apparently fooled him as the subsequent depth charging was very light. We evaded at 80 RPM."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-12 11:15 and 1944-04-13 06:28 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N109",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "counterattack",
+   "page": "9",
+   "zone": "K",
+   "local": "2139 K April 12.",
+   "utc": "1944-04-12T11:39:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-12T11:15:00Z",
+     "1944-04-13T06:28:00Z"
+    ]
+   },
+   "tag": "counterattack",
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "has_time": true,
+   "lat": 9.61912,
+   "lon": 147.91486,
+   "type": "Narrative",
+   "title": "Escort depth charges",
+   "fields": {
+    "event": "At escort dropped first of twelve depth charges. Another escort joined the hunt but they never got a positive contact. One escort left the hunt, but we continued to hear echo ranging.",
+    "charges": "twelve"
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-12 11:15 and 1944-04-13 06:28 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N110",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": "K",
+   "local": "2325 K April 12.",
+   "utc": "1944-04-12T13:25:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-12T11:15:00Z",
+     "1944-04-13T06:28:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "has_time": true,
+   "lat": 9.48276,
+   "lon": 148.27493,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Came to 60 feet, picked up escort on SJ radar at 6,900 yards searching in circle; Lt. (jg) Kuzell noted 10 cm radar interference, decided to run for it."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-12 11:15 and 1944-04-13 06:28 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N111",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "9",
+   "zone": "K",
+   "local": "2356 K April 12.",
+   "utc": "1944-04-12T13:56:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-12T11:15:00Z",
+     "1944-04-13T06:28:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    12
+   ],
+   "has_time": true,
+   "lat": 9.44287,
+   "lon": 148.38024,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Surfaced at flank speed to head for point between Puluwat Island and Truk to intercept convoy following night after it crosses banks."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-12 11:15 and 1944-04-13 06:28 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N112",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "9",
+   "zone": "K",
+   "local": "0100 K April 13.",
+   "utc": "1944-04-12T15:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-12T11:15:00Z",
+     "1944-04-13T06:28:00Z"
+    ]
+   },
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    13
+   ],
+   "has_time": true,
+   "lat": 9.36054,
+   "lon": 148.59764,
+   "type": "Narrative",
+   "title": "Ordered to plane guard duty",
+   "fields": {
+    "event": "Decoded ComSubPac dispatch 120904, which came in just prior to our dive, telling us to take position for plane guard duty. This was pretty disappointing as we had high hopes of doing a more complete job on this convoy. Sent FINBACK'S third dispatch. No direct answer was received, but we intercepted a message to the THRESHER reporting our attack, so we reluctantly continued toward our plane guard station. Hoped THRESHER or our plane would get dope on what results we obtained.",
+    "with": "THRESHER"
+   },
+   "flags": [
+    "Text continues onto page 10",
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-12 11:15 and 1944-04-13 06:28 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C32",
+   "source": "(g) aircraft contacts",
+   "row": 32,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1628 K 4-13-44",
+   "utc": "1944-04-13T06:28:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    13
+   ],
+   "position_verbatim": "8° 10'(N) 151° 45'(E)",
+   "lat": 8.16667,
+   "lon": 151.75,
+   "derived": null,
+   "type": "1 Reconnaissance Bomber",
+   "title": "Aircraft 27 · 1 Reconnaissance Bomber",
+   "fields": {
+    "type": "1 Reconnaissance Bomber",
+    "initial_range": "6 Mi",
+    "course": "220°",
+    "contacted": "SD",
+    "remarks": "Did not see us"
+   },
+   "flags": [],
+   "contact_no": "27"
+  },
+  {
+   "id": "SS-230-P08-N113",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "K",
+   "local": "1628 K April 13.",
+   "utc": "1944-04-13T06:28:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-12T11:15:00Z",
+     "1944-04-13T06:28:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    13
+   ],
+   "has_time": true,
+   "lat": 8.16667,
+   "lon": 151.75,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived on sighting reconnaissance plane at 6 miles."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-12 11:15 and 1944-04-13 06:28 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N114",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "K",
+   "local": "1703 K April 13.",
+   "utc": "1944-04-13T07:03:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-13T06:28:00Z",
+     "1944-04-13T14:43:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    13
+   ],
+   "has_time": true,
+   "lat": 8.15489,
+   "lon": 151.83838,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-13 06:28 and 1944-04-13 14:43 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N115",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "10",
+   "zone": "K",
+   "local": "2200 K April 13.",
+   "utc": "1944-04-13T12:00:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-13T06:28:00Z",
+     "1944-04-13T14:43:00Z"
+    ]
+   },
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    13
+   ],
+   "has_time": true,
+   "lat": 8.05488,
+   "lon": 152.58838,
+   "type": "Narrative",
+   "title": "Reached life guard station",
+   "fields": {
+    "event": "Reached life guard station."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-13 06:28 and 1944-04-13 14:43 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C33",
+   "source": "(g) aircraft contacts",
+   "row": 33,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "0043 K 4-14-44",
+   "utc": "1944-04-13T14:43:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    14
+   ],
+   "position_verbatim": "8° 00'(N) 153° 00'(E)",
+   "lat": 8.0,
+   "lon": 153.0,
+   "derived": null,
+   "type": "Unidentified",
+   "title": "Aircraft 28 · Unidentified",
+   "fields": {
+    "type": "Unidentified",
+    "initial_range": "--",
+    "course": "240°E",
+    "contacted": "--",
+    "remarks": "Heard motors. Believed to be friendly attack group."
+   },
+   "flags": [
+    "Transcriber: Course includes 'E'."
+   ],
+   "contact_no": "28"
+  },
+  {
+   "id": "SS-230-P08-N116",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "K",
+   "local": "0048 K April 14.",
+   "utc": "1944-04-13T14:48:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    14
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Heard aircraft motors headed west."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C34",
+   "source": "(g) aircraft contacts",
+   "row": 34,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "0145 K 4-14-44",
+   "utc": "1944-04-13T15:45:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    14
+   ],
+   "position_verbatim": "8° 00'(N) 153° 00'(E)",
+   "lat": 8.0,
+   "lon": 153.0,
+   "derived": null,
+   "type": "Unidentified",
+   "title": "Aircraft 29 · Unidentified",
+   "fields": {
+    "type": "Unidentified",
+    "initial_range": "--",
+    "course": "060°E",
+    "contacted": "--",
+    "remarks": "Heard motors. Believed to be friendly attack group."
+   },
+   "flags": [
+    "Transcriber: Course includes 'E'."
+   ],
+   "contact_no": "29"
+  },
+  {
+   "id": "SS-230-P08-N117",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "K",
+   "local": "0145 K April 14.",
+   "utc": "1944-04-13T15:45:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    14
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Heard aircraft motors headed east."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C35",
+   "source": "(g) aircraft contacts",
+   "row": 35,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "0545 K 4-14-44",
+   "utc": "1944-04-13T19:45:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    14
+   ],
+   "position_verbatim": "8° 00'(N) 153° 00'(E)",
+   "lat": 8.0,
+   "lon": 153.0,
+   "derived": null,
+   "type": "1-Similar to B-24",
+   "title": "Aircraft 30 · 1-Similar to B-24",
+   "fields": {
+    "type": "1-Similar to B-24",
+    "initial_range": "10 Mi",
+    "course": "090°",
+    "contacted": "SD",
+    "remarks": "Did not dive. Watched plane disappear."
+   },
+   "flags": [],
+   "contact_no": "30"
+  },
+  {
+   "id": "SS-230-P08-N118",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "K",
+   "local": "0545 K April 14.",
+   "utc": "1944-04-13T19:45:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    14
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Sighted plane headed east at 10 miles, which looked like a B-24. Stayed on surface."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-C36",
+   "source": "(g) aircraft contacts",
+   "row": 36,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "0931 K 4-14-44",
+   "utc": "1944-04-13T23:31:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    14
+   ],
+   "position_verbatim": "8° 00'(N) 153° 00'(E)",
+   "lat": 8.0,
+   "lon": 153.0,
+   "derived": null,
+   "type": "1- Bomber - \"Sally\"",
+   "title": "Aircraft 31 · 1- Bomber - \"Sally\"",
+   "fields": {
+    "type": "1- Bomber - \"Sally\"",
+    "initial_range": "3 Mi",
+    "course": "220°",
+    "contacted": "SD",
+    "remarks": "Dived. Saw plane close astern with periscope. No bombs"
+   },
+   "flags": [
+    "Review: Aircraft contact 31: 'Sally' agrees with the narrative (Gemini's text-layer runs had 'Betty'). No bombs."
+   ],
+   "contact_no": "31"
+  },
+  {
+   "id": "SS-230-P08-N120",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "K",
+   "local": "0931 K April 14.",
+   "utc": "1944-04-13T23:31:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    14
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Sighted \"Sally\" bomber on course 220º(T)."
+   },
+   "flags": [
+    "Chronological anomaly as typed: 0931 follows 0945"
+   ]
+  },
+  {
+   "id": "SS-230-P08-N121",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "K",
+   "local": "0933 K April 14.",
+   "utc": "1944-04-13T23:33:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    14
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived as plane closed range."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N119",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "K",
+   "local": "0945 K April 14.",
+   "utc": "1944-04-13T23:45:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    14
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Heard aircraft talking on voice frequency about completing raid. Heard one plane saying he was landing. A plane strike was due from the Solomons."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N122",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "K",
+   "local": "1100 K April 14.",
+   "utc": "1944-04-14T01:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    14
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced. No information received relative to last plane strike."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N123",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": null,
+   "local": "April 15.",
+   "utc": "1944-04-15T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    15
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Decided to reconnoiter Oroluk Atoll while standing by for strike on the 17th. There was not enough time for a worthwhile trip to the western part of the area."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C37",
+   "source": "(g) aircraft contacts",
+   "row": 37,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "0859 K 4-16-44",
+   "utc": "1944-04-15T22:59:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    16
+   ],
+   "position_verbatim": "7° 13'(N) 154° 09'(E)",
+   "lat": 7.21667,
+   "lon": 154.15,
+   "derived": null,
+   "type": "1 - B-24",
+   "title": "Aircraft 32 · 1 - B-24",
+   "fields": {
+    "type": "1 - B-24",
+    "initial_range": "2 Mi",
+    "course": "Circling",
+    "contacted": "SD",
+    "remarks": "Sighted with periscope"
+   },
+   "flags": [
+    "Transcriber: Time 0859(K) out of order (precedes later 4-14 entry or misdated); How Contacted SD conflicts with \"periscope\" in remarks."
+   ],
+   "contact_no": "32"
+  },
+  {
+   "id": "SS-230-P08-N125",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "K",
+   "local": "0859 K April 16.",
+   "utc": "1944-04-15T22:59:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-15T22:59:00Z",
+     "1944-04-16T03:26:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    16
+   ],
+   "has_time": true,
+   "lat": 7.21667,
+   "lon": 154.15,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Sighted B-24 circling island; plane opened out and seemed to line up for run on boat, so went deep before aviator tried to earn a D.F.C."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-15 22:59 and 1944-04-16 03:26 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N126",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "gun",
+   "page": "10",
+   "zone": "K",
+   "local": "1043 K April 16.",
+   "utc": "1944-04-16T00:43:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-15T22:59:00Z",
+     "1944-04-16T03:26:00Z"
+    ]
+   },
+   "tag": "gun",
+   "local_date": [
+    1944,
+    4,
+    16
+   ],
+   "has_time": true,
+   "lat": 7.29457,
+   "lon": 154.33826,
+   "type": "Narrative",
+   "title": "Gun action against steamer and lookout tower",
+   "fields": {
+    "event": "Surfaced and fired 15 rounds at the steamer and 18 rounds at a lookout tower on the island. No people noted on the island."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-15 22:59 and 1944-04-16 03:26 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N127",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "10",
+   "zone": "K",
+   "local": "1115 K April 16.",
+   "utc": "1944-04-16T01:15:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-15T22:59:00Z",
+     "1944-04-16T03:26:00Z"
+    ]
+   },
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    16
+   ],
+   "has_time": true,
+   "lat": 7.31854,
+   "lon": 154.39619,
+   "type": "Narrative",
+   "title": "Course for night's life guard station",
+   "fields": {
+    "event": "Set course for night's life guard station."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-15 22:59 and 1944-04-16 03:26 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N128",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "K",
+   "local": "1321 K April 16.",
+   "utc": "1944-04-16T03:21:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-15T22:59:00Z",
+     "1944-04-16T03:26:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    16
+   ],
+   "has_time": true,
+   "lat": 7.41292,
+   "lon": 154.62428,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Sighted three unidentified planes on course 110º(T); turned stern toward planes."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-15 22:59 and 1944-04-16 03:26 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C38",
+   "source": "(g) aircraft contacts",
+   "row": 38,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1326 K 4-16-44",
+   "utc": "1944-04-16T03:26:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    16
+   ],
+   "position_verbatim": "7° 25'(N) 154° 38'(E)",
+   "lat": 7.41667,
+   "lon": 154.63333,
+   "derived": null,
+   "type": "3 unidentified planes One engine monoplane similar to our dive bombers.",
+   "title": "Aircraft 33 · 3 unidentified planes One engine monoplane similar to our dive bombers.",
+   "fields": {
+    "type": "3 unidentified planes One engine monoplane similar to our dive bombers.",
+    "initial_range": "10 Mi",
+    "course": "110°",
+    "contacted": "SD",
+    "remarks": "Turned toward us and forced us to dive."
+   },
+   "flags": [],
+   "contact_no": "33"
+  },
+  {
+   "id": "SS-230-P08-N129",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "K",
+   "local": "1326 K April 16.",
+   "utc": "1944-04-16T03:26:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-15T22:59:00Z",
+     "1944-04-16T03:26:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    16
+   ],
+   "has_time": true,
+   "lat": 7.41667,
+   "lon": 154.63333,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived as planes headed toward us."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-15 22:59 and 1944-04-16 03:26 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N130",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": "K",
+   "local": "1425 K April 16.",
+   "utc": "1944-04-16T04:25:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-16T03:26:00Z",
+     "1944-04-16T04:42:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    16
+   ],
+   "has_time": true,
+   "lat": 7.44254,
+   "lon": 154.59451,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-16 03:26 and 1944-04-16 04:42 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C39",
+   "source": "(g) aircraft contacts",
+   "row": 39,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1442 K 4-16-44",
+   "utc": "1944-04-16T04:42:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    16
+   ],
+   "position_verbatim": "7° 27'(N) 154° 35'(E)",
+   "lat": 7.45,
+   "lon": 154.58333,
+   "derived": null,
+   "type": "3 unidentified planes One engine monoplane similar to our torpedo bombers.",
+   "title": "Aircraft 34 · 3 unidentified planes One engine monoplane similar to our torpedo bombers.",
+   "fields": {
+    "type": "3 unidentified planes One engine monoplane similar to our torpedo bombers.",
+    "initial_range": "10 Mi",
+    "course": "070°",
+    "contacted": "SD",
+    "remarks": "Turned toward us and forced us to dive."
+   },
+   "flags": [
+    "Review: Aircraft contact 34: table '3 unidentified planes'; narrative 1442 '4 planes'; first table run also read 4."
+   ],
+   "contact_no": "34"
+  },
+  {
+   "id": "SS-230-P08-N131",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": "K",
+   "local": "1442 K April 16.",
+   "utc": "1944-04-16T04:42:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-16T03:26:00Z",
+     "1944-04-16T04:42:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    16
+   ],
+   "has_time": true,
+   "lat": 7.45,
+   "lon": 154.58333,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Sighted 4 planes at 10 miles on course 070º (T); turned stern toward planes."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-16 03:26 and 1944-04-16 04:42 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N132",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": "K",
+   "local": "1445 K April 16.",
+   "utc": "1944-04-16T04:45:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-16T04:42:00Z",
+     "1944-04-16T05:25:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    16
+   ],
+   "has_time": true,
+   "lat": 7.44419,
+   "lon": 154.57519,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived when planes headed toward us."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-16 04:42 and 1944-04-16 05:25 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C04",
+   "source": "(f) ship contacts",
+   "row": 4,
+   "kind": "sighting",
+   "page": null,
+   "zone": "K",
+   "local": "1525 K 4-16-44",
+   "utc": "1944-04-16T05:25:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    16
+   ],
+   "position_verbatim": "7° 22'(N) 154° 28'(E)",
+   "lat": 7.36667,
+   "lon": 154.46667,
+   "derived": null,
+   "type": "1 - patrol boat",
+   "title": "Contact 4 · 1 - patrol boat",
+   "fields": {
+    "type": "1 - patrol boat",
+    "initial_range": "7 Mi",
+    "course": "130° - -",
+    "contacted": "SD",
+    "remarks": "Evaded on surface"
+   },
+   "flags": [
+    "Review: Ship contact 4 (patrol boat): table 1525 K, narrative 1625 K (16 April, page 11). As typed the 1525 position lies 12 miles from aircraft contact 35 at 1541. Read both."
+   ],
+   "contact_no": "4"
+  },
+  {
+   "id": "SS-230-P08-C40",
+   "source": "(g) aircraft contacts",
+   "row": 40,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1541 K 4-16-44",
+   "utc": "1944-04-16T05:41:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    16
+   ],
+   "position_verbatim": "7° 33'(N) 154° 33'(E)",
+   "lat": 7.55,
+   "lon": 154.55,
+   "derived": null,
+   "type": "4 unidentified planes one engine monoplane; similar to our torpedo bombers",
+   "title": "Aircraft 35 · 4 unidentified planes one engine monoplane; similar to our torpedo bombers",
+   "fields": {
+    "type": "4 unidentified planes one engine monoplane; similar to our torpedo bombers",
+    "initial_range": "6 Mi.",
+    "course": "270°",
+    "contacted": "SD",
+    "remarks": "Seen thru periscope Believed to be the same as contact #33"
+   },
+   "flags": [],
+   "contact_no": "35"
+  },
+  {
+   "id": "SS-230-P08-N133",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": "K",
+   "local": "1555 K April 16.",
+   "utc": "1944-04-16T05:55:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-16T05:41:00Z",
+     "1944-04-16T23:28:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    16
+   ],
+   "has_time": true,
+   "lat": 7.5559,
+   "lon": 154.52966,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-16 05:41 and 1944-04-16 23:28 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N134",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": "K",
+   "local": "1625 K April 16.",
+   "utc": "1944-04-16T06:25:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-16T05:41:00Z",
+     "1944-04-16T23:28:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    16
+   ],
+   "has_time": true,
+   "lat": 7.56856,
+   "lon": 154.48608,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Sighted a patrol boat coming out of the sun. This was a mutual sighting as he turned toward us as we turned away. Evaded on the surface."
+   },
+   "flags": [
+    "Heading (Contact #4) typed in margin",
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-16 05:41 and 1944-04-16 23:28 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N124",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "10",
+   "zone": null,
+   "local": "April 16.",
+   "utc": "1944-04-16T12:00:00Z",
+   "position_verbatim": "1/4 mile 110º(T) of Oroluk Island",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-16T05:41:00Z",
+     "1944-04-16T23:28:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    16
+   ],
+   "has_time": false,
+   "lat": 7.70984,
+   "lon": 153.99944,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "[SUMMARY] Reconnoitering Oroluk Atoll submerged; found partially submerged small interisland steamer on reef bearing 110°(T), 1/4 mile from Oroluk Island, and partially submerged twin-engine plane."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date.",
+    "No position for landmark 'Oroluk Island'. Add it to landmarks in sources/reference.yml.",
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-16 05:41 and 1944-04-16 23:28 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N135",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": "K",
+   "local": "0207 K April 17.",
+   "utc": "1944-04-16T16:07:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-16T05:41:00Z",
+     "1944-04-16T23:28:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    17
+   ],
+   "has_time": true,
+   "lat": 7.81401,
+   "lon": 153.64063,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Heard motors of planes headed west."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-16 05:41 and 1944-04-16 23:28 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N136",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": "K",
+   "local": "0225 K April 17.",
+   "utc": "1944-04-16T16:25:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-16T05:41:00Z",
+     "1944-04-16T23:28:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    17
+   ],
+   "has_time": true,
+   "lat": 7.8216,
+   "lon": 153.61448,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Heard motors of planes headed west."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-16 05:41 and 1944-04-16 23:28 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C41",
+   "source": "(g) aircraft contacts",
+   "row": 41,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "0928 K 4-17-44",
+   "utc": "1944-04-16T23:28:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    17
+   ],
+   "position_verbatim": "8° 00'(N) 153° 00'(E)",
+   "lat": 8.0,
+   "lon": 153.0,
+   "derived": null,
+   "type": "1 Bomber looked like a B-24",
+   "title": "Aircraft 36 · 1 Bomber looked like a B-24",
+   "fields": {
+    "type": "1 Bomber looked like a B-24",
+    "initial_range": "8 Mi",
+    "course": "070°",
+    "contacted": "SD",
+    "remarks": "Dived as plane turned toward us."
+   },
+   "flags": [],
+   "contact_no": "36"
+  },
+  {
+   "id": "SS-230-P08-N137",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": "K",
+   "local": "0928 K April 17.",
+   "utc": "1944-04-16T23:28:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-16T05:41:00Z",
+     "1944-04-16T23:28:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    17
+   ],
+   "has_time": true,
+   "lat": 8.0,
+   "lon": 153.0,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived as bomber, looking something like a B-24, came out of rain squall and started to circle us."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-16 05:41 and 1944-04-16 23:28 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N138",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": "K",
+   "local": "1012 K April 17.",
+   "utc": "1944-04-17T00:12:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    17
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N139",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": "K",
+   "local": "1950 K April 17.",
+   "utc": "1944-04-17T09:50:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    17
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Headed west to attempt interception of ship sighted by our search planes."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N141",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "rescue",
+   "page": "11",
+   "zone": "K",
+   "local": "1222 K April 18.",
+   "utc": "1944-04-18T02:22:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": "rescue",
+   "local_date": [
+    1944,
+    4,
+    18
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Course for life guard station",
+   "fields": {
+    "event": "Set course for life guard station as we had failed to intercept the ship. We would still intercept any ship going between Namonuito and Hall Islands."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N140",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": null,
+   "local": "April 18.",
+   "utc": "1944-04-18T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    18
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute to and patrolling spot on Truk-Empire route south of Namonuito Islands, covering routes to all Truk passes."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C05",
+   "source": "(f) ship contacts",
+   "row": 5,
+   "kind": "sighting",
+   "page": null,
+   "zone": "K",
+   "local": "0720 K 4-19-44",
+   "utc": "1944-04-18T21:20:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    19
+   ],
+   "position_verbatim": "8° 17'(N) 151° 23'(E)",
+   "lat": 8.28333,
+   "lon": 151.38333,
+   "derived": null,
+   "type": "6-interisland sampans",
+   "title": "Contact 5 · 6-interisland sampans",
+   "fields": {
+    "type": "6-interisland sampans",
+    "initial_range": "7 Mi",
+    "course": "070° 5 kts",
+    "contacted": "SD",
+    "remarks": "Wrecked one with gun-fire."
+   },
+   "flags": [
+    "Transcriber: Gun action in ship contacts table."
+   ],
+   "contact_no": "5"
+  },
+  {
+   "id": "SS-230-P08-N142",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": "K",
+   "local": "0720 K April 19.",
+   "utc": "1944-04-18T21:20:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-18T21:20:00Z",
+     "1944-04-19T01:43:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    19
+   ],
+   "has_time": true,
+   "lat": 8.28333,
+   "lon": 151.38333,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Sighted what appeared to be five sampans and a patrol boat. After running abeam, decided to end around, dive ahead and look them over."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-18 21:20 and 1944-04-19 01:43 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N143",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "11",
+   "zone": "K",
+   "local": "1020 K April 19.",
+   "utc": "1944-04-19T00:20:00Z",
+   "position_verbatim": "four miles southwest of Nomwin Island",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-18T21:20:00Z",
+     "1944-04-19T01:43:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    19
+   ],
+   "has_time": true,
+   "lat": 8.34037,
+   "lon": 151.58865,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Found we had six sampans or trawlers carrying supplies to the Hall Islands. We were four miles southwest of Nomwin Island."
+   },
+   "flags": [
+    "No position for landmark 'Nomwin Island'. Add it to landmarks in sources/reference.yml.",
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-18 21:20 and 1944-04-19 01:43 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-A48",
+   "source": "Gun attack data",
+   "row": 48,
+   "kind": "gun",
+   "page": "23, 24",
+   "zone": "K",
+   "local": "1143 K 4-19-44",
+   "utc": "1944-04-19T01:43:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    19
+   ],
+   "position_verbatim": "08-22 N 151-41 E",
+   "lat": 8.36667,
+   "lon": 151.68333,
+   "derived": null,
+   "type": "",
+   "title": "Gun attack 1",
+   "fields": {
+    "form": "GUN ATTACK NO. 1*                          PATROL NO. 8\nU.S.S. FINBACK\nTime 1143 (K) Date 4-19-44 Lat. 08° 22' (N) Long. 151° 41' (E)\n                       Target Data Damage Inflicted\nSunk:            None\nDamaged:         150 ton diesel-driven sampan loaded with interisland\n                 supplies.\nDamage Determined\nBy:              Observing hits on target with 4\" gun, 20 MM machine\n                 guns, and 50 caliber machine guns. Observing\nLong. 151° 41' (E) — Longitude closing parenthesis cut off/faint\nDamage Determined By text continues directly onto Page 24\nAsterisk after \"GUN ATTACK NO. 1*\" refers to footnote on Page 24\n(H) ATTACK DATA: (continued)\n                 holes in hull, oil streaming astern, demolition\n                 of deck house, exploding of engine, and seeing\n                 crew in water.\n               Details of Action\nConducted battle surface, closed range on surface from 4000 to\n2100 yards, and opened fire on last sampan in column of six headed for\nNomwin Island, with 4\" gun, three 20 MM machine guns, and 2 air cooled\n50 caliber machine guns. The 4\" gun fire was not as effective as us-\nual due to smallness of target, the targets movements, and the stiff-\nness of the foot firing device. The gun captain fired the gun on\npointer's \"Fire\". Stiffness of foot firing device was due to bending\nof linkage in rough seas. The target was straddled continually. The\nrange varied between 2000 yards and 900 yards. Some shells of common\nammunition seemed to pass thru the target without exploding. About\nten 4\" hits were observed in addition to those hits not exploding.\nBroke off action with only 18 rounds of 4\" ammunition left, and after\nwrecking sampan experienced jams with all three 20 MM guns. These\njams were as follows: #1 20 MM broken firing pin; #2 20 MM defec-\ntive ammunition; and #3 20 MM broken firing pin.\nFired Following Ammunition:\n    42 rounds    4\" H.C. (sensitive nose)\n    30 rounds    4\" Common\n  1026 rounds    20 MM\n  1110 rounds    50 Caliber\n*Note: Fired 4\" gun on April 16th at small ship on reef and at lookout\n       tower on Oroluk Island. No separate report made as no positive re-\n       sults were obtained and pertinent data is contained in narrative.\nPage 24 lower sections \"(I) MINES\" and \"(J) ANTI-SUBMARINE MEASURES and EVASION TACTICS\" are patrol narrative sections outside the Gun Attack form.\nThird endorsement on Page 32 is an administrative routing document and not an attack data form.\n\nI could not transcribe the non-attack portions of pages 24 (Sections I and J) and 32 (Third Endorsement), as they are administrative and patrol summary sections rather than attack data forms.",
+    "narrative": "Surfaced, closed range from 4000 to 2100 yards on last sampan and opened fire. The five leading sampans continued with best speed toward the pass, and the last sampan, in spite of 4\" hits and small arms fire, tried to close range to us to make his machine gun more effective. He forced us to continually turn away to stay out of effective machine gun range. We straddled him continually, but obtained only about ten 4\" hits with 72 rounds. These hits left the target's hull holed, topside demolished, engine exploded, and all personnel killed that didn't jump overboard. The target was left floating. Cleared area before Truk should send a plane after us since other sampans had reached pass in Hall Atoll. As we had closed Nomwin Island to with 2 1/2 miles and not received any gunfire, it is assumed no sizable guns are located there."
+   },
+   "flags": [
+    "Transcriber: ",
+    "Transcriber: ",
+    "Review: Gun attack 1: form 1143 K (opened fire), narrative 1127 K (surfaced). Damage claimed: a 150-ton sampan.",
+    "Narrative entry at 1127 K April 19. (page 11) describes this attack; its account is included here."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C42",
+   "source": "(G) (cont'd) AIRCRAFT CONTACTS",
+   "row": 42,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "1837 K 4-19-44",
+   "utc": "1944-04-19T08:37:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    19
+   ],
+   "position_verbatim": "7° 54'(N) 152° 31'(E)",
+   "lat": 7.9,
+   "lon": 152.51667,
+   "derived": null,
+   "type": "Unidentified",
+   "title": "Aircraft 37 · Unidentified",
+   "fields": {
+    "type": "Unidentified",
+    "initial_range": "4 1/2Mi.",
+    "course": "--",
+    "contacted": "R",
+    "remarks": "Dived as range closed on SJ radar from 8700 to 3700 yards."
+   },
+   "flags": [],
+   "contact_no": "37"
+  },
+  {
+   "id": "SS-230-P08-N145",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "K",
+   "local": "1837 K April 19.",
+   "utc": "1944-04-19T08:37:00Z",
+   "position_verbatim": "",
+   "derived": {
+    "interpolated": true,
+    "between": [
+     "1944-04-19T01:43:00Z",
+     "1944-04-19T08:37:00Z"
+    ]
+   },
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    19
+   ],
+   "has_time": true,
+   "lat": 7.9,
+   "lon": 152.51667,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "SJ radar picked up plane at 8700 yards."
+   },
+   "flags": [
+    "No position in the report. Placed on the track between the recorded positions at 1944-04-19 01:43 and 1944-04-19 08:37 GMT, as an estimate."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N146",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "K",
+   "local": "1838 K April 19.",
+   "utc": "1944-04-19T08:38:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    19
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived as plane closed to 3700 yards on same bearing."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N147",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "K",
+   "local": "1855 K April 19.",
+   "utc": "1944-04-19T08:55:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    19
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N148",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "K",
+   "local": "2010 K April 19.",
+   "utc": "1944-04-19T10:10:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    19
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Observed bomb flashes in direction of Truk."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N149",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "K",
+   "local": "2036 K April 19.",
+   "utc": "1944-04-19T10:36:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    19
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Heard plane motors."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N150",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "K",
+   "local": "0020 K April 20.",
+   "utc": "1944-04-19T14:20:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    20
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Observed start of bombing runs."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N151",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "K",
+   "local": "0054 K April 20.",
+   "utc": "1944-04-19T14:54:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    20
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Saw last of bomb flashes."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N152",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "K",
+   "local": "0113 K April 20.",
+   "utc": "1944-04-19T15:13:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    20
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Heard plane motors."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N153",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "K",
+   "local": "0140 K April 20.",
+   "utc": "1944-04-19T15:40:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    20
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Heard plane motors."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N155",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "K",
+   "local": "1700 K April 21.",
+   "utc": "1944-04-21T07:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    21
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Departed area."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N154",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": null,
+   "local": "April 21.",
+   "utc": "1944-04-21T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    21
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Headed for northeast corner of area."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C43",
+   "source": "(G) (cont'd) AIRCRAFT CONTACTS",
+   "row": 43,
+   "kind": "aircraft",
+   "page": null,
+   "zone": "K",
+   "local": "0654 K 4-22-44",
+   "utc": "1944-04-21T20:54:00Z",
+   "has_time": true,
+   "local_date": [
+    1944,
+    4,
+    22
+   ],
+   "position_verbatim": "12° 15'(N) 157° 21'(E)",
+   "lat": 12.25,
+   "lon": 157.35,
+   "derived": null,
+   "type": "1-B-24(search plane)",
+   "title": "Aircraft 38 · 1-B-24(search plane)",
+   "fields": {
+    "type": "1-B-24(search plane)",
+    "initial_range": "8 Mi.",
+    "course": "280°",
+    "contacted": "SD",
+    "remarks": "Dived when plane wheeled toward us."
+   },
+   "flags": [],
+   "contact_no": "38"
+  },
+  {
+   "id": "SS-230-P08-N157",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "K",
+   "local": "0654 K April 22.",
+   "utc": "1944-04-21T20:54:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    22
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Dived when B-24 search plane wheeled and headed toward us."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N158",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "K",
+   "local": "0717 K April 22.",
+   "utc": "1944-04-21T21:17:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    22
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Surfaced."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N159",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "K",
+   "local": "1030 K April 22.",
+   "utc": "1944-04-22T00:30:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    22
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Conducted training dive for battle problem."
+   },
+   "flags": []
+  },
+  {
+   "id": "SS-230-P08-N156",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": null,
+   "local": "April 22.",
+   "utc": "1944-04-22T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    22
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute Pearl."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N160",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": null,
+   "local": "April 23 - 28.",
+   "utc": "1944-04-23T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    23
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute Johnston Island, conducting daily training dives, fire control drills, and ship's drills."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N161",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "X",
+   "local": "0747 X April 28, 1944",
+   "utc": "1944-04-28T18:47:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    28
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Arrived Johnston Island. Received 17,000 gallons of fuel oil."
+   },
+   "flags": [
+    "Zone X (Johnston Island, about 169 W); Gemini offered K or X."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N162",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": "X",
+   "local": "1549 X April 28, 1944",
+   "utc": "1944-04-29T02:49:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    28
+   ],
+   "has_time": true,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Departed Johnston for Pearl"
+   },
+   "flags": [
+    "Zone X (Johnston Island, about 169 W); Gemini offered K or X."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N163",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": null,
+   "local": "April 29 - 30.",
+   "utc": "1944-04-29T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    4,
+    29
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Enroute Pearl, conducting daily training dives and drills. Sighted several friendly transport planes and B-24's."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-N164",
+   "source": "Part I narrative",
+   "part": "I",
+   "kind": "event",
+   "page": "12",
+   "zone": null,
+   "local": "May 1.",
+   "utc": "1944-05-01T12:00:00Z",
+   "position_verbatim": "",
+   "derived": null,
+   "tag": null,
+   "local_date": [
+    1944,
+    5,
+    1
+   ],
+   "has_time": false,
+   "lat": null,
+   "lon": null,
+   "type": "Narrative",
+   "title": "Narrative entry",
+   "fields": {
+    "event": "Arrived Pearl for refit."
+   },
+   "flags": [
+    "No time given; placed at noon GMT on that date."
+   ]
+  },
+  {
+   "id": "SS-230-P08-C44",
+   "source": "(G) (cont'd) AIRCRAFT CONTACTS",
+   "row": 44,
+   "kind": "aircraft",
+   "page": null,
+   "zone": null,
+   "local": "4-23-44 5-1-44",
+   "utc": null,
+   "has_time": false,
+   "local_date": [],
+   "position_verbatim": "-- --",
+   "lat": null,
+   "lon": null,
+   "derived": null,
+   "type": "Enroute Johnston to Pearl saw numerous friendly B-24's and transports.",
+   "title": "Aircraft 39 · Enroute Johnston to Pearl saw numerous friendly B-24's and transports.",
+   "fields": {
+    "type": "Enroute Johnston to Pearl saw numerous friendly B-24's and transports.",
+    "initial_range": "Various",
+    "course": "Various",
+    "contacted": "SD and R",
+    "remarks": "- - -"
+   },
+   "flags": [
+    "Transcriber: Date span entered across date rows; no times or positions listed.",
+    "Could not read time/date '4-23-44 5-1-44'.",
+    "No usable position."
+   ],
+   "contact_no": "39"
+  }
+ ],
+ "tonnage": [
+  {
+   "id": "SS-230-P08-T01",
+   "utc": "1944-04-19T01:43:00Z",
+   "target": "sampan",
+   "name": null,
+   "result": "damaged",
+   "tons": 150,
+   "ships": 1,
+   "basis": "claimed",
+   "source": "Gun attack 1, page 23",
+   "flags": []
+  }
+ ],
+ "minefields": [],
+ "figures": []
+}

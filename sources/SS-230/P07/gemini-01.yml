@@ -1,0 +1,1454 @@
+YAML
+
+```
+boat: "SS-230"
+patrol: 7
+year: 1943
+report: "Report of Seventh War Patrol"
+comsubpac_report_no: 
+commanding_officer: 
+citation:
+  archive: "NARA"
+  record_group: "38"
+  nara_catalog_id: "4697018"
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946"
+  reel: "A855"
+  micro_serial: "66905"
+  file: "A16-3"
+  serial: "05"
+  date: "2/6/1944"
+fold3_images:
+  1: 270669267
+  2: 270669268
+  3: 270669269
+  4: 270669270
+  5: 270669271
+  6: 270669272
+  7: 270669273
+default_hemisphere: { lat: N, lon: E }
+departure: { port: "Pearl", date: "15 December 1943", time: "1300", zone: , page: 1, flags: "hull number SS-230 taken from Fold3 subject USS FINBACK; page has 'Departed Pearl in company with U.S.S. POBALO'" }
+arrival:   { port: "Pearl", date: "11 February 1944", time: , zone: , page: 7, flags: }
+events:
+- date: "ecember 15, 1943."
+  time: "1300"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Departed Pearl in company with U.S.S. POBALO under escort of PC-457."
+  page: 1
+  flags: "POBALO or POBALON faint; initial D missing in ecember"
+- date: "ecember 16-18, 1943."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Enroute Midway conducting daily dives, dive drills, and fire control drills."
+  page: 1
+  flags: "initial D missing in ecember"
+- date: "ecember 19, 1943."
+  time: "1224"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Arrived Midway. Delay caused by rough head seas. Received 16,000 gallons diesel oil."
+  page: 1
+  flags: "initial D missing in ecember; zone letter missing"
+- date: "ecember 19, 1943."
+  time: "1630"
+  zone: "Y"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Underway for anchorage in lagoon. Channel blocked until dark."
+  page: 1
+  flags: "anchorage typed 'anchorae'"
+- date: "ecember 20, 1943."
+  time: "0715"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Underway for area heading into heavy seas and strong wind, speed about 9 knots, taking water down hatch and induction."
+  page: 1
+  flags: "zone letter missing; initial D missing in ecember"
+- date: "ecember 20, 1943."
+  time: "2300"
+  zone: "Y"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Crossed 180th Meridian."
+  page: 1
+  flags: 
+- date: "ccember 22, 1943."
+  time: "0930"
+  zone: "⟦M⟧"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Sea rougher with 50-knot wind; slowed to six knots, rigged canvas duct from engine induction to bilges, running with hatch closed."
+  page: 1
+  flags: "date typed 'ccember'; zone letter faint/overstruck, appears as M"
+- date: "ccember 22, 1943."
+  time: "1317"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "notable"
+  title: "Lookout injured in heavy sea"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "⟦...⟧, 2c, Starboard Lookout, suffered a lacerated lower lip and and broken cap of two upper teeth when thrown against railing round lookout platform by heavy sea. Pharmacist's Mate took three stitches on outside and one on inside of lower lip."
+  page: 1
+  flags: "name omitted/illegible on left margin; zone letter blank"
+- date: "ccember 22, 1943."
+  time: "2100"
+  zone: "⟦-⟧"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Made dive to 100 feet to check trim and drill fire control party; rolling 5 degrees; sent position message to Comsubpac; sea abated, built speed to 11 knots."
+  page: 1
+  flags: "zone typed as horizontal dash ⟦-⟧"
+- date: "ecember 23-29, 1943."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Enroute to area conducting daily drills; speed reduced by heavy seas which carried away superstructure plating/supports and 4-inch gun parts."
+  page: 1
+  flags: "text continues onto page 2; initial D missing in ecember"
+- date: "cember 30, 1943."
+  time: "0944"
+  zone: "K"
+  lat: 
+  lon: 
+  from: "Tori Shima"
+  bearing: "165°T"
+  distance: "24 miles"
+  bearing_is: "to_landmark"
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Dived on SD Radar contact at 6 miles with Tori Shima bearing 165°T, distance 24 miles."
+  page: 2
+  flags: "initial De missing in cember"
+- date: "cember 30, 1943."
+  time: "1125"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Sighted very slow biplane at 3,000 feet at about 12 miles headed across our track. Stayed on surface and headed toward plane until"
+  page: 2
+  flags: 
+- date: "cember 30, 1943."
+  time: "1130"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "when we dived as plane started to head in our direction. At"
+  page: 2
+  flags: 
+- date: "cember 30, 1943."
+  time: "1140"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "surfaced. Picked up plane at about 25 miles heading away on northeasterly course."
+  page: 2
+  flags: "zone letter missing"
+- date: "cember 30, 1943."
+  time: "2015"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Picked up 10 cm interference on SJ Radar assumed from BATFISH; removed blanks from vents on #4 Fuel Oil Ballast Tank and flushed tank."
+  page: 2
+  flags: 
+- date: "ecember 31, 1943."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Enroute to area."
+  page: 2
+  flags: "initial D missing in ecember"
+- date: "nuary 1, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Conducted submerged patrol across and in Tokara Kaikyo (Colnett Strait)."
+  page: 2
+  flags: "initial Ja missing in nuary"
+- date: "nuary 1, 1944."
+  time: "1700"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "actually entered area."
+  page: 2
+  flags: "zone letter typed as numeral 1 or letter I"
+- date: "nuary 1, 1944."
+  time: "1832"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "surfaced and proceeded thru Tokara Kaikyo headed for center of area."
+  page: 2
+  flags: "zone letter typed as numeral 1 or letter I"
+- date: "nuary 1, 1944."
+  time: "1950"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Contact #1: SJ Radar contact at 22,000 yards near Kuchinoyerabu Shima; tracked target on course 245° at 14 knots; ended around target identified as possible tanker."
+  page: 2
+  flags: "text continues to next entry; zone letter typed as 1 or I"
+- date: "nuary 1, 1944."
+  time: "2313"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "moonset."
+  page: 2
+  flags: 
+- date: "nuary 1, 1944."
+  time: "2320"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Target changed course to 215 degrees, began small helm zig, increased speed to 16 knots; placed ship 3,500 yards off port bow to attack on surface."
+  page: 3
+  flags: "text continues into January 2"
+- date: "Anuary 2, 1944."
+  time: "0115"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "started in to attack."
+  page: 3
+  flags: "month typed Anuary; zone typed as 1 or I"
+- date: "Anuary 2, 1944."
+  time: "0134"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Dead ahead of target at 14,600 yards; turned for stern then bow shots; ended with 115°(P) track, 15° gyro, 3,000 yard range; decided to shoot."
+  page: 3
+  flags: 
+- date: "Anuary 2, 1944."
+  time: "0152"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "attack"
+  title: "Surface torpedo attack on tanker"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Attack #1) fired tubes #4, #5, and #6. Result two observed hits. Retired on surface. Target did not have an escort. These hits stopped the target."
+  page: 3
+  flags: 
+- date: "Anuary 2, 1944."
+  time: "0204"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Target commenced firing deck guns intermittently; opened range to 10,000 yards; target radioed Nagasaki; decided to conduct submerged attack."
+  page: 3
+  flags: 
+- date: "Anuary 2, 1944."
+  time: "0319"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "dived to 40 feet at range of 3,000 yards."
+  page: 3
+  flags: 
+- date: "Anuary 2, 1944."
+  time: "0334"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "with range of 1,400 yards, went to 60 feet when a shell exploded close aboard. As we definitely wanted to sink this ship before help arrived,"
+  page: 3
+  flags: 
+- date: "Anuary 2, 1944."
+  time: "0336"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "attack"
+  title: "Submerged torpedo attack on tanker"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "fired tubes #1, #2, and #3 at range of 1,300 yards. Results three observed hits. Heard cracking up noises in sound gear."
+  page: 3
+  flags: 
+- date: "Anuary 2, 1944."
+  time: "0341"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Terrific explosion shook ship, target lost; took sound range of 2,180 yards; came to 40 feet at 2,500 yards; no radar contacts except land at 58,000 yards."
+  page: 3
+  flags: 
+- date: "Anuary 2, 1944."
+  time: "0358"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Surfaced at 3,000 yards; no target in sight; cleared area of attack to northwest; conducted submerged patrol at focal point of Sasebo Nagasaki to Formosa traffic."
+  page: 3
+  flags: "entry continues onto page 4"
+- date: "nuary 3, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Conducted submerged patrol at focal point of Nagasaki - Tsushima traffic; sighted numerous lighted sampans."
+  page: 4
+  flags: "initial Ja missing in nuary; faded text in middle lines illegible"
+- date: "nuary 4, 1944"
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Conducted submerged patrol south of ⟦...⟧; patrolled area ⟦...⟧ - Tsingtao trade lane."
+  page: 4
+  flags: "initial Ja missing in nuary; multiple words illegible due to poor contrast"
+- date: "anuary 5, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Submerged patrol off Kokuzan To Light; heavy seas (condition six) and snow; impossible to shoot torpedoes; headed east of Quelpart Island."
+  page: 4
+  flags: "initial J missing in anuary"
+- date: "anuary 6, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Patrolled submerged east and southeast of Quelpart Island."
+  page: 4
+  flags: "initial J missing in anuary"
+- date: "anuary 6, 1944."
+  time: "1110"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: "090°"
+  speed: 
+  event: "sighted two trawlers on course 090°. Too rough to use gun."
+  page: 4
+  flags: "zone typed 1 or I"
+- date: "anuary 6, 1944."
+  time: "1124"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: "275°(T)"
+  speed: 
+  event: "sighted large sampan headed 275°(T). Most fishing vessels seen were working in ⟦...⟧."
+  page: 4
+  flags: "last word illegible"
+- date: "anuary 7, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Conducted submerged patrol along Tsushima Shanghai trade lane; sea rough, unable to shoot except at deep draft targets."
+  page: 4
+  flags: "initial J missing in anuary; words partially faded"
+- date: "anuary 8-9, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Conducted submerged patrol along Tsushima Shanghai trade lane. Sea fairly smooth."
+  page: 4
+  flags: "initial J missing in anuary"
+- date: "anuary 10-11, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Conducted submerged patrol at focal point of Nagasaki - Formosa trade lanes. High sea running."
+  page: 4
+  flags: "initial J missing in anuary"
+- date: "anuary 12-13, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Submerged patrol off Suzune Shima and Kusakaki Shima noting Jap traffic following Nansei Shoto; sea smooth; weather unpredictable."
+  page: 5
+  flags: "initial J missing in anuary"
+- date: "anuary 14-16, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Conducted submerged patrol at focal point of southbound traffic from Nagasaki or Van Dieman Strait and traffic thru ⟦...⟧ Strait."
+  page: 5
+  flags: "strait name faint/illegible; initial J missing in anuary"
+- date: "nuary 14, 1944."
+  time: "1945"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "notable"
+  title: "Main engine casualty"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "#4 main engine put out of commission due to broken rollers in wrist pin bearing of ⟦...⟧ upper piston. This marked the first time on any war patrol the FINBACK could not call for four engines."
+  page: 5
+  flags: "word before upper piston illegible; initial Ja missing in nuary"
+- date: "nuary 15, 1944."
+  time: "2000"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "All main engines in commission again."
+  page: 5
+  flags: "initial Ja missing in nuary; zone typed 1 or I"
+- date: "anuary 17, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Conducted submerged patrol close to coast of Kyushu between Noma Misaki and Bono Misaki."
+  page: 5
+  flags: "initial J missing in anuary"
+- date: "anuary 18, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Conducted submerged patrol southeast of Danjo Gunto on Nagasaki Sasebo trade route to the south."
+  page: 5
+  flags: "initial J missing in anuary"
+- date: "Enuary 19, 21, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Conducted submerged patrol at focal point of Nagasaki - Tsushima to Shanghai traffic west of Danjo Gunto."
+  page: 5
+  flags: "month typed Enuary"
+- date: "anuary 22-23, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Submerged patrol east and northeast of Quelpart Island; noted radar interference on 22nd, probably from our submarine in adjacent area."
+  page: 5
+  flags: "initial J missing in anuary; words illegible in middle of paragraph"
+- date: "anuary 24, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Conducted submerged patrol on ⟦...⟧ Shanghai trade lane."
+  page: 5
+  flags: "words illegible between on and Shanghai"
+- date: "anuary 24, 1944."
+  time: "1030"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "notable"
+  title: "Pneumonia patient under oxygen tent"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "surfaced to change air in boat. MATHEW, CMMAA, was being kept under oxygen tent for treatment on pneumonia."
+  page: 5
+  flags: "name and rating typed MATHEW, CMM(AA) or similar overstruck letters; kept typed keep; on typed for of"
+- date: "anuary 24, 1944."
+  time: "1057"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "dived to 140 feet on sighting plane. SD Radar not in use."
+  page: 6
+  flags: "Radar typed Rader"
+- date: "anuary 24, 1944."
+  time: "1112"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "returned to periscope depth and found plane circling us. Went to 140 feet"
+  page: 6
+  flags: 
+- date: "anuary 24, 1944."
+  time: "1150"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "unable to find plane. Surface patrolling did not seem too smart in this area."
+  page: 6
+  flags: 
+- date: "anuary 25, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Conducting submerged patrol along Nagasaki Formosa trade lane."
+  page: 6
+  flags: "initial J missing in anuary"
+- date: "anuary 25, 1944."
+  time: "0832"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Contact #5) sighted smoke. Started tracking with T.D.C."
+  page: 6
+  flags: 
+- date: "anuary 25, 1944."
+  time: "0945"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Surfaced on four engines; target making 12 knots; end around impossible due to proximity to port; made out two ships and three smokes."
+  page: 6
+  flags: "zone letter missing"
+- date: "anuary 25, 1944."
+  time: "1038"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "dived when forced down by air escort which caused us to lose contact. Closed this trade lane submerged."
+  page: 6
+  flags: 
+- date: "anuary 26-27, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Conducting submerged patrol along Nagasaki Formosa trade lane."
+  page: 6
+  flags: "initial J missing in anuary"
+- date: "anuary 28, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Conducted submerged patrol off Colnett Strait and on traffic lane along Nansei Shoto. Avoided patrol boat prior to diving."
+  page: 6
+  flags: "initial J missing in anuary"
+- date: "anuary 29, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Conducted patrol as on 28th."
+  page: 6
+  flags: "initial J missing in anuary"
+- date: "anuary 29, 1944."
+  time: "2050"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "departed area. Decided to use only two engine speed while crossing traffic lanes from empire."
+  page: 6
+  flags: 
+- date: "anuary 30, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Enroute from area."
+  page: 6
+  flags: "initial J missing in anuary"
+- date: "anuary 30, 1944."
+  time: "1110"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "gun"
+  title: "Destruction of trawler with gunfire"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "sighted trawler with #1 periscope. Closed trawler on surface and destroyed with gunfire."
+  page: 6
+  flags: "periscope typed periscone"
+- date: "January 31, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Enroute from area."
+  page: 6
+  flags: 
+- date: "January 31, 1944."
+  time: "1345"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "gun"
+  title: "Gun attack on trawler"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "sighted trawler with #1 periscope. Decided to expend remainder of 4\" ammunition. Sea too rough to be sure of many hits. Expended 4\" ammunition, damaged trawler, killed majority of personnel, and resumed course to eastward."
+  page: 7
+  flags: 
+- date: "January 31, 1944."
+  time: "1636"
+  zone: "I"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "sighted another trawler similar to one just fired on. Avoided."
+  page: 7
+  flags: 
+- date: "February 1-5, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Enroute from area; rough quartering sea tore loose metal decking plates aft; conducted daily fire control and ship drills."
+  page: 7
+  flags: "heading typed 'ebruary 1⟦-⟧5, 1944.'"
+- date: "February 6, 1944."
+  time: "0900"
+  zone: "Y"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Arrived Midway for refit, ordered to Pearl; transferred 16 Mk. XIV-3A torpedoes, received 21 Mk XVIII torpedoes to transport, and received 14,000 gallons fuel oil."
+  page: 7
+  flags: "heading initial F missing"
+- date: "February 7, 1944."
+  time: "0700"
+  zone: "Y"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Departed Midway."
+  page: 7
+  flags: 
+- date: "February 8-10, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Enroute Midway to Pearl. Conducting daily training dives, fire control drills, and ship's drills."
+  page: 7
+  flags: "heading typed ' ruary 8-10, 1944.'"
+- date: "February 11, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Arrived Pearl."
+  page: 7
+  flags: "heading typed 'Tebruary 11, 1944.'"
+```
+
+Could not transcribe: lookout's name on 22 Dec (page 1); faded/overstruck phrases on 3 Jan, 4 Jan, 6 Jan, 14 Jan, 22-23 Jan, and 24 Jan (pages 4 and 5); commanding officer and Comsubpac report number (no endorsement cover page provided).
