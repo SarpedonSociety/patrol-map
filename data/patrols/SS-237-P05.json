@@ -1910,7 +1910,9 @@
     "Transcriber: TIME GCT: Attack 1 heading typed \"I\"; NUMBER AND TYPE OF TORPEDOES FIRED: Attack I typed \"3-M XIV 3a\"; TYPE OF ATTACK: P.S.N OR R.: Footnote marker \"*\" printed under heading; GYRO ANGLES: Attack I has two lines; Attack II A has two lines",
     "Narrative entry at 1440 K May 28 (page 5) describes this attack; its account is included here."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-237-P05-N37",
@@ -2212,7 +2214,9 @@
     "Transcriber: TIME GCT: Attack 1 heading typed \"I\"; LOCATION Lat. Long.: Lat. for Attack II A typed \"-34-35N\"; Long. for Attack II B typed \"138-40E\" (E overstruck); Attack III typed \"35-02N\"; TYPE OF ATTACK: P.S.N OR R.: Footnote marker \"*\" printed under heading; GYRO ANGLES: Attack I has two lines; Attack II A has two lines",
     "Narrative entry at 1726 K May 29 (page 6) describes this attack; its account is included here."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "miss",
+   "result_basis": "report"
   },
   {
    "id": "SS-237-P05-C31",
@@ -2259,7 +2263,9 @@
     "Narrative entry at 1729 K May 29 (page 6) describes this attack; its account is included here.",
     "also counterattack"
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "miss",
+   "result_basis": "report"
   },
   {
    "id": "SS-237-P05-N44",
@@ -2534,7 +2540,9 @@
     "Transcriber: TIME GCT: Attack 1 heading typed \"I\"; LOCATION Lat. Long.: Lat. for Attack II A typed \"-34-35N\"; Long. for Attack II B typed \"138-40E\" (E overstruck); Attack III typed \"35-02N\"; NUMBER SUNK (TONNAGE): Attack III tonnage typed \"1-8200\" (narrative gives 8223 tons); TYPE OF ATTACK: P.S.N OR R.: Footnote marker \"*\" printed under heading; BOW OR STERN SHOT: Attack III typed \"Bow\"",
     "Narrative entry at 1032 K June 1 (page 7) describes this attack; its account is included here."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-237-P05-N52",
@@ -2616,7 +2624,9 @@
     "Uncertain reading in flags: LOCATION:: Attack IV A longitude blurred, reads 140-14 E (resembles 1⟦4⟧0-1⟦4⟧ E); Attack V longitude typed \"139-50E\"; ESTIMATED DRAFT OF TARGET: Attack IV A draft typed \"20\" (second digit heavily inked/overstruck)",
     "Narrative entry at 1039 K June 1 (page 7) describes this attack; its account is included here."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "miss",
+   "result_basis": "report"
   },
   {
    "id": "SS-237-P05-C34",
@@ -2663,7 +2673,9 @@
     "Narrative entry at 1041 K June 1 (page 7) describes this attack; its account is included here.",
     "Two Gemini reads of page 7 differ: 'We might have made a clean sweep' (first) and 'made clean sweep' (second). Check the page."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "miss",
+   "result_basis": "report"
   },
   {
    "id": "SS-237-P05-N55",
@@ -3242,7 +3254,9 @@
     "Narrative entry at 1955 K June 10 (page 9) describes this attack; its account is included here.",
     "entry also records enemy counterattack"
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-237-P05-N66",

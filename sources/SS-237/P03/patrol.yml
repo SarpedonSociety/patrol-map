@@ -34,3 +34,20 @@ tonnage:
       source: "(10th Contact) (4th Attack), pages 7-8: 8500 ton freighter with a cargo of planes, sunk by torpedoes." }
   - { date: 10JAN, time: 1350, zone: K, target: Minekaze-class destroyer, result: sunk, tons: 1345, basis: claimed,
       source: "(13th Contact) (5th Attack), pages 10-11: destroyer sunk by torpedoes. 1345 tons is her normal displacement, not gross tonnage." }
+
+# Torpedo attack results for the map marker (README, "Attack results").
+# hit = at least one torpedo exploded against the target; miss = none
+# (misses, duds, prematures). Keys are the ids on the detail cards.
+# Each attack runs over several narrative entries; every entry of an attack
+# takes that attack's result.
+results:
+  N23: hit    # p.4 2nd attack heading: "5000 ton freighter sunk"
+  N24: hit    # p.4 "One torpedo hit was made just forward of the bridge"
+  N25: hit    # p.5 2nd attack (cont'd), no position; not on chart
+  N26: hit    # p.5 stern shot: "The torpedo hit"
+  N39: hit    # p.7 4th attack heading: "8500 ton freighter Sunk"
+  N40: hit    # pp.7-8 "Fired 3 bow torpedoes at 700 yard range, 2 hits" (no position)
+  N59: hit    # p.10 5th attack heading: "Minekaze Class Destroyer Sunk"
+  N60: hit    # pp.10-11 "Two hits" (no position)
+  N61: hit    # p.11 5th attack aftermath (no position)
+  N62: hit    # p.11 "The destroyer sank" (no position)

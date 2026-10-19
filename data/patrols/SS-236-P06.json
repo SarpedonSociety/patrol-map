@@ -3865,7 +3865,9 @@
     "Time zone K from heading 'All times King (-10)'",
     "Narrative entry at 0750 K August 2, 1943 (page 6) describes this attack; its account is included here.",
     "Time zone K from heading 'All times King (-10)'"
-   ]
+   ],
+   "result": "miss",
+   "result_basis": "hand"
   },
   {
    "id": "SS-236-P06-N74",
@@ -4564,7 +4566,9 @@
    "flags": [
     "Time zone K from heading 'All times King (-10)'",
     "No position in the report. Placed on the track between the recorded positions at 1943-08-04 02:00 and 1943-08-04 19:47 GMT, as an estimate."
-   ]
+   ],
+   "result": null,
+   "result_basis": null
   },
   {
    "id": "SS-236-P06-N91",
@@ -4600,7 +4604,9 @@
    "flags": [
     "Time zone K from heading 'All times King (-10)'",
     "No position in the report. Placed on the track between the recorded positions at 1943-08-04 19:47 and 1943-08-04 23:47 GMT, as an estimate."
-   ]
+   ],
+   "result": null,
+   "result_basis": null
   },
   {
    "id": "SS-236-P06-A91",
@@ -4638,7 +4644,9 @@
     "Angles on the bow read from the scan by hand: '15° port' at 0940 (Gemini's first read had '150 port') and '30° port' at 0944 (first read '100 port'); also 'and a single stack amidships' (first read lacked the 'a'). Time zone K from heading 'All times King (-10)'.",
     "Narrative entry at 0947-00 K August 5, 1943 (page 7) describes this attack; its account is included here.",
     "Time zone K from heading 'All times King (-10)'"
-   ]
+   ],
+   "result": null,
+   "result_basis": null
   },
   {
    "id": "SS-236-P06-N95",
@@ -10378,7 +10386,9 @@
     "Time zone K from heading 'All times King (-10)'",
     "Narrative entry at 0108 K August 30, 1943 (page 17) describes this attack; its account is included here.",
     "Time zone K from heading 'All times King (-10)'"
-   ]
+   ],
+   "result": "miss",
+   "result_basis": "hand"
   },
   {
    "id": "SS-236-P06-N220",

@@ -1,0 +1,29 @@
+# Reviewer notes, keyed by entry number: entries are counted through contacts-01.md (ship contacts 1-19,
+# aircraft 20-26), contacts-02.md (density layers 27-42) and attacks-01.md (attacks 43-51, attack n is
+# entry 42+n). Delete a note once it's resolved against the report.
+#
+# Narrative questions (not tied to a table row):
+# - Pages 1-10 (gemini-01, gemini-02) have not been checked against the scan; only pages 11-15 have.
+#   Open items there: the report's total of "19 torpedoes" in the attack 8 narrative (page 9-10) against 16
+#   fired in attacks 2 to 8 on the forms; attack 5's firing times in the narrative (0302-36 and 0302-47)
+#   against the 10 s and 9 s intervals on the form (page 8-9); Dec 14 at Wake, where 'beached freighter'
+#   has no position; Dec 31 trim dive at 1859 (read 1059 on the scan? the 1947 surfacing favours 1859).
+# - Gemini-02's header keys fold3_images 7-11 for typed pages 6-10, and gemini-03's keys 11-15 for typed
+#   pages 11-15: patrol.yml now sets one scheme (typed page n -> Fold3 page n+1) for pages 1-15.
+# - Part (K) Major defects and damage continues on page 28, which was not supplied; Part (J) is
+#   transcribed in attacks-01.md.
+# - Index (INDEX SS.236.8): 8,000 tons damaged, 2 ships damaged. The forms give no tonnage for the ships
+#   damaged in attacks 2 and 3 ("Size unknown"); the endorsement page that credits them is not yet
+#   transcribed, so no damaged tonnage is entered in patrol.yml.
+# - Parts (A) to (C) (prologue, weather) and (E) Navigational aids are narrative text and are not transcribed.
+
+rows:
+  16: "Contact 16 is typed 3-30 N 135-12 E. The narrative has MERIR ISLAND (about 4-19 N 132-19 E) bearing 010 at 19,600 yds at 1858 the same day, six hours later; from 135-12 E that needs about 30 knots, and the boat was on one shaft after the fire. 133-12 E would fit. Typed digits 3 and 5 are hard to tell apart in this report; check page 17 (microfilm 18) and the attack 9 and contact 17 positions, which do fit."
+  17: "Contact 17: remark reads 'tracked for 1_00 miles'; second digit faint (the narrative says over 1400 miles for the whole escort). Time 1125 agrees with the narrative."
+  18: "Contact 18 longitude 137-_8 E: the middle digit is overstruck (58 or 88). 137-58 fits the convoy's track."
+  20: "Aircraft contact 1: date digit reads 8 (the narrative has 0940 K on 18 December; Gemini read 15)."
+  4:  "Contact 4 remark names TO_GEL MLUNGI; the narrative spells the pass MLUNGU, MLUNGUI and MLUNGI in different places."
+  43: "Attack 1: the form has no 'Type Attack' label and no Mark Exploder lines (Gemini invented them). Serials 39,3_4, 39,4_4 and 2_,175 have overstruck digits."
+  48: "Attack 6: the time on the form reads 0356, the narrative 03-55-40 (taken for the marker)."
+  51: "Attack 9 result not entered: 'Hit or miss: See remarks'; explosions at 2 min 55, 2 min 58 and 3 min 45 after firing, 'probable that target was damaged, although evidence is inconclusive'. Zone typed '(#9)', date 'J n. 5, 1944' and longitude 135-08 without E are fixed in patrol.yml form_fixes."
+  27: "Density layers (page 29) are Gemini's read, not yet checked against the scan. The report prints the heading 'Time (GCT)'; the first four rows are west longitude (Hawaiian waters), the rest east."

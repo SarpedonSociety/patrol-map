@@ -56,6 +56,12 @@ landmarks:
   Anguar Island: { lat: 6.90, lon: 134.14, note: "Angaur, Palau. Spelled as the report types it. Approximate; verify against a chart." }
   Malakal Harbor: { lat: 7.33, lon: 134.45, note: "Malakal Harbor, Koror, Palau: the harbour itself, not its reef entrances. Approximate; verify against a chart." }
   Toagel Mlungui: { lat: 7.53, lon: 134.47, note: "Toagel Mlungui (West Passage) through the Palau barrier reef. Approximate; verify against a chart." }
+  Angaur Island: { lat: 6.90, lon: 134.14, note: "Angaur, Palau (Silversides Patrol 8 spells it ANGAUR). Same position as Anguar Island. Approximate; verify against a chart." }
+  Toagel Mlungu pass: { lat: 7.53, lon: 134.47, note: "Toagel Mlungui, spelled MLUNGU in Silversides Patrol 8. Same position as Toagel Mlungui. Approximate; verify against a chart." }
+  Toagel Mlungi: { lat: 7.53, lon: 134.47, note: "Toagel Mlungui, spelled MLUNGI in Silversides Patrol 8. Same position as Toagel Mlungui. Approximate; verify against a chart." }
+  Merir Island: { lat: 4.31, lon: 132.31, note: "Merir (Warren Hastings Island), south of Palau. Silversides Patrol 8 types MERIR (the first Gemini read had MERIER). Approximate; verify against a chart." }
+  Cormoran Reef: { lat: , lon: , note: "Reef off the west side of Palau, named in Silversides Patrol 8. Position not yet looked up." }
+  Asia Island: { lat: , lon: , note: "Named in Silversides Patrol 8 (1 January 1944, bearing 270 T, 9050 yds), the island is uninhabited. Not yet identified; the Asia Islands lie near 1 N 131 E, which is a long way south of the boat's reported track. Position not yet looked up." }
   Vlaming Head Light: { lat: -21.80, lon: 114.10, note: "Vlaming Head lighthouse, North West Cape, Western Australia. Approximate; verify against a chart." }
 
 # Place names drawn on the map. zoom = how far in before the label shows

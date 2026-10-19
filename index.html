@@ -147,6 +147,8 @@ header.head {
 .mark .hit { fill: transparent; }
 .mark.sighting .dot { fill: var(--sea); stroke: var(--sighting); stroke-width: 1.6; }
 .mark.torpedo .dot { fill: var(--torpedo); stroke: var(--paper); stroke-width: 1.2; }
+.mark.torpedo.res-miss .dot { fill: var(--sea); stroke: var(--torpedo); stroke-width: 2; }
+.mark.torpedo.res-unknown .dot { fill: color-mix(in srgb, var(--torpedo) 35%, var(--sea)); stroke: var(--torpedo); stroke-width: 1.4; }
 .mark.gun .dot { fill: var(--gun); stroke: var(--paper); stroke-width: 1.2; }
 .mark.event .dot { fill: var(--event); stroke: var(--paper); stroke-width: 1.2; }
 .minearea { fill: color-mix(in srgb, var(--mine) 16%, transparent); stroke: var(--mine); stroke-width: 1.4; stroke-dasharray: 4 3; }
@@ -259,7 +261,9 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
   padding: 8px 18px; border: 0; background: none; cursor: pointer;
 }
 .entry:hover, .entry.selected { background: color-mix(in srgb, var(--track) 9%, transparent); }
-.entry .sw { width: 10px; height: 10px; border-radius: 50%; margin-top: 4px; }
+.entry .sw { width: 10px; height: 10px; border-radius: 50%; margin-top: 4px; box-sizing: border-box; }
+.entry .sw.res-miss { background: var(--sea) !important; border: 2px solid var(--torpedo); }
+.entry .sw.res-unknown { background: color-mix(in srgb, var(--torpedo) 35%, var(--sea)) !important; border: 1.4px solid var(--torpedo); }
 .entry .when { font: 12px var(--typed); color: var(--muted); }
 .entry .what { font-weight: 600; }
 .entry .flagdot { color: var(--flag); font-size: 11px; font-weight: 600; margin-left: 6px; }
@@ -425,7 +429,9 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     <div class="section">
       <p class="eyebrow">Key</p>
       <div class="legend">
-        <div><svg width="14" height="14"><circle cx="7" cy="7" r="5" fill="var(--torpedo)"/></svg>Torpedo attack</div>
+        <div><svg width="14" height="14"><circle cx="7" cy="7" r="5" fill="var(--torpedo)"/></svg>Torpedo attack, hit</div>
+        <div><svg width="14" height="14"><circle cx="7" cy="7" r="4.5" fill="var(--sea)" stroke="var(--torpedo)" stroke-width="2"/></svg>Torpedo attack, no hits</div>
+        <div style="grid-column: 1 / -1"><svg width="14" height="14"><circle cx="7" cy="7" r="4.6" fill="color-mix(in srgb, var(--torpedo) 35%, var(--sea))" stroke="var(--torpedo)" stroke-width="1.4"/></svg>Torpedo attack, result not yet entered</div>
         <div><svg width="14" height="14"><rect x="2" y="2" width="10" height="10" fill="var(--gun)"/></svg>Gun action</div>
         <div><svg width="14" height="14"><circle cx="7" cy="7" r="4.5" fill="var(--sea)" stroke="var(--sighting)" stroke-width="1.6"/></svg>Contact</div>
         <div><svg width="14" height="14"><path d="M7 1.5 12.5 7 7 12.5 1.5 7z" fill="var(--event)"/></svg>Narrative event</div>
@@ -463,6 +469,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     attack_type: "Periscope or radar", draft: "Est. target draft", tube: "Bow or stern",
     interval: "Firing interval", spread: "Spread", performance: "Torpedo performance satisfactory",
   };
+  const RESULT = { hit: "At least one hit", miss: "No hits", unknown: "Result not yet entered" };
   const KIND = { torpedo: "Torpedo attack", gun: "Gun action", sighting: "Contact", aircraft: "Aircraft contact", rescue: "Aviator rescue", event: "Narrative event", fix: "Recorded position", minefield: "Mine laying", counterattack: "Depth-charged", rendezvous: "Rendezvous" };
   const fmtDate = d3.utcFormat("%-d %b %Y");
   const fmtGmt = d3.utcFormat("%H%M GMT");
@@ -677,9 +684,9 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
       for (const r of visible) {
         const [x, y] = px(r.lon, r.lat);
         const kind = r.kind || "port";
-        const g = layer.append("g").attr("class", `mark ${kind}${r.derived ? " derived" : ""}${selected === r ? " selected" : ""}`)
+        const g = layer.append("g").attr("class", `mark ${kind}${kind === "torpedo" ? " res-" + (r.result || "unknown") : ""}${r.derived ? " derived" : ""}${selected === r ? " selected" : ""}`)
           .attr("transform", `translate(${x},${y})`).attr("tabindex", 0).attr("role", "button")
-          .attr("aria-label", `${KIND[kind] || r.label + " " + r.port}, ${r.local}`);
+          .attr("aria-label", `${KIND[kind] || r.label + " " + r.port}${kind === "torpedo" ? ", " + RESULT[r.result || "unknown"].toLowerCase() : ""}, ${r.local}`);
         const fresh = now - r.t < 36 * HOUR && ["torpedo", "gun", "event", "rescue", "minefield", "counterattack", "rendezvous"].includes(kind);
         if (fresh && !reduced) g.append("circle").attr("class", "pulse").attr("r", 6).attr("stroke", `var(--${kind})`);
         g.append("circle").attr("class", "hit").attr("r", 11);
@@ -1027,7 +1034,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
       b.className = "entry" + (selected === r ? " selected" : "");
       const color = kind === "port" ? "var(--track)" : `var(--${kind})`;
       const title = kind === "port" ? `${r.label} ${r.port}` : (r.title || r.type || KIND[kind]);
-      b.innerHTML = `<span class="sw" style="background:${color}"></span>
+      b.innerHTML = `<span class="sw${kind === "torpedo" ? " res-" + (r.result || "unknown") : ""}" style="background:${color}"></span>
         <span><span class="when">${r.local || fmtDate(new Date(r.t))} · ${r.patrol.name}</span><br>
         <span class="what">${esc(title)}</span>${r.flags && r.flags.length ? `<span class="flagdot">review</span>` : ""}</span>`;
       b.addEventListener("click", () => select(r, true));
@@ -1127,8 +1134,10 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
         ? `${String(r.position_verbatim).replace(/<br\s*\/?>/gi, " ")}  (estimated ${r.lat.toFixed(3)}, ${r.lon.toFixed(3)})`
         : `${String(r.position_verbatim || "—").replace(/<br\s*\/?>/gi, " ")}  (${r.lat.toFixed(3)}, ${r.lon.toFixed(3)})`]]
         .concat(Object.entries(r.fields || {}).filter(([k]) => k !== "type").map(([k, v]) => [LABELS[k] || k, v]));
+    if (kind === "torpedo") rows.splice(1, 0, ["Result", RESULT[r.result || "unknown"] +
+      (r.result_basis === "report" ? " · from the report's hits column" : r.result_basis === "hand" ? " · entered by hand from the report" : "")]);
     const src = kind === "port" ? "Departure / arrival, patrol.yml" :
-      `${r.source}${r.row ? `, entry ${r.row}` : ""}${r.page ? `, page ${r.page}` : ", page not recorded"}`;
+      `${r.source}${r.row ? `, entry ${r.row}` : ""}${r.page ? `, page ${r.page}` : ", page not recorded"}, id ${String(r.id).split("-").pop()}`;
     d.innerHTML = `<div class="detail-head"><div><h2>${esc(title)}</h2>
         <div class="sub">${esc(r.local)} · ${KIND[kind] || "Port"} · ${esc(r.patrol.name)} patrol ${r.patrol.patrol}</div></div>
         <button class="close" aria-label="Close details">×</button></div>

@@ -1,0 +1,1387 @@
+YAML
+
+```
+boat: SS-236
+patrol: 8
+year: 1943
+report: Report of Eighth War Patrol.
+comsubpac_report_no:
+commanding_officer:
+citation:
+  archive: NARA
+  record_group: 38
+  nara_catalog_id: 4697018
+  nara_catalog_title: World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946
+  reel: A811
+  micro_serial: 64584
+  file:
+  serial:
+  date: 1/15/1944
+fold3_images: { 1: 270957894, 2: 270957899, 3: 270957904, 4: 270957910, 5: 270957914 }
+default_hemisphere: { lat: N, lon: E }
+departure: { port: Submarine Base, Pearl Harbor, T.H., date: December 4, 1943, time: 1405, zone: VW, page: 1, flags: "Time typed as 1405 VW in narrative; port given in text as 'Submarine Base, Pearl Harbor, T.H.'" }
+arrival: { port: , date: , time: , zone: , page: , flags: }
+events:
+- date: December 4, 1943.
+  time: 1405
+  zone: VW
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Departed Submarine Base, Pearl Harbor for offensive patrol in Area 10 (Southeast) under CTF 17 OpOrd. 285-43; conducted training dives, gun drills, and sighted friendly planes enroute Midway."
+  page: 1
+  flags: "Date inferred from Prologue/header context for opening entry; time typed as 1405 VW; zone VW typed together"
+- date: December 8, 1943.
+  time: 0632
+  zone: Y
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted escort planes."
+  page: 1
+  flags: ""
+- date: December 8, 1943.
+  time: 0855
+  zone: Y
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Moored alongside USS Bushnell at Midway for voyage repairs, fueling, and provisions; departure delayed one day."
+  page: 1
+  flags: "Mooring to tender Bushnell at Midway base (not an at-sea meeting)"
+- date: December 9, 1943.
+  time: 1600
+  zone: Y
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Underway enroute area, air escort to sunset."
+  page: 1
+  flags: ""
+- date: DEmber 10, 1943.
+  time: 0500
+  zone: Y
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Set clocks ahead 24 hours, making time 0500 (M) December 11, 1943."
+  page: 1
+  flags: "Date typed as DEmber 10, 1943.; time in text has overstrike: ⟦0⟧500 (M)"
+- date: Desember 11, 1943. to December 13, 1943.
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Made at least one dive daily, held daily drills. Received CTF 17 serial 15 directing us to spend one daylight period patrolling WAKE ISLAND."
+  page: 1
+  flags: "Date heading typed as 'Desember 11, 1943. te December 13, 1943.'; no entry time given; zone M applies from previous entry"
+- date: December 14, 1943.
+  time: 0619
+  zone: M
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Sighted Japanese pre-dawn searchlight drill at Wake Island with 10 searchlight beams and runway lights turned on; expected possible radar contact."
+  page: 1
+  flags: "Sentence cut off at end of page 1 ('so at') and completed on page 2"
+- date: December 14, 1943.
+  time: 0623
+  zone: M
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course: 070 T
+  speed:
+  event: "Dove and approached WAKE on course 070 T."
+  page: 2
+  flags: "Time typed as 0623 (first digit faint/clipped, appears as ⟦0⟧623)"
+- date: December 14, 1943.
+  time: 0635
+  zone: M
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Went deep to take bathythermograph reading. Isothermal down to 290 feet where a marked negative gradient starts."
+  page: 2
+  flags: ""
+- date: December 14, 1943.
+  time: 0737
+  zone: M
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted water tower bearing 071 T."
+  page: 2
+  flags: "Target/landmark bearing only; no position fixed"
+- date: December 14, 1943.
+  time: 0745
+  zone: M
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Sighted masts of beached freighter; circled Wake clockwise 1-2 miles off reef, observing damage, gun emplacements, radar, vehicles, and beached destroyers, taking photographs."
+  page: 2
+  flags: ""
+- date: December 14, 1943.
+  time: 1908
+  zone: M
+  lat:
+  lon:
+  from: beached freighter
+  bearing: 052 T
+  distance: 7300 yards
+  bearing_is: to_landmark
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced having encircled islands, with beached freighter bearing 052 T, distance 7300 yards. Set course at two engine speed for area 10. If they picked us up by radar at this time they gave no visual evidence of it."
+  page: 2
+  flags: ""
+- date: December 14, 1943.
+  time: 2000
+  zone: M
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Set clocks back one hour to -11 time, 1900 (L)."
+  page: 2
+  flags: ""
+- date: December 14, 1943.
+  time: 2038
+  zone: L
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted searchlights on WAKE apparently evening searchlight drill."
+  page: 2
+  flags: ""
+- date: December 16, 1943.
+  time: 0504
+  zone: L
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Made trim dive."
+  page: 2
+  flags: "December 15 omitted in original text"
+- date: December 16, 1943.
+  time: 0525
+  zone: L
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 2
+  flags: ""
+- date: December 17, 1943.
+  time: 2300
+  zone: L
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Set clocks back one hour to -10 (K) time."
+  page: 2
+  flags: "Original report places the 2300 clock change before the 0910 entry"
+- date: December 17, 1943.
+  time: 0910
+  zone: K
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Made trim dive."
+  page: 2
+  flags: ""
+- date: December 17, 1943.
+  time: 0928
+  zone: K
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 2
+  flags: ""
+- date: December 17, 1943.
+  time: 2247
+  zone: K
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Slowed to one engine cruising speed, having crossed 150th meridian."
+  page: 2
+  flags: ""
+- date: December 18, 1943.
+  time: 0243
+  zone: K
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Transmitted serial one to Comsubpac via Radio Noumea to NPM acknowledging serial 20 and reporting no contacts; noted difficulty copying Saipan schedules."
+  page: 2
+  flags: ""
+- date: December 18, 1943.
+  time: 0940
+  zone: K
+  lat:
+  lon: 147-52 E
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] AIRCRAFT CONTACT 1: SD radar pip at 12-13 miles, closing to 10 miles; overcast sky, did not dive; suspected mail plane between Truk and Guam or RDF on transmission. LAT 11-07 N LONG 147-52 E."
+  page: 2
+  flags: "Entry begins at bottom of page 2 (typed as 094⟦0⟧ (K)) and continues onto page 3; boat position LAT 11-07 N LONG 147-52 E recorded"
+- date: December 18, 1943.
+  time: 1325
+  zone: K
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Made trim dive."
+  page: 3
+  flags: ""
+- date: December 18, 1943.
+  time: 1345
+  zone: K
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 3
+  flags: "Zone letter typed as ⟦K⟧"
+- date: December 19, 1943.
+  time: 0000
+  zone: K
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] No. 4 fuel ballast tank dry; converted to normal ballast tank and charged air flasks in No. 4; noted fuel advantage from alteration."
+  page: 3
+  flags: "Zone typed as (⟦K⟧)"
+- date: December 19, 1943.
+  time: 0537
+  zone: K
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dove to check trim and flush out 4."
+  page: 3
+  flags: ""
+- date: December 19, 1943.
+  time: 0555
+  zone: K
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 3
+  flags: ""
+- date: December 19, 1943.
+  time: 2240
+  zone: K
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Set clocks back one hour to -9 time, 2000 (⟦I⟧). All times in narrative will be -9 time henceforth unless otherwise specified."
+  page: 3
+  flags: "Text notes: 'All times in narrative will be -9 time henceforth unless otherwise specified.'"
+- date: December 20, 1943.
+  time: 0453
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Made trim dive."
+  page: 3
+  flags: "Zone I applied per note of 19 Dec"
+- date: December 20, 1943.
+  time: 0508
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 3
+  flags: "Time typed as 050⟦8⟧; zone I applied"
+- date: December 20, 1943.
+  time: 1038
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Made training dive."
+  page: 3
+  flags: "Zone I applied"
+- date: December 20, 1943.
+  time: 1159
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 3
+  flags: "First digit of time faint, typed as ⟦1⟧159; zone I applied"
+- date: December 20, 1943.
+  time: 1458
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Made training dive."
+  page: 3
+  flags: "Zone I applied"
+- date: December 20, 1943.
+  time: 1514
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 3
+  flags: "Zone I applied"
+- date: December 21, 1943.
+  time: 0230
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Entered area TEN. Since both sides of area were vacant, decided to pass south of ANGAUR IS. to reach area 10 NW, patrolling across PALAU-RABAUL lanes on surface about 70 miles from PALAU."
+  page: 3
+  flags: "Zone I applied"
+- date: December 21, 1943.
+  time: 0450
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Made trim dive, and obtained bathythermograph readings. Isothermal down to 180 feet then 15 degree negative gradient to 300 feet."
+  page: 3
+  flags: "Time typed as ⟦0⟧450; zone I applied"
+- date: December 21, 1943.
+  time: 0534
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 3
+  flags: "Zone I applied"
+- date: December 21, 1943.
+  time: 1505
+  zone: I
+  lat: 05-40 N
+  lon: 135-42 E
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "SHIP CONTACT 1. Sighted masts of ship through high periscope bearing 180 T. Tracked on surface and determined it to be on approximate course 000 T. LAT 05-40 N LONG 135-42 E."
+  page: 3
+  flags: "Zone I applied; position given for boat"
+- date: December 21, 1943.
+  time: 1532
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dove to investigate and attack."
+  page: 3
+  flags: "Zone I applied"
+- date: December 21, 1943.
+  time: 1623
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted target. It was a small trawler, too small for torpedo. It was either a fishing boat or a small patrol boat. Tracked on course 350 T, speed 8 kts, not pinging. Broke off attack."
+  page: 3
+  flags: "Time typed as 1⟦6⟧23; zone I applied"
+- date: December 21, 1943.
+  time: 1840
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 3
+  flags: "Zone I applied"
+- date: December 21, 1943.
+  time: 2145
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Radar picked up small pip bearing 300 T, range 8050 yds. SHIP CONTACT 2. Closed and started tracking, course determined to be 000 T, speed 8 kts."
+  page: 3
+  flags: "Zone I applied; contact bearing/range only"
+- date: December 21, 1943.
+  time: 2222
+  zone: I
+  lat: 06-42 N
+  lon: 135-00 E
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Range had closed to 4925 yds, night clear with stars but no moon. Could not see through binoculars. Decided this was a patrol boat or sampan. Turned away to avoid detection. Radar pip was very small, but definite. LAT 06-42 N LONG 135-00 E"
+  page: 3
+  flags: "Zone I applied; boat position recorded"
+- date: December 22, 1943.
+  time: 0530
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dove to conduct submerged patrol. Made bathythermograph observation and found gradient started at 110 ft. and at 300 feet there was a 14 degree negative gradient. It was found that the boat was 8000 lbs light at 300 feet."
+  page: 4
+  flags: "Zone I applied"
+- date: December 22, 1943.
+  time: 1055
+  zone: I
+  lat: 7-19 N
+  lon: 133-55 E
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "SHIP CONTACT 3 Sighted two sampans, apparently fishing, avoided. LAT 7-19 N. LONG 133-55 E."
+  page: 4
+  flags: "Zone I applied; boat position recorded"
+- date: December 22, 1943.
+  time: 1835
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced. During the night patrolled west of BABELTHAUAP IS."
+  page: 4
+  flags: "Zone I applied"
+- date: December 22, 1943.
+  time: 1925
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted flashing light toward direction TOAGEL MLUNGU pass. Possibly a challenge, made out characters \"NO\". It is possible we were picked up by radar, opened out from beach about three more miles."
+  page: 4
+  flags: "Zone I applied"
+- date: December 23, 1943.
+  time: 0300
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "SHIP CONTACT # 4. Made radar contact bearing 180 T, range 14,500 yds. Closed and commenced tracking. Sighted and identified as patrol boat or small trader, too small for torpedo attack. Tracked on course 240 T, speed 2-4 kts, and appears to stop at intervals. Broke off attack and avoided."
+  page: 4
+  flags: "Zone I applied"
+- date: December 23, 1943.
+  time: 0510
+  zone: I
+  lat:
+  lon:
+  from: CORMORAN REEF
+  bearing: W
+  distance: about 5 miles
+  bearing_is: from_landmark
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dove for submerged patrol, about 5 miles west of CORMORAN REEF."
+  page: 4
+  flags: "Zone I applied; wording 'about 5 miles west of CORMORAN REEF'"
+- date: December 23, 1943.
+  time: 0613
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] SHIP CONTACT 5: Sighted smoke and commenced approach; identified properly marked hospital ship, probably Ryuko Maru, headed for Toagel Mlungui pass from Empire; took pictures and broke off approach."
+  page: 4
+  flags: "Zone I applied"
+- date: December 23, 1943.
+  time: 0812
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "SHIP CONTACT 6. Heard and saw destroyer standing out from TOAGEL MLUNGU toward us. Started approach."
+  page: 4
+  flags: "Zone I applied; contact number 6 faint/typed as ⟦6⟧"
+- date: December 23, 1943.
+  time: 0826
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Destroyer turned to southward, closest range about 6500 yds, making high speed, at least 20 kts, by turn count, pinging, but probably not effective at speed he was making. Apparently making high speed sweep."
+  page: 4
+  flags: "Zone I applied"
+- date: December 23, 1943.
+  time: 0856
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] SHIP CONTACT 7: Sighted mast bearing 169 T; developed into convoy of 4 to 6 ships with Rufe escort (Aircraft Contact 2); convoy took southwesterly course toward Ambon."
+  page: 4
+  flags: "Zone I applied"
+- date: December 23, 1943.
+  time: 1148
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "AIRCRAFT CONTACT 3. Sighted seaplane, distance 15 miles, on a southerly course."
+  page: 4
+  flags: "Zone I applied"
+- date: December 23, 1943.
+  time: 1437
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Heard distant depth charge, could see nothing."
+  page: 4
+  flags: "Zone I applied; distant depth charge not directed at boat"
+- date: December 23, 1943.
+  time: 1815
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed: 17 kts
+  event: "Surfaced. Although convoy had a large lead, decided to chase. Set course on the PALAU-AMBON route at speed 17 kts."
+  page: 4
+  flags: "Zone I applied"
+- date: December 24, 1943.
+  time: 0530
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "On convoy 10 kt circle, convoy not in sight."
+  page: 4
+  flags: "Date heading typed as 'December 24, 1943.'; zone I applied"
+- date: December 24, 1943.
+  time: 0535
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed: 10 kts
+  event: "Slowed to 10 kts and started back toward PALAU, easing over to westward to cover BALIKPAPAN PALAU routes."
+  page: 5
+  flags: "Zone I applied"
+- date: December 25, 1943.
+  time: 0520
+  zone: I
+  lat:
+  lon:
+  from: TOAGEL MLUNGU pass
+  bearing: 090 T
+  distance: 11 miles
+  bearing_is: to_landmark
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dove for submerged patrol with TOAGEL MLUNGU pass bearing 090 T, distance 11 miles."
+  page: 5
+  flags: "Zone I applied; bearing typed as ⟦0⟧90 T"
+- date: December 25, 1943.
+  time: 0657
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted patrol boat, converted yacht type, same as CONTACT 4. This fellow was in sight on and off most of the day."
+  page: 5
+  flags: "Zone I applied"
+- date: December 25, 1943.
+  time: 0838
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted ship standing out of TOAGEL MLUNGI, SHIP CONTACT 8. Commenced approach."
+  page: 5
+  flags: "Zone I applied"
+- date: December 25, 1943.
+  time: 0851
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Ship identified as properly marked hospital ship, probably RYUKO MARU, same as CONTACT 5. After clearing TOAGEL MLUNGUI, Hospital ship took a southwesterly course."
+  page: 5
+  flags: "Zone I applied"
+- date: December 25, 1943.
+  time: 0919
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] SHIP CONTACT 9: Sighted light 5,000-ton freighter leaving Toagel Mlungui; could not reach firing position; tracked toward Aiwokako passage."
+  page: 5
+  flags: "Zone I applied"
+- date: December 25, 1943.
+  time: 1248
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] SHIP CONTACT 10: Sighted 1500-ton engine-aft freighter from Aiwokako; held fire due to long range and calm sea; observed Contact 9 mooring at bauxite loading pier; decided to wait off Aiwokako."
+  page: 5
+  flags: "Zone I applied"
+- date: December 25, 1943.
+  time: 1927
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced, patrolled to northwest during night. SJ is a great help in fixing position at night, maximum range on peaks about 60,000 yds."
+  page: 5
+  flags: "Zone I applied"
+- date: December 26, 1943.
+  time: 0510
+  zone: I
+  lat:
+  lon:
+  from: TOAGEL MLUNGI
+  bearing: 150 T
+  distance: 11 miles
+  bearing_is: to_landmark
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dove for submerged patrol with TOAGEL MLUNGI bearing 150 T, distance 11 miles."
+  page: 5
+  flags: "Zone I applied"
+- date: December 26, 1943.
+  time: 0605
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted patrol boat, same as CONTACT 4. He was in sight on and off, most of the day."
+  page: 5
+  flags: "Time typed as ⟦0⟧605; zone I applied"
+- date: December 26, 1943.
+  time: 0745
+  zone: I
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: I
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted ship at bauxite pier inside AIWOKAKO Pass. Still loading. Decided to keep him in sight during day."
+  page: 5
+  flags: "Zone I applied; page 5 ends here"
+```
+
+Could not transcribe: hull number and commanding officer (not stated on pages provided); endorsement page and patrol report pages after page 5 (omitted from selection); and faint/clipped characters noted in brackets.

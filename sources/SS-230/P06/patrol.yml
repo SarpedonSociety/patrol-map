@@ -794,3 +794,10 @@ events:
   page: '20'
   event: Conducted submerged patrol off western entrance to Sagewin Strait.
   flags: 'Added by hand: split out of Gemini''s 1615 entry. No time printed.'
+
+# Torpedo attack results for the map marker (README, "Attack results").
+# hit = at least one torpedo exploded against the target; miss = none
+# (misses, duds, prematures). Keys are the ids on the detail cards.
+results:
+  N31: hit    # p.5 attack 2: "Nos. 1 and 2 prematured at 23 seconds; No. 3 hit target in bow" (no position; not on chart)
+  N32: miss   # p.5 4th torpedo: "Torpedo missed as target evaded" (no position; not on chart)

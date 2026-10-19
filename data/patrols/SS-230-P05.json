@@ -868,7 +868,9 @@
     "Narrative entry at 0217 I 27MAY (page 2) describes this attack; its account is included here.",
     "Heading includes Attack #1 (typed Attack (1))"
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-230-P05-N17",
@@ -2028,7 +2030,9 @@
     "Narrative entry at 0512 I 02JUN (page 5) describes this attack; its account is included here.",
     "Heading includes Attack #2. Entry text spans pages 5 and 6"
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-230-P05-N47",
@@ -3209,7 +3213,9 @@
     "Narrative entry at 0227 I 08JUN (page 8) describes this attack; its account is included here.",
     "Heading includes Attacks #3-4 (typed \"Attacks # 3-4))"
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-230-P05-C27",
@@ -3253,7 +3259,9 @@
     "Transcriber: Date: Attack 1 time given as 1717 (narrative has 0217); Attack 2 time 2012 (narrative 0512); Attack 3 & 4 time 1727 (narrative 0227); Location (Lat.) (Long.): Attack 3 & 4 Longitude hemisphere blank; Track Angle (1st Torpedo): Attack 4 Track Angle port/starboard blank",
     "The table gives no zone; zone Z set in patrol.yml (table_zones)."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-230-P05-C28",
@@ -3300,7 +3308,9 @@
     "Narrative entry at 0232 I 08JUN (page 8) describes this attack; its account is included here.",
     "Entry text spans pages 8 and 9"
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-230-P05-N79",
@@ -3559,7 +3569,9 @@
     "Narrative entry at 1847 I 08JUN (page 10) describes this attack; its account is included here.",
     "Heading includes Attack #5 (typed Attack #6)"
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-230-P05-N85",
@@ -3781,7 +3793,9 @@
     "The table gives no zone; zone Z set in patrol.yml (table_zones).",
     "Narrative entry at 0954 I 11JUN (page 11) describes this attack; its account is included here."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-230-P05-N92",
@@ -4230,7 +4244,9 @@
     "The table gives no zone; zone Z set in patrol.yml (table_zones).",
     "Narrative entry at 2028 I 15JUN (page 12) describes this attack; its account is included here."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "miss",
+   "result_basis": "report"
   },
   {
    "id": "SS-230-P05-N106",

@@ -1,0 +1,527 @@
+YAML
+
+```
+boat: 
+patrol: 8
+year: 
+report: "Report of EIGHTH War Patrol"
+comsubpac_report_no: 
+commanding_officer: 
+citation: 
+  archive: "NARA"
+  record_group: "38"
+  nara_catalog_id: "4697018"
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946"
+  reel: "A869"
+  micro_serial: "67744"
+  file: "A16-3"
+  serial: "042"
+  date: "2/23/1944"
+fold3_images: { 6: 270668579, 7: 270668581, 8: 270668582 }
+default_hemisphere: { lat: N, lon: E }
+departure: { port: , date: , time: , zone: , page: , flags: }
+arrival:   { port: "Midway", date: "February 19", time: , zone: , page: 8, flags: "West Longitude; second arrival entry for Pearl Harbor on February 23" }
+events: 
+- date: "January 31"
+  time: "0450"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] The convoy zigged away, turning a favorable situation poor, with the largest ship slowest and escort heading toward us, possibly seeing us."
+  page: 6
+  flags: ""
+- date: "January 31"
+  time: "0457"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "attack"
+  title: "Attack on last AP"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Fired five torpedoes forward at the last AP, range 3000 yards, 130 port track, gyro angle zero. Came right with full speed, readying the stern tubes in case the DD had seen us."
+  page: 6
+  flags: "range typed as 'rongs', readying as 'randying', case as 'ense', seen as 'soon'"
+- date: "January 31"
+  time: "0458"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Two hits on the last ship in column. Yellow flame leaped about masthead height, followed by several lesser explosions and flames."
+  page: 6
+  flags: "time typed as '045⟦8⟧' overstruck/misprinted as '0450 X'; leaped typed as 'loeped'"
+- date: "January 31"
+  time: "0500"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "counterattack"
+  title: "Depth charging by DD"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "The DD commenced dropping more depth charges from a seemingly inexhaustible stock, and headed over toward the striken ship, blinking the numeral \"5\" repeatedly from for and main masthead blinkers."
+  page: 6
+  flags: "number of charges not specified ('dropping more depth charges'); 'denth' for depth; 'headud' for headed; 'repenterily' for repeatedly; 'for' for fore"
+- date: "January 31"
+  time: "0510"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "The AP sank. The DD stopped depth charging, and hove to, in the midst of a group of lights on the water."
+  page: 6
+  flags: ""
+- date: "January 31"
+  time: "0510"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Commenced an approach on the remaining two APs, speed now 16 knots, but it was obviously impossible to close before dawn. Commenced end around."
+  page: 6
+  flags: "zone letter faint/broken, appears as '⟦K⟧'; 'spoud' for speed; 'Con-menced and around' in text"
+- date: "January 31"
+  time: "0620"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Gave up the end around as hopeless, with only a 1.5 knot speed differential."
+  page: 6
+  flags: "'es' for as; 'spoed' for speed"
+- date: "January 31"
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Commanding Officer reflects on firing 15 torpedoes for four hits, analyzing reasons for misses and tactics during attacks number one, two, and three."
+  page: 6
+  flags: "undated/untimed narrative commentary following 0620 K entry; multiple words broken or faintly typed at ends of lines; continues onto page 7"
+- date: "January 31"
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surprisingly, this vessel was not sighted at a range of 700 yards. Obviously these Japanese first line destroyers did not have surface radar. The new grey camouflage is extraordinarily successful."
+  page: 7
+  flags: "conclusion of narrative commentary from page 6; 'signted' for sighted; 'surince' for surface; 'now' for new"
+- date: "February 6"
+  time: "2135"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Sighted ships on the horizon. Commenced approach. (FOURTH CONTACT)."
+  page: 7
+  flags: "'FOURTE' typed for FOURTH"
+- date: "February 6"
+  time: "2140"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: "130° T"
+  speed: "7 knots"
+  event: "Convoy developed into 6 very small vessels. Tracked on course 130° T, 7 knots, not zigzagging. Maximum radar range, 7000 yards."
+  page: 7
+  flags: "'smell' for small; 'Trocked' for Tracked; 'Haximum' for Maximum"
+- date: "February 6"
+  time: "2200"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Closed to 4500 yards. Vessels identified as sampans, escorted by a Corvette. Discontinued approach."
+  page: 7
+  flags: "'sampons' for sampans; '&' for a"
+- date: "February 8"
+  time: "0800"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Headed south at two engine speed to make reconnaissance of atolls."
+  page: 7
+  flags: "'Hended' for Headed"
+- date: "February 8"
+  time: "1230"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Dived for plane."
+  page: 7
+  flags: "no zone letter given"
+- date: "February 8"
+  time: "1314"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surfaced."
+  page: 7
+  flags: "no zone letter given"
+- date: "February 9"
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Spent most of day submerged reconnoitering LAMOTREK and ELATO Islands."
+  page: 7
+  flags: "no time or zone given; 'reconnoitoring' for reconnoitering; 'LAFOTREK' and 'ETALO' typed for LAMOTREK and ELATO"
+- date: "February 9"
+  time: "1600"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surfaced, headed for WOLEAI."
+  page: 7
+  flags: "'hended' for headed"
+- date: "February 10"
+  time: "0130"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Completed moonlight reconnaissance of WOLEAI lagoon. Headed north to get back into traffic lanes."
+  page: 7
+  flags: "'TOLEAI' and 'Fended' typed for WOLEAI and Headed"
+- date: "February 12"
+  time: "0940"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: 
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Radar contact, 25 miles, did not dive."
+  page: 7
+  flags: "'contnct' for contact"
+- date: "February 12"
+  time: "1200"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Departed area."
+  page: 7
+  flags: "'aren' for area"
+- date: "February 13"
+  time: "1100"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Radar contact, 23 miles. Did not dive."
+  page: 7
+  flags: "'divo' for dive"
+- date: "February 14"
+  time: "0610"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Radar contact, 9 miles, closing fast. Dived."
+  page: 7
+  flags: "'Rader' for Radar"
+- date: "February 14"
+  time: "0730"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surfaced."
+  page: 7
+  flags: "zone letter typed as 'X'"
+- date: "February 19"
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Arrived Midway."
+  page: 8
+  flags: "date heading includes '(West Longitude)'; no time or zone given"
+- date: "February 23"
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Arrived Pearl Harbor."
+  page: 8
+  flags: "no time or zone given"
+```
+
+Could not transcribe: several faint/broken words in the retrospect text on page 6 (specifically parts of lines referring to the target, sound reporting a torpedo, and attack number three).

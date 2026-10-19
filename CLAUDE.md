@@ -33,12 +33,18 @@ Preview: `python -m http.server`, then http://localhost:8000.
   Table cell wrong in `contacts-NN.md`: `row_fixes: { <entry no.>: { <heading>: <value> } }`.
   Text wrong on an attack form: `form_fixes: [{ attack: n, old:, new: }]`.
   Both add a "Corrected by hand" flag; the raw files stay as saved.
+- Tables and attack forms can be transcribed by Claude from the scan JPGs instead of Gemini (Silversides and Trigger
+  Patrol 8): the file opens with a note saying so, uses the same names (`contacts-NN.md`, `attacks-NN.md`), and the
+  Gemini read is kept beside it as `check-contacts-NN.md` / `check-attacks-NN.md`, which the converter ignores.
 - Transcription is verbatim. Do not correct, normalize or infer. Cells in
   ⟦ ⟧ and everything in a Flags column get checked against the report.
 - Open questions go in `review.yml` (entries numbered through the whole
   `contacts.md`); delete a note once settled.
 - Tonnage is entered by hand in `patrol.yml` `tonnage:` (`result` sunk or
   damaged; `basis` claimed / credited / postwar). Count each ship once.
+- Torpedo attack result (solid = at least one hit, hollow = none) comes from
+  the report's hits column; otherwise `patrol.yml` `results: { A13: miss }`,
+  keyed by the id on the detail card. Hand entries win; duds count as misses.
 - A new boat goes in `sources/reference.yml` `boats`; new ports in `ports`,
   labelled places in `places`, charted features in `landmarks`.
 - Update the patrol's line in `sources/inventory.yml`.

@@ -293,6 +293,8 @@ def form_fields(body):
             out[key] = m.group(2).strip()
         elif key and line.strip() and line.startswith(" "):
             out[key] += " " + line.strip()
+        elif line.strip():
+            key = None   # an unlabelled, unindented line (e.g. "Ship's Sunk   None", no colon) ends the previous value
         elif not line.strip():
             key = None
     return out
@@ -1071,6 +1073,33 @@ def build_patrol(folder, ref):
     records = [r for r in records if r not in story]
 
     records.sort(key=lambda x: (x["utc"] or "9999", x["id"]))
+
+    # Torpedo attack result, for the map marker: "hit" (at least one hit,
+    # solid circle) or "miss" (no hits: misses, duds, prematures, broaches;
+    # hollow circle). Taken from the report's own hits count. patrol.yml
+    # `results: { <entry id>: hit | miss }` sets it by hand, keyed by the id
+    # shown on the detail card (C12, A13, N24), and takes precedence: use it
+    # for attacks with no hits count, or where the count includes duds.
+    hand_results = {str(k).strip().upper(): str(v).strip().lower() for k, v in (meta.get("results") or {}).items()}
+    for rec in records:
+        if rec["kind"] != "torpedo":
+            continue
+        key = rec["id"].rsplit("-", 1)[-1]
+        hits = as_int(rec["fields"].get("hits"))
+        counted = None if hits is None else ("hit" if hits > 0 else "miss")
+        hand = hand_results.pop(key, None)
+        if hand is not None and hand not in ("hit", "miss"):
+            rec["flags"].append(f"patrol.yml results: '{hand}' isn't hit or miss; ignored.")
+            hand = None
+        if hand:
+            rec["result"], rec["result_basis"] = hand, "hand"
+            if counted and counted != hand:
+                rec["flags"].append(f"Corrected by hand: result set to {hand} in patrol.yml; "
+                                    f"the report's hits column gives {hits}.")
+        else:
+            rec["result"], rec["result_basis"] = counted, ("report" if counted else None)
+    for key in hand_results:
+        print(f"{pid}  warning: patrol.yml results: no torpedo attack with id {key}")
 
     # Departure and arrival
     def endpoint(block, label):

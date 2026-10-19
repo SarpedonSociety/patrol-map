@@ -1,0 +1,91 @@
+# USS Trigger (SS-237), War Patrol 8
+# Narrative: gemini-01.yml (typed pages 1-5) and gemini-02.yml (pages 6-8), both Gemini reads of the PDF; not
+# yet checked against the scan. Tables (contacts-01.md) and the attack forms (attacks-01.md) are Claude's
+# reading of the scans; the Gemini reads are in check-contacts-01.md and check-attacks-01.md, which the
+# converter ignores.
+# Page numbers: the typed number at the foot of each page (-11-). The microfilm number written in the corner
+# is the typed number plus one (the attack forms are typed pages 11 to 14, microfilm 12 to 15).
+# Pearl Harbor to Pearl Harbor via Midway; Caroline Islands between Truk and Guam. Sank a Fubuki-class destroyer
+# and a 10,000-ton auxiliary (AP) on 31 January 1944. Index figures from the PSO's INDEX SS.237.8:
+# COMSUBPAC report 375, 11,850 tons sunk, 1 January to 23 February 1944.
+
+boat: SS-237
+patrol: 8
+year: 1944
+report_found: yes
+report: "U.S.S. TRIGGER Report of EIGHTH War Patrol."
+comsubpac_report_no: 375
+commanding_officer: "Dornin"
+
+departure:
+  port: Pearl Harbor
+  date: January 1, 1944
+  time: "1100"
+  zone: V
+  page: 1
+  flags: "Gemini read the zone as V; Pearl Harbor reports elsewhere type VW. Report types 'EIGHTH FAR PATROL'."
+
+arrival:
+  port: Pearl Harbor
+  date: February 23, 1944
+  page: 8
+  flags: "No time or zone given. Arrived Midway 19 February (West Longitude date), Pearl Harbor 23 February."
+
+period:
+  start: 1944-01-01
+  end: 1944-02-23
+  source: "Patrol report"
+
+fold3_images: { 1: 270668568, 2: 270668570, 3: 270668572, 4: 270668574, 5: 270668577, 6: 270668579, 7: 270668581, 8: 270668582 }
+
+# Tonnage. Claimed: the captain's figures (the narrative heading 'FUBUKI CLASS DESTROYER 1700 TONS, SUNK' and
+# attack form 3, '10,000 tons'). Credited: the endorsement's total of 11,850 tons per the PSO's index.
+tonnage:
+  - { date: "January 31, 1944", time: "0228", zone: K, target: "Destroyer, FUBUKI class", result: sunk, tons: 1700, basis: claimed, source: "Attack 1A, page 11; narrative heading, page 3" }
+  - { date: "January 31, 1944", time: "0456", zone: K, target: "AP (new type passenger-freighter)", result: sunk, tons: 10000, basis: claimed, source: "Attack 3, page 14" }
+  - { date: "January 31, 1944", time: "0228", zone: K, target: "Destroyer, FUBUKI class", result: sunk, tons: 1850, basis: credited, source: "Third endorsement, page 22 (total 11,850 per the PSO's index; the digits are faint in the scan)" }
+  - { date: "January 31, 1944", time: "0456", zone: K, target: "Naval auxiliary (AP)", result: sunk, tons: 10000, basis: credited, source: "Third endorsement, page 22" }
+
+# The forms type no zone letter after the time (the converter would take the D of 'Date' for one), so K, the
+# zone of the surrounding narrative, is added to the time line here. They print the date as "31 January 1944" and the longitude as 147-06.5 E, which the converter can't read;
+# the date is turned round and the half minute dropped here. The raw files keep what is typed.
+form_fixes:
+  - { attack: 1a, old: "Time: 0228", new: "Time: 0228 K" }
+  - { attack: 1b, old: "Time: 0230", new: "Time: 0230 K" }
+  - { attack: 2, old: "Time: 0233", new: "Time: 0233 K" }
+  - { attack: 3, old: "Time: 0456", new: "Time: 0456 K" }
+  - { attack: 1a, old: "31 January 1944", new: "January 31, 1944" }
+  - { attack: 1a, old: "147-06.5 E", new: "147-06 E" }
+  - { attack: 1b, old: "31 January 1944", new: "January 31, 1944" }
+  - { attack: 1b, old: "147-06.5 E", new: "147-06 E" }
+  - { attack: 2, old: "31 January 1944", new: "January 31, 1944" }
+  - { attack: 2, old: "147-06.5 E", new: "147-06 E" }
+  - { attack: 3, old: "31 January 1944", new: "January 31, 1944" }
+
+# Torpedo attack results for the map marker (README, "Attack results"). Keys are the ids on the detail cards.
+results:
+  A19: hit    # attack 1A: "TWO HITS"; the destroyer disappeared in smoke
+  A20: miss   # attack 1B: three misses at the near destroyer
+  A21: miss   # attack 2: four stern torpedoes, all missed
+  A22: hit    # attack 3: "TWO HITS"; the AP sank
+
+events:
+- replaces:
+    date: January 31
+    time: '0230'
+    title: Torpedo hits on far escort
+  date: January 31
+  time: '0230'
+  zone: K
+  title: Torpedo hits on far escort
+  part: I
+  event: Heard and saw two hits in the direction of the convoy. The far escort disappeared in a cloud of smoke and debris.
+  page: '5'
+  flags: 'Tag ''attack'' removed by hand: this entry records the hits of attack 1A, not a separate attack, and the attack forms supply the attack markers. Text on page 5.'
+- replaces:
+    date: January 18 to 21
+  date: January 18
+  part: I
+  event: Uneventful submerged patrol in vicinity NOGAMI and GRAY FEATHER BANKS.
+  page: '2'
+  flags: Date heading 'January 18 to 21' (an uneventful submerged patrol of four days); dated 18 January by hand so the entry is placed. Vicinity names given in text; lat/lon blank per instructions.

@@ -101,3 +101,14 @@ events:
     event: '[SUMMARY] Surfaced; target changed base course to 210, speed 9 kts, resembling PANAMA MARU, with two PC-like escorts; no favorable day shot attained.'
     page: 16
     flags: Ship name read as PANAMA MARU by hand from the scan (the tops of the letters are obliterated; P, N, M and the bases of the three A's are visible). Gemini's reads gave FUJISAN MARU and FANA MARU. Time zone K from heading 'All times King (-10)'.
+
+# Torpedo attack results for the map marker (README, "Attack results").
+# hit = at least one torpedo exploded against the target; miss = none
+# (misses, duds, prematures). Keys are the ids on the detail cards.
+results:
+  A90: miss   # pp.24-25 attack 1: Hit or Miss "Premature Premature Miss Miss"; "Saw no damage"
+  A92: miss   # pp.28-29 attack 3: Hit or Miss "Miss" (all six); ships sunk/damaged NONE
+  # A91: hit / miss  # pp.26-27 attack 2: Hit or Miss "Poss. Hit Premature Miss Premature";
+  #                  # ships damaged NONE; "strong possibility that the target suffered one hit"
+  # N90, N91: page 7 sighting and tracking entries for attack 2, tagged as attacks. They are
+  #           not attacks themselves; leave unentered or retag them.

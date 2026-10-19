@@ -1,0 +1,1144 @@
+YAML
+
+```
+boat: "SS-237"
+patrol: 8
+year: 1944
+report: "Report of EIGHTH War Patrol."
+comsubpac_report_no:
+commanding_officer:
+citation:
+  archive: "NARA"
+  record_group: "38"
+  nara_catalog_id: "4697018"
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946"
+  reel: "A869"
+  micro_serial: "67744"
+  file: "A16-3"
+  serial: "042"
+  date: "2/23/1944"
+fold3_images:
+  1: 270668568
+  2: 270668570
+  3: 270668572
+  4: 270668574
+  5: 270668577
+default_hemisphere: { lat: N, lon: E }
+departure: { port: "Pearl Harbor", date: "January 1, 1944", time: "1100", zone: "V", page: "1", flags: "" }
+arrival: { port: , date: , time: , zone: , page: , flags: "" }
+events:
+  - date: "January 1, 1944"
+    time: "1100"
+    zone: "V"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Departed Pearl Harbor for EIGHTH WAR PATROL."
+    page: "1"
+    flags: "Report types 'EIGHTH FAR PATROL'."
+
+  - date: "January 5"
+    time: "0630"
+    zone: "Y"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Arrived Midway."
+    page: "1"
+    flags: ""
+
+  - date: "January 6"
+    time: "1100"
+    zone: "Y"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Departed Midway."
+    page: "1"
+    flags: "Date typed as 'Jamiary 6'."
+
+  - date: "January 10"
+    time: "10⟦10⟧"
+    zone: "L"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dived for a plane."
+    page: "1"
+    flags: "Date typed as 'Jemary 10'. Time partially faint/overprinted."
+
+  - date: "January 10"
+    time: "1100"
+    zone: "L"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: "1"
+    flags: "Time typed as '1100' with strikeover/double impression; event typed 'Surfaced.'."
+
+  - date: "January 10"
+    time: "1600"
+    zone: "L"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dived for a plane."
+    page: "1"
+    flags: "First two digits faint/blurred."
+
+  - date: "January 10"
+    time: "1750"
+    zone: "L"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: "1"
+    flags: ""
+
+  - date: "January 11"
+    time: "082⟦0⟧"
+    zone: "L"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dived for a plane."
+    page: "1"
+    flags: "Time appears as '082 L' or '0820 L' with faint last digit."
+
+  - date: "January 11"
+    time: "10⟦00⟧"
+    zone: "L"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: "1"
+    flags: "Time missing digits, typed '10 L'; event typed 'Surfaced.'."
+
+  - date: "January 11"
+    time:
+    zone: "L"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dived for a plane."
+    page: "1"
+    flags: "Time blank before 'L'."
+
+  - date: "January 11"
+    time: "1745"
+    zone: "L"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: "1"
+    flags: "Typed as 'Surfaced.'."
+
+  - date: "January 14"
+    time: "0927"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "SD radar contact, 13 miles. Dived. Utilized this opportunity to check torpedoes."
+    page: "1"
+    flags: "Date typed as '14 Jerunry'."
+
+  - date: "January 14"
+    time: "1245"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced. Commenced day and night surface patrol at slow speed."
+    page: "1"
+    flags: "Event typed 'day and night surface patrol'."
+
+  - date: "January 14"
+    time: "1400"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Entered area."
+    page: "1"
+    flags: "Event typed 'Entered area.'."
+
+  - date: "January 14"
+    time: "1505"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "SD radar contact. Pip seen at 35 miles closed to 22 miles, then went out to 30 miles. Did not ⟦dive⟧"
+    page: "1"
+    flags: "Text cut off / faded at end of line."
+
+  - date: "January 16"
+    time: "0635"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "⟦090⟧ T"
+    speed: "5 knots"
+    event: "[SUMMARY] Sighted mast of a ship dead ahead, developing into a 500-ton Corvette with light AK, armed with heavy gun; tracked at 5 knots not zigzagging, but too shallow for torpedoes."
+    page: "1"
+    flags: "Course partially illegible ('cou⟦rse⟧ ⟦090⟧ T'). Words faded/cut off in lines 3-4."
+
+  - date: "January 16"
+    time: "0812"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sighted a fleet of ten sampans proceeding in company with the Corvette."
+    page: "2"
+    flags: "Typed as 'fleet of ton sampans'."
+
+  - date: "January 16"
+    time: "1245"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced. Continued surface patrol."
+    page: "2"
+    flags: ""
+
+  - date: "January 17"
+    time: "0925"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "SD radar contact at 30 miles. Dived when range closed to 16 miles."
+    page: "2"
+    flags: ""
+
+  - date: "January 17"
+    time: "1246"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: "2"
+    flags: ""
+
+  - date: "January 17"
+    time: "1756"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Sighted twin-engine land-based bomber heading directly at us at 6 miles; dived and decided to stay down until dark due to enemy detection."
+    page: "2"
+    flags: ""
+
+  - date: "January 17"
+    time: "1902"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: "2"
+    flags: ""
+
+  - date: "January 18 to 21"
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Uneventful submerged patrol in vicinity NOGAMI and GRAY FEATHER BANKS."
+    page: "2"
+    flags: "Vicinity names given in text; lat/lon blank per instructions."
+
+  - date: "January 22"
+    time:
+    zone:
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Recommenced daylight surface patrolling."
+    page: "2"
+    flags: ""
+
+  - date: "January 22"
+    time: "1127"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Dived for a plane."
+    page: "2"
+    flags: ""
+
+  - date: "January 22"
+    time: "1300"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: "2"
+    flags: ""
+
+  - date: "January 27"
+    time: "1224"
+    zone: "K"
+    lat: "10-53 N."
+    lon: "147-14 E."
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "SECOND CONTACT NO ATTACK \"RO\" CLASS JAP SUBMARINE APPROACH UNSUCCESSFUL Lat. 10-53 N. Long. 147-14 E. Sighted conning tower of a submarine dead ahead with zero angle on the bow. Dived, commenced approach."
+    page: "2"
+    flags: ""
+
+  - date: "January 27"
+    time: "1235"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "120° T"
+    speed: "13 knots"
+    event: "Sub identified as Jap \"RO\" type, painted black, with a large Jap ensign painted on the side of the bridge. Tracked on base course 120° T, at 13 knots, zigzagging radically."
+    page: "2"
+    flags: ""
+
+  - date: "January 27"
+    time: "1255"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Set up to fire bow tubes at 800 yards, raised periscope to find target had zigged toward us, crossing bow under 100 yards and swinging stern toward us."
+    page: "2"
+    flags: ""
+
+  - date: "January 27"
+    time: "1256"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Went to 150 feet expecting a torpedo. None was heard; so at"
+    page: "3"
+    flags: "Event typed 'None was heard;'."
+
+  - date: "January 27"
+    time: "1300"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Returned to periscope depth."
+    page: "3"
+    flags: ""
+
+  - date: "January 27"
+    time: "1330"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced. Commenced an end around. Possibly we surfaced too soon; the Jap had his periscope up too."
+    page: "3"
+    flags: ""
+
+  - date: "January 27"
+    time: "1430"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "17 knots"
+    event: "[SUMMARY] End around proceeding satisfactorily, with our top speed at 17 knots due to foul bottom and high injection temperatures while enemy made 15."
+    page: "3"
+    flags: ""
+
+  - date: "January 27"
+    time: "1435"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Target put his stern toward us, and disappeared. Headed for his last bearing, hoping he had gone \"over the hill\" instead of diving."
+    page: "3"
+    flags: ""
+
+  - date: "January 27"
+    time: "1455"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Sub not seen again, though with our speed we should have over-hauled him. Concluded he must have dived."
+    page: "3"
+    flags: "Zone letter missing from time heading; filled from surrounding entries."
+
+  - date: "January 27"
+    time: "1456"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Reversed course, broke off the chase."
+    page: "3"
+    flags: ""
+
+  - date: "January 28"
+    time: "0950"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Radar contact, twelve miles. Dived."
+    page: "3"
+    flags: ""
+
+  - date: "January 28"
+    time: "1238"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Surfaced."
+    page: "3"
+    flags: ""
+
+  - date: "January 31"
+    time: "0131"
+    zone: "K"
+    lat: "9-50 N."
+    lon: "147-06.5 E."
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "160° T"
+    speed: "14"
+    event: "[SUMMARY] Radar contact at 22,000 yards in Lat. 9-50 N. Long. 147-06.5 E.; commenced approach on convoy of three large ships and two escorts on base course 160° T, speed 14."
+    page: "3"
+    flags: "Heading above entry reads: 'THIRD CONTACT FIRST ATTACK FUBUKI CLASS DESTROYER 1700 TONS, SUNK'."
+
+  - date: "January 31"
+    time: "0200"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Ships identified as three large new type AK or AP escorted by two FUBUKI Class Destroyers; clear night with starshine, sighted from bridge at 11,000 yards."
+    page: "3"
+    flags: ""
+
+  - date: "January 31"
+    time: "0225"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "[SUMMARY] Approaching firing point when convoy zigged forming line of bearing; decided to fire three at last AP and three at near DD, keeping TBT on near escort."
+    page: "3"
+    flags: "Last two lines heavily faded/overstruck ('Prepared to fire, kept TBT on the near escort. SJ got set up on target...')."
+
+  - date: "January 31"
+    time: "0227"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event:
+    page: "3"
+    flags: "Time entry blank; text merged into 0228 K."
+
+  - date: "January 31"
+    time: "0228"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Attack on far escort"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Fired three torpedoes across the ⟦stern of⟧ this radar target (intended to be the last ⟦AP at⟧ 4000 range), gyro angle ⟦zero⟧, 120 port track (ATTACK 1-A). Bridge, however, reported the target to be the far escort, at about 2500 yards range. Range to the near DD at this time was 900 yards, and he began to swing toward us. Immediately shifted targets, and at"
+    page: "3"
+    flags: "Text on page 3 heavily faded and overstruck; entry continues onto page 4 under heading '0228 K (Cont'd.)'."
+
+  - date: "January 31"
+    time: "0229"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Attack on near DD"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Fired three torpedoes at the DD, range 700 yards, 90 port track, gyro angle zero. Total divergent spread 10°. (ATTACK 1-B). Swung right with full rudder and full speed. The quickness with which this situation developed was such that there was no time to do anything but shoot, shift targets, and shoot again. The six torpedoes were fired practically as one continuous salvo. Although it had been intended to shoot first at the last AP, the radar got on the far DD instead."
+    page: "4"
+    flags: "Narrative includes tactical sketch on page 4; text continues to top of page 5."
+
+  - date: "January 31"
+    time: "0230"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Torpedo hits on far escort"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Heard and saw two hits in the direction of the convoy. The far escort disappeared in a cloud of smoke and debris."
+    page: "5"
+    flags: ""
+
+  - date: "January 31"
+    time: "0230"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "Saw one torpedo track cross just in front of the near DD. Did not see the other two. No hits. Sound reported a torpedo had been fired at us. Believe, of the three torpedoes fired at the DD, one at least, possibly two, were erratic, and that this was one of them."
+    page: "5"
+    flags: "Zone letter missing from time heading; filled from surrounding entries."
+
+  - date: "January 31"
+    time: "0230 1/2"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "Depth charge attack by DD"
+    part: "I"
+    charges: "6"
+    damage: "jarred paint and cork from the bulkheads."
+    with:
+    course:
+    speed:
+    event: "The DD came to life, fired a green Very star from the bridge, and dropped a pattern of six depth charges. Range about 500 yards; they jarred paint and cork from the bulkheads."
+    page: "5"
+    flags: "Typed as '0230 1/2 K' (zone letter faint); typed 'bulkheads' as 'bulkhands'."
+
+  - date: "January 31"
+    time: "0232"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "The range to the DD, which had opened to 2200 yards, commenced to close rapidly, with his angle on the bow decreasing, and it appeared that he had sighted us."
+    page: "5"
+    flags: "Zone letter missing from time heading; filled from surrounding entries."
+
+  - date: "January 31"
+    time: "0233"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "attack"
+    title: "Stern tube attack on FUBUKI class DD"
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "SECOND ATTACK FUBUKI CLASS DD - MISSED Steadied with our stern toward the DD, and fired four torpedoes aft at a range of 1500, 40 port track, gyro angle 10 L. All missed."
+    page: "5"
+    flags: ""
+
+  - date: "January 31"
+    time: "0234"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag: "counterattack"
+    title: "DD gun and depth charge fire"
+    part: "I"
+    charges: "numerous"
+    damage:
+    with:
+    course:
+    speed:
+    event: "The DD seemed to go wild, turning this way and that, dropping numerous depth charges and firing his guns."
+    page: "5"
+    flags: ""
+
+  - date: "January 31"
+    time: "0250"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course: "210° T"
+    speed: "16 knots"
+    event: "[SUMMARY] Completed reload while DD methodically depth charged area; tracked convoy on course 210° T at 16 knots, our top speed limited to 17 1/2 knots."
+    page: "5"
+    flags: ""
+
+  - date: "January 31"
+    time: "0315"
+    zone: "K"
+    lat:
+    lon:
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed:
+    event: "⟦Were⟧ losing the race to get back to the convoy. ⟦DD⟧ passed us at about 10,000 yards, going hell bent for election."
+    page: "5"
+    flags: "Words faded/cut off at beginning of lines."
+
+  - date: "January 31"
+    time: "0441"
+    zone: "K"
+    lat: "9-21 N."
+    lon: "147-02 E."
+    from:
+    bearing:
+    distance:
+    bearing_is:
+    tag:
+    title:
+    part: "I"
+    charges:
+    damage:
+    with:
+    course:
+    speed: "14 knots"
+    event: "[SUMMARY] THIRD ATTACK 10,000 TON AP OR NAVAL AUXILIARY - SUNK Lat. 9-21 N. Long. 147-02 E. Rejoined four-ship column led by DD; resolved to fire at any opportunity before daylight."
+    page: "5"
+    flags: "Zone letter missing from time heading; filled from surrounding entries."
+```
+
+Faded text on page 1 (lines 3–4 of 0635 K entry) and page 3 (lines around 0225 K–0228 K), as well as the endorsement and COMSUBPAC report number which were not included in this document selection.

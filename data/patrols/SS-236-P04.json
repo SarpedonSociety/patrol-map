@@ -510,7 +510,9 @@
     "Narrative entry at 0150 L 23 December (page 1) describes this attack; its account is included here.",
     "Zone K corrected to L (zone_fix in patrol.yml)."
    ],
-   "contact_no": "1."
+   "contact_no": "1.",
+   "result": "miss",
+   "result_basis": "hand"
   },
   {
    "id": "SS-236-P04-N06",
@@ -1466,7 +1468,9 @@
     "Time zone K inferred from Part I note.",
     "Zone K corrected to L (zone_fix in patrol.yml)."
    ],
-   "contact_no": "9."
+   "contact_no": "9.",
+   "result": null,
+   "result_basis": null
   },
   {
    "id": "SS-236-P04-N18",
@@ -2244,7 +2248,9 @@
     "Time zone K inferred from Part I note.",
     "Zone K corrected to L (zone_fix in patrol.yml)."
    ],
-   "contact_no": "19."
+   "contact_no": "19.",
+   "result": "hit",
+   "result_basis": "hand"
   },
   {
    "id": "SS-236-P04-C20",
@@ -2500,7 +2506,9 @@
     "Report page 6 ends with freighter comparison list containing illegible/blank ship names before BELGIUM MARU; text continues onto page 7.",
     "Zone K corrected to L (zone_fix in patrol.yml)."
    ],
-   "contact_no": "22."
+   "contact_no": "22.",
+   "result": "hit",
+   "result_basis": "hand"
   },
   {
    "id": "SS-236-P04-N31",

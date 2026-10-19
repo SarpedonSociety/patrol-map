@@ -1,0 +1,912 @@
+YAML
+
+```
+boat: "SS-236"
+patrol: 8
+year: 1943
+report: "Report of Eighth War Patrol."
+comsubpac_report_no:
+commanding_officer:
+citation:
+  archive: "NARA"
+  record_group: "38"
+  nara_catalog_id: "4697018"
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - са. 06/01/1946, documenting the period ca. 09/01/1939 ca. 05/30/1946"
+  reel: "A811"
+  micro_serial: "64584"
+  file:
+  serial:
+  date: "1/15/1944"
+fold3_images:
+  7: 270957918
+  8: 270957924
+  9: 270957928
+  10: 270957933
+  11: 270957936
+default_hemisphere: { lat: N, lon: E }
+departure: { port: , date: , time: , zone: , page: , flags: }
+arrival:   { port: , date: , time: , zone: , page: , flags: }
+events:
+- date: "December 26, 1943"
+  time: "1024"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Sighted hospital ship (probably RYUKO MARU) heading for TOAGEL MLUNGUI; commenced approach. The ship was approaching from southwest; appeared same as seen leaving yesterday."
+  page: 6
+  flags: "Date heading inferred from preceding day / sequence; page starts without day header before December 27."
+- date: "December 26, 1943"
+  time: "1150"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "AIRCRAFT CONTACT 4. Sighted seaplane probably a RUFE, circling and landing in MALAKAL harbor."
+  page: 6
+  flags:
+- date: "December 26, 1943"
+  time: "1405"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course: "150"
+  speed:
+  event: "[SUMMARY] Rain squall lifted; freighter (SHIP CONTACT 9) stood out AIMELIIK pass, bearing 114 T, 10,000 yards. Commenced high-speed approach heading 150 to intercept. Patrol boat kept station."
+  page: 6
+  flags:
+- date: "December 26, 1943"
+  time: "1432"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Attack 1"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Fired four torpedoes. Range 3300 yds, 125 stbd. track, gyro angle zero, 1 divergent spread. ATTACK 1.\n1432-18 Fired 1 tube.\n1432-27       2 tube.\n1432-35       4 tube.\n1432-44       ⟦3⟧ tube.\n1436-43 Heard faint explosion on sound.\n1437-37 heard loud torpedo explosion.\n1437-53   \"    \"      \"         \"\n1438-17   \"    \"      \"         \"\nAfter firing, went deep, as at least one torpedo was seen smoking badly and patrol boat was seen to turn toward us. Did not see ex- plosions. It is believed all torpedoes hit the reef, probably about 2. mile north of TOAGEL MLUNGUI."
+  page: 6
+  flags: "Tube order typed 1, 2, 4, then a faint digit (probably 3)."
+- date: "December 26, 1943"
+  time: "1442-30"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "counterattack"
+  title:
+  part: "I"
+  charges: "2"
+  damage:
+  with:
+  course:
+  speed:
+  event: "First depth charge, not close.\n1444-40 Second depth charge, not close. Patrol boat did not ping, apparently ran down torpedo tracks and dropped near firing point. He stopped to listen occasionally, but did not appear to pick us up. At 300 feet there was a 15 degree gradient, starting at about 160 feet."
+  page: 6
+  flags: "Charges count covers 1442-30 and 1444-40."
+- date: "December 26, 1943"
+  time: "1520"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Could no longer hear patrol boat's screws, started up. A slow process due to gradient. This was one of the times that silent trim pump would have been appreciated."
+  page: 6
+  flags:
+- date: "December 26, 1943"
+  time: "1556"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "At periscope depth, nothing in sight except land."
+  page: 6
+  flags:
+- date: "December 26, 1943"
+  time: "1831"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 6
+  flags:
+- date: "December 26, 1943"
+  time: "1900"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Sighted searchlight near TOAGEL MLUNGUI, matching measures in TAUTOG patrol report. Concurred it is an anti-submarine measure aiding search between submarine and light."
+  page: 6
+  flags:
+- date: "December 26, 1943"
+  time: "2110"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Small radar pip bearing 145 T, range 6,000 yards; tracked and closed. When definitely established as patrol boat or sampan, avoided."
+  page: 6
+  flags:
+- date: "December 27, 1943"
+  time: "0134"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Heard light high speed screws bearing 148 T, could not see, no indi- cation on radar(at this time picking up land pips at ranges of 60,000 yds). Avoided."
+  page: 6
+  flags: "Entry completed at top of page 7."
+- date: "December 27, 1943"
+  time: "0317"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Heard screws again. Avoided. There exists the possibility that midget submarines may be employed as an anti-submarine measure. This would be effective in conjunction with searchlights."
+  page: 7
+  flags:
+- date: "December 27, 1943"
+  time: "0520"
+  zone:
+  lat:
+  lon:
+  from: "ANGAUR ISLAND"
+  bearing: "115 T"
+  distance: "10 miles"
+  bearing_is: "to_landmark"
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dove for submerged patrol with ANGAUR ISLAND bearing 115 T, dist- ance 10 miles."
+  page: 7
+  flags:
+- date: "December 27, 1943"
+  time: "0825"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] SHIP CONTACT 12: Sighted 4-ship convoy bearing 121 T, 6 miles, heading ~030 T. Sent ahead 6.5 knots on northeasterly course to intercept if passing between Angaur and Peleliu."
+  page: 7
+  flags:
+- date: "December 27, 1943"
+  time: "0930"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Secured approach as convoy headed for Malakal Pass. Sighted seaplane (AIRCRAFT CONTACT 5). Found no ship at Angaur pier; proceeded north."
+  page: 7
+  flags:
+- date: "December 27, 1943"
+  time: "1840"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced. Headed northward to conduct a surface patrol on EMPIRE - PALAU route tomorrow."
+  page: 7
+  flags:
+- date: "December 28, 1943"
+  time:
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "During day conducted surface patrol of EMPIRE PALAU route."
+  page: 7
+  flags: "No time given."
+- date: "December 29, 1943"
+  time: "0045"
+  zone:
+  lat: "8-13 N"
+  lon: "134-05"
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Radar contact bearing 016 T, range 20,000 yds. SHIP CONTACT 13(our lucky number) ATTACKS 2,3,4,5,6,7, and 8. LAT 8-13 N LONG 134-05"
+  page: 7
+  flags: "Longitude lacks directional hemisphere letter (E)."
+- date: "December 29, 1943"
+  time: "0058"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Observed nine pips on PPI (six ships, three escorts in two columns). Overcast, rainy night. Maneuvered toward starboard bow to attack largest lead ship."
+  page: 7
+  flags:
+- date: "December 29, 1943"
+  time: "0140"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Convoy zigged to the right, putting us about dead ahead of stbd. column."
+  page: 7
+  flags:
+- date: "December 29, 1943"
+  time: "0151"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Pinging escort passed within 1550 yards undetected; appeared to be a torpedo boat or DD by silhouette and bow wave."
+  page: 7
+  flags:
+- date: "December 29, 1943"
+  time: "0154"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Convoy zigged, placing boat in starboard column surrounded by ships (closest under 600 yards). Sighted while extricating; convoy scattered wildly."
+  page: 7
+  flags:
+- date: "December 29, 1943"
+  time: "0157-40"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Attack 2"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "ATTACK 2.\n0157-40 Fired 7 tube.\n0157-52 Fired 8 tube.\nThese two torpedoes were fired with a snap set up at a tanker as we were clearing convoy at full speed, estimated range 600 yds, 90 stbd. track. While firing second torpedo, noted target changing course so checked fire. A torpedo hit was heard 2 min 20 sec after firing 7, which indicates a hit on a ship in the port or far column. At time of firing, PPI indicated several ships in line of fire. Rain at the time reduced visibility below 3000 yds. This hit also confused the escorts, as they apparently all headed to the vicinity of the ship that had been hit and depth charged the vicinity for several hours. It is be- lieved that excessive speed, coupled with short range, resulted in torpedoes under running intended target."
+  page: 8
+  flags: "Report page numbered 8 (typed -7- corrected to 8)."
+- date: "December 29, 1943"
+  time: "0202-58"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Attack 3"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "ATTACK 3.\n0202-58 After slowing down, fired 9 tube.\n0203-09 Fired 10 tube.\nThese were \"down the alley\" shots at a merchant ship who appeared to be trailing us, probably with the belief that we were an escort. Spread R and L. Range 1600 yds. Both missed."
+  page: 8
+  flags:
+- date: "December 29, 1943"
+  time: "0206-07"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Heard loud explosion, likely a hit in far column or heavy depth charge. Found starboard column fanned out; escorts depth charging false contacts. Commenced new approach on tanker."
+  page: 8
+  flags:
+- date: "December 29, 1943"
+  time: "0246-07"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Attack 4"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "ATTACK # 4.\n0246-07 Fired 1 tube.\n0246-17 Fired 2 tube.\n0246-27 Fired 3 tube.\n0247-45 Heard and saw torpedo hit.\n0247-50   \"    \"   \"     \"     \"\n0248-10   \"    \"   \"     \"     \"\nThese were fired at a range of 2150 yds, 130 stbd. track, 1° diver- gent spread.\n0250 Saw ship sink rapidly. Radar pip disappeared. Doubt if there were many survivors from this fellow."
+  page: 8
+  flags:
+- date: "December 29, 1943"
+  time: "0255"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Started tracking new target bearing 296, range 4200 yds. This was the fellow who was trying to south- southeast."
+  page: 8
+  flags:
+- date: "December 29, 1943"
+  time: "0300-28"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Attack 5"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "ATTACK 5\n0300-28 Fired 4 tube.\n0302-36 Fired 5 tube.\n0302-47 Fired 6 tube.\nThese were fired at a large freighter, at a range of 1600 yds, 120, port track, and all missed although explosions were heard at 3-08-01 3-08-27 indicating possible hits on something. It was raining at the time so that binoculars could not be used to take TBT bearings, bearings being taken by sighting along vanes on TBT. Range was too close for accurate radar bearings.\nATTACK 5 (Con't)\nTarget could not be seen through grease pencil. Possibly sound bearings would have been more accurate. Commenced another run on same target."
+  page: 8
+  flags: "Completed on page 9."
+- date: "December 29, 1943"
+  time: "03-55-40"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Attack 6"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "ATTACK 6.\n03-55-40 Fired 4 tube.\n03-55-48 Fired 5 tube.\n03-55-57 Fired 6 tube.\n03-57-06 Saw and heard torpedo hit.\n03-57-14  \"   \"    \"      \"     \"\n03-57-22 Heard torpedo hit.\nThese were fired at a large freighter on 80° stbd. track, range 2100 yds, 2 degrees divergent spread. Two hits were seen from bridge and explosions indicate a third hit probably not seen due to target being obscured in smoke. Saw numerous flashlights on target which was later realized to be crew abandoning ship. Target slowed down and tracked at zero speed, and as much oil in the water but did not appear to be sinking fast, decided to fire a coup de grace shot at it."
+  page: 9
+  flags:
+- date: "December 29, 1943"
+  time: "0423-56"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Attack 7"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "ATTACK 7.\n0423-56 Fired 3 tube. Range 1750 yds, target stopped. Estimated 100 stbd. track. Torpedo was seen to pass astern of target.\n0424-55 Fired 2 tube with same data as above except with a 4° offset to the right. Torpedo missed ahead. Swung ship to get in position for a stern shot.\n0435 While backing into position for a close range stern shot, saw target sink rapidly. Radar pip disappeared. We had wasted two torpedoes on this fellow."
+  page: 9
+  flags:
+- date: "December 29, 1943"
+  time: "0436"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Radar indicated next nearest ship bearing 014 T, 9500 yards; commenced approach. This was target attacked in Attack 3. Dawn approaching with one forward and four aft torpedoes remaining."
+  page: 9
+  flags:
+- date: "December 29, 1943"
+  time: "0502-08"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "attack"
+  title: "Attack 8"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "ATTACK 8.\n0502-08 Fired 1 tube, 145° stbd. track, range 2050 yds.\n0504-08 Hit square amidships that broke its back. Target was a passenger freighter.\n0512 Saw target sink. Radar pip disappeared. Radar screen was now clear, indicating that there were probably no ships within ten miles. Dawn was rapidly approaching. Secured from battle stations. SILVERSIDES has had herself a busy night of it, firing 19 torpedoes in about three hours. If time had not been pressing, attacks could have been made more deliberately and more hits obtained. Would have \"enjoyed\" this convoy more if had been able to spread the attack over two nights. The Commanding Officer desires to commend -- the officers and crew all did their job well. The control party functioned smoothly. Lt-Comdr. BASLEY, assistant in command and the ass't TDC operator. Lt Worthington quickly analyzed the set-ups on the TDC and set them up accurately. Lt. Kane watched the PPI and supplied accurate ranges and bearings to control party and bridge. Lt. Nichols manned the TBT continuously despite difficult conditions. Lt(jg) Parker plotted continuously from the time contact was first establish- ed. Lt. Cielesz and Lt(jg) Reidel kept things organized below, continuously compensating so that we could dive at any minute and had perfect trim when did make a dive later. Ensign Smiley was busy going from one torpedo room to the other supervising the firing and the reloads which were made in record time. The Commanding Officer, who at the time was too busily engaged watching a nearby escort, did not intentionally allow the ship to get in the dangerous position in the middle of the convoy. Luck and Mr. Fairbanks Morse got us out of that spot."
+  page: 9
+  flags: "Entry text spans pages 9 and 10."
+- date: "December 29, 1943"
+  time: "0534"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Dove and headed toward TOAGEL MLUNGUI conducting submerged patrol."
+  page: 10
+  flags:
+- date: "December 29, 1943"
+  time: "0925"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Heard pinging and observed FUBUKI-class DD bearing 044 T, ~12,000 yards (SHIP CONTACT 14) making high-speed sweep. Attempted firing position but only had stern torpedoes."
+  page: 10
+  flags:
+- date: "December 29, 1943"
+  time: "1043"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Sighted another DD of same class bearing 091 T (SHIP CONTACT 15). Closest range ~7000 yards. Enemy searching for missing ships."
+  page: 10
+  flags:
+- date: "December 29, 1943"
+  time: "1451"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag: "rescue"
+  title: "Sighting of lifeboat with survivors"
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Sighted lifeboat under sail bearing 295 T. Decided to remain in vicinity of lifeboat until sunset hoping that a DD would lie to and attempt rescue or that we would get a chance to take back a live souvenir. Boat appeared to have about 20 survivors in it."
+  page: 10
+  flags:
+- date: "December 29, 1943"
+  time: "1706"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Sighted patrol boat bearing 338 T headed toward survivors, having sent it out instead of a destroyer."
+  page: 10
+  flags:
+- date: "December 29, 1943"
+  time: "1744"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Patrol boat headed toward us instead of continuing toward lifeboat. Believing we were possibly sighted dove under the density layer and rigged for silent running."
+  page: 10
+  flags:
+- date: "December 29, 1943"
+  time: "1816"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Back to periscope depth. Too dark to see. Could no longer hear screws."
+  page: 10
+  flags:
+- date: "December 29, 1943"
+  time: "1825"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Surfaced."
+  page: 10
+  flags:
+- date: "December 29, 1943"
+  time: "1837"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] Radar contact on patrol boat bearing 273 T, range 9150 yards. Tracked briefly, then headed toward southwest part of area to cool off."
+  page: 10
+  flags:
+- date: "December 30, 1943"
+  time: "0126"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Started transmitting SILVERSIDES second serial giving results of patrol to date."
+  page: 10
+  flags:
+- date: "December 30, 1943"
+  time: "0310"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "Completed transmitting. Considerable interference and jamming ex- perienced, message finally passed to radio CANBERRA. Headed over toward area TEN SE for surface patrol on PALAU RABAUL lanes."
+  page: 10
+  flags:
+- date: "December 30, 1943"
+  time: "0520"
+  zone:
+  lat:
+  lon:
+  from:
+  bearing:
+  distance:
+  bearing_is:
+  tag:
+  title:
+  part: "I"
+  charges:
+  damage:
+  with:
+  course:
+  speed:
+  event: "[SUMMARY] SJ radar contact at 13,500 yards tracked plane at 120 knots (AIRCRAFT CONTACT 6); sky overcast. SJ proved valuable for low-flying planes after transmission was D/F'd."
+  page: 10
+  flags: "Text cut off at bottom edge of page 10."
+```
+
+I could not transcribe the endorsement, commanding officer, departure/arrival data, the full text cut off at the bottom of page 10, and missing earlier/later pages not included in this excerpt.

@@ -60,3 +60,13 @@ tonnage:
       source: "COMSUBPAC endorsement: freighter damaged, 7,210 tons. Placed at the start of the depth charging (2018)." }
   - { date: 20JAN, time: 2018, zone: L, target: Freighter, result: damaged, tons: 5155, basis: credited,
       source: "COMSUBPAC endorsement: freighter damaged, 5,155 tons. Placed at the start of the depth charging (2018)." }
+
+# Torpedo attack results for the map marker (README, "Attack results").
+# hit = at least one torpedo exploded against the target; miss = none
+# (misses, duds, prematures). Keys are the ids on the detail cards.
+results:
+  C01: miss   # p.9 contact 1: "The first was a premature explosion ... The second was not observed"
+  C19: hit    # p.10 contact 19: "it hit target in bow ... Second hit heard ... Third hit"
+  C22: hit    # p.10 contact 22: "heard two hits ... three more hits"
+  # C09: hit / miss  # p.9 contact 9 (submarine): one premature; "Second explosion one minute fifty
+  #                  # seconds after firing. Targets propellers ... stopped". Explosion heard, not seen.

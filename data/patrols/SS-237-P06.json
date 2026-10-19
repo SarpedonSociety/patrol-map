@@ -1196,7 +1196,9 @@
     "Time from the narrative entry headed attack 1 (page 3).",
     "Narrative entry at 2055 I September 17, 1943 (page 3) describes this attack; its account is included here.",
     "No position in the report. Placed on the track between the recorded positions at 1943-09-17 06:30 and 1943-09-17 15:05 GMT, as an estimate."
-   ]
+   ],
+   "result": "miss",
+   "result_basis": "hand"
   },
   {
    "id": "SS-237-P06-N27",
@@ -1511,7 +1513,9 @@
     "Transcriber: Time given in Z (Greenwich Civil Time); narrative gives local time 0023 I on Sept. 18. Own ship depth typed \"55 ft.\" (first digit resembles a 5 overstruck or faint 6).",
     "Transcriber: Checked against the scan of page 26 (Fold3 frame 26) on 30 Sept 2026. Gemini had the tubes as #5 #6 #4 #3, Actuation Actual as \"One Contact None None *\" and Type Spread as \"Bow - Middle - Middle - Stern *\"; corrected to the page: tubes #6 #5 #4 #3, \"One Contact\" across all tubes, spread \"Middle - Middle - Bow - Stern *\".",
     "Narrative entry at 0023 I September 18, 1943 (page 4) describes this attack; its account is included here."
-   ]
+   ],
+   "result": "hit",
+   "result_basis": "hand"
   },
   {
    "id": "SS-237-P06-N36",
@@ -2061,6 +2065,8 @@
     "Transcriber: ",
     "Narrative entry at 2056 I September 21, 1943 (page 6) describes this attack; its account is included here."
    ],
+   "result": "hit",
+   "result_basis": "hand",
    "figures": [
     "attack-sketch"
    ]
@@ -2103,6 +2109,8 @@
     "Transcriber: Mark Exploder line typed \"Mk. 6-1\" with hyphen faint.",
     "Narrative entry at 2057 I September 21, 1943 (page 6) describes this attack; its account is included here."
    ],
+   "result": "hit",
+   "result_basis": "hand",
    "figures": [
     "attack-sketch"
    ]
@@ -2229,6 +2237,8 @@
     "Narrative entry at 2100 I September 21, 1943 (page 7) describes this attack; its account is included here.",
     "Text preceding fired three torpedoes leads directly into Attack 5 at 2100 I"
    ],
+   "result": "miss",
+   "result_basis": "hand",
    "figures": [
     "attack-sketch"
    ]
@@ -2303,6 +2313,8 @@
     "Transcriber: Firing Interval and Type Spread lines blank (single torpedo fired).",
     "Narrative entry at 2101 I September 21, 1943 (page 7) describes this attack; its account is included here."
    ],
+   "result": "hit",
+   "result_basis": "hand",
    "figures": [
     "attack-sketch"
    ]
@@ -2592,6 +2604,8 @@
     "Transcriber: Overhaul Activity typed \"U.S.S. PUSHNELL\" (B faintly typed or misstruck as P).",
     "Narrative entry at 2212 I September 21, 1943 (page 9) describes this attack; its account is included here."
    ],
+   "result": "hit",
+   "result_basis": "hand",
    "figures": [
     "attack-sketch"
    ]
@@ -2689,6 +2703,8 @@
     "Transcriber: Actuation Actual line left blank in form.",
     "Narrative entry at 2236 I September 21, 1943 (page 10) describes this attack; its account is included here."
    ],
+   "result": "miss",
+   "result_basis": "hand",
    "figures": [
     "attack-sketch"
    ]
@@ -2813,6 +2829,8 @@
     "Transcriber: Actuation Actual line left blank in form.",
     "Narrative entry at 0022 I September 22, 1943 (page 10) describes this attack; its account is included here."
    ],
+   "result": "miss",
+   "result_basis": "hand",
    "figures": [
     "attack-sketch"
    ]

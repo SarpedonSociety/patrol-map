@@ -1,0 +1,1407 @@
+YAML
+
+```
+boat:            SS-236
+patrol:          8
+year:            1943
+report:          "U.S.S. SILVERSIDES - Report of Eighth War Patrol."
+comsubpac_report_no:  
+commanding_officer:
+citation:        
+  archive:       "NARA"
+  record_group:  "38"
+  nara_catalog_id: "4697018"
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 - ca. 05/30/1946"
+  reel:          "A811"
+  micro_serial:  "64584"
+  file:          
+  serial:        
+  date:          "1/15/1944"
+fold3_images:    { 11: 270957941, 12: 270957948, 13: 270957953, 14: 270957957, 15: 270957961 }
+default_hemisphere: { lat: N, lon: E }
+departure: { port: , date: , time: , zone: , page: , flags: }
+arrival:   { port: "MIDWAY", date: "15 January, 1944", time: "1500", zone: "Y", page: "-15-", flags: "" }
+events:          
+- date: "December 31, 1943."
+  time: "0700"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] SJ radar tracked two planes closing to 5 miles; could not see them due to clouds. SD radar showed another radar. Dove to avoid detection."
+  page: "-11-"
+  flags: "Date heading precedes 0230 entry below, but entries start at 0700 following previous page sequence."
+- date: "December 31, 1943."
+  time: "0920"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surfaced, resumed surface patrol."
+  page: "-11-"
+  flags: ""
+- date: "December 31, 1943."
+  time: "2110"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Headed south to conduct surface patrol well south of PALAU."
+  page: "-11-"
+  flags: ""
+- date: "December 31, 1943."
+  time: "0230"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "# 3 fuel ballast tank dry. Rigged as normal ballast tank."
+  page: "-11-"
+  flags: ""
+- date: "December 31, 1943."
+  time: "0420"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Dove to flush out # 3."
+  page: "-11-"
+  flags: ""
+- date: "December 31, 1943."
+  time: "0448"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surfaced."
+  page: "-11-"
+  flags: ""
+- date: "December 31, 1943."
+  time: "1859"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Made trim dive."
+  page: "-11-"
+  flags: ""
+- date: "December 31, 1943."
+  time: "1947"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surfaced."
+  page: "-11-"
+  flags: ""
+- date: "January 1, 1944."
+  time: "0536"
+  zone: 
+  lat: 
+  lon: 
+  from: "ASIA ISLAND"
+  bearing: "270 T"
+  distance: "9050 yds."
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Passed ASIA ISLAND abeam to port, bearing 270 T, range 9050 yds. No indication of habitation. Conducted surface patrol during the day."
+  page: "-11-"
+  flags: "Quote: 'Passed ASIA ISLAND abeam to port, bearing 270 T, range 9050 yds.'"
+- date: "January 1, 1944."
+  time: "1821"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Set course to pass through area TEN S.E."
+  page: "-11-"
+  flags: ""
+- date: "January 2, 1944."
+  time: "1251"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "counterattack"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "O.O.D. Lt. Malone, sighted impulse bubble and torpedo wake bearing 160 T, range of bubble about 1200 yds. Torpedo coming in on abot a 120 stbd. track OOD swung left with full rudder and went ahead emergency. Torpedo passed about 50 yds down stbd. beam. Another torpedo was seen to the right of this one, passing about 150 yds. down stbd. beam. Last torpedo fired came down port side, distance about 75 yards. Lt. Malone deserves much credit for his prompt and correct action. After firing, could see periscope astern. The Jap deserves credit for his periscope handling. Sea was calm, with some ripples and no whitecaps. SILVERSIDES had been zigzagging, keeping an all-around lookout with both periscopes plus 4 lookouts and 2 officers on the bridge. A possible sound approach is indicated. SHIP CONTACT # 16."
+  page: "-11-"
+  flags: ""
+- date: "January 2, 1944."
+  time: "1335"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Slowed down, and dove, intending to reverse course and proceed to vicinity of attack and make night radar attack on Jap sub when he surfaced."
+  page: "-11-"
+  flags: ""
+- date: "January 2, 1944."
+  time: "1337"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "notable"
+  title: "Fire in the maneuvering room"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Fire in the maneuvering room. Temporairly lost all power on shafts."
+  page: "-11-"
+  flags: ""
+- date: "January 2, 1944."
+  time: "1339"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "notable"
+  title: "Regained power on port shaft"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Regained power on port shaft."
+  page: "-11-"
+  flags: ""
+- date: "January 2, 1944."
+  time: "1350"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "notable"
+  title: "Fire appears to be in cork on overhead"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Fire appears to be in cork on overhead."
+  page: "-11-"
+  flags: ""
+- date: "January 2, 1944."
+  time: "1359"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "notable"
+  title: "Surfaced due to maneuvering room fire"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surfaced. Flame about under control, but maneuvering room untenable except with rescue breathing apparatus. 17 CO2 fire extinguishers had been used on fire. Crew fighting fire becoming nauseated and in several cases almost collapsed. Continued submergence deemed unwise."
+  page: "-11-"
+  flags: ""
+- date: "January 2, 1944."
+  time: "1400"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "notable"
+  title: "Clearing area and ventilating boat after fire"
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Proceeded to clear area, ventilated boat. Cause of fire not yet known, secured plan of attack."
+  page: "-11-"
+  flags: ""
+- date: "January 2, 1944."
+  time: "1410"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "notable"
+  title: "Restored power on stbd. shaft"
+  part: "I"
+  charges: 
+  damage: "burnt cork on overhead"
+  with: 
+  course: 
+  speed: 
+  event: "Restored power on stbd. shaft. During the afternoon checked over the control cubicle carefully. Only damage was burnt cork on overhead. Control cubicle operated normally in all positions. Believe cork became overheated while operating at full power, and then when ventilation was secured upon diving its temperature reached the ignition point, and it burst into flame. The cork is very close to the bus bars and starting resistors. Some insulation with a higher ignition temperature is indicated."
+  page: "-11-"
+  flags: ""
+- date: "January 2, 1944."
+  time: "1858"
+  zone: 
+  lat: 
+  lon: 
+  from: "MERIR ISLAND"
+  bearing: "010 T"
+  distance: "19,600 yds."
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Radar picked up MERIR ISLAND bearing 010 T, distnace 19,600 yds."
+  page: "-12-"
+  flags: "Quote: 'Radar picked up MERIR ISLAND bearing 010 T, distnace 19,600 yds.'"
+- date: "January 3, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surface patrol, proceeding northly west of area TEN."
+  page: "-12-"
+  flags: "No time given for this entry."
+- date: "January 4, 1944."
+  time: "0910"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Dove to check trim and grind in leaky blow valve on negative tank."
+  page: "-12-"
+  flags: ""
+- date: "January 4, 1944."
+  time: "1122"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surfaced."
+  page: "-12-"
+  flags: ""
+- date: "January 4, 1944."
+  time: "1125"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] SJ radar contacted two pips bearing 310 T, 31,350 yds. Tracked on easterly course, ~12 kts. High periscope showed masts of two large ships. Closed to 15,000 yds after sunset; escort pip appeared."
+  page: "-12-"
+  flags: ""
+- date: "January 5, 1944."
+  time: "0130"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Moonset."
+  page: "-12-"
+  flags: ""
+- date: "January 5, 1944."
+  time: "0155"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Went to battle stations and commenced approach. Night fairly dark, rough seas somewhat abated. Set torpedoes at 15 feet, planned to fire beam to stern."
+  page: "-12-"
+  flags: ""
+- date: "January 5, 1944."
+  time: "0228"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Sighted target at ~8000 yds. Selected starboard tanker, planned to fire on 60 or 70 starboard track with stern tubes."
+  page: "-12-"
+  flags: ""
+- date: "January 5, 1944."
+  time: "0257-10"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "attack"
+  title: "ATTACK # 9."
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "ATTACK # 9.\n0257-10 Fired # 10 tube.\n0257-20 Fired # 9 tube.\n0257-20 Fired # 8 tube.\n0257-35 Fired # 7 tube.\nTorpedoes were fired with a 65 stbd. track, range 1840 yds, gyro 184-187. Target was large tanker and he filled the field of 7 x 50 binoculars.\n0300-05 Heard loud explosion.\n0300-08 \" \" \"\n0300-55 \" \" \"\nExplosions do not check with torpedo run. Sound heard an explosion which checked about right but time was not recorded. Lt. Nichols on TBT, saw one big splash near bow of target. Commanding Officer was looking for escort. Radar later reported size of target pip decreasing but this could be due to target changing course. About time explosions were heard, target zigged away. Escort again chose wrong side and dashed over to port side of convoy, dropping charges. Weather was probably too rough to shoot and some of the fish ran erratic. It is probable that target was damaged, although evidence is inconclusive."
+  page: "-12-"
+  flags: "Third torpedo fire time typed as 0257-20, identical to second; charges dropped by escort are mentioned in narrative text."
+- date: "January 5, 1944."
+  time: "0425"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Sent contact report; reported we were maintaining contact and all torpedoes expended. Maintained radar contact and tracked convoy during day."
+  page: "-12-"
+  flags: ""
+- date: "January 5, 1944."
+  time: "1512"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Sighted a destroyer joining convoy, coming from direction of Y.P. SHIP CONTACT # 18."
+  page: "-13-"
+  flags: ""
+- date: "January 5, 1944."
+  time: "1802"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Sent convoy position report to Comsubpac, reporting presence of additional D.E. escort."
+  page: "-13-"
+  flags: ""
+- date: "January 6, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Tracking convoy as before. Weather continues rough and overcast. Keeping station using SJ, keeping about 14 miles abeam in daytime, at night closing in to 7 miles astern."
+  page: "-13-"
+  flags: "No time given for entry heading."
+- date: "January 6, 1944."
+  time: "0419"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Sent another convoy position report to Comsubpac and receipted for Comsubpac serial 9."
+  page: "-13-"
+  flags: ""
+- date: "January 6, 1944."
+  time: "0547"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Made trim dive."
+  page: "-13-"
+  flags: ""
+- date: "January 6, 1944."
+  time: "0626"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Surfaced."
+  page: "-13-"
+  flags: ""
+- date: "January 6, 1944."
+  time: "1425"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE"
+  course: 
+  speed: 
+  event: "Sent another convoy position report to MUSKALLUNGE via Comsubpac, giving latest position and expectant morning position."
+  page: "-13-"
+  flags: ""
+- date: "January 6, 1944."
+  time: "2010"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE"
+  course: 
+  speed: 
+  event: "Commenced to get interference on SJ radar from another SJ, probably MUSKALLUNGE."
+  page: "-13-"
+  flags: ""
+- date: "January 6, 1944."
+  time: "2120"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE"
+  course: 
+  speed: 
+  event: "Transmitted on 450 KC's, reporting MUSKALLUNGE bearing from us, and our bearing and distance from convoy. Obtained receipt."
+  page: "-13-"
+  flags: ""
+- date: "January 7, 1944."
+  time: 
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE"
+  course: 
+  speed: 
+  event: "Tracking convoy as before. MUSKALLUNGE in contact with convoy also."
+  page: "-13-"
+  flags: "No time given for entry heading."
+- date: "January 7, 1944."
+  time: "0340"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE"
+  course: 
+  speed: 
+  event: "MUSKALLUNGE attacked convoy. Sighted flares from convoy. Watched radar screen. One of the two tankers seemed to stop. Kept tracking undamaged tanker. The damaged tanker was lost on the radar at 32,000 yds. At later rejoined the convoy."
+  page: "-13-"
+  flags: ""
+- date: "January 7, 1944."
+  time: "0411 to 0440"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Heard depth charges in direction of convoy."
+  page: "-13-"
+  flags: ""
+- date: "January 7, 1944."
+  time: "0541"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Sighted blinking light in direction of convoy. Convoy apparently reformed."
+  page: "-13-"
+  flags: ""
+- date: "January 7, 1944."
+  time: "0800"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE"
+  course: 
+  speed: 
+  event: "Received MUSKALLUNGE transmission on 450 KC's reporting two hits, inquiring as to damage observed, and convoy bearing and distance from explosions."
+  page: "-13-"
+  flags: ""
+- date: "January 7, 1944."
+  time: "0840"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE"
+  course: 
+  speed: 
+  event: "Sent MUSKALLUNGE, via 450KC's, information requested. Obtained receipt."
+  page: "-13-"
+  flags: ""
+- date: "January 7, 1944."
+  time: "1250"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE"
+  course: 
+  speed: 
+  event: "Sent MUSKALLUNGE, via 450 KC's, convoy position, course and speed and told him would transmit more information anytime he desired, as believed him to be in contact or nearly so. Obtained receipt."
+  page: "-13-"
+  flags: ""
+- date: "January 7, 1944."
+  time: "1535"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE"
+  course: 
+  speed: 
+  event: "MUSKALLUNGE reported he believed he was 27 miles astern of convoy, asked for convoy's latitude and longitude. Previously had been giving him bearing and distance from scene of attack, as our morning stars had indicated change in set, and he had been unable to get morning stars."
+  page: "-13-"
+  flags: ""
+- date: "January 7, 1944."
+  time: "1707"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Sent information requested and reported our radar showed his radar bearing about 290 T from us. Obtained receipt."
+  page: "-13-"
+  flags: ""
+- date: "January 7, 1944."
+  time: "2340"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE"
+  course: 
+  speed: 
+  event: "MUSKALLUNGE requested latest position of convoy, reported radar and one engine out of commission, and if not ahead by dawn would have to give up due to shortage of fuel."
+  page: "-13-"
+  flags: ""
+- date: "January 8, 1944."
+  time: "0114"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE"
+  course: 
+  speed: 
+  event: "Above message had been delayed by use of new crypto channel with wrong indicator. As soon as this was cleared up, sent MUSKALLUNGE convoy position and reported convoy now appeared to be heading for GUAM, and had two more escorts. Obtained receipt."
+  page: "-13-"
+  flags: "Text spans pages -13- and -14-."
+- date: "January 8, 1944."
+  time: "0224"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE"
+  course: 
+  speed: 
+  event: "MUSKALLUNGE reported he would be unable to obtain attack position and gave us his position he would be in at 1700, asking us to advise him if convoy zigged back."
+  page: "-14-"
+  flags: ""
+- date: "January 8, 1944."
+  time: "0554"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE"
+  course: 
+  speed: 
+  event: "Convoy had definitely zigged eastward again. Tried to raise MUSKALLUNGE on 450 KC's, but with no success."
+  page: "-14-"
+  flags: ""
+- date: "January 8, 1944."
+  time: "1355"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Sighted two large radar pips bearing 056 T, 28,550 yds (SHIP CONTACT # 19). Hazy, could not see through periscope. Ships moving southeasterly fast. Remained with tankers; cursed lack of torpedoes."
+  page: "-14-"
+  flags: ""
+- date: "January 8, 1944."
+  time: "1801"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE"
+  course: 
+  speed: 
+  event: "Transmitted message to Comsubpac reporting convoys latest position, course and speed. Also reported the two additional radar contacts and results of MUSKALLUNGE attack."
+  page: "-14-"
+  flags: ""
+- date: "January 8, 1944."
+  time: "1805"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE"
+  course: 
+  speed: 
+  event: "Convoy now had made large zig to southeast and would pass about 25 miles from MUSKALLUNGE 1700 position. Sent message to MUSKALLUNGE via 450 informing them of this. Obtained receipt."
+  page: "-14-"
+  flags: ""
+- date: "January 8, 1944."
+  time: "1748"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Indication of another SJ on radar screen, approximate bearing 275 T."
+  page: "-14-"
+  flags: ""
+- date: "January 8, 1944."
+  time: "2046"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE and SEADRAGON"
+  course: 
+  speed: 
+  event: "Convoy now headed east again. Treid to raise MUSKALLUNGE and SEADRAGON. No answer."
+  page: "-14-"
+  flags: ""
+- date: "January 8, 1944."
+  time: "2234"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "MUSKALLUNGE"
+  course: 
+  speed: 
+  event: "Sent MUSKALLUNGE convoy latest position, course and speed. Obtained receipt."
+  page: "-14-"
+  flags: ""
+- date: "January 9, 1944."
+  time: "0340"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Radar indicated two new pips surrounded by four small ships bearing 320 T, 13,000 yds; nothing sighted. Radar failed shortly after; believed false contact."
+  page: "-14-"
+  flags: "Narrative heading 'Tracking convoy as before.' has no time; first timed entry is 0340."
+- date: "January 9, 1944."
+  time: "0458"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "In morning twilight haze sighted the two tankers on the horizon bearing 230 T. Increased speed and turned away to open range."
+  page: "-14-"
+  flags: ""
+- date: "January 9, 1944."
+  time: "0510"
+  zone: 
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "[SUMMARY] Leading ship sent searchlight signals; did not reply. Radar still out; kept station using periscope. Tankers never helped us by smoking."
+  page: "-14-"
+  flags: ""
+- date: "January 9, 1944."
+  time: "1300"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Set clocks ahead one hour to -10 (K) time."
+  page: "-14-"
+  flags: "Clocks reset to zone K."
+- date: "January 9, 1944."
+  time: "1446"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "SEADRAGON"
+  course: 
+  speed: 
+  event: "Tried to raise SEADRAGON and send contact report. No answer."
+  page: "-14-"
+  flags: ""
+- date: "January 9, 1944."
+  time: "1739"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "SEADRAGON"
+  course: 
+  speed: 
+  event: "Tried to raise SEADRAGON and send contact report. No answer."
+  page: "-14-"
+  flags: ""
+- date: "January 9, 1944."
+  time: "1834"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "SEADRAGON"
+  course: 
+  speed: 
+  event: "Sent SEADRAGON convoy's position, course and speed via radio Guadalcanal and NPM. Message transmitted on Fox schedules about two hours later."
+  page: "-14-"
+  flags: ""
+- date: "January 9, 1944."
+  time: "2152"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "SEADRAGON"
+  course: 
+  speed: 
+  event: "Radar again in operation. Convoy bears 232 T, distance 12,800 yds. During the night, from 2107 to 0037 heard occasional depth charges at various intervals, indicating SEADRAGON was in contact with something, or that convoy was celebrating its closeness to TRUK by splurging and dropping embarrasing depth charges."
+  page: "-14-"
+  flags: ""
+- date: "January 10, 1944."
+  time: "0107"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "SEADRAGON"
+  course: 
+  speed: 
+  event: "Sent SEADRAGON position report. No receipt. Transmitted blind. In message stated that unless someone was receiving reports we were securing tracking, as convoy was now only a few miles east of E. FAYU ISLAND and appeared to be heading toward North Pass, TRUK, and would arrive about dawn."
+  page: "-15-"
+  flags: "Convoy position relative to E. FAYU ISLAND kept in event."
+- date: "January 10, 1944."
+  time: "0123"
+  zone: "K"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: "rendezvous"
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: "SEADRAGON"
+  course: 
+  speed: 
+  event: "[SUMMARY] Secured tracking convoy; never raised SEADRAGON. Safely escorted tankers for ~7 days over 1400 miles. Radar invaluable. Set course for MIDWAY heading North until dawn, then steering 045."
+  page: "-15-"
+  flags: ""
+- date: "January 11, 1944. to January 15, 1944."
+  time: "2400"
+  zone: "M"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Enroute MIDWAY at best speed consistent with sea conditions. Held several training dives daily. No planes were sighted. At 2400 (M) 15 January, 1944 set clocks back 24 hours, making time 0000 (+12) (Y), 15 January 1944."
+  page: "-15-"
+  flags: "Entry text gives clock adjustment from zone M to zone Y."
+- date: "January 15, 1944."
+  time: "1240"
+  zone: "Y"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Sighted escort planes."
+  page: "-15-"
+  flags: ""
+- date: "January 15, 1944."
+  time: "1500"
+  zone: "Y"
+  lat: 
+  lon: 
+  from: 
+  bearing: 
+  distance: 
+  bearing_is: 
+  tag: 
+  title: 
+  part: "I"
+  charges: 
+  damage: 
+  with: 
+  course: 
+  speed: 
+  event: "Arrived MIDWAY."
+  page: "-15-"
+  flags: ""
+```
+
+Nothing could not be transcribed.

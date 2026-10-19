@@ -264,7 +264,9 @@
    "flags": [
     "Review: Tonnage 9525 here; contact 2 gives HUZISAN MARU as 9527 tons. Check which figure the report uses in each place."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-283-P03-C05",
@@ -366,7 +368,9 @@
     "performance": "no 1 dud"
    },
    "flags": [],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-283-P03-C14",
@@ -411,7 +415,9 @@
     "Report note #: Should have been 3 hits",
     "Report note *: see VII Particulars of Attacks - Remarks"
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-283-P03-C15",
@@ -456,7 +462,9 @@
     "Review: The report numbers this attack 3(b).",
     "Report note *: see VII Particulars of Attacks - Remarks"
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "miss",
+   "result_basis": "report"
   },
   {
    "id": "SS-283-P03-C16",
@@ -500,7 +508,9 @@
    "flags": [
     "Report note *: See VII Particulars of Attacks - Remarks"
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "miss",
+   "result_basis": "report"
   },
   {
    "id": "SS-283-P03-C17",
@@ -542,7 +552,9 @@
     "performance": "Yes"
    },
    "flags": [],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-283-P03-C18",
@@ -586,7 +598,9 @@
    "flags": [
     "Report note *: See VII Particulars of Attacks - Remarks"
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "miss",
+   "result_basis": "report"
   },
   {
    "id": "SS-283-P03-C19",
@@ -630,7 +644,9 @@
    "flags": [
     "Review: The only attack the report claims as a sinking (10000 plus, 'same as 2'). The sunk and damaged figures sit in opposite columns from attacks 3-7."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-283-P03-C06",

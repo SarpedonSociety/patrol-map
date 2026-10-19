@@ -1031,7 +1031,9 @@
     "Narrative entry at 2311 H July 30, 1943 (page 3) describes this attack; its account is included here.",
     "Margin heading '(Attack #1)'. Zone H is printed. Spans pages 3-4. Open readings (ONI page 83 or 33; pip decrease 15% or 1/3) are in review.yml."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-230-P06-N23",
@@ -1317,7 +1319,9 @@
    },
    "flags": [
     "Margin heading '(Attack #2)'. Gyro angle printed 0° (Gemini read 00°). Track angle 87 or 37 is unresolved (review.yml)."
-   ]
+   ],
+   "result": "hit",
+   "result_basis": "hand"
   },
   {
    "id": "SS-230-P06-N32",
@@ -1346,7 +1350,9 @@
    },
    "flags": [
     "Gyro angle printed 001° (Gemini read 00°). Target fired about 30 rounds at the periscope."
-   ]
+   ],
+   "result": "miss",
+   "result_basis": "hand"
   },
   {
    "id": "SS-230-P06-N33",
@@ -1607,7 +1613,9 @@
     "Transcriber: Time: Attack 4 time faint; Date Use G.C.T.: 8 printed S-like; Location (Lat.): Column 4 lat/long faint; Number sunk (Tonnage): Attack 1 tonnage: 8 glyph; Type of Attack: Periscope (P) Radar (R) Surface (S) Night (N): N printed as an H-like glyph; Bow or Stern Shot: \"Dow\" as typed; Track Angle: 8 glyphs; three tracks in column 3; Firing Interval: Columns 3 and 4 faint; Spread - Amount and Kind: Column 3 amount faint",
     "Review: Attack 2: the summary prints 1434 on 8-1-43 (GCT). The narrative has the attack at 0634 (H) on 1 August, which is 2234 GCT on 31 July; 1434 is 0634 plus 8 hours instead of minus. Attacks 1, 3, 4, 5, 6, 7 and 8 all agree with the narrative once the zone offset is taken off, so this one looks like an error in the report. The map shows Attack 2 twice (the summary row at 1434 on 1 August and the narrative entries at 2234 on 31 July). A discrepancy in the source, not in the transcription."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-230-P06-C07",
@@ -2192,7 +2200,9 @@
     "Transcriber: Time: Attack 4 time faint; Date Use G.C.T.: 8 printed S-like; Location (Lat.): Column 4 lat/long faint; Number sunk (Tonnage): Attack 1 tonnage: 8 glyph; Type of Attack: Periscope (P) Radar (R) Surface (S) Night (N): N printed as an H-like glyph; Bow or Stern Shot: \"Dow\" as typed; Track Angle: 8 glyphs; three tracks in column 3; Firing Interval: Columns 3 and 4 faint; Spread - Amount and Kind: Column 3 amount faint",
     "Narrative entry at 2319 H August 3, 1943 (page 7) describes this attack; its account is included here."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "miss",
+   "result_basis": "report"
   },
   {
    "id": "SS-230-P06-C37",
@@ -2238,7 +2248,9 @@
     "Transcriber: Time: Attack 4 time faint; Date Use G.C.T.: 8 printed S-like; Location (Lat.): Column 4 lat/long faint; Number sunk (Tonnage): Attack 1 tonnage: 8 glyph; Type of Attack: Periscope (P) Radar (R) Surface (S) Night (N): N printed as an H-like glyph; Bow or Stern Shot: \"Dow\" as typed; Track Angle: 8 glyphs; three tracks in column 3; Firing Interval: Columns 3 and 4 faint; Spread - Amount and Kind: Column 3 amount faint",
     "Narrative entry at 2322 H August 3, 1943 (page 7) describes this attack; its account is included here."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-230-P06-N52",
@@ -2831,7 +2843,9 @@
     "Narrative entry at 0021 H August 11, 1943 (page 9) describes this attack; its account is included here.",
     "Entry text cuts off at end of page 9"
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-230-P06-N69",
@@ -3023,7 +3037,9 @@
     "Narrative entry at 0333 H August 11, 1943 (page 16) describes this attack; its account is included here.",
     "Zone typed as (11). Heading includes '(Attack 6)'. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "miss",
+   "result_basis": "report"
   },
   {
    "id": "SS-230-P06-C40",
@@ -3070,7 +3086,9 @@
     "Narrative entry at 0447 H August 11, 1943 (page 16) describes this attack; its account is included here.",
     "Heading includes '(Attack #7)'. Date carried from the entry above (the report prints the day heading once; the Gemini file left it blank)."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "miss",
+   "result_basis": "report"
   },
   {
    "id": "SS-230-P06-N75",
@@ -4308,7 +4326,9 @@
     "Narrative entry at 0007 I August 25, 1943. (page 21) describes this attack; its account is included here.",
     "Gyro angle read 028° twice (Gemini 020°), as on the attack summary (attack 8, 028). The '(Attack #8)' margin heading is not printed on this entry. Spans pages 21-22."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "miss",
+   "result_basis": "report"
   },
   {
    "id": "SS-230-P06-N106",
@@ -5142,5 +5162,6 @@
    "flags": []
   }
  ],
- "minefields": []
+ "minefields": [],
+ "figures": []
 }

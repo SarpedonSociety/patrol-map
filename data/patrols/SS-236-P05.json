@@ -1473,7 +1473,9 @@
     "missing zone; typed fined, sgcond, tow shet, swong, larga, Lotting, opa ed, ovidentally, fest, camoflouge",
     "No zone letter on this entry; zone L assumed from the previous entry."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-236-P05-C19",
@@ -1520,7 +1522,9 @@
     "missing zone; typed On escort, use ducked, nacks, tmo, antother; also counterattack and notable diving casualty",
     "No zone letter on this entry; zone L assumed from the previous entry."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "miss",
+   "result_basis": "report"
   },
   {
    "id": "SS-236-P05-N27",

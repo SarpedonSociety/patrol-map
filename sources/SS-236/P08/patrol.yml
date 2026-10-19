@@ -1,0 +1,303 @@
+# USS Silversides (SS-236), War Patrol 8
+# Narrative: gemini-01.yml (pages 1-5), gemini-02.yml (pages 6-10) and gemini-03.yml (pages 11-15), the
+# last a second Gemini read from the narrative pages and the NARA source pages together. check-gemini-03.yml
+# is the first, poorly read version of those pages, kept for comparison; the converter ignores it.
+# Page numbers: the typed number at the foot of each page (-11-). The microfilm number written in the
+# corner is the typed number plus one.
+# Pages 1-10 of the narrative have not been checked against the scan yet. Pages 11-15 were checked by the PSO
+# and Claude (see the hand entries below). Tables (contacts-01.md, contacts-02.md) and the attack forms
+# (attacks-01.md) are Claude's reading of the scans; the Gemini reads are in check-contacts-01.md and
+# check-attacks-01.md.
+# Pearl Harbor to Midway, Palau area (Area 10). Three ships sunk (attacks 4, 6, 8) in the convoy attack of
+# 29 December. Index figures from the PSO's INDEX SS.236.8: 18,500 tons sunk, 8,000 tons damaged.
+
+boat: SS-236
+patrol: 8
+year: 1943
+report_found: yes
+report: "U.S.S. SILVERSIDES Report of Eighth War Patrol."
+comsubpac_report_no: 351
+commanding_officer: "J.S. COYE, Jr."
+table_zones: { "SHIP CONTACTS": I, "AIRCRAFT CONTACTS": I }
+
+departure:
+  port: Pearl Harbor
+  date: December 4, 1943
+  time: "1405"
+  zone: VW
+  page: 1
+  flags: "Narrative: 'Departed Submarine Base, Pearl Harbor'; time typed 1405 VW."
+
+arrival:
+  port: Midway
+  date: January 15, 1944
+  time: "1500"
+  zone: Y
+  page: 15
+
+period:
+  start: 1943-12-04
+  end: 1944-01-15
+  source: "Patrol report"
+
+# Fold3 images by typed page (typed page n is Fold3 page n+1 of the download).
+fold3_images: { 1: 270957894, 2: 270957899, 3: 270957904, 4: 270957910, 5: 270957914, 6: 270957918, 7: 270957924, 8: 270957928, 9: 270957933, 10: 270957936, 11: 270957941, 12: 270957948, 13: 270957953, 14: 270957957, 15: 270957961 }
+
+# Claimed tonnage from the TORPEDO ATTACK DATA forms (attacks-01.md). Times are the boat's own, zone I (-9).
+tonnage:
+  - { date: "Dec. 29, 1943", time: "0246", zone: I, target: Tanker (type unclear), result: sunk, tons: 7000, basis: claimed, source: "Attack 4, page 21" }
+  - { date: "Dec. 29, 1943", time: "0356", zone: I, target: Freighter, result: sunk, tons: 5500, basis: claimed, source: "Attack 6, page 23 (average tonnage of the class)" }
+  - { date: "Dec. 29, 1943", time: "0503", zone: I, target: Passenger-freighter, result: sunk, tons: 6000, basis: claimed, source: "Attack 8, page 25" }
+
+form_fixes:
+  - { attack: 9, old: "Long. 135-08", new: "Long. 135-08 E" }
+  - { attack: 9, old: "J⟦a⟧n. 5, 1944", new: "Jan. 5, 1944" }
+
+# Torpedo attack results for the map marker (README, "Attack results"). hit = at least one torpedo exploded
+# against the target aimed at; miss = none. Keys are the ids on the detail cards.
+results:
+  A43: miss   # attack 1, 26 Dec: three torpedoes exploded against the reef, one dud; "Ships sunk/damaged None"
+  A44: miss   # attack 2: one hit, but "not on target fired at" (a ship in the far column was possibly damaged)
+  A45: miss   # attack 3: "One probably hit - not on target fired at"
+  A46: hit    # attack 4: three hits, tanker sunk
+  A47: miss   # attack 5: "Possibly two hits - not on target aimed at"; ships sunk None
+  A48: hit    # attack 6: three hits, freighter sunk
+  A49: miss   # attack 7: both missed (the target sank from attack 6's hits)
+  A50: hit    # attack 8: hit amidships, passenger-freighter sunk
+  # A51: attack 9, 5 Jan: "Hit or miss: See remarks"; "evidence is inconclusive", target "probably damaged". Not entered.
+
+events:
+- replaces:
+    date: December 31, 1943.
+    time: '0700'
+  date: December 30, 1943.
+  time: '0700'
+  part: I
+  event: 'SJ indicated two planes. Range closed slowly to 5 miles. Could not see planes due to clouds. Strong indications of another radar on SD. Dove to avoid detection. AIRCRAFT CONTACT # 7.'
+  page: -11-
+  flags: 'Dated 30 December by the PSO: the page opens with the entries for 0700, 0920 and 2110 before the ''December 31, 1943.'' heading, and the aircraft contact table puts contacts 6 and 7 on 30 December. Page -11- (microfilm 12), read from the scan.'
+- replaces:
+    date: December 31, 1943.
+    time: 0920
+  date: December 30, 1943.
+  time: 0920
+  part: I
+  event: Surfaced, resumed surface patrol.
+  page: -11-
+  flags: 'Dated 30 December by the PSO: the page opens with the entries for 0700, 0920 and 2110 before the ''December 31, 1943.'' heading, and the aircraft contact table puts contacts 6 and 7 on 30 December. Page -11- (microfilm 12), read from the scan.'
+- replaces:
+    date: December 31, 1943.
+    time: '2110'
+  date: December 30, 1943.
+  time: '2110'
+  part: I
+  event: Headed south to conduct surface patrol well south of PALAU.
+  page: -11-
+  flags: 'Dated 30 December by the PSO: the page opens with the entries for 0700, 0920 and 2110 before the ''December 31, 1943.'' heading, and the aircraft contact table puts contacts 6 and 7 on 30 December. Page -11- (microfilm 12), read from the scan.'
+- replaces:
+    date: January 2, 1944.
+    time: '1359'
+  date: January 2, 1944.
+  time: '1359'
+  tag: notable
+  title: Surfaced due to maneuvering room fire
+  part: I
+  event: Surfaced. Flame about under control, but maneuvering room untenable except with rescue breathing apparatus. 1⟦ ⟧ CO2 fire extinguishers had been used on fire. Crew fighting fire becoming nauseated and in several cases almost collapsed. Continued submergence deemed unwise.
+  page: -11-
+  flags: 'Second digit of the extinguisher count unreadable on the scan (PSO: ''1_''); Gemini''s first read had 14, the rerun 17. Page -11-.'
+- replaces:
+    date: January 4, 1944.
+    time: '1125'
+  date: January 4, 1944.
+  time: '1125'
+  part: I
+  event: 'SHIP CONTACT # 17. SJ radar indicated two pips bearing 310 T, distance 31,65⟦ ⟧ yds. Could see nothing, started tracking. Tracked on easterly course, speed about 1⟦ ⟧ kts. Closed in to take a look through high periscope and could see masts of two large ships. Maneuvered to get in position ahead and checked zig plan. Weather too rough to run at periscope depth and too rough for firing torpedoes. Decided to make night surface attack, hoping seas would moderate. After sunset closed to 15,000 yds, at this range the escort pip showed up.'
+  page: -12-
+  flags: 'Read from the scan by the PSO and Claude: the last digit of the range is missing (31,65_; the attack 9 form gives 31,650 yds) and the second digit of the speed is unreadable. Page -12-. Gemini gave this entry as a summary.'
+- replaces:
+    date: January 5, 1944.
+    time: '0155'
+  date: January 5, 1944.
+  time: '0155'
+  part: I
+  event: Went to battle stations and commenced approach. Night was fairly dark, partially overcast, seas had abated somewhat but it was still very rough. Set torpedoes at 15 feet, planning to fire while beam to sea.
+  page: -12-
+  flags: 'Read from the scan: ''while beam to sea'' (the rerun read ''beam to stern''). Page -12-.'
+- replaces:
+    date: January 5, 1944.
+    time: 0228
+  date: January 5, 1944.
+  time: '0226'
+  part: I
+  event: Sighted target at about 80⟦ ⟧ yds, swung to put stern to him and endeavored to keep his angle on the bow small. PPI indicates targets in line of bearing, escort between and astern. Selected starboard tanker and planned to fire on 60 or 70 stbd. track with the stern tubes (the only torpedoes left). Zig plan and speed was known accurately due to continuous radar plot for about 14 hours.
+  page: -12-
+  flags: Time read 0226 from the scan (the rerun had 0228, the first read 0226); range 80_ yds with the last digit lost (the first read had 800, the rerun 8000). Page -12-. Words 'swung' and 'angle' partly lost; check.
+- replaces:
+    date: January 5, 1944.
+    time: '1802'
+  date: January 5, 1944.
+  time: '1802'
+  part: I
+  event: Sent convoy position report to Comsubpac, reporting presence of additional D.⟦ ⟧. escort.
+  page: -13-
+  flags: The scan reads 'add-itional D. escort' with a letter faint or lost (D.D. or D.E.). Page -13-.
+- replaces:
+    date: January 6, 1944.
+    time: 0419
+  date: January 6, 1944.
+  time: 0419
+  part: I
+  event: Sent another convoy position report to Comsubpac and receipted for Comsubpac serial 9⟦6⟧.
+  page: -13-
+  flags: Serial read by the PSO as 9[6], second digit very faint. Page -13-.
+- replaces:
+    date: January 6, 1944.
+    time: '0547'
+  date: January 6, 1944.
+  time: '0507'
+  part: I
+  event: Made trim dive.
+  page: -13-
+  flags: Time read 0507 by the PSO (the rerun had 0547). Page -13-.
+- replaces:
+    date: January 6, 1944.
+    time: '0626'
+  date: January 6, 1944.
+  time: '0526'
+  part: I
+  event: Surfaced.
+  page: -13-
+  flags: Time read 0526 by the PSO (the rerun had 0626). Page -13-.
+- replaces:
+    date: January 6, 1944.
+    time: '1425'
+  date: January 6, 1944.
+  time: '1425'
+  tag: rendezvous
+  part: I
+  with: MUSKALLUNGE
+  event: Sent another convoy position report to MUSKALLUNGE via Comsubpac, giving latest position and correction morning position.
+  page: -13-
+  flags: Scan reads 'correction morning position' (the rerun had 'expectant'). Page -13-.
+- replaces:
+    date: January 7, 1944.
+    time: '0340'
+  date: January 7, 1944.
+  time: '0410'
+  tag: rendezvous
+  part: I
+  with: MUSKALLUNGE
+  event: MUSKALLUNGE attacked convoy. Sighted flares from convoy. Watched radar screen. One of the two tankers seemed to stop. Kept tracking undamaged tanker. The damaged tanker was lost on the radar at 32,000 yds. At later rejoined the convoy.
+  page: -13-
+  flags: Time read 0410 by the PSO (the rerun had 0340); the next entry, 0411 to 0440, follows it. Page -13-.
+- replaces:
+    date: January 8, 1944.
+    time: '1355'
+  date: January 8, 1944.
+  time: '1055'
+  part: I
+  event: '[SUMMARY] Sighted two large radar pips bearing 056 T, 28,550 yds (SHIP CONTACT # 19). Hazy, could not see through periscope. Ships moving southeasterly fast. Remained with tankers; cursed lack of torpedoes.'
+  page: -14-
+  flags: 'Time given as 1055: the ink is poor, but the contact table has contact 19 at 1055 and the next entry is 1301 (the first read and the rerun both had 1355). Page -14-.'
+- replaces:
+    date: January 8, 1944.
+    time: '1801'
+  date: January 8, 1944.
+  time: '1301'
+  tag: rendezvous
+  part: I
+  with: MUSKALLUNGE
+  event: Transmitted message to Comsubpac reporting convoys latest position, course and speed. Also reported the two additional radar contacts and results of MUSKALLUNGE attack.
+  page: -14-
+  flags: Time read 1301 by the PSO (the rerun had 1801). Page -14-.
+- replaces:
+    date: January 8, 1944.
+    time: '1805'
+  date: January 8, 1944.
+  time: '1605'
+  tag: rendezvous
+  part: I
+  with: MUSKALLUNGE
+  event: Convoy now had made large zig to southeast and would pass about 25 miles from MUSKALLUNGE 1700 position. Sent message to MUSKALLUNGE via 450 informing them of this. Obtained receipt.
+  page: -14-
+  flags: Time read 1605 by the PSO (the rerun had 1805). Page -14-.
+- replaces:
+    date: DEmber 10, 1943.
+    time: '0500'
+  date: December 10, 1943.
+  time: '0500'
+  zone: Y
+  part: I
+  event: Set clocks ahead 24 hours, making time 0500 (M) December 11, 1943.
+  page: '1'
+  flags: 'Gemini typed the date ''DEmber 10, 1943.'' (a typewriter slip or a misread); not yet checked against the scan of page 1. Time in text has overstrike: ⟦0⟧500 (M)'
+- replaces:
+    date: Desember 11, 1943. to December 13, 1943.
+  date: December 11, 1943. to December 13, 1943.
+  part: I
+  event: Made at least one dive daily, held daily drills. Received CTF 17 serial 15 directing us to spend one daylight period patrolling WAKE ISLAND.
+  page: '1'
+  flags: Gemini typed the heading 'Desember 11, 1943. te December 13, 1943.'; not yet checked against the scan of page 1. No entry time given.
+- replaces:
+    date: December 18, 1943.
+    time: 0940
+  date: December 18, 1943.
+  time: 0940
+  zone: K
+  lat: 11-07 N
+  lon: 147-52 E
+  part: I
+  event: '[SUMMARY] AIRCRAFT CONTACT 1: SD radar pip at 12-13 miles, closing to 10 miles; overcast sky, did not dive; suspected mail plane between Truk and Guam or RDF on transmission. LAT 11-07 N LONG 147-52 E.'
+  page: '2'
+  flags: Position 11-07 N 147-52 E from the entry text; Gemini left the latitude field blank. Entry begins at bottom of page 2 and continues onto page 3; the aircraft contact table gives 11-07 N 147-53 E.
+- replaces:
+    date: December 29, 1943
+    time: 03-55-40
+  date: December 29, 1943
+  time: 0355-40
+  tag: attack
+  title: Attack 6
+  part: I
+  event: 'ATTACK 6.
+
+    03-55-40 Fired 4 tube.
+
+    03-55-48 Fired 5 tube.
+
+    03-55-57 Fired 6 tube.
+
+    03-57-06 Saw and heard torpedo hit.
+
+    03-57-14  "   "    "      "     "
+
+    03-57-22 Heard torpedo hit.
+
+    These were fired at a large freighter on 80° stbd. track, range 2100 yds, 2 degrees divergent spread. Two hits were seen from bridge and explosions indicate a third hit probably not seen due to target being obscured in smoke. Saw numerous flashlights on target which was later realized to be crew abandoning ship. Target slowed down and tracked at zero speed, and as much oil in the water but did not appear to be sinking fast, decided to fire a coup de grace shot at it.'
+  page: '9'
+  flags: Time typed 03-55-40 as in the report; written 0355-40 so the converter reads it. Attack 6, page 9.
+- replaces:
+    date: January 2, 1944.
+    time: '1858'
+  date: January 2, 1944.
+  time: '1858'
+  from: MERIR ISLAND
+  bearing: 010 T
+  distance: 19,600 yds.
+  bearing_is: to_landmark
+  part: I
+  event: Radar picked up MERIR ISLAND bearing 010 T, distnace 19,600 yds.
+  page: -12-
+  flags: Read as MERIR ISLAND bearing 010 T from the boat (radar picked the island up), so bearing_is is set to_landmark; Gemini's rerun left it blank (its first read had MERIER). Page -12-.
+- replaces:
+    date: January 1, 1944.
+    time: '0536'
+  date: January 1, 1944.
+  time: '0536'
+  from: ASIA ISLAND
+  bearing: 270 T
+  distance: 9050 yds.
+  bearing_is: to_landmark
+  part: I
+  event: '[SUMMARY] Passed ASIA ISLAND abeam to port, bearing 270 T, range 9050 yds. No indication of habitation. Conducted surface patrol during the day.'
+  page: -11-
+  flags: Read as ASIA ISLAND bearing 270 T from the boat (abeam to port), so bearing_is is set to_landmark; Gemini's rerun left it blank. Island not identified; see sources/reference.yml. Page -11-.

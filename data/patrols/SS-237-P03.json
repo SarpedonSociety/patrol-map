@@ -1033,7 +1033,9 @@
     "entry incomplete; cuts off at bottom of page 4",
     "Position derived from 'two miles off-shore 240 of NOJIMA SAKI' using a modern landmark position; it is an estimate, not a position recorded in the report.",
     "Landmark: Southern tip of the Boso Peninsula (lighthouse). Approximate; verify against a chart."
-   ]
+   ],
+   "result": "hit",
+   "result_basis": "hand"
   },
   {
    "id": "SS-237-P03-N25",
@@ -1062,7 +1064,9 @@
    },
    "flags": [
     "continuation of 1333(K) entry from page 4; \"completeà\", \"dock\", \"steri.\", and \"hended\" as typed in source"
-   ]
+   ],
+   "result": "hit",
+   "result_basis": "hand"
   },
   {
    "id": "SS-237-P03-C06",
@@ -1124,7 +1128,9 @@
    },
    "flags": [
     "heading has time 1336(K) preceding firing entry at 1333(K)"
-   ]
+   ],
+   "result": "hit",
+   "result_basis": "hand"
   },
   {
    "id": "SS-237-P03-C16",
@@ -1194,7 +1200,9 @@
    "flags": [
     "\"al..\", \"anywhoro\", \"woll\", \"evon\", \"anti-subm rine vossols\", \"dazzlo\", and \"appearence\" as typed in source",
     "No position in the report. Placed on the track between the recorded positions at 1942-12-22 03:36 and 1942-12-22 11:02 GMT, as an estimate."
-   ]
+   ],
+   "result": "hit",
+   "result_basis": "hand"
   },
   {
    "id": "SS-237-P03-C07",
@@ -1705,7 +1713,9 @@
    },
    "flags": [
     "\"momentarilly\" and \"why and undetected\" typed in source"
-   ]
+   ],
+   "result": "hit",
+   "result_basis": "hand"
   },
   {
    "id": "SS-237-P03-N40",
@@ -1734,7 +1744,9 @@
    },
    "flags": [
     "entry continues onto page 8; \"starboard and started don by the bow By sound\" typed in source"
-   ]
+   ],
+   "result": "hit",
+   "result_basis": "hand"
   },
   {
    "id": "SS-237-P03-N41",
@@ -2384,7 +2396,9 @@
    "fields": {
     "event": "(13th Contact) (5th Attack) Lat. 35-02 N. Long. 140-12 E. Minekaze Class Destroyer Sunk. Sighted a vessel of unknown type bows on. Commenced approach. She was zigzagging and on the next zig showed herself as a forward welldeck destroyer."
    },
-   "flags": []
+   "flags": [],
+   "result": "hit",
+   "result_basis": "hand"
   },
   {
    "id": "SS-237-P03-N60",
@@ -2413,7 +2427,9 @@
    },
    "flags": [
     "entry continues onto page 11; \"nits\" and \"firoc\" typed in source"
-   ]
+   ],
+   "result": "hit",
+   "result_basis": "hand"
   },
   {
    "id": "SS-237-P03-N61",
@@ -2442,7 +2458,9 @@
    },
    "flags": [
     "typed \"dustroyer\" in source"
-   ]
+   ],
+   "result": "hit",
+   "result_basis": "hand"
   },
   {
    "id": "SS-237-P03-N62",
@@ -2471,7 +2489,9 @@
    },
    "flags": [
     "typed \"whion had boon foldou\" and \"normn\" in source"
-   ]
+   ],
+   "result": "hit",
+   "result_basis": "hand"
   },
   {
    "id": "SS-237-P03-N58",

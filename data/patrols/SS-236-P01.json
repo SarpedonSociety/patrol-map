@@ -370,7 +370,9 @@
     "Lat and long run together in the transcription (33-52-137-09); read as 33-52 / 137-09.",
     "Firing range (3000) is greater than initial range (1000)."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-236-P01-C05",
@@ -634,7 +636,9 @@
     "remarks": "Ship blew up after heading for beach"
    },
    "flags": [],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-236-P01-C13",
@@ -672,7 +676,9 @@
     "remarks": "Went deep before hits seen. 4 explosions heard after torpedo exploded."
    },
    "flags": [],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-236-P01-C14",
@@ -709,7 +715,9 @@
     "hits": "0"
    },
    "flags": [],
-   "contact_no": null
+   "contact_no": null,
+   "result": "miss",
+   "result_basis": "report"
   },
   {
    "id": "SS-236-P01-C15",
@@ -844,7 +852,9 @@
    "flags": [
     "No zone letter on this entry; zone I assumed from the previous entry."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-236-P01-C19",
@@ -946,7 +956,9 @@
     "remarks": "Probably wooden hull. Running without lights"
    },
    "flags": [],
-   "contact_no": null
+   "contact_no": null,
+   "result": "miss",
+   "result_basis": "report"
   },
   {
    "id": "SS-236-P01-C22",
@@ -1082,7 +1094,9 @@
    "flags": [
     "Review: 'TATEKAWA MARU 10, 100 gross' likely means 10,100 tons."
    ],
-   "contact_no": null
+   "contact_no": null,
+   "result": "hit",
+   "result_basis": "report"
   },
   {
    "id": "SS-236-P01-C26",

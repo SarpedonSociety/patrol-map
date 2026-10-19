@@ -47,3 +47,17 @@ figures:
       Hand-drawn in the narrative, Enclosure (A) page 8. Trigger's numbered
       positions for attacks 3 to 9, the torpedo tracks, and the fate of each
       ship as the report saw it. Not to scale.
+
+# Torpedo attack results for the map marker (README, "Attack results").
+# hit = at least one torpedo exploded against the target; miss = none
+# (misses, duds, prematures). Keys are the ids on the detail cards.
+results:
+  A13: miss   # p.24 attack 1: "Two hits Two misses"; Remarks "Both hits were duds."
+  A14: hit    # pp.25-26 attack 2: "Two hits - - - two misses"; "One hit was a dud."; saw ship sink
+  A15: hit    # pp.27-28 attack 3: "Two hits"; "Saw ship blow up."
+  A16: hit    # pp.29-30 attack 4: "Two hits"; "Saw tanker catch on fire and later blow up."
+  A17: miss   # pp.31-32 attack 5: "No hits"
+  A18: hit    # pp.33-34 attack 6: "Hit"; "Saw target hit. Saw target sink."
+  A19: hit    # pp.35-36 attack 7: "Two hits"; "Saw two hits in bow."
+  A20: miss   # pp.37-38 attack 8: "One miss, one dud"; "No results."
+  A21: miss   # pp.39-40 attack 9: "One miss, one dud"; "No results."

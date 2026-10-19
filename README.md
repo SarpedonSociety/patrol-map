@@ -120,6 +120,24 @@ tonnage:
 - Count each ship once. If several attacks claim the same ship, enter it
   at the attack that sank it.
 
+## Attack results
+
+Torpedo attacks with at least one hit show as a solid red circle; attacks
+with no hits (misses, duds, prematures, broaches) as a hollow one. The
+converter takes this from the report's own hits column (`hits` 0 or more).
+Attacks without one (attack forms, narrative-only attacks, contact tables
+without a hits column) show a pale circle, "result not yet entered", until
+the result is entered by hand in `patrol.yml`:
+
+```yaml
+results: { A13: miss, N24: hit }
+```
+
+The key is the id on the attack's detail card (the end of its source line).
+A hand result takes precedence over the hits column: use it where the
+report counts duds as hits. When the two disagree, the attack is flagged
+"Corrected by hand".
+
 ## Positions from landmarks
 
 Reports often give a position as a bearing and distance from a charted

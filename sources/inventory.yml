@@ -22,7 +22,7 @@ SS-236:   # Silversides
   5:  { status: transcribed, found_in: Fold3, start: 1943-05-17, end: 1943-07-01, note: "Second overlap set. Pearl Harbor to Brisbane; mine plant off Steffen Strait; rendezvous with Guardfish 19 June. Gemini gemini-01 (narrative, pages 1-9) and contacts-01 (Parts V-VII, pages 10-11); Part VIII 'nothing new'; to verify" }
   6:  { status: transcribed, found_in: Fold3, start: 1943-07-21, end: 1943-09-12, note: "Brisbane to Brisbane, pack with Coucal, Tuna, Growler; no ships sunk. Gemini gemini-01 (narrative, pages 1-21), contacts-01 (Parts F-G, pages 22-24), attacks-01 (3 forms, pages 24-29); noon positions and fuel/distance table still to transcribe; to verify" }
   7:  { status: available, found_in: Fold3 }
-  8:  { status: available, found_in: Fold3 }
+  8:  { status: transcribed, found_in: Fold3, report_no: 351, start: 1943-12-04, end: 1944-01-15, note: "Pearl Harbor to Midway, Palau area; convoy attack of 29 Dec sank 3 ships (18,500 tons claimed). Gemini gemini-01..03 (narrative; pages 11-15 checked against the scan by the PSO and Claude); tables and attack forms transcribed by Claude from the scans; pages 1-10 of the narrative to verify" }
   9:  { status: available, found_in: Fold3 }
   10: { status: available, found_in: Fold3 }
   11: { status: available, found_in: Fold3 }
@@ -52,7 +52,7 @@ SS-237:   # Trigger — commissioned 31 Jan 1942, Mare Island; lost 28 Mar 1945
   5:  { status: transcribed, found_in: Fold3, report_no: 203, start: 1943-04-30, end: 1943-06-22, note: "Second overlap set. Gemini gemini-01..02 (narrative, typed pages 1-10) and contacts-01 (tables, pages 11-14); to verify" }
   6:  { status: transcribed, found_in: Fold3, report_no: 279, start: 1943-09-01, end: 1943-09-30, note: "Pearl Harbor to Midway, East China Sea. Gemini gemini-01 (narrative), contacts-01 (contacts), attacks-01 (TORPEDO ATTACK DATA forms, verbatim); attack 1 target page missing; to verify" }
   7:  { status: available, found_in: Fold3 }
-  8:  { status: available, found_in: Fold3 }
+  8:  { status: transcribed, found_in: Fold3, report_no: 375, start: 1944-01-01, end: 1944-02-23, note: "Pearl Harbor to Pearl Harbor via Midway, Caroline Islands. Sank a Fubuki-class DD and a 10,000-ton AP on 31 Jan (11,850 tons credited per the index). Gemini gemini-01..02 (narrative, to verify against the scan); tables and attack forms transcribed by Claude from the scans" }
   9:  { status: available, found_in: Fold3 }
   10: { status: available, found_in: Fold3 }
   11: { status: available, found_in: Fold3 }

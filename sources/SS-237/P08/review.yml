@@ -1,0 +1,31 @@
+# Reviewer notes, keyed by entry number: entries are counted through contacts-01.md (ship contacts 1-4,
+# plane contacts 5-18) and attacks-01.md (attacks 19-22: 1A, 1B, 2, 3). Delete a note once it's resolved
+# against the report.
+#
+# Narrative questions (not tied to a table row):
+# - The narrative (gemini-01.yml pages 1-5, gemini-02.yml pages 6-8) is Gemini's read of the PDF and has not been
+#   checked against the scan. Gemini flagged heavy fading on pages 1 and 3. The entry at 0227 K on page 3 came back
+#   with no text ("text merged into 0228 K"); check page 3.
+# - Commanding officer: the PSO's INDEX SS.237.8 gives 'H.E. Dornin'; the Trigger Patrol 6 report (Gemini's header)
+#   gives 'R. E. Dornin'. patrol.yml has 'Dornin' until the endorsement is read.
+# - Departure zone: Gemini read 'V'; Pearl Harbor reports elsewhere type 'VW' (Hawaiian time).
+# - The third endorsement (typed page 22, microfilm 22) gives COMSUBPAC Patrol Report No. 375, the period
+#   1 January to 23 February 1944 and the credited tonnage: 10,000 tons (naval auxiliary) and a Fubuki-class
+#   destroyer. The PSO's index totals 11,850 tons; the destroyer digits in my read are faint (about 1,6x0 or
+#   1,850), so credited 1,850 is the PSO's figure. The first and second endorsements are not transcribed.
+# - Attack 1B's narrative entry (0229 K, 'Attack on near DD') is attached to attack 1A on the map, because the
+#   converter joins a narrative attack to the nearest attack form in time and the two forms are 2 minutes apart.
+#   Read both cards together.
+# - The narrative's heading above the 0131 K entry reads 'THIRD CONTACT FIRST ATTACK FUBUKI CLASS DESTROYER 1700
+#   TONS, SUNK' (kept in that entry's flags); the contact table's remark says 'Sank one AP, one DD'.
+
+rows:
+  3:  "Contact 3 position is printed 10-00 N 147-00E on the scan; the narrative (0131 K entry) and all three attack forms give 9-50 N 147-06.5 E. The report disagrees with itself: leave both, check whether the table is the contact position and the narrative the boat's fix."
+  5:  "Plane contacts 1-8 (page 10): the time, latitude and longitude cells are largely lost to ink. Read from an enhanced copy of the scan; the dives for a plane at 1010 and 1600 L on 10 January and at about 0820 and 1600 L on 11 January in the narrative match rows 1 to 4. Consider a second read of this page as a high-contrast JPG."
+  8:  "Plane contact 4 carries the remark 'Plane painted bright silver, sunlight reflected brightly from surfaces' (Gemini had put it on row 3 and left a junk row 4)."
+  12: "Plane contact 8: time 1736 K on the scan; the narrative has the twin-engine bomber at 1756 K at 6 miles (Gemini read 16 miles)."
+  15: "Plane contact 11 (3 February): the position reads about 10-55 N 146-10E on the scan (Gemini had 11-20 N 140-40E, range 15)."
+  18: "Plane contact 14 (15 February): latitude and longitude read about 20-22 N 155-51E (Gemini had 13-26 N 145-51E)."
+  20: "Attack 1B: the description is FUBUKI Class DD on the scan (Gemini read FURUKI). Its remark types 'high tubes' where bow tubes is meant."
+  21: "Attack 2: tube #8 is serial 40010 at 6 ft and tube #9 serial 25910 at 8 ft on the scan (Gemini swapped them)."
+  22: "Attack 3: the tube columns on the scan are 22770 / 25871 / 25875 / 22993 / 24155 (Gemini had them scrambled, with the 0 spread under tube #5)."
