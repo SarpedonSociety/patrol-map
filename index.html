@@ -5,58 +5,60 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>COMSUBPAC Patrol Plot</title>
 <meta name="description" content="Animated plot of U.S. submarine war patrols in the Pacific, built from the patrol reports. The Sarpedon Society.">
+<!-- The Sarpedon Society shared style: colors, fonts, and light/dark mode shared with sarpedon.org -->
+<link rel="stylesheet" href="https://sarpedon.org/static/sarpedon-theme.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Public+Sans:wght@400;500;600;800&display=swap">
+<!-- Source Serif 4 (text) and Special Elite (headings) match the site; Public Sans stays for small chart labels; IBM Plex Mono for typed values -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..800;1,8..60,400&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<script>
+  // Light or dark: use the choice saved on sarpedon.org (Quartz stores it as "theme"),
+  // otherwise follow the device setting. Dark is the default.
+  (function () {
+    var t = null;
+    try { t = localStorage.getItem("theme"); } catch (e) { /* storage unavailable */ }
+    if (t !== "light" && t !== "dark") {
+      t = window.matchMedia && matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    }
+    document.documentElement.setAttribute("saved-theme", t); // read by sarpedon-theme.css
+    document.documentElement.setAttribute("data-theme", t);  // read by this page
+  })();
+</script>
 <style>
+/* Dark mode (default). Base colors come from sarpedon-theme.css;
+   the second value in each var() is used if that file fails to load. */
 :root {
-  --sea: #eaf0ee;
-  --land: #dcd3bd;
-  --coast: #8a826c;
-  --grid: #cfd9d6;
-  --paper: #f6f7f3;
-  --ink: #1d282c;
-  --muted: #5b686b;
-  --rule: #cbd4d1;
-  --track: #2f4b5a;
-  --torpedo: #b3372b;
-  --gun: #b8700e;
-  --event: #2f6c55;
-  --sighting: #677a80;
-  --aircraft: #5162a8;
-  --rescue: #1b7f8e;
-  --rendezvous: #1f63a8;
-  --mine: #7a4fa0;
-  --dc: #3a4a55;
-  --st-refit: #c0841c;
-  --st-overhaul: #7a4fa0;
-  --st-training: #1b7f8e;
-  --st-other: #8a979b;
-  --st-transit: #6f8fb0;
-  --flag: #8a5a00;
-  --flag-bg: #fbf0d6;
-  --focus: #2f4b5a;
-  --shadow: 0 1px 2px rgb(20 30 34 / .08);
-  --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --typed: "Courier Prime", "Courier New", Courier, monospace;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --sea: #0d1416; --land: #35322a; --coast: #7a705e; --grid: #1a2427;
-    --paper: #121a1c; --ink: #e3e0d7; --muted: #99a3a1; --rule: #283437;
-    --track: #9db6c2; --torpedo: #e36452; --gun: #e2a441; --event: #6db795;
-    --sighting: #8d9ca0; --aircraft: #9aa6e6; --rescue: #5fc4d3; --rendezvous: #7fb2e8; --mine: #c3a3e6; --dc: #c9d3d9; --st-refit: #e2a441; --st-overhaul: #c3a3e6; --st-training: #5fc4d3; --st-other: #7d8a8e; --st-transit: #8fb0d0; --flag: #f0c46c; --flag-bg: #2e2612; --focus: #9db6c2;
-    --shadow: none;
-  }
-}
-:root[data-theme="dark"] {
   color-scheme: dark;
-  --sea: #0d1416; --land: #35322a; --coast: #7a705e; --grid: #1a2427;
-  --paper: #121a1c; --ink: #e3e0d7; --muted: #99a3a1; --rule: #283437;
-  --track: #9db6c2; --torpedo: #e36452; --gun: #e2a441; --event: #6db795;
-  --sighting: #8d9ca0; --aircraft: #9aa6e6; --rescue: #5fc4d3; --rendezvous: #7fb2e8; --mine: #c3a3e6; --dc: #c9d3d9; --st-refit: #e2a441; --st-overhaul: #c3a3e6; --st-training: #5fc4d3; --st-other: #7d8a8e; --st-transit: #8fb0d0; --flag: #f0c46c; --flag-bg: #2e2612; --focus: #9db6c2;
+  --paper: var(--ss-bg, #0b1626);
+  --ink: var(--ss-text, #dce3ec);
+  --muted: var(--ss-muted, #9aabbf);
+  --rule: var(--ss-line, #24395a);
+  --brass: var(--ss-brass, #c9a45c);
+  --sea: #0e1c31; --land: #223047; --coast: #566a86; --grid: #172a45;
+  --track: #8fb8ce; --torpedo: #e36452; --gun: #e2a441; --event: #6db795;
+  --sighting: #8d9ca0; --aircraft: #9aa6e6; --rescue: #5fc4d3; --rendezvous: #7fb2e8; --mine: #c3a3e6; --dc: #c9d3d9;
+  --st-refit: #e2a441; --st-overhaul: #c3a3e6; --st-training: #5fc4d3; --st-other: #7d8a8e; --st-transit: #8fb0d0;
+  --flag: #f0c46c; --flag-bg: #2e2612; --focus: #8fb8ce;
   --shadow: none;
+  --sans: "Source Serif 4", Georgia, serif;            /* text */
+  --chart: "Public Sans", system-ui, sans-serif;       /* small labels on the chart */
+  --typed: "IBM Plex Mono", ui-monospace, monospace;   /* times, positions, report values */
+  --heading: "Special Elite", "Courier New", monospace;
+}
+/* Light mode: aged paper */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --paper: var(--ss-bg, #f2ecdf);
+  --ink: var(--ss-text, #24211c);
+  --muted: var(--ss-muted, #625b4e);
+  --rule: var(--ss-line, #d9cfbb);
+  --brass: var(--ss-brass, #765a22);
+  --sea: #e6e9e3; --land: #dad0b8; --coast: #8a826c; --grid: #d2d6cf;
+  --track: #2f4b5a; --torpedo: #b3372b; --gun: #b8700e; --event: #2f6c55;
+  --sighting: #677a80; --aircraft: #5162a8; --rescue: #1b7f8e; --rendezvous: #1f63a8; --mine: #7a4fa0; --dc: #3a4a55;
+  --st-refit: #c0841c; --st-overhaul: #7a4fa0; --st-training: #1b7f8e; --st-other: #8a979b; --st-transit: #6f8fb0;
+  --flag: #8a5a00; --flag-bg: #fbf0d6; --focus: #2d4f6b;
+  --shadow: 0 1px 2px rgb(20 30 34 / .08);
 }
 
 html, body { height: 100%; }
@@ -85,8 +87,18 @@ header.head {
   padding: 14px 20px 10px;
   border-bottom: 1px solid var(--rule);
 }
-.head h1 { margin: 0; font-size: 19px; font-weight: 800; letter-spacing: -0.01em; text-wrap: balance; }
-.head .org { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+header.head { align-items: center; }
+.head .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.head .mark { position: relative; width: 32px; height: 32px; flex: none; }
+.head .mark span { position: absolute; font: 28px/1 var(--heading); }
+.head .mark span:first-child { left: 1px; top: 0; color: var(--ink); }
+.head .mark span:last-child { left: 11px; top: 5px; color: var(--brass); }
+.head .org { font: 16px var(--heading); letter-spacing: .06em; text-transform: uppercase; }
+.head .brand:hover .org { color: var(--brass); }
+.head h1 { margin: 0 auto 0 0; padding-left: 14px; border-left: 1px solid var(--rule); font: 400 18px var(--heading); letter-spacing: .03em; text-wrap: balance; }
+.head .themebtn { border: 1px solid var(--rule); background: transparent; color: var(--muted); border-radius: 4px; padding: 4px 10px; font-size: 12.5px; cursor: pointer; }
+.head .themebtn:hover { color: var(--brass); border-color: var(--brass); }
+em { color: var(--brass); }
 
 .fleet { grid-area: fleet; border-top: 1px solid var(--rule); padding: 8px 20px 4px; max-height: 32vh; overflow: auto; }
 .fleet[hidden] { display: none !important; }
@@ -96,7 +108,7 @@ header.head {
 .fleet-key span { white-space: nowrap; display: inline-flex; align-items: center; gap: 4px; }
 .fleet-key i { display: inline-block; width: 14px; height: 8px; border-radius: 2px; }
 .fleet svg { display: block; width: 100%; cursor: pointer; }
-.fleet .blabel { font: 600 11px var(--sans); fill: var(--ink); }
+.fleet .blabel { font: 600 11px var(--chart); fill: var(--ink); }
 .fleet .axis text { font: 10px var(--typed); fill: var(--muted); }
 .fleet .axis line { stroke: var(--rule); }
 .fleet .obs { stroke: var(--ink); stroke-width: 1.5; }
@@ -106,8 +118,8 @@ header.head {
 .seg.inferred { opacity: .45; }
 .pin circle { fill: var(--paper); stroke: var(--muted); stroke-width: 1.6; }
 .pin.inferred circle { stroke-dasharray: 3 2; }
-.pin text { font: 700 8px var(--sans); fill: var(--muted); text-anchor: middle; dominant-baseline: central; }
-.pin .tag { font: 600 9.5px var(--sans); fill: var(--muted); text-anchor: start; paint-order: stroke; stroke: var(--sea); stroke-width: 3px; dominant-baseline: central; }
+.pin text { font: 700 8px var(--chart); fill: var(--muted); text-anchor: middle; dominant-baseline: central; }
+.pin .tag { font: 600 9.5px var(--chart); fill: var(--muted); text-anchor: start; paint-order: stroke; stroke: var(--sea); stroke-width: 3px; dominant-baseline: central; }
 .stchip { display: inline-block; font-size: 10.5px; font-weight: 600; padding: 0 6px; border-radius: 999px; margin-left: 6px; vertical-align: 1px; background: color-mix(in srgb, var(--muted) 14%, transparent); color: var(--muted); }
 .map { grid-area: map; position: relative; background: var(--sea); overflow: hidden; min-height: 280px; }
 .map svg { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; }
@@ -115,7 +127,7 @@ header.head {
 .land { fill: var(--land); stroke: var(--coast); stroke-width: .6; vector-effect: non-scaling-stroke; }
 .graticule { fill: none; stroke: var(--grid); stroke-width: 1; vector-effect: non-scaling-stroke; }
 .gridlabel { font: 10px var(--typed); fill: var(--muted); }
-.place { font: 600 10.5px var(--sans); fill: var(--muted); letter-spacing: .06em; text-transform: uppercase; paint-order: stroke; stroke: var(--sea); stroke-width: 3px; }
+.place { font: 600 10.5px var(--chart); fill: var(--muted); letter-spacing: .06em; text-transform: uppercase; paint-order: stroke; stroke: var(--sea); stroke-width: 3px; }
 .trackline.done { opacity: .45; }
 .trackhit { fill: none; stroke: transparent; stroke-width: 14; stroke-linecap: round; cursor: pointer; pointer-events: stroke; }
 .patrol-layer { transition: opacity .25s ease; }
@@ -131,7 +143,7 @@ header.head {
 .focuschip[hidden] { display: none !important; }
 .areabox { fill: color-mix(in srgb, var(--track) 5%, transparent); stroke: var(--track); stroke-width: 1.2; stroke-dasharray: 2 4; cursor: zoom-in; }
 .areabox:hover { fill: color-mix(in srgb, var(--track) 10%, transparent); }
-.arealabel { font: 600 10.5px var(--sans); fill: var(--track); letter-spacing: .04em; cursor: zoom-in;
+.arealabel { font: 600 10.5px var(--chart); fill: var(--track); letter-spacing: .04em; cursor: zoom-in;
   paint-order: stroke; stroke: var(--sea); stroke-width: 3px; }
 .tour { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--rule); font-size: 12.5px; }
 .tour span { color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -142,7 +154,7 @@ header.head {
 .focuschip button { border: 0; background: none; cursor: pointer; color: var(--muted); font-size: 15px; line-height: 1; padding: 2px 4px; }
 .trackline { fill: none; stroke: var(--track); stroke-width: 1.6; stroke-dasharray: 5 4; stroke-linecap: round; }
 .boat circle { fill: var(--paper); stroke: var(--track); stroke-width: 2; }
-.boat text { font: 700 9px var(--sans); fill: var(--track); text-anchor: middle; dominant-baseline: central; }
+.boat text { font: 700 9px var(--chart); fill: var(--track); text-anchor: middle; dominant-baseline: central; }
 .mark { cursor: pointer; }
 .mark .hit { fill: transparent; }
 .mark.sighting .dot { fill: var(--sea); stroke: var(--sighting); stroke-width: 1.6; }
@@ -152,7 +164,7 @@ header.head {
 .mark.gun .dot { fill: var(--gun); stroke: var(--paper); stroke-width: 1.2; }
 .mark.event .dot { fill: var(--event); stroke: var(--paper); stroke-width: 1.2; }
 .minearea { fill: color-mix(in srgb, var(--mine) 16%, transparent); stroke: var(--mine); stroke-width: 1.4; stroke-dasharray: 4 3; }
-.minelabel { font: 600 10px var(--sans); fill: var(--mine); letter-spacing: .04em; paint-order: stroke; stroke: var(--sea); stroke-width: 3px; }
+.minelabel { font: 600 10px var(--chart); fill: var(--mine); letter-spacing: .04em; paint-order: stroke; stroke: var(--sea); stroke-width: 3px; }
 .mark.minefield .dot { fill: none; stroke: var(--mine); stroke-width: 2.4; stroke-linecap: round; }
 .mark.counterattack .dot { fill: var(--dc); stroke: var(--paper); stroke-width: 1; }
 .mark.fix .dot { fill: var(--track); stroke: none; }
@@ -187,7 +199,7 @@ header.head {
 .play svg { width: 16px; height: 16px; fill: currentColor; }
 .scrub { display: grid; gap: 4px; min-width: 0; }
 .clock { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
-.clock .date { font-weight: 800; font-size: 16px; font-variant-numeric: tabular-nums; }
+.clock .date { font-family: var(--heading); font-weight: 400; font-size: 18px; font-variant-numeric: tabular-nums; }
 .clock .gmt { font: 12px var(--typed); color: var(--muted); }
 .ticks { position: relative; height: 8px; margin: 0 7px; }
 .ticks span { position: absolute; top: 0; width: 2px; height: 8px; border-radius: 1px; transform: translateX(-1px); }
@@ -201,7 +213,7 @@ aside.side {
   display: flex; flex-direction: column; min-height: 0; overflow-y: auto;
 }
 .section { padding: 14px 18px; border-bottom: 1px solid var(--rule); }
-.eyebrow { font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+.eyebrow { font-family: var(--heading); font-size: 12px; font-weight: 400; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
 .patrols { display: grid; gap: 8px; }
 details.picker > summary {
   display: flex; align-items: baseline; gap: 8px; cursor: pointer; list-style: none; user-select: none;
@@ -283,7 +295,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
 .detail-head { position: sticky; top: -14px; z-index: 1; background: var(--paper); margin: -14px -16px 0; padding: 14px 16px 2px; }
 .detail .tour { position: sticky; bottom: -16px; background: var(--paper); margin: 12px -16px -16px; padding: 10px 16px 12px; }
 .detail-head { display: flex; justify-content: space-between; align-items: start; gap: 10px; }
-.detail h2 { margin: 0; font-size: 16px; font-weight: 800; text-wrap: balance; }
+.detail h2 { margin: 0; font-family: var(--heading); font-size: 18px; font-weight: 400; text-wrap: balance; }
 .detail .close { border: 0; background: none; cursor: pointer; color: var(--muted); font-size: 18px; line-height: 1; padding: 2px 4px; }
 .detail .sub { font: 12.5px var(--typed); color: var(--muted); margin: 2px 0 10px; }
 .kv { display: grid; grid-template-columns: minmax(0, 10.5em) minmax(0, 1fr); gap: 4px 12px; margin: 0; font-size: 12.5px; }
@@ -309,7 +321,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
 .figbox::backdrop { background: rgb(8 12 14 / .72); }
 .figbox header { display: flex; flex-wrap: wrap; align-items: start; justify-content: space-between; gap: 8px 12px; padding: 12px 14px 10px; border-bottom: 1px solid var(--rule); }
 .figbox header > div:first-child { flex: 1 1 240px; }
-.figbox h2 { margin: 0; font-size: 15px; font-weight: 800; text-wrap: balance; }
+.figbox h2 { margin: 0; font-family: var(--heading); font-size: 17px; font-weight: 400; text-wrap: balance; }
 .figbox .sub { font: 12px var(--typed); color: var(--muted); margin-top: 2px; }
 .figbox .tools { display: flex; gap: 6px; flex: none; align-items: center; }
 .figbox .tools button { border: 1px solid var(--rule); background: var(--paper); color: var(--ink); border-radius: 4px; padding: 4px 10px; font-size: 12.5px; cursor: pointer; }
@@ -343,8 +355,12 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
 <body>
 <div class="app">
   <header class="head">
+    <a class="brand" href="https://sarpedon.org/">
+      <span class="mark" aria-hidden="true"><span>S</span><span>S</span></span>
+      <span class="org">The Sarpedon Society</span>
+    </a>
     <h1>COMSUBPAC Patrol Plot</h1>
-    <span class="org">The Sarpedon Society</span>
+    <button type="button" class="themebtn" id="themebtn">Light mode</button>
   </header>
 
   <div class="map" id="map">
@@ -450,6 +466,21 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
   </aside>
 </div>
 
+<script>
+  // Light/dark button. Saves the choice the same way sarpedon.org does, so the two stay in step.
+  (function () {
+    var root = document.documentElement, btn = document.getElementById("themebtn");
+    function label() { btn.textContent = root.getAttribute("data-theme") === "dark" ? "Light mode" : "Dark mode"; }
+    btn.addEventListener("click", function () {
+      var t = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      root.setAttribute("saved-theme", t);
+      root.setAttribute("data-theme", t);
+      try { localStorage.setItem("theme", t); } catch (e) { /* storage unavailable */ }
+      label();
+    });
+    label();
+  })();
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
 <script>
