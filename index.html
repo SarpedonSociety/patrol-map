@@ -96,6 +96,10 @@ header.head { align-items: center; }
 .head .org { font: 16px var(--heading); letter-spacing: .06em; text-transform: uppercase; }
 .head .brand:hover .org { color: var(--brass); }
 .head h1 { margin: 0 auto 0 0; padding-left: 14px; border-left: 1px solid var(--rule); font: 400 18px var(--heading); letter-spacing: .03em; text-wrap: balance; }
+.head .sitenav { display: flex; flex-wrap: wrap; gap: 6px 24px; font-size: 16px; }
+.head .sitenav a { color: var(--ink); text-decoration: none; }
+.head .sitenav a:hover { color: var(--brass); }
+.head .sitenav a[aria-current="page"] { color: var(--brass); font-weight: 600; }
 .head .themebtn { border: 1px solid var(--rule); background: transparent; color: var(--muted); border-radius: 4px; padding: 4px 10px; font-size: 12.5px; cursor: pointer; }
 .head .themebtn:hover { color: var(--brass); border-color: var(--brass); }
 em { color: var(--brass); }
@@ -360,6 +364,12 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
       <span class="org">The Sarpedon Society</span>
     </a>
     <h1>COMSUBPAC Patrol Plot</h1>
+    <nav class="sitenav" aria-label="Site">
+      <a href="https://sarpedon.org/Prosopography/">Prosopography</a>
+      <a href="https://sarpedon.org/PSO-Dispatches/">Dispatches</a>
+      <a href="https://sarpedon.org/patrol-map/" aria-current="page">Patrol Map</a>
+      <a href="https://sarpedon.org/About">About</a>
+    </nav>
     <button type="button" class="themebtn" id="themebtn">Light mode</button>
   </header>
 
