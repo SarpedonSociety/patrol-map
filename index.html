@@ -22,6 +22,8 @@
     }
     document.documentElement.setAttribute("saved-theme", t); // read by sarpedon-theme.css
     document.documentElement.setAttribute("data-theme", t);  // read by this page
+    // ?embed: map and timeline only, for an iframe in a sarpedon.org article.
+    if (new URLSearchParams(location.search).has("embed")) document.documentElement.classList.add("embed");
   })();
 </script>
 <style>
@@ -126,8 +128,8 @@ em { color: var(--brass); }
 .pin .tag { font: 600 9.5px var(--chart); fill: var(--muted); text-anchor: start; paint-order: stroke; stroke: var(--sea); stroke-width: 3px; dominant-baseline: central; }
 .stchip { display: inline-block; font-size: 10.5px; font-weight: 600; padding: 0 6px; border-radius: 999px; margin-left: 6px; vertical-align: 1px; background: color-mix(in srgb, var(--muted) 14%, transparent); color: var(--muted); }
 .map { grid-area: map; position: relative; background: var(--sea); overflow: hidden; min-height: 280px; }
-.map svg { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; }
-.map svg:active { cursor: grabbing; }
+.map > svg { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; }
+.map > svg:active { cursor: grabbing; }
 .land { fill: var(--land); stroke: var(--coast); stroke-width: .6; vector-effect: non-scaling-stroke; }
 .graticule { fill: none; stroke: var(--grid); stroke-width: 1; vector-effect: non-scaling-stroke; }
 .gridlabel { font: 10px var(--typed); fill: var(--muted); }
@@ -354,6 +356,27 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
   .section, .entry { padding-left: 16px; padding-right: 16px; }
   .detail { max-height: 70%; }
 }
+/* Embedded in an article (?embed): the map and timeline only. */
+.embed header.head, .embed aside.side, .embed .fleet { display: none !important; }
+.embed .app {
+  height: 100%; min-height: 0;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr) auto;
+  grid-template-areas: "map" "time";
+}
+.embed .map { min-height: 0; }
+/* The embed has no side panel, so its key opens from the zoom buttons. */
+.zoom .keybtn { width: 30px; font: 600 10px var(--chart); letter-spacing: .02em; }
+.zoom .keybtn[aria-expanded="true"] { background: var(--track); border-color: var(--track); color: var(--paper); }
+.keybox {
+  position: absolute; right: 50px; top: 12px; width: min(330px, calc(100% - 74px)); max-height: calc(100% - 24px);
+  box-sizing: border-box; overflow: auto; padding: 12px 14px; background: var(--paper);
+  border: 1px solid var(--rule); border-radius: 8px; box-shadow: 0 6px 24px rgb(20 30 34 / .16); z-index: 2;
+}
+.keybox .eyebrow { margin-bottom: 8px; }
+.keybox .legend { font-size: 12px; }
+.focuschip a { color: var(--track); font-weight: 600; white-space: nowrap; text-decoration: none; }
+.focuschip a:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
@@ -380,7 +403,9 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
       <button id="zin" aria-label="Zoom in">+</button>
       <button id="zout" aria-label="Zoom out">−</button>
       <button id="zfit" aria-label="Fit to patrols" title="Fit to patrols">⤢</button>
+      <button id="keybtn" class="keybtn" aria-label="Key to the chart" title="Key to the chart" aria-expanded="false" aria-controls="keybox" hidden>Key</button>
     </div>
+    <div class="keybox" id="keybox" role="dialog" aria-label="Key to the chart" hidden></div>
     <div class="maploading" id="loading">Loading chart…</div>
     <div class="detail" id="detail" hidden></div>
     <dialog class="figbox" id="figbox" aria-labelledby="figtitle">
@@ -489,6 +514,13 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
       try { localStorage.setItem("theme", t); } catch (e) { /* storage unavailable */ }
       label();
     });
+    // Follow a theme change made on sarpedon.org in another tab, or by the article this map is embedded in.
+    window.addEventListener("storage", function (e) {
+      if (e.key !== "theme" || (e.newValue !== "light" && e.newValue !== "dark")) return;
+      root.setAttribute("saved-theme", e.newValue);
+      root.setAttribute("data-theme", e.newValue);
+      label();
+    });
     label();
   })();
 </script>
@@ -533,8 +565,18 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
   try { const r = await fetch("data/status.json"); if (r.ok) STATUS = await r.json(); } catch (e) { /* optional */ }
   const PLACES = manifest.places || [];
 
+  // A link can open on one patrol: ?patrol=SS-236-P06 brings it forward and fits the chart to it.
+  // With &embed only that patrol is shown and it stays in focus.
+  const params = new URLSearchParams(location.search);
+  const EMBED = params.has("embed");
+  const linked = (() => {
+    const m = /(\d+)\D+0*(\d+)$/.exec(params.get("patrol") || "");
+    return m && patrols.find((p) => p.boat.replace(/\D/g, "") === m[1] && +p.patrol === +m[2]);
+  })();
+  const LOCKED = EMBED && linked;
+
   patrols.forEach((p) => {
-    p.on = true;
+    p.on = !LOCKED || p === linked;
     p.pts = p.track.map((t) => ({ ...t, t: Date.parse(t.utc) }));
     p.recs = p.records.filter((r) => r.utc && r.lat != null).map((r) => ({ ...r, t: Date.parse(r.utc), patrol: p }));
     p.unplaced = p.records.filter((r) => r.utc && r.lat == null && r.kind !== "fix").map((r) => ({ ...r, t: Date.parse(r.utc), patrol: p }));
@@ -558,9 +600,9 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     const el = $("map");
     const w = el.clientWidth, h = el.clientHeight;
     svg.attr("viewBox", `0 0 ${w} ${h}`);
-    const all = patrols.filter((p) => p.on).flatMap((p) => p.pts.map((q) => [q.lon, q.lat]));
+    const all = (focus && focus.on ? [focus] : patrols.filter((p) => p.on)).flatMap((p) => p.pts.map((q) => [q.lon, q.lat]));
     const pts = all.length ? all : [[140, 20], [-160, 35]];
-    projection.fitExtent([[40, 40], [w - 40, h - 40]], { type: "MultiPoint", coordinates: pts });
+    projection.fitExtent([[40, focus ? 64 : 40], [w - 40, h - 40]],{ type: "MultiPoint", coordinates: pts });
     gBase.selectAll("path").attr("d", path);
     (animate ? svg.transition().duration(500) : svg).call(zoom.transform, d3.zoomIdentity);
     draw();
@@ -607,10 +649,12 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
   // dims the others; the log then lists only that patrol.
   let focus = null;
   function setFocus(p) {
-    if (focus === p) return;
+    if (focus === p || (LOCKED && p !== linked)) return;
     focus = p;
     const chip = $("focuschip");
-    if (p) {
+    if (LOCKED) {
+      chip.innerHTML = `<b>${p.name}</b><span>Patrol ${p.patrol}</span><a href="${location.pathname}?patrol=${encodeURIComponent(p.id)}" target="_blank" rel="noopener">Open full map ↗</a>`;
+    } else if (p) {
       chip.innerHTML = `<b>${p.name}</b><span>Patrol ${p.patrol} · others dimmed</span><button type="button" aria-label="Show all patrols" title="Show all patrols (Esc)">×</button>`;
       chip.querySelector("button").addEventListener("click", (ev) => { ev.stopPropagation(); setFocus(null); });
     }
@@ -720,7 +764,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
         layer.append("path").attr("class", "trackline" + (b.done ? " done" : "")).attr("d", d);
         layer.append("path").attr("class", "trackhit").attr("d", d)
           .on("click", (ev) => { ev.stopPropagation(); setFocus(focus === p ? null : p); })
-          .append("title").text(`${p.name}, Patrol ${p.patrol}: click to ${focus === p ? "show all patrols" : "bring forward"}`);
+          .append("title").text(`${p.name}, Patrol ${p.patrol}${LOCKED ? "" : `: click to ${focus === p ? "show all patrols" : "bring forward"}`}`);
       }
       const visible = p.ports.concat(p.recs).filter((r) => r.t <= now);
       for (const r of visible) {
@@ -824,7 +868,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
   function renderFleet() {
     const boats = fleetBoats();
     const hasStatus = obsAll.length || perAll.length;
-    $("fleet").hidden = !boats.length || !hasStatus;
+    $("fleet").hidden = EMBED || !boats.length || !hasStatus;
     if ($("fleet").hidden) return;
     const W = $("fleet").clientWidth - 40, LAB = 96, ROW = 18, TOP = 16;
     const H = TOP + boats.length * ROW + 4;
@@ -1220,9 +1264,23 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
   }
   $("play").addEventListener("click", () => setPlaying(!playing));
   $("slider").addEventListener("input", (e) => { now = t0 + e.target.value * HOUR; draw(); renderLog(); renderBoard(); });
-  svg.on("click.focus", () => { if (focus) setFocus(null); });
+  // Embed: the key from the side panel, opened from a button by the zoom controls.
+  function showKey(v) {
+    if (v && !$("keybox").childElementCount) {
+      const src = document.querySelector("aside.side .legend").closest(".section");
+      $("keybox").innerHTML = src.innerHTML;
+    }
+    $("keybox").hidden = !v;
+    $("keybtn").setAttribute("aria-expanded", String(v));
+  }
+  if (EMBED) {
+    $("keybtn").hidden = false;
+    $("keybtn").addEventListener("click", () => showKey($("keybox").hidden));
+  }
+  svg.on("click.focus", () => { if (focus) setFocus(null); showKey(false); });
   document.addEventListener("keydown", (e) => {
     if (figbox.open) return;  // the dialog handles its own keys (Esc closes it)
+    if (e.key === "Escape" && !$("keybox").hidden) { showKey(false); return; }
     if (e.key === "Escape" && focus) { setFocus(null); return; }
     if ((e.key === "ArrowLeft" || e.key === "ArrowRight") && selected && selected.patrol
         && !["INPUT", "SELECT", "TEXTAREA"].includes(e.target.tagName)) {
@@ -1244,6 +1302,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
   setRange();
   renderFleet();
   renderPatrols();
+  if (linked) setFocus(linked);
   fit(false);
   renderLog(true);
   renderBoard();

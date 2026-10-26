@@ -303,6 +303,27 @@ entry in the area; the card's Previous and Next buttons (or the arrow keys)
 step through every charted entry of the patrol in time order, moving the
 timeline with them.
 
+## Linking to one patrol, and embedding it
+
+`?patrol=SS-236-P06` opens the map with that patrol in focus and the chart
+fitted to it (the other patrols are shown, dimmed). The value is the
+patrol's id (`<hull>-P<nn>`, as in `data/patrols/`); `236-6` also works.
+
+Adding `&embed` shows only that patrol, with just the chart and the
+timeline: no site header, side panel or fleet status. The patrol stays in
+focus, and its chip links to the full map. A Key button under the zoom
+controls opens the side panel's key over the chart. This is for the patrol
+histories on sarpedon.org:
+
+```html
+<iframe src="https://sarpedon.org/patrol-map/?patrol=SS-236-P06&embed"
+  title="Track of USS Silversides, sixth war patrol" width="100%" height="560"
+  style="border: 1px solid var(--lightgray); border-radius: 6px" loading="lazy"></iframe>
+```
+
+An embedded map follows the site's light/dark choice, including a switch
+made on the article page. A patrol only appears once it has been pushed.
+
 ## Viewing it locally
 
 The map loads its data with `fetch`, so it needs a web server:
