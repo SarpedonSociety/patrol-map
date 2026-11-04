@@ -1,0 +1,83 @@
+# USS Silversides (SS-236), War Patrol 10
+# Brisbane by Milne Bay to the Marianas (Area 14: Guam, Saipan and the PENTATHLON areas), then to Pearl Harbor.
+# Five torpedo attacks: 8 May off Port Apra (one hit), 10 May dawn convoy attack (five hits, MIKAGE MARU #18 seen
+# to sink), 20 May off Port Apra (two hits), 29 May night surface attack (two gasoline-laden AKs blew up and sank),
+# 1 June (all missed, last torpedoes).
+# Sources: Gemini read the report verbatim in fresh chats (check-gemini-01..07.md, check-contacts-01.md,
+# check-attacks-01..02.md, plus the three endorsements, kept with the vault copies). Claude put those reads into
+# the converter's layouts on 2026-11-03: gemini-01.yml (narrative, pages 1-20), contacts-01.md (Parts F and G,
+# pages 21-23), contacts-02.md (Part O density layers, page 32) and attacks-01.md (forms, pages 24-29). Nothing
+# has been checked against the scan yet; open items are in review.yml.
+# Page numbers: the typed number at the foot of each page. The Fold3 page number is the typed number plus one.
+# Index figures from the PSO's INDEX SS.236.10: report no. 454, 23,600 tons sunk, 18,000 damaged.
+
+boat: SS-236
+patrol: 10
+year: 1944
+report_found: yes
+report: "U.S.S. SILVERSIDES - REPORT OF TENTH WAR PATROL"
+comsubpac_report_no: 454
+commanding_officer: "J.S. COYE, Jr."
+
+# From the Fold3 SOURCE INFORMATION sheets (identical on every page). Fold3 dates the report 5/11/1944; the
+# report's serial 033 is dated 11 June 1944 (first endorsement). Entered as Fold3 gives it; see review.yml.
+citation:
+  archive: NARA
+  record_group: 38
+  nara_catalog_id: 4697018
+  nara_catalog_title: "World War II War Diaries, Other Operational Records and Histories, compiled ca. 01/01/1942 - ca. 06/01/1946, documenting the period ca. 09/01/1939 - ca. 05/30/1946"
+  reel: A1028
+  micro_serial: 77552
+  file:
+  serial: "033"
+  date: 5/11/1944
+
+departure:
+  port: Brisbane
+  date: April 26, 1944
+  time: "1325"
+  zone: K
+  page: 1
+  flags: "Narrative: 'Underway from BRISBANE, AUSTRALIA'; all times (-10)."
+
+arrival:
+  port: Pearl Harbor
+  date: June 11, 1944
+  time: "0930"
+  zone: VW
+  page: 20
+  flags: "Narrative: 'Arrived Submarine Base, PEARL HARBOR, T.H.' at 0930 VW."
+
+period:
+  start: 1944-04-26
+  end: 1944-06-11
+  source: "Patrol report"
+
+# Fold3 images by typed page (typed page n is Fold3 page n+1). Pages 3, 4 and 6 were decoded from garbled
+# source sheets (see review.yml); page 20 from the URL the PSO supplied. Fold3 page 1 (the sheet before typed
+# page 1) is 277714953. Pages 30-34 and the endorsements are not yet entered.
+fold3_images: { 1: 277714957, 2: 277714961, 3: 277714965, 4: 277714969, 5: 277714972, 6: 277714976, 7: 277714979, 8: 277714985, 9: 277714990, 10: 277714995, 11: 277714999, 12: 277715003, 13: 277715010, 14: 277715015, 15: 277715020, 16: 277715025, 17: 277715029, 18: 277715034, 19: 277715035, 20: 277715040, 21: 277715043, 22: 277715048, 23: 277715053, 24: 277715056, 25: 277715061, 26: 277715065, 27: 277715069, 28: 277715073, 29: 277715076 }
+
+# Claimed tonnage from the TORPEDO ATTACK DATA forms (attacks-01.md). Times are the boat's own, zone K (-10).
+# The index totals (23,600 sunk, 18,000 damaged; 5 sunk, 3 damaged) match these claims with the attack 2
+# "probably sunk" AK counted as sunk.
+tonnage:
+  - { date: "May 10, 1944", time: "0540", zone: K, target: "AP similar to TATUHARU MARU", result: sunk, tons: 6335, basis: claimed, source: "Attack 2, page 25" }
+  - { date: "May 10, 1944", time: "0540", zone: K, target: "MIKAGE MARU #18 (AP)", result: sunk, tons: 4319, basis: claimed, source: "Attack 2, page 25; seen to sink at 1540 (page 7)" }
+  - { date: "May 10, 1944", time: "0540", zone: K, target: "AK", result: sunk, tons: 5000, basis: claimed, source: "Attack 2, page 25: 'Ships probably sunk: 1 AK, 5,000 tons'" }
+  - { date: "May 29, 1944", time: "0134", zone: K, target: "AK", result: sunk, tons: 5000, basis: claimed, source: "Attack 4, page 27" }
+  - { date: "May 29, 1944", time: "0134", zone: K, target: "AK", result: sunk, tons: 3000, basis: claimed, source: "Attack 4, page 27" }
+  - { date: "May 8, 1944", time: "1432", zone: K, target: "AK (MFM freighter)", result: damaged, tons: 5000, basis: claimed, source: "Attack 1, page 24" }
+  - { date: "May 10, 1944", time: "0540", zone: K, target: "AK", result: damaged, tons: 5000, basis: claimed, source: "Attack 2, page 25" }
+  - { date: "May 20, 1944", time: "1552", zone: K, target: "AP similar to ATUTA MARU", result: damaged, tons: 7952, basis: claimed, source: "Attack 3, page 26" }
+
+# Torpedo attack results for the map marker, from the Hit or Miss lines on the forms. The forms have no hits
+# column, so they are set by hand. Keys are the ids on the detail cards: entries run through contacts-01.md
+# (ship contacts 1-21, aircraft 22-37), contacts-02.md (density layers 38-46) and attacks-01.md (attack n is
+# entry 46+n).
+results:
+  A47: hit    # attack 1: tube 7 hit
+  A48: hit    # attack 2: five hits
+  A49: hit    # attack 3: tubes 2 and 3 hit
+  A50: hit    # attack 4: four hits
+  A51: miss   # attack 5: all four missed

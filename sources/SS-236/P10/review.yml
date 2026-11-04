@@ -1,0 +1,36 @@
+# Reviewer notes, keyed by entry number: entries are counted through contacts-01.md (ship contacts 1-21,
+# aircraft 22-37), contacts-02.md (density layers 38-46) and attacks-01.md (attacks 47-51, attack n is entry
+# 46+n). Delete a note once it's resolved against the report.
+#
+# Narrative and sources (not tied to a table row):
+# - Nothing has been checked against the scan yet. Gemini read every page verbatim; Claude restructured the reads
+#   (gemini-01.yml, contacts-01/02.md, attacks-01.md). The verbatim reads are to be saved beside them as
+#   check-gemini-01..07.md, check-contacts-01.md and check-attacks-01..02.md (and in the vault, Gemini
+#   Transcriptions\Silversides\236.10, which is empty).
+# - 9 May: the narrative is typed 0556 (sighted six planes) then 0458 (dove). Aircraft contact 2 has 0456(K).
+#   0556 is probably 0456 (or a Gemini misread). Check page 4 (Fold3 5).
+# - 4 May 2400 'Released escort': the converter reads 2400 as 0000 the same day, so it sorts before the 3 May
+#   entries' day ends. Cosmetic; no position.
+# - 1 May at MILNE BAY (alongside EURYALE) and 2 June between ASUNCION and AGRIHAN have no position in the report,
+#   so the track runs straight from the 30 April density-layer fix to the 5 May fix.
+# - 14 May 0218: the narrative calls the aircraft 'S/C #7'; the aircraft table lists it as aircraft 7. As typed.
+# - Fold3 image numbers for typed pages 3, 4 and 6 (277714965, 277714969, 277714976) were decoded from source sheets
+#   that came out of the PDF splitter with scrambled characters; confirm on Fold3. Pages 18 and 19 are 277715034
+#   and 277715035, one apart where other steps are 3-7; both sheets are clean.
+# - Fold3's source sheets date the report 5/11/1944; the report (serial 033) is dated 11 June 1944.
+# - First endorsement (Sub Div 45, 14 June 1944) says attack 1 used "Four Mk XVII torpedoes"; the form has MK XVIII.
+# - Attack 5: the form describes "one KFK 3,300 diesel freighter"; the narrative (31 May 1220) has 5,300 tons.
+# - Parts J-U (pages 30-34) are not on the map; Part O (density layers) is in contacts-02.md.
+
+rows:
+  2: "Contact 2 latitude overtyped (Gemini read [?13-42N?]). The attack 1 form gives 13-33 N at 1432; the narrative has the boat about on the convoy track off Port Apra. Check page 21 (Fold3 22)."
+  5: "Contact 5 is typed 15-23 N 143-36 E at 1200 on 12 May, 'A/S sweep off SAIPAN'. The narrative has the boat patrolling off Saipan all day (dived about 20 miles west of Saipan at 0458), and 143-36 E is about 120 miles west. Check the scan: 145-36 E?"
+  16: "Contact 16 (26 May 1347, 16-04N 140-28E) is 22 miles from the debris the narrative puts at 15-58 N 140-50 E at 1245, which needs about 21 knots. The boat was searching for a convoy at speed; check both positions."
+  27: "Aircraft contact 6 (12 May 0450) is typed 15-46N 145-24E. Eight minutes later the narrative has the boat 'about 20 miles west of SAIPAN' (about 15-11 N), and contact 4 at 0549 is 15-16 N 145-30E. 15-46 would need 31 knots to reach contact 4; probably 15-16. Check page 23."
+  28: "Aircraft contact 7 (14 May 0218) is typed 154-30E, about 9 degrees east of the boat's area; the narrative has the boat between Anatahan and Saipan. Probably 145-30E. Check page 23 (Fold3 24)."
+  29: "Aircraft contact 8 (14 May 0355) is typed 154-48E, as row 28. Probably 145-48E."
+  35: "Aircraft contact 14 is typed 1800 June 3 but listed before 1246 June 3 (row 36) and 1420 (row 37), and its position lies west of theirs on the run to Pearl. Possibly 0800. Check the scan."
+  37: "Aircraft contact 16 longitude typed 152-48N (N for E), as Gemini read it."
+  38: "Density layers (page 32) are in GCT. Row 1 (30 April, 13-06 S 151-05 E) is south latitude, in the Coral Sea en route Milne Bay."
+  47: "Attack 1: target type before 'freighter' degraded (Gemini XFM, possibly MFM or KFM); the first endorsement says MFM. Time typed 1432(-10); the converter takes zone K from the narrative."
+  50: "Attack 4: the form's time is 0134 with no zone; the narrative times the firing 0133 and the form's remarks give firings 0133-10 to 0134-07."

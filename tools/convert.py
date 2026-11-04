@@ -949,17 +949,17 @@ def build_patrol(folder, ref):
                     flags.append(f"Corrected by hand from the scan: '{fx['old']}' read as '{fx.get('new', '')}'.")
             if entry in row_notes:
                 flags.append(f"Review: {row_notes[entry]}")
-            tm = re.search(r"Time\s*[:;,]?\s*(\d{4})\s*\(?\s*([A-Z])?\s*\)?", unbracket(body), re.I)
-            dm = re.search(r"Date\s*[:;,]?\s*([A-Za-z]+\.?\s*\d{1,2}(?:,?\s*\d{4})?|\d{1,2}[/-]\d{1,2}[/-]\d{2,4})", unbracket(body), re.I)
-            la = re.search(r"Lat\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?|\d{4})\s*\.?\s*([NS])", body, re.I)
-            lo = re.search(r"Long\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\s*-\s*\d+)?)\s*\.?\s*([EW])", body, re.I)
+            tm = re.search(r"Time\s*[:;,]?\s*(\d{4})\s*\(?\s*([A-Z](?![A-Za-z]))?\s*\)?", unbracket(body), re.I)   # not the D of "Date"
+            dm = re.search(r"Date\s*[:;,]?\s*([A-Za-z]+\.?\s*\d{1,2}(?:,?\s*\d{4})?|\d{1,2}\s+[A-Za-z]+\.?,?\s*\d{4}|\d{1,2}[/-]\d{1,2}[/-]\d{2,4})", unbracket(body), re.I)   # "May 8, 1944", "20 May 1944", "5/8/44"
+            la = re.search(r"Lat\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\.\d+)?(?:\s*-\s*\d+)?|\d{4})\s*\.?\s*([NS])", body, re.I)
+            lo = re.search(r"Long\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\.\d+)?(?:\s*-\s*\d+)?)\s*\.?\s*([EW])", body, re.I)   # decimal minutes: "144-34.5 E"
             # Degrees-and-minutes form, "Lat. 29° 30' (N) Long. 128° 50'(E)": rewrite as 29-30 N.
             plain_body = unbracket(body)
             if not la:
-                dm_ = re.search(r"Lat\.?\s*[:;,]?\s*(\d+)\s*°?\s*(\d+)\s*'?\s*\(?\s*([NS])", plain_body, re.I)
+                dm_ = re.search(r"Lat\.?\s*[:;,]?\s*(\d+)\s*°?\s*-?\s*(\d+)\s*'?\s*\(?\s*([NS])", plain_body, re.I)   # also "16°-23' N"
                 la = re.search(r"(\d+-\d+)\s*([NS])", f"{dm_.group(1)}-{dm_.group(2)} {dm_.group(3)}") if dm_ else None
             if not lo:
-                dm_ = re.search(r"Long\.?\s*[:;,]?\s*(\d+)\s*°?\s*(\d+)\s*'?\s*\(?\s*([EW])", plain_body, re.I)
+                dm_ = re.search(r"Long\.?\s*[:;,]?\s*(\d+)\s*°?\s*-?\s*(\d+)\s*'?\s*\(?\s*([EW])", plain_body, re.I)
                 lo = re.search(r"(\d+-\d+)\s*([EW])", f"{dm_.group(1)}-{dm_.group(2)} {dm_.group(3)}") if dm_ else None
             is_gun = str(atk_num).startswith("G") or bool(re.search(r"GUN\s+ATTACK\s+NO", body, re.I))
             t = tm.group(1) if tm else None

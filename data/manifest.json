@@ -103,6 +103,18 @@
    "zoom": 2
   },
   {
+   "name": "Saipan",
+   "lat": 15.18,
+   "lon": 145.75,
+   "zoom": 2
+  },
+  {
+   "name": "Milne Bay",
+   "lat": -10.35,
+   "lon": 150.5,
+   "zoom": 3
+  },
+  {
    "name": "Hachijo Jima",
    "lat": 33.1,
    "lon": 139.8,
@@ -139,7 +151,7 @@
    "zoom": 4
   }
  ],
- "generated": "2026-10-19T17:51:41Z",
+ "generated": "2026-11-04T20:35:41Z",
  "patrols": [
   {
    "id": "SS-230-P02",
@@ -426,6 +438,28 @@
     "flagged": 203
    },
    "file": "patrols/SS-236-P08.json"
+  },
+  {
+   "id": "SS-236-P10",
+   "boat": "SS-236",
+   "name": "Silversides",
+   "class": "Gato",
+   "patrol": 10,
+   "year": 1944,
+   "start": "1944-04-26T03:25:00Z",
+   "end": "1944-06-11T20:00:00Z",
+   "summary": {
+    "records": 248,
+    "sightings": 19,
+    "aircraft": 16,
+    "torpedo_attacks": 5,
+    "mine_attacks": 0,
+    "counterattacks": 2,
+    "torpedoes_fired": 0,
+    "gun_actions": 0,
+    "flagged": 140
+   },
+   "file": "patrols/SS-236-P10.json"
   },
   {
    "id": "SS-237-P03",
