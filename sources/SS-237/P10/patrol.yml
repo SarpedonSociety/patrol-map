@@ -1,0 +1,78 @@
+# USS Trigger (SS-237), War Patrol 10
+# Two parts. First part: Pearl Harbor to Saipan, then Area 11C off the east coast of Formosa and the southern Nansei
+# Shoto as one of SILVERSIDES' coordinated attack group with SALMON (TU 17.19.1, Coye as group commander), 24
+# September - 3 November 1944. Two days of lifeguard duty off northern Formosa (12-13 October; Lt(jg) J.J. McGuire,
+# VF-8, picked up). Contacts with a SHIGURE class destroyer and a task force on 19 October and a battleship force on
+# 26 October, none of which could be closed. One torpedo attack (30 October: six bow torpedoes missed, four stern
+# torpedoes hit a large tanker, which STERLET sank that night), 70-78 depth charges in return; then escort of the
+# damaged SALMON to Saipan. Second part (the Addenda): the TG 17.24 anti-patrol vessel sweep east and north of the
+# Bonins, 10-23 November 1944, ending at Guam. A joint gun action on 15 November (no hits, no gun attack form) and
+# one torpedo attack on 17 November (three misses).
+# Sources: the OCR working transcription (Qwen3-VL 8B checked against Ternary Bonsai 27B; vault note 'SS-237 Trigger
+# - War Patrol 10 - OCR', 53 scans WP10.1-WP10.53), restructured by Claude on 2026-11-13: gemini-01.yml (narrative,
+# pages 1-20, with Part J), gemini-02.yml (Addenda narrative, A1-A5a), contacts-01.md (Parts F and G, pages 22-27),
+# contacts-02.md (Addenda F and G, pages 6-7), attacks-01.md (torpedo attack form, pages 28-29; Addenda form, page
+# 8). The PSO checked the contact tables and the flagged numbers against the scans on 13 November 2026.
+# Page numbers: the typed number at the foot of each page; the scan file is the typed number plus one (WP10.2 is page
+# 1). The Addenda (Serial 034) number their pages afresh, 1 to 10 with a 5a; the narrative files give them as A1-A5a.
+
+boat: SS-237
+patrol: 10
+year: 1944
+report_found: yes
+report: "U.S.S. TRIGGER - Report of War Patrol Number TEN."
+comsubpac_report_no: 591
+commanding_officer: "F. J. HARLFINGER, II."
+
+departure:
+  port: Pearl Harbor
+  date: 24 September 1944
+  time: "1329"
+  zone: VW
+  page: 1
+  flags: "Narrative: 'Underway for patrol area in company with U.S.S. SILVERSIDES and U.S.S. SALMON' at 1329 (VW)."
+
+arrival:
+  port: Guam
+  date: 23 November 1944
+  time: "0640"
+  zone: I
+  page: A5a
+  flags: "Addenda narrative: 'Moored stbd side to SPERRY, APRA Harbor, GUAM' at 0640 (I). The first part ended at TANAPAG HARBOR, SAIPAN, 2030 (I) 3 November; the boat sailed again 1620 (I) 10 November. The index note (INDEX SS.237.10) gives base_in Pearl Harbor."
+
+period:
+  start: 1944-09-24
+  end: 1944-11-23
+  source: "Patrol report"
+
+# Wolfpack linking: see the comment block in sources/SS-236/P11/patrol.yml (Coye's coordinated attack group, 4 Oct -
+# 3 Nov; BURT'S BROOMS, TU 17.24, 10-17 Nov). TRIGGER sailed from Saipan a day after SILVERSIDES and SALMON (0554 (I)
+# 5 October, with SEADRAGON).
+
+# Tonnage. The captain claims the tanker damaged without a tonnage (form: 'Ship(s) damaged or probably sunk; One large
+# AO'); the Squadron Ten endorsement recommends '1 converted tanker 14,000 tons' damaged, which is neither the
+# captain's claim nor COMSUBPAC's credit, so neither is entered. Credited: COMSUBPAC's endorsement, 'SUNK 1/3 - Large
+# Tanker - 3,300 tons (Attack No. 1)', a third share with SALMON and STERLET (the index note: tonnage_sunk 3300).
+# The share is a third of one ship, so the ship count is left blank.
+tonnage:
+  - { date: "30 October 1944", time: "1615", zone: I, target: "Large tanker (1/3 share)", result: sunk, tons: 3300, ships: , basis: credited, source: "COMSUBPAC second endorsement (Patrol Report No. 591), page 2 (scan WP10.53)" }
+
+# The first form types its date '30 October' with no year, which the converter can't read; the year is added here.
+form_fixes:
+  - { attack: 1, old: "Date; 30 October", new: "Date; 30 October 1944" }
+
+# Torpedo attack results for the map marker (README, "Attack results"). Keys are the ids on the detail cards.
+results:
+  A50: hit    # attack 1, 30 October: bow tubes 6-1 all missed, stern tubes 7-10 four hits
+  A51: miss   # Addenda attack 1 (attack 2 here), 17 November: three misses
+
+# Editorial estimates (PSO, 13 November 2026: impossible positions get a best guess, noted as an estimate). The
+# typed value stays in the record's flag. Entry numbers run through contacts-01.md (ship contacts 1-10, aircraft 1-30
+# as entries 11-40) and contacts-02.md (Addenda ship contacts 1-5 as 41-45, aircraft 1-4 as 46-49).
+row_estimates:
+  4:  { Time Date: { value: "1005 (I) 10-19-44", note: "Ship contact 4. Typed 10-18-44 (PSO, from the scan). The narrative has it under 19 October, SILVERSIDES received TRIGGER's report of the day's contacts at 1950 (I) on the 19th, and the 1st endorsement dates the destroyer 19 October." } }
+  5:  { Time Date: { value: "1328 (I) 10-19-44", note: "Ship contact 5. Typed 10-18-44, as contact 4; the task force was sighted five hours after the destroyer. Part J also types the float plane's torpedo '18 October'." } }
+  33: { Long.: { value: "122-17E", note: "Aircraft 23. Printed 122-17W on the original (PSO); east longitude is meant (aircraft 22, the same morning, is at 122-10E)." } }
+  34: { Long.: { value: "124-05E", note: "Aircraft 24. Printed 124-05W on the original (PSO); east longitude is meant. SILVERSIDES' Patrol 11 estimates use this position." } }
+  44: { Lat. Long.: { value: "31-07 N 141-30 E", note: "Addenda ship contact 4. The position is badly degraded: the PSO reads 31-?7 N and 141-20 or 30 E; a second OCR read gave 31-37 N 141-30 E. The targets tracked all night on course 335 at 4 kts, and the 1135 (I) attack on one of them was at 31-10 N 141-30 E, so 31-37 (27 miles north of it) does not fit; 31-07 does." } }
+  46: { Long.: { value: "138-45E", note: "Addenda aircraft 1. Typed '138.45E' as read (a point for the hyphen); 138.45 degrees would be 138-27. SILVERSIDES' aircraft contact 36, two minutes later, is at 138-43E." } }

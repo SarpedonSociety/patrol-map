@@ -41,6 +41,7 @@
 #   Addendum table (Bonsai only) is not on the page (PSO).
 
 rows:
+  1: "Ship contact 1 (1220 (I), 24-30N 122-36E) is 15 miles north of aircraft 1 (1201 (I), 24-15 122-37) and aircraft 2 (1300 (I), 24-18 122-36): about 47 knots if both were the boat. Both read correctly from the scan (PSO, 13 November 2026). The narrative has the schooner bearing 352 T; 15 miles on 352 T from the aircraft-table position falls at about 24-30 N 122-35 E, so this row's position is probably the schooner's, not SILVERSIDES'. Plotted as typed, so the track jumps north here."
   14: "Aircraft 7 S/M speed 3.6 against 2.3 for every other contact that day; typed as read."
   21: "Aircraft 14 is dated 10/18 in both OCR reads, after contact 15 at 1057 on 10/18. The narrative has AIRCON #14 at 1545 (I) on 17 October. Check the date on the scan (page 12)."
   22: "Aircraft 15 position 25-00 N 122-18 E at 1057 on 18 October; the density-layer fix at 2115 (Z) on 10/17 (0615 (I) on the 18th) is 25-06 N 122-21 E."

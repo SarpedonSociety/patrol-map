@@ -1003,9 +1003,12 @@ def build_patrol(folder, ref):
                 ("damage determined by", pick("damage determined")), ("target", pick("target draft")),
                 ("own ship", pick("speed")), ("attack_type", pick("type attack")),
                 ("form", body or None), ("torpedoes", form.get("torpedoes"))) if v}
-            tf = re.search(r"Tubes?\s+Fired\s*[:;]?\s*(.*)", form.get("torpedoes") or "", re.I)
-            if tf and re.findall(r"#\s*\d+", tf.group(1)):
-                fields["fired"] = str(len(re.findall(r"#\s*\d+", tf.group(1))))
+            # Every "Tubes Fired" line counts: a form whose torpedo data run onto a second page (Trigger 10, bow
+            # tubes on page 28 and stern tubes on page 29) has one per page. Tubes are typed "#1 #2" or bare "6 5 4".
+            tubes = [re.findall(r"#\s*\d+", ln) or re.findall(r"(?<![\d.#])\b\d{1,2}\b(?![\d.°])", ln)
+                     for ln in re.findall(r"Tubes?\s+Fired\s*[:;]?\s*(.*)", form.get("torpedoes") or "", re.I)]
+            if any(tubes):
+                fields["fired"] = str(sum(len(t) for t in tubes))
             desc = fields.get("description") or ""
             records.append({
                 "id": f"{pid}-A{entry:02d}", "source": "Gun attack data" if is_gun else "Torpedo attack data",

@@ -1,65 +1,59 @@
-# USS Trigger (SS-237), War Patrol 10 — handoff notes for the build session. Not yet built: there is no patrol.yml
-# or gemini-*.yml in this folder, so the converter skips it. Written by Claude on 2026-11-13 from the OCR working
-# transcription (Qwen3-VL 8B checked against Ternary Bonsai 27B; vault note 'SS-237 Trigger - War Patrol 10 - OCR',
-# 53 pages WP10.1-WP10.53) and the PSO's hand readings of the same day. check-contacts-wp10-44.md is the second read
-# of page WP10.44 (Addendum Part F) the PSO supplied; the converter ignores it.
+# Reviewer notes, keyed by entry number: entries are counted through contacts-01.md (ship contacts 1-10, aircraft
+# contacts 1-30 as entries 11-40), contacts-02.md (Addenda ship contacts 1-5 as 41-45, aircraft 1-4 as 46-49) and
+# attacks-01.md (torpedo attack 1 as 50, the Addenda's attack as 51). Delete a note once it's resolved.
+# Built by Claude on 2026-11-13 from the OCR working transcription (vault note 'SS-237 Trigger - War Patrol 10 - OCR')
+# and the PSO's hand readings of the same day; see patrol.yml for the sources.
 #
-# Report: Serial 033 of 3 Nov 1944 (first part, 24 Sep - 3 Nov, east coast of Formosa and southern Nansei Shoto);
-# Addenda Serial 034 of 23 Nov 1944 (second part, 10-23 Nov, east and north of the Bonins). CO F.J. Harlfinger II.
-# 1st endorsement ComSubRon 10 / ComSubDiv 101 (G.L. Russell), Serial 0254, 28 Nov 1944: recommends 1 converted
-# tanker damaged, about 14,000 tons. 2nd endorsement COMSUBPAC (C.A. Lockwood Jr.), Serial 02762, 8 Dec 1944,
-# Patrol Report No. 591: SUNK 1/3 - Large Tanker - 3,300 tons (Attack No. 1). Combat insignia authorized.
-# Departure Pearl Harbor 1329 (VW) 24 Sep; Saipan 3-5 Oct (sailed 0554 (I) 5 Oct, a day after SILVERSIDES and SALMON,
-# with SEADRAGON); area 11C entered 1400 (I) 9 Oct at 23-00 N 125-05 E; moored alongside HOLLAND, outboard of
-# STERLET, TANAPAG HARBOR, 2030 (I) 3 Nov; underway from Saipan 1620 (I) 10 Nov (TG 17.24, with BESUGO as well);
-# moored stbd side to SPERRY, APRA Harbor, GUAM, 0640 (I) 23 Nov.
-# The index note INDEX SS.237.10 gives base_in Pearl Harbor and 5 days submerged; the report has Guam and 15.
+# Settled by the PSO from the scans, 13 November 2026 (kept here for the record; entered in the tables):
+#   ship contact dates (1 10-8-44 ... 10 10-30-44); ranges 3 8,500, 5 16,000, 8 8,000; contact 7 24-07 N 125-41 E;
+#   contacts 4 and 5 typed 10-18-44, plotted on 19 October (row_estimates); aircraft 17 at 1232, 25-20.4 N 122-09 E
+#   (the narrative's 1332 is the report disagreeing with itself); aircraft 18 lat. 25-00 N; aircraft 23 and 24
+#   longitudes printed W, plotted E (row_estimates); 16 Nov '0925' as typed; 20 Nov 0500 course 180; the Addenda
+#   torpedo form's own speed 4 kts and exploder serials; Addenda ship contact 4 plotted at 31-07 N 141-30 E
+#   (row_estimates).
+# Decisions (PSO, 13 November 2026): the 17 Nov 1520-1540 gun approach and the 15 Nov joint gun action are narrative
+#   entries, not gun attack markers (no gun attack form); torpedo attack 1 solid, the Addenda attack hollow;
+#   impossible positions get an editorial estimate in row_estimates.
 #
-# PSO's hand readings, 13 November 2026:
-# - Part F ship contacts (WP10.23) dates: 1 10-8-44; 2 10-10-44; 3 10-12-44; 4 10-18-44; 5 10-18-44; 6 10-24-44;
-#   7 10-26-44; 8 10-27-44; 9 10-29-44; 10 10-30-44. Ranges: 3 8,500; 5 16,000; 8 8,000.
-#   Contacts 4 and 5 are typed 10-18-44, but the narrative (19 October) and the 1st endorsement put the SHIGURE DD
-#   and the task force on 19 October. Plot on the 19th; keep the table date with a note.
-# - Ship contact 7 (table): 0836 (I) 26 Oct, 24-07 N 125-41 E (the 5 could be a 6; PSO reads 5). Aircraft contact
-#   25 at 0900, 26 Oct, is 24-07 N 125-41 E. The narrative heading reads 24-97 (Qwen) / 24-57 (Bonsai) N 125-41 E;
-#   keep as typed with a discrepancy note.
-# - Aircraft 17: 19 Oct, 25-20.4 N 122-09 E (PSO). The PSO gave the time as 1658, but both OCR reads have 1232 for
-#   17 (1658 is aircraft 16, 15 Oct) and the narrative puts PLANE CONTACT #17 (the float plane) at 1332. Ask the
-#   PSO to read the time again.
-# - Aircraft 18: 25-00 N (a faded 0 read as C by Qwen). Aircraft 23 and 24: longitudes printed W (122-17W,
-#   124-05W); plot as E with a note.
-# - 16 Nov 0925 (printed before 0700): as typed; probably 0625.
-# - 20 Nov 0500 course 180°T (Qwen; Bonsai 130).
-# - Torpedo attack 1 of the Addenda (17 Nov, 1135 I, 31-10 N 141-30 E): own speed 4 kts; exploder serials 10078,
-#   9804, 9858 (Bonsai; Qwen lost the line). Tube 1's exploder is typed Mark 4-2.
-# - Addendum Part F (WP10.44), from the second read: 1 1055(I) 11-12-44 20-55 N 138-55 E, 3 CA 5 DD (friendly),
-#   36,000, 150° 18 kts, Sight, Avoided; 2 1255(I) 11-15-44 30-05 N 137-38 E, 1 small net tender, 15,000,
-#   circling, High Per., Attacked with Gun; 3 0700(I) 11-16-44 30-46 N 140-05 E, 1 PC, 15,000, Sinking, High Per.,
-#   Sunk by TAMBOR; 4 0045(I) 11-17-44 [?31-37?] N [?141-30?] E, 2 PC's, 10,000, 335° 4 kts, Radar, '3 torp's
-#   missed. GUN ATTACK ended by plane.'; 5 0225(I) 11-18-44 31-18 N 142-40 E, 2 PC's, 4,000, ?, Radar, Avoided.
-#   Contact 4's position is badly degraded: PSO reads 31-?7 and 141-20 or 30. The targets tracked all night on
-#   course 335 at 4 kts, so 31-37 (27 miles north of the 1135 attack at 31-10) does not fit; plot an editorial
-#   estimate of 31-07 N 141-30 E (row_estimates), with both readings in the note.
-#
-# Decisions (PSO, 13 November 2026):
-# - 17 Nov 1520-1540 gun approach (closing from astern, forced down by a plane before firing): an event, not a gun
-#   attack marker. Gun attacks are plotted only where the report has a gun attack data page.
-# - 15 Nov joint gun attack with SILVERSIDES and STERLET: TRIGGER fired 112 rounds of 4", no hits, no gun attack
-#   form; enter as narrative (no gun marker) unless the PSO decides otherwise.
-# - Torpedo attack 1 of 30 Oct (four hits from the stern tubes): solid. Addenda torpedo attack 1 of 17 Nov (three
-#   misses): hollow.
-# - Impossible positions get an editorial estimate in row_estimates, noted as such (same rule as SILVERSIDES 11).
-#
-# Other open readings (not yet checked against the scan):
-# - Narrative 25 Oct 1751 (Qwen) / 1754 (Bonsai): identified SILVERSIDES.
-# - 1 Nov 0559 (Qwen) / 0659 (Bonsai): torpedo wake. 0559 keeps the entries in order.
-# - 30 Oct 0700 'giving 07C0 enemy position' (a struck digit).
-# - Aircraft table WP10.24 'Range & Relative Bearing' row read 520 (Qwen) / 320 (Bonsai) for contact 1; contact 2
-#   overcast 106% / 100%. Not used for the track.
-#
-# Links to SILVERSIDES Patrol 11 (see the comment block in sources/SS-236/P11/patrol.yml): rendezvous by rubber boat
-# 2106 (I) 24 Oct (Lt. Comdr. C.F. LEIGH, SILVERSIDES' exec); SILVERSIDES sighted 0916 20 Oct (periscope, 8,000 yds),
-# 1730/1751 25 Oct, 1107 26 Oct, 0803 31 Oct, 0627 1 Nov; SALMON's exec Lt. R.B. LANING came aboard by rubber boat
-# 2255-2355 (I) 16 Oct and 2341 (I) 31 Oct - 0605 (I) 1 Nov. Rescue: Lt(jg) John J. McGUIRE, USNR, VF-8 from BUNKER
-# HILL, picked up 1100 (I) 12 Oct after a water landing 300 yds ahead; Lt(jg) C.J. ROBERTS swam a line to him.
-# Lifeguard stations 12 Oct (35 miles bearing 090 from BITO KAKU) and 13 Oct (bearing 120, 30 miles from BITO KAKU).
+# Narrative and sources (not tied to a table row):
+# - PEITAU KAKU (19-21 October) is not identified, so the three entries fixed from it have no position. It is
+#   probably BITO KAKU under its Chinese name (Pi-t'ou): at 1045 (I) on 20 October TRIGGER had it bearing 180, 6
+#   miles, and SILVERSIDES, whose periscope TRIGGER sighted at 0916 bearing 004, 8,000 yds, was at 25-20 N 121-54 E
+#   at 1025 (I). If so, the landmark entry in sources/reference.yml can take BITO KAKU's position.
+# - The lifeguard positions fixed from BITO KAKU (12 October 35 miles 090; 13 October 30 miles 120) fall about 15
+#   miles from the aircraft-table positions of the same mornings (25-07 N 122-18 E; 25-08.5 N 122-22 E). The
+#   landmark positions are estimates and stay off the track; the table positions are on it.
+# - 19 October '1345-3C (I)' (Qwen): a span or a struck figure; entered as 1345.
+# - 19 October: the 1522 surfacing entry continues on page 11 under '1552 (I) Cont'd.' (Qwen).
+# - 26 October '0830 (I) Message sent and receipted for' follows the 0836 entry in both reads: probably 0850.
+# - 25 Oct 1751 (Qwen) / 1754 (Bonsai): identified SILVERSIDES. 1 Nov 0559 (Qwen) / 0659 (Bonsai): torpedo wake;
+#   0559 keeps the entries in order. 30 Oct 0700 'giving 07C0 enemy position' (a struck digit). 10 Oct 2235 radar pip
+#   bearing 123 (Qwen) / 120 (Bonsai).
+# - 27 October 2147: 'pass east of JONOKUNI JIMA' as read; the boat was then near ISHIGAKI and IRIOMOTE.
+# - Part M (Radar) gives several own positions not used for the track. One cannot be right: '312100 ... our location
+#   Long. 134°-04', Lat. 29°-21'' is about 200 miles from SALMON's stopping point (26-30 N 136-16 E), which TRIGGER
+#   reached at 2245 (I) the same night.
+# - The week at Saipan (3-10 November) has no positions; the track runs straight from aircraft contact 30 (2 Nov,
+#   17-50 N 141-05 E) to Addenda aircraft contact 1 (12 Nov).
+# - The index note (INDEX SS.237.10) gives base_in Pearl Harbor and 5 days submerged; the report has Guam (moored to
+#   SPERRY, APRA Harbor, 23 November) and 15 days submerged (Part S, first part). The index's miles and fuel (11,438
+#   mi, 114,530 gal) are the same as its Patrol 8 figures (the converter's warning); Part R gives 9,875 mi and
+#   137,600 gal for the first part and 3,505 mi and 43,410 gal for the Addenda.
+# - Tonnage: the Squadron Ten endorsement recommends 1 converted tanker damaged, about 14,000 tons; COMSUBPAC credits
+#   'SUNK 1/3 - Large Tanker - 3,300 tons (Attack No. 1)'. Only COMSUBPAC's credit is entered.
+# - Ship contact table courses for contacts 1-8 were read by neither model; check the scan.
+# - Aircraft table, page 23: the 'Range & Relative Bearing' row and the type row for contacts 5-7 are uncertain in
+#   both reads (in ⟦ ⟧ in contacts-01.md). Not used for the track.
+# - Enclosure (B), the track chart ('To ComSubPac only'), is not among the 53 scans.
+
+rows:
+  1: "Ship contact 1 (1405 (I), 21-11 N 130-41 E) is 13 miles west of aircraft 8 (1415 (I), 21-12 N 130-55 E) ten minutes later: 79 knots if both were the boat. The sampan was at 20,000 yds (10 miles), bearing 320 T, so the table's position is probably the sampan's (as SILVERSIDES' Patrol 11 ship contact 1). Plotted as typed."
+  2: "Ship contact 2 (2203 (I), 24-31 N 122-20 E) is 6 miles north of aircraft 10 (2158 (I), 24-24.8 N 122-21 E) five minutes earlier. The narrative has target #1 on bearing 005 T by sound, so the position is probably the sampans'. Plotted as typed."
+  12: "Aircraft 2 (6 October, 1025 (I)) is typed 18-25 N 145-50 E, the same longitude as aircraft 1 (3 October, off ANATAHAN); both reads agree. The boat left SAIPAN at 0554 (I) on 5 October on course 310, slowing to 6 knots in the typhoon: 18-25 N on that course is near 141-50 E, and from 145-50 E she would need 14 knots to reach aircraft 3 (7 October 0900, 140-15 E). Check the scan."
+  13: "Aircraft 3 (7 October 0900 (I), 19-10 N 140-15 E) is 168 miles east of aircraft 4 (1350 (I), 19-20 N 137-17 E) 4 hours 50 minutes later: 35 knots. The boat was on 2 then 3 main engines (13 knots in both columns). One of the two longitudes is probably wrong; check the scan."
+  26: "Aircraft 16 (15 October 1658 (I), 25-05.5 N 122-03 E) is 46 miles west of aircraft 15 (1445 (I), 24-56.1 N 122-53 E) 2 hours 13 minutes earlier, submerged at 3 knots on course 025: 21 knots. On that course and speed the boat would be near 25-02 N 122-56 E. At 1935 the narrative has YONAKUNI JIMA bearing 190, 55,300 yds, which puts her near 24-54 N 123-05 E. 122-03 is probably mistyped (122-58 or 123-03?); check the scan."
+  27: "Aircraft 17 (19 October 1232 (I), 25-20.4 N 122-09 E, as read by the PSO) is 25 miles west of ship contact 4 (1005 (I), 25-20 N 122-37 E) and 36 miles west of ship contact 5 (1328 (I), 25-15 N 122-48 E) 56 minutes later: 38 knots. The task force was sighted at 18,000 yds bearing 080, which puts the boat near 25-13 N 122-38 E at 1328. 122-39 would fit both contacts; the plane is the task force's float plane (narrative 1332 (I); Bonsai reads the type 'F1.Type'). An editorial estimate (122-39) is suggested; the PSO to decide."
+  28: "Aircraft 18 (20 October 1223 (I), 25-00 N 122-39 E) and aircraft 19 (1300, 25-04 N 122-27 E) need 19 knots between them, and aircraft 19 to aircraft 20 (1343, 25-14 N 122-13 E) 22 knots, submerged at 3 knots. The table's courses for 18-19 are 090, but the positions run west. At 1045 the narrative has the boat 6 miles north of PEITAU KAKU on course 080; SILVERSIDES was at 25-20 N 121-54 E at 1025. Check the scan for 18 and 19."
+  29: "See entry 28 (aircraft 19)."
+  40: "Aircraft 30 (2 November 1905 (I)): the narrative has the green flare and SJ pip at 1900."
+  50: "Torpedo attack 1: the form gives 30-14 N 132-50 E at 1615 (I) (Part O gives the same position for the dive's bathythermograph card); the first sighting, ship contact 10, was at 0710 (I), 29-29 N 132-05 E. The narrative counts 78 depth charges, Part J 70."

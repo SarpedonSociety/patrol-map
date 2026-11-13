@@ -100,4 +100,7 @@ Checking a new patrol (lessons from Silversides 7, Trigger 7, Finback 7):
   OCR text layer (identical misspellings across fresh chats, degree signs read
   as 0, `[cite: N]` markers). Finback 8 was rerun from images.
 - One report per Gemini chat; a fresh chat per report.
+- Two-part reports (an Addenda with its own page and attack numbering, Trigger 10): give the Addenda's narrative
+  pages as A1, A2 ...; head its attack forms with the next free number ('attack 2') and say so in Flags.
+- Torpedoes fired come from every "Tubes Fired" line of a form (all pages), typed "#1 #2" or bare "6 5 4".
 - Work in short sessions (one patrol each) to keep context use low.
