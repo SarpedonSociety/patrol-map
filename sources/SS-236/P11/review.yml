@@ -1,0 +1,49 @@
+# Reviewer notes, keyed by entry number: entries are counted through contacts-01.md (ship contacts 1-7, aircraft
+# contacts 1-35 as entries 8-42), contacts-02.md (density layers 43-58), contacts-03.md (Addendum ship contact 8 as
+# 59, aircraft 36-39 as 60-63) and attacks-01.md (torpedo attack 1 as 64). Delete a note once it's resolved.
+#
+# Settled by the PSO from the scans, 13 November 2026 (kept here for the record; entered in the tables):
+#   ship contact 4 lat 25-05N (overstruck); ship contact 6 has no time (time column typed 30-21N); aircraft 8 typed
+#   '1-/14' at 1115; aircraft 9 at 1230; aircraft 13 on 10/17 at 1240; aircraft 10 long. 121-49 (2 restruck as 1);
+#   aircraft 15, 17 and 27 have figures written above a slash (122-18/30, 122-02/10, 25-13/05, 122-02/30), plotted
+#   to the whole minute; aircraft 26 has no position; aircraft 29 dated 10/23; aircraft 31 at 1440, 33 at 1450;
+#   mines at 25-20 N (page 4) and 25-30 N (Part I) both as typed; 1 November '1253' as printed; the torpedo form's
+#   two 'Gyro Angle' lines as typed.
+#
+# Narrative and sources (not tied to a table row):
+# - The narrative's remaining OCR disagreements are flagged entry by entry in gemini-01.yml and gemini-02.yml
+#   (words chosen where one read forms the word; numbers in ⟦ ⟧). Not yet checked against the scan: 30 Oct 1910
+#   tanker bearing 242/212; 2 Nov 1730 frequency 155/1555; 13 Nov search time 1030/1050; 19 Oct 0700, 20 Oct 1906,
+#   2 Nov 1730 and other times only Bonsai placed.
+# - 30 October 0647: typed 'Move to attack' in both reads; probably 'Dove'.
+# - 8 October: 'Entered area LLC' in both reads (area 11C). Part J types 'Area llc' (Qwen) / '11C' (Bonsai).
+# - 12 October 1704 and 1755: the plane type is read S.I.L.Y / SILLY; the aircraft table has SALLY.
+# - 23 and 24 October: the narrative puts the boat '10 miles south of UOTSURI SHIMA' (about 25-35 N); the aircraft
+#   table types this day's positions 125-10 / 125-03 (read as 25-10 / 25-03, entries 36-39), about 35 miles south,
+#   and TRIGGER's report has her '35 miles south of UOTSURI SHIMA' that morning. The narrative's landmark positions
+#   are plotted as the converter derives them (estimates, off the track); the table's estimates are on it.
+# - 24 October: the narrative numbers the 1205 BETTY 'AIRCON #33' and the 25 October plane 'AIRCON #33' as well;
+#   the table numbers them 32 and 33.
+# - Arrival at Midway, 23 November 1032: the Addendum says all times are Item (-9) unless otherwise noted, so it is
+#   entered as I. A boat arriving at Midway would usually keep zone Y (+12); if the clocks were changed en route,
+#   the arrival is a day and a few hours off. The Fold3 or deck log date of arrival would settle it.
+# - The week at Saipan (3-10 November) has no positions; the track runs straight from the 1 November contact
+#   (26-27 N 136-25 E) to the 12 November aircraft contacts. The status strip could show it as a dated period
+#   (sources/status/periods.yml) if a status code fits; the patrol's own period covers it.
+# - Fold3 image numbers are not entered. The index note's fold3_url (image 292548101) is 'page 1' of the Fold3
+#   download, which is probably the CO's covering letter (scan Page1), not typed page 1.
+# - Enclosure (B), the track chart ('Comsubpac only'), is not among the 41 scanned pages. The PSO is checking the
+#   collated PDF.
+# - The index note (INDEX SS.236.11) gives 15.5 days to station and 28.5 in area; the report's Part S gives 8 + 5
+#   days to the area and 23 days in it for the first part, 2½ + 5½ for the sweep.
+# - Part R of the first part (page 21) and of the Addendum (page 10A) disagree: the Addendum's table has no
+#   'Station to Saipan' line (1434 miles, 17,920 gallons on page 21). A stray '36166 Gallons' at the head of the
+#   Addendum table (Bonsai only) is not on the page (PSO).
+
+rows:
+  14: "Aircraft 7 S/M speed 3.6 against 2.3 for every other contact that day; typed as read."
+  21: "Aircraft 14 is dated 10/18 in both OCR reads, after contact 15 at 1057 on 10/18. The narrative has AIRCON #14 at 1545 (I) on 17 October. Check the date on the scan (page 12)."
+  22: "Aircraft 15 position 25-00 N 122-18 E at 1057 on 18 October; the density-layer fix at 2115 (Z) on 10/17 (0615 (I) on the 18th) is 25-06 N 122-21 E."
+  44: "Density layer row 2: dated 10/11/44 as typed, plotted on 10/10 (see row_estimates). Check the scan."
+  45: "Density layer row 3: last three temperatures read 82 77 67 (Qwen) / 83 87 87 (Bonsai). Not used for the track."
+  64: "Torpedo attack 1: position 29-18 N 132-06 E at 0800 (I). The first contact (ship contact 5) was at 0642 (I), 29-09 N 132-00 E, 14 miles; the 0750 (I) density-layer fix is 29-16 N 132-04 E."

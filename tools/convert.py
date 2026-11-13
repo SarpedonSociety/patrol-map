@@ -788,6 +788,19 @@ def build_patrol(folder, ref):
                     fix_notes.append(f"Corrected by hand from the scan: {headers[i].strip()} was '{cells[i]}'.")
                     cells = list(cells)
                     cells[i] = str(val)
+            # patrol.yml row_estimates: { <entry number>: { <heading as typed>: { value:, note: } } } plots an
+            # editorial best guess where the report's own figure is impossible (a typist's 28-20 among fixes
+            # at 25 N). The typed value stays in the flag; the entry is marked as an estimate.
+            ests = meta.get("row_estimates") or {}
+            for head, spec in (ests.get(entry) or ests.get(str(entry)) or {}).items():
+                val, why = (spec.get("value"), spec.get("note")) if isinstance(spec, dict) else (spec, None)
+                i = next((k for k, h in enumerate(headers) if h.strip().lower() == str(head).strip().lower()), None)
+                if i is not None and i < len(cells):
+                    typed = cells[i].strip() or "blank"
+                    fix_notes.append(f"Editorial estimate, not the report's figure: {headers[i].strip()} is typed "
+                                     f"'{typed}'; plotted as '{val}'." + (f" {why}" if why else ""))
+                    cells = list(cells)
+                    cells[i] = str(val)
             f = {nm: (cells[i] if i < len(cells) else "") for i, nm in enumerate(names) if nm}
             extra = {h: (cells[i] if i < len(cells) else "") for i, (h, nm) in enumerate(zip(headers, names)) if nm is None}
             flags = [f"Heading(s) not recognized, kept as typed: {', '.join(unknown)}"] if unknown and n == 0 and not is_fix else []
@@ -949,8 +962,11 @@ def build_patrol(folder, ref):
                     flags.append(f"Corrected by hand from the scan: '{fx['old']}' read as '{fx.get('new', '')}'.")
             if entry in row_notes:
                 flags.append(f"Review: {row_notes[entry]}")
-            tm = re.search(r"Time\s*[:;,]?\s*(\d{4})\s*\(?\s*([A-Z](?![A-Za-z]))?\s*\)?", unbracket(body), re.I)   # not the D of "Date"
+            tm = re.search(r"Time\s*[:;,]?\s*(\d{4})(?:\s*-\s*\d{4})?\s*\(?\s*([A-Z](?![A-Za-z]))?\s*\)?", unbracket(body), re.I)   # not the D of "Date"; "1218 - 1638 (I)" is a span
             dm = re.search(r"Date\s*[:;,]?\s*([A-Za-z]+\.?\s*\d{1,2}(?:,?\s*\d{4})?|\d{1,2}\s+[A-Za-z]+\.?,?\s*\d{4}|\d{1,2}[/-]\d{1,2}[/-]\d{2,4})", unbracket(body), re.I)   # "May 8, 1944", "20 May 1944", "5/8/44"
+            if not dm:   # a gun attack form's "Time: 1218 - 1638 (I)   15 November, 1944" has no "Date" label
+                tline = re.search(r"Time\s*[:;,]?.*", unbracket(body), re.I)
+                dm = re.search(r"(\d{1,2}\s+[A-Za-z]{3,}\.?,?\s*\d{4})", tline.group(0)) if tline else None
             la = re.search(r"Lat\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\.\d+)?(?:\s*-\s*\d+)?|\d{4})\s*\.?\s*([NS])", body, re.I)
             lo = re.search(r"Long\.?\s*[:;,]?\s*(\d+\s*-\s*\d+(?:\.\d+)?(?:\s*-\s*\d+)?)\s*\.?\s*([EW])", body, re.I)   # decimal minutes: "144-34.5 E"
             # Degrees-and-minutes form, "Lat. 29° 30' (N) Long. 128° 50'(E)": rewrite as 29-30 N.
@@ -987,7 +1003,7 @@ def build_patrol(folder, ref):
                 ("damage determined by", pick("damage determined")), ("target", pick("target draft")),
                 ("own ship", pick("speed")), ("attack_type", pick("type attack")),
                 ("form", body or None), ("torpedoes", form.get("torpedoes"))) if v}
-            tf = re.search(r"Tubes?\s+Fired\s*[:;]\s*(.*)", form.get("torpedoes") or "", re.I)
+            tf = re.search(r"Tubes?\s+Fired\s*[:;]?\s*(.*)", form.get("torpedoes") or "", re.I)
             if tf and re.findall(r"#\s*\d+", tf.group(1)):
                 fields["fired"] = str(len(re.findall(r"#\s*\d+", tf.group(1))))
             desc = fields.get("description") or ""

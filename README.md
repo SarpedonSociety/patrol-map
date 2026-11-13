@@ -124,6 +124,22 @@ tonnage:
 - Count each ship once. If several attacks claim the same ship, enter it
   at the attack that sank it.
 
+## Editorial estimates
+
+Where the report itself types a position or date that can't be right (a
+latitude of 28-20 N among fixes at 25 N, a date typed `1-/14`), the table
+keeps it as typed and `patrol.yml` gives the best guess to plot:
+
+```yaml
+row_estimates:
+  31: { Lat.: { value: "25-20", note: "TRIGGER's contact of the same three Mavis is at 25-13 N." } }
+```
+
+The key is the entry number (as in `review.yml`), then the column heading as
+typed. The record is flagged "Editorial estimate, not the report's figure",
+with the typed value and the note, and stays on the track. Use `row_fixes`
+instead when the transcription was wrong and the scan shows the right figure.
+
 ## Attack results
 
 Torpedo attacks with at least one hit show as a solid red circle; attacks

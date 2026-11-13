@@ -1,0 +1,94 @@
+# USS Silversides (SS-236), War Patrol 11
+# Two parts. First part: Pearl Harbor to Saipan, then Area 11C east of Formosa and the southern Nansei Shoto as a unit
+# of a coordinated attack group with SALMON and TRIGGER (Coye as group commander), 24 September - 3 November 1944.
+# One torpedo attack (30 October, tanker; one premature, one possible hit; TRIGGER stopped the tanker that afternoon
+# and STERLET sank it that night); SALMON damaged in a gun battle that night and escorted to Saipan. A week at
+# Saipan. Second part: BURT'S BROOMS (TU 17.24, Comdr. T.B. Klakring embarked as CTG), an anti-patrol vessel sweep
+# east and north of the Bonins, 10-23 November 1944, ending at Midway. One gun attack (15 November).
+# Sources: the OCR working transcription (Qwen3-VL 8B checked against Ternary Bonsai 27B; vault note 'SS-236
+# Silversides - War Patrol 11 - OCR'), restructured by Claude on 2026-11-13: gemini-01.yml (narrative, pages 1-9),
+# gemini-02.yml (Addendum narrative, pages 1A-7A), contacts-01.md (Parts F and G, pages 10-15), contacts-02.md
+# (Part O density layers, pages 19-20), contacts-03.md (Addendum F and G, page 8A), attacks-01.md (torpedo attack
+# form, page 16; gun attack form, pages 8A-9A). The PSO checked every number the two OCR reads disagreed on in the
+# contact tables against the scans on 13 November 2026; the narrative's other disagreements are flagged.
+# Page numbers: the typed number at the foot of each page; the Addendum's are typed 1A-11A. The handwritten number
+# on each scan (and the vault's PageN file) is the typed number plus one for pages 1-5 and plus two from page 6 on
+# (page 5A is scan 7); Addendum page nA is scan 25+n.
+
+boat: SS-236
+patrol: 11
+year: 1944
+report_found: yes
+report: "U.S.S. SILVERSIDES (SS236), Report of War Patrol Number Eleven"
+comsubpac_report_no: 588
+commanding_officer: "J.S. COYE, Jr."
+
+departure:
+  port: Pearl Harbor
+  date: 24 September 1944
+  time: "1330"
+  zone: VW
+  page: 1
+  flags: "Narrative: 'Departed Submarine Base, PEARL HARBOR' at 1330 (VW)."
+
+arrival:
+  port: Midway
+  date: 23 November 1944
+  time: "1032"
+  zone: I
+  page: 7A
+  flags: "Addendum narrative: 'Arrived MIDWAY' at 1032; the Addendum states 'All times Item(-9), unless otherwise noted.' See review.yml."
+
+period:
+  start: 1944-09-24
+  end: 1944-11-23
+  source: "Patrol report"
+
+# Wolfpack linking (not yet read by the converter; recorded for when the map links boats of one task group).
+# Evidence from TRIGGER's report for the same period (Trigger Patrol 10), compared on 2026-11-13:
+#   Group 1, coordinated attack group SILVERSIDES (Coye, group commander), SALMON, TRIGGER. Sailed together from
+#     Pearl 24 Sep and moored together at Saipan 3-4 Oct; TRIGGER sailed a day late (5 Oct). In the area 9-26 Oct
+#     the boats held adjacent stations within SJ range, exchanged information most nights, sighted each other on
+#     20, 25 and 26 Oct and met by rubber boat on 24 Oct (2106 I). Dispersed 27-29 Oct (independent searches ordered
+#     2206 I, 29 Oct); together again for the tanker of 30 Oct (TRIGGER's 0710 I sighting was about 11 miles from
+#     SILVERSIDES' 0800 I attack) and in formation escorting SALMON 31 Oct - 3 Nov. The Squadron Ten endorsement of
+#     TRIGGER's report calls it 'a wolf pack'. Suggested span: 4 Oct (sailing from Saipan) to 3 Nov.
+#   Group 2, BURT'S BROOMS, TU 17.24: SAURY, TAMBOR, TRIGGER, SILVERSIDES (flagship), STERLET, BURRFISH, RONQUIL,
+#     scouting line 14 miles apart, TRIGGER next to SILVERSIDES. Both boats' aircraft contacts of 12 Nov (about
+#     4 miles apart) and 14 Nov (about 19 miles) appear to be the same planes; joint gun attack 15 Nov. The sweep
+#     was discontinued 2130 I, 17 Nov; SILVERSIDES went to Midway with RONQUIL, TRIGGER to Guam. Suggested span:
+#     10 Nov 1626 I to 17 Nov 2130 I.
+# groups:
+#   - { id: TG-17.19.1-1944-10, name: "Coye's coordinated attack group", boats: [SS-236, SS-237, SS-182],
+#       start: 1944-10-04, end: 1944-11-03 }
+#   - { id: TU-17.24, name: "Burt's Brooms", boats: [SS-236, SS-237], start: 1944-11-10, end: 1944-11-17 }
+
+# Tonnage. Claimed: from the attack forms (attacks-01.md). The torpedo form's 'Possible damage to one A0,10,000
+# tons,(EC)' is left out, as the index (INDEX SS.236.11: damaged 200, ships damaged 1) and COMSUBPAC leave it out.
+# Credited: COMSUBPAC's endorsement ('D-A-M-A-G-E-D 1 - MIS. (EU) - 200 tons (Gun Attack No. 1)').
+tonnage:
+  - { date: "15 November 1944", time: "1218", zone: I, target: "Patrol boat, converted tuna boat type MIS (200T)", result: damaged, tons: 200, basis: claimed, source: "Gun attack 1, page 8A" }
+  - { date: "15 November 1944", time: "1218", zone: I, target: "MIS (EU)", result: damaged, tons: 200, basis: credited, source: "COMSUBPAC endorsement (Patrol Report No. 588), page 2" }
+
+# Torpedo attack result for the map marker. The form: 'One possible hit -- could not tell which one'. A possible hit
+# is entered as a hit (PSO, 13 November 2026).
+results:
+  A64: hit    # torpedo attack 1, 30 October: one possible hit, one premature
+
+# Editorial estimates (PSO, 13 November 2026: 'an editorialized track that shows our best guess ... corrected and
+# noted as an estimate'). The typed value stays in the record's flag. Entry numbers run through contacts-01.md
+# (ship contacts 1-7, aircraft 1-35 as entries 8-42), contacts-02.md (density layers, 43-58), contacts-03.md (59-63).
+row_estimates:
+  6:  { Time Date: { value: "10/30/44", note: "The time column is typed '30-21N' (the latitude repeated) over the date; the report gives no time. Between 0642 (I) on 30 October and 0210 (I) on 1 November." } }
+  11: { Lat.: { value: "25-02", note: "Aircraft 4. The density-layer fix at 2110 (Z) on 10/10 (0610 (I) on the 11th, 85 minutes earlier) is 25-02 N 123-04 E; the typist seems to have struck 8 for 5 (as aircraft 10 and 24)." } }
+  12: { Long.: { value: "122-42", note: "Aircraft 5. The 0600 (I) fix that morning (2100 (Z), 10/11) is 24-35 N 122-42 E, and aircraft 6 (1704) is at 122-44; 123-42 is a degree east of both." } }
+  14: { Long.: { value: "122-41", note: "Aircraft 7. 51 minutes after aircraft 6 at 122-44, submerged at about 3 knots; 123-41 would need a degree of longitude in under an hour." } }
+  15: { Date: { value: "10/14/44", note: "Aircraft 8. Typed '1-/14'." }, Lat.: { value: "24-46", note: "Aircraft 8. The 0600 (I) fix that morning (2100 (Z), 10/13) is 24-28 N 122-29 E; 22-46 is 100 miles south of it." } }
+  17: { Lat.: { value: "25-15", note: "Aircraft 10. The 0530 (I) fix (2030 (Z), 10/14) is 25-13 N 122-03 E and aircraft 11 at 1242 is 25-14 N; 28-35 is over three degrees north and 25-35 would also need too much speed submerged. Plotted near the other fixes of the morning; an estimate only." } }
+  31: { Lat.: { value: "25-20", note: "Aircraft 24. TRIGGER's aircraft contact 21 (three Mavis, 1500 (I), 20 October) is at 25-13 N 122-13 E: the same three Mavis five minutes later on the same longitude." } }
+  33: { Lat.: { value: "25-15", note: "Aircraft 26. No position recorded. Placed from aircraft 25 (1625 (I), 25-15 N 122-15 E) on course 270 at 2.6 knots for 73 minutes." }, Long.: { value: "122-12", note: "Aircraft 26, as above." } }
+  36: { Lat.: { value: "25-10", note: "Aircraft 29. Typed 125-10. TRIGGER submerged '35 miles south of UOTSURI SHIMA' (about 25-10 N) the same morning, and her aircraft contact 24 (1108 (I)) is at 25-15 N 124-05 E." } }
+  37: { Lat.: { value: "25-10", note: "Aircraft 30. Typed 125-10, as aircraft 29." } }
+  38: { Lat.: { value: "25-10", note: "Aircraft 31. Typed 125-10, as aircraft 29." } }
+  39: { Lat.: { value: "25-03", note: "Aircraft 32. Typed 125-03, as aircraft 29." } }
+  44: { Date: { value: "10/10/44", note: "Density layer row 2. Typed 10/11/44, between the 10/9 and 10/10 rows. 0830 (Z) is 1730 (I): on the 11th that is 47 miles from the boat's 0610 (I) fix after a day submerged; on the 10th it lies among that afternoon's aircraft contacts (24-33 N 122-22 E at 1650 (I))." } }

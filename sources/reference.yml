@@ -79,6 +79,9 @@ landmarks:
   Port Apra: { lat: 13.45, lon: 144.66, note: "Apra Harbor, Guam. Typed PORT APRA in Silversides Patrol 10. Approximate; verify against a chart." }
   Saipan: { lat: 15.18, lon: 145.75, note: "Saipan, centre of the island. Approximate; verify against a chart." }
   Anatahan Is.: { lat: 16.35, lon: 145.68, note: "Anatahan Island, northern Marianas. Typed ANATAHAN IS. in Silversides Patrol 10. Approximate; verify against a chart." }
+  Yonakuni Jima: { lat: 24.45, lon: 122.99, note: "Yonaguni Jima, westernmost of the Yaeyama Islands. Typed YONAKUNI JIMA in Silversides Patrol 11 and Trigger Patrol 10. Approximate; verify against a chart." }
+  Samucho Kaku: { lat: 25.01, lon: 122.00, note: "Santiao Cape (San-tiao Chiao), northeast tip of Formosa; Japanese Sanshō-kaku. Typed SAMUCHO KAKU in Silversides Patrol 11 and Trigger Patrol 10. Approximate; verify against a chart." }
+  Uotsuri Shima: { lat: 25.74, lon: 123.47, note: "Uotsuri Shima (Diaoyu Dao), largest of the Senkaku Islands. Approximate; verify against a chart." }
 
 # Place names drawn on the map. zoom = how far in before the label shows
 # (0 = always).
@@ -97,6 +100,12 @@ places:
   - { name: Guam, lat: 13.44, lon: 144.79, zoom: 2 }
   - { name: Saipan, lat: 15.18, lon: 145.75, zoom: 2 }
   - { name: Milne Bay, lat: -10.35, lon: 150.5, zoom: 3 }
+  - { name: Kirun, lat: 25.15, lon: 121.74, zoom: 3 }
+  - { name: Yonaguni, lat: 24.45, lon: 122.99, zoom: 4 }
+  - { name: Ishigaki, lat: 24.40, lon: 124.17, zoom: 4 }
+  - { name: Miyako, lat: 24.78, lon: 125.30, zoom: 4 }
+  - { name: Okinawa, lat: 26.50, lon: 127.95, zoom: 2 }
+  - { name: Torishima, lat: 30.48, lon: 140.30, zoom: 4 }
   - { name: Hachijo Jima, lat: 33.1, lon: 139.8, zoom: 3 }
   - { name: Inubo Saki, lat: 35.707, lon: 140.869, zoom: 4 }
   - { name: Nojima Saki, lat: 34.901, lon: 139.888, zoom: 4 }

@@ -34,6 +34,9 @@ Preview: `python -m http.server`, then http://localhost:8000.
   `replaces: { date:, page: }` to swap an entry, `zone_fix: { K: L }`,
   `table_zones:`, hand `departure` / `arrival`.
   Table cell wrong in `contacts-NN.md`: `row_fixes: { <entry no.>: { <heading>: <value> } }`.
+  A figure the report itself types impossibly (28-20 N among fixes at 25 N): keep it as typed and plot a
+  best guess with `row_estimates: { <entry no.>: { <heading>: { value:, note: } } }`; the record is flagged
+  "Editorial estimate, not the report's figure" with the typed value and the note (Silversides Patrol 11).
   Text wrong on an attack form: `form_fixes: [{ attack: n, old:, new: }]`.
   Both add a "Corrected by hand" flag; the raw files stay as saved.
 - Tables and attack forms can be transcribed by Claude from the scan JPGs instead of Gemini (Silversides and Trigger
