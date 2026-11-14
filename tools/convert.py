@@ -1210,7 +1210,7 @@ def build_patrol(folder, ref):
     for i, fg in enumerate(meta.get("figures") or [], start=1):
         fid = str(fg.get("id") or f"F{i:02d}")
         flags = []
-        for key in ("image", "cleaned", "thumb"):
+        for key in ("image", "cleaned", "thumb", "animation"):
             if fg.get(key) and not (ROOT / str(fg[key])).is_file():
                 flags.append(f"Figure '{fid}': {key} file {fg[key]} not found.")
         if not fg.get("image"):
@@ -1225,6 +1225,9 @@ def build_patrol(folder, ref):
             "image": fg.get("image"), "cleaned": fg.get("cleaned"), "thumb": fg.get("thumb") or fg.get("image"),
             "flags": flags,
         })
+        # An animated version of the drawing (a page in sketches/), linked from the lightbox.
+        if fg.get("animation"):
+            figures[-1]["animation"] = str(fg["animation"])
         for rec in records:
             m = re.match(r"attack\s+(\S+)", str(rec.get("title") or ""), re.I)
             on_attack = rec["kind"] == "torpedo" and m and m.group(1) in attacks

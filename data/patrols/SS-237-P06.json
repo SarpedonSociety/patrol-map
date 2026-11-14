@@ -71,7 +71,7 @@
   "counterattacks": 2,
   "torpedoes_fired": 24,
   "gun_actions": 0,
-  "flagged": 56
+  "flagged": 72
  },
  "track": [
   {
@@ -753,9 +753,11 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Surfaced to patrol area enroute to northern Straits of Formosa."
+    "event": "Surfaced. Intended to patrol this part of the area on the surface while passing through enroute to the northern end of the Straits of Formosa, where targets appear most likely."
    },
-   "flags": []
+   "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page."
+   ]
   },
   {
    "id": "SS-237-P06-C09",
@@ -914,10 +916,10 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Sighted CONTACT #1, five ship convoy with air escort, headed for HOKO SHO LIGHT. Unable to close."
+    "event": "Sighted five ship convoy consisting of two tankers, two freighters, and one unidentified ship, with a land based bomber as escort. Convoy is headed for HOKO SHO LIGHT, course 250, speed eleven."
    },
    "flags": [
-    "Position from CONTACT #1 heading applied here"
+    "Position from CONTACT #1 heading applied here. Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page."
    ]
   },
   {
@@ -949,9 +951,10 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Unable to close convoy. Decided to surface before sunset for end around run."
+    "event": "It is apparent that we will be unable to close. Convoy is already past, in spite of our running at full speed since sighting it. Decided to surface before sunset as soon as a reasonable possibility exists of making an undetected end around run. The plane certainly cramps our style."
    },
    "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.",
     "No position in the report. Placed on the track between the recorded positions at 1943-09-17 06:30 and 1943-09-17 15:05 GMT, as an estimate."
    ]
   },
@@ -1046,10 +1049,10 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Sighted CONTACT #2, two unescorted ships bearing 208 T. Commenced approach on larger vessel."
+    "event": "As we were about to surface sighted two ships on opposite course, bearing 208°T. Commenced approach on these two, consisting of a 5000 ton 3 island old type freighter, and a large new type 3 deck passenger-freighter. Held huddle to decide which convoy to go after. Decided this one, inasmuch as it was in sight, making only eight knots, and unescorted."
    },
    "flags": [
-    "Position from CONTACT #2 heading"
+    "Position from CONTACT #2 heading. Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page."
    ]
   },
   {
@@ -1116,9 +1119,10 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Surfaced in darkness; commenced surface approach on ships zigzagging on base course 070°T."
+    "event": "Surfaced. Very dark. Commenced surface approach. It developed that the two ships were making eight knots, zigzagging on base course 070°T. Unfortunately the ships were too far apart to attain a firing position on both of them at the same time."
    },
    "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.",
     "No position in the report. Placed on the track between the recorded positions at 1943-09-17 06:30 and 1943-09-17 15:05 GMT, as an estimate."
    ]
   },
@@ -1229,9 +1233,10 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Target commenced firing deck guns; withheld fire from after tubes due to poor data and closing range."
+    "event": "Target commenced firing deck guns. Obtained set-up to fire after tubes, but withheld fire because of poor firing data. Range now 700 yards, and with the visibility improving with approaching moonrise and the shells coming too close for comfort, at"
    },
    "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. The sentence runs on into the 2058 entry ('dived.'). Check against the page.",
     "No position in the report. Placed on the track between the recorded positions at 1943-09-17 06:30 and 1943-09-17 15:05 GMT, as an estimate."
    ]
   },
@@ -1405,9 +1410,10 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Radar contact. Commenced end around on dark side of moon, pursuing the larger ship."
+    "event": "Radar contact. Commenced end around on dark side of the moon. The two ships had separated, so went after the big one, hoping to be able to return for the other later."
    },
    "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.",
     "No position in the report. Placed on the track between the recorded positions at 1943-09-17 06:30 and 1943-09-17 15:05 GMT, as an estimate."
    ]
   },
@@ -1594,9 +1600,11 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Battle surfaced; nothing in sight. Target sank very rapidly, identified as similar to GOSYO MARU, 8500 tons."
+    "event": "Made battle surface. Nothing in sight. No wreckage, no Japs. They never knew what had happened. Have heard of targets sinking fast, but this is the first time this ship or the Commanding Officer has ever experienced such a thing. It seemed very unreal. The ship was similar to the GOSYO MARU, of 8500 tons, page 49, ONI 208-J."
    },
-   "flags": []
+   "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Includes the untimed paragraph that follows the entry ('Have heard of targets sinking fast'). Check against the page."
+   ]
   },
   {
    "id": "SS-237-P06-N39",
@@ -1833,9 +1841,11 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Sighted convoy of 3 tankers and 3 freighters with air escort, zigzagging 030°T to 130°T, speed 8. Unable to close."
+    "event": "Convoy in sight, consisting of one very large tanker, two smaller tankers, and three old type freighters, with air coverage. Full speed since sighting, unable to close. Barring a radical and wholly illogical zig, our only hope is a night attack. Convoy is zigzagging from 030°T to 130°T, speed eight."
    },
-   "flags": []
+   "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page."
+   ]
   },
   {
    "id": "SS-237-P06-N46",
@@ -1860,9 +1870,11 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Identified convoy: NIPPON MARU type tanker, SYOYO MARU and SAN PEDRO MARU types; freighters LIMA MARU, ARGUN MARU, KOHUKU MARU."
+    "event": "Ships identified as follows: The largest tanker is similar to NIPPON MARU, page 263, except that she mounts tripod masts forward and aft, and raised gun mounts, bow and stern. Also, from all experience this vessel has had, she is larger than the standard new type Japanese tanker of 10,000 tons. Not a whale factory, however. Other two tankers similar to SYOYO MARU and SAN PEDRO MARU, pages 273 and 275 respectively. Freighters are: LIMA MARU, page 227, ARGUN MARU, page 230 and KOHUKU MARU, page 106. All pages in ONI 208-J. Truly an ill-assorted bunch."
    },
-   "flags": []
+   "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. The colons after 'as follows' and 'Freighters are' may be typed as semicolons. Check against the page."
+   ]
   },
   {
    "id": "SS-237-P06-N47",
@@ -1968,9 +1980,11 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] On starboard beam, range 8000, convoy course 080 T, speed 8. Two columns of 3 ships on PPI. Tankers on near side."
+    "event": "On starboard beam of the convoy, range 8000. Plot indicates course 080° T, speed 8, not zigzagging. Disposition from PPI - Two columns of three ships each, 1000 yards apart. From the size and location of the pips, decided the tankers are on our side, hence will attack this side. Waited till it became a little darker."
    },
-   "flags": []
+   "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page."
+   ]
   },
   {
    "id": "SS-237-P06-N51",
@@ -2138,9 +2152,11 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Two torpedo hits on TANKER #1 resulting in massive gasoline fire and conflagration; target's crew manned bow gun."
+    "event": "One hit seen on after part of the TANKER # 1. Flame shot five hundred feet into the air, lighting up the whole area as bright as day. All six ships could plainly be seen. Eight seconds later the second torpedo hit her amidships, but nothing could have added to the furious holocaust already taking place. Members of her crew in various stages of dress (most in white uniforms) could be seen running forward ahead of the rapidly spreading flames. She was still driving ahead, a brilliant blazing funeral pyre. The men in the bow manned the bow gun and fired three or four times, but she was soon burning throughout her length. The flames were yellow-red, evidently a gasoline fire."
    },
-   "flags": []
+   "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page."
+   ]
   },
   {
    "id": "SS-237-P06-N56",
@@ -2192,10 +2208,10 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] One hit on FREIGHTER #2 in far column; broke in half and sank immediately, pip disappeared on radar."
+    "event": "One hit amidships on FREIGHTER # 2 in the far column. In the light of the burning tanker she was seen to break in half beneath the stack and sink immediately. Radar was on this target at the time, the operator having expressed a desire to see a ship sink on his screen. His wish was fulfilled, for on both the radar and PPI screens the pip was seen to diminish and finally disappear. Radar and PPI then indicated five targets."
    },
    "flags": [
-    "Time typed as 2056-50 I in text; chronological sequence indicates 2058-50 I"
+    "Time typed as 2056-50 I in text; chronological sequence indicates 2058-50 I. Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. The 8 in 2058 is broken on the scan and looks like a 6, as it does in the 2058-10 entry above it. Check against the page."
    ]
   },
   {
@@ -2342,9 +2358,11 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Dived. CO fell into periscope well as quartermaster lowered periscope; CO supported on elbows and halted descent."
+    "event": "Dived. Slight confusion in the conning tower. The Commanding Officer fell into the periscope well and the quartermaster began to lower the periscope. Fortunately the Commanding Officer, supporting himself on his elbows, was able to make himself heard in time. In the meantime, with lots of down angle and lots of speed, went to 200 feet, figuring TANKER # 3 might try to ram or possibly drop some depth charges as he passed over. However, he did not pass over, and in fact, no screws were heard. The situation at this time can best be illustrated by the following sketch:"
    },
-   "flags": [],
+   "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Runs on from page 7 into the untimed paragraph at the head of page 8, which introduces the sketch. The sketch and its typed note are not transcribed here (see figures). Check against the page."
+   ],
    "figures": [
     "attack-sketch"
    ]
@@ -2426,9 +2444,11 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Periscope depth; took periscope pictures of burning tanker. Reloaded, two torpedoes left forward, four aft."
+    "event": "Periscope depth. Burning ship still very bright, but nothing else could be seen. Made reload, two torpedoes left forward, four aft. Took periscope pictures and allowed crew to view burning tanker through both periscopes."
    },
-   "flags": []
+   "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page."
+   ]
   },
   {
    "id": "SS-237-P06-N64",
@@ -2480,9 +2500,11 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Surfaced. Five radar/PPI contacts. TANKER #1 stopped burning, TANKER #2 burning, TANKER #3 down by bow, FREIGHTER #1 undamaged stopped, FREIGHTER #2 sunk, FREIGHTER #3 undamaged heading north."
+    "event": "Surfaced. Took more pictures of burning ship. Radar and PPI reported five contacts, three in the vicinity of the burning tanker, and two others. The situation as clarified by plot and PPI was as follows: TANKER # 1, stopped, burning. TANKER # 2, burning, course east. TANKER # 3, down by bow. FREIGHTER # 1, undamaged, stopped near burning ship. FREIGHTER # 2, sunk. FREIGHTER # 3, undamaged, course north."
    },
-   "flags": []
+   "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. The colon after 'as follows' may be typed as a semicolon. Check against the page."
+   ]
   },
   {
    "id": "SS-237-P06-N66",
@@ -2507,9 +2529,11 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Pursued FREIGHTER #3; observed vertical stern of sinking ship (believed TANKER #3) silhouetted against burning NIPPON MARU."
+    "event": "Took off after ship moving north. As we passed the burning NIPPON MARU abeam, the stern of a ship, pointing vertically into the air, drifted between us and was distinctly silhouetted. It is believed that this was the stern of TANKER # 3, but it is possible it was the stern of FREIGHTER # 2. However, this freighter already had been seen to sink at about 2059."
    },
-   "flags": []
+   "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page."
+   ]
   },
   {
    "id": "SS-237-P06-N67",
@@ -2633,9 +2657,11 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] FREIGHTER #3 dead in water with forecastle awash, firing wildly; FREIGHTER #1 firing back. Made surface approach."
+    "event": "FREIGHTER # 3 down to his main deck forward, dead in the water, but still not under. Decided to polish him off, and made surface approach. He was still firing but evidently to wrong side, because we could see no flashes. FREIGHTER # 1, several thousand yards beyond him, was shooting back. Score zero for both, as far as we could see."
    },
-   "flags": []
+   "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page."
+   ]
   },
   {
    "id": "SS-237-P06-N71",
@@ -2759,9 +2785,11 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Surfaced silhouetted against burning TANKER #1. Ran full speed around FREIGHTER #3; passed at 2500 yards, target opened fire."
+    "event": "Surfaced. Found ourselves silhouetted against burning TANKER # 1. Went to full speed, pulled around FREIGHTER # 3 on the dark side. Passed too close (2500 yards). Target saw us and opened fire."
    },
-   "flags": []
+   "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page."
+   ]
   },
   {
    "id": "SS-237-P06-N75",
@@ -2840,7 +2868,7 @@
    "source": "Part I narrative",
    "part": "I",
    "kind": "event",
-   "page": "10",
+   "page": "10-11",
    "zone": "I",
    "local": "0036 I September 22, 1943",
    "utc": "1943-09-21T15:36:00Z",
@@ -2858,9 +2886,11 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Surfaced. 3 radar contacts: burning TANKER #1, damaged FREIGHTER #3 firing aimlessly at 4 knots, and undamaged FREIGHTER #1."
+    "event": "Surfaced. Three radar contacts. Burning TANKER # 1, damaged FREIGHTER # 3, and undamaged FREIGHTER # 1. The latter was slowly steaming back and forth near the fire, like a moth drawn to a flame. FREIGHTER # 3 was still firing aimlessly, forcastle awash, but able to make 4 knots. The whole action covered a period of 3 1/2 hours, and took place within a circle of 8000 yards of the burning NIPPON MARU. The light cast by this fire was intense; the flames being, most of the time, a hundred feet over the tops of his masts. Continuous minor explosions took place, throwing up gobules of fire even higher. The smoke emitted covered a third of the sky, and was blown by the wind into a plume twenty miles long. It must be admitted that the light of the fire was probably of more benefit to us than to the enemy, however, since we were always able to get around to the dark side and use it to our advantage."
    },
-   "flags": []
+   "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026: the entry runs on from page 10 into two untimed paragraphs at the head of page 11 (from 'The whole action'). 'Burning' and 'damaged' have broken letters on the scan; 'forcastle' and 'gobules' as typed. Check against the pages."
+   ]
   },
   {
    "id": "SS-237-P06-N78",
@@ -2885,9 +2915,11 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] Entire 3 1/2 hour action occurred within 8000 yards of burning NIPPON MARU; bright fire aided boat's approach from dark side."
+    "event": "Set course for edge of area, full speed on all engines."
    },
-   "flags": []
+   "flags": [
+    "Time read 0045 from the scan (Gemini had this entry at 0050, and a summary of the page's opening paragraphs at 0045). Read by Claude, 14 Nov 2026. Check against the page."
+   ]
   },
   {
    "id": "SS-237-P06-N79",
@@ -2912,9 +2944,11 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "Set course for edge of area, full speed on all engines."
+    "event": "Sighted a glow over the horizon, beyond the burning tanker."
    },
-   "flags": []
+   "flags": [
+    "Entry left out by Gemini, which had 'Set course' at this time. Read from the scan by Claude, 14 Nov 2026. Check against the page."
+   ]
   },
   {
    "id": "SS-237-P06-N80",
@@ -2939,9 +2973,11 @@
    "type": "Narrative",
    "title": "Narrative entry",
    "fields": {
-    "event": "[SUMMARY] TANKER #2 blew up in brilliant flame; two huge fires visible. Crew permitted on bridge to view fires."
+    "event": "The glow flared up, and burst into brilliant flame, identical to that of the burning tanker. It was TANKER # 2, as she blew up. By 0100 I, two huge fires could be seen. The bow, bridge, and stern of the distant tanker were incandescent. Nothing more could be seen of the hull of the NIPPON MARU, but the place where she had been was still burning fiercely, with flames 50 to 100 feet high. Allowed members of the crew, one at a time, to come up on the bridge to see the two burning ships."
    },
-   "flags": []
+   "flags": [
+    "Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page."
+   ]
   },
   {
    "id": "SS-237-P06-N81",
@@ -3449,7 +3485,8 @@
    "image": "media/SS-237/P06/attack-sketch.jpg",
    "cleaned": "media/SS-237/P06/attack-sketch-cleaned.jpg",
    "thumb": "media/SS-237/P06/attack-sketch-thumb.jpg",
-   "flags": []
+   "flags": [],
+   "animation": "sketches/SS-237-P06.html"
   }
  ],
  "index": {

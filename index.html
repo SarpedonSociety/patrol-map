@@ -333,6 +333,8 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
 .figbox .tools button { border: 1px solid var(--rule); background: var(--paper); color: var(--ink); border-radius: 4px; padding: 4px 10px; font-size: 12.5px; cursor: pointer; }
 .figbox .tools button[aria-pressed="true"] { background: var(--track); border-color: var(--track); color: var(--paper); }
 .figbox .tools .x { border: 0; font-size: 20px; line-height: 1; padding: 0 4px; color: var(--muted); }
+.figbox .tools .anim { border: 1px solid var(--brass); color: var(--brass); border-radius: 4px; padding: 4px 10px; font-size: 12.5px; font-weight: 600; text-decoration: none; white-space: nowrap; }
+.figbox .tools .anim:hover, .figbox .tools .anim:focus-visible { background: var(--brass); color: var(--paper); }
 .figbox .stage { overflow: auto; background: var(--sea); display: flex; min-height: 0; }
 .figbox .stage img { display: block; margin: auto; max-width: 100%; max-height: 100%; object-fit: contain; cursor: zoom-in; }
 .figbox .stage.full img { max-width: none; max-height: none; cursor: zoom-out; }
@@ -412,6 +414,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
       <header>
         <div><h2 id="figtitle"></h2><div class="sub" id="figsub"></div></div>
         <div class="tools">
+          <a class="anim" id="figanim" target="_blank" rel="noopener" hidden>&#9654; Play the animation</a>
           <button type="button" id="figscan" aria-pressed="true">As scanned</button>
           <button type="button" id="figclean" aria-pressed="false">Cleaned</button>
           <button type="button" class="x" id="figclose" aria-label="Close">×</button>
@@ -1163,7 +1166,7 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
   function figureLinks(r) {
     return figuresOf(r).map((f) => `<button type="button" class="figlink" data-fig="${esc(f.id)}">
         <img src="${esc(f.thumb || f.image)}" alt="" loading="lazy">
-        <span><b>${esc(f.title || "Drawing in the report")}</b><br><small>Page ${esc(f.page || "?")} of the report · open the drawing</small></span>
+        <span><b>${esc(f.title || "Drawing in the report")}</b><br><small>Page ${esc(f.page || "?")} of the report · open the drawing${f.animation ? " · animated" : ""}</small></span>
       </button>`).join("");
   }
   const figbox = $("figbox");
@@ -1187,6 +1190,9 @@ details.picker[open] > summary .caret { transform: rotate(180deg); }
     $("figsrc").innerHTML = `Source: ${esc(String(patrol.report || patrol.name).replace(/\.+$/, ""))}${f.page ? ", page " + esc(f.page) : ""}.${citeLine({ page: f.page, patrol })}`;
     $("figclean").hidden = !f.cleaned;
     $("figscan").hidden = !f.cleaned;
+    // An animated version of the drawing, if the figure has one (animation: in patrol.yml); opens in a new tab.
+    $("figanim").hidden = !f.animation;
+    if (f.animation) $("figanim").href = f.animation; else $("figanim").removeAttribute("href");
     $("figstage").classList.remove("full");
     showFigVersion(false);
     if (playing) setPlaying(false);

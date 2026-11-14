@@ -43,6 +43,7 @@ figures:
     image: media/SS-237/P06/attack-sketch.jpg
     cleaned: media/SS-237/P06/attack-sketch-cleaned.jpg
     thumb: media/SS-237/P06/attack-sketch-thumb.jpg
+    animation: sketches/SS-237-P06.html
     caption: >-
       Hand-drawn in the narrative, Enclosure (A) page 8. Trigger's numbered
       positions for attacks 3 to 9, the torpedo tracks, and the fate of each
@@ -61,3 +62,257 @@ results:
   A19: hit    # pp.35-36 attack 7: "Two hits"; "Saw two hits in bow."
   A20: miss   # pp.37-38 attack 8: "One miss, one dud"; "No results."
   A21: miss   # pp.39-40 attack 9: "One miss, one dud"; "No results."
+
+# Pages 10-11 (22 September), put back from the scan. Gemini summarized the
+# 0036 entry, gave the two paragraphs that continue it on page 11 as a
+# separate summary timed 0045, timed "Set course" 0050, left out the 0050
+# entry and summarized 0055. The page reads 0045 Set course, 0050 Sighted a
+# glow, 0055 The glow flared up.
+events:
+- replaces:
+    date: September 22, 1943
+    time: '0036'
+  date: September 22, 1943
+  time: '0036'
+  zone: I
+  part: I
+  event: 'Surfaced. Three radar contacts. Burning TANKER # 1, damaged FREIGHTER # 3, and undamaged FREIGHTER # 1. The latter was slowly steaming back and forth near the fire, like a moth drawn to a flame. FREIGHTER # 3 was still firing aimlessly, forcastle awash, but able to make 4 knots. The whole action covered a period of 3 1/2 hours, and took place within a circle of 8000 yards of the burning NIPPON MARU. The light cast by this fire was intense; the flames being, most of the time, a hundred feet over the tops of his masts. Continuous minor explosions took place, throwing up gobules of fire even higher. The smoke emitted covered a third of the sky, and was blown by the wind into a plume twenty miles long. It must be admitted that the light of the fire was probably of more benefit to us than to the enemy, however, since we were always able to get around to the dark side and use it to our advantage.'
+  page: 10-11
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026: the entry runs on from page 10 into two untimed paragraphs at the head of page 11 (from ''The whole action''). ''Burning'' and ''damaged'' have broken letters on the scan; ''forcastle'' and ''gobules'' as typed. Check against the pages.'
+- replaces:
+    date: September 22, 1943
+    time: '0045'
+  date: September 22, 1943
+  time: '0045'
+  zone: I
+  part: I
+  event: Set course for edge of area, full speed on all engines.
+  page: 11
+  flags: 'Time read 0045 from the scan (Gemini had this entry at 0050, and a summary of the page''s opening paragraphs at 0045). Read by Claude, 14 Nov 2026. Check against the page.'
+- replaces:
+    date: September 22, 1943
+    time: '0050'
+  date: September 22, 1943
+  time: '0050'
+  zone: I
+  part: I
+  event: Sighted a glow over the horizon, beyond the burning tanker.
+  page: 11
+  flags: 'Entry left out by Gemini, which had ''Set course'' at this time. Read from the scan by Claude, 14 Nov 2026. Check against the page.'
+- replaces:
+    date: September 22, 1943
+    time: '0055'
+  date: September 22, 1943
+  time: '0055'
+  zone: I
+  part: I
+  event: 'The glow flared up, and burst into brilliant flame, identical to that of the burning tanker. It was TANKER # 2, as she blew up. By 0100 I, two huge fires could be seen. The bow, bridge, and stern of the distant tanker were incandescent. Nothing more could be seen of the hull of the NIPPON MARU, but the place where she had been was still burning fiercely, with flames 50 to 100 feet high. Allowed members of the crew, one at a time, to come up on the bridge to see the two burning ships.'
+  page: 11
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.'
+
+# Pages 2-10: the rest of the entries Gemini summarized, put back in full from
+# the scan (Claude, 14 Nov 2026, from the PSO's collated PDF of the narrative).
+# Each keeps the Gemini entry's own time, position, course and speed fields.
+- replaces:
+    date: September 17, 1943
+    time: '0708'
+  date: September 17, 1943
+  time: '0708'
+  zone: 'I'
+  part: 'I'
+  page: '2'
+  event: 'Surfaced. Intended to patrol this part of the area on the surface while passing through enroute to the northern end of the Straits of Formosa, where targets appear most likely.'
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.'
+- replaces:
+    date: September 17, 1943
+    time: '1530'
+  date: September 17, 1943
+  time: '1530'
+  zone: 'I'
+  lat: '27 10 N'
+  lon: '126 15 E'
+  part: 'I'
+  course: '250'
+  speed: 'eleven'
+  page: '2-3'
+  event: 'Sighted five ship convoy consisting of two tankers, two freighters, and one unidentified ship, with a land based bomber as escort. Convoy is headed for HOKO SHO LIGHT, course 250, speed eleven.'
+  flags: 'Position from CONTACT #1 heading applied here. Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.'
+- replaces:
+    date: September 17, 1943
+    time: '1700'
+  date: September 17, 1943
+  time: '1700'
+  zone: 'I'
+  part: 'I'
+  page: '3'
+  event: 'It is apparent that we will be unable to close. Convoy is already past, in spite of our running at full speed since sighting it. Decided to surface before sunset as soon as a reasonable possibility exists of making an undetected end around run. The plane certainly cramps our style.'
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.'
+- replaces:
+    date: September 17, 1943
+    time: '1800'
+  date: September 17, 1943
+  time: '1800'
+  zone: 'I'
+  lat: '27-10 N'
+  lon: '126-15 E'
+  part: 'I'
+  speed: 'eight knots'
+  page: '3'
+  event: 'As we were about to surface sighted two ships on opposite course, bearing 208°T. Commenced approach on these two, consisting of a 5000 ton 3 island old type freighter, and a large new type 3 deck passenger-freighter. Held huddle to decide which convoy to go after. Decided this one, inasmuch as it was in sight, making only eight knots, and unescorted.'
+  flags: 'Position from CONTACT #2 heading. Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.'
+- replaces:
+    date: September 17, 1943
+    time: '1941'
+  date: September 17, 1943
+  time: '1941'
+  zone: 'I'
+  part: 'I'
+  course: '070°T'
+  speed: 'eight knots'
+  page: '3'
+  event: 'Surfaced. Very dark. Commenced surface approach. It developed that the two ships were making eight knots, zigzagging on base course 070°T. Unfortunately the ships were too far apart to attain a firing position on both of them at the same time.'
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.'
+- replaces:
+    date: September 17, 1943
+    time: '2057'
+  date: September 17, 1943
+  time: '2057'
+  zone: 'I'
+  part: 'I'
+  page: '4'
+  event: 'Target commenced firing deck guns. Obtained set-up to fire after tubes, but withheld fire because of poor firing data. Range now 700 yards, and with the visibility improving with approaching moonrise and the shells coming too close for comfort, at'
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. The sentence runs on into the 2058 entry (''dived.''). Check against the page.'
+- replaces:
+    date: September 17, 1943
+    time: '2142'
+  date: September 17, 1943
+  time: '2142'
+  zone: 'I'
+  part: 'I'
+  page: '4'
+  event: 'Radar contact. Commenced end around on dark side of the moon. The two ships had separated, so went after the big one, hoping to be able to return for the other later.'
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.'
+- replaces:
+    date: September 18, 1943
+    time: '0029'
+  date: September 18, 1943
+  time: '0029'
+  zone: 'I'
+  part: 'I'
+  page: '4'
+  event: 'Made battle surface. Nothing in sight. No wreckage, no Japs. They never knew what had happened. Have heard of targets sinking fast, but this is the first time this ship or the Commanding Officer has ever experienced such a thing. It seemed very unreal. The ship was similar to the GOSYO MARU, of 8500 tons, page 49, ONI 208-J.'
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Includes the untimed paragraph that follows the entry (''Have heard of targets sinking fast''). Check against the page.'
+- replaces:
+    date: September 21, 1943
+    time: '1545'
+  date: September 21, 1943
+  time: '1545'
+  zone: 'I'
+  part: 'I'
+  course: '030 T to 130°T'
+  speed: 'eight'
+  page: '5'
+  event: 'Convoy in sight, consisting of one very large tanker, two smaller tankers, and three old type freighters, with air coverage. Full speed since sighting, unable to close. Barring a radical and wholly illogical zig, our only hope is a night attack. Convoy is zigzagging from 030°T to 130°T, speed eight.'
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.'
+- replaces:
+    date: September 21, 1943
+    time: '1600'
+  date: September 21, 1943
+  time: '1600'
+  zone: 'I'
+  part: 'I'
+  page: '5'
+  event: 'Ships identified as follows: The largest tanker is similar to NIPPON MARU, page 263, except that she mounts tripod masts forward and aft, and raised gun mounts, bow and stern. Also, from all experience this vessel has had, she is larger than the standard new type Japanese tanker of 10,000 tons. Not a whale factory, however. Other two tankers similar to SYOYO MARU and SAN PEDRO MARU, pages 273 and 275 respectively. Freighters are: LIMA MARU, page 227, ARGUN MARU, page 230 and KOHUKU MARU, page 106. All pages in ONI 208-J. Truly an ill-assorted bunch.'
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. The colons after ''as follows'' and ''Freighters are'' may be typed as semicolons. Check against the page.'
+- replaces:
+    date: September 21, 1943
+    time: '2030'
+  date: September 21, 1943
+  time: '2030'
+  zone: 'I'
+  part: 'I'
+  course: '080 T'
+  speed: '8'
+  page: '6'
+  event: 'On starboard beam of the convoy, range 8000. Plot indicates course 080° T, speed 8, not zigzagging. Disposition from PPI - Two columns of three ships each, 1000 yards apart. From the size and location of the pips, decided the tankers are on our side, hence will attack this side. Waited till it became a little darker.'
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.'
+- replaces:
+    date: September 21, 1943
+    time: '2057-10'
+  date: September 21, 1943
+  time: '2057-10'
+  zone: 'I'
+  part: 'I'
+  page: '6'
+  event: 'One hit seen on after part of the TANKER # 1. Flame shot five hundred feet into the air, lighting up the whole area as bright as day. All six ships could plainly be seen. Eight seconds later the second torpedo hit her amidships, but nothing could have added to the furious holocaust already taking place. Members of her crew in various stages of dress (most in white uniforms) could be seen running forward ahead of the rapidly spreading flames. She was still driving ahead, a brilliant blazing funeral pyre. The men in the bow manned the bow gun and fired three or four times, but she was soon burning throughout her length. The flames were yellow-red, evidently a gasoline fire.'
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.'
+- replaces:
+    date: September 21, 1943
+    time: '2058-50'
+  date: September 21, 1943
+  time: '2058-50'
+  zone: 'I'
+  part: 'I'
+  page: '7'
+  event: 'One hit amidships on FREIGHTER # 2 in the far column. In the light of the burning tanker she was seen to break in half beneath the stack and sink immediately. Radar was on this target at the time, the operator having expressed a desire to see a ship sink on his screen. His wish was fulfilled, for on both the radar and PPI screens the pip was seen to diminish and finally disappear. Radar and PPI then indicated five targets.'
+  flags: 'Time typed as 2056-50 I in text; chronological sequence indicates 2058-50 I. Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. The 8 in 2058 is broken on the scan and looks like a 6, as it does in the 2058-10 entry above it. Check against the page.'
+- replaces:
+    date: September 21, 1943
+    time: '2102'
+  date: September 21, 1943
+  time: '2102'
+  zone: 'I'
+  part: 'I'
+  page: '7-8'
+  event: 'Dived. Slight confusion in the conning tower. The Commanding Officer fell into the periscope well and the quartermaster began to lower the periscope. Fortunately the Commanding Officer, supporting himself on his elbows, was able to make himself heard in time. In the meantime, with lots of down angle and lots of speed, went to 200 feet, figuring TANKER # 3 might try to ram or possibly drop some depth charges as he passed over. However, he did not pass over, and in fact, no screws were heard. The situation at this time can best be illustrated by the following sketch:'
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Runs on from page 7 into the untimed paragraph at the head of page 8, which introduces the sketch. The sketch and its typed note are not transcribed here (see figures). Check against the page.'
+- replaces:
+    date: September 21, 1943
+    time: '2120'
+  date: September 21, 1943
+  time: '2120'
+  zone: 'I'
+  part: 'I'
+  page: '9'
+  event: 'Periscope depth. Burning ship still very bright, but nothing else could be seen. Made reload, two torpedoes left forward, four aft. Took periscope pictures and allowed crew to view burning tanker through both periscopes.'
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.'
+- replaces:
+    date: September 21, 1943
+    time: '2141'
+  date: September 21, 1943
+  time: '2141'
+  zone: 'I'
+  part: 'I'
+  page: '9'
+  event: 'Surfaced. Took more pictures of burning ship. Radar and PPI reported five contacts, three in the vicinity of the burning tanker, and two others. The situation as clarified by plot and PPI was as follows: TANKER # 1, stopped, burning. TANKER # 2, burning, course east. TANKER # 3, down by bow. FREIGHTER # 1, undamaged, stopped near burning ship. FREIGHTER # 2, sunk. FREIGHTER # 3, undamaged, course north.'
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. The colon after ''as follows'' may be typed as a semicolon. Check against the page.'
+- replaces:
+    date: September 21, 1943
+    time: '2142'
+  date: September 21, 1943
+  time: '2142'
+  zone: 'I'
+  part: 'I'
+  page: '9'
+  event: 'Took off after ship moving north. As we passed the burning NIPPON MARU abeam, the stern of a ship, pointing vertically into the air, drifted between us and was distinctly silhouetted. It is believed that this was the stern of TANKER # 3, but it is possible it was the stern of FREIGHTER # 2. However, this freighter already had been seen to sink at about 2059.'
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.'
+- replaces:
+    date: September 21, 1943
+    time: '2220'
+  date: September 21, 1943
+  time: '2220'
+  zone: 'I'
+  part: 'I'
+  page: '9'
+  event: 'FREIGHTER # 3 down to his main deck forward, dead in the water, but still not under. Decided to polish him off, and made surface approach. He was still firing but evidently to wrong side, because we could see no flashes. FREIGHTER # 1, several thousand yards beyond him, was shooting back. Score zero for both, as far as we could see.'
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.'
+- replaces:
+    date: September 21, 1943
+    time: '2332'
+  date: September 21, 1943
+  time: '2332'
+  zone: 'I'
+  part: 'I'
+  page: '10'
+  event: 'Surfaced. Found ourselves silhouetted against burning TANKER # 1. Went to full speed, pulled around FREIGHTER # 3 on the dark side. Passed too close (2500 yards). Target saw us and opened fire.'
+  flags: 'Gemini gave this entry as a summary. Read from the scan by Claude, 14 Nov 2026. Check against the page.'

@@ -235,6 +235,7 @@ figures:
     image: media/SS-237/P06/attack-sketch.jpg           # as scanned
     cleaned: media/SS-237/P06/attack-sketch-cleaned.jpg # optional
     thumb: media/SS-237/P06/attack-sketch-thumb.jpg     # optional
+    animation: sketches/SS-237-P06.html                 # optional
     caption: Hand-drawn in the narrative. Not to scale.
 ```
 
@@ -245,6 +246,38 @@ citation (the Fold3 link comes from `fold3_images` for that page). A
 drawing isn't placed on the chart itself: it isn't to scale and has no
 coordinates. Images are crops of the Fold3 download; the converter warns
 if a file is missing.
+
+### Animated drawings
+
+A drawing can have an animated version: a page of its own in `sketches/`,
+named `<hull>-P<nn>.html`, with `animation:` on the figure pointing to it.
+The lightbox then shows a "Play the animation" link. The first is
+`sketches/SS-237-P06.html`, Trigger's convoy attack of 21 September 1943.
+
+The page lays a moving reconstruction over the cleaned scan, so every
+traced point can be checked against the drawing. Line style gives the
+evidence: solid for the attack forms (torpedoes, times, hit or miss),
+dashed for what is traced from the drawing (positions and tracks), dotted
+for what is inferred. Captions in italics are the report's words with the
+page cited; upright captions are summaries. The page lists what is and is
+not known under the player.
+
+Each page is written by hand for its drawing and is not generated: the
+traced coordinates, timings and captions live in the page itself, and the
+converter only checks that the file exists.
+
+To embed one in an article on sarpedon.org, as with the map:
+
+```html
+<iframe src="https://sarpedon.org/patrol-map/sketches/SS-237-P06.html?embed"
+  title="Trigger's convoy attack, 21 September 1943" width="100%" height="860"
+  style="border: 1px solid var(--lightgray); border-radius: 6px" loading="lazy"></iframe>
+```
+
+`?embed` leaves only the drawing, caption and controls. `&t=49` opens it
+paused at that second of the action (the attack buttons use the same
+seconds: attack 3 at 11, 4 at 15, 5 at 27, 6 at 31, 7 at 49, 8 at 57, 9 at
+72).
 
 ## Between patrols: refit, overhaul and training
 

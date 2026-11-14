@@ -21,6 +21,9 @@ When they disagree, the README and the code win; fix this file.
 - `data/` generated: `manifest.json`, `status.json`, `patrols/*.json`. `base/land-50m.json` is third-party.
 - `prompts/gemini-transcription.md` the Gemini prompt (three outputs); it also defines the format of the three files
 - `media/<hull>/P<nn>/` drawings from the reports (crops of the Fold3 download), listed under `figures:` in `patrol.yml`
+- `sketches/<hull>-P<nn>.html` an animated version of a report drawing (README, "Animated drawings"). One hand-written,
+  self-contained page per drawing, not generated; `animation:` on the figure in `patrol.yml` links it from the lightbox.
+  `?embed` for iframes on sarpedon.org, `&t=<seconds>` to open at one attack. First: Trigger Patrol 6 (`SS-237-P06.html`)
 - `index.html` the whole front end; loads data with `fetch`. `?patrol=SS-236-P06` opens on one patrol;
   `&embed` adds map-and-timeline only, for iframes in the sarpedon.org patrol histories (README)
 
@@ -112,6 +115,20 @@ The plan is to do the whole Gato class this way, working from collated PDFs of e
 3. Verify against the report; log open questions in `review.yml`.
 4. `python tools/convert.py` (prints one line per patrol with its flag count).
 5. Check in the browser, update `inventory.yml`, then commit `sources/` and `data/` together.
+
+## Animated drawings (`sketches/`)
+
+Worked example: `sketches/SS-237-P06.html` (Dornin's sketch of the 21 September 1943 convoy attack).
+- Everything is traced in pixel coordinates on the cleaned scan (`media/.../attack-sketch-cleaned.jpg`, shown underneath),
+  so a point can be checked against the drawing. Tracks are lists of traced points; a vessel always points along its track.
+- Evidence by line style: solid = attack forms, dashed = traced from the drawing, dotted = inferred. Say in the notes
+  under the player what is inferred (speed along a track, anything the drawing does not show).
+- Where the drawing and the forms differ (hull heading at a firing position), follow the drawing and note the form's figure.
+- Captions: the report's own words, read from the scan, with the page; mark anything else as a summary (`q: false`).
+  Never quote a `[SUMMARY]` entry from a transcription as the report's words.
+- Timing is in seconds of action (`s`). Playback slows automatically so each caption can be read (`READ_WPS`).
+- Bump the "rev." number shown beside the controls on every change, so a stale browser copy is obvious.
+- After writing files to Matt's computer, read them back and compare: a write can report success without landing.
 
 ## Vault
 

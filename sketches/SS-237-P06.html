@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Trigger's convoy attack, 21 September 1943 | COMSUBPAC Patrol Plot</title>
+<meta name="description" content="The attack sketch from USS Trigger's sixth war patrol report, set in motion from the report's own attack forms and narrative. The Sarpedon Society.">
+<!-- The Sarpedon Society shared style: colors, fonts, and light/dark mode shared with sarpedon.org -->
+<link rel="stylesheet" href="https://sarpedon.org/static/sarpedon-theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..800;1,8..60,400&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<script>
+  // Light or dark: same rule as the patrol plot (the choice saved on sarpedon.org, else the device setting).
+  (function () {
+    var t = null;
+    try { t = localStorage.getItem("theme"); } catch (e) { /* storage unavailable */ }
+    if (t !== "light" && t !== "dark") {
+      t = window.matchMedia && matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    }
+    document.documentElement.setAttribute("saved-theme", t);
+    document.documentElement.setAttribute("data-theme", t);
+    // ?embed: the animation, caption and controls only, for an iframe in a sarpedon.org article.
+    if (new URLSearchParams(location.search).has("embed")) document.documentElement.classList.add("embed");
+  })();
+</script>
+<style>
+:root {
+  color-scheme: dark;
+  --paper: var(--ss-bg, #0b1626);
+  --ink: var(--ss-text, #dce3ec);
+  --muted: var(--ss-muted, #9aabbf);
+  --rule: var(--ss-line, #24395a);
+  --brass: var(--ss-brass, #c9a45c);
+  --sea: #0e1c31;
+  --ship: #dce3ec; --own: #c9a45c; --torpedo: #e36452; --fire: #ff9d3c; --fire2: #ffd27a; --gun: #e2a441;
+  --focus: #8fb8ce;
+  --sans: "Source Serif 4", Georgia, serif;
+  --chart: "Public Sans", system-ui, sans-serif;
+  --typed: "IBM Plex Mono", ui-monospace, monospace;
+  --heading: "Special Elite", "Courier New", monospace;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --paper: var(--ss-bg, #f2ecdf);
+  --ink: var(--ss-text, #24211c);
+  --muted: var(--ss-muted, #625b4e);
+  --rule: var(--ss-line, #d9cfbb);
+  --brass: var(--ss-brass, #765a22);
+  --sea: #e9e6da;
+  --ship: #24211c; --own: #765a22; --torpedo: #b3372b; --fire: #d9651a; --fire2: #f0a23a; --gun: #b8700e;
+  --focus: #2d4f6b;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.5; }
+button, select, input { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+a { color: var(--brass); }
+
+header.head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 14px 20px 10px; border-bottom: 1px solid var(--rule); }
+.head .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.head .mark { position: relative; width: 32px; height: 32px; flex: none; }
+.head .mark span { position: absolute; font: 28px/1 var(--heading); }
+.head .mark span:first-child { left: 1px; top: 0; color: var(--ink); }
+.head .mark span:last-child { left: 11px; top: 5px; color: var(--brass); }
+.head .org { font: 16px var(--heading); letter-spacing: .06em; text-transform: uppercase; }
+.head .brand:hover .org { color: var(--brass); }
+.head .crumb { margin: 0 auto 0 0; padding-left: 14px; border-left: 1px solid var(--rule); font: 400 18px var(--heading); letter-spacing: .03em; }
+.head .crumb a { color: var(--ink); text-decoration: none; }
+.head .crumb a:hover { color: var(--brass); }
+.head .themebtn { border: 1px solid var(--rule); background: transparent; color: var(--muted); border-radius: 4px; padding: 4px 10px; font-size: 12.5px; cursor: pointer; }
+.head .themebtn:hover { color: var(--brass); border-color: var(--brass); }
+
+main { max-width: 980px; margin: 0 auto; padding: 18px 20px 48px; }
+.title h1 { margin: 0; font: 400 26px/1.2 var(--heading); text-wrap: balance; }
+.title p { margin: 4px 0 14px; color: var(--muted); font: 13px var(--typed); }
+
+/* The stage is sized so the drawing, caption and controls fit in one screen. */
+.player { --stage-w: min(100%, calc((100vh - 250px) * 1600 / 1400)); }
+.embed .player { --stage-w: min(100%, calc((100vh - 196px) * 1600 / 1400)); }
+.stage { position: relative; width: var(--stage-w); min-width: min(100%, 300px); margin: 0 auto; aspect-ratio: 1600 / 1400; overflow: hidden;
+  background: var(--sea); border: 1px solid var(--rule); border-radius: 6px; }
+.stage img { position: absolute; left: 0; top: 0; width: 100%; height: auto; display: block; user-select: none; pointer-events: none; }
+.stage img.paper { background: #fff; }
+/* The scan as faint chalk on the plotting table: light ink on dark in dark mode, dark ink on paper in light mode. */
+.stage img.chalk { filter: invert(1) contrast(1.15); mix-blend-mode: screen; }
+:root[data-theme="light"] .stage img.chalk { filter: none; mix-blend-mode: multiply; }
+.stage svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.clock { position: absolute; left: 12px; top: 10px; padding: 4px 10px; border: 1px solid var(--rule); border-radius: 4px;
+  background: color-mix(in srgb, var(--paper) 86%, transparent); font: 600 15px var(--typed); letter-spacing: .04em; }
+.clock small { display: block; font: 400 11px var(--typed); color: var(--muted); letter-spacing: 0; }
+.bigplay { position: absolute; inset: 0; margin: auto; width: 84px; height: 84px; border-radius: 50%; border: 2px solid var(--brass);
+  background: color-mix(in srgb, var(--paper) 88%, transparent); color: var(--brass); font-size: 30px; cursor: pointer; padding-left: 6px; }
+.bigplay:hover { background: var(--paper); }
+
+/* Drawing styles. Line style carries the evidence level (see the key below the player). */
+.hull { fill: color-mix(in srgb, var(--sea) 70%, transparent); stroke: var(--ship); stroke-width: 2.6; stroke-linejoin: round; }
+.hull.own { fill: var(--own); stroke: var(--own); }
+.hull.own.sub { fill: none; stroke-dasharray: 5 4; }
+.trail { fill: none; stroke: var(--ship); stroke-width: 2; stroke-dasharray: 11 9; stroke-linecap: round; opacity: .7; }
+.trail.own { stroke: var(--own); }
+.trail.inferred { stroke-dasharray: 1.5 8; stroke-width: 2.6; opacity: .75; }
+.torp { fill: none; stroke: var(--torpedo); stroke-width: 2.6; stroke-linecap: round; }
+.torp-head { fill: var(--torpedo); }
+.dudring { fill: none; stroke: var(--torpedo); stroke-width: 2.4; }
+.burst { fill: none; stroke: var(--fire2); stroke-width: 4; }
+.flash { fill: var(--fire2); }
+.gunflash { fill: var(--gun); }
+.splash { fill: none; stroke: var(--ship); stroke-width: 1.6; opacity: .7; }
+.lbl { font: 400 25px var(--heading); fill: var(--ship); text-anchor: middle; paint-order: stroke; stroke: var(--sea); stroke-width: 6px; stroke-linejoin: round; }
+.lbl.own { fill: var(--own); }
+.fate { font: 600 17px var(--chart); letter-spacing: .09em; text-transform: uppercase; fill: var(--muted); text-anchor: middle; paint-order: stroke; stroke: var(--sea); stroke-width: 5px; stroke-linejoin: round; }
+.fate.hot { fill: var(--fire); }
+.atk { font: 600 19px var(--typed); fill: var(--torpedo); text-anchor: middle; paint-order: stroke; stroke: var(--sea); stroke-width: 5px; stroke-linejoin: round; }
+
+.caption { width: var(--stage-w); min-width: min(100%, 300px); margin: 10px auto 0; min-height: 5.6em; }
+.caption .when { font: 600 13px var(--typed); color: var(--brass); letter-spacing: .04em; }
+.caption .say { margin: 2px 0 0; font-size: 15.5px; text-wrap: pretty; }
+.caption .say.quote { font-style: italic; }
+.caption .cite { font: 12px var(--typed); color: var(--muted); }
+
+.controls { width: var(--stage-w); min-width: min(100%, 300px); margin: 8px auto 0; }
+.row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.row + .row { margin-top: 8px; }
+.btn { border: 1px solid var(--rule); background: transparent; color: var(--ink); border-radius: 4px; padding: 5px 12px; font-size: 13px; cursor: pointer; }
+.btn:hover { border-color: var(--brass); color: var(--brass); }
+.btn.play { min-width: 74px; border-color: var(--brass); color: var(--brass); font-weight: 600; }
+input[type=range] { accent-color: var(--brass); }
+#scrub { flex: 1 1 200px; min-width: 120px; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip { border: 1px solid var(--rule); background: transparent; color: var(--muted); border-radius: 999px; padding: 2px 10px; font: 12px var(--typed); cursor: pointer; }
+.chip:hover { color: var(--brass); border-color: var(--brass); }
+.chip[aria-current="true"] { background: var(--brass); border-color: var(--brass); color: var(--paper); }
+.opt { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--muted); margin-left: auto; }
+.opt select { background: var(--paper); border: 1px solid var(--rule); border-radius: 4px; padding: 2px 4px; }
+
+.notes { margin-top: 30px; border-top: 1px solid var(--rule); padding-top: 6px; }
+.notes h2 { font: 400 19px var(--heading); margin: 22px 0 6px; }
+.notes p, .notes li { max-width: 68ch; }
+.notes ul { padding-left: 20px; margin: 6px 0; }
+.key { display: grid; grid-template-columns: 74px 1fr; gap: 8px 12px; align-items: center; margin: 8px 0; max-width: 68ch; }
+.key svg { width: 74px; height: 14px; display: block; }
+.key b { font-weight: 600; }
+
+.embed header.head, .embed .title, .embed .notes { display: none !important; }
+.embed main { padding: 8px 10px 10px; max-width: none; }
+.embed .more { display: inline; }
+.rev { font: 11.5px var(--typed); color: var(--muted); }
+.more { display: none; font-size: 12.5px; }
+@media (max-width: 560px) { .lbl { font-size: 30px; } .fate { font-size: 21px; } .opt { margin-left: 0; } }
+</style>
+</head>
+<body>
+<header class="head">
+  <a class="brand" href="https://sarpedon.org/">
+    <span class="mark" aria-hidden="true"><span>S</span><span>S</span></span>
+    <span class="org">The Sarpedon Society</span>
+  </a>
+  <p class="crumb"><a href="../?patrol=SS-237-P06">COMSUBPAC Patrol Plot</a></p>
+  <button type="button" class="themebtn" id="themebtn">Light mode</button>
+</header>
+
+<main>
+  <div class="title">
+    <h1>Trigger's convoy attack, as her captain drew it</h1>
+    <p>USS Trigger (SS-237), sixth war patrol &middot; 21&ndash;22 September 1943 &middot; attacks 3 to 9 &middot; 26-27 N, 122-40 E</p>
+  </div>
+
+  <div class="player">
+    <div class="stage" id="stage">
+      <img class="paper" id="paper" src="../media/SS-237/P06/attack-sketch-cleaned.jpg" alt="">
+      <img class="chalk" id="chalk" src="../media/SS-237/P06/attack-sketch-cleaned.jpg"
+           alt="Hand-drawn sketch from page 8 of the patrol report: six ships in two columns, Trigger's numbered firing positions, torpedo tracks, and the fate of each ship.">
+      <svg id="svg" viewBox="0 0 1600 1400" role="img" aria-label="Animated reconstruction of the attacks, drawn over the sketch">
+        <defs>
+          <radialGradient id="glow"><stop offset="0" stop-color="var(--fire)" stop-opacity=".55"/><stop offset=".45" stop-color="var(--fire)" stop-opacity=".16"/><stop offset="1" stop-color="var(--fire)" stop-opacity="0"/></radialGradient>
+          <radialGradient id="flame"><stop offset="0" stop-color="var(--fire2)"/><stop offset=".55" stop-color="var(--fire)" stop-opacity=".85"/><stop offset="1" stop-color="var(--fire)" stop-opacity="0"/></radialGradient>
+        </defs>
+        <g id="overlay">
+          <g id="g-glow"></g><g id="g-trails"></g><g id="g-torps"></g><g id="g-ships"></g><g id="g-fx"></g><g id="g-labels"></g>
+        </g>
+      </svg>
+      <div class="clock" id="clock" aria-hidden="true"></div>
+      <button type="button" class="bigplay" id="bigplay" aria-label="Play the animation">&#9654;</button>
+    </div>
+
+    <div class="caption" id="caption" aria-live="polite">
+      <div class="when" id="cap-when"></div>
+      <p class="say" id="cap-say"></p>
+      <div class="cite" id="cap-cite"></div>
+    </div>
+
+    <div class="controls">
+      <div class="row">
+        <button type="button" class="btn play" id="play">Play</button>
+        <input type="range" id="scrub" min="0" max="94" step="0.05" value="0" aria-label="Position in the animation">
+      </div>
+      <div class="row">
+        <div class="chips" id="chips" role="group" aria-label="Jump to"></div>
+        <label class="opt">Sketch <input type="range" id="sketch" min="0" max="100" value="42" aria-label="How strongly the original sketch shows"></label>
+        <label class="opt" style="margin-left:0">Speed <select id="speed"><option value="0.5">&frac12;&times;</option><option value="1" selected>1&times;</option><option value="2">2&times;</option></select></label>
+        <a class="more" href="SS-237-P06.html" target="_blank" rel="noopener">Sources and notes</a>
+        <span class="rev" id="rev" title="Revision of this page">rev. 5</span>
+      </div>
+    </div>
+  </div>
+
+  <section class="notes">
+    <h2>How to read it</h2>
+    <p>The drawing underneath is the original: a sketch inked into the narrative of the patrol report, Enclosure (A), page 8, with the note that the situation &ldquo;can best be illustrated by the following sketch.&rdquo; Everything that moves is laid over it, and the line style says where each part comes from.</p>
+    <div class="key">
+      <svg viewBox="0 0 74 14"><line x1="2" y1="7" x2="72" y2="7" stroke="var(--torpedo)" stroke-width="2.6"/></svg>
+      <span><b>Solid: the attack forms.</b> Torpedoes, their number, the minute fired, and hit, miss or dud come from the Torpedo Attack Data forms, pages 27 to 40. Where each one runs is traced from the sketch.</span>
+      <svg viewBox="0 0 74 14"><line x1="2" y1="7" x2="72" y2="7" stroke="var(--ship)" stroke-width="2" stroke-dasharray="11 9"/></svg>
+      <span><b>Dashed: the sketch.</b> Ship positions, the tracks of the ships after they were hit, and Trigger's numbered firing positions are traced from the drawing.</span>
+      <svg viewBox="0 0 74 14"><line x1="2" y1="7" x2="72" y2="7" stroke="var(--own)" stroke-width="2.6" stroke-dasharray="1.5 8" stroke-linecap="round"/></svg>
+      <span><b>Dotted: inferred.</b> Trigger's path between positions 7, 8 and 9 is not on the sketch. The dotted line only joins them, bringing her to each one pointing the way the sketch draws her.</span>
+    </div>
+    <p>Captions in italics are the report's own words, read from the scanned pages. Captions in upright type are summaries.</p>
+
+    <h2>What is and is not known</h2>
+    <ul>
+      <li><b>Not to scale, and neither is the clock.</b> The sketch is a recollection, not a plot. Firing ranges on the forms run from 800 to 2,200 yards, and when Tanker #2 blew up she was a glow &ldquo;over the horizon, beyond the burning tanker.&rdquo; The first four attacks took five minutes and the last three were spread over three hours, so the animation slows down for the first and skips ahead between the others. It also slows wherever a caption needs longer to be read.</li>
+      <li><b>One position for everything.</b> All seven forms give 26-27 N, 122-40 E, so the sketch is the only record of where the ships were in relation to each other.</li>
+      <li><b>The sketch and the forms agree on direction.</b> With north at the top, Trigger's course on each form matches the way the torpedoes are drawn to within about 30&deg;, including the stern shots of attacks 5, 6, 8 and 9. Where they differ, the boat is pointed as the sketch has her. The convoy's course, 080&deg; T, is drawn straight across the page.</li>
+      <li><b>How fast the ships moved along their tracks is inferred.</b> The sketch shows where each ship went, not when. Movement is timed to fit the narrative.</li>
+      <li><b>Which torpedoes hit.</b> The forms give only a count (&ldquo;Two hits&rdquo;). The animation follows the arrows on the sketch.</li>
+      <li><b>Freighter #3's track is a reading of the sketch.</b> After attack 7 she wheels left through the position of attack 8, runs back east, doubles back across the line of the attack 8 torpedoes to the position of attack 9, and turns away to the south-west. The sketch gives the shape of that track; the narrative, page 10, has her getting underway and reversing course between attacks 8 and 9.</li>
+      <li><b>Track angle, attack 3.</b> The narrative has &ldquo;60 S track&rdquo;; the form has an average of 80 starboard.</li>
+      <li><b>The asterisk.</b> The note on the sketch belongs to Tanker #2, whose track bends around Tanker #1 and ends at &ldquo;Tank burning&rdquo; on the right. The ship drawn in flames below it is labelled &ldquo;Burning Tank #1&rdquo;.</li>
+      <li><b>Results are as claimed in the report</b>, not as later assessed.</li>
+    </ul>
+
+    <h2>Sources</h2>
+    <p>USS Trigger (SS-237), Report of Sixth War Patrol, ComSubPac patrol report no. 279: narrative pages 5 to 11, sketch on page 8, Torpedo Attack Data forms on pages 27 to 40. Scan from Fold3. Transcription and the full patrol are on the <a href="../?patrol=SS-237-P06">patrol plot</a>.</p>
+    <p class="rev">Revision 5 &middot; 14 November 2026</p>
+  </section>
+</main>
+
+<script>
+  // Light/dark button, kept in step with sarpedon.org (same as the patrol plot).
+  (function () {
+    var root = document.documentElement, btn = document.getElementById("themebtn");
+    function label() { btn.textContent = root.getAttribute("data-theme") === "dark" ? "Light mode" : "Dark mode"; }
+    btn.addEventListener("click", function () {
+      var t = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      root.setAttribute("saved-theme", t); root.setAttribute("data-theme", t);
+      try { localStorage.setItem("theme", t); } catch (e) { /* storage unavailable */ }
+      label();
+    });
+    window.addEventListener("storage", function (e) {
+      if (e.key !== "theme" || (e.newValue !== "light" && e.newValue !== "dark")) return;
+      root.setAttribute("saved-theme", e.newValue); root.setAttribute("data-theme", e.newValue);
+      label();
+    });
+    label();
+  })();
+</script>
+<script>
+(function () {
+  "use strict";
+  // =====================================================================
+  // All coordinates are pixels on the cleaned scan (1600 wide), so every
+  // traced point can be checked by eye against the drawing underneath.
+  // "s" is seconds of playback (0 to END). The clock is mapped from s.
+  // =====================================================================
+  var NS = "http://www.w3.org/2000/svg", END = 94;
+  var $ = function (id) { return document.getElementById(id); };
+  var clamp = function (v, a, b) { return Math.max(a, Math.min(b, v)); };
+  var lerp = function (a, b, t) { return a + (b - a) * t; };
+  var ease = function (t) { t = clamp(t, 0, 1); return t * t * (3 - 2 * t); };
+  var ramp = function (s, a, b) { return clamp((s - a) / (b - a), 0, 1); };
+  function el(tag, attrs, parent) {
+    var e = document.createElementNS(NS, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+
+  // ---- a smooth path through traced points (centripetal Catmull-Rom), sampled so we can ask "where is 40% along?"
+  function mkPath(pts) {
+    var dense = [], idx = [], n = pts.length;
+    var gap = function (a, b) { return Math.max(Math.sqrt(Math.hypot(b[0] - a[0], b[1] - a[1])), 1e-3); };
+    var mix = function (a, b, ta, tb, t) { var w = (t - ta) / (tb - ta); return [a[0] + (b[0] - a[0]) * w, a[1] + (b[1] - a[1]) * w]; };
+    for (var i = 0; i < n - 1; i++) {
+      var p1 = pts[i], p2 = pts[i + 1];
+      var p0 = i > 0 ? pts[i - 1] : [2 * p1[0] - p2[0], 2 * p1[1] - p2[1]];
+      var p3 = i + 2 < n ? pts[i + 2] : [2 * p2[0] - p1[0], 2 * p2[1] - p1[1]];
+      var t0 = 0, t1 = t0 + gap(p0, p1), t2 = t1 + gap(p1, p2), t3 = t2 + gap(p2, p3);
+      idx.push(dense.length);
+      for (var j = 0; j < 16; j++) {
+        var t = t1 + (t2 - t1) * j / 16;
+        var a1 = mix(p0, p1, t0, t1, t), a2 = mix(p1, p2, t1, t2, t), a3 = mix(p2, p3, t2, t3, t);
+        var b1 = mix(a1, a2, t0, t2, t), b2 = mix(a2, a3, t1, t3, t);
+        dense.push(mix(b1, b2, t1, t2, t));
+      }
+    }
+    idx.push(dense.length); dense.push(pts[n - 1].slice());
+    var cum = [0];
+    for (var k = 1; k < dense.length; k++) cum.push(cum[k - 1] + Math.hypot(dense[k][0] - dense[k - 1][0], dense[k][1] - dense[k - 1][1]));
+    var total = cum[cum.length - 1] || 1;
+    function locate(f) {
+      var d = clamp(f, 0, 1) * total, lo = 0, hi = cum.length - 1;
+      while (hi - lo > 1) { var m = (lo + hi) >> 1; if (cum[m] <= d) lo = m; else hi = m; }
+      var u = (d - cum[lo]) / ((cum[hi] - cum[lo]) || 1);
+      return { i: lo, u: u };
+    }
+    return {
+      at: function (f) {
+        var L = locate(f), a = dense[L.i], b = dense[Math.min(L.i + 1, dense.length - 1)];
+        return { x: lerp(a[0], b[0], L.u), y: lerp(a[1], b[1], L.u), hdg: Math.atan2(b[0] - a[0], -(b[1] - a[1])) * 180 / Math.PI };
+      },
+      f: function (i) { return cum[idx[i]] / total; },            // fraction at traced point i
+      d: function (f0, f1) {                                      // the stretch from f0 to f1 as a path string
+        if (f1 <= f0) return "";
+        var A = locate(f0), B = locate(f1), p = this.at(f0), q = this.at(f1), s = "M" + p.x.toFixed(1) + "," + p.y.toFixed(1);
+        for (var i = A.i + 1; i <= B.i; i++) s += "L" + dense[i][0].toFixed(1) + "," + dense[i][1].toFixed(1);
+        return s + "L" + q.x.toFixed(1) + "," + q.y.toFixed(1);
+      }
+    };
+  }
+  // value of a keyframe list [[s, v], ...] at time s (eased between keys)
+  function key(keys, s) {
+    if (s <= keys[0][0]) return keys[0][1];
+    for (var i = 1; i < keys.length; i++) if (s <= keys[i][0]) return lerp(keys[i - 1][1], keys[i][1], ease((s - keys[i - 1][0]) / (keys[i][0] - keys[i - 1][0])));
+    return keys[keys.length - 1][1];
+  }
+
+  // ---- the clock: playback seconds -> minutes after 0000 I, 21 September
+  var T = function (h, m, sec) { return h * 60 + m + (sec || 0) / 60; };
+  var CLOCK = [[0, T(20, 45)], [5, T(20, 45)], [11, T(20, 56)], [15, T(20, 57)], [17, T(20, 57, 10)], [20.5, T(20, 58, 10)], [23.5, T(20, 58, 50)],
+    [27, T(21, 0)], [31, T(21, 1)], [35, T(21, 2)], [37.5, T(21, 5)], [39, T(21, 8)], [41, T(21, 41)], [43, T(21, 47)], [47, T(22, 10)], [49, T(22, 12)], [55, T(22, 20)],
+    [57, T(22, 36)], [61, T(22, 42)], [65, T(23, 32)], [69, T(24, 10)], [72, T(24, 22)], [77, T(24, 36)], [80, T(24, 45)], [82, T(24, 55)], [END, T(24, 55)]];
+  function clockAt(s) {
+    var m = CLOCK[CLOCK.length - 1][1];
+    for (var i = 1; i < CLOCK.length; i++) if (s <= CLOCK[i][0]) { m = lerp(CLOCK[i - 1][1], CLOCK[i][1], (s - CLOCK[i - 1][0]) / (CLOCK[i][0] - CLOCK[i - 1][0])); break; }
+    m = Math.floor(m + 1e-6);
+    var day = m >= 1440 ? 22 : 21, hh = Math.floor((m % 1440) / 60), mm = m % 60;
+    return { hm: ("0" + hh).slice(-2) + ("0" + mm).slice(-2) + " I", day: day + " September 1943" };
+  }
+
+  // =====================================================================
+  // The cast. Tracks are traced from the sketch (dashed lines on the drawing).
+  // =====================================================================
+  var P = {
+    T1: mkPath([[1066, 622], [1122, 626], [1210, 634], [1290, 654], [1370, 690], [1426, 736]]),
+    T2: mkPath([[746, 624], [802, 622], [850, 592], [906, 552], [994, 540], [1090, 544], [1146, 560], [1194, 600], [1290, 618], [1394, 612], [1470, 596]]),
+    T3: mkPath([[434, 628], [482, 634], [570, 704], [650, 784], [698, 848], [726, 916], [747, 954]]),
+    F1: mkPath([[1070, 412], [1130, 407], [1190, 402]]),
+    // Freighter #3: turns north (attack 7 at point 5), on to the top hull (attack 8, point 8), loops east and back
+    // to the hull marked #3 (attack 9, point 26), then off to the south-west ("Escaped Damaged Probably Sank").
+    F3: mkPath([[435, 407], [497, 404], [541, 379], [569, 345], [574, 270], [579, 179], [585, 145], [572, 120], [516, 92],
+      [472, 75], [441, 95], [427, 132], [430, 176], [454, 207], [497, 239], [560, 267], [622, 276], [747, 277], [829, 279], [844, 296],
+      [829, 314], [685, 315], [566, 309], [497, 289], [441, 267], [391, 236], [354, 201], [319, 161],
+      [279, 138], [247, 147], [197, 182], [147, 226], [108, 262]]),
+    // Trigger, first act: in from the south-east, positions #3 (2) and #4 (4), hard left round to #5 (11) and #6 (13), away to the south-east.
+    // The points either side of each firing position set the way the boat points there, to match the hull on the sketch.
+    OWN1: mkPath([[1232, 1330], [1191, 1210], [1163, 1138], [1152, 1113], [1099, 1076], [1060, 1041], [1010, 1029], [966, 1041], [935, 1072], [921, 1110], [926, 1154],
+      [940, 1191], [951, 1215], [954, 1285], [985, 1335], [1030, 1400]]),
+    // Trigger, second act: positions #7 (2), #8 (9) and #9 (14). Only the three positions are on the sketch; the line between is inferred,
+    // shaped so she arrives at each one pointing the way the sketch draws her (stern to the target at #8 and #9).
+    OWN2: mkPath([[985, 196], [900, 193], [835, 192], [775, 196], [715, 222], [640, 255], [540, 262], [440, 243], [380, 256], [329, 298],
+      [298, 334], [258, 347], [224, 326], [192, 312], [169, 336], [150, 356]])
+  };
+  var F3 = P.F3, O1 = P.OWN1, O2 = P.OWN2;
+
+  var SHIPS = [
+    { id: "T1", name: "TANK #1", path: P.T1, pos: [[17, 0], [41, 1]], hdg0: 90,
+      fire: [17, END], fate: [[17, "Burning"]], lab: [0, -36] },
+    { id: "T2", name: "TANK #2", path: P.T2, pos: [[20.5, 0], [80, 1]], hdg0: 90,
+      fire: [20.5, END], fate: [[20.5, "Burning"], [82, "Blew up 0055"]], lab: [0, -36] },
+    { id: "T3", name: "TANK #3", path: P.T3, pos: [[18, 0], [27, .62], [31, .9], [33, 1]], hdg0: 90,
+      sink: [39, 43], fate: [[33, "Hit"], [43, "Sank"]], lab: [-92, 4], shoot: [[24, 34.5]] },
+    { id: "F1", name: "FR #1", path: P.F1, pos: [[17, 0], [41, 1]], hdg0: 90,
+      fate: [[84, "Escaped"]], lab: [0, -36], shoot: [[24, 34.5], [52.5, 55]] },
+    { id: "F2", name: "FR #2", path: mkPath([[754, 411], [755, 411]]), pos: [[0, 0]], hdg0: 90,
+      breakup: 23.5, fate: [[23.5, "Sank"]], lab: [0, -36] },
+    { id: "F3", name: "FR #3", path: F3,
+      pos: [[24, 0], [47, F3.f(5)], [51, F3.f(5)], [55, F3.f(8)], [61, F3.f(8)], [66.5, F3.f(19)], [71.5, F3.f(27)], [75, F3.f(27)], [86, 1]], hdg0: 90,
+      fate: [[51, "Damaged"], [84, "Escaped damaged, probably sank"]], lab: [0, -40],
+      shoot: [[24, 34.5], [51.5, 55], [58.5, 61], [65.5, 68.5], [74.6, 77]] }
+  ];
+  // Trigger's position and whether she is submerged. She always points along her track.
+  var OWN = {
+    legs: [
+      { path: O1, from: 5, to: 39.5, pos: [[5, 0], [11, O1.f(2)], [15, O1.f(4)], [27, O1.f(11)], [31, O1.f(13)], [35, O1.f(14)], [39, 1]], kind: "own" },
+      { path: O2, from: 44.5, to: 82, pos: [[44.5, 0], [48.5, O2.f(2)], [51, O2.f(2)], [56.5, O2.f(9)], [61, O2.f(9)], [71, O2.f(14)], [80, O2.f(14)]], kind: "own inferred" }
+    ],
+    dived: [[35, 41], [61, 65], [69, 77]],      // 2102-2141, 2242-2332, 0010-0036
+    marks: [[11, "#3"], [15, "#4"], [27, "#5"], [31, "#6"], [49, "#7"], [57, "#8"], [72, "#9"]]
+  };
+  function ownAt(s) {
+    for (var i = 0; i < OWN.legs.length; i++) {
+      var L = OWN.legs[i];
+      if (s >= L.from && s <= L.to) {
+        var f = key(L.pos, s), p = L.path.at(f);
+        return { x: p.x, y: p.y, hdg: p.hdg, f: f, leg: i,
+          a: Math.min(ramp(s, L.from, L.from + 1.2), 1 - ramp(s, L.to - 1.5, L.to)),
+          sub: OWN.dived.some(function (d) { return s >= d[0] && s < d[1]; }) };
+      }
+    }
+    return null;
+  }
+  function bow(o, d) { var r = o.hdg * Math.PI / 180; return [o.x + Math.sin(r) * d, o.y - Math.cos(r) * d]; }
+
+  // Torpedoes. t0 fired, t1 arrives, from: bow (+) or stern (-) of Trigger at t0, to: traced from the sketch's arrows.
+  // res: hit / miss / dud, from the forms' "Hit or Miss" line. via: a bend, where the sketch draws a curved run (attack 6).
+  var TORPS = [
+    { a: 3, t0: 11.0, t1: 17.0, to: [1054, 650], res: "hit", on: "T1" },
+    { a: 3, t0: 11.4, t1: 17.3, to: [1082, 648], res: "hit", on: "T1" },
+    { a: 3, t0: 11.8, t1: 17.9, to: [1136, 590], res: "miss" },
+    { a: 4, t0: 15.0, t1: 20.5, to: [766, 650], res: "hit", on: "T2" },
+    { a: 4, t0: 15.4, t1: 20.6, to: [842, 704], res: "miss" },
+    { a: 4, t0: 15.8, t1: 23.5, to: [770, 436], res: "hit", on: "F2" },
+    { a: 5, t0: 27.0, t1: 30.2, to: [812, 936], res: "miss", stern: true },
+    { a: 5, t0: 27.4, t1: 30.6, to: [830, 930], res: "miss", stern: true },
+    { a: 5, t0: 27.8, t1: 31.0, to: [846, 938], res: "miss", stern: true },
+    { a: 6, t0: 31.0, t1: 33.0, to: [766, 994], via: [[860, 1166], [810, 1098], [779, 1035]], res: "hit", on: "T3", stern: true },
+    { a: 7, t0: 49.0, t1: 51.0, to: [588, 152], res: "hit", on: "F3" },
+    { a: 7, t0: 49.4, t1: 51.3, to: [588, 166], res: "hit", on: "F3" },
+    { a: 8, t0: 57.0, t1: 59.5, to: [500, 116], res: "dud", stern: true },
+    { a: 8, t0: 57.4, t1: 60.2, to: [556, 62], res: "miss", stern: true },
+    { a: 9, t0: 72.0, t1: 74.5, to: [302, 182], res: "dud", stern: true },
+    { a: 9, t0: 72.4, t1: 75.2, to: [352, 108], res: "miss", stern: true }
+  ];
+  TORPS.forEach(function (t) {
+    var o = ownAt(t.t0), from = bow(o, t.stern ? -40 : 40);
+    t.path = mkPath([from].concat(t.via || [], [t.to]));
+  });
+  // Where "ATT #n" is written beside each salvo
+  var ATK = { 3: [1205, 870], 4: [960, 800], 5: [905, 1010], 6: [800, 1150], 7: [705, 150], 8: [455, 235], 9: [205, 232] };
+
+  // Captions. q: true = the report's words; false = a summary.
+  var CAPS = [
+    { s: 0, need: 5, when: "The sketch", q: false, say: "Trigger's captain, Dornin, drew this into the report of her sixth patrol: seven attacks on a convoy of three tankers and three freighters, in one night. Press play to set it in motion.", cite: "Enclosure (A), page 8. Not to scale." },
+    { s: 5, when: "2045 I, 21 September", q: true, say: "Commenced surface approach, planning to fire three torpedoes at the first ship, three at the second, then swing and fire four at the third ship.", cite: "Narrative, page 6" },
+    { s: 8, when: "2048 I", q: true, say: "Nearest column of ships in plain sight - THREE TANKERS, with the big one leading. It is still fairly light. They should see us - but they don't.", cite: "Narrative, page 6" },
+    { s: 11, when: "2056 I · Attack 3", q: true, say: "Fired three torpedoes at TANKER # 1, 60 S track, GA 10 L, 1600 yards.", cite: "Narrative, page 6. Form, pages 27-28: own course 350, three bow tubes, two hits." },
+    { s: 15, when: "2057 I · Attack 4", q: true, say: "Fired three torpedoes at TANKER # 2, 60 S track, GA 0, 1200 yards. Came left with full rudder and full speed.", cite: "Narrative, page 6. Form, pages 29-30: own course 320, two hits." },
+    { s: 17, when: "2057-10 I", q: true, say: "One hit seen on after part of the TANKER # 1. Flame shot five hundred feet into the air, lighting up the whole area as bright as day. All six ships could plainly be seen.", cite: "Narrative, page 6" },
+    { s: 20.5, when: "2058-10 I", q: true, say: "One hit on TANKER # 2. A small flash amidships, a column of smoke and water were seen, and fire immediately broke out. She was turning away from us when hit.", cite: "Narrative, page 7" },
+    { s: 23.5, when: "2058-50 I", q: true, say: "One hit amidships on FREIGHTER # 2 in the far column. In the light of the burning tanker she was seen to break in half beneath the stack and sink immediately.", cite: "Narrative, page 7" },
+    { s: 25.2, when: "2100 I", q: true, say: "Both remaining freighters and tankers opened fire. … It was so bright they had no difficulty seeing us. Splashes were seen on both sides of us, but not too close.", cite: "Narrative, page 7" },
+    { s: 27, when: "2100 I · Attack 5", q: true, say: "TANKER # 3 presented a 50 starboard angle on the bow, and was closing rapidly, firing his bow gun. We seemed to take a year to pick up speed. \u2026 fired three torpedoes aft at this tanker, 50 S track, GA 0, 1000 yards. All missed", cite: "Narrative, page 7. Form, pages 31-32: own course 150, three stern tubes, no hits." },
+    { s: 31, when: "2101 I · Attack 6", q: true, say: "Fired one torpedo aft down the throat, angle on the bow zero, GA 10 R, 800 yards. Hit on the starboard bow, observed from the bridge.", cite: "Narrative, page 7. Form, pages 33-34." },
+    { s: 35, when: "2102 I · Dived", q: true, say: "Dived. Slight confusion in the conning tower. The Commanding Officer fell into the periscope well and the quartermaster began to lower the periscope.", cite: "Narrative, page 7. He held himself up on his elbows and was heard in time." },
+    { s: 37.5, when: "2105 and 2108 I", q: true, say: "One violent explosion. … Another violent explosion. Both sounded like ships sinking. No depth charges were dropped at any time during these attacks.", cite: "Narrative, page 9" },
+    { s: 41, when: "2141 I · Surfaced", q: true, say: "TANKER # 1, stopped, burning. TANKER # 2, burning, course east. TANKER # 3, down by bow. FREIGHTER # 1, undamaged, stopped near burning ship. FREIGHTER # 2, sunk. FREIGHTER # 3, undamaged, course north.", cite: "Narrative, page 9: the situation from plot and radar. Trigger takes off after the ship moving north." },
+    { s: 43, when: "2147 I", q: true, say: "The stern went under. At this time the whole hull of TANKER # 1 could be seen, red hot.", cite: "Narrative, page 9. The stern was believed to be Tanker #3's." },
+    { s: 46.5, when: "2210 I", q: true, say: "Attained surface firing position on FREIGHTER # 3. So bright we nearly dived, but decided to ride our luck.", cite: "Narrative, page 9" },
+    { s: 49, when: "2212 I · Attack 7", q: true, say: "Fired last two bow torpedoes, 90 S track, GA 0, 1400 yards. Two hits in the bow, target immediately went down by the bow, and we left him in an apparently sinking condition.", cite: "Narrative, page 9. Form, pages 35-36: own course 270, target course 000." },
+    { s: 52.6, when: "2212 I", q: true, say: "As we swung left he opened fire. \u2026 While we circled, it seemed there were flashes of gunfire all around us. Shooting still pretty wild.", cite: "Narrative, page 9" },
+    { s: 55, when: "2220 I", q: true, say: "FREIGHTER # 3 down to his main deck forward, dead in the water, but still not under. Decided to polish him off, and made surface approach.", cite: "Narrative, page 9" },
+    { s: 57, when: "2236 I · Attack 8", q: true, say: "… fired two stern tubes, 110 port track, GA 0, 2200 yards. Should have got a hit, but nothing happened.", cite: "Narrative, page 10. Form, pages 37-38: own course 235, one miss, one dud." },
+    { s: 59.6, when: "2236 I", q: true, say: "We have only two torpedoes left, both aft, and he is getting pretty handy with his gun.", cite: "Narrative, page 10" },
+    { s: 61, when: "2242 I · Dived", q: true, say: "Dived for radar approach. Target in meantime had got underway, and we had to go to full speed submerged. Had almost reached favorable position when he reversed course.", cite: "Narrative, page 10" },
+    { s: 65, when: "2332 I · Surfaced", q: true, say: "Found ourselves silhouetted against burning TANKER # 1. Went to full speed, pulled around FREIGHTER # 3 on the dark side. Passed too close (2500 yards). Target saw us and opened fire.", cite: "Narrative, page 10" },
+    { s: 69, when: "0010 I, 22 September · Dived", q: true, say: "Dived. Attained firing position for radar depth approach. Used radar, periscope, and continuous echo ranges.", cite: "Narrative, page 10" },
+    { s: 72, when: "0022 I · Attack 9", q: true, say: "Fired last two torpedoes, 90 port track, GA 0, 1000 yards. One hit, one missed, according to sound. No detonation, but target evidently felt the hit, for he opened fire immediately.", cite: "Narrative, page 10. Form, pages 39-40: own course 250, at 40 feet." },
+    { s: 75.6, when: "0022 I", q: true, say: "The feelings of the Commanding Officer and the control party by this time can be imagined.", cite: "Narrative, page 10" },
+    { s: 77, when: "0036 I · Surfaced", q: true, say: "Three radar contacts. Burning TANKER # 1, damaged FREIGHTER # 3, and undamaged FREIGHTER # 1. The latter was slowly steaming back and forth near the fire, like a moth drawn to a flame.", cite: "Narrative, page 10. Out of torpedoes; a gun action was talked over and decided against." },
+    { s: 80, when: "0045 I", q: true, say: "Set course for edge of area, full speed on all engines.", cite: "Narrative, page 11" },
+    { s: 82, when: "0055 I", q: true, say: "The glow flared up, and burst into brilliant flame, identical to that of the burning tanker. It was TANKER # 2, as she blew up.", cite: "Narrative, page 11. The sketch's own note, against its asterisk: \u201cShe blew up at 0055 I.\u201d" },
+    { s: 85.5, when: "0055 I", q: true, say: "Allowed members of the crew, one at a time, to come up on the bridge to see the two burning ships.", cite: "Narrative, page 11" },
+    { s: 90, when: "The sketch, complete", q: false, say: "As the report claimed it: three tankers and a freighter sunk, and a freighter left damaged, with sixteen torpedoes in three and a half hours. Of Tanker #3 it admits the proof \u201cis not completely conclusive.\u201d", cite: "Recapitulation, narrative page 11" },
+  ];
+  // Pacing. Each caption gets long enough to be read; where its stretch of the action is shorter than that,
+  // the action runs in slow motion. "u" is seconds of playback, "s" seconds of action (what everything above is timed in).
+  var READ_WPS = 3.4, READ_PAD = 1.2;
+  var U = [0], RATE = [];
+  CAPS.forEach(function (c, i) {
+    var avail = (i + 1 < CAPS.length ? CAPS[i + 1].s : END) - c.s;
+    var need = c.need || (c.say.split(/\s+/).length / READ_WPS + READ_PAD);
+    RATE.push(Math.min(1, avail / need)); U.push(U[i] + avail / RATE[i]);
+  });
+  var END_U = U[CAPS.length];
+  function capAt(v, list) { var k = 0; for (var i = 0; i < CAPS.length; i++) if (v >= list(i)) k = i; return k; }
+  function storyAt(u) { var i = capAt(u, function (k) { return U[k]; }); return Math.min(CAPS[i].s + (u - U[i]) * RATE[i], END); }
+  function uAt(s) { var i = capAt(s, function (k) { return CAPS[k].s; }); return U[i] + (s - CAPS[i].s) / RATE[i]; }
+
+  var CHIPS = [["Sketch", 0], ["Approach", 5], ["Att. 3", 11], ["Att. 4", 15], ["Att. 5", 27], ["Att. 6", 31], ["Att. 7", 49], ["Att. 8", 57], ["Att. 9", 72], ["0055", 82]];
+
+  // =====================================================================
+  // Build the drawing once; render(s) then only sets attributes.
+  // =====================================================================
+  var HULL = "M0,-46 C13,-30 14,-12 14,28 L14,44 L-14,44 L-14,28 C-14,-12 -13,-30 0,-46Z";
+  var HULL_BOW = "M0,-46 C13,-30 14,-12 14,0 L-14,0 C-14,-12 -13,-30 0,-46Z", HULL_AFT = "M14,0 L14,44 L-14,44 L-14,0Z";
+  var SUB = "M0,-40 C9,-22 9,18 4,40 L-4,40 C-9,18 -9,-22 0,-40Z";
+  var gGlow = $("g-glow"), gTrails = $("g-trails"), gTorps = $("g-torps"), gShips = $("g-ships"), gFx = $("g-fx"), gLabels = $("g-labels");
+
+  SHIPS.forEach(function (sh) {
+    sh.trail = el("path", { "class": "trail" }, gTrails);
+    sh.g = el("g", {}, gShips);
+    if (sh.breakup != null) { sh.h1 = el("path", { "class": "hull", d: HULL_BOW }, sh.g); sh.h2 = el("path", { "class": "hull", d: HULL_AFT }, sh.g); }
+    else sh.h = el("path", { "class": "hull", d: HULL }, sh.g);
+    if (sh.fire) {
+      sh.glow = el("circle", { r: 430, fill: "url(#glow)" }, gGlow);
+      sh.flames = [0, 1, 2, 3].map(function () { return el("circle", { fill: "url(#flame)" }, gFx); });
+    }
+    sh.lbl = el("text", { "class": "lbl" }, gLabels); sh.lbl.textContent = sh.name;
+    sh.fateEl = el("text", { "class": "fate" }, gLabels);
+    sh.flashes = [0, 1].map(function () { return el("circle", { "class": "gunflash", r: 7 }, gFx); });
+  });
+  OWN.legs.forEach(function (L) { L.trail = el("path", { "class": "trail " + L.kind }, gTrails); });
+  OWN.ghosts = OWN.marks.map(function (m) {
+    var o = ownAt(m[0]), g = el("g", { opacity: 0 }, gShips);
+    el("path", { "class": "hull own", d: SUB, transform: "translate(" + o.x + "," + o.y + ") rotate(" + o.hdg + ")", "fill-opacity": .25 }, g);
+    var b = bow(o, -6), t = el("text", { "class": "lbl own", x: b[0] + 34, y: b[1] + 30, "font-size": 21 }, g); t.textContent = m[1];
+    return { s: m[0], g: g };
+  });
+  OWN.g = el("g", {}, gShips); OWN.h = el("path", { "class": "hull own", d: SUB }, OWN.g);
+  OWN.lbl = el("text", { "class": "lbl own" }, gLabels); OWN.lbl.textContent = "TRIGGER";
+  OWN.splashes = [0, 1, 2].map(function () { return el("circle", { "class": "splash" }, gFx); });
+  TORPS.forEach(function (t) {
+    t.line = el("path", { "class": "torp" }, gTorps);
+    t.head = el("circle", { "class": "torp-head", r: 5 }, gTorps);
+    if (t.res === "hit") { t.burst = el("circle", { "class": "burst" }, gFx); t.flash = el("circle", { "class": "flash" }, gFx); }
+    if (t.res === "dud") { t.ring = el("circle", { "class": "dudring", r: 9, cx: t.to[0], cy: t.to[1] }, gFx); t.txt = el("text", { "class": "atk", x: t.to[0] + 14, y: t.to[1] + 30, "font-size": 16 }, gLabels); t.txt.textContent = "DUD"; }
+  });
+  var atkEls = {};
+  Object.keys(ATK).forEach(function (a) { var e = el("text", { "class": "atk", x: ATK[a][0], y: ATK[a][1] }, gLabels); e.textContent = "ATT #" + a; atkEls[a] = e; });
+  var boom = { ring: el("circle", { "class": "burst" }, gFx), flash: el("circle", { "class": "flash" }, gFx) };
+
+  // a steady pseudo-random number for flash n of shooter k, so scrubbing shows the same thing every time
+  function rnd(n, k) { var x = Math.sin(n * 127.1 + k * 311.7) * 43758.5453; return x - Math.floor(x); }
+  function shipAt(sh, s) {
+    var f = key(sh.pos, s), p = sh.path.at(f);
+    return { x: p.x, y: p.y, f: f, hdg: f > 0.004 && sh.pos.length > 1 ? p.hdg : sh.hdg0 };
+  }
+  // heading that eases from the drawn 090 into the track's own direction as the ship gets going
+  function hdgOf(sh, st) { return st.f > 0.004 ? lerp(sh.hdg0, st.hdg, ease(st.f / 0.05)) : sh.hdg0; }
+
+  var paper = $("paper"), chalk = $("chalk"), overlay = $("overlay"), sketchAmt = $("sketch");
+  var capWhen = $("cap-when"), capSay = $("cap-say"), capCite = $("cap-cite"), clockEl = $("clock"), lastCap = -1, lastChip = -1;
+
+  function render(s, w) {
+    var i, o = ownAt(s), base = sketchAmt.value / 100;   // w: playback seconds, for flicker that should not slow down
+    // the scan: full paper at the start, chalk on the table during the action, back up at the end
+    paper.style.opacity = 1 - ramp(s, 2.2, 4.6);
+    chalk.style.opacity = lerp(lerp(0, base, ramp(s, 2.2, 4.6)), 1, ramp(s, 89, 92));
+    overlay.setAttribute("opacity", lerp(ramp(s, 3, 5), .5, ramp(s, 89, 92)));
+    clockEl.style.opacity = ramp(s, 3, 5);
+    var c = clockAt(s); clockEl.innerHTML = c.hm + "<small>" + c.day + "</small>";
+
+    SHIPS.forEach(function (sh, k) {
+      var st = shipAt(sh, s), h = hdgOf(sh, st), sunk = 0, burning = sh.fire && s >= sh.fire[0];
+      sh.trail.setAttribute("d", sh.path.d(0, st.f));
+      if (sh.breakup != null) {
+        var b = ramp(s, sh.breakup, sh.breakup + 2.5); sunk = b;
+        sh.h1.setAttribute("transform", "translate(" + (-b * 3) + "," + (-b * 14) + ") rotate(" + (-b * 24) + ")");
+        sh.h2.setAttribute("transform", "translate(" + (b * 3) + "," + (b * 12) + ") rotate(" + (b * 18) + ")");
+      } else if (sh.sink) sunk = ramp(s, sh.sink[0], sh.sink[1]);
+      sh.g.setAttribute("transform", "translate(" + st.x.toFixed(1) + "," + st.y.toFixed(1) + ") rotate(" + h.toFixed(1) + ")");
+      sh.g.setAttribute("opacity", lerp(1, .22, sunk));
+      (sh.h ? [sh.h] : [sh.h1, sh.h2]).forEach(function (e) { e.setAttribute("stroke-dasharray", sunk >= 1 ? "3 5" : "none"); });
+      sh.lbl.setAttribute("x", st.x + sh.lab[0]); sh.lbl.setAttribute("y", st.y + sh.lab[1]);
+      var fate = "", hot = false;
+      sh.fate.forEach(function (f) { if (s >= f[0]) { fate = f[1]; hot = /Burning|Blew/.test(f[1]); } });
+      sh.fateEl.textContent = fate; sh.fateEl.setAttribute("class", "fate" + (hot ? " hot" : ""));
+      sh.fateEl.setAttribute("x", clamp(st.x + sh.lab[0], 12 + fate.length * 6.2, 1588 - fate.length * 6.2)); sh.fateEl.setAttribute("y", st.y + (sh.lab[1] < 0 ? 58 : sh.lab[1] + 26));
+      if (sh.fire) {
+        var big = sh.id === "T2" && s >= 82 ? 1.7 : 1, on = burning ? ramp(s, sh.fire[0], sh.fire[0] + 1.5) : 0;
+        var fl = .82 + .1 * Math.sin(w * 9 + k) + .08 * Math.sin(w * 23.3 + k * 2);
+        sh.glow.setAttribute("cx", st.x); sh.glow.setAttribute("cy", st.y); sh.glow.setAttribute("opacity", on * fl * (sh.id === "T1" ? 1 : .6) * big);
+        sh.flames.forEach(function (e, j) {
+          var wv = Math.sin(w * (7 + j * 2.3) + j * 1.9 + k);
+          e.setAttribute("cx", st.x + (j - 1.5) * 15 + wv * 3); e.setAttribute("cy", st.y - 10 - Math.abs(wv) * 9 - (j % 2) * 8);
+          e.setAttribute("r", on * big * (17 + 6 * wv + (j % 2) * 5)); e.setAttribute("opacity", on);
+        });
+      }
+      // gunfire toward Trigger: a flicker at the ship
+      var firing = !!o && (sh.shoot || []).some(function (w) { return s >= w[0] && s < w[1]; }) && sunk < .2;
+      sh.flashes.forEach(function (e, j) {
+        var n = Math.floor(w / .42 + j * .5 + k * .37), ph = (w / .42 + j * .5 + k * .37) - n, show = firing && ph < .3 && rnd(n, k * 7 + j) > .35;
+        if (show) {
+          var ang = Math.atan2(o.y - st.y, o.x - st.x);
+          e.setAttribute("cx", st.x + Math.cos(ang) * 44 + (rnd(n, k) - .5) * 14); e.setAttribute("cy", st.y + Math.sin(ang) * 44 + (rnd(n, k + 3) - .5) * 14);
+        }
+        e.setAttribute("opacity", show ? 1 - ph / .3 : 0);
+      });
+    });
+
+    // Trigger
+    OWN.legs.forEach(function (L, li) {
+      var f = s < L.from ? 0 : key(L.pos, Math.min(s, L.to));
+      L.trail.setAttribute("d", s < L.from ? "" : L.path.d(0, f));
+    });
+    OWN.ghosts.forEach(function (g) { g.g.setAttribute("opacity", s >= g.s + .6 ? .9 * ramp(s, g.s + .6, g.s + 1.6) : 0); });
+    if (o) {
+      OWN.g.setAttribute("transform", "translate(" + o.x.toFixed(1) + "," + o.y.toFixed(1) + ") rotate(" + o.hdg.toFixed(1) + ")");
+      OWN.g.setAttribute("opacity", o.a); OWN.h.setAttribute("class", "hull own" + (o.sub ? " sub" : ""));
+      OWN.lbl.setAttribute("x", o.x + 96); OWN.lbl.setAttribute("y", o.y + 46); OWN.lbl.setAttribute("opacity", o.a);
+      OWN.lbl.textContent = o.sub ? "TRIGGER (submerged)" : "TRIGGER";
+    } else { OWN.g.setAttribute("opacity", 0); OWN.lbl.setAttribute("opacity", 0); }
+    var underFire = !!o && !o.sub && SHIPS.some(function (sh) { return (sh.shoot || []).some(function (w) { return s >= w[0] && s < w[1]; }); });
+    OWN.splashes.forEach(function (e, j) {
+      var n = Math.floor(w / .9 + j / 3), ph = (w / .9 + j / 3) - n;
+      if (underFire) { e.setAttribute("cx", o.x + (rnd(n, j + 40) - .5) * 190); e.setAttribute("cy", o.y + (rnd(n, j + 50) - .5) * 190); e.setAttribute("r", 3 + ph * 13); }
+      e.setAttribute("opacity", underFire ? (1 - ph) * .8 : 0);
+    });
+
+    // torpedoes
+    var shown = {};
+    TORPS.forEach(function (t) {
+      if (s < t.t0) { t.line.setAttribute("d", ""); t.head.setAttribute("opacity", 0); if (t.burst) { t.burst.setAttribute("opacity", 0); t.flash.setAttribute("opacity", 0); } if (t.ring) { t.ring.setAttribute("opacity", 0); t.txt.setAttribute("opacity", 0); } return; }
+      shown[t.a] = true;
+      var f = ramp(s, t.t0, t.t1), p = t.path.at(f), after = s - t.t1;
+      t.line.setAttribute("d", t.path.d(0, f));
+      t.line.setAttribute("opacity", after > 0 ? (t.res === "miss" ? lerp(.9, .32, ramp(after, 0, 2)) : .6) : .95);
+      t.head.setAttribute("cx", p.x); t.head.setAttribute("cy", p.y); t.head.setAttribute("opacity", after > 0 ? (t.res === "miss" ? 1 - ramp(after, 0, 1.2) : 0) : 1);
+      if (t.burst) {
+        var b = after >= 0 ? ramp(after, 0, 1.4) : -1;
+        t.burst.setAttribute("cx", t.to[0]); t.burst.setAttribute("cy", t.to[1]); t.burst.setAttribute("r", b < 0 ? 0 : 8 + b * 62); t.burst.setAttribute("opacity", b < 0 ? 0 : 1 - b);
+        t.flash.setAttribute("cx", t.to[0]); t.flash.setAttribute("cy", t.to[1]); t.flash.setAttribute("r", b < 0 ? 0 : 26 * (1 - b)); t.flash.setAttribute("opacity", b < 0 ? 0 : 1 - b);
+      }
+      if (t.ring) { var a = after >= 0 ? 1 : 0; t.ring.setAttribute("opacity", a); t.txt.setAttribute("opacity", a); }
+    });
+    Object.keys(atkEls).forEach(function (a) { atkEls[a].setAttribute("opacity", shown[a] ? 1 : 0); });
+
+    // 0055: Tanker #2 blows up
+    var t2 = shipAt(SHIPS[1], s), bb = s >= 82 ? ramp(s, 82, 85) : -1;
+    boom.ring.setAttribute("cx", t2.x); boom.ring.setAttribute("cy", t2.y); boom.ring.setAttribute("r", bb < 0 ? 0 : 12 + bb * 190); boom.ring.setAttribute("opacity", bb < 0 ? 0 : 1 - bb);
+    boom.flash.setAttribute("cx", t2.x); boom.flash.setAttribute("cy", t2.y); boom.flash.setAttribute("r", bb < 0 ? 0 : 80 * (1 - bb)); boom.flash.setAttribute("opacity", bb < 0 ? 0 : 1 - bb);
+
+    // caption and chips
+    var ci = 0; for (i = 0; i < CAPS.length; i++) if (s >= CAPS[i].s) ci = i;
+    if (ci !== lastCap) {
+      lastCap = ci; var cp = CAPS[ci];
+      capWhen.textContent = cp.when; capSay.textContent = cp.q ? "“" + cp.say + "”" : cp.say; capSay.className = "say" + (cp.q ? " quote" : ""); capCite.textContent = cp.cite;
+    }
+    var hi = 0; for (i = 0; i < CHIPS.length; i++) if (s >= CHIPS[i][1] - .01) hi = i;
+    if (hi !== lastChip) { lastChip = hi; chipEls.forEach(function (e, j) { e.setAttribute("aria-current", j === hi ? "true" : "false"); }); }
+  }
+
+  // =====================================================================
+  // Player
+  // =====================================================================
+  var u = 0, s = 0, playing = false, last = 0, scrub = $("scrub"), playBtn = $("play"), big = $("bigplay"), speed = $("speed");
+  scrub.max = END_U;
+  var chipEls = CHIPS.map(function (c) {
+    var b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.textContent = c[0];
+    b.addEventListener("click", function () { seek(uAt(c[1])); if (!playing && c[1] > 0) play(); });
+    $("chips").appendChild(b); return b;
+  });
+  function seek(v) { u = clamp(v, 0, END_U); s = storyAt(u); scrub.value = u; render(s, u); big.hidden = playing || u > 0; }
+  function tick(now) {
+    if (!playing) return;
+    u += Math.min(now - last, 250) / 1000 * parseFloat(speed.value); last = now;
+    if (u >= END_U) { u = END_U; pause(); }
+    s = storyAt(u); scrub.value = u; render(s, u);
+    if (playing) requestAnimationFrame(tick);
+  }
+  function play() { if (u >= END_U) u = 0; playing = true; playBtn.textContent = "Pause"; big.hidden = true; last = performance.now(); requestAnimationFrame(tick); }
+  function pause() { playing = false; playBtn.textContent = u >= END_U ? "Replay" : "Play"; }
+  playBtn.addEventListener("click", function () { playing ? pause() : play(); });
+  big.addEventListener("click", play);
+  scrub.addEventListener("input", function () { if (playing) pause(); seek(parseFloat(scrub.value)); });
+  sketchAmt.addEventListener("input", function () { render(s, u); });
+  $("stage").addEventListener("click", function (e) { if (e.target === big) return; playing ? pause() : play(); });
+  document.addEventListener("keydown", function (e) {
+    if (/INPUT|SELECT|BUTTON|A/.test(e.target.tagName)) return;
+    if (e.key === " ") { e.preventDefault(); playing ? pause() : play(); }
+    else if (e.key === "ArrowRight") seek(u + 2); else if (e.key === "ArrowLeft") seek(u - 2);
+  });
+  // ?t=49 opens paused at that second of the action (for linking to one attack; the jump buttons use the same seconds)
+  var t0 = parseFloat(new URLSearchParams(location.search).get("t"));
+  seek(isFinite(t0) ? uAt(clamp(t0, 0, END)) : 0);
+  window.__sketch = { seek: function (story) { seek(uAt(story)); }, length: END_U, uAt: uAt, seekU: seek, play: play, pause: pause, probe: function (s) { var o = ownAt(s), r = { own: o && [o.x, o.y, o.hdg] }; SHIPS.forEach(function (sh) { var st = shipAt(sh, s); r[sh.id] = [st.x, st.y, hdgOf(sh, st)]; }); return r; } };
+})();
+</script>
+</body>
+</html>
