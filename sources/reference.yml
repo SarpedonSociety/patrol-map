@@ -78,6 +78,9 @@ landmarks:
   Orote Pt.: { lat: 13.44, lon: 144.62, note: "Orote Point, west tip of the Orote Peninsula at the mouth of Apra Harbor, Guam. Typed OROTE PT. in Silversides Patrol 10. Approximate; verify against a chart." }
   Port Apra: { lat: 13.45, lon: 144.66, note: "Apra Harbor, Guam. Typed PORT APRA in Silversides Patrol 10. Approximate; verify against a chart." }
   Saipan: { lat: 15.18, lon: 145.75, note: "Saipan, centre of the island. Approximate; verify against a chart." }
+  Pagan Island: { lat: 18.12, lon: 145.77, note: "Pagan, northern Marianas, centre of the island. Typed PAGAN ISLAND in Silversides Patrol 9. Approximate; verify against a chart." }
+  Aiwokako Pass: { lat: , lon: , note: "Typed AIWOKAKO PASS in Silversides Patrols 8 and 9: a pass through the Palau barrier reef near the bauxite loading pier on the west coast of Babelthuap. Position not yet looked up." }
+  Gorakblad Passage: { lat: , lon: , note: "Typed GORAKBLAD PASSAGE in Silversides Patrol 9 (14-15 March 1944), near MALAKAL PASS, Palau. Position not yet looked up." }
   Anatahan Is.: { lat: 16.35, lon: 145.68, note: "Anatahan Island, northern Marianas. Typed ANATAHAN IS. in Silversides Patrol 10. Approximate; verify against a chart." }
   Yonakuni Jima: { lat: 24.45, lon: 122.99, note: "Yonaguni Jima, westernmost of the Yaeyama Islands. Typed YONAKUNI JIMA in Silversides Patrol 11 and Trigger Patrol 10. Approximate; verify against a chart." }
   Samucho Kaku: { lat: 25.01, lon: 122.00, note: "Santiao Cape (San-tiao Chiao), northeast tip of Formosa; Japanese Sanshō-kaku. Typed SAMUCHO KAKU in Silversides Patrol 11 and Trigger Patrol 10. Approximate; verify against a chart." }

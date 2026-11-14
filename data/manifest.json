@@ -187,7 +187,7 @@
    "zoom": 4
   }
  ],
- "generated": "2026-11-13T23:26:52Z",
+ "generated": "2026-11-14T01:47:14Z",
  "patrols": [
   {
    "id": "SS-230-P02",
@@ -474,6 +474,28 @@
     "flagged": 203
    },
    "file": "patrols/SS-236-P08.json"
+  },
+  {
+   "id": "SS-236-P09",
+   "boat": "SS-236",
+   "name": "Silversides",
+   "class": "Gato",
+   "patrol": 9,
+   "year": 1944,
+   "start": "1944-02-15T12:00:00Z",
+   "end": "1944-04-08T12:00:00Z",
+   "summary": {
+    "records": 350,
+    "sightings": 17,
+    "aircraft": 49,
+    "torpedo_attacks": 2,
+    "mine_attacks": 0,
+    "counterattacks": 7,
+    "torpedoes_fired": 7,
+    "gun_actions": 0,
+    "flagged": 278
+   },
+   "file": "patrols/SS-236-P09.json"
   },
   {
    "id": "SS-236-P10",

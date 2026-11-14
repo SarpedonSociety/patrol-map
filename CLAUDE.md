@@ -11,13 +11,15 @@ When they disagree, the README and the code win; fix this file.
   - `reference.yml` boats, ports, landmarks, map place names
   - `inventory.yml` per-patrol status (missing / available / transcribed / verified / mapped)
   - `index/INDEX_SS.<hull>.<n>.md` Matt's per-patrol index notes from the vault, copied unchanged; converter attaches them as `index` and prints mismatches
-  - `<hull>/P<nn>/` `patrol.yml` (hand), `gemini-NN.yml`, `contacts-NN.md`, `attacks-NN.md` (raw Gemini), `review.yml` (open questions)
+  - `<hull>/P<nn>/` `patrol.yml` (hand), `gemini-NN.yml` (narrative), `contacts-NN.md` (tables), `attacks-NN.md`
+    (attack forms), `review.yml` (open questions). The three transcription files keep these names whatever
+    produced them: raw Gemini on the older patrols, the local OCR pipeline (below) from Silversides 9 on.
   - `status/` fleet status between patrols; `war-diary/` is generated
 - `tools/convert.py` sources/ -> data/ (needs Python 3 + pyyaml)
 - `tools/import_war_diary.py` vault war diary -> `sources/status/war-diary/`
 - `tools/range-bearing.html` browser plotter for "N miles, bearing X from LANDMARK" entries; reads `landmarks` from `reference.yml`, outputs `patrol.yml` event entries
 - `data/` generated: `manifest.json`, `status.json`, `patrols/*.json`. `base/land-50m.json` is third-party.
-- `prompts/gemini-transcription.md` the Gemini prompt (three outputs)
+- `prompts/gemini-transcription.md` the Gemini prompt (three outputs); it also defines the format of the three files
 - `media/<hull>/P<nn>/` drawings from the reports (crops of the Fold3 download), listed under `figures:` in `patrol.yml`
 - `index.html` the whole front end; loads data with `fetch`. `?patrol=SS-236-P06` opens on one patrol;
   `&embed` adds map-and-timeline only, for iframes in the sarpedon.org patrol histories (README)
@@ -27,9 +29,11 @@ Preview: `python -m http.server`, then http://localhost:8000.
 ## Rules
 
 - Never hand-edit `data/` or `sources/status/war-diary/`. Fix the source, re-run.
-- Save Gemini output exactly as given (fences and all): `gemini-01.yml`,
+- Gemini patrols: save Gemini output exactly as given (fences and all): `gemini-01.yml`,
   `contacts-01.md`, `attacks-01.md`, numbered by batch. The converter
   combines batches in order. Never "clean up" these raw files.
+- Local OCR patrols: the raw files are the OCR notes in `qwen-bonsai-outputs/` (never edited);
+  the three source files are Claude's transcription from them (see Transcription pipeline).
 - Corrections go in `patrol.yml`, which takes precedence over Gemini:
   `replaces: { date:, page: }` to swap an entry, `zone_fix: { K: L }`,
   `table_zones:`, hand `departure` / `arrival`.
@@ -58,9 +62,52 @@ Preview: `python -m http.server`, then http://localhost:8000.
   read as the boat's own positions: they join the track as dots and keep
   every column for the detail card.
 
+## Transcription pipeline (local OCR, from Silversides 9 on)
+
+The plan is to do the whole Gato class this way, working from collated PDFs of each boat's reports.
+1. Every page JPG of a complete report is read by two local models: Qwen3-VL-8B (primary) and
+   Ternary-Bonsai-2-27B (check). The results are compiled into one note per patrol:
+   `C:\Users\uncle\Desktop\ClaudeCode\qwen-bonsai-outputs\<hull>-<Boat>\<hull> <Boat> - War Patrol NN - OCR.md`.
+   For each page it holds the Qwen working text, the number and text disagreements («» marks
+   the spots), and Bonsai's full read. The frontmatter lists pages where a model ran away or
+   was cut off (`needs_hand_or_gemini`, `bonsai_cut_off`).
+2. Claude reads the whole note and gives Matt a numbered list of reads to check against the scan.
+   The list covers:
+   - every gap left by a runaway or cut-off;
+   - every disagreement touching a date, time, zone, position, course or speed, tube or hit;
+   - positions that imply an implausible speed or conflict with the narrative;
+   - density, bathythermograph and position tables, whose rows join the track. The two
+     reads often pair latitudes and longitudes with the wrong rows there, so ask for whole
+     tables when they are scrambled.
+
+   Settle without asking only what the report itself fixes (sequence of times, column totals).
+3. Matt types the readings. Claude writes `gemini-01.yml`, `contacts-01.md`, `attacks-01.md` in
+   the usual formats (`prompts/gemini-transcription.md`), verbatim to the report, not to either
+   model:
+   - where the models agree, take the Qwen text;
+   - where they disagree, use Matt's reading, or for plain character garble (`ISTA NDS`,
+     `Surfacd`), the read the other model and the context support;
+   - flag every hand reading as "Read by hand from the scan";
+   - a discrepancy inside the report itself still stays as typed (`row_estimates`,
+     `review.yml`).
+4. Provenance header: YAML frontmatter at the top of all three files, then a short prose note. In
+   `gemini-NN.yml` the YAML itself must sit inside a ```yaml fence: the loader reads only the fenced
+   block, so the frontmatter and prose outside it are ignored (unfenced, a `---` block would break it).
+   Do not write "page N" in the header: the table reader takes it as a page number.
+   Silversides 9 (`sources/SS-236/P09/`) is the worked example.
+   ```
+   transcription: Claude, from local OCR (two reads compared) and hand readings
+   ocr_note: qwen-bonsai-outputs/<hull>-<Boat>/<hull> <Boat> - War Patrol NN - OCR.md
+   ocr_primary: qwen3-vl-8b-instruct
+   ocr_verify: ternary-bonsai-2-27b
+   hand_reads: Matt, <date>
+   compiled: <date>
+   ```
+5. No `check-*` files: the second read already lives in the OCR note.
+
 ## Adding a patrol
 
-1. Gemini output -> `sources/<hull>/P<nn>/` (raw files above).
+1. Transcription files -> `sources/<hull>/P<nn>/`: raw Gemini output, or the OCR pipeline above.
 2. Write `patrol.yml` by hand: metadata, `period`, departure/arrival, tonnage, corrections.
 3. Verify against the report; log open questions in `review.yml`.
 4. `python tools/convert.py` (prints one line per patrol with its flag count).
@@ -88,7 +135,8 @@ Checking a new patrol (lessons from Silversides 7, Trigger 7, Finback 7):
 - Contact tables are often in GCT (Z) while the narrative is in a zone
   letter: convert and cross-check times and positions both ways. Where
   they disagree, ask Matt to read the scan; he answers with hand readings.
-- Hand readings go in `patrol.yml` (`row_fixes`, `form_fixes`, `replaces`).
+- Hand readings go in `patrol.yml` (`row_fixes`, `form_fixes`, `replaces`) on Gemini patrols;
+  on OCR patrols they go straight into Claude's transcription, flagged.
   A discrepancy inside the report itself stays as typed, with the evidence
   in `review.yml`.
 - After converting, check: every record has a time, torpedoes fired match
@@ -96,6 +144,7 @@ Checking a new patrol (lessons from Silversides 7, Trigger 7, Finback 7):
 - Matt's index note for the patrol (`sources/index/`) gives report number,
   dates, bases, miles and fuel; the converter prints any mismatch.
 
+Gemini notes (older patrols only):
 - Send Gemini JPG page images, not the stitched PDF: Gemini reads a PDF's hidden
   OCR text layer (identical misspellings across fresh chats, degree signs read
   as 0, `[cite: N]` markers). Finback 8 was rerun from images.

@@ -1,0 +1,32 @@
+# Reviewer notes, keyed by entry number: entries are counted through contacts-01.md (ship contacts 1-17, aircraft
+# contacts 1-49 as entries 18-66) and contacts-02.md (density layers 67-89). Delete a note once it's resolved
+# against the report.
+#
+# Narrative and sources (not tied to a table row):
+# - Arrival date: the report (covering letter and narrative) says 8 April 1944; the index note INDEX SS.236.9 and
+#   inventory.yml had 6 April. The report is followed. No arrival time is typed, so the map places it at noon. The
+#   CTF 72 war diary on Fold3 ends 30 March 1944 and its arrival entries give days only (PSO); left as it is.
+# - 21 February 1205 (M), aircraft contact 1: as typed it falls before the boat left Midway (1547 (Y), 20 February,
+#   0347 GCT on the 21st). Plotted on 22 February (patrol.yml events and row_estimates 18). The table's 27-00 N
+#   178-00 E is in round figures; even on the 22nd it lies about 30 miles from the 2300 GCT density fix of the
+#   21st (row 68), an hour earlier.
+# - 28 February 1500 'Entered area 1_.' and 7 March 1430 'Entered area __.': the area numbers are illegible
+#   (PSO's clippings). Part R gives 'Pearl to Area 14' and 'areas 14 and 10', so probably 14 and 10.
+# - Attack 2 target type before 'with maierform bow' (narrative, page 18) and before 'type' (form, page 30):
+#   read MWF / MF and IMF / MMF. MFM is a guess. Check the scan.
+# - Attack 2 form: 'Depth 10.5' in the target line is typed so (PSO); it is the target's speed in knots. The form's
+#   'Speed 2,6' (own ship) is Qwen's read only.
+# - 3 April 0547 'point ⟦FATE⟧' read PITE / FATE; 4 April 0250 'U.S.S. ⟦CERO⟧' read CERO? / CEROC. Not on the map.
+# - Midway (19-20 February) and Milne Bay (4-5 April) have no position in the report; the track runs straight
+#   past them. Landmarks without a position in reference.yml: AIWOKAKO PASS and GORAKBLAD PASSAGE (Palau), so the
+#   11 and 15 March dives are not placed.
+
+rows:
+  12: "Ship contact 12 (1235 (I), 15 March) is 7-12N 134-30E, by MALAKAL PASS where the narrative sights the smoke; probably the convoy's position, not the boat's (the boat had dived with GORAKBLAD PASSAGE bearing 275 T, 10 miles)."
+  15: "Ship contact 15 (1445 (I), 28 March) is 0-45S 134-18E, 10 miles from aircraft contact 39 (1358 (I), 0-55 S 134-15 E) 47 minutes earlier with the boat submerged: about 13 knots. The smoke bore 004 T, so the table position is probably the target's, not the boat's. As typed."
+  34: "Aircraft contact 17 is typed 0838; the narrative has 0836. As typed."
+  51: "Aircraft contact 34 (1023 (I), 24 March) is typed 6-31N 136-22E (PSO). The scouting line ran 45 miles either side of 5-45 N 135-25 E on 025-205, ending near 6-26 N 135-44 E; 136-22 E is about 35 miles east of it. Aircraft 35 at 1525 is at 6-02 N 135-52 E. Possibly 135-22 E; as typed."
+  57: "Aircraft contact 40 (0933, 29 March) has no zone letter; zone I from the rows around it. 0-46 S 134-02 E (PSO) is close inshore north of MANOKWARI, where the narrative has the boat 'about five miles off the coast'."
+  73: "Density layer Feb.28: latitude 18 or 13 (PSO). Read 18; PAGAN bearing 260 T, 45 miles, at 1811 (K) the same day agrees."
+  86: "Density layer 2130 Mar.27: longitude minutes faded (134-17 Qwen, 154-73 Bonsai). 2130 GCT is 0630 (I) on 28 March, an hour after the boat dove off MANOKWARI (0-52 S 134-05 E); either 134-13 or 134-17 fits."
+  89: "Density layer 2100 Mar.29 (0600 (I), 30 March) is 1-10 S 135-08 E. The boat dove at 0524 'five miles south of NOEMFOOR' (about 1-12 S 134-52 E); 135-08 E is about 15 miles east of that. As typed."

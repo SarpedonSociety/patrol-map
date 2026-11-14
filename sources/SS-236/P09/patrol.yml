@@ -1,0 +1,86 @@
+# USS Silversides (SS-236), War Patrol 9
+# Pearl Harbor by Midway to the area west of the Marianas (a convoy chased off Saipan on 3-4 March, two ships in
+# Apra Harbor, Guam, 5 March), then Palau (Area 10: cruiser sortie from Toagel Mlungui 9 March not attacked; convoy
+# from Malakal chased 15-17 March, attack 1 on 16 March sank its largest AK). Passed to CTF 72 on 19 March: a
+# scouting line northeast of Palau, 19-26 March, then off Manokwari and Noemfoor, New Guinea (attack 2, 28 March,
+# sank an AK or AO). Ordered to Milne Bay on 30 March; fuelled there 4-5 April and arrived Brisbane 8 April 1944.
+# No COMSUBPAC report number (the patrol ended in Brisbane); one endorsement, CTF 72's of 17 April 1944.
+# Sources: the OCR working transcription (Qwen3-VL 8B checked against Ternary Bonsai 27B; 'SS-236 Silversides - War
+# Patrol 09 - OCR' in qwen-bonsai-outputs), restructured by Claude on 2026-11-13: gemini-01.yml (narrative, pages
+# 1-21a), contacts-01.md (Parts F and G, pages 22-28), contacts-02.md (Part O density layers, pages 33-34),
+# attacks-01.md (two torpedo attack forms, pages 28-31). The PSO checked against the scans every position, time
+# and zone the two OCR reads disagreed on or that did not fit the narrative (13 November 2026).
+# Page numbers: the typed number at the foot of each page. The handwritten number on each scan is the typed number
+# plus one to page 21a, plus two after it.
+
+boat: SS-236
+patrol: 9
+year: 1944
+report_found: yes
+report: "U.S.S. SILVERSIDES - REPORT OF NINTH WAR PATROL."
+commanding_officer: "J. S. COYE"
+
+departure:
+  port: Pearl Harbor
+  date: 15 February 1944
+  time: "1312"
+  zone: VW
+  page: 1
+  flags: "Narrative: 'Underway from Submarine Base, Pearl Harbor, T.H., enroute MIDWAY' at 1312 (VW)."
+
+arrival:
+  port: Brisbane
+  date: 8 April 1944
+  page: 21a
+  flags: "Narrative: 'April 8. Arrived BRISBANE, AUSTRALIA.' No time or zone typed. The covering letter gives the period as 15 February to 8 April 1944."
+
+period:
+  start: 1944-02-15
+  end: 1944-04-08
+  source: "Patrol report"
+
+# Tonnage. Claimed: the attack forms (attacks-01.md). Credited: CTF 72's first endorsement, which lists both ships
+# as sunk and asks COMSUBPAC to take credit for the first, sunk in an area under COMSUBPAC's operational control.
+tonnage:
+  - { date: "16 March 1944", time: "1622", zone: I, target: "AK, engine aft (largest ship in convoy)", result: sunk, tons: 4500, basis: claimed, source: "Attack 1, page 28" }
+  - { date: "28 March 1944", time: "1310", zone: I, target: "AK or AO, maierform bow, cruiser stern", result: sunk, tons: 3000, basis: claimed, source: "Attack 2, page 30" }
+  - { date: "16 March 1944", time: "1622", zone: I, target: "AK (class unknown)", result: sunk, tons: 4500, basis: credited, source: "CTF 72 first endorsement, 17 April 1944" }
+  - { date: "28 March 1944", time: "1310", zone: I, target: "AO or AK (class unknown)", result: sunk, tons: 3000, basis: credited, source: "CTF 72 first endorsement, 17 April 1944" }
+
+# Torpedo attack results for the map marker (hit = at least one torpedo exploded against the target aimed at).
+results:
+  A90: hit    # attack 1, 16 March: 'Hit or miss: Hit Miss Hit'; AK sunk
+  A91: hit    # attack 2, 28 March: 'Hit or Miss: Hit Miss Miss Miss'; AK or AO sunk
+
+# The aircraft contact 1 narrative entry is typed 'Feb. 21' at 1205 (M), which falls before the boat left Midway
+# (1547 (Y), 20 February). After crossing the date line westbound the date should have advanced: plotted on 22
+# February, an editorial estimate. See review.yml.
+events:
+- replaces:
+    date: "21 February"
+    time: "1205"
+  date: "22 February"
+  time: "1205"
+  zone: "M"
+  event: "AIRCRAFT CONTACT #1. Exchanged recognition signals with friendly PV-1 plane on opposite course."
+  page: "1"
+  flags: "Editorial estimate, not the report's date: typed 'Feb. 21.' at 1205 (M), which is 0005 GCT on 21 February, before the boat left Midway (1547 (Y), 20 February = 0347 GCT, 21 February). Placed on 22 February, the first full day west of the date line."
+
+# Editorial estimates (PSO, 13 November 2026: where a figure is too obliterated or cannot be reconciled, plot a
+# best guess with a note). The typed value stays in the record's flag. Entry numbers run through contacts-01.md
+# (ship contacts 1-17, aircraft contacts 1-49 as entries 18-66) and contacts-02.md (density layers, 67-89).
+row_estimates:
+  2:  { Time Date: { value: "1340(K) Mar. 3", note: "Ship contact 2. No zone letter typed; the converter would carry zone L down from contact 1. The narrative has the echo ranging at 1340 (K) on 3 March." } }
+  6:  { Time Date: { value: "0805(I) Mar.8", note: "Ship contact 6. Zone typed F (PSO). The narrative has the hospital ship at 0805 on 8 March, in zone I (clocks set to -9 at 2300 on 7 March)." } }
+  15: { Time Date: { value: "1445(I) Mar.28", note: "Ship contact 15. Zone typed K (PSO). The narrative is in zone I until 2100 on 1 April and has 'Sighted smoke bearing 004 T.' at 1445 on 28 March." } }
+  16: { Time Date: { value: "1445(I) Mar.30", note: "Ship contact 16. Zone typed K (PSO). The narrative (zone I) has 'Sighted a mast bearing 299 T.' at 1445 on 30 March." } }
+  18: { Time Date: { value: "1205(M) Feb.22", note: "Aircraft contact 1. As typed (Feb. 21) it falls before the boat left Midway; the date did not advance at the date line. See the narrative entry in events." } }
+  38: { Lat. Long.: { value: "7-08N 134-32E", note: "Aircraft contact 21. Latitude typed '7-08E' (PSO): a typist's E for N. Remark: 'Vicinity of MALAKAL HARBOR'." } }
+  64: { Lat. Long.: { value: "0-51S 145-00E", note: "Aircraft contact 47. Latitude typed '00551S' with the third character a 5 struck over another. Between ship contact 17 (0407 (K), 0-48 S 144-15 E) and aircraft contact 48 (0816 (K), 0-52 S 145-04 E) on a steady course; 0-51 S fits, 0-55 S would not. An estimate." } }
+  68: { Date: { value: "Feb.21", note: "Density layer row 2. Typed Feb.23, listed between Feb.16 and Feb.22. 26-44 N 178-28 E lies between Midway (left 0347 GCT, 21 February) and the 2300 GCT Feb.22 fix at 173-27 E; at 2300 GCT on 21 February it needs about 13 knots from Midway and 12 knots on to the next fix, two-engine speed. On the 23rd the boat was at 171-49 E by 1015 GCT." } }
+  71: { Time (GCT): { value: "0000", note: "Typed 2400 on Feb.24: midnight at the end of the 24th, entered as 0000 on the 25th so the converter does not read it as the start of the 24th." }, Date: { value: "Feb.25", note: "2400 on Feb.24, as above." } }
+  72: { Time (GCT): { value: "0000", note: "Typed 2400 on Feb.25; entered as 0000 on the 26th, as row 71." }, Date: { value: "Feb.26", note: "2400 on Feb.25, as above." } }
+  75: { Position: { value: "", note: "Density layer 2030 GCT Mar.1 (0630 (K), 2 March). Latitude faded: 18-10 N (PSO), 19-10 (Qwen), 13-10 (Bonsai), at 146-30 E. The boat was patrolling west of SAIPAN: 15-12 N 144-13 E at 0600 (K) on 1 March and searching around 15-12 N 144-00 E the night of 2-3 March. Any of the readings puts it about 180 miles away for that morning and back by night, so the row is not plotted." } }
+  88: { Position: { value: "00-50 S 134-20 E", note: "Density layer 0200 Mar.28 (1100 (I), 28 March). Latitude faded, read 00-40 S. The boat was submerged off MANOKWARI: aircraft contact 38 at 1003 (I) is 0-52 S 134-19 E and ship contact 14 at 1212 (I) is 0-55 S 134-20 E. 00-40 S is 12 miles north of both, which needs about 12 knots submerged each way; 00-50 S fits both, 2 and 5 miles. An estimate (PSO, 13 November 2026)." } }
+  80: { Time (GCT): { value: "2110 (I)", note: "Density layer Mar.13. As GCT, 2110 is 0610 (I) on 14 March, when the boat had dived off MALAKAL PASS (0457), about 120 miles south of 9-13 N. As the boat's own time (2110 (I), 13 March, patrolling north of PALAU) it fits: 115 miles to the 0457 dive at about 15 knots. Plotted as zone I; an estimate." } }
+  82: { Time (GCT): { value: "1400 (I)", note: "Density layer 1400 Mar.15. As GCT this is 2300 (I), an hour before the 1500 GCT row 72 miles away. As the boat's own time it fits: at 1400 (I) on 15 March the boat was submerged east of GORAKBLAD PASSAGE trailing the convoy (7-18 N 134-47 E), and by 0000 (I) on the 16th it was 72 miles southeast with the convoy. Plotted as zone I; an estimate." } }
